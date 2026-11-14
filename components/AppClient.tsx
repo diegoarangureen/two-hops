@@ -197,15 +197,18 @@ export default function AppClient() {
   };
 
   return (
-    <div className="app">
-      <header className="topbar">
-        <Link href="/" className="brand">
+    <>
+    <header className="hdr app-hdr">
+      <div className="hdr-in">
+        <Link href="/" className="logo">
+          <span className="logo-mark" aria-hidden />
           Two&nbsp;Hops
         </Link>
         <span className="tagline">the warm intro that is already at Slush</span>
-        {overview && <CoverageLine c={analysis?.coverage ?? overview.coverage} />}
-      </header>
-
+        <div className="hdr-right">{overview && <CoverageLine c={analysis?.coverage ?? overview.coverage} />}</div>
+      </div>
+    </header>
+    <div className="app">
       <section className="find">
         <h1>
           <span className="step">1</span> Find yourself among the Slush 2026 attendees
@@ -438,6 +441,7 @@ export default function AppClient() {
 
                   <div className="panel">
                     <h3>Every path to {current.investor.node.name}</h3>
+                    <div className="scroll">
                     <table className="tbl paths">
                       <thead>
                         <tr>
@@ -463,6 +467,7 @@ export default function AppClient() {
                         ))}
                       </tbody>
                     </table>
+                    </div>
                     <p className="muted small">
                       {current.paths.length < (strict ? current.investor.counts.strictPaths : current.investor.counts.paths)
                         ? `The closest ${current.paths.length} of this investor's ${strict ? current.investor.counts.strictPaths : current.investor.counts.paths} paths; its score counts all of them. `
@@ -497,6 +502,7 @@ export default function AppClient() {
         generated. <Link href="/">About Two Hops</Link>
       </footer>
     </div>
+    </>
   );
 }
 

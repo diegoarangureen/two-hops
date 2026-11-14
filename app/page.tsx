@@ -36,14 +36,22 @@ export default function Landing() {
   const n = (x: number) => x.toLocaleString("en");
 
   return (
-    <div className="landing">
-      <header className="topbar">
-        <span className="brand">Two&nbsp;Hops</span>
-        <span className="tagline">built on Cala&apos;s knowledge graph</span>
-        <Link href="/app" className="btn">
-          Open the app
+    <>
+    <header className="hdr landing-hdr">
+      <div className="hdr-in">
+        <Link href="/" className="logo">
+          <span className="logo-mark" aria-hidden />
+          Two&nbsp;Hops
         </Link>
-      </header>
+        <span className="tagline">built on Cala&apos;s knowledge graph</span>
+        <div className="hdr-right">
+          <Link href="/app" className="btn">
+            Open the app
+          </Link>
+        </div>
+      </div>
+    </header>
+    <div className="landing">
 
       <div className="hero">
         <p className="eyebrow">For founders raising at Slush 2026</p>
@@ -173,5 +181,6 @@ export default function Landing() {
         Two Hops · built at Junction 2026 for the Cala challenge. Data: Cala knowledge graph, cached {c.builtAt.slice(0, 10)}.
       </footer>
     </div>
+    </>
   );
 }
