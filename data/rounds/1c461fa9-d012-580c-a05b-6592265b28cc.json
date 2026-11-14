@@ -1,0 +1,238 @@
+{
+ "id": "1c461fa9-d012-580c-a05b-6592265b28cc",
+ "name": "Pre-Seed",
+ "entity_type": "FundingRound",
+ "description": null,
+ "properties": {
+  "name": {
+   "value": "Pre-Seed",
+   "sources": [
+    {
+     "name": "arcticstartup.com",
+     "document": "https://arcticstartup.com/palette-raises-e3m-pre-seed/",
+     "date": "2026-08-11",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "palette.team",
+     "document": "https://palette.team/blog/announcing-our-pre-seed",
+     "date": "2026-08-11",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "round_label": {
+   "value": "PRE_SEED",
+   "sources": [
+    {
+     "name": "arcticstartup.com",
+     "document": "https://arcticstartup.com/palette-raises-e3m-pre-seed/",
+     "date": "2026-08-11",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "palette.team",
+     "document": "https://palette.team/blog/announcing-our-pre-seed",
+     "date": "2026-08-11",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "instrument": {
+   "value": "EQUITY",
+   "sources": [
+    {
+     "name": "arcticstartup.com",
+     "document": "https://arcticstartup.com/palette-raises-e3m-pre-seed/",
+     "date": "2026-08-11",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "transaction_value": {
+   "value": 3000000.0,
+   "sources": [
+    {
+     "name": "arcticstartup.com",
+     "document": "https://arcticstartup.com/palette-raises-e3m-pre-seed/",
+     "date": "2026-08-11",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "palette.team",
+     "document": "https://palette.team/blog/announcing-our-pre-seed",
+     "date": "2026-08-11",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "transaction_value_units": {
+   "value": "EUR",
+   "sources": [
+    {
+     "name": "arcticstartup.com",
+     "document": "https://arcticstartup.com/palette-raises-e3m-pre-seed/",
+     "date": "2026-08-11",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "palette.team",
+     "document": "https://palette.team/blog/announcing-our-pre-seed",
+     "date": "2026-08-11",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "announcement_date": {
+   "value": "2026-08-11",
+   "sources": [
+    {
+     "name": "arcticstartup.com",
+     "document": "https://arcticstartup.com/palette-raises-e3m-pre-seed/",
+     "date": "2026-08-11",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "palette.team",
+     "document": "https://palette.team/blog/announcing-our-pre-seed",
+     "date": "2026-08-11",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "tech.eu",
+     "document": "https://tech.eu/2026/08/11/palette-raises-eur3m-pre-seed-to-develop-an-os-for-ai-native-teams/",
+     "date": "2026-08-11",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "annotations": {
+   "value": [
+    "Round name as stated in the article.",
+    "round_label_stated:Pre-Seed"
+   ],
+   "sources": []
+  }
+ },
+ "relationships": {
+  "outgoing": {},
+  "incoming": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "0515dd5c-b980-535a-8a2e-c09bad4f128b",
+     "name": "Palette",
+     "entity_type": "Company",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "arcticstartup.com",
+        "document": "https://arcticstartup.com/palette-raises-e3m-pre-seed/",
+        "date": "2026-08-11",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "palette.team",
+        "document": "https://palette.team/blog/announcing-our-pre-seed",
+        "date": "2026-08-11",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "2df66b73-081f-5730-a082-562cb0016cb8"
+     }
+    },
+    {
+     "id": "27c7bb67-7c46-4e0f-847f-dcdb7ae72971",
+     "name": "EMBLEM",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "palette.team",
+        "document": "https://palette.team/blog/announcing-our-pre-seed",
+        "date": "2026-08-11",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2026/08/11/palette-raises-eur3m-pre-seed-to-develop-an-os-for-ai-native-teams/",
+        "date": "2026-08-11",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "e1a355ff-eb9f-5f40-bb5c-c05938299c6b"
+     }
+    },
+    {
+     "id": "34829e66-7e7e-412e-a0ea-c61014ced495",
+     "name": "Ugly Duckling Ventures Management ApS",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "palette.team",
+        "document": "https://palette.team/blog/announcing-our-pre-seed",
+        "date": "2026-08-11",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2026/08/11/palette-raises-eur3m-pre-seed-to-develop-an-os-for-ai-native-teams/",
+        "date": "2026-08-11",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "is_lead": true,
+      "id": "5b39eba0-d2c2-51ca-8c03-3f004c0e5a6d"
+     }
+    },
+    {
+     "id": "f8712bf7-ae1a-407a-9779-5fb0c321771b",
+     "name": "Acadian Ventures",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "palette.team",
+        "document": "https://palette.team/blog/announcing-our-pre-seed",
+        "date": "2026-08-11",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2026/08/11/palette-raises-eur3m-pre-seed-to-develop-an-os-for-ai-native-teams/",
+        "date": "2026-08-11",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "79bf2fb5-4d97-5cbd-83d1-779a465e5347"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

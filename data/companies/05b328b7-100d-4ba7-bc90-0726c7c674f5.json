@@ -1,0 +1,391 @@
+{
+ "id": "05b328b7-100d-4ba7-bc90-0726c7c674f5",
+ "name": "MINDORA LTD.",
+ "entity_type": "Company",
+ "description": "Adult ADHD assessment and report with a planned £40/month, 24-month care programme (£960 total). Register interest; bookings are not open.",
+ "properties": {
+  "name": {
+   "value": "MINDORA LTD.",
+   "sources": [
+    {
+     "name": "Companies House UK",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/16543991",
+     "date": "2026-05-01"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "MINDORA LTD.",
+   "sources": [
+    {
+     "name": "find-and-update.company-information.service.gov.uk",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/16543991",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "mindora.ai",
+     "document": "https://mindora.ai/privacy",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "aliases": {
+   "value": [
+    "Mindora"
+   ],
+   "sources": []
+  },
+  "website": {
+   "value": "mindora.ai",
+   "sources": [
+    {
+     "name": "mindora.ai",
+     "document": "https://mindora.ai/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "dns.google",
+     "document": "https://dns.google/query?name=mindora.ai&type=A",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "mindora.ai",
+     "document": "https://mindora.ai/privacy",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "Adult ADHD assessment and report with a planned £40/month, 24-month care programme (£960 total). Register interest; bookings are not open.",
+   "sources": [
+    {
+     "name": "mindora.ai",
+     "document": "https://mindora.ai/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2025-06-26",
+   "sources": [
+    {
+     "name": "Companies House UK",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/16543991",
+     "date": "2026-10-01"
+    },
+    {
+     "name": "find-and-update.company-information.service.gov.uk",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/16543991",
+     "date": "2025-06-26",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "London, United Kingdom",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/mindora-ltd/?viewAsMember=true",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    },
+    {
+     "name": "mindora.ai",
+     "document": "https://mindora.ai/about",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "registered_address": {
+   "value": "128 CITY ROAD, LONDON, EC1V 2NX, UNITED KINGDOM",
+   "sources": [
+    {
+     "name": "Companies House UK",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/16543991",
+     "date": "2026-10-01"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "Companies House UK",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/16543991",
+     "date": "2026-10-01"
+    },
+    {
+     "name": "mindora.ai",
+     "document": "https://mindora.ai/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "find-and-update.company-information.service.gov.uk",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/16543991",
+     "date": "2025-06-26",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "company_ownership_status": {
+   "value": "Private Limited Company",
+   "sources": [
+    {
+     "name": "Companies House UK",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/16543991",
+     "date": "2026-10-01"
+    }
+   ]
+  },
+  "total_funding": {
+   "value": 261765.0,
+   "sources": [
+    {
+     "name": "find-and-update.company-information.service.gov.uk",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/16543991/filing-history/MzU0MTA1Nzg0OGFkaXF6a2N4/document?format=pdf&download=0",
+     "date": "2026-08-26",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "total_funding_units": {
+   "value": "GBP",
+   "sources": [
+    {
+     "name": "find-and-update.company-information.service.gov.uk",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/16543991/filing-history/MzU0MTA1Nzg0OGFkaXF6a2N4/document?format=pdf&download=0",
+     "date": "2026-08-26",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "total_funding_excluding_debt": {
+   "value": 261765.0,
+   "sources": [
+    {
+     "name": "find-and-update.company-information.service.gov.uk",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/16543991/filing-history/MzU0MTA1Nzg0OGFkaXF6a2N4/document?format=pdf&download=0",
+     "date": "2026-08-26",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "funding_stage": {
+   "value": "SEED",
+   "sources": [
+    {
+     "name": "find-and-update.company-information.service.gov.uk",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/16543991/filing-history/MzU0MTA1Nzg0OGFkaXF6a2N4/document?format=pdf&download=0",
+     "date": "2026-08-26",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "c32aeb8c-13d3-5cca-a3b5-62722fce46b2",
+     "name": "Seed",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "find-and-update.company-information.service.gov.uk",
+        "document": "https://find-and-update.company-information.service.gov.uk/company/16543991/filing-history/MzU0MTA1Nzg0OGFkaXF6a2N4/document?format=pdf&download=0",
+        "date": "2026-08-26",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "a22786d8-cb5e-5dcc-8ab6-a7838f6f183b"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "c0dcbce3-9fee-52c9-b062-c0f9d67a764d"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "dd70bbef-ce9b-4560-babf-e60310d2c6b1",
+     "name": "HEALTHCARE_PROVIDERS",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "Companies House UK",
+        "document": "https://find-and-update.company-information.service.gov.uk/company/16543991",
+        "date": "2026-05-01"
+       },
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/mindora-ltd/?viewAsMember=true",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "f60fe5e8-b537-5835-895d-50c9c137f3b8",
+      "original_label": "health"
+     }
+    }
+   ],
+   "IS_REGISTERED_IN": [
+    {
+     "id": "e332ff3d-605d-4b01-8222-5098236a3aff",
+     "name": "United Kingdom",
+     "entity_type": "Country",
+     "properties": {
+      "sources": [
+       {
+        "name": "Companies House UK",
+        "document": "https://find-and-update.company-information.service.gov.uk/company/16543991",
+        "date": "2026-05-01"
+       }
+      ],
+      "id": "e53ff027-eddc-5025-8e21-c7d94ac2df3f"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "IS_BOARD_MEMBER_OF": [
+    {
+     "id": "9e62384e-18a7-572a-a759-217ed7ca714a",
+     "name": "Bhaskar Punukollu",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "find-and-update.company-information.service.gov.uk",
+        "document": "https://find-and-update.company-information.service.gov.uk/company/16543991/officers",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "0b881783-c191-5533-8d2b-7859cf8e8dd9",
+      "valid_since": "2025-06-26"
+     }
+    }
+   ],
+   "WORKS_AT": [
+    {
+     "id": "1896f156-9062-5303-a159-8e2860424130",
+     "name": "Salma Ali",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Clinical Lead",
+      "sources": [
+       {
+        "name": "mindora.ai",
+        "document": "https://mindora.ai/about",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "cf16f4ab-b7d2-56c9-ab18-1e5dc6a219fb"
+     }
+    },
+    {
+     "id": "9e62384e-18a7-572a-a759-217ed7ca714a",
+     "name": "Bhaskar Punukollu",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Company Secretary",
+      "sources": [
+       {
+        "name": "find-and-update.company-information.service.gov.uk",
+        "document": "https://find-and-update.company-information.service.gov.uk/company/16543991/officers",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "4b2f29eb-8e5f-5554-9407-9ad2dc956cf7",
+      "valid_since": "2025-06-26"
+     }
+    },
+    {
+     "id": "afd08654-7fb4-53db-8e9a-65516babb6f5",
+     "name": "Tanya Grinberg",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Senior Technical Advisor",
+      "sources": [
+       {
+        "name": "mindora.ai",
+        "document": "https://mindora.ai/about",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "e2546b30-4a46-5ac6-ba35-bfc1479aa88b"
+     }
+    },
+    {
+     "id": "e6f54b90-3f19-5c7f-8e83-5162dea73788",
+     "name": "Maria Antypa",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Senior Clinical Psychologist",
+      "sources": [
+       {
+        "name": "mindora.ai",
+        "document": "https://mindora.ai/about",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "e291adc0-5780-51df-a1b7-40605c0a0f0d"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

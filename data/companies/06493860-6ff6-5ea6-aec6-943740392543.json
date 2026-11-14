@@ -1,0 +1,389 @@
+{
+ "id": "06493860-6ff6-5ea6-aec6-943740392543",
+ "name": "Compuvi",
+ "entity_type": "Company",
+ "description": "Compuvi builds Confinaid, the proactive compliance operating system that detects, reviews, and prevents compliance risk across communications, documents, and workflows before it becomes an incident.",
+ "properties": {
+  "name": {
+   "value": "Compuvi",
+   "sources": [
+    {
+     "name": "compuvi.com",
+     "document": "https://compuvi.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/compuvi/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "Compuvi Inc.",
+   "sources": [
+    {
+     "name": "compuvi.com",
+     "document": "https://compuvi.com/privacy-policy",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "website": {
+   "value": "compuvi.com",
+   "sources": [
+    {
+     "name": "compuvi.com",
+     "document": "https://compuvi.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "dns.google",
+     "document": "https://dns.google/query?name=compuvi.com&type=A",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "compuvi.com",
+     "document": "https://compuvi.com/privacy-policy",
+     "date": "2025-08-01",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "Compuvi builds Confinaid, the proactive compliance operating system that detects, reviews, and prevents compliance risk across communications, documents, and workflows before it becomes an incident.",
+   "sources": [
+    {
+     "name": "compuvi.com",
+     "document": "https://compuvi.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2025-01-01",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/compuvi/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "315 Montgomery St, Suite 950, San Francisco, CA 94104, United States",
+   "sources": [
+    {
+     "name": "compuvi.com",
+     "document": "https://compuvi.com/privacy-policy",
+     "date": "2025-08-01",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "compuvi.com",
+     "document": "https://compuvi.com/careers",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "compuvi.com",
+     "document": "https://compuvi.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "employee_count_range": {
+   "value": [
+    11,
+    50
+   ],
+   "sources": [
+    {
+     "name": "ai-market-watch.com",
+     "document": "https://www.ai-market-watch.com/company/compuvi",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "funding_stage": {
+   "value": "SEED",
+   "sources": [
+    {
+     "name": "einpresswire.com",
+     "document": "https://www.einpresswire.com/article/919011554/compuvi-raises-seed-funding-at-40m-valuation-to-scale-confinaid-s-compliance-platform",
+     "date": "2026-06-11",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "f305f12c-b7a2-5420-9f58-c1b81f4f3d6e",
+     "name": "Seed",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "einpresswire.com",
+        "document": "https://www.einpresswire.com/article/919011554/compuvi-raises-seed-funding-at-40m-valuation-to-scale-confinaid-s-compliance-platform",
+        "date": "2026-06-11",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "cnbce.com",
+        "document": "https://www.cnbce.com/girisim/turk-girisimcinin-kurdugu-lawtech-ve-regtech-sirketi-compuvi-40-milyon-degerlemeyle-yatirim-aldi-h31625",
+        "date": "2026-06-15",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "c532c77c-17a7-5b22-9365-d55b476ad1a8"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "c20a0f1e-a101-5195-ab00-3b48d05749cb"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "8ecf5e57-a149-438c-9eb4-089809bade56",
+     "name": "SOFTWARE_AND_SERVICES",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/compuvi/",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "a9b8623e-8928-54fb-b412-b8513f1e1ab1",
+      "original_label": "ai"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "INVESTED_IN": [
+    {
+     "id": "072c4a4b-da76-5932-9407-834b99bf722e",
+     "name": "Ozay Law Firm",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "einpresswire.com",
+        "document": "https://www.einpresswire.com/article/919011554/compuvi-raises-seed-funding-at-40m-valuation-to-scale-confinaid-s-compliance-platform",
+        "date": "2026-06-11",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "cnbce.com",
+        "document": "https://www.cnbce.com/girisim/turk-girisimcinin-kurdugu-lawtech-ve-regtech-sirketi-compuvi-40-milyon-degerlemeyle-yatirim-aldi-h31625",
+        "date": "2026-06-15",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "370fef77-feee-4009-8d9c-59c0354b5f30"
+     }
+    },
+    {
+     "id": "21e600fe-09cd-5b47-8ccb-da1e04d0427e",
+     "name": "Islam Yildiz",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "einpresswire.com",
+        "document": "https://www.einpresswire.com/article/919011554/compuvi-raises-seed-funding-at-40m-valuation-to-scale-confinaid-s-compliance-platform",
+        "date": "2026-06-11",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "cnbce.com",
+        "document": "https://www.cnbce.com/girisim/turk-girisimcinin-kurdugu-lawtech-ve-regtech-sirketi-compuvi-40-milyon-degerlemeyle-yatirim-aldi-h31625",
+        "date": "2026-06-15",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "75de3c1c-54a4-40c2-a162-939b1a1c4f98"
+     }
+    }
+   ],
+   "FOUNDED": [
+    {
+     "id": "bd28f3b8-87e5-5cb4-9181-7efc64431a13",
+     "name": "Ataberk Ciftlikli",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "einpresswire.com",
+        "document": "https://www.einpresswire.com/article/919011554/compuvi-raises-seed-funding-at-40m-valuation-to-scale-confinaid-s-compliance-platform",
+        "date": "2026-06-11",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "cnbce.com",
+        "document": "https://www.cnbce.com/girisim/turk-girisimcinin-kurdugu-lawtech-ve-regtech-sirketi-compuvi-40-milyon-degerlemeyle-yatirim-aldi-h31625",
+        "date": "2026-06-15",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "5cfb11e7-c1a2-50a5-b8d4-7db7265871ee"
+     }
+    }
+   ],
+   "IS_CEO_OF": [
+    {
+     "id": "bd28f3b8-87e5-5cb4-9181-7efc64431a13",
+     "name": "Ataberk Ciftlikli",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "compuvi.com",
+        "document": "https://compuvi.com/team",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "a0461adf-0500-5445-9312-7f038a2b6996"
+     }
+    }
+   ],
+   "IS_BOARD_MEMBER_OF": [
+    {
+     "id": "2ab6ba97-af17-540e-92da-884702c0a570",
+     "name": "Melih Yalcin",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "compuvi.com",
+        "document": "https://compuvi.com/team",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "f5b8cae3-f9d6-5069-80af-e3b25fab8b8d"
+     }
+    }
+   ],
+   "WORKS_AT": [
+    {
+     "id": "21e600fe-09cd-5b47-8ccb-da1e04d0427e",
+     "name": "Islam Yildiz",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Advisor",
+      "sources": [
+       {
+        "name": "compuvi.com",
+        "document": "https://compuvi.com/team",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "41856bee-2667-5480-a94f-9f33e8af3d3b"
+     }
+    },
+    {
+     "id": "418823e2-603d-58ce-ac18-31e948c7779c",
+     "name": "Emre Mentese",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Head of Engineering",
+      "sources": [
+       {
+        "name": "compuvi.com",
+        "document": "https://compuvi.com/team",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "ec5bcea1-3a2b-56a5-9dc8-16154099590a"
+     }
+    },
+    {
+     "id": "c90a4667-5605-57b0-92d2-923616186d3e",
+     "name": "Nur Asena Gun",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Head of Growth",
+      "sources": [
+       {
+        "name": "compuvi.com",
+        "document": "https://compuvi.com/team",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "ff17a88b-c518-5b8d-8e91-35e1bd4abf9f"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

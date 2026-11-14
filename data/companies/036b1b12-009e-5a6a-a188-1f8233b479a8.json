@@ -1,0 +1,267 @@
+{
+ "id": "036b1b12-009e-5a6a-a188-1f8233b479a8",
+ "name": "CISO.es",
+ "entity_type": "Company",
+ "description": "Â¿Buscas servicios de ciberseguridad que cumplan NIS2 y DORA sin lock-in? Descubre CISO.es. Â¡Solicita tu Evidence Pack!",
+ "properties": {
+  "name": {
+   "value": "CISO.es",
+   "sources": [
+    {
+     "name": "ciso.es",
+     "document": "https://ciso.es/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/ciso-es",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "CISO Smart Solutions S.L.",
+   "sources": [
+    {
+     "name": "boe.es",
+     "document": "https://www.boe.es/borme/dias/2016/12/05/pdfs/BORME-A-2016-231-30.pdf",
+     "date": "2016-12-05",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "ciso.es",
+     "document": "https://ciso.es/aviso-legal/",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "website": {
+   "value": "ciso.es",
+   "sources": [
+    {
+     "name": "ciso.es",
+     "document": "https://ciso.es/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "dns.google",
+     "document": "https://dns.google/query?name=ciso.es&type=A",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "Â¿Buscas servicios de ciberseguridad que cumplan NIS2 y DORA sin lock-in? Descubre CISO.es. Â¡Solicita tu Evidence Pack!",
+   "sources": [
+    {
+     "name": "ciso.es",
+     "document": "https://ciso.es/",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2016-11-28",
+   "sources": [
+    {
+     "name": "boe.es",
+     "document": "https://www.boe.es/borme/dias/2016/12/05/pdfs/BORME-A-2016-231-30.pdf",
+     "date": "2016-12-05",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "Murcia, Spain",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/ciso-es",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "ciso.es",
+     "document": "https://ciso.es/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "boe.es",
+     "document": "https://www.boe.es/borme/dias/2016/12/05/pdfs/BORME-A-2016-231-30.pdf",
+     "date": "2016-12-05",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "total_funding": {
+   "value": 63038.28,
+   "sources": [
+    {
+     "name": "infosubvenciones.es",
+     "document": "https://www.infosubvenciones.es/bdnstrans/api/concesiones/busqueda?vpd=GE&nifCif=B73943243&page=0&pageSize=50",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "total_funding_units": {
+   "value": "EUR",
+   "sources": [
+    {
+     "name": "infosubvenciones.es",
+     "document": "https://www.infosubvenciones.es/bdnstrans/api/concesiones/busqueda?vpd=GE&nifCif=B73943243&page=0&pageSize=50",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "total_funding_excluding_debt": {
+   "value": 63038.28,
+   "sources": [
+    {
+     "name": "infosubvenciones.es",
+     "document": "https://www.infosubvenciones.es/bdnstrans/api/concesiones/busqueda?vpd=GE&nifCif=B73943243&page=0&pageSize=50",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "80082e89-8931-5dca-b125-65ac87d10ea9",
+     "name": "Grant",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "infosubvenciones.es",
+        "document": "https://www.infosubvenciones.es/bdnstrans/api/concesiones/busqueda?vpd=GE&nifCif=B73943243&page=0&pageSize=50",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "7fc12ed0-601c-519e-8b0b-d0c6db8a6d87"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "f2b6ce24-fe1e-5a4f-af75-9dd741d1460a"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "bb7caa00-59c3-4587-9aaf-5d9195444829",
+     "name": "AEROSPACE_AND_DEFENSE",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/ciso-es",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "63a6acf7-3272-596e-aae7-6a87b5c65d5e",
+      "original_label": "dualUseTech"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "IS_BOARD_MEMBER_OF": [
+    {
+     "id": "c4dbb47e-a44f-5932-b26e-0209b92b4a7e",
+     "name": "Inmaculada Jiménez Roca",
+     "entity_type": "Person",
+     "properties": {
+      "valid_until": "2024-12-12",
+      "sources": [
+       {
+        "name": "boe.es",
+        "document": "https://www.boe.es/borme/dias/2016/12/05/pdfs/BORME-A-2016-231-30.pdf",
+        "date": "2016-12-05",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       },
+       {
+        "name": "boe.es",
+        "document": "https://www.boe.es/borme/dias/2024/12/19/pdfs/BORME-A-2024-244-30.pdf",
+        "date": "2024-12-19",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "b5292e99-717e-5a4e-b84a-43eafb25f575",
+      "valid_since": "2016-11-28"
+     }
+    },
+    {
+     "id": "d3b80654-0f7f-54d0-836e-bfe0e8f38b91",
+     "name": "Francisco Luis Andrés Pérez",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "boe.es",
+        "document": "https://www.boe.es/borme/dias/2024/12/19/pdfs/BORME-A-2024-244-30.pdf",
+        "date": "2024-12-19",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "f7f6cf9e-33da-5ab4-96ac-c00dd3f8f974",
+      "valid_since": "2024-12-12"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

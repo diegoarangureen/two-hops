@@ -1,0 +1,152 @@
+{
+ "id": "32a0d91e-194a-598a-89ac-febaabe1e7cb",
+ "name": "Seed",
+ "entity_type": "FundingRound",
+ "description": null,
+ "properties": {
+  "name": {
+   "value": "Seed",
+   "sources": [
+    {
+     "name": "paaomasijoittajat.fi",
+     "document": "https://paaomasijoittajat.fi/en/ajankohtaista/news/30220/ewatt-smart-power/",
+     "date": "2025-06-06",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "nordic9.com",
+     "document": "https://nordic9.com/news/ewatt-in-an-equity-financing-round-with-gorilla-capital-fund-in-finland",
+     "date": "2025-06-01",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "round_label": {
+   "value": "SEED",
+   "sources": [
+    {
+     "name": "paaomasijoittajat.fi",
+     "document": "https://paaomasijoittajat.fi/en/ajankohtaista/news/30220/ewatt-smart-power/",
+     "date": "2025-06-06",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "nordic9.com",
+     "document": "https://nordic9.com/news/ewatt-in-an-equity-financing-round-with-gorilla-capital-fund-in-finland",
+     "date": "2025-06-01",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "instrument": {
+   "value": "EQUITY",
+   "sources": [
+    {
+     "name": "paaomasijoittajat.fi",
+     "document": "https://paaomasijoittajat.fi/en/ajankohtaista/news/30220/ewatt-smart-power/",
+     "date": "2025-06-06",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "nordic9.com",
+     "document": "https://nordic9.com/news/ewatt-in-an-equity-financing-round-with-gorilla-capital-fund-in-finland",
+     "date": "2025-06-01",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "announcement_date": {
+   "value": "2025-06-06",
+   "sources": [
+    {
+     "name": "paaomasijoittajat.fi",
+     "document": "https://paaomasijoittajat.fi/en/ajankohtaista/news/30220/ewatt-smart-power/",
+     "date": "2025-06-06",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "paaomasijoittajat.fi",
+     "document": "https://paaomasijoittajat.fi/ajankohtaista/uutiset/30218/ewatt-smart-power/",
+     "date": "2025-06-06",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "annotations": {
+   "value": [
+    "Derived from the sequence: the company's first equity round, unnamed by every source (instructions §3.5).",
+    "round_label_stated:Seed",
+    "round_label_basis:INFERRED",
+    "round_label_explanation:§3.5 first unnamed equity round -> Seed (no later round named Seed; no earlier Pre-Seed or angel raise found)"
+   ],
+   "sources": []
+  }
+ },
+ "relationships": {
+  "outgoing": {},
+  "incoming": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "05b50b95-d2a2-5d48-8214-23d0582e8692",
+     "name": "eWatt",
+     "entity_type": "Company",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "paaomasijoittajat.fi",
+        "document": "https://paaomasijoittajat.fi/en/ajankohtaista/news/30220/ewatt-smart-power/",
+        "date": "2025-06-06",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "nordic9.com",
+        "document": "https://nordic9.com/news/ewatt-in-an-equity-financing-round-with-gorilla-capital-fund-in-finland",
+        "date": "2025-06-01",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "1083fd3c-0dbc-5330-88bf-9b7044defa82"
+     }
+    },
+    {
+     "id": "863d051a-51c6-4f4a-9606-405fb0c8577d",
+     "name": "GORILLA CAPITAL AS",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "paaomasijoittajat.fi",
+        "document": "https://paaomasijoittajat.fi/en/ajankohtaista/news/30220/ewatt-smart-power/",
+        "date": "2025-06-06",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "nordic9.com",
+        "document": "https://nordic9.com/news/ewatt-in-an-equity-financing-round-with-gorilla-capital-fund-in-finland",
+        "date": "2025-06-01",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "is_lead": true,
+      "id": "5cfe4359-2f43-56de-ac61-51a55d1c341e"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

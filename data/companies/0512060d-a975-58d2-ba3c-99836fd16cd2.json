@@ -1,0 +1,157 @@
+{
+ "id": "0512060d-a975-58d2-ba3c-99836fd16cd2",
+ "name": "Psionomy Oy",
+ "entity_type": "Company",
+ "description": "Psionomy explores more contextual, thoughtful collaboration between people and AI through metacognitive research and the development of Lucidity.",
+ "properties": {
+  "name": {
+   "value": "Psionomy Oy",
+   "sources": [
+    {
+     "name": "psionomy.com",
+     "document": "https://psionomy.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/142995247/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "Psionomy Oy",
+   "sources": [
+    {
+     "name": "psionomy.com",
+     "document": "https://psionomy.com/",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "website": {
+   "value": "psionomy.com",
+   "sources": [
+    {
+     "name": "psionomy.com",
+     "document": "https://psionomy.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "dns.google",
+     "document": "https://dns.google/query?name=psionomy.com&type=A",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "Psionomy explores more contextual, thoughtful collaboration between people and AI through metacognitive research and the development of Lucidity.",
+   "sources": [
+    {
+     "name": "psionomy.com",
+     "document": "https://psionomy.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2026-07-21",
+   "sources": [
+    {
+     "name": "avoindata.prh.fi",
+     "document": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies?businessId=3640621-3",
+     "date": "2026-07-21",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "Turku, Finland",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/142995247/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "psionomy.com",
+     "document": "https://psionomy.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "avoindata.prh.fi",
+     "document": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies?businessId=3640621-3",
+     "date": "2026-07-21",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "2b50fbe7-9825-5b16-ac2e-3949e4eebe7d"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "8ecf5e57-a149-438c-9eb4-089809bade56",
+     "name": "SOFTWARE_AND_SERVICES",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/142995247/",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "0e3947e4-7c02-5b77-abde-3774c2732003",
+      "original_label": "ai"
+     }
+    }
+   ]
+  },
+  "incoming": {}
+ },
+ "numerical_observations": []
+}

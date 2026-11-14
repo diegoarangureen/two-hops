@@ -1,0 +1,157 @@
+{
+ "id": "038008cb-9b8c-5aff-aae0-c4ca7ca00c45",
+ "name": "FlightPassport",
+ "entity_type": "Company",
+ "description": "Your gate, delays, connections and arrival time in plain words. And a passport that adds a stamp after every flight you take. Free on iPhone.",
+ "properties": {
+  "name": {
+   "value": "FlightPassport",
+   "sources": [
+    {
+     "name": "flightpassport.com",
+     "document": "https://flightpassport.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "TripEnj OY",
+   "sources": [
+    {
+     "name": "avoindata.prh.fi",
+     "document": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies?businessId=3609138-9",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "flightpassport.com",
+     "document": "https://flightpassport.com/imprint",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "website": {
+   "value": "flightpassport.com",
+   "sources": [
+    {
+     "name": "flightpassport.com",
+     "document": "https://flightpassport.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "dns.google",
+     "document": "https://dns.google/query?name=flightpassport.com&type=A",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "Your gate, delays, connections and arrival time in plain words. And a passport that adds a stamp after every flight you take. Free on iPhone.",
+   "sources": [
+    {
+     "name": "flightpassport.com",
+     "document": "https://flightpassport.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2026-03-21",
+   "sources": [
+    {
+     "name": "avoindata.prh.fi",
+     "document": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies?businessId=3609138-9",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "Ruokolahti, Finland",
+   "sources": [
+    {
+     "name": "flightpassport.com",
+     "document": "https://flightpassport.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "flightpassport.com",
+     "document": "https://flightpassport.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "avoindata.prh.fi",
+     "document": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies?businessId=3609138-9",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "b1114dc4-7108-5553-902d-fd4ac362492c"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "49e7435a-1935-49a2-bec7-a7848147893e",
+     "name": "HOSPITALITY_AND_TOURISM",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "flightpassport.com",
+        "document": "https://flightpassport.com/",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "67b13dac-3e7f-53a6-8368-8e5a644d2497",
+      "original_label": "travel"
+     }
+    }
+   ]
+  },
+  "incoming": {}
+ },
+ "numerical_observations": []
+}

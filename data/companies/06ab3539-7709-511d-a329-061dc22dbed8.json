@@ -1,0 +1,139 @@
+{
+ "id": "06ab3539-7709-511d-a329-061dc22dbed8",
+ "name": "Paul Regan",
+ "entity_type": "Company",
+ "description": "The three-word question that built my business, and the model behind it. A long-read essay by Paul Regan.",
+ "properties": {
+  "name": {
+   "value": "Paul Regan",
+   "sources": [
+    {
+     "name": "paulregan.lovable.app",
+     "document": "https://paulregan.lovable.app/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "website": {
+   "value": "paulregan.lovable.app",
+   "sources": [
+    {
+     "name": "paulregan.lovable.app",
+     "document": "https://paulregan.lovable.app/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "dns.google",
+     "document": "https://dns.google/query?name=paulregan.lovable.app&type=A",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "The three-word question that built my business, and the model behind it. A long-read essay by Paul Regan.",
+   "sources": [
+    {
+     "name": "paulregan.lovable.app",
+     "document": "https://paulregan.lovable.app/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "london, United Kingdom",
+   "sources": [
+    {
+     "name": "paulregan.lovable.app",
+     "document": "https://paulregan.lovable.app/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "paulregan.lovable.app",
+     "document": "https://paulregan.lovable.app/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "b52f354a-be59-5d94-b062-a66e0051d2a3"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "b1d0a7c0-7986-4a8f-a0d5-c78f03d956c6",
+     "name": "ADVERTISING_AND_MARKETING",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "paulregan.lovable.app",
+        "document": "https://paulregan.lovable.app/",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "d7b02c48-3451-5f8d-8119-44e7a623151d",
+      "original_label": "marketingAds"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "FOUNDED": [
+    {
+     "id": "e9c4d71e-fb16-58b9-be7a-48bb4a999df2",
+     "name": "Paul Regan",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "paulregan.lovable.app",
+        "document": "https://paulregan.lovable.app/",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "29469c81-9cb1-5a8d-8777-f52bfd1a3113"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

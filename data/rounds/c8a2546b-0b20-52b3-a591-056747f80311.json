@@ -1,0 +1,196 @@
+{
+ "id": "c8a2546b-0b20-52b3-a591-056747f80311",
+ "name": "Seed",
+ "entity_type": "FundingRound",
+ "description": null,
+ "properties": {
+  "name": {
+   "value": "Seed",
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2024/09/paris-based-inspek-secures-e6-million-to-accelerate-biomanufacturing-with-photonics/",
+     "date": "2024-09-25",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "round_label": {
+   "value": "SEED",
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2024/09/paris-based-inspek-secures-e6-million-to-accelerate-biomanufacturing-with-photonics/",
+     "date": "2024-09-25",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "instrument": {
+   "value": "EQUITY",
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2024/09/paris-based-inspek-secures-e6-million-to-accelerate-biomanufacturing-with-photonics/",
+     "date": "2024-09-25",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "transaction_value": {
+   "value": 3500000.0,
+   "sources": [
+    {
+     "name": "quantonation.com",
+     "document": "https://www.quantonation.com/2024/09/27/inspek-secures-e6m-seed-funding-to-accelerate-biomanufacturing/",
+     "date": "2024-09-25",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "nordic9.com",
+     "document": "https://nordic9.com/news/inspek-raised-6m-in-funding-35m-of-which-in-a-seed-round-co-led-by-breega-and-wind-capital-joined-by-investors-including-quantonation/",
+     "date": "2024-08-26",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "transaction_value_units": {
+   "value": "EUR",
+   "sources": [
+    {
+     "name": "quantonation.com",
+     "document": "https://www.quantonation.com/2024/09/27/inspek-secures-e6m-seed-funding-to-accelerate-biomanufacturing/",
+     "date": "2024-09-25",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "nordic9.com",
+     "document": "https://nordic9.com/news/inspek-raised-6m-in-funding-35m-of-which-in-a-seed-round-co-led-by-breega-and-wind-capital-joined-by-investors-including-quantonation/",
+     "date": "2024-08-26",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "announcement_date": {
+   "value": "2024-09-25",
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2024/09/paris-based-inspek-secures-e6-million-to-accelerate-biomanufacturing-with-photonics/",
+     "date": "2024-09-25",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "event_date": {
+   "value": "2024-08-05",
+   "sources": [
+    {
+     "name": "cfnews.net",
+     "document": "https://www.cfnews.net/L-actualite/Capital-innovation/Operations/1er-tour/Inspek-analyse-deux-nouveaux-VCs-499159",
+     "date": "2024-09-25",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "annotations": {
+   "value": [
+    "Round name as stated in the article.",
+    "round_label_stated:Seed"
+   ],
+   "sources": []
+  }
+ },
+ "relationships": {
+  "outgoing": {},
+  "incoming": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "062fb378-49d4-4d1d-a1f2-9c47979db34a",
+     "name": "InSpek",
+     "entity_type": "Company",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "eu-startups.com",
+        "document": "https://www.eu-startups.com/2024/09/paris-based-inspek-secures-e6-million-to-accelerate-biomanufacturing-with-photonics/",
+        "date": "2024-09-25",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "8e3c8ec2-e3f7-528e-9561-e1452e2cc899"
+     }
+    },
+    {
+     "id": "556d4d08-621d-4304-84a7-a2c7985fd41c",
+     "name": "Wind OÜ",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "eu-startups.com",
+        "document": "https://www.eu-startups.com/2024/09/paris-based-inspek-secures-e6-million-to-accelerate-biomanufacturing-with-photonics/",
+        "date": "2024-09-25",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "is_lead": true,
+      "id": "583e3959-d661-56df-9e72-69582a034a66"
+     }
+    },
+    {
+     "id": "79d3e6e8-183e-4de9-8359-6726c768fcbb",
+     "name": "Quantonation",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "eu-startups.com",
+        "document": "https://www.eu-startups.com/2024/09/paris-based-inspek-secures-e6-million-to-accelerate-biomanufacturing-with-photonics/",
+        "date": "2024-09-25",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "is_lead": true,
+      "id": "5b6c91ee-63b3-5703-889b-8fa4657915a2"
+     }
+    },
+    {
+     "id": "9f180d0f-3cc7-423c-ac4f-e0508f8053e2",
+     "name": "BREEGA VENTURE II",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "eu-startups.com",
+        "document": "https://www.eu-startups.com/2024/09/paris-based-inspek-secures-e6-million-to-accelerate-biomanufacturing-with-photonics/",
+        "date": "2024-09-25",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "is_lead": true,
+      "id": "5ad48df8-df4f-509c-b992-4349d9a90982"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

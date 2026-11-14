@@ -1,0 +1,198 @@
+{
+ "id": "0d0d6ecc-70ea-563e-87dd-1deb3918d4e0",
+ "name": "Seed",
+ "entity_type": "FundingRound",
+ "description": null,
+ "properties": {
+  "name": {
+   "value": "Seed",
+   "sources": [
+    {
+     "name": "businesswire.com",
+     "document": "https://www.businesswire.com/news/home/20230105005009/en",
+     "date": "2023-01-05",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "businessofsandiego.substack.com",
+     "document": "https://businessofsandiego.substack.com/p/san-diego-based-startup-raises-millions",
+     "date": "2023-03-29",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "round_label": {
+   "value": "SEED",
+   "sources": [
+    {
+     "name": "businesswire.com",
+     "document": "https://www.businesswire.com/news/home/20230105005009/en",
+     "date": "2023-01-05",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "businessofsandiego.substack.com",
+     "document": "https://businessofsandiego.substack.com/p/san-diego-based-startup-raises-millions",
+     "date": "2023-03-29",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "instrument": {
+   "value": "EQUITY",
+   "sources": [
+    {
+     "name": "sec.gov",
+     "document": "https://www.sec.gov/Archives/edgar/data/1835770/000183577022000002/primary_doc.xml",
+     "date": "2022-11-18",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "transaction_value": {
+   "value": 4688582.0,
+   "sources": [
+    {
+     "name": "sec.gov",
+     "document": "https://www.sec.gov/Archives/edgar/data/1835770/000183577022000002/primary_doc.xml",
+     "date": "2022-11-18",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "transaction_value_units": {
+   "value": "USD",
+   "sources": [
+    {
+     "name": "sec.gov",
+     "document": "https://www.sec.gov/Archives/edgar/data/1835770/000183577022000002/primary_doc.xml",
+     "date": "2022-11-18",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "announcement_date": {
+   "value": "2023-01-05",
+   "sources": [
+    {
+     "name": "businesswire.com",
+     "document": "https://www.businesswire.com/news/home/20230105005009/en",
+     "date": "2023-01-05",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "event_date": {
+   "value": "2022-11-08",
+   "sources": [
+    {
+     "name": "sec.gov",
+     "document": "https://www.sec.gov/Archives/edgar/data/1835770/000183577022000002/primary_doc.xml",
+     "date": "2022-11-18",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "annotations": {
+   "value": [
+    "Company release headline (2023-01-05): \"Personal.ai Has Raised $7.8 Million In Seed Capital\"; Business of San Diego (2023-03-29) calls it a seed round.",
+    "round_label_stated:Seed"
+   ],
+   "sources": []
+  }
+ },
+ "relationships": {
+  "outgoing": {},
+  "incoming": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "048f000e-ae70-4876-9d23-9e48c37877e7",
+     "name": "HUMAN AI LABS, INC.",
+     "entity_type": "Company",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "businesswire.com",
+        "document": "https://www.businesswire.com/news/home/20230105005009/en",
+        "date": "2023-01-05",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "businessofsandiego.substack.com",
+        "document": "https://businessofsandiego.substack.com/p/san-diego-based-startup-raises-millions",
+        "date": "2023-03-29",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "6e051c92-7061-54c7-9a4d-f9238d015aab"
+     }
+    },
+    {
+     "id": "12188f64-cbf1-4f21-bbd1-4a996ab8f458",
+     "name": "SUPERNODE GLOBAL VENTURES LP",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "businessofsandiego.substack.com",
+        "document": "https://businessofsandiego.substack.com/p/san-diego-based-startup-raises-millions",
+        "date": "2023-03-29",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "businesswire.com",
+        "document": "https://www.businesswire.com/news/home/20230105005009/en",
+        "date": "2023-01-05",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "is_lead": true,
+      "id": "4e1d199d-bfb9-5e3a-b9af-75a22d89fd3f"
+     }
+    },
+    {
+     "id": "4beec20e-5f41-4a6c-a4fb-cccd0b720ec4",
+     "name": "Differential Inc.",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "businessofsandiego.substack.com",
+        "document": "https://businessofsandiego.substack.com/p/san-diego-based-startup-raises-millions",
+        "date": "2023-03-29",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "businesswire.com",
+        "document": "https://www.businesswire.com/news/home/20230105005009/en",
+        "date": "2023-01-05",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "is_lead": true,
+      "id": "a89f9617-5530-5369-9473-3c322ecf30cc"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

@@ -1,0 +1,115 @@
+{
+ "id": "19643e75-31ee-54e7-89d4-13ecde038840",
+ "name": "Seed",
+ "entity_type": "FundingRound",
+ "description": null,
+ "properties": {
+  "name": {
+   "value": "Seed",
+   "sources": [
+    {
+     "name": "find-and-update.company-information.service.gov.uk",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/14298641/filing-history/MzQxNTc5OTI3NGFkaXF6a2N4/document?format=pdf&download=0",
+     "date": "2024-03-22",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "round_label": {
+   "value": "SEED",
+   "sources": [
+    {
+     "name": "find-and-update.company-information.service.gov.uk",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/14298641/filing-history/MzQxNTc5OTI3NGFkaXF6a2N4/document?format=pdf&download=0",
+     "date": "2024-03-22",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "instrument": {
+   "value": "EQUITY",
+   "sources": [
+    {
+     "name": "find-and-update.company-information.service.gov.uk",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/14298641/filing-history/MzQxNTc5OTI3NGFkaXF6a2N4/document?format=pdf&download=0",
+     "date": "2024-03-22",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "transaction_value": {
+   "value": 59999.93,
+   "sources": [
+    {
+     "name": "find-and-update.company-information.service.gov.uk",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/14298641/filing-history/MzQxNTc5OTI3NGFkaXF6a2N4/document?format=pdf&download=0",
+     "date": "2024-03-22",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "transaction_value_units": {
+   "value": "GBP",
+   "sources": [
+    {
+     "name": "find-and-update.company-information.service.gov.uk",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/14298641/filing-history/MzQxNTc5OTI3NGFkaXF6a2N4/document?format=pdf&download=0",
+     "date": "2024-03-22",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "event_date": {
+   "value": "2024-03-12",
+   "sources": [
+    {
+     "name": "find-and-update.company-information.service.gov.uk",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/14298641/filing-history/MzQxNTc5OTI3NGFkaXF6a2N4/document?format=pdf&download=0",
+     "date": "2024-03-22",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "annotations": {
+   "value": [
+    "No source names this round.",
+    "round_label_stated:Seed",
+    "round_label_basis:INFERRED",
+    "round_label_explanation:First equity round of the company (rounds.1), unnamed: Seed (instructions §3.5)."
+   ],
+   "sources": []
+  }
+ },
+ "relationships": {
+  "outgoing": {},
+  "incoming": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "0467d981-5964-4a9f-b32b-54d58a2d5131",
+     "name": "COSYSENSE LTD",
+     "entity_type": "Company",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "find-and-update.company-information.service.gov.uk",
+        "document": "https://find-and-update.company-information.service.gov.uk/company/14298641/filing-history/MzQxNTc5OTI3NGFkaXF6a2N4/document?format=pdf&download=0",
+        "date": "2024-03-22",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "47361899-28c1-5c9d-9faa-c8fdfd3dfd42"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

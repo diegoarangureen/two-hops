@@ -1,0 +1,427 @@
+{
+ "id": "05b50b95-d2a2-5d48-8214-23d0582e8692",
+ "name": "eWatt",
+ "entity_type": "Company",
+ "description": "Smart electricity monitoring and energy analytics.",
+ "properties": {
+  "name": {
+   "value": "eWatt",
+   "sources": [
+    {
+     "name": "ewatt.fi",
+     "document": "https://www.ewatt.fi/fi",
+     "date": "2026-11-03",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "avoindata.prh.fi",
+     "document": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies?name=eWatt%20Smart%20Power",
+     "date": "2026-11-03",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "eWatt Smart Power Systems Oy",
+   "sources": [
+    {
+     "name": "ewatt.fi",
+     "document": "https://www.ewatt.fi/fi",
+     "date": "2026-11-03",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "avoindata.prh.fi",
+     "document": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies?name=eWatt%20Smart%20Power",
+     "date": "2026-11-03",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "website": {
+   "value": "ewatt.fi",
+   "sources": [
+    {
+     "name": "ewatt.fi",
+     "document": "https://ewatt.fi/",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "claude.ai",
+     "document": "https://claude.ai/artifact/H3Eq8ujw2PKskrTrSvodVZ#conflicts",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "description": {
+   "value": "Smart electricity monitoring and energy analytics.",
+   "sources": [
+    {
+     "name": "ewatt.fi",
+     "document": "https://www.ewatt.fi/fi",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "avoindata.prh.fi",
+     "document": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies?name=eWatt%20Smart%20Power",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2022-01-01",
+   "sources": [
+    {
+     "name": "ewatt.fi",
+     "document": "https://www.ewatt.fi/fi",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "avoindata.prh.fi",
+     "document": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies?name=eWatt%20Smart%20Power",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "Jyväskylä, Finland",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/90954022/admin/dashboard/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "ewatt.fi",
+     "document": "https://www.ewatt.fi/fi",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "avoindata.prh.fi",
+     "document": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies?name=eWatt%20Smart%20Power",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "funding_stage": {
+   "value": "SEED",
+   "sources": [
+    {
+     "name": "paaomasijoittajat.fi",
+     "document": "https://paaomasijoittajat.fi/en/ajankohtaista/news/30220/ewatt-smart-power/",
+     "date": "2025-06-06",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "32a0d91e-194a-598a-89ac-febaabe1e7cb",
+     "name": "Seed",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "paaomasijoittajat.fi",
+        "document": "https://paaomasijoittajat.fi/en/ajankohtaista/news/30220/ewatt-smart-power/",
+        "date": "2025-06-06",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "nordic9.com",
+        "document": "https://nordic9.com/news/ewatt-in-an-equity-financing-round-with-gorilla-capital-fund-in-finland",
+        "date": "2025-06-01",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "1083fd3c-0dbc-5330-88bf-9b7044defa82"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "802fd805-5a62-51db-8229-b842030b617e"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "1c1977b3-663a-47fb-81eb-51958758b70b",
+     "name": "CONSTRUCTION_AND_ENGINEERING",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/90954022/admin/dashboard/",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "ea516f6e-6ddf-5bde-8cbb-c0c04e691ca4",
+      "original_label": "propConstruction"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "INVESTED_IN": [
+    {
+     "id": "863d051a-51c6-4f4a-9606-405fb0c8577d",
+     "name": "GORILLA CAPITAL AS",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "paaomasijoittajat.fi",
+        "document": "https://paaomasijoittajat.fi/en/ajankohtaista/news/30220/ewatt-smart-power/",
+        "date": "2025-06-06",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "nordic9.com",
+        "document": "https://nordic9.com/news/ewatt-in-an-equity-financing-round-with-gorilla-capital-fund-in-finland",
+        "date": "2025-06-01",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "490f9b1b-be4d-4636-9ffd-1d5b42d5c468"
+     }
+    }
+   ],
+   "FOUNDED": [
+    {
+     "id": "8dcf9104-985f-5403-b6c0-805eafd81bab",
+     "name": "Joosu Terhivuo",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "ewatt.fi",
+        "document": "https://www.ewatt.fi/fi/about-us",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "74af8d8b-31f6-5b94-99f0-88c69b37f037"
+     }
+    },
+    {
+     "id": "b6fcbcd7-0baa-5ab3-9a18-7e774efeddcc",
+     "name": "Timo Saarinen",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "ewatt.fi",
+        "document": "https://www.ewatt.fi/fi/about-us",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "8b334c14-1e6e-5b92-985b-3a88afecf406"
+     }
+    },
+    {
+     "id": "c0a2cadb-a7cb-514d-8165-f87d4e145395",
+     "name": "Aleksi Ihalainen",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "ewatt.fi",
+        "document": "https://www.ewatt.fi/fi/about-us",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "47d2e73d-bc6c-5685-ba52-16849cfe2893"
+     }
+    }
+   ],
+   "IS_CEO_OF": [
+    {
+     "id": "b6fcbcd7-0baa-5ab3-9a18-7e774efeddcc",
+     "name": "Timo Saarinen",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "ewatt.fi",
+        "document": "https://www.ewatt.fi/fi/about-us",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "afa061db-aeec-5303-ae42-081634d886b3"
+     }
+    }
+   ],
+   "IS_CTO_OF": [
+    {
+     "id": "8dcf9104-985f-5403-b6c0-805eafd81bab",
+     "name": "Joosu Terhivuo",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "ewatt.fi",
+        "document": "https://www.ewatt.fi/fi/about-us",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "ed0b40bc-c780-5c80-a36d-628e3938c459"
+     }
+    }
+   ],
+   "WORKS_AT": [
+    {
+     "id": "1b1b9eba-4d8d-5b1d-ac9a-0dce71df7fd9",
+     "name": "Blerta Lindqvist",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Research Lead",
+      "sources": [
+       {
+        "name": "ewatt.fi",
+        "document": "https://www.ewatt.fi/fi/about-us",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "cda0d939-4de7-5801-bc45-cdd84a8f9657"
+     }
+    },
+    {
+     "id": "81543928-4709-59b7-9cfc-12d3ea6cc5f3",
+     "name": "Amirreza Salehpour",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Electronics Engineer",
+      "sources": [
+       {
+        "name": "ewatt.fi",
+        "document": "https://www.ewatt.fi/fi/about-us",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "1d4e65c5-2b07-53f9-8617-7bd363cc6688"
+     }
+    },
+    {
+     "id": "b90b1fe4-a707-576d-a9fd-c0f790f65cfa",
+     "name": "Miika Toukola",
+     "entity_type": "Person",
+     "properties": {
+      "role": "AI Developer",
+      "sources": [
+       {
+        "name": "ewatt.fi",
+        "document": "https://www.ewatt.fi/fi/about-us",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "8e84b536-a842-5481-8818-749f158d75d9"
+     }
+    },
+    {
+     "id": "d6a49e1f-182c-5e61-8aa4-19cd195caf47",
+     "name": "Idlin Arshinova",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Digital Marketing Specialist",
+      "sources": [
+       {
+        "name": "ewatt.fi",
+        "document": "https://www.ewatt.fi/fi/about-us",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "e95fe853-075f-54bf-909b-dec1704a4ab3"
+     }
+    },
+    {
+     "id": "f3e4de76-09c0-5487-be20-c3e6b1f5187a",
+     "name": "Mikko Ahonen",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Customer Success Manager",
+      "sources": [
+       {
+        "name": "ewatt.fi",
+        "document": "https://www.ewatt.fi/fi/about-us",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "2eccfd3f-f02c-5303-9fdc-635a4cff3ba1"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

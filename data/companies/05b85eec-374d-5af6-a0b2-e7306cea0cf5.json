@@ -1,0 +1,213 @@
+{
+ "id": "05b85eec-374d-5af6-a0b2-e7306cea0cf5",
+ "name": "Next Intelligence GmbH",
+ "entity_type": "Company",
+ "description": "TaxMeet macht aus vertraulichen Mandantengesprächen fertige Arbeit: Protokolle, Aktenvermerke, Schreiben — ausgeführt in DATEV, Caseware & Microsoft 365. EU-souverän, ohne Bot.",
+ "properties": {
+  "name": {
+   "value": "Next Intelligence GmbH",
+   "sources": [
+    {
+     "name": "taxmeet.de",
+     "document": "https://taxmeet.de/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/taxmeet-ai/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "Next Intelligence GmbH",
+   "sources": [
+    {
+     "name": "taxmeet.de",
+     "document": "https://taxmeet.de/",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "aliases": {
+   "value": [
+    "TaxMeet",
+    "Next Intelligence UG"
+   ],
+   "sources": []
+  },
+  "website": {
+   "value": "taxmeet.de",
+   "sources": [
+    {
+     "name": "taxmeet.de",
+     "document": "https://taxmeet.de/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "dns.google",
+     "document": "https://dns.google/query?name=taxmeet.de&type=A",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "TaxMeet macht aus vertraulichen Mandantengesprächen fertige Arbeit: Protokolle, Aktenvermerke, Schreiben — ausgeführt in DATEV, Caseware & Microsoft 365. EU-souverän, ohne Bot.",
+   "sources": [
+    {
+     "name": "taxmeet.de",
+     "document": "https://taxmeet.de/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2025-01-01",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/taxmeet-ai/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "Berlin, Germany",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/taxmeet-ai/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "taxmeet.de",
+     "document": "https://taxmeet.de/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "799c2b48-e999-51dc-8f21-2b1e7ba4c767"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "8ecf5e57-a149-438c-9eb4-089809bade56",
+     "name": "SOFTWARE_AND_SERVICES",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/taxmeet-ai/",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "e6957066-37f9-5bda-b6f1-9847832d59f5",
+      "original_label": "ai"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "FOUNDED": [
+    {
+     "id": "5244d1fa-9bf4-5149-8cb3-d055876a5a8e",
+     "name": "Saba Khalvashi",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "taxmeet.de",
+        "document": "https://taxmeet.de/about",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "b83f4af9-1604-53f4-bc66-05b435295544"
+     }
+    },
+    {
+     "id": "804eb0b0-2975-51b1-8e70-9aa03884b242",
+     "name": "Rama D'Achille",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "taxmeet.de",
+        "document": "https://taxmeet.de/about",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "85fa7adb-3f2d-5e09-b500-0985fa1556af"
+     }
+    }
+   ],
+   "IS_CTO_OF": [
+    {
+     "id": "804eb0b0-2975-51b1-8e70-9aa03884b242",
+     "name": "Rama D'Achille",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "taxmeet.de",
+        "document": "https://taxmeet.de/about",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "593b57c2-8105-5bf4-9c50-8bf8f19ee0b4"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

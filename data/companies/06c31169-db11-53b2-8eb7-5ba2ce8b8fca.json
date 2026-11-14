@@ -1,0 +1,426 @@
+{
+ "id": "06c31169-db11-53b2-8eb7-5ba2ce8b8fca",
+ "name": "incaseof.law",
+ "entity_type": "Company",
+ "description": "Ihr Geld gehört auf Ihr Konto. In Österreich konzessioniertes und in Deutschland registriertes Inkassoinstitut. 100 % der Hauptforderung bleiben bei Ihnen.",
+ "properties": {
+  "name": {
+   "value": "incaseof.law",
+   "sources": [
+    {
+     "name": "incaseof.law",
+     "document": "https://www.incaseof.law/de/ueber-uns",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "incaseof.law",
+     "document": "https://incaseof.law/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/in-case-of-law/?viewAsMember=true",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "incaseof.law GmbH",
+   "sources": [
+    {
+     "name": "evi.gv.at",
+     "document": "https://www.evi.gv.at/f/505409z",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "incaseof.law",
+     "document": "https://www.incaseof.law/de/impressum",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "aliases": {
+   "value": [
+    "Max Kindler Consulting GmbH",
+    "inlaw GmbH",
+    "in case of"
+   ],
+   "sources": []
+  },
+  "website": {
+   "value": "incaseof.law",
+   "sources": [
+    {
+     "name": "incaseof.law",
+     "document": "https://incaseof.law/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "dns.google",
+     "document": "https://dns.google/query?name=incaseof.law&type=A",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "web.archive.org",
+     "document": "https://web.archive.org/web/20201030015350/https://www.incaseof.law/",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "Ihr Geld gehört auf Ihr Konto. In Österreich konzessioniertes und in Deutschland registriertes Inkassoinstitut. 100 % der Hauptforderung bleiben bei Ihnen.",
+   "sources": [
+    {
+     "name": "incaseof.law",
+     "document": "https://incaseof.law/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2019-01-24",
+   "sources": [
+    {
+     "name": "evi.gv.at",
+     "document": "https://www.evi.gv.at/f/505409z",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/in-case-of-law/?viewAsMember=true",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "Rathausstraße 21/13, 1010 Wien, Austria",
+   "sources": [
+    {
+     "name": "incaseof.law",
+     "document": "https://www.incaseof.law/de/impressum",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "evi.gv.at",
+     "document": "https://www.evi.gv.at/f/505409z",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/in-case-of-law/?viewAsMember=true",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "incaseof.law",
+     "document": "https://incaseof.law/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "evi.gv.at",
+     "document": "https://www.evi.gv.at/f/505409z",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/in-case-of-law/?viewAsMember=true",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "employee_count_range": {
+   "value": [
+    2,
+    10
+   ],
+   "sources": [
+    {
+     "name": "app.dealroom.co",
+     "document": "https://app.dealroom.co/companies/incaseof_law/team",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "funding_stage": {
+   "value": "SERIES_B",
+   "sources": [
+    {
+     "name": "evi.gv.at",
+     "document": "https://www.evi.gv.at/f/505409z",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "evi.gv.at",
+     "document": "https://www.evi.gv.at/urkunde/505409_0070732624799_000___000_30_38895194_PDF.pdf",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "incaseof.law",
+     "document": "https://www.incaseof.law/de/presse",
+     "date": "2025-12-09",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "brutkasten.com",
+     "document": "https://brutkasten.com/artikel/incaseof-law-wiener-legaltech-holt-sich-sechsstelliges-investment",
+     "date": "2025-12-09",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "430a23b3-351b-58f2-9a5b-01e719dfe1b8",
+     "name": "Series B",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "wirtschaftsanwaelte.at",
+        "document": "https://www.wirtschaftsanwaelte.at/akela-beraet-legal-tech-startup-ico-bei-series-a-runde/",
+        "date": "2023-01-16",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "extrajournal.net",
+        "document": "https://extrajournal.net/2023/01/26/akela-beraet-incaseof-law-bei-finanzierungsrunde/",
+        "date": "2023-01-26",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "evi.gv.at",
+        "document": "https://www.evi.gv.at/f/505409z",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       },
+       {
+        "name": "evi.gv.at",
+        "document": "https://www.evi.gv.at/urkunde/505409_0070732624799_000___000_30_38895194_PDF.pdf",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       },
+       {
+        "name": "incaseof.law",
+        "document": "https://www.incaseof.law/de/presse",
+        "date": "2025-12-09",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "brutkasten.com",
+        "document": "https://brutkasten.com/artikel/incaseof-law-wiener-legaltech-holt-sich-sechsstelliges-investment",
+        "date": "2025-12-09",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "80e8d39a-2a84-5cbc-b945-a7da03f34a45"
+     }
+    },
+    {
+     "id": "8413a0fb-f49a-5bf0-a1fd-53760f1f4237",
+     "name": "Grant",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "projekte.ffg.at",
+        "document": "https://projekte.ffg.at/projekt/3872105/pdf",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "2d0c4304-3382-5411-9889-16b0df3916c3"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "8b38984a-a021-5012-9d7d-6dbb88200548"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "8190c30d-2703-40ab-94d0-6c193cb53908",
+     "name": "FINTECH",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/in-case-of-law/?viewAsMember=true",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "22580f5e-351e-533f-a9ee-f1512cc9ff3b",
+      "original_label": "fintech"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "INVESTED_IN": [
+    {
+     "id": "f99e6e58-2bfc-4377-9165-9a95db6b8afb",
+     "name": "Kai Romberg",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "wirtschaftsanwaelte.at",
+        "document": "https://www.wirtschaftsanwaelte.at/akela-beraet-legal-tech-startup-ico-bei-series-a-runde/",
+        "date": "2023-01-16",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "extrajournal.net",
+        "document": "https://extrajournal.net/2023/01/26/akela-beraet-incaseof-law-bei-finanzierungsrunde/",
+        "date": "2023-01-26",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "0773e73e-1c93-4098-8244-972578995235"
+     }
+    }
+   ],
+   "FOUNDED": [
+    {
+     "id": "2d8a6e4d-21fb-5abb-b527-88448d9023ed",
+     "name": "Maximilian Kindler",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "incaseof.law",
+        "document": "https://www.incaseof.law/de/ueber-uns",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "8e4b2b07-7f83-5d04-a9ed-5e939ae131ef"
+     }
+    }
+   ],
+   "IS_CEO_OF": [
+    {
+     "id": "2d8a6e4d-21fb-5abb-b527-88448d9023ed",
+     "name": "Maximilian Kindler",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "geld-magazin.at",
+        "document": "https://www.geld-magazin.at/incaseof-law-kmu-rechtsberatung-auf-knopfdruck/",
+        "date": "2021-05-17",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "b0f7931e-3d5a-561f-bc63-2df0c81af0ad"
+     }
+    }
+   ],
+   "IS_CTO_OF": [
+    {
+     "id": "fd76ce25-b3fa-5802-ba06-3563b8545274",
+     "name": "Leonard Struck",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "domains.registry.godaddy",
+        "document": "https://domains.registry.godaddy/blog/breaking-new-ground-in-legal-tech-with-incaseof-law-the-innovation-of-receivables-management",
+        "date": "2024-10-21",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "incaseof.law",
+        "document": "https://www.incaseof.law/de/presse",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "e8197f72-c5d5-548b-9e1d-38ff0578a7b4"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

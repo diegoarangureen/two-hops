@@ -1,0 +1,284 @@
+{
+ "id": "77a64bb7-4ba4-5b0b-973e-b145751155c9",
+ "name": "Equity round",
+ "entity_type": "FundingRound",
+ "description": null,
+ "properties": {
+  "name": {
+   "value": "Equity round",
+   "sources": [
+    {
+     "name": "bebeez.eu",
+     "document": "https://bebeez.eu/2025/06/12/with-e2-5m-seed-round-swedish-engrate-aims-to-digitally-unclog-europes-energy-bottlenecks/",
+     "date": "2025-06-12",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "siliconcanals.com",
+     "document": "https://siliconcanals.com/engrate-raises-e2-5m",
+     "date": "2025-06-16",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "aliases": {
+   "value": [
+    "Seed"
+   ],
+   "sources": []
+  },
+  "round_label": {
+   "value": "SEED",
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2025/06/swedish-energy-startup-engrate-raises-e2-5-million-for-efficient-energy-integration/",
+     "date": "2025-06-13",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "instrument": {
+   "value": "EQUITY",
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2025/06/swedish-energy-startup-engrate-raises-e2-5-million-for-efficient-energy-integration/",
+     "date": "2025-06-13",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "bebeez.eu",
+     "document": "https://bebeez.eu/2025/06/12/with-e2-5m-seed-round-swedish-engrate-aims-to-digitally-unclog-europes-energy-bottlenecks/",
+     "date": "2025-06-12",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "siliconcanals.com",
+     "document": "https://siliconcanals.com/engrate-raises-e2-5m",
+     "date": "2025-06-16",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "transaction_value": {
+   "value": 2500000.0,
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2025/06/swedish-energy-startup-engrate-raises-e2-5-million-for-efficient-energy-integration/",
+     "date": "2025-06-13",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "siliconcanals.com",
+     "document": "https://siliconcanals.com/engrate-raises-e2-5m/",
+     "date": "2025-06-16",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "transaction_value_units": {
+   "value": "EUR",
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2025/06/swedish-energy-startup-engrate-raises-e2-5-million-for-efficient-energy-integration/",
+     "date": "2025-06-13",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "siliconcanals.com",
+     "document": "https://siliconcanals.com/engrate-raises-e2-5m/",
+     "date": "2025-06-16",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "bebeez.eu",
+     "document": "https://bebeez.eu/2025/06/12/with-e2-5m-seed-round-swedish-engrate-aims-to-digitally-unclog-europes-energy-bottlenecks/",
+     "date": "2025-06-12",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "siliconcanals.com",
+     "document": "https://siliconcanals.com/engrate-raises-e2-5m",
+     "date": "2025-06-16",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "announcement_date": {
+   "value": "2025-06-13",
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2025/06/swedish-energy-startup-engrate-raises-e2-5-million-for-efficient-energy-integration/",
+     "date": "2025-06-13",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "annotations": {
+   "value": [
+    "Round name as stated in the article.",
+    "round_label_stated:Seed"
+   ],
+   "sources": []
+  }
+ },
+ "relationships": {
+  "outgoing": {},
+  "incoming": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "057c7768-b724-44ef-b63d-e07f9b1a8bc0",
+     "name": "Engrate",
+     "entity_type": "Company",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "eu-startups.com",
+        "document": "https://www.eu-startups.com/2025/06/swedish-energy-startup-engrate-raises-e2-5-million-for-efficient-energy-integration/",
+        "date": "2025-06-13",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "bebeez.eu",
+        "document": "https://bebeez.eu/2025/06/12/with-e2-5m-seed-round-swedish-engrate-aims-to-digitally-unclog-europes-energy-bottlenecks/",
+        "date": "2025-06-12",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "siliconcanals.com",
+        "document": "https://siliconcanals.com/engrate-raises-e2-5m",
+        "date": "2025-06-16",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "4ed52d50-8eb4-54af-ac59-eeb9448d0948"
+     }
+    },
+    {
+     "id": "1fd8f680-ce94-4e36-b56d-e2dc9d2e983a",
+     "name": "Maniv Mobility A, LP",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "bebeez.eu",
+        "document": "https://bebeez.eu/2025/06/12/with-e2-5m-seed-round-swedish-engrate-aims-to-digitally-unclog-europes-energy-bottlenecks/",
+        "date": "2025-06-12",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "mynewsdesk.com",
+        "document": "https://www.mynewsdesk.com/se/bird___bird/pressreleases/bird-and-bird-advises-engrate-on-2-euros-5-cents-million-capital-raise-3393501",
+        "date": "2025-06-23",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "is_lead": true,
+      "id": "d07e9c14-f51f-55a2-b0b4-963d377b2018"
+     }
+    },
+    {
+     "id": "2b8a2d06-6e9c-4e01-8c97-3d969d01bce0",
+     "name": "Course Corrected VC Fund I AB",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "bebeez.eu",
+        "document": "https://bebeez.eu/2025/06/12/with-e2-5m-seed-round-swedish-engrate-aims-to-digitally-unclog-europes-energy-bottlenecks/",
+        "date": "2025-06-12",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "mynewsdesk.com",
+        "document": "https://www.mynewsdesk.com/se/bird___bird/pressreleases/bird-and-bird-advises-engrate-on-2-euros-5-cents-million-capital-raise-3393501",
+        "date": "2025-06-23",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "2f6d88b8-4d58-5013-8d9a-1d3e0f62a326"
+     }
+    },
+    {
+     "id": "8540e55a-1f3b-4969-bf08-6802f5344d24",
+     "name": "Eviny Ventures",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "bebeez.eu",
+        "document": "https://bebeez.eu/2025/06/12/with-e2-5m-seed-round-swedish-engrate-aims-to-digitally-unclog-europes-energy-bottlenecks/",
+        "date": "2025-06-12",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "mynewsdesk.com",
+        "document": "https://www.mynewsdesk.com/se/bird___bird/pressreleases/bird-and-bird-advises-engrate-on-2-euros-5-cents-million-capital-raise-3393501",
+        "date": "2025-06-23",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "9d98aed8-0f66-57cd-b29d-5117fc0b0bc1"
+     }
+    },
+    {
+     "id": "e576a39a-2046-4cc0-adbb-124ff351627a",
+     "name": "NP-Hard Ventures",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "bebeez.eu",
+        "document": "https://bebeez.eu/2025/06/12/with-e2-5m-seed-round-swedish-engrate-aims-to-digitally-unclog-europes-energy-bottlenecks/",
+        "date": "2025-06-12",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "siliconcanals.com",
+        "document": "https://siliconcanals.com/engrate-raises-e2-5m",
+        "date": "2025-06-16",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "is_lead": true,
+      "id": "372b254d-dc86-5433-bec7-6f2679be4e34"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

@@ -1,0 +1,314 @@
+{
+ "id": "35a3aae9-a046-5b3d-bbc0-04da34ac37ae",
+ "name": "Pre-Seed",
+ "entity_type": "FundingRound",
+ "description": null,
+ "properties": {
+  "name": {
+   "value": "Pre-Seed",
+   "sources": [
+    {
+     "name": "h2kwiki.notion.site",
+     "document": "https://h2kwiki.notion.site/5146f9dda1834f318ae295d915f967c2",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "aliases": {
+   "value": [
+    "Seed",
+    "Pre-Series A",
+    "Equity round",
+    "Bridge"
+   ],
+   "sources": []
+  },
+  "round_label": {
+   "value": "PRE_SEED",
+   "sources": [
+    {
+     "name": "h2kwiki.notion.site",
+     "document": "https://h2kwiki.notion.site/5146f9dda1834f318ae295d915f967c2",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "instrument": {
+   "value": "EQUITY",
+   "sources": [
+    {
+     "name": "h2kwiki.notion.site",
+     "document": "https://h2kwiki.notion.site/5146f9dda1834f318ae295d915f967c2",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "transaction_value": {
+   "value": 1000000000.0,
+   "sources": [
+    {
+     "name": "edaily.co.kr",
+     "document": "https://www.edaily.co.kr/news/read?newsId=01590806625905368&mediaCodeNo=E",
+     "date": "2020-09-30",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "h2kwiki.notion.site",
+     "document": "https://h2kwiki.notion.site/5146f9dda1834f318ae295d915f967c2",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "transaction_value_units": {
+   "value": "KRW",
+   "sources": [
+    {
+     "name": "edaily.co.kr",
+     "document": "https://www.edaily.co.kr/news/read?newsId=01590806625905368&mediaCodeNo=E",
+     "date": "2020-09-30",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "h2kwiki.notion.site",
+     "document": "https://h2kwiki.notion.site/5146f9dda1834f318ae295d915f967c2",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "announcement_date": {
+   "value": "2020-09-30",
+   "sources": [
+    {
+     "name": "edaily.co.kr",
+     "document": "https://www.edaily.co.kr/news/read?newsId=01590806625905368&mediaCodeNo=E",
+     "date": "2020-09-30",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "event_date": {
+   "value": "2017-09-01",
+   "sources": [
+    {
+     "name": "h2kwiki.notion.site",
+     "document": "https://h2kwiki.notion.site/5146f9dda1834f318ae295d915f967c2",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "annotations": {
+   "value": [
+    "Disclosed name '프리시드' (company history page: '2017년 09월 소셜벤처인큐베이터 sopoong 프리시드 투자유치').",
+    "round_label_stated:Pre-Seed",
+    "Disclosed name '시드' (company history page: '2019년 03월 어센도벤처스/와이플래닛 시드 투자유치').",
+    "round_label_stated:Seed",
+    "Disclosed name '프리시리즈 A-1' (company history page); Platum headline '10억원 규모 프리 A'. Edaily 2020-09-30 calls it 시리즈A.",
+    "round_label_stated:Pre-Series A",
+    "Strategic investment. No source names a round; labelled Strategic Investment.",
+    "Updated 2026-11-13: previously empty; a strategic investment no source names is labelled Strategic Investment (instructions v42 §3.5).",
+    "THE VC lists two Pre-A entries on 2021-04-01 (accelerator, VC), names behind login; the company calls it 전략적 투자유치.",
+    "round_label_stated:Strategic Investment",
+    "Disclosed name '프리시리즈 A-2' (company history page); MK headline '10억원 규모 프리 시리즈 A'.",
+    "Disclosed name '브릿지 라운드' (company history page).",
+    "round_label_stated:Bridge"
+   ],
+   "sources": []
+  }
+ },
+ "relationships": {
+  "outgoing": {},
+  "incoming": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "02df0988-8f28-5eb8-b0af-826843f22eb1",
+     "name": "Y-Planet (와이플래닛)",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "h2kwiki.notion.site",
+        "document": "https://h2kwiki.notion.site/5146f9dda1834f318ae295d915f967c2",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "10319ec9-aa87-5116-861f-ce13a2db69c6"
+     }
+    },
+    {
+     "id": "042ef2e3-d937-5d28-81d4-bcd86f76f862",
+     "name": "H2K, Inc.",
+     "entity_type": "Company",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "h2kwiki.notion.site",
+        "document": "https://h2kwiki.notion.site/5146f9dda1834f318ae295d915f967c2",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "91e5bd2d-475b-5f6f-b836-43dce7861363"
+     }
+    },
+    {
+     "id": "3315d502-c53d-4c3b-86bd-8dfe99b67a3d",
+     "name": "Sazze Partners, Inc.",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "h2kwiki.notion.site",
+        "document": "https://h2kwiki.notion.site/5146f9dda1834f318ae295d915f967c2",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "edaily.co.kr",
+        "document": "https://www.edaily.co.kr/news/read?newsId=01590806625905368&mediaCodeNo=E",
+        "date": "2020-09-30",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "is_lead": true,
+      "id": "77633a79-28d9-511d-8cae-60d6e13b3ae3"
+     }
+    },
+    {
+     "id": "6ef421d8-26cb-451b-9ef8-952834cfa42d",
+     "name": "Ascendo Ventures, LLC",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "h2kwiki.notion.site",
+        "document": "https://h2kwiki.notion.site/5146f9dda1834f318ae295d915f967c2",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "7de4787b-c924-5fac-8a0e-48a0ada4d3ee"
+     }
+    },
+    {
+     "id": "7e47c301-6e04-5ce4-8f15-203685425a2e",
+     "name": "UTC Kakao-SK Telecom ESG Fund (유티씨 카카오-SK텔레콤 ESG 펀드)",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "h2kwiki.notion.site",
+        "document": "https://h2kwiki.notion.site/5146f9dda1834f318ae295d915f967c2",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "is_lead": true,
+      "id": "ab33f3ff-e9df-5fd4-83eb-ceb890ef16dc"
+     }
+    },
+    {
+     "id": "8309cca8-0c75-56e1-bcef-96d7269f5bbe",
+     "name": "IPS Ventures (IPS벤처스)",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "h2kwiki.notion.site",
+        "document": "https://h2kwiki.notion.site/5146f9dda1834f318ae295d915f967c2",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "1c5e3b64-2ab1-5f4c-994b-f48728982a16"
+     }
+    },
+    {
+     "id": "8fa229f5-ff32-5266-87e0-310db6b99f21",
+     "name": "Daedeok Venture Partners (대덕벤처파트너스)",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "h2kwiki.notion.site",
+        "document": "https://h2kwiki.notion.site/5146f9dda1834f318ae295d915f967c2",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "is_lead": true,
+      "id": "be7de25a-19b7-5f39-b016-26a4acb60072"
+     }
+    },
+    {
+     "id": "bf67d783-5132-45e6-9b03-4bcd613fcb62",
+     "name": "Sopoong Ventures",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "h2kwiki.notion.site",
+        "document": "https://h2kwiki.notion.site/5146f9dda1834f318ae295d915f967c2",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "is_lead": true,
+      "id": "63647220-a303-5676-9bff-1c04371aefcc"
+     }
+    },
+    {
+     "id": "ee0b3541-72fa-5e70-80b2-d45e423b2629",
+     "name": "Seoul Business Agency (서울산업진흥원)",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "h2kwiki.notion.site",
+        "document": "https://h2kwiki.notion.site/5146f9dda1834f318ae295d915f967c2",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "ff595e3f-d286-5ffb-8ea7-4afdbe188853"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

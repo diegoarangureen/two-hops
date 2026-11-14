@@ -1,0 +1,189 @@
+{
+ "id": "04d834fa-c726-5524-982f-abe02b5d327c",
+ "name": "Ellipsus",
+ "entity_type": "Company",
+ "description": "Write, edit, and collaborate on any device. Ellipsus is a principled alternative to Google Docs—built for writers, by writers. Sign up for free.",
+ "properties": {
+  "name": {
+   "value": "Ellipsus",
+   "sources": [
+    {
+     "name": "ellipsus.com",
+     "document": "https://ellipsus.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/ellipsus",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "Ellipsus GmbH",
+   "sources": [
+    {
+     "name": "ellipsus.com",
+     "document": "https://ellipsus.com/impressum",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "website": {
+   "value": "ellipsus.com",
+   "sources": [
+    {
+     "name": "ellipsus.com",
+     "document": "https://ellipsus.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "dns.google",
+     "document": "https://dns.google/query?name=ellipsus.com&type=A",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "Write, edit, and collaborate on any device. Ellipsus is a principled alternative to Google Docs—built for writers, by writers. Sign up for free.",
+   "sources": [
+    {
+     "name": "ellipsus.com",
+     "document": "https://ellipsus.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2023-01-01",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/ellipsus",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "Berlin, Germany",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/ellipsus",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "ellipsus.com",
+     "document": "https://ellipsus.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "6266214b-873b-5204-9da3-51eefbefca08"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "01552894-6b07-4396-b18b-006cdbf489c4",
+     "name": "NEWS_AND_INFORMATION",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/ellipsus",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "e6743769-e9fb-5878-bbba-0d28c57a1b7e",
+      "original_label": "media"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "FOUNDED": [
+    {
+     "id": "0592e304-e27e-5c66-bb46-a545bc902097",
+     "name": "John McClelland",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "help.ellipsus.com",
+        "document": "https://help.ellipsus.com/support/solutions/articles/205000067263-what-is-ellipsus-who-are-you-",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "23209daa-896d-57df-8730-64e6ed95e3ee"
+     }
+    }
+   ],
+   "IS_CEO_OF": [
+    {
+     "id": "0592e304-e27e-5c66-bb46-a545bc902097",
+     "name": "John McClelland",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "ellipsus.com",
+        "document": "https://ellipsus.com/about",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "9933d894-a30a-53b9-8157-e9db42396500"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

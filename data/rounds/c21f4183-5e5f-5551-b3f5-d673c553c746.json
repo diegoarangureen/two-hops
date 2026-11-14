@@ -1,0 +1,365 @@
+{
+ "id": "c21f4183-5e5f-5551-b3f5-d673c553c746",
+ "name": "Seed",
+ "entity_type": "FundingRound",
+ "description": null,
+ "properties": {
+  "name": {
+   "value": "Seed",
+   "sources": [
+    {
+     "name": "blog.personal.ai",
+     "document": "https://blog.personal.ai/human-ai-labs-closes-3-2m-seed-round-to-create-an-ai-extension-of-human-memory-8595a9bd925f",
+     "date": "2026-11-08",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "en.wikipedia.org",
+     "document": "https://en.wikipedia.org/wiki/Human_AI_Labs",
+     "date": "2026-11-08",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "aliases": {
+   "value": [
+    "Funding round"
+   ],
+   "sources": []
+  },
+  "round_label": {
+   "value": "SEED",
+   "sources": [
+    {
+     "name": "blog.personal.ai",
+     "document": "https://blog.personal.ai/human-ai-labs-closes-3-2m-seed-round-to-create-an-ai-extension-of-human-memory-8595a9bd925f",
+     "date": "2026-11-08",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "en.wikipedia.org",
+     "document": "https://en.wikipedia.org/wiki/Human_AI_Labs",
+     "date": "2026-11-08",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "instrument": {
+   "value": "PREFERRED_EQUITY",
+   "sources": [
+    {
+     "name": "mccarter.com",
+     "document": "https://www.mccarter.com/matters/differential-venture-capital-fund-financing",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "sec.gov",
+     "document": "https://www.sec.gov/Archives/edgar/data/1835770/000183577020000001/primary_doc.xml",
+     "date": "2020-12-14",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "transaction_value": {
+   "value": 3230966.0,
+   "sources": [
+    {
+     "name": "blog.personal.ai",
+     "document": "https://blog.personal.ai/human-ai-labs-closes-3-2m-seed-round-to-create-an-ai-extension-of-human-memory-8595a9bd925f",
+     "date": "2026-11-08",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "en.wikipedia.org",
+     "document": "https://en.wikipedia.org/wiki/Human_AI_Labs",
+     "date": "2026-11-08",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    },
+    {
+     "name": "sec.gov",
+     "document": "https://www.sec.gov/Archives/edgar/data/1835770/000183577020000001/primary_doc.xml",
+     "date": "2020-12-14",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "techcrunch.com",
+     "document": "https://techcrunch.com/?p=2095744",
+     "date": "2021-01-13",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "transaction_value_units": {
+   "value": "USD",
+   "sources": [
+    {
+     "name": "blog.personal.ai",
+     "document": "https://blog.personal.ai/human-ai-labs-closes-3-2m-seed-round-to-create-an-ai-extension-of-human-memory-8595a9bd925f",
+     "date": "2026-11-08",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "en.wikipedia.org",
+     "document": "https://en.wikipedia.org/wiki/Human_AI_Labs",
+     "date": "2026-11-08",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    },
+    {
+     "name": "sec.gov",
+     "document": "https://www.sec.gov/Archives/edgar/data/1835770/000183577020000001/primary_doc.xml",
+     "date": "2020-12-14",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "techcrunch.com",
+     "document": "https://techcrunch.com/?p=2095744",
+     "date": "2021-01-13",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "announcement_date": {
+   "value": "2024-10-01",
+   "sources": [
+    {
+     "name": "finsmes.com",
+     "document": "https://finsmes.com/?p=334607",
+     "date": "2024-10-01",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "event_date": {
+   "value": "2020-12-07",
+   "sources": [
+    {
+     "name": "sec.gov",
+     "document": "https://www.sec.gov/Archives/edgar/data/1835770/000183577020000001/primary_doc.xml",
+     "date": "2020-12-14",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "annotations": {
+   "value": [
+    "\"seed round of $3.2 million\" (company blog).",
+    "round_label_stated:Seed",
+    "Strategic investment. No source names a round; labelled Strategic Investment.",
+    "Updated 2026-11-13: previously empty; a strategic investment no source names is labelled Strategic Investment (instructions v42 §3.5).",
+    "Described as a \"strategic investment\"; no round name.",
+    "round_label_stated:Strategic Investment"
+   ],
+   "sources": []
+  }
+ },
+ "relationships": {
+  "outgoing": {},
+  "incoming": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "00d55437-e127-4d6d-b60c-707ecd4044ab",
+     "name": "BENI Capital S.à r.l.",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "blog.personal.ai",
+        "document": "https://blog.personal.ai/human-ai-labs-closes-3-2m-seed-round-to-create-an-ai-extension-of-human-memory-8595a9bd925f",
+        "date": "2026-11-08",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "fbdf3942-6f1b-5733-a417-c7ab95649708"
+     }
+    },
+    {
+     "id": "048f000e-ae70-4876-9d23-9e48c37877e7",
+     "name": "HUMAN AI LABS, INC.",
+     "entity_type": "Company",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "blog.personal.ai",
+        "document": "https://blog.personal.ai/human-ai-labs-closes-3-2m-seed-round-to-create-an-ai-extension-of-human-memory-8595a9bd925f",
+        "date": "2026-11-08",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "en.wikipedia.org",
+        "document": "https://en.wikipedia.org/wiki/Human_AI_Labs",
+        "date": "2026-11-08",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       },
+       {
+        "name": "finsmes.com",
+        "document": "https://finsmes.com/?p=334607",
+        "date": "2024-10-01",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "6ef16614-652a-589d-9d55-258150277b16"
+     }
+    },
+    {
+     "id": "0bea8c8b-8386-4c20-bc8d-a6b1ce0091bb",
+     "name": "Village Global",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "blog.personal.ai",
+        "document": "https://blog.personal.ai/human-ai-labs-closes-3-2m-seed-round-to-create-an-ai-extension-of-human-memory-8595a9bd925f",
+        "date": "2026-11-08",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "6ef335d3-9016-5f2b-b52b-c6bb10724474"
+     }
+    },
+    {
+     "id": "4beec20e-5f41-4a6c-a4fb-cccd0b720ec4",
+     "name": "Differential Inc.",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "blog.personal.ai",
+        "document": "https://blog.personal.ai/human-ai-labs-closes-3-2m-seed-round-to-create-an-ai-extension-of-human-memory-8595a9bd925f",
+        "date": "2026-11-08",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "is_lead": true,
+      "id": "9239195e-b094-5b1f-a9c2-fee5472184e3"
+     }
+    },
+    {
+     "id": "7a48a9bc-476d-5800-b7b5-e2c15cbe656d",
+     "name": "Kelvin Beachum",
+     "entity_type": "Person",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "blog.personal.ai",
+        "document": "https://blog.personal.ai/human-ai-labs-closes-3-2m-seed-round-to-create-an-ai-extension-of-human-memory-8595a9bd925f",
+        "date": "2026-11-08",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "8a4dc6bf-7978-5252-8168-324f80e216bb"
+     }
+    },
+    {
+     "id": "98625ae4-fc86-5796-a0a7-b61abad0a82f",
+     "name": "BDev Ventures",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "finsmes.com",
+        "document": "https://finsmes.com/?p=334607",
+        "date": "2026-11-08",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "en.wikipedia.org",
+        "document": "https://en.wikipedia.org/wiki/Human_AI_Labs",
+        "date": "2026-11-08",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "is_lead": true,
+      "id": "1f95e340-aad2-5fd8-9354-9cae5a4d5a2f"
+     }
+    },
+    {
+     "id": "bedaf6da-7f41-5478-9150-90408780d7a5",
+     "name": "Jeff Foster",
+     "entity_type": "Person",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "blog.personal.ai",
+        "document": "https://blog.personal.ai/human-ai-labs-closes-3-2m-seed-round-to-create-an-ai-extension-of-human-memory-8595a9bd925f",
+        "date": "2026-11-08",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "518ba1af-6f78-5dfe-a732-87732cc23308"
+     }
+    },
+    {
+     "id": "e2dd2ad1-9d1f-4933-825a-577d20604997",
+     "name": "Good Friends",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "blog.personal.ai",
+        "document": "https://blog.personal.ai/human-ai-labs-closes-3-2m-seed-round-to-create-an-ai-extension-of-human-memory-8595a9bd925f",
+        "date": "2026-11-08",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "8d9e43cd-97b3-5290-92bc-c3d4bd5b2853"
+     }
+    },
+    {
+     "id": "f2278f48-d7ab-47a7-8bef-d598450e5a6c",
+     "name": "Keshif Ventures, LLC",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "blog.personal.ai",
+        "document": "https://blog.personal.ai/human-ai-labs-closes-3-2m-seed-round-to-create-an-ai-extension-of-human-memory-8595a9bd925f",
+        "date": "2026-11-08",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "0535f739-e771-5096-8a7e-06ab2f304355"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

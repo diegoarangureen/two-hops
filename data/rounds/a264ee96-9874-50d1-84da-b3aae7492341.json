@@ -1,0 +1,158 @@
+{
+ "id": "a264ee96-9874-50d1-84da-b3aae7492341",
+ "name": "Pre-Seed",
+ "entity_type": "FundingRound",
+ "description": null,
+ "properties": {
+  "name": {
+   "value": "Pre-Seed",
+   "sources": [
+    {
+     "name": "vcbacked.co",
+     "document": "https://www.vcbacked.co/company/nocfo",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    },
+    {
+     "name": "thehub.io",
+     "document": "https://thehub.io/startups/nocfo",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "round_label": {
+   "value": "PRE_SEED",
+   "sources": [
+    {
+     "name": "vcbacked.co",
+     "document": "https://www.vcbacked.co/company/nocfo",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    },
+    {
+     "name": "thehub.io",
+     "document": "https://thehub.io/startups/nocfo",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "instrument": {
+   "value": "EQUITY",
+   "sources": [
+    {
+     "name": "avoindata.prh.fi",
+     "document": "https://avoindata.prh.fi/opendata-registerednotices-api/v3/3149769-7",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "transaction_value": {
+   "value": 600000.0,
+   "sources": [
+    {
+     "name": "thehub.io",
+     "document": "https://thehub.io/startups/nocfo",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "transaction_value_units": {
+   "value": "EUR",
+   "sources": [
+    {
+     "name": "thehub.io",
+     "document": "https://thehub.io/startups/nocfo",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "event_date": {
+   "value": "2025-01-01",
+   "sources": [
+    {
+     "name": "vcbacked.co",
+     "document": "https://www.vcbacked.co/company/nocfo",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "annotations": {
+   "value": [
+    "round_label_stated:Pre-Seed"
+   ],
+   "sources": []
+  }
+ },
+ "relationships": {
+  "outgoing": {},
+  "incoming": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "0624d8ef-0bab-556b-9fc9-d16128e40742",
+     "name": "NoCFO",
+     "entity_type": "Company",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "vcbacked.co",
+        "document": "https://www.vcbacked.co/company/nocfo",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       },
+       {
+        "name": "thehub.io",
+        "document": "https://thehub.io/startups/nocfo",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "e9ad1bc9-a390-5798-bad5-e764d6564deb"
+     }
+    },
+    {
+     "id": "e5d05646-7be2-43c9-8bf8-7a6561bca0f3",
+     "name": "Holvi",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "vcbacked.co",
+        "document": "https://www.vcbacked.co/company/nocfo",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       },
+       {
+        "name": "thehub.io",
+        "document": "https://thehub.io/startups/nocfo",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "dcacf9ab-2b43-5435-80fa-0ce0c3e260a0"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

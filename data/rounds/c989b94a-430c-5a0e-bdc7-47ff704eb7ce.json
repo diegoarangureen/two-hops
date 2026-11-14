@@ -1,0 +1,101 @@
+{
+ "id": "c989b94a-430c-5a0e-bdc7-47ff704eb7ce",
+ "name": "Pre-Seed",
+ "entity_type": "FundingRound",
+ "description": null,
+ "properties": {
+  "name": {
+   "value": "Pre-Seed",
+   "sources": [
+    {
+     "name": "vcbacked.co",
+     "document": "https://www.vcbacked.co/company/hashlist",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "round_label": {
+   "value": "PRE_SEED",
+   "sources": [
+    {
+     "name": "vcbacked.co",
+     "document": "https://www.vcbacked.co/company/hashlist",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "transaction_value": {
+   "value": 1000000.0,
+   "sources": [
+    {
+     "name": "vcbacked.co",
+     "document": "https://www.vcbacked.co/company/hashlist",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "transaction_value_units": {
+   "value": "USD",
+   "sources": [
+    {
+     "name": "vcbacked.co",
+     "document": "https://www.vcbacked.co/company/hashlist",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "event_date": {
+   "value": "2022-11-01",
+   "sources": [
+    {
+     "name": "vcbacked.co",
+     "document": "https://www.vcbacked.co/company/hashlist",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "annotations": {
+   "value": [
+    "Disclosed name 'Pre-Seed' (vcbacked.co).",
+    "round_label_stated:Pre-Seed"
+   ],
+   "sources": []
+  }
+ },
+ "relationships": {
+  "outgoing": {},
+  "incoming": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "03bf849a-7179-55c4-aacd-1bfcc50e97bf",
+     "name": "Hashlist",
+     "entity_type": "Company",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "vcbacked.co",
+        "document": "https://www.vcbacked.co/company/hashlist",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "445212d3-4f8f-5357-ba2e-3a5ac388cc2b"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

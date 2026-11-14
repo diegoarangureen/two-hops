@@ -1,0 +1,164 @@
+{
+ "id": "04c55a52-8742-5e05-8eda-792633d83829",
+ "name": "Shorezy",
+ "entity_type": "Company",
+ "description": "Online marketplace for discovering, comparing and pre-booking beach venues across Europe, letting customers book sun loungers, parasols and daybeds from beach clubs, hotels and private operators.",
+ "properties": {
+  "name": {
+   "value": "Shorezy",
+   "sources": [
+    {
+     "name": "shorezy.com",
+     "document": "https://shorezy.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/shorezy/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "Shorezy FlexCo",
+   "sources": [
+    {
+     "name": "shorezy.com",
+     "document": "https://www.shorezy.com/legal/imprint",
+     "date": "2026-05-01",
+     "date_precision": "month",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "shorezy.com",
+     "document": "https://www.shorezy.com/legal/data-policy",
+     "date": "2026-05-11",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "website": {
+   "value": "shorezy.com",
+   "sources": [
+    {
+     "name": "shorezy.com",
+     "document": "https://shorezy.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "dns.google",
+     "document": "https://dns.google/query?name=shorezy.com&type=A",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "Online marketplace for discovering, comparing and pre-booking beach venues across Europe, letting customers book sun loungers, parasols and daybeds from beach clubs, hotels and private operators.",
+   "sources": [
+    {
+     "name": "shorezy.com",
+     "document": "https://www.shorezy.com/legal/imprint",
+     "date": "2026-05-01",
+     "date_precision": "month",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "shorezy.com",
+     "document": "https://www.shorezy.com/",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2026-01-01",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/shorezy/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "Altmünster Vienna, Austria",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/shorezy/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "shorezy.com",
+     "document": "https://shorezy.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "89bfbc0f-4106-5f0f-a511-adfe23391c09"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "49e7435a-1935-49a2-bec7-a7848147893e",
+     "name": "HOSPITALITY_AND_TOURISM",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/shorezy/",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "5e82d5b1-7d34-53d1-a1eb-88d1751ca6a8",
+      "original_label": "travel"
+     }
+    }
+   ]
+  },
+  "incoming": {}
+ },
+ "numerical_observations": []
+}

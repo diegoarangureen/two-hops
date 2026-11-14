@@ -1,0 +1,157 @@
+{
+ "id": "0643178c-0cc3-5ebc-98e5-aeb3264c3ad7",
+ "name": "Contact Intelligence Labs, Inc.",
+ "entity_type": "Company",
+ "description": "Ci Labs develops the interaction intelligence layer for Physical AI â enabling humanoids and autonomous robots to operate reliably in real-world industrial and defence environments.",
+ "properties": {
+  "name": {
+   "value": "Contact Intelligence Labs, Inc.",
+   "sources": [
+    {
+     "name": "cilabs.ai",
+     "document": "https://cilabs.ai/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/contact-intelligence-labs",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "Contact Intelligence Labs, Inc.",
+   "sources": [
+    {
+     "name": "cilabs.ai",
+     "document": "https://cilabs.ai/careers-at-contact-intelligence-labs",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "cilabs.ai",
+     "document": "https://cilabs.ai/",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "website": {
+   "value": "cilabs.ai",
+   "sources": [
+    {
+     "name": "cilabs.ai",
+     "document": "https://cilabs.ai/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "dns.google",
+     "document": "https://dns.google/query?name=cilabs.ai&type=A",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "Ci Labs develops the interaction intelligence layer for Physical AI â enabling humanoids and autonomous robots to operate reliably in real-world industrial and defence environments.",
+   "sources": [
+    {
+     "name": "cilabs.ai",
+     "document": "https://cilabs.ai/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2026-01-01",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/contact-intelligence-labs",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "San Francisco , United States",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/contact-intelligence-labs",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "cilabs.ai",
+     "document": "https://cilabs.ai/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "222327c5-1078-5783-885f-558c7973328f"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "be9a1964-bfc6-4aad-bde1-1f94bf10cf4c",
+     "name": "HARDWARE_AND_EQUIPMENT",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/contact-intelligence-labs",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "29a6234d-ea24-5053-9168-8c6a2640e466",
+      "original_label": "robo"
+     }
+    }
+   ]
+  },
+  "incoming": {}
+ },
+ "numerical_observations": []
+}

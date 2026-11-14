@@ -1,0 +1,305 @@
+{
+ "id": "06139970-dfbd-5375-9c70-0f723d4b34e2",
+ "name": "Seamoretech",
+ "entity_type": "Company",
+ "description": "Recovers critical raw materials and extra freshwater from desalination brine.",
+ "properties": {
+  "name": {
+   "value": "Seamoretech",
+   "sources": [
+    {
+     "name": "seamoretech.com",
+     "document": "https://www.seamoretech.com/",
+     "date": "2026-11-03",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "seamoretech.com",
+     "document": "https://www.seamoretech.com/about",
+     "date": "2026-11-03",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "Seamoretech Iberia S.L",
+   "sources": [
+    {
+     "name": "seamoretech.com",
+     "document": "https://www.seamoretech.com/",
+     "date": "2026-11-03",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "seamoretech.com",
+     "document": "https://www.seamoretech.com/about",
+     "date": "2026-11-03",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "boe.es",
+     "document": "https://www.boe.es/borme/dias/2026/05/29/pdfs/BORME-A-2026-101-28.pdf",
+     "date": "2026-05-29",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "aliases": {
+   "value": [
+    "Seamoretech Iberia S.L."
+   ],
+   "sources": []
+  },
+  "website": {
+   "value": "seamoretech.com",
+   "sources": [
+    {
+     "name": "seamoretech.com",
+     "document": "https://seamoretech.com/",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "claude.ai",
+     "document": "https://claude.ai/artifact/H3Eq8ujw2PKskrTrSvodVZ#conflicts",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "description": {
+   "value": "Recovers critical raw materials and extra freshwater from desalination brine.",
+   "sources": [
+    {
+     "name": "seamoretech.com",
+     "document": "https://www.seamoretech.com/",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "seamoretech.com",
+     "document": "https://www.seamoretech.com/about",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2026-03-27",
+   "sources": [
+    {
+     "name": "boe.es",
+     "document": "https://www.boe.es/borme/dias/2026/05/29/pdfs/BORME-A-2026-101-28.pdf",
+     "date": "2026-05-29",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "Madrid, Spain",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/71233156/admin/dashboard/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "seamoretech.com",
+     "document": "https://www.seamoretech.com/",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "seamoretech.com",
+     "document": "https://www.seamoretech.com/about",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "boe.es",
+     "document": "https://www.boe.es/borme/dias/2026/05/29/pdfs/BORME-A-2026-101-28.pdf",
+     "date": "2026-05-29",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "total_funding": {
+   "value": 3000.0,
+   "sources": [
+    {
+     "name": "boe.es",
+     "document": "https://www.boe.es/borme/dias/2026/05/29/pdfs/BORME-A-2026-101-28.pdf",
+     "date": "2026-05-29",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "total_funding_units": {
+   "value": "EUR",
+   "sources": [
+    {
+     "name": "boe.es",
+     "document": "https://www.boe.es/borme/dias/2026/05/29/pdfs/BORME-A-2026-101-28.pdf",
+     "date": "2026-05-29",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "total_funding_excluding_debt": {
+   "value": 3000.0,
+   "sources": [
+    {
+     "name": "boe.es",
+     "document": "https://www.boe.es/borme/dias/2026/05/29/pdfs/BORME-A-2026-101-28.pdf",
+     "date": "2026-05-29",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "8352149a-1398-5516-8140-572a3ff6da02",
+     "name": "Equity round",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "boe.es",
+        "document": "https://www.boe.es/borme/dias/2026/05/29/pdfs/BORME-A-2026-101-28.pdf",
+        "date": "2026-05-29",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "b559f45c-9965-52e3-a48a-8e0c488ad48b"
+     }
+    },
+    {
+     "id": "8352149a-1398-5516-8140-572a3ff6da02",
+     "name": "Equity round",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "boe.es",
+        "document": "https://www.boe.es/borme/dias/2026/05/29/pdfs/BORME-A-2026-101-28.pdf",
+        "date": "2026-05-29",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "is_lead": true,
+      "id": "c42d1f70-909d-54c2-b844-dbc019945599"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "dc316835-b960-5acb-afcb-3d0c33857f78"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "11ce48e0-a853-4085-8142-f674977b1a3a",
+     "name": "RENEWABLE_ENERGY",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/71233156/admin/dashboard/",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "130fba3e-6c3d-52da-b35e-82cabc43736d",
+      "original_label": "cleantech"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "IS_BOARD_MEMBER_OF": [
+    {
+     "id": "100f4131-241b-53c1-a129-2e362f48afea",
+     "name": "Eva Sousa",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "boe.es",
+        "document": "https://www.boe.es/borme/dias/2026/05/29/pdfs/BORME-A-2026-101-28.pdf",
+        "date": "2026-05-29",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "8cafd75b-c972-5d97-bf29-d0f297bd12ee",
+      "valid_since": "2026-05-22"
+     }
+    },
+    {
+     "id": "f13c229b-659a-50db-bab3-891a7b2d506b",
+     "name": "Sofia Delgado",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "boe.es",
+        "document": "https://www.boe.es/borme/dias/2026/05/29/pdfs/BORME-A-2026-101-28.pdf",
+        "date": "2026-05-29",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "000b3ebf-963a-5972-9fb4-500554cd5e2f",
+      "valid_since": "2026-05-22"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

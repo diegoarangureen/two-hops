@@ -1,0 +1,178 @@
+{
+ "id": "05aff25f-6f72-52cf-9300-625d67ba9588",
+ "name": "Ember",
+ "entity_type": "Company",
+ "description": "One agentic copilot for site awareness, worker guidance and safety workflows. On site and in the office. Built with 15 design partners, supporting UK and US teams.",
+ "properties": {
+  "name": {
+   "value": "Ember",
+   "sources": [
+    {
+     "name": "ember-info.com",
+     "document": "https://ember-info.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/ember-ai-labs/?viewAsMember=true",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "Ember AI Labs, Inc.",
+   "sources": [
+    {
+     "name": "ember-info.com",
+     "document": "https://www.ember-info.com/",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "website": {
+   "value": "ember-info.com",
+   "sources": [
+    {
+     "name": "ember-info.com",
+     "document": "https://ember-info.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "dns.google",
+     "document": "https://dns.google/query?name=ember-info.com&type=A",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "One agentic copilot for site awareness, worker guidance and safety workflows. On site and in the office. Built with 15 design partners, supporting UK and US teams.",
+   "sources": [
+    {
+     "name": "ember-info.com",
+     "document": "https://ember-info.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2026-01-01",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/ember-ai-labs/?viewAsMember=true",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "Oxford, United Kingdom",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/ember-ai-labs/?viewAsMember=true",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "ember-info.com",
+     "document": "https://ember-info.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "24667b47-dfd2-5967-8897-f572875c8654"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "1c1977b3-663a-47fb-81eb-51958758b70b",
+     "name": "CONSTRUCTION_AND_ENGINEERING",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/ember-ai-labs/?viewAsMember=true",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "58a8714f-b3f5-542d-823d-c7602125da59",
+      "original_label": "propConstruction"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "IS_BOARD_MEMBER_OF": [
+    {
+     "id": "e9711ee3-4209-5161-a7e2-ee0a979931a3",
+     "name": "Danny Rajalingam",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "find-and-update.company-information.service.gov.uk",
+        "document": "https://find-and-update.company-information.service.gov.uk/company/17418432/officers",
+        "date": "2026-08-25",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       },
+       {
+        "name": "find-and-update.company-information.service.gov.uk",
+        "document": "https://find-and-update.company-information.service.gov.uk/company/17418432/filing-history/MzU0MDQ2MTU1N2FkaXF6a2N4/document?format=pdf&download=0",
+        "date": "2026-08-25",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "5798be40-f33d-5022-b49c-af061e8f66be",
+      "valid_since": "2026-08-25"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

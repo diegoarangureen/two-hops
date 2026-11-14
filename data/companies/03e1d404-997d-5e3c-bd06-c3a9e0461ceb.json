@@ -1,0 +1,307 @@
+{
+ "id": "03e1d404-997d-5e3c-bd06-c3a9e0461ceb",
+ "name": "Martin Brainon",
+ "entity_type": "Company",
+ "description": "Desarrollamos productos tecnológicos basados en ciencia, datos, inteligencia artificial y análisis de comportamiento. Herramientas con rigor científico, fáciles de usar, y con impacto real.",
+ "properties": {
+  "name": {
+   "value": "Martin Brainon",
+   "sources": [
+    {
+     "name": "martinbrainon.com",
+     "document": "https://martinbrainon.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/martin-brainon/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "MARTIN BRAINON S.L.",
+   "sources": [
+    {
+     "name": "martinbrainon.com",
+     "document": "https://martinbrainon.com/aviso-legal/",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "boe.es",
+     "document": "https://www.boe.es/borme/dias/2015/03/12/pdfs/BORME-A-2015-49-28.pdf",
+     "date": "2015-03-12",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "website": {
+   "value": "martinbrainon.com",
+   "sources": [
+    {
+     "name": "martinbrainon.com",
+     "document": "https://martinbrainon.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "dns.google",
+     "document": "https://dns.google/query?name=martinbrainon.com&type=A",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "Desarrollamos productos tecnológicos basados en ciencia, datos, inteligencia artificial y análisis de comportamiento. Herramientas con rigor científico, fáciles de usar, y con impacto real.",
+   "sources": [
+    {
+     "name": "martinbrainon.com",
+     "document": "https://martinbrainon.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2015-02-16",
+   "sources": [
+    {
+     "name": "boe.es",
+     "document": "https://www.boe.es/borme/dias/2015/03/12/pdfs/BORME-A-2015-49-28.pdf",
+     "date": "2015-03-12",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "Madrid, Spain",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/martin-brainon/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    },
+    {
+     "name": "martinbrainon.com",
+     "document": "https://martinbrainon.com/",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "martinbrainon.com",
+     "document": "https://martinbrainon.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "boe.es",
+     "document": "https://www.boe.es/borme/dias/2015/03/12/pdfs/BORME-A-2015-49-28.pdf",
+     "date": "2015-03-12",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "total_funding": {
+   "value": 13000.0,
+   "sources": [
+    {
+     "name": "infosubvenciones.es",
+     "document": "https://www.infosubvenciones.es/bdnstrans/api/concesiones/busqueda?vpd=GE&nifCif=B87203006&page=0&pageSize=50",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "total_funding_units": {
+   "value": "EUR",
+   "sources": [
+    {
+     "name": "infosubvenciones.es",
+     "document": "https://www.infosubvenciones.es/bdnstrans/api/concesiones/busqueda?vpd=GE&nifCif=B87203006&page=0&pageSize=50",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "total_funding_excluding_debt": {
+   "value": 13000.0,
+   "sources": [
+    {
+     "name": "infosubvenciones.es",
+     "document": "https://www.infosubvenciones.es/bdnstrans/api/concesiones/busqueda?vpd=GE&nifCif=B87203006&page=0&pageSize=50",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "7330ccaf-4f88-5c87-aa02-2774c80b89b6",
+     "name": "Grant",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "infosubvenciones.es",
+        "document": "https://www.infosubvenciones.es/bdnstrans/api/concesiones/busqueda?vpd=GE&nifCif=B87203006&page=0&pageSize=50",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "ae82ea91-d845-53ab-a83d-2d89d8657496"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "e2e6f261-d8cc-5ae8-968e-3d72597a672e"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "8ecf5e57-a149-438c-9eb4-089809bade56",
+     "name": "SOFTWARE_AND_SERVICES",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/martin-brainon/",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "09eb3877-a393-5363-a8d6-6b6f2f850a6d",
+      "original_label": "analytics"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "IS_CEO_OF": [
+    {
+     "id": "dbfeaaa7-016e-5c9b-bf95-f899f83b3879",
+     "name": "Noemi Álvarez Gutiérrez",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "martinbrainon.com",
+        "document": "https://martinbrainon.com/human-tech/",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "martinbrainon.com",
+        "document": "https://martinbrainon.com/consultoria/",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "a1c3637a-5452-59f0-894a-0834f59ce6a0"
+     }
+    }
+   ],
+   "IS_BOARD_MEMBER_OF": [
+    {
+     "id": "a540a650-3819-5026-b23b-784ffd01a463",
+     "name": "Olga Perez Alonso",
+     "entity_type": "Person",
+     "properties": {
+      "valid_until": "2022-06-28",
+      "sources": [
+       {
+        "name": "boe.es",
+        "document": "https://www.boe.es/borme/dias/2015/03/12/pdfs/BORME-A-2015-49-28.pdf",
+        "date": "2015-03-12",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       },
+       {
+        "name": "boe.es",
+        "document": "https://www.boe.es/borme/dias/2022/07/05/pdfs/BORME-A-2022-127-28.pdf",
+        "date": "2022-07-05",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "52cb9915-f4d3-53c1-974c-63d07fdcb8e7",
+      "valid_since": "2015-03-05"
+     }
+    },
+    {
+     "id": "dbfeaaa7-016e-5c9b-bf95-f899f83b3879",
+     "name": "Noemi Álvarez Gutiérrez",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "boe.es",
+        "document": "https://www.boe.es/borme/dias/2015/03/12/pdfs/BORME-A-2015-49-28.pdf",
+        "date": "2015-03-12",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       },
+       {
+        "name": "boe.es",
+        "document": "https://www.boe.es/borme/dias/2022/07/05/pdfs/BORME-A-2022-127-28.pdf",
+        "date": "2022-07-05",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "7631f04e-a15a-553b-be41-c77f3eb46104",
+      "valid_since": "2015-03-05"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

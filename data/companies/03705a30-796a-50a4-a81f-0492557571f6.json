@@ -1,0 +1,380 @@
+{
+ "id": "03705a30-796a-50a4-a81f-0492557571f6",
+ "name": "Liontech Instruments",
+ "entity_type": "Company",
+ "description": "Develops hardware-based malware detection: its SecureGuard module detects attacks directly in a system's physical memory and connects to SIEM systems, e.g. for data centers.",
+ "properties": {
+  "name": {
+   "value": "Liontech Instruments",
+   "sources": [
+    {
+     "name": "liontech-instruments.com",
+     "document": "https://liontech-instruments.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/liontech-instruments/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "Liontech Instruments UG (haftungsbeschränkt)",
+   "sources": [
+    {
+     "name": "liontech-instruments.com",
+     "document": "https://www.liontech-instruments.com/en/legal-notice/",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "online-handelsregister.de",
+     "document": "https://www.online-handelsregister.de/handelsregisterauszug/ni/Braunschweig/HRB/212322/Liontech-Instruments-UG-haftungsbeschraenkt",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "website": {
+   "value": "liontech-instruments.com",
+   "sources": [
+    {
+     "name": "liontech-instruments.com",
+     "document": "https://liontech-instruments.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "dns.google",
+     "document": "https://dns.google/query?name=liontech-instruments.com&type=A",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "web.archive.org",
+     "document": "https://web.archive.org/web/20240416132829/https://www.liontech-instruments.com/",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "Develops hardware-based malware detection: its SecureGuard module detects attacks directly in a system's physical memory and connects to SIEM systems, e.g. for data centers.",
+   "sources": [
+    {
+     "name": "liontech-instruments.com",
+     "document": "https://www.liontech-instruments.com/en/",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2025-01-01",
+   "sources": [
+    {
+     "name": "liontech-instruments.com",
+     "document": "https://www.liontech-instruments.com/de/team/",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "Braunschweig, Germany",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/liontech-instruments/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    },
+    {
+     "name": "liontech-instruments.com",
+     "document": "https://www.liontech-instruments.com/en/legal-notice/",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "liontech-instruments.com",
+     "document": "https://liontech-instruments.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "online-handelsregister.de",
+     "document": "https://www.online-handelsregister.de/handelsregisterauszug/ni/Braunschweig/HRB/212322/Liontech-Instruments-UG-haftungsbeschraenkt",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "total_funding": {
+   "value": 129000.0,
+   "sources": [
+    {
+     "name": "liontech-instruments.com",
+     "document": "https://www.liontech-instruments.com/de/team/",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "total_funding_units": {
+   "value": "EUR",
+   "sources": [
+    {
+     "name": "liontech-instruments.com",
+     "document": "https://www.liontech-instruments.com/de/team/",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "total_funding_excluding_debt": {
+   "value": 129000.0,
+   "sources": [
+    {
+     "name": "liontech-instruments.com",
+     "document": "https://www.liontech-instruments.com/de/team/",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "b49a2861-c897-595d-ae5b-eaca84064ab1",
+     "name": "Grant",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "liontech-instruments.com",
+        "document": "https://www.liontech-instruments.com/de/team/",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "32c49775-7b90-5e47-aa71-0be17b4a8de7"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "6bdeabfe-4e81-58de-851c-1057a6b57170"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "8ecf5e57-a149-438c-9eb4-089809bade56",
+     "name": "SOFTWARE_AND_SERVICES",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/liontech-instruments/",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "bf36fcb4-cc9e-5710-9ce7-b835be9a43b7",
+      "original_label": "cyber"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "FOUNDED": [
+    {
+     "id": "0edf9784-2645-5039-846b-23b3363ac407",
+     "name": "Richard Czuberny",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "liontech-instruments.com",
+        "document": "https://www.liontech-instruments.com/de/team/",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "89148cff-b30e-51cf-8f41-181b02914077"
+     }
+    },
+    {
+     "id": "1d1007d5-2d91-5749-bc92-6788a84727a1",
+     "name": "Paula Schöner",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "liontech-instruments.com",
+        "document": "https://www.liontech-instruments.com/de/team/",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "48d84a9a-558c-5694-be04-c6ea995af089"
+     }
+    },
+    {
+     "id": "ba9bfe04-21f2-5c60-834a-1ac0c3e43f17",
+     "name": "Leonard Kugis",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "liontech-instruments.com",
+        "document": "https://www.liontech-instruments.com/de/team/",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "713bb7b3-9f93-5b7e-afb1-d41fb0351eed"
+     }
+    },
+    {
+     "id": "e33e2d10-3531-5e17-a4b3-2f125e018eea",
+     "name": "Roxane Kirschmann",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "liontech-instruments.com",
+        "document": "https://www.liontech-instruments.com/de/team/",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "6d99c0b0-71dd-5ac2-bcb1-dfaba6f689cc"
+     }
+    }
+   ],
+   "IS_CEO_OF": [
+    {
+     "id": "1d1007d5-2d91-5749-bc92-6788a84727a1",
+     "name": "Paula Schöner",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "liontech-instruments.com",
+        "document": "https://www.liontech-instruments.com/de/team/",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "772809c8-d06c-5460-803d-3160b9df61e3"
+     }
+    },
+    {
+     "id": "e33e2d10-3531-5e17-a4b3-2f125e018eea",
+     "name": "Roxane Kirschmann",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "liontech-instruments.com",
+        "document": "https://www.liontech-instruments.com/de/team/",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "04bc6788-2202-5158-80e1-9135fd1916a4"
+     }
+    }
+   ],
+   "IS_CTO_OF": [
+    {
+     "id": "0edf9784-2645-5039-846b-23b3363ac407",
+     "name": "Richard Czuberny",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "liontech-instruments.com",
+        "document": "https://www.liontech-instruments.com/de/team/",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "1fe341ea-a0e4-5892-857d-c452e380b477"
+     }
+    }
+   ],
+   "WORKS_AT": [
+    {
+     "id": "ba9bfe04-21f2-5c60-834a-1ac0c3e43f17",
+     "name": "Leonard Kugis",
+     "entity_type": "Person",
+     "properties": {
+      "role": "CIO",
+      "sources": [
+       {
+        "name": "liontech-instruments.com",
+        "document": "https://www.liontech-instruments.com/de/team/",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "34cbdbeb-5524-58d2-9e7e-c4ac434788d3"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

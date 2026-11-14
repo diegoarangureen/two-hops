@@ -1,0 +1,189 @@
+{
+ "id": "064365e4-7ef5-53b4-aa14-c094e07cf145",
+ "name": "Carica Stories",
+ "entity_type": "Company",
+ "description": "Carica Stories ist ein unabhängiger Kinderbuchverlag für sorgfältig ausgewählte, übersetzte und interkulturelle Geschichten – zum Vorlesen und Entdecken.",
+ "properties": {
+  "name": {
+   "value": "Carica Stories",
+   "sources": [
+    {
+     "name": "caricastories.com",
+     "document": "https://caricastories.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/caricastories/posts/?feedView=all",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "Carica Stories UG (haftungsbeschränkt)",
+   "sources": [
+    {
+     "name": "caricastories.com",
+     "document": "https://caricastories.com/impressum/",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "website": {
+   "value": "caricastories.com",
+   "sources": [
+    {
+     "name": "caricastories.com",
+     "document": "https://caricastories.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "dns.google",
+     "document": "https://dns.google/query?name=caricastories.com&type=A",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "Carica Stories ist ein unabhängiger Kinderbuchverlag für sorgfältig ausgewählte, übersetzte und interkulturelle Geschichten – zum Vorlesen und Entdecken.",
+   "sources": [
+    {
+     "name": "caricastories.com",
+     "document": "https://caricastories.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2026-01-01",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/caricastories/posts/?feedView=all",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "Osnabrück , Germany",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/caricastories/posts/?feedView=all",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "caricastories.com",
+     "document": "https://caricastories.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "563622e4-6a7c-54ed-9355-73832442eb75"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "01552894-6b07-4396-b18b-006cdbf489c4",
+     "name": "NEWS_AND_INFORMATION",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/caricastories/posts/?feedView=all",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "f768e379-f386-5cf9-8959-86b76d839b0b",
+      "original_label": "media"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "WORKS_AT": [
+    {
+     "id": "1fa8ba6f-aea9-5f73-85ad-abbf9f3370c9",
+     "name": "Franziska von Wendorff",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Editor and Partnership Manager",
+      "sources": [
+       {
+        "name": "caricastories.com",
+        "document": "https://caricastories.com/carica-stories/nach-bologna-wo-geschichte-branche-und-die-zukunft-von-kinderinhalten-zusammenkommen/",
+        "date": "2026-04-04",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "1dd25df7-52a6-535f-9a00-30b332406f95"
+     }
+    },
+    {
+     "id": "c57b1ac6-861d-5237-9964-db6778bcd94e",
+     "name": "Ahmed Nasr",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Publisher and Business Developer",
+      "sources": [
+       {
+        "name": "caricastories.com",
+        "document": "https://caricastories.com/carica-stories/nach-bologna-wo-geschichte-branche-und-die-zukunft-von-kinderinhalten-zusammenkommen/",
+        "date": "2026-04-04",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "435e9b38-3db9-5f6d-a8ce-df5a1b47d35a"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

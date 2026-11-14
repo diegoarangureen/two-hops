@@ -1,0 +1,375 @@
+{
+ "id": "5cfa57ca-8e7f-53f5-acb8-3d452725c1cb",
+ "name": "Seed",
+ "entity_type": "FundingRound",
+ "description": null,
+ "properties": {
+  "name": {
+   "value": "Seed",
+   "sources": [
+    {
+     "name": "cardboard.inc",
+     "document": "https://cardboard.inc/blog/cardboard-in-2024/",
+     "date": "2025-01-09",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "arctictoday.com",
+     "document": "https://www.arctictoday.com/%F0%9F%87%B3%F0%9F%87%B4-cardboard-raises-e1-9-million-in-a-round-led-by-skyfall-ventures",
+     "date": "2024-08-29",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "tech.eu",
+     "document": "https://tech.eu/2024/08/27/cardboard-raises-1-9m-for-saas-subscription-management/",
+     "date": "2024-08-27",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "shifter.no",
+     "document": "https://www.shifter.no/nyheter/347166",
+     "date": "2024-08-27",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "round_label": {
+   "value": "SEED",
+   "sources": [
+    {
+     "name": "cardboard.inc",
+     "document": "https://cardboard.inc/blog/cardboard-in-2024/",
+     "date": "2025-01-09",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "arctictoday.com",
+     "document": "https://www.arctictoday.com/%F0%9F%87%B3%F0%9F%87%B4-cardboard-raises-e1-9-million-in-a-round-led-by-skyfall-ventures",
+     "date": "2024-08-29",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "tech.eu",
+     "document": "https://tech.eu/2024/08/27/cardboard-raises-1-9m-for-saas-subscription-management/",
+     "date": "2024-08-27",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "shifter.no",
+     "document": "https://www.shifter.no/nyheter/347166",
+     "date": "2024-08-27",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "instrument": {
+   "value": "EQUITY",
+   "sources": [
+    {
+     "name": "w2.brreg.no",
+     "document": "https://w2.brreg.no/kunngjoring/hent_en.jsp?kid=20240000810212&sokeverdi=930070556&spraak=nb",
+     "date": "2024-08-05",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "cardboard.inc",
+     "document": "https://cardboard.inc/blog/cardboard-in-2024/",
+     "date": "2025-01-09",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "transaction_value": {
+   "value": 1900000.0,
+   "sources": [
+    {
+     "name": "cardboard.inc",
+     "document": "https://cardboard.inc/blog/cardboard-in-2024/",
+     "date": "2025-01-09",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "arctictoday.com",
+     "document": "https://www.arctictoday.com/%F0%9F%87%B3%F0%9F%87%B4-cardboard-raises-e1-9-million-in-a-round-led-by-skyfall-ventures",
+     "date": "2024-08-29",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "tech.eu",
+     "document": "https://tech.eu/2024/08/27/cardboard-raises-1-9m-for-saas-subscription-management/",
+     "date": "2024-08-27",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "shifter.no",
+     "document": "https://www.shifter.no/nyheter/347166",
+     "date": "2024-08-27",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "transaction_value_units": {
+   "value": "EUR",
+   "sources": [
+    {
+     "name": "cardboard.inc",
+     "document": "https://cardboard.inc/blog/cardboard-in-2024/",
+     "date": "2025-01-09",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "arctictoday.com",
+     "document": "https://www.arctictoday.com/%F0%9F%87%B3%F0%9F%87%B4-cardboard-raises-e1-9-million-in-a-round-led-by-skyfall-ventures",
+     "date": "2024-08-29",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "tech.eu",
+     "document": "https://tech.eu/2024/08/27/cardboard-raises-1-9m-for-saas-subscription-management/",
+     "date": "2024-08-27",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "shifter.no",
+     "document": "https://www.shifter.no/nyheter/347166",
+     "date": "2024-08-27",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "announcement_date": {
+   "value": "2024-08-27",
+   "sources": [
+    {
+     "name": "tech.eu",
+     "document": "https://tech.eu/2024/08/27/cardboard-raises-1-9m-for-saas-subscription-management/",
+     "date": "2024-08-27",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "shifter.no",
+     "document": "https://www.shifter.no/nyheter/347166",
+     "date": "2024-08-27",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "annotations": {
+   "value": [
+    "Company 2024 retrospective: \"we secured €1.9M in seed funding led by Skyfall Ventures\".",
+    "round_label_stated:Seed"
+   ],
+   "sources": []
+  }
+ },
+ "relationships": {
+  "outgoing": {},
+  "incoming": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "06003085-7f8e-4373-860a-602a7892e670",
+     "name": "Cardboard",
+     "entity_type": "Company",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "cardboard.inc",
+        "document": "https://cardboard.inc/blog/cardboard-in-2024/",
+        "date": "2025-01-09",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "arctictoday.com",
+        "document": "https://www.arctictoday.com/%F0%9F%87%B3%F0%9F%87%B4-cardboard-raises-e1-9-million-in-a-round-led-by-skyfall-ventures",
+        "date": "2024-08-29",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2024/08/27/cardboard-raises-1-9m-for-saas-subscription-management/",
+        "date": "2024-08-27",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "shifter.no",
+        "document": "https://www.shifter.no/nyheter/347166",
+        "date": "2024-08-27",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "7949ad24-9b7b-5199-abcf-7d5b590a2be6"
+     }
+    },
+    {
+     "id": "264e9f4b-07cc-4ee0-acef-94f3a0ab080e",
+     "name": "RunwayFBU",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "cardboard.inc",
+        "document": "https://cardboard.inc/blog/cardboard-in-2024/",
+        "date": "2025-01-09",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "arctictoday.com",
+        "document": "https://www.arctictoday.com/%F0%9F%87%B3%F0%9F%87%B4-cardboard-raises-e1-9-million-in-a-round-led-by-skyfall-ventures",
+        "date": "2024-08-29",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2024/08/27/cardboard-raises-1-9m-for-saas-subscription-management/",
+        "date": "2024-08-27",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "shifter.no",
+        "document": "https://www.shifter.no/nyheter/347166",
+        "date": "2024-08-27",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "30f31cd2-fc59-5aef-8f05-4eb10f0685da"
+     }
+    },
+    {
+     "id": "5b41e29a-5d31-451b-8de0-68d99298b0ac",
+     "name": "SKYFALL VENTURES AS",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "cardboard.inc",
+        "document": "https://cardboard.inc/blog/cardboard-in-2024/",
+        "date": "2025-01-09",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "arctictoday.com",
+        "document": "https://www.arctictoday.com/%F0%9F%87%B3%F0%9F%87%B4-cardboard-raises-e1-9-million-in-a-round-led-by-skyfall-ventures",
+        "date": "2024-08-29",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2024/08/27/cardboard-raises-1-9m-for-saas-subscription-management/",
+        "date": "2024-08-27",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "shifter.no",
+        "document": "https://www.shifter.no/nyheter/347166",
+        "date": "2024-08-27",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "is_lead": true,
+      "id": "e4020293-e579-57dd-a460-8a8e2095b225"
+     }
+    },
+    {
+     "id": "f4c567c8-7219-41e0-a983-2158c077f3eb",
+     "name": "ProVenture ApS",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "cardboard.inc",
+        "document": "https://cardboard.inc/blog/cardboard-in-2024/",
+        "date": "2025-01-09",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "arctictoday.com",
+        "document": "https://www.arctictoday.com/%F0%9F%87%B3%F0%9F%87%B4-cardboard-raises-e1-9-million-in-a-round-led-by-skyfall-ventures",
+        "date": "2024-08-29",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "e7157db7-fb88-5a17-853e-6e30e827b96e"
+     }
+    },
+    {
+     "id": "fa3933fa-1eeb-4a15-ab1f-4e16f6cb3d84",
+     "name": "Sondo",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "cardboard.inc",
+        "document": "https://cardboard.inc/blog/cardboard-in-2024/",
+        "date": "2025-01-09",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "arctictoday.com",
+        "document": "https://www.arctictoday.com/%F0%9F%87%B3%F0%9F%87%B4-cardboard-raises-e1-9-million-in-a-round-led-by-skyfall-ventures",
+        "date": "2024-08-29",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2024/08/27/cardboard-raises-1-9m-for-saas-subscription-management/",
+        "date": "2024-08-27",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "shifter.no",
+        "document": "https://www.shifter.no/nyheter/347166",
+        "date": "2024-08-27",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "41a27e93-b5a7-5cc9-b45f-30e9dd5ea610"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

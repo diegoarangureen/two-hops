@@ -1,0 +1,138 @@
+{
+ "id": "035f6aff-d52f-5df6-832c-75cd57aba8be",
+ "name": "Skarvo, Inc.",
+ "entity_type": "Company",
+ "description": "What is your story? A new kind of app that helps you capture and share your life story with your friends and family. With the AI assistance and privacy that our friends and family have been waiting...",
+ "properties": {
+  "name": {
+   "value": "Skarvo, Inc.",
+   "sources": [
+    {
+     "name": "skarvo.com",
+     "document": "https://skarvo.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "Skarvo Inc.",
+   "sources": [
+    {
+     "name": "skarvo.com",
+     "document": "https://www.skarvo.com/",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "skarvo.com",
+     "document": "https://www.skarvo.com/privacy",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "website": {
+   "value": "skarvo.com",
+   "sources": [
+    {
+     "name": "skarvo.com",
+     "document": "https://skarvo.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "dns.google",
+     "document": "https://dns.google/query?name=skarvo.com&type=A",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "What is your story? A new kind of app that helps you capture and share your life story with your friends and family. With the AI assistance and privacy that our friends and family have been waiting...",
+   "sources": [
+    {
+     "name": "skarvo.com",
+     "document": "https://skarvo.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "Palo Alto, United States",
+   "sources": [
+    {
+     "name": "skarvo.com",
+     "document": "https://skarvo.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "skarvo.com",
+     "document": "https://skarvo.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "b3e66853-3b52-51a9-81ac-9e7d009c3ee3"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "8ecf5e57-a149-438c-9eb4-089809bade56",
+     "name": "SOFTWARE_AND_SERVICES",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "skarvo.com",
+        "document": "https://skarvo.com/",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "1e50b5b8-6849-5ae2-b3a7-fcc3b7fd269d",
+      "original_label": "ai"
+     }
+    }
+   ]
+  },
+  "incoming": {}
+ },
+ "numerical_observations": []
+}

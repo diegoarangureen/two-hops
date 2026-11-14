@@ -1,0 +1,217 @@
+{
+ "id": "06b789de-8ff6-51d8-a5e9-2d10332ea899",
+ "name": "LinesLogic",
+ "entity_type": "Company",
+ "description": "Turn construction document chaos into instant, connected answers. LinesLogic reads your drawings, specs and RFIs, cited to the source. Get a demo.",
+ "properties": {
+  "name": {
+   "value": "LinesLogic",
+   "sources": [
+    {
+     "name": "lineslogic.com",
+     "document": "https://lineslogic.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/lineslogic/about/?viewAsMember=true",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "LinesLogic Oy",
+   "sources": [
+    {
+     "name": "lineslogic.com",
+     "document": "https://lineslogic.com/privacy",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "avoindata.prh.fi",
+     "document": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies?businessId=3609258-4",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "website": {
+   "value": "lineslogic.com",
+   "sources": [
+    {
+     "name": "lineslogic.com",
+     "document": "https://lineslogic.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "dns.google",
+     "document": "https://dns.google/query?name=lineslogic.com&type=A",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "Turn construction document chaos into instant, connected answers. LinesLogic reads your drawings, specs and RFIs, cited to the source. Get a demo.",
+   "sources": [
+    {
+     "name": "lineslogic.com",
+     "document": "https://lineslogic.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2026-03-21",
+   "sources": [
+    {
+     "name": "avoindata.prh.fi",
+     "document": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies?businessId=3609258-4",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "lineslogic.com",
+     "document": "https://lineslogic.com/about",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "Helsinki, Finland",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/lineslogic/about/?viewAsMember=true",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "lineslogic.com",
+     "document": "https://lineslogic.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "avoindata.prh.fi",
+     "document": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies?businessId=3609258-4",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "lineslogic.com",
+     "document": "https://lineslogic.com/about",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "f51a450c-e59f-5ce0-af9a-5bd7b056455a"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "1c1977b3-663a-47fb-81eb-51958758b70b",
+     "name": "CONSTRUCTION_AND_ENGINEERING",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/lineslogic/about/?viewAsMember=true",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "9fdd519c-8fba-5383-ad8e-f1eb5e9859f8",
+      "original_label": "propConstruction"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "FOUNDED": [
+    {
+     "id": "6dc9d117-8ed2-578d-8743-20dd6ca9e7b1",
+     "name": "Emil Gulyk",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "lineslogic.com",
+        "document": "https://lineslogic.com/about",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "bb7b4a41-fe80-5840-9ffd-1ae6ff04ce59"
+     }
+    }
+   ],
+   "IS_CEO_OF": [
+    {
+     "id": "6dc9d117-8ed2-578d-8743-20dd6ca9e7b1",
+     "name": "Emil Gulyk",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "lineslogic.com",
+        "document": "https://lineslogic.com/about",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "9ec7b615-c503-5e88-8ff5-dd00ebcfb87f"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

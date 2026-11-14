@@ -1,0 +1,444 @@
+{
+ "id": "0407336f-6fcc-55b8-8756-81d0c08e26ee",
+ "name": "Devia",
+ "entity_type": "Company",
+ "description": "Devia turns GMP deviations into operational intelligence: faster investigations, AI-assisted root cause, and audit-ready CAPA.",
+ "properties": {
+  "name": {
+   "value": "Devia",
+   "sources": [
+    {
+     "name": "devia.qa",
+     "document": "https://devia.qa/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/devia-ai/home/?viewAsMember=true",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "website": {
+   "value": "devia.qa",
+   "sources": [
+    {
+     "name": "devia.qa",
+     "document": "https://devia.qa/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "dns.google",
+     "document": "https://dns.google/query?name=devia.qa&type=A",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "web.archive.org",
+     "document": "http://web.archive.org/web/20261019165540/https://devia.qa/",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "Devia turns GMP deviations into operational intelligence: faster investigations, AI-assisted root cause, and audit-ready CAPA.",
+   "sources": [
+    {
+     "name": "devia.qa",
+     "document": "https://devia.qa/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2026-01-01",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/devia-ai/home/?viewAsMember=true",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "Zurich, Switzerland",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/devia-ai/home/?viewAsMember=true",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "devia.qa",
+     "document": "https://devia.qa/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "fd43d011-93a7-574d-a0bf-081fdb922e84"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "211634f1-a4ff-46f8-a558-596235045d51",
+     "name": "BIOTECHNOLOGY",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/devia-ai/home/?viewAsMember=true",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "be623efc-2e57-54c3-96cc-81bb540d4cc4",
+      "original_label": "lifeSciences"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "IS_CTO_OF": [
+    {
+     "id": "e57077d9-0673-5176-86ed-96e9723348d0",
+     "name": "Pascal Rodriguez",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "devia.qa",
+        "document": "https://devia.qa/team",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "unite.ai",
+        "document": "https://www.unite.ai/devia-ai-agents-pharmaceutical-quality-investigations/",
+        "date": "2026-11-11",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "f08c83a5-3b90-5c20-8890-2f587871eb71"
+     }
+    }
+   ],
+   "WORKS_AT": [
+    {
+     "id": "009ca9d7-d631-5db7-aab8-b355f8983483",
+     "name": "Matthieu Taubmann",
+     "entity_type": "Person",
+     "properties": {
+      "role": "UX/UI Researcher",
+      "sources": [
+       {
+        "name": "devia.qa",
+        "document": "https://devia.qa/team",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "69c5435a-a528-5b5e-b07c-afbb80fd2916"
+     }
+    },
+    {
+     "id": "0e62dc68-6496-5cef-8924-64851d75c962",
+     "name": "Thibault Calvayrac",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Lead ML Engineer",
+      "sources": [
+       {
+        "name": "devia.qa",
+        "document": "https://devia.qa/team",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "461514f8-67df-577c-b1d9-1b066bfddc2b"
+     }
+    },
+    {
+     "id": "16ee2e8f-4880-5f10-92b8-0598a2b68231",
+     "name": "Andrea Tassistro",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Chief Transformation Officer",
+      "sources": [
+       {
+        "name": "devia.qa",
+        "document": "https://devia.qa/team",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "71ee72e4-5280-569b-9b07-531f7e27fef0"
+     }
+    },
+    {
+     "id": "295ac103-8753-5634-bdc8-b21470ebc51c",
+     "name": "Marina García",
+     "entity_type": "Person",
+     "properties": {
+      "role": "ML Engineer",
+      "sources": [
+       {
+        "name": "devia.qa",
+        "document": "https://devia.qa/team",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "1c070aa1-cab1-5598-83ed-c48c3eb2f143"
+     }
+    },
+    {
+     "id": "2dcc6763-2b2c-57fa-a5ac-21ee0ebc8aee",
+     "name": "Peter Schmidt",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Strategic Partnerships Director",
+      "sources": [
+       {
+        "name": "devia.qa",
+        "document": "https://devia.qa/team",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "1c0b472f-4f8a-538a-b3eb-5effcb9132ba"
+     }
+    },
+    {
+     "id": "3b3b6c80-b185-56ba-9628-8b6811760d3f",
+     "name": "Gabriel Viela",
+     "entity_type": "Person",
+     "properties": {
+      "role": "GxP Specialist",
+      "sources": [
+       {
+        "name": "devia.qa",
+        "document": "https://devia.qa/team",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "0a768d90-d7a8-5b02-9d28-26ab057b1383"
+     }
+    },
+    {
+     "id": "7a9bcd51-acb2-5169-b058-987f04a18500",
+     "name": "Niklas Nyholm",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Full-Stack Engineer",
+      "sources": [
+       {
+        "name": "devia.qa",
+        "document": "https://devia.qa/team",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "065cca48-1981-5a09-9cad-b7484127ffb8"
+     }
+    },
+    {
+     "id": "7b09852d-b422-557e-870c-6b89601faa73",
+     "name": "Louis-Maxence Garret",
+     "entity_type": "Person",
+     "properties": {
+      "role": "AI Engineer",
+      "sources": [
+       {
+        "name": "devia.qa",
+        "document": "https://devia.qa/team",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "6c9a7f80-e6b4-567f-b106-21a395cb0ba8"
+     }
+    },
+    {
+     "id": "8522f012-ae27-5115-80bc-568957dc9196",
+     "name": "Anton Van Pamel",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Chief Product Officer",
+      "sources": [
+       {
+        "name": "devia.qa",
+        "document": "https://devia.qa/team",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "3253c57f-e9c8-5996-a0f8-c10e2fd4e560"
+     }
+    },
+    {
+     "id": "8578833e-3541-5ac9-aecd-01854e465949",
+     "name": "Csaba Bujna",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Strategic Partnerships Director",
+      "sources": [
+       {
+        "name": "devia.qa",
+        "document": "https://devia.qa/team",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "d999be90-8194-5000-ab0b-cdf4069c4c2d"
+     }
+    },
+    {
+     "id": "88c9a127-2094-5a5f-8800-5489ff1660c6",
+     "name": "Daniel Sosa",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Product Design Engineer",
+      "sources": [
+       {
+        "name": "devia.qa",
+        "document": "https://devia.qa/team",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "a6aeade3-270b-5fc4-be5e-0595537aabc9"
+     }
+    },
+    {
+     "id": "98b681f9-e3e0-5a52-a1ba-973d30258a9a",
+     "name": "Iván Torres García",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Software Engineer",
+      "sources": [
+       {
+        "name": "devia.qa",
+        "document": "https://devia.qa/team",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "513b085f-75ce-58b5-85a4-ffd44d957938"
+     }
+    },
+    {
+     "id": "b4d17197-403b-5f52-8af2-c5d22025347f",
+     "name": "Philippine des Courtils",
+     "entity_type": "Person",
+     "properties": {
+      "role": "ML Engineer",
+      "sources": [
+       {
+        "name": "devia.qa",
+        "document": "https://devia.qa/team",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "1636401b-0187-5c4f-9a31-311506025620"
+     }
+    },
+    {
+     "id": "e5fbcc5a-42a4-527c-9c48-70f78c70caf2",
+     "name": "Eric Gagnaux",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Strategic Partnerships Director",
+      "sources": [
+       {
+        "name": "devia.qa",
+        "document": "https://devia.qa/team",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "677aac49-fddf-5649-a1f1-fb8903c60b70"
+     }
+    },
+    {
+     "id": "eeaeb50a-aa8e-531b-bd31-3cf2dd8e6458",
+     "name": "Adnana Pidro",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Marketing Director",
+      "sources": [
+       {
+        "name": "devia.qa",
+        "document": "https://devia.qa/team",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "da8cbb98-97db-5415-bdd7-5a6e64137992"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

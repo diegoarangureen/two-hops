@@ -1,0 +1,116 @@
+{
+ "id": "938b1d36-7e93-5b27-ac9b-2fd86ac12e33",
+ "name": "Series A",
+ "entity_type": "FundingRound",
+ "description": null,
+ "properties": {
+  "name": {
+   "value": "Series A",
+   "sources": [
+    {
+     "name": "sec.gov",
+     "document": "https://www.sec.gov/Archives/edgar/data/1835770/000183577025000002/primary_doc.xml",
+     "date": "2025-12-18",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "round_label": {
+   "value": "SERIES_A",
+   "sources": [
+    {
+     "name": "sec.gov",
+     "document": "https://www.sec.gov/Archives/edgar/data/1835770/000183577025000002/primary_doc.xml",
+     "date": "2025-12-18",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "instrument": {
+   "value": "EQUITY",
+   "sources": [
+    {
+     "name": "sec.gov",
+     "document": "https://www.sec.gov/Archives/edgar/data/1835770/000183577025000002/primary_doc.xml",
+     "date": "2025-12-18",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "transaction_value": {
+   "value": 14133090.0,
+   "sources": [
+    {
+     "name": "sec.gov",
+     "document": "https://www.sec.gov/Archives/edgar/data/1835770/000183577025000002/primary_doc.xml",
+     "date": "2025-12-18",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "transaction_value_units": {
+   "value": "USD",
+   "sources": [
+    {
+     "name": "sec.gov",
+     "document": "https://www.sec.gov/Archives/edgar/data/1835770/000183577025000002/primary_doc.xml",
+     "date": "2025-12-18",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "event_date": {
+   "value": "2025-12-09",
+   "sources": [
+    {
+     "name": "sec.gov",
+     "document": "https://www.sec.gov/Archives/edgar/data/1835770/000183577025000002/primary_doc.xml",
+     "date": "2025-12-18",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "annotations": {
+   "value": [
+    "derived from the sequence",
+    "Form D does not name the round; no announcement found (searched company site, press and Wikipedia); v12c does not derive labels.",
+    "round_label_stated:Series A",
+    "round_label_basis:INFERRED",
+    "round_label_explanation:Unnamed equity round after rounds.1 (Seed): next label in the sequence (instructions §3.5)."
+   ],
+   "sources": []
+  }
+ },
+ "relationships": {
+  "outgoing": {},
+  "incoming": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "048f000e-ae70-4876-9d23-9e48c37877e7",
+     "name": "HUMAN AI LABS, INC.",
+     "entity_type": "Company",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "sec.gov",
+        "document": "https://www.sec.gov/Archives/edgar/data/1835770/000183577025000002/primary_doc.xml",
+        "date": "2025-12-18",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "ea63f95a-66ee-5413-be56-b85442226d75"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

@@ -1,0 +1,566 @@
+{
+ "id": "0515dd5c-b980-535a-8a2e-c09bad4f128b",
+ "name": "Palette",
+ "entity_type": "Company",
+ "description": "Palette helps your whole team work with Claude Code, Codex, Gemini, and more on the files and context they already share, across people, teams, and agents.",
+ "properties": {
+  "name": {
+   "value": "Palette",
+   "sources": [
+    {
+     "name": "palette.team",
+     "document": "https://palette.team/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/palette-team",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "Palette Group ApS",
+   "sources": [
+    {
+     "name": "palette.team",
+     "document": "https://palette.team/terms",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "northdata.de",
+     "document": "https://www.northdata.de/Palette%20Group%20ApS",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "website": {
+   "value": "palette.team",
+   "sources": [
+    {
+     "name": "palette.team",
+     "document": "https://palette.team/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "dns.google",
+     "document": "https://dns.google/query?name=palette.team&type=A",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "Palette helps your whole team work with Claude Code, Codex, Gemini, and more on the files and context they already share, across people, teams, and agents.",
+   "sources": [
+    {
+     "name": "palette.team",
+     "document": "https://palette.team/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2025-01-01",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/palette-team",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "Copenhagen, Denmark",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/palette-team",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "palette.team",
+     "document": "https://palette.team/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "employee_count_range": {
+   "value": [
+    1,
+    10
+   ],
+   "sources": [
+    {
+     "name": "thehub.io",
+     "document": "https://thehub.io/startups/palette",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "total_funding": {
+   "value": 3000000.0,
+   "sources": [
+    {
+     "name": "arcticstartup.com",
+     "document": "https://arcticstartup.com/palette-raises-e3m-pre-seed/",
+     "date": "2026-08-11",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "palette.team",
+     "document": "https://palette.team/blog/announcing-our-pre-seed",
+     "date": "2026-08-11",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "total_funding_units": {
+   "value": "EUR",
+   "sources": [
+    {
+     "name": "arcticstartup.com",
+     "document": "https://arcticstartup.com/palette-raises-e3m-pre-seed/",
+     "date": "2026-08-11",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "palette.team",
+     "document": "https://palette.team/blog/announcing-our-pre-seed",
+     "date": "2026-08-11",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "total_funding_excluding_debt": {
+   "value": 3000000.0,
+   "sources": [
+    {
+     "name": "arcticstartup.com",
+     "document": "https://arcticstartup.com/palette-raises-e3m-pre-seed/",
+     "date": "2026-08-11",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "palette.team",
+     "document": "https://palette.team/blog/announcing-our-pre-seed",
+     "date": "2026-08-11",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "funding_stage": {
+   "value": "PRE_SEED",
+   "sources": [
+    {
+     "name": "arcticstartup.com",
+     "document": "https://arcticstartup.com/palette-raises-e3m-pre-seed/",
+     "date": "2026-08-11",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "1c461fa9-d012-580c-a05b-6592265b28cc",
+     "name": "Pre-Seed",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "arcticstartup.com",
+        "document": "https://arcticstartup.com/palette-raises-e3m-pre-seed/",
+        "date": "2026-08-11",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "palette.team",
+        "document": "https://palette.team/blog/announcing-our-pre-seed",
+        "date": "2026-08-11",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "2df66b73-081f-5730-a082-562cb0016cb8"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "1ee434f9-eb2a-5a01-9bc5-8be69514170e"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "8ecf5e57-a149-438c-9eb4-089809bade56",
+     "name": "SOFTWARE_AND_SERVICES",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/palette-team",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "74063fc0-6d1e-5b0e-bfcd-a9ba63832b02",
+      "original_label": "ai"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "INVESTED_IN": [
+    {
+     "id": "27c7bb67-7c46-4e0f-847f-dcdb7ae72971",
+     "name": "EMBLEM",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "palette.team",
+        "document": "https://palette.team/blog/announcing-our-pre-seed",
+        "date": "2026-08-11",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2026/08/11/palette-raises-eur3m-pre-seed-to-develop-an-os-for-ai-native-teams/",
+        "date": "2026-08-11",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "8e2a2f61-6b20-4c05-a7d0-02e80d040677"
+     }
+    },
+    {
+     "id": "34829e66-7e7e-412e-a0ea-c61014ced495",
+     "name": "Ugly Duckling Ventures Management ApS",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "palette.team",
+        "document": "https://palette.team/blog/announcing-our-pre-seed",
+        "date": "2026-08-11",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2026/08/11/palette-raises-eur3m-pre-seed-to-develop-an-os-for-ai-native-teams/",
+        "date": "2026-08-11",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "cc1ae7e8-184b-4327-8899-7df6487ff6bc"
+     }
+    },
+    {
+     "id": "f8712bf7-ae1a-407a-9779-5fb0c321771b",
+     "name": "Acadian Ventures",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "palette.team",
+        "document": "https://palette.team/blog/announcing-our-pre-seed",
+        "date": "2026-08-11",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2026/08/11/palette-raises-eur3m-pre-seed-to-develop-an-os-for-ai-native-teams/",
+        "date": "2026-08-11",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "35b0ef81-0ef3-4a3d-82a4-af7a7901e5fc"
+     }
+    }
+   ],
+   "FOUNDED": [
+    {
+     "id": "132fda46-9a9d-5254-9515-33d17a6d9dea",
+     "name": "Lars Ettrup",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "palette.team",
+        "document": "https://palette.team/blog/announcing-our-pre-seed",
+        "date": "2026-08-11",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "thehub.io",
+        "document": "https://thehub.io/startups/palette",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "2bbc292a-7b15-5038-a432-e2f189fe4c96"
+     }
+    },
+    {
+     "id": "15640033-ffc9-51e9-8795-2887160a6f89",
+     "name": "Brian Kyed",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "palette.team",
+        "document": "https://palette.team/blog/announcing-our-pre-seed",
+        "date": "2026-08-11",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2026/08/11/palette-raises-eur3m-pre-seed-to-develop-an-os-for-ai-native-teams/",
+        "date": "2026-08-11",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "thehub.io",
+        "document": "https://thehub.io/startups/palette",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "8b30fcb1-1392-5828-9b08-7a8e0d6fa4b8"
+     }
+    },
+    {
+     "id": "64d3c440-0f73-52a1-aa66-fcaedb8226c5",
+     "name": "Steffen D. Sommer",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "palette.team",
+        "document": "https://palette.team/blog/announcing-our-pre-seed",
+        "date": "2026-08-11",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "thehub.io",
+        "document": "https://thehub.io/startups/palette",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "97f59ee9-acda-50c9-a623-0351153bcb4f"
+     }
+    },
+    {
+     "id": "fa0a90a9-731c-5375-9ab8-f61034f74a58",
+     "name": "Christian Lomholt",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "palette.team",
+        "document": "https://palette.team/blog/announcing-our-pre-seed",
+        "date": "2026-08-11",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "thehub.io",
+        "document": "https://thehub.io/startups/palette",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "c5820921-196b-571f-90ec-5f65dabf69ab"
+     }
+    }
+   ],
+   "IS_CEO_OF": [
+    {
+     "id": "132fda46-9a9d-5254-9515-33d17a6d9dea",
+     "name": "Lars Ettrup",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "palette.team",
+        "document": "https://palette.team/blog/announcing-our-pre-seed",
+        "date": "2026-08-11",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "thehub.io",
+        "document": "https://thehub.io/startups/palette",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "c19d4da8-ac4a-5904-819b-3d946c685b77"
+     }
+    }
+   ],
+   "IS_CTO_OF": [
+    {
+     "id": "64d3c440-0f73-52a1-aa66-fcaedb8226c5",
+     "name": "Steffen D. Sommer",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "thehub.io",
+        "document": "https://thehub.io/startups/palette",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "f98eeee4-5af6-5fab-972f-7e8fc7aab403"
+     }
+    }
+   ],
+   "IS_BOARD_MEMBER_OF": [
+    {
+     "id": "132fda46-9a9d-5254-9515-33d17a6d9dea",
+     "name": "Lars Ettrup",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "northdata.de",
+        "document": "https://www.northdata.de/Palette%20Group%20ApS",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "0a27f842-40ca-5015-9dd2-5621293e2b75"
+     }
+    },
+    {
+     "id": "15640033-ffc9-51e9-8795-2887160a6f89",
+     "name": "Brian Kyed",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "northdata.de",
+        "document": "https://www.northdata.de/Palette%20Group%20ApS",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "842df73b-0978-5a8b-9149-d5469ccfd108"
+     }
+    },
+    {
+     "id": "890736e2-0ff0-53c6-9cf2-778e7be1f33c",
+     "name": "Andreas Green Rasmussen",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "northdata.de",
+        "document": "https://www.northdata.de/Palette%20Group%20ApS",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "36085a40-5f41-5aa2-9a72-4cedad0dbbd3"
+     }
+    }
+   ],
+   "WORKS_AT": [
+    {
+     "id": "fa0a90a9-731c-5375-9ab8-f61034f74a58",
+     "name": "Christian Lomholt",
+     "entity_type": "Person",
+     "properties": {
+      "role": "CPO",
+      "sources": [
+       {
+        "name": "thehub.io",
+        "document": "https://thehub.io/startups/palette",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "188d1e83-4fe6-589c-839e-c5b77c7c653e"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

@@ -1,0 +1,812 @@
+{
+ "id": "057c7768-b724-44ef-b63d-e07f9b1a8bc0",
+ "name": "Engrate",
+ "entity_type": "Company",
+ "description": "AI-native unified API platform helping electricity producers and consumers access and trade on European energy markets.",
+ "properties": {
+  "name": {
+   "value": "Engrate",
+   "sources": [
+    {
+     "name": "Portfolio | Maniv",
+     "document": "https://maniv.com/portfolio",
+     "date": "2024-01-01"
+    },
+    {
+     "name": "engrate.io",
+     "document": "https://engrate.io/",
+     "date": "2026-10-29",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2025/06/swedish-energy-startup-engrate-raises-e2-5-million-for-efficient-energy-integration/",
+     "date": "2025-06-01",
+     "date_precision": "month",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "aliases": {
+   "value": [],
+   "sources": []
+  },
+  "website": {
+   "value": "engrate.io",
+   "sources": [
+    {
+     "name": "engrate.io",
+     "document": "https://engrate.io/",
+     "date": "2026-10-29",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "dns.google",
+     "document": "https://dns.google/query?name=engrate.io&type=A",
+     "date": "2026-10-29",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "AI-native unified API platform helping electricity producers and consumers access and trade on European energy markets.",
+   "sources": [
+    {
+     "name": "Portfolio | Maniv",
+     "document": "https://maniv.com/portfolio",
+     "date": "2024-01-01"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2024-01-01",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/engrate",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "engrate.io",
+     "document": "https://engrate.io/",
+     "date": "2026-11-06",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "employee_count_range": {
+   "value": [
+    1,
+    10
+   ],
+   "sources": [
+    {
+     "name": "theorg.com",
+     "document": "https://theorg.com/org/engrate",
+     "date": "2026-11-09",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "total_funding": {
+   "value": 3000000.0,
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2025/06/swedish-energy-startup-engrate-raises-e2-5-million-for-efficient-energy-integration/",
+     "date": "2025-06-13",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "siliconcanals.com",
+     "document": "https://siliconcanals.com/engrate-raises-e2-5m/",
+     "date": "2025-06-16",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "bebeez.eu",
+     "document": "https://bebeez.eu/2025/06/12/with-e2-5m-seed-round-swedish-engrate-aims-to-digitally-unclog-europes-energy-bottlenecks/",
+     "date": "2025-06-12",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "siliconcanals.com",
+     "document": "https://siliconcanals.com/engrate-raises-e2-5m",
+     "date": "2025-06-16",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "total_funding_units": {
+   "value": "EUR",
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2025/06/swedish-energy-startup-engrate-raises-e2-5-million-for-efficient-energy-integration/",
+     "date": "2025-06-13",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "siliconcanals.com",
+     "document": "https://siliconcanals.com/engrate-raises-e2-5m/",
+     "date": "2025-06-16",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "bebeez.eu",
+     "document": "https://bebeez.eu/2025/06/12/with-e2-5m-seed-round-swedish-engrate-aims-to-digitally-unclog-europes-energy-bottlenecks/",
+     "date": "2025-06-12",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "siliconcanals.com",
+     "document": "https://siliconcanals.com/engrate-raises-e2-5m",
+     "date": "2025-06-16",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "total_funding_excluding_debt": {
+   "value": 3000000.0,
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2025/06/swedish-energy-startup-engrate-raises-e2-5-million-for-efficient-energy-integration/",
+     "date": "2025-06-13",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "siliconcanals.com",
+     "document": "https://siliconcanals.com/engrate-raises-e2-5m/",
+     "date": "2025-06-16",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "bebeez.eu",
+     "document": "https://bebeez.eu/2025/06/12/with-e2-5m-seed-round-swedish-engrate-aims-to-digitally-unclog-europes-energy-bottlenecks/",
+     "date": "2025-06-12",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "siliconcanals.com",
+     "document": "https://siliconcanals.com/engrate-raises-e2-5m",
+     "date": "2025-06-16",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "funding_stage": {
+   "value": "SEED",
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2025/06/swedish-energy-startup-engrate-raises-e2-5-million-for-efficient-energy-integration/",
+     "date": "2025-06-13",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "77a64bb7-4ba4-5b0b-973e-b145751155c9",
+     "name": "Equity round",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "eu-startups.com",
+        "document": "https://www.eu-startups.com/2025/06/swedish-energy-startup-engrate-raises-e2-5-million-for-efficient-energy-integration/",
+        "date": "2025-06-13",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "bebeez.eu",
+        "document": "https://bebeez.eu/2025/06/12/with-e2-5m-seed-round-swedish-engrate-aims-to-digitally-unclog-europes-energy-bottlenecks/",
+        "date": "2025-06-12",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "siliconcanals.com",
+        "document": "https://siliconcanals.com/engrate-raises-e2-5m",
+        "date": "2025-06-16",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "4ed52d50-8eb4-54af-ac59-eeb9448d0948"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_CORPORATE_EVENT": [
+    {
+     "id": "f9c1459c-7b45-4c77-aaa5-b67738aa4d01",
+     "name": "FINANCING_RAISED_OR_FACILITY_ENTERED",
+     "entity_type": "PrivateCompanyFundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/engrate/__a5rABkY23QvxKV5ewAB25w2eAkkMONRjsSBdBTkJR-Q",
+        "date": "2026-08-25"
+       },
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/engrate/__a5rABkY23QvxKV5ewAB25w2eAkkMONRjsSBdBTkJR-Q/funding-and-investors",
+        "date": "2026-08-25"
+       },
+       {
+        "name": "www.crunchbase.com",
+        "document": "https://www.crunchbase.com/organization/engrate/news_and_analysis",
+        "date": "2026-08-25"
+       },
+       {
+        "name": "www.crunchbase.com",
+        "document": "https://www.crunchbase.com/funding_round/engrate-seed--36f48cd6",
+        "date": "2026-08-25"
+       },
+       {
+        "name": "pitchbook.com",
+        "document": "https://pitchbook.com/profiles/company/608040-28",
+        "date": "2026-08-25"
+       },
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/venture-capital/coursecorrected/__WMQ0vTH7R5bYLDKoj9hHluNK5ZQ4xXbRbmn-jAS_V9I",
+        "date": "2026-08-25"
+       }
+      ],
+      "event_date": "2025-06-13",
+      "id": "27f1a48c-398e-482c-8b29-590634b17b2c"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "dea37305-eeed-502d-934e-f2575bc2c3be"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "11ce48e0-a853-4085-8142-f674977b1a3a",
+     "name": "RENEWABLE_ENERGY",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "Portfolio | Maniv",
+        "document": "https://maniv.com/portfolio",
+        "date": "2024-01-01"
+       }
+      ],
+      "id": "8ce60005-26aa-4d7c-8233-ebe6350e91bf"
+     }
+    },
+    {
+     "id": "11ce48e0-a853-4085-8142-f674977b1a3a",
+     "name": "RENEWABLE_ENERGY",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/engrate",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "4d4df538-e810-54e6-8ce9-393a3a0a1d4d",
+      "original_label": "energy"
+     }
+    },
+    {
+     "id": "8ecf5e57-a149-438c-9eb4-089809bade56",
+     "name": "SOFTWARE_AND_SERVICES",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "Portfolio | Maniv",
+        "document": "https://maniv.com/portfolio",
+        "date": "2024-01-01"
+       }
+      ],
+      "id": "8e2bb408-e514-4615-b546-91cb0b0af57c"
+     }
+    }
+   ],
+   "HAS_HEADQUARTERS_IN": [
+    {
+     "id": "45268f56-905f-4cbe-9729-0ad0bbff87fa",
+     "name": "Sweden",
+     "entity_type": "Country",
+     "properties": {
+      "sources": [
+       {
+        "name": "Norrsken - Be part of the solution",
+        "document": "https://norrsken.org/investments",
+        "date": "2026-08-25"
+       }
+      ],
+      "id": "494e49c9-d4a7-4bf9-938a-64573f196afa"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "INVESTED_IN": [
+    {
+     "id": "087dfc9a-a873-4462-9e48-bd3ab248cc22",
+     "name": "Earth (Berlin)",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/engrate/__a5rABkY23QvxKV5ewAB25w2eAkkMONRjsSBdBTkJR-Q",
+        "date": "2026-08-25"
+       },
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/engrate/__a5rABkY23QvxKV5ewAB25w2eAkkMONRjsSBdBTkJR-Q/funding-and-investors",
+        "date": "2026-08-25"
+       },
+       {
+        "name": "www.crunchbase.com",
+        "document": "https://www.crunchbase.com/organization/engrate/news_and_analysis",
+        "date": "2026-08-25"
+       },
+       {
+        "name": "www.crunchbase.com",
+        "document": "https://www.crunchbase.com/funding_round/engrate-seed--36f48cd6",
+        "date": "2026-08-25"
+       },
+       {
+        "name": "pitchbook.com",
+        "document": "https://pitchbook.com/profiles/company/608040-28",
+        "date": "2026-08-25"
+       },
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/venture-capital/coursecorrected/__WMQ0vTH7R5bYLDKoj9hHluNK5ZQ4xXbRbmn-jAS_V9I",
+        "date": "2026-08-25"
+       }
+      ],
+      "id": "af119bc9-ea1b-42b8-93cd-47c0bbd48bcb"
+     }
+    },
+    {
+     "id": "1899b02c-ae29-4f2a-8dee-163c46777be9",
+     "name": "EVINY AS",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/engrate/__a5rABkY23QvxKV5ewAB25w2eAkkMONRjsSBdBTkJR-Q",
+        "date": "2026-08-25"
+       },
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/engrate/__a5rABkY23QvxKV5ewAB25w2eAkkMONRjsSBdBTkJR-Q/funding-and-investors",
+        "date": "2026-08-25"
+       },
+       {
+        "name": "www.crunchbase.com",
+        "document": "https://www.crunchbase.com/organization/engrate/news_and_analysis",
+        "date": "2026-08-25"
+       },
+       {
+        "name": "www.crunchbase.com",
+        "document": "https://www.crunchbase.com/funding_round/engrate-seed--36f48cd6",
+        "date": "2026-08-25"
+       },
+       {
+        "name": "pitchbook.com",
+        "document": "https://pitchbook.com/profiles/company/608040-28",
+        "date": "2026-08-25"
+       },
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/venture-capital/coursecorrected/__WMQ0vTH7R5bYLDKoj9hHluNK5ZQ4xXbRbmn-jAS_V9I",
+        "date": "2026-08-25"
+       }
+      ],
+      "id": "3d8ecfba-aef1-4ae1-8627-5222abd9de5e"
+     }
+    },
+    {
+     "id": "1fd8f680-ce94-4e36-b56d-e2dc9d2e983a",
+     "name": "Maniv Mobility A, LP",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "Portfolio | Maniv",
+        "document": "https://maniv.com/portfolio",
+        "date": "2024-01-01"
+       },
+       {
+        "name": "bebeez.eu",
+        "document": "https://bebeez.eu/2025/06/12/with-e2-5m-seed-round-swedish-engrate-aims-to-digitally-unclog-europes-energy-bottlenecks/",
+        "date": "2025-06-12",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "mynewsdesk.com",
+        "document": "https://www.mynewsdesk.com/se/bird___bird/pressreleases/bird-and-bird-advises-engrate-on-2-euros-5-cents-million-capital-raise-3393501",
+        "date": "2025-06-23",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "1db9de40-32b3-433a-a946-37a31f41653a"
+     }
+    },
+    {
+     "id": "2b8a2d06-6e9c-4e01-8c97-3d969d01bce0",
+     "name": "Course Corrected VC Fund I AB",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/engrate/__a5rABkY23QvxKV5ewAB25w2eAkkMONRjsSBdBTkJR-Q",
+        "date": "2026-08-25"
+       },
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/engrate/__a5rABkY23QvxKV5ewAB25w2eAkkMONRjsSBdBTkJR-Q/funding-and-investors",
+        "date": "2026-08-25"
+       },
+       {
+        "name": "www.crunchbase.com",
+        "document": "https://www.crunchbase.com/organization/engrate/news_and_analysis",
+        "date": "2026-08-25"
+       },
+       {
+        "name": "www.crunchbase.com",
+        "document": "https://www.crunchbase.com/funding_round/engrate-seed--36f48cd6",
+        "date": "2026-08-25"
+       },
+       {
+        "name": "pitchbook.com",
+        "document": "https://pitchbook.com/profiles/company/608040-28",
+        "date": "2026-08-25"
+       },
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/venture-capital/coursecorrected/__WMQ0vTH7R5bYLDKoj9hHluNK5ZQ4xXbRbmn-jAS_V9I",
+        "date": "2026-08-25"
+       },
+       {
+        "name": "bebeez.eu",
+        "document": "https://bebeez.eu/2025/06/12/with-e2-5m-seed-round-swedish-engrate-aims-to-digitally-unclog-europes-energy-bottlenecks/",
+        "date": "2025-06-12",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "mynewsdesk.com",
+        "document": "https://www.mynewsdesk.com/se/bird___bird/pressreleases/bird-and-bird-advises-engrate-on-2-euros-5-cents-million-capital-raise-3393501",
+        "date": "2025-06-23",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "5aec7f4d-7abc-4d40-8bf1-fc1540d22b67"
+     }
+    },
+    {
+     "id": "43b67397-2f00-4096-b571-19dab37d8c3d",
+     "name": "Stiftelsen Norrsken Foundation",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "Norrsken - Be part of the solution",
+        "document": "https://norrsken.org/investments",
+        "date": "2026-07-14"
+       }
+      ],
+      "id": "056d5369-bd46-4a26-a47e-bb920536cc64"
+     }
+    },
+    {
+     "id": "7431fe6d-7fad-4449-8c60-8d271f14acd6",
+     "name": "Maniv Mobility",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/engrate/__a5rABkY23QvxKV5ewAB25w2eAkkMONRjsSBdBTkJR-Q",
+        "date": "2026-08-25"
+       },
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/engrate/__a5rABkY23QvxKV5ewAB25w2eAkkMONRjsSBdBTkJR-Q/funding-and-investors",
+        "date": "2026-08-25"
+       },
+       {
+        "name": "www.crunchbase.com",
+        "document": "https://www.crunchbase.com/organization/engrate/news_and_analysis",
+        "date": "2026-08-25"
+       },
+       {
+        "name": "www.crunchbase.com",
+        "document": "https://www.crunchbase.com/funding_round/engrate-seed--36f48cd6",
+        "date": "2026-08-25"
+       },
+       {
+        "name": "pitchbook.com",
+        "document": "https://pitchbook.com/profiles/company/608040-28",
+        "date": "2026-08-25"
+       },
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/venture-capital/coursecorrected/__WMQ0vTH7R5bYLDKoj9hHluNK5ZQ4xXbRbmn-jAS_V9I",
+        "date": "2026-08-25"
+       }
+      ],
+      "id": "92bae05b-e210-4047-9006-ea7b46aa5f8e"
+     }
+    },
+    {
+     "id": "8540e55a-1f3b-4969-bf08-6802f5344d24",
+     "name": "Eviny Ventures",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "bebeez.eu",
+        "document": "https://bebeez.eu/2025/06/12/with-e2-5m-seed-round-swedish-engrate-aims-to-digitally-unclog-europes-energy-bottlenecks/",
+        "date": "2025-06-12",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "mynewsdesk.com",
+        "document": "https://www.mynewsdesk.com/se/bird___bird/pressreleases/bird-and-bird-advises-engrate-on-2-euros-5-cents-million-capital-raise-3393501",
+        "date": "2025-06-23",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "d1e9acb9-90b6-4d07-b07b-36ea5f1d73a7"
+     }
+    },
+    {
+     "id": "c0d5bf8c-3f43-4531-8ef6-8c8d1f0dcf5a",
+     "name": "Norrsken VC",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "Norrsken - Be part of the solution",
+        "document": "https://norrsken.org/investments",
+        "date": "2026-08-25"
+       }
+      ],
+      "id": "5b069961-c8d3-4133-90a5-0942c9866027"
+     }
+    },
+    {
+     "id": "df9a98c8-4b78-40b4-beac-307a4151112f",
+     "name": "Norrsken Evolve",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/engrate/__a5rABkY23QvxKV5ewAB25w2eAkkMONRjsSBdBTkJR-Q",
+        "date": "2026-08-25"
+       },
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/engrate/__a5rABkY23QvxKV5ewAB25w2eAkkMONRjsSBdBTkJR-Q/funding-and-investors",
+        "date": "2026-08-25"
+       },
+       {
+        "name": "www.crunchbase.com",
+        "document": "https://www.crunchbase.com/organization/engrate/news_and_analysis",
+        "date": "2026-08-25"
+       },
+       {
+        "name": "www.crunchbase.com",
+        "document": "https://www.crunchbase.com/funding_round/engrate-seed--36f48cd6",
+        "date": "2026-08-25"
+       },
+       {
+        "name": "pitchbook.com",
+        "document": "https://pitchbook.com/profiles/company/608040-28",
+        "date": "2026-08-25"
+       },
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/venture-capital/coursecorrected/__WMQ0vTH7R5bYLDKoj9hHluNK5ZQ4xXbRbmn-jAS_V9I",
+        "date": "2026-08-25"
+       }
+      ],
+      "id": "ed058275-bd2b-47c5-9a31-1ba7a50a03d6"
+     }
+    },
+    {
+     "id": "e576a39a-2046-4cc0-adbb-124ff351627a",
+     "name": "NP-Hard Ventures",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/engrate/__a5rABkY23QvxKV5ewAB25w2eAkkMONRjsSBdBTkJR-Q",
+        "date": "2026-08-25"
+       },
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/engrate/__a5rABkY23QvxKV5ewAB25w2eAkkMONRjsSBdBTkJR-Q/funding-and-investors",
+        "date": "2026-08-25"
+       },
+       {
+        "name": "www.crunchbase.com",
+        "document": "https://www.crunchbase.com/organization/engrate/news_and_analysis",
+        "date": "2026-08-25"
+       },
+       {
+        "name": "www.crunchbase.com",
+        "document": "https://www.crunchbase.com/funding_round/engrate-seed--36f48cd6",
+        "date": "2026-08-25"
+       },
+       {
+        "name": "pitchbook.com",
+        "document": "https://pitchbook.com/profiles/company/608040-28",
+        "date": "2026-08-25"
+       },
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/venture-capital/coursecorrected/__WMQ0vTH7R5bYLDKoj9hHluNK5ZQ4xXbRbmn-jAS_V9I",
+        "date": "2026-08-25"
+       },
+       {
+        "name": "bebeez.eu",
+        "document": "https://bebeez.eu/2025/06/12/with-e2-5m-seed-round-swedish-engrate-aims-to-digitally-unclog-europes-energy-bottlenecks/",
+        "date": "2025-06-12",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "siliconcanals.com",
+        "document": "https://siliconcanals.com/engrate-raises-e2-5m",
+        "date": "2025-06-16",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "93c3880e-8330-43a6-bc30-c26b1316d93b"
+     }
+    }
+   ],
+   "FOUNDED": [
+    {
+     "id": "5fe08ddf-dd3e-58eb-bcf0-3c7008ca8b30",
+     "name": "Anna Engman",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "engrate.io",
+        "document": "https://engrate.io/about",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "e0ec5136-9eb7-53c4-ae84-143a5b412aca"
+     }
+    },
+    {
+     "id": "ee75f328-e0f5-534b-948a-618c40f75e39",
+     "name": "Richard Eklund",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "engrate.io",
+        "document": "https://engrate.io/about",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "0077ff8c-52b4-5a97-b47f-985b76e0e0b6"
+     }
+    }
+   ],
+   "IS_CEO_OF": [
+    {
+     "id": "5fe08ddf-dd3e-58eb-bcf0-3c7008ca8b30",
+     "name": "Anna Engman",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "engrate.io",
+        "document": "https://engrate.io/about",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "79212e6e-2da4-5d81-981e-de6ad099127e"
+     }
+    }
+   ],
+   "IS_CTO_OF": [
+    {
+     "id": "ee75f328-e0f5-534b-948a-618c40f75e39",
+     "name": "Richard Eklund",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "engrate.io",
+        "document": "https://engrate.io/about",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "5b8f346e-0aa2-50aa-8d39-561f4bdbfea3"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

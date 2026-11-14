@@ -1,0 +1,696 @@
+{
+ "id": "062fb378-49d4-4d1d-a1f2-9c47979db34a",
+ "name": "InSpek",
+ "entity_type": "Company",
+ "description": "InSpek delivers real-time, in-line multiparameter visibility for bioprocessing, chemical and pharmaceutical manufacturing. Turn bioprocesses into controllable systems: detect deviations early, impr...",
+ "properties": {
+  "name": {
+   "value": "InSpek",
+   "sources": [
+    {
+     "name": "Breega Fonds VC",
+     "document": "https://eldorado.co/financing/breega",
+     "date": "2018-03-27"
+    },
+    {
+     "name": "Breega: Funding, Team & Investors",
+     "document": "https://startupintros.com/orgs/breega",
+     "date": "2026-07-13"
+    },
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2024/09/paris-based-inspek-secures-e6-million-to-accelerate-biomanufacturing-with-photonics/",
+     "date": "2024-09-01",
+     "date_precision": "month",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "INSPEK",
+   "sources": [
+    {
+     "name": "cordis.europa.eu",
+     "document": "https://cordis.europa.eu/search?q=%27INSPEK%27",
+     "date": "2026-10-29",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "cordis.europa.eu",
+     "document": "https://cordis.europa.eu/project/id/101188575",
+     "date": "2026-10-30",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "annuaire-entreprises.data.gouv.fr",
+     "document": "https://annuaire-entreprises.data.gouv.fr/entreprise/902163963",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "aliases": {
+   "value": [],
+   "sources": []
+  },
+  "website": {
+   "value": "inspek-solutions.com",
+   "sources": [
+    {
+     "name": "inspek-solutions.com",
+     "document": "https://inspek-solutions.com/",
+     "date": "2026-10-29",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "dns.google",
+     "document": "https://dns.google/query?name=inspek-solutions.com&type=A",
+     "date": "2026-10-29",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "InSpek delivers real-time, in-line multiparameter visibility for bioprocessing, chemical and pharmaceutical manufacturing. Turn bioprocesses into controllable systems: detect deviations early, impr...",
+   "sources": [
+    {
+     "name": "inspek-solutions.com",
+     "document": "https://inspek-solutions.com/",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2021-08-06",
+   "sources": [
+    {
+     "name": "annuaire-entreprises.data.gouv.fr",
+     "document": "https://annuaire-entreprises.data.gouv.fr/entreprise/902163963",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "73 Rue Leon Bourgeois 91120 Palaiseau",
+   "sources": [
+    {
+     "name": "annuaire-entreprises.data.gouv.fr",
+     "document": "https://annuaire-entreprises.data.gouv.fr/entreprise/902163963",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "annuaire-entreprises.data.gouv.fr",
+     "document": "https://annuaire-entreprises.data.gouv.fr/entreprise/902163963",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "employee_count_range": {
+   "value": [
+    6,
+    9
+   ],
+   "sources": [
+    {
+     "name": "annuaire-entreprises.data.gouv.fr",
+     "document": "https://annuaire-entreprises.data.gouv.fr/entreprise/902163963",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "total_funding": {
+   "value": 8852000.0,
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2024/09/paris-based-inspek-secures-e6-million-to-accelerate-biomanufacturing-with-photonics/",
+     "date": "2024-09-01",
+     "date_precision": "month",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "cordis.europa.eu",
+     "document": "https://cordis.europa.eu/search?q=%27INSPEK%27",
+     "date": "2026-10-29",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "total_funding_units": {
+   "value": "EUR",
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2024/09/paris-based-inspek-secures-e6-million-to-accelerate-biomanufacturing-with-photonics/",
+     "date": "2024-09-01",
+     "date_precision": "month",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "cordis.europa.eu",
+     "document": "https://cordis.europa.eu/search?q=%27INSPEK%27",
+     "date": "2026-10-29",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "total_funding_excluding_debt": {
+   "value": 8852000.0,
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2024/09/paris-based-inspek-secures-e6-million-to-accelerate-biomanufacturing-with-photonics/",
+     "date": "2024-09-01",
+     "date_precision": "month",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "cordis.europa.eu",
+     "document": "https://cordis.europa.eu/search?q=%27INSPEK%27",
+     "date": "2026-10-29",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "funding_stage": {
+   "value": "SEED",
+   "sources": [
+    {
+     "name": "quantonation.com",
+     "document": "https://www.quantonation.com/2024/09/27/inspek-secures-e6m-seed-funding-to-accelerate-biomanufacturing/",
+     "date": "2024-09-25",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "16d2fabd-0143-5e41-ae1d-df227e54306f",
+     "name": "Grant",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "cordis.europa.eu",
+        "document": "https://cordis.europa.eu/project/id/101188575",
+        "date": "2026-10-30",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "56a90857-6319-5468-80bf-a7ded930e7b0"
+     }
+    },
+    {
+     "id": "3d07b5f6-027f-5db8-98d3-ec98689f89a8",
+     "name": "Grant",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "cordis.europa.eu",
+        "document": "https://cordis.europa.eu/project/id/101099699",
+        "date": "2026-10-30",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "0b4ed63a-f955-510e-b482-c50e0aaa0eb4"
+     }
+    },
+    {
+     "id": "6c183760-8f8a-5ecc-836a-3d0074eb53c3",
+     "name": "Pre-Seed",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "quantonation.com",
+        "document": "https://www.quantonation.com/wp-content/uploads/2021/10/Press-release-InSpek.pdf",
+        "date": "2021-10-19",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "03d049af-82d2-5627-9665-6de86d88fb62"
+     }
+    },
+    {
+     "id": "aabe9185-ef69-5379-a612-64bf989fa0aa",
+     "name": "Grant",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "polytechnique.edu",
+        "document": "https://www.polytechnique.edu/sites/default/files/content/communiques/fichiers/2022-05/24_05_2022_Prix_X_Grant_Silicon_Valley_FR.pdf",
+        "date": "2022-05-24",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "da0098bb-7a33-5326-8b97-deeedb328206"
+     }
+    },
+    {
+     "id": "c8a2546b-0b20-52b3-a591-056747f80311",
+     "name": "Seed",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "eu-startups.com",
+        "document": "https://www.eu-startups.com/2024/09/paris-based-inspek-secures-e6-million-to-accelerate-biomanufacturing-with-photonics/",
+        "date": "2024-09-25",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "8e3c8ec2-e3f7-528e-9561-e1452e2cc899"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_CORPORATE_EVENT": [
+    {
+     "id": "86d974f7-a45b-4610-8491-badf7775bb5d",
+     "name": "FINANCING_RAISED_OR_FACILITY_ENTERED",
+     "entity_type": "PrivateCompanyFundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/inspek/__4CSGd9wvdcC9savcQCmwj6lKoLkHTcMmX5OIiZKqGMo/funding-and-investors",
+        "date": "2026-08-25"
+       }
+      ],
+      "event_date": "2021-10-19",
+      "id": "477da8cf-a2ba-413b-b800-4c4936b529f4"
+     }
+    },
+    {
+     "id": "99fe7628-4059-46a9-9755-fba9761dbb06",
+     "name": "FINANCING_RAISED_OR_FACILITY_ENTERED",
+     "entity_type": "PrivateCompanyFundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/inspek/__4CSGd9wvdcC9savcQCmwj6lKoLkHTcMmX5OIiZKqGMo/funding-and-investors",
+        "date": "2026-08-25"
+       },
+       {
+        "name": "pitchbook.com",
+        "document": "https://pitchbook.com/profiles/company/483368-95",
+        "date": "2026-08-25"
+       }
+      ],
+      "event_date": "2024-09-25",
+      "id": "eb537a5b-d821-42b2-b73e-43070dff516a"
+     }
+    },
+    {
+     "id": "b5bb13f6-2886-4be9-b123-447ffc1bf55d",
+     "name": "FINANCING_RAISED_OR_FACILITY_ENTERED",
+     "entity_type": "PrivateCompanyFundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/inspek/__4CSGd9wvdcC9savcQCmwj6lKoLkHTcMmX5OIiZKqGMo/funding-and-investors",
+        "date": "2026-08-25"
+       }
+      ],
+      "event_date": "2024-09-25",
+      "id": "a1410541-157f-49a5-a72b-50c43f65c821"
+     }
+    },
+    {
+     "id": "d02088a4-5115-4686-b9c1-82fc79d574fa",
+     "name": "FINANCING_RAISED_OR_FACILITY_ENTERED",
+     "entity_type": "PrivateCompanyFundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/inspek/__4CSGd9wvdcC9savcQCmwj6lKoLkHTcMmX5OIiZKqGMo/funding-and-investors",
+        "date": "2026-08-25"
+       }
+      ],
+      "event_date": "2022-12-01",
+      "id": "17358adc-d421-49e0-9ed9-d67eb259da7a"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "689ba692-73f6-5590-9d8d-a0e6b2e2d6f0"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "211634f1-a4ff-46f8-a558-596235045d51",
+     "name": "BIOTECHNOLOGY",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "Breega Fonds VC",
+        "document": "https://eldorado.co/financing/breega",
+        "date": "2018-03-27"
+       },
+       {
+        "name": "Breega: Funding, Team & Investors",
+        "document": "https://startupintros.com/orgs/breega",
+        "date": "2026-07-13"
+       }
+      ],
+      "id": "9f3c8bf3-b562-4610-927e-5ea738ed4d02"
+     }
+    },
+    {
+     "id": "211634f1-a4ff-46f8-a558-596235045d51",
+     "name": "BIOTECHNOLOGY",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/inspek-solutions/",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "882deec7-640d-5847-b753-fa94e66ae3fd",
+      "original_label": "biotech"
+     }
+    },
+    {
+     "id": "be9a1964-bfc6-4aad-bde1-1f94bf10cf4c",
+     "name": "HARDWARE_AND_EQUIPMENT",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "Breega Fonds VC",
+        "document": "https://eldorado.co/financing/breega",
+        "date": "2018-03-27"
+       },
+       {
+        "name": "Breega: Funding, Team & Investors",
+        "document": "https://startupintros.com/orgs/breega",
+        "date": "2026-07-13"
+       }
+      ],
+      "id": "870c08f5-a54d-43cf-9277-169c24d2c60d"
+     }
+    }
+   ],
+   "HAS_HEADQUARTERS_IN": [
+    {
+     "id": "b6f57d8b-33dd-409a-9fbb-269947c54e23",
+     "name": "France",
+     "entity_type": "Country",
+     "properties": {
+      "sources": [
+       {
+        "name": "Breega Fonds VC",
+        "document": "https://eldorado.co/financing/breega",
+        "date": "2018-03-27"
+       },
+       {
+        "name": "Breega: Funding, Team & Investors",
+        "document": "https://startupintros.com/orgs/breega",
+        "date": "2026-07-13"
+       }
+      ],
+      "id": "1ed578fb-a845-4c0f-aecc-0b59451ed013"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "INVESTED_IN": [
+    {
+     "id": "22ea9d08-0c72-428c-9414-911ccc8c24c2",
+     "name": "Wind Capital",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "PORTFOLIO",
+        "document": "https://wind.capital/ours-pioneers",
+        "date": "2026-07-27"
+       }
+      ],
+      "id": "65d2b89f-1b94-49ca-b998-a217feae6e8c"
+     }
+    },
+    {
+     "id": "556d4d08-621d-4304-84a7-a2c7985fd41c",
+     "name": "Wind OÜ",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "eu-startups.com",
+        "document": "https://www.eu-startups.com/2024/09/paris-based-inspek-secures-e6-million-to-accelerate-biomanufacturing-with-photonics/",
+        "date": "2024-09-25",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "6dcb4efe-98b0-4de7-afd7-17ab64bde3f4"
+     }
+    },
+    {
+     "id": "79d3e6e8-183e-4de9-8359-6726c768fcbb",
+     "name": "Quantonation",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/inspek/__4CSGd9wvdcC9savcQCmwj6lKoLkHTcMmX5OIiZKqGMo/funding-and-investors",
+        "date": "2026-08-25"
+       },
+       {
+        "name": "eu-startups.com",
+        "document": "https://www.eu-startups.com/2024/09/paris-based-inspek-secures-e6-million-to-accelerate-biomanufacturing-with-photonics/",
+        "date": "2024-09-25",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "55098133-2ebb-4aee-9cdf-17f387854dbc"
+     }
+    },
+    {
+     "id": "9f180d0f-3cc7-423c-ac4f-e0508f8053e2",
+     "name": "BREEGA VENTURE II",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "Breega Fonds VC",
+        "document": "https://eldorado.co/financing/breega",
+        "date": "2018-03-27"
+       },
+       {
+        "name": "Breega: Funding, Team & Investors",
+        "document": "https://startupintros.com/orgs/breega",
+        "date": "2026-07-13"
+       },
+       {
+        "name": "eu-startups.com",
+        "document": "https://www.eu-startups.com/2024/09/paris-based-inspek-secures-e6-million-to-accelerate-biomanufacturing-with-photonics/",
+        "date": "2024-09-25",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "791bf8a0-8423-42a5-8c5b-48d78097ebcd"
+     }
+    }
+   ],
+   "FOUNDED": [
+    {
+     "id": "6208a91b-730c-52bc-aa6c-ccdc5f5813ec",
+     "name": "Jerome Michon",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "inspek-solutions.com",
+        "document": "https://inspek-solutions.com/about",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "24e75d65-5f10-538f-b042-8b6c3ade6733"
+     }
+    },
+    {
+     "id": "a12bad6c-322b-5eab-8eff-020492d7d90c",
+     "name": "Juejun Hu",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "inspek-solutions.com",
+        "document": "https://inspek-solutions.com/about",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "851194c6-0a34-5429-8100-059e9e457ed7"
+     }
+    },
+    {
+     "id": "a22e0a0c-3a10-5612-9ec7-e755add0ef16",
+     "name": "Derek Kita",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "inspek-solutions.com",
+        "document": "https://inspek-solutions.com/about",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "93de04c1-e14b-518c-8f66-ccd326abde10"
+     }
+    },
+    {
+     "id": "cf2de188-ea8f-5a8b-a1f8-42ded85318f1",
+     "name": "Laurent Vivien",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "inspek-solutions.com",
+        "document": "https://inspek-solutions.com/about",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "1100de2a-469a-5abf-b20e-e86130c76d2d"
+     }
+    }
+   ],
+   "IS_CEO_OF": [
+    {
+     "id": "6208a91b-730c-52bc-aa6c-ccdc5f5813ec",
+     "name": "Jerome Michon",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "inspek-solutions.com",
+        "document": "https://inspek-solutions.com/about",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "24f85ab5-ac12-5ae7-b1db-9ed4fe94ccc8"
+     }
+    }
+   ],
+   "IS_CTO_OF": [
+    {
+     "id": "c0914f25-f943-5313-bcc4-07194e74b092",
+     "name": "Ivan-Lazar Bundalo",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "inspek-solutions.com",
+        "document": "https://inspek-solutions.com/blog/welcome-to-our-new-cto-ivan-lazar-bundalo",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "ed17a3cc-90ed-5c67-b4a2-c34bcc1547a6"
+     }
+    }
+   ],
+   "WORKS_AT": [
+    {
+     "id": "6208a91b-730c-52bc-aa6c-ccdc5f5813ec",
+     "name": "Jerome Michon",
+     "entity_type": "Person",
+     "properties": {
+      "role": "President",
+      "sources": [
+       {
+        "name": "annuaire-entreprises.data.gouv.fr",
+        "document": "https://annuaire-entreprises.data.gouv.fr/entreprise/902163963",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "af9d7b73-a5ac-5aec-9547-238d0bd30070"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

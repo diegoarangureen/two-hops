@@ -1,0 +1,1163 @@
+{
+ "id": "048f000e-ae70-4876-9d23-9e48c37877e7",
+ "name": "HUMAN AI LABS, INC.",
+ "entity_type": "Company",
+ "description": "Personal AI builds the telco-optimized stack for agents on the carrier network. Memory, identity, and on-network inference, with no app to install.",
+ "properties": {
+  "name": {
+   "value": "HUMAN AI LABS, INC.",
+   "sources": [
+    {
+     "name": "SEC",
+     "document": "https://www.sec.gov/edgar/browse/?CIK=1835770",
+     "date": "2026-05-27"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "Human AI Labs, Inc.",
+   "sources": [
+    {
+     "name": "personal.ai",
+     "document": "https://www.personal.ai/terms-of-service",
+     "date": "2026-11-08",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "sec.gov",
+     "document": "https://www.sec.gov/Archives/edgar/data/1835770/000199435823000003/primary_doc.xml",
+     "date": "2023-12-13",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "sec.gov",
+     "document": "https://www.sec.gov/Archives/edgar/data/1835770/000183577022000002/primary_doc.xml",
+     "date": "2022-11-18",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "aliases": {
+   "value": [
+    "Luther, Inc.",
+    "Luther AI",
+    "Personal.ai",
+    "Personal AI"
+   ],
+   "sources": []
+  },
+  "website": {
+   "value": "personal.ai",
+   "sources": [
+    {
+     "name": "personal.ai",
+     "document": "https://personal.ai/",
+     "date": "2026-10-30",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "dns.google",
+     "document": "https://dns.google/query?name=personal.ai&type=A",
+     "date": "2026-10-30",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "businesswire.com",
+     "document": "https://www.businesswire.com/news/home/20230105005009/en",
+     "date": "2023-01-05",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "sec.gov",
+     "document": "https://www.sec.gov/Archives/edgar/data/1835770/000199435823000003/primary_doc.xml",
+     "date": "2023-12-13",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "description": {
+   "value": "Personal AI builds the telco-optimized stack for agents on the carrier network. Memory, identity, and on-network inference, with no app to install.",
+   "sources": [
+    {
+     "name": "personal.ai",
+     "document": "https://personal.ai/",
+     "date": "2026-11-03",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2019-11-20",
+   "sources": [
+    {
+     "name": "sec.gov",
+     "document": "https://www.sec.gov/Archives/edgar/data/1835770/000199435823000003/primary_doc.xml",
+     "date": "2023-12-13",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "sec.gov",
+     "document": "https://www.sec.gov/Archives/edgar/data/1835770/000183577024000001/primary_doc.xml",
+     "date": "2024-04-25",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "sec.gov",
+     "document": "https://www.sec.gov/Archives/edgar/data/1835770/000183577022000002/primary_doc.xml",
+     "date": "2022-11-18",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "sec.gov",
+     "document": "https://www.sec.gov/Archives/edgar/data/1486516/000148651610000002/primary_doc.xml",
+     "date": "2010-03-11",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "sec.gov",
+     "document": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001486516&type=D",
+     "date": "2026-10-30",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "351 California Street, Suite 810, San Francisco, CA 94104-2406, United States",
+   "sources": [
+    {
+     "name": "sec.gov",
+     "document": "https://www.sec.gov/Archives/edgar/data/1835770/000183577025000002/primary_doc.xml",
+     "date": "2025-12-18",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "personal.ai",
+     "document": "https://personal.ai/",
+     "date": "2026-10-30",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "sec.gov",
+     "document": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001486516&type=D",
+     "date": "2026-10-30",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "sec.gov",
+     "document": "https://www.sec.gov/Archives/edgar/data/1835770/000183577025000002/primary_doc.xml",
+     "date": "2025-12-18",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "total_funding": {
+   "value": 23747713.0,
+   "sources": [
+    {
+     "name": "blog.personal.ai",
+     "document": "https://blog.personal.ai/human-ai-labs-closes-3-2m-seed-round-to-create-an-ai-extension-of-human-memory-8595a9bd925f",
+     "date": "2026-11-08",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "en.wikipedia.org",
+     "document": "https://en.wikipedia.org/wiki/Human_AI_Labs",
+     "date": "2026-11-08",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    },
+    {
+     "name": "sec.gov",
+     "document": "https://www.sec.gov/Archives/edgar/data/1835770/000183577020000001/primary_doc.xml",
+     "date": "2020-12-14",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "techcrunch.com",
+     "document": "https://techcrunch.com/?p=2095744",
+     "date": "2021-01-13",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "sec.gov",
+     "document": "https://www.sec.gov/Archives/edgar/data/1835770/000183577022000002/primary_doc.xml",
+     "date": "2022-11-18",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "sec.gov",
+     "document": "https://www.sec.gov/Archives/edgar/data/1835770/000199435824000005/primary_doc.xml",
+     "date": "2024-04-05",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "sec.gov",
+     "document": "https://www.sec.gov/Archives/edgar/data/1835770/000183577025000002/primary_doc.xml",
+     "date": "2025-12-18",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "total_funding_units": {
+   "value": "USD",
+   "sources": [
+    {
+     "name": "blog.personal.ai",
+     "document": "https://blog.personal.ai/human-ai-labs-closes-3-2m-seed-round-to-create-an-ai-extension-of-human-memory-8595a9bd925f",
+     "date": "2026-11-08",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "en.wikipedia.org",
+     "document": "https://en.wikipedia.org/wiki/Human_AI_Labs",
+     "date": "2026-11-08",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    },
+    {
+     "name": "sec.gov",
+     "document": "https://www.sec.gov/Archives/edgar/data/1835770/000183577020000001/primary_doc.xml",
+     "date": "2020-12-14",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "techcrunch.com",
+     "document": "https://techcrunch.com/?p=2095744",
+     "date": "2021-01-13",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "sec.gov",
+     "document": "https://www.sec.gov/Archives/edgar/data/1835770/000183577022000002/primary_doc.xml",
+     "date": "2022-11-18",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "sec.gov",
+     "document": "https://www.sec.gov/Archives/edgar/data/1835770/000199435824000005/primary_doc.xml",
+     "date": "2024-04-05",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "sec.gov",
+     "document": "https://www.sec.gov/Archives/edgar/data/1835770/000183577025000002/primary_doc.xml",
+     "date": "2025-12-18",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "total_funding_excluding_debt": {
+   "value": 23747713.0,
+   "sources": [
+    {
+     "name": "blog.personal.ai",
+     "document": "https://blog.personal.ai/human-ai-labs-closes-3-2m-seed-round-to-create-an-ai-extension-of-human-memory-8595a9bd925f",
+     "date": "2026-11-08",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "en.wikipedia.org",
+     "document": "https://en.wikipedia.org/wiki/Human_AI_Labs",
+     "date": "2026-11-08",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    },
+    {
+     "name": "sec.gov",
+     "document": "https://www.sec.gov/Archives/edgar/data/1835770/000183577020000001/primary_doc.xml",
+     "date": "2020-12-14",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "techcrunch.com",
+     "document": "https://techcrunch.com/?p=2095744",
+     "date": "2021-01-13",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "sec.gov",
+     "document": "https://www.sec.gov/Archives/edgar/data/1835770/000183577022000002/primary_doc.xml",
+     "date": "2022-11-18",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "sec.gov",
+     "document": "https://www.sec.gov/Archives/edgar/data/1835770/000199435824000005/primary_doc.xml",
+     "date": "2024-04-05",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "sec.gov",
+     "document": "https://www.sec.gov/Archives/edgar/data/1835770/000183577025000002/primary_doc.xml",
+     "date": "2025-12-18",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "funding_stage": {
+   "value": "SERIES_A",
+   "sources": [
+    {
+     "name": "sec.gov",
+     "document": "https://www.sec.gov/Archives/edgar/data/1835770/000183577025000002/primary_doc.xml",
+     "date": "2025-12-18",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "0d0d6ecc-70ea-563e-87dd-1deb3918d4e0",
+     "name": "Seed",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "businesswire.com",
+        "document": "https://www.businesswire.com/news/home/20230105005009/en",
+        "date": "2023-01-05",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "businessofsandiego.substack.com",
+        "document": "https://businessofsandiego.substack.com/p/san-diego-based-startup-raises-millions",
+        "date": "2023-03-29",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "6e051c92-7061-54c7-9a4d-f9238d015aab"
+     }
+    },
+    {
+     "id": "938b1d36-7e93-5b27-ac9b-2fd86ac12e33",
+     "name": "Series A",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "sec.gov",
+        "document": "https://www.sec.gov/Archives/edgar/data/1835770/000183577025000002/primary_doc.xml",
+        "date": "2025-12-18",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "ea63f95a-66ee-5413-be56-b85442226d75"
+     }
+    },
+    {
+     "id": "ba28fc46-8a7b-580d-a696-606926cb3f30",
+     "name": "SAFE round",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "sec.gov",
+        "document": "https://www.sec.gov/Archives/edgar/data/1835770/000199435823000003/primary_doc.xml",
+        "date": "2023-12-13",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       },
+       {
+        "name": "republic.com",
+        "document": "https://republic.com/personal-ai",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "sec.gov",
+        "document": "https://www.sec.gov/Archives/edgar/data/1835770/000199435824000005/primary_doc.xml",
+        "date": "2024-04-05",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "832e4196-18f4-58ca-b002-16925b208d09"
+     }
+    },
+    {
+     "id": "c21f4183-5e5f-5551-b3f5-d673c553c746",
+     "name": "Seed",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "blog.personal.ai",
+        "document": "https://blog.personal.ai/human-ai-labs-closes-3-2m-seed-round-to-create-an-ai-extension-of-human-memory-8595a9bd925f",
+        "date": "2026-11-08",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "en.wikipedia.org",
+        "document": "https://en.wikipedia.org/wiki/Human_AI_Labs",
+        "date": "2026-11-08",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       },
+       {
+        "name": "finsmes.com",
+        "document": "https://finsmes.com/?p=334607",
+        "date": "2024-10-01",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "6ef16614-652a-589d-9d55-258150277b16"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_CORPORATE_EVENT": [
+    {
+     "id": "0133466a-040c-4874-81e9-7f517e102937",
+     "name": "FINANCING_RAISED_OR_FACILITY_ENTERED",
+     "entity_type": "CorporateEvent",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "SEC",
+        "document": "https://www.sec.gov/Archives/edgar/data/1835770/000183577020000001/primary_doc.xml",
+        "date": "2020-12-14"
+       }
+      ],
+      "event_date": "2020-12-07",
+      "id": "74aaba90-7625-436b-b7a4-a427871801e2"
+     }
+    },
+    {
+     "id": "c0e28d5a-6d2d-4e30-9817-62558394bb78",
+     "name": "FINANCING_RAISED_OR_FACILITY_ENTERED",
+     "entity_type": "CorporateEvent",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "SEC",
+        "document": "https://www.sec.gov/Archives/edgar/data/1835770/000183577022000002/primary_doc.xml",
+        "date": "2022-11-18"
+       }
+      ],
+      "event_date": "2022-11-08",
+      "id": "590dada8-018f-4491-8df3-cba7e66d79ff"
+     }
+    },
+    {
+     "id": "fe2658e7-ccb7-484d-a310-c41c485bbeeb",
+     "name": "FINANCING_RAISED_OR_FACILITY_ENTERED",
+     "entity_type": "CorporateEvent",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "SEC",
+        "document": "https://www.sec.gov/Archives/edgar/data/1835770/000183577025000002/primary_doc.xml",
+        "date": "2025-12-18"
+       }
+      ],
+      "event_date": "2025-12-09",
+      "id": "35e3e074-d4ab-4363-8bf7-f04f9bd01666"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "135ec37f-6871-5e28-a8d0-a1ffe11a9753"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "8ecf5e57-a149-438c-9eb4-089809bade56",
+     "name": "SOFTWARE_AND_SERVICES",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "personal.ai",
+        "document": "https://www.personal.ai/terms-of-service",
+        "date": "2026-11-08",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "runtimewire.com",
+        "document": "https://runtimewire.com/article/personal-ai-model-4-carrier-network",
+        "date": "2026-10-20",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "b3b1556b-ecde-50e9-b429-0b4a121e7143",
+      "original_label": "Artificial intelligence"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "INVESTED_IN": [
+    {
+     "id": "00d55437-e127-4d6d-b60c-707ecd4044ab",
+     "name": "BENI Capital S.à r.l.",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "blog.personal.ai",
+        "document": "https://blog.personal.ai/human-ai-labs-closes-3-2m-seed-round-to-create-an-ai-extension-of-human-memory-8595a9bd925f",
+        "date": "2026-11-08",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "57fdbd03-7ef5-45bd-85e0-b303c9beae27"
+     }
+    },
+    {
+     "id": "0bea8c8b-8386-4c20-bc8d-a6b1ce0091bb",
+     "name": "Village Global",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "blog.personal.ai",
+        "document": "https://blog.personal.ai/human-ai-labs-closes-3-2m-seed-round-to-create-an-ai-extension-of-human-memory-8595a9bd925f",
+        "date": "2026-11-08",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "3011eeee-212f-4ec3-b38c-ac8f8cc128ee"
+     }
+    },
+    {
+     "id": "12188f64-cbf1-4f21-bbd1-4a996ab8f458",
+     "name": "SUPERNODE GLOBAL VENTURES LP",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "businessofsandiego.substack.com",
+        "document": "https://businessofsandiego.substack.com/p/san-diego-based-startup-raises-millions",
+        "date": "2023-03-29",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "businesswire.com",
+        "document": "https://www.businesswire.com/news/home/20230105005009/en",
+        "date": "2023-01-05",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "1a517cb5-583f-4d68-87db-35ef038b68d1"
+     }
+    },
+    {
+     "id": "4beec20e-5f41-4a6c-a4fb-cccd0b720ec4",
+     "name": "Differential Inc.",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "blog.personal.ai",
+        "document": "https://blog.personal.ai/human-ai-labs-closes-3-2m-seed-round-to-create-an-ai-extension-of-human-memory-8595a9bd925f",
+        "date": "2026-11-08",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "29d12216-06e8-4f80-9d51-b8d2cde87376"
+     }
+    },
+    {
+     "id": "7a48a9bc-476d-5800-b7b5-e2c15cbe656d",
+     "name": "Kelvin Beachum",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "blog.personal.ai",
+        "document": "https://blog.personal.ai/human-ai-labs-closes-3-2m-seed-round-to-create-an-ai-extension-of-human-memory-8595a9bd925f",
+        "date": "2026-11-08",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "2214858d-daea-4877-aa7f-7846897d83f8"
+     }
+    },
+    {
+     "id": "98625ae4-fc86-5796-a0a7-b61abad0a82f",
+     "name": "BDev Ventures",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "finsmes.com",
+        "document": "https://finsmes.com/?p=334607",
+        "date": "2026-11-08",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "en.wikipedia.org",
+        "document": "https://en.wikipedia.org/wiki/Human_AI_Labs",
+        "date": "2026-11-08",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "dfa67971-ee40-4797-99c0-2a0c4bdbc21c"
+     }
+    },
+    {
+     "id": "bedaf6da-7f41-5478-9150-90408780d7a5",
+     "name": "Jeff Foster",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "blog.personal.ai",
+        "document": "https://blog.personal.ai/human-ai-labs-closes-3-2m-seed-round-to-create-an-ai-extension-of-human-memory-8595a9bd925f",
+        "date": "2026-11-08",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "919f4d4e-59eb-4af2-9310-06877be6ab52"
+     }
+    },
+    {
+     "id": "e2dd2ad1-9d1f-4933-825a-577d20604997",
+     "name": "Good Friends",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "blog.personal.ai",
+        "document": "https://blog.personal.ai/human-ai-labs-closes-3-2m-seed-round-to-create-an-ai-extension-of-human-memory-8595a9bd925f",
+        "date": "2026-11-08",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "098e0fab-7f02-47d5-aaa1-5378f1ff563c"
+     }
+    },
+    {
+     "id": "f2278f48-d7ab-47a7-8bef-d598450e5a6c",
+     "name": "Keshif Ventures, LLC",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "blog.personal.ai",
+        "document": "https://blog.personal.ai/human-ai-labs-closes-3-2m-seed-round-to-create-an-ai-extension-of-human-memory-8595a9bd925f",
+        "date": "2026-11-08",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "06a76eae-95ff-4b99-92d0-c257d4cb65b7"
+     }
+    }
+   ],
+   "FOUNDED": [
+    {
+     "id": "1c909d87-b811-57d6-aa75-f292d13c8f56",
+     "name": "Kristie Kaiser",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "blog.personal.ai",
+        "document": "https://blog.personal.ai/human-ai-labs-closes-3-2m-seed-round-to-create-an-ai-extension-of-human-memory-8595a9bd925f",
+        "date": "2026-11-08",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "en.wikipedia.org",
+        "document": "https://en.wikipedia.org/wiki/Human_AI_Labs",
+        "date": "2026-11-08",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "3abae2b9-d537-5e5b-b9c7-dc64aa3a24f2"
+     }
+    },
+    {
+     "id": "ee11f0cf-3c99-445b-8909-c48b8ddbc0c6",
+     "name": "Suman Kanuganti",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "blog.personal.ai",
+        "document": "https://blog.personal.ai/human-ai-labs-closes-3-2m-seed-round-to-create-an-ai-extension-of-human-memory-8595a9bd925f",
+        "date": "2026-11-08",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "businesswire.com",
+        "document": "https://www.businesswire.com/news/home/20230105005009/en",
+        "date": "2023-01-05",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "en.wikipedia.org",
+        "document": "https://en.wikipedia.org/wiki/Human_AI_Labs",
+        "date": "2026-11-08",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "a8f6e443-4668-5154-a3f3-cb9ede912495"
+     }
+    },
+    {
+     "id": "f60b93fd-b1ce-5f6e-9240-051c63541a80",
+     "name": "Sharon Zhang",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "blog.personal.ai",
+        "document": "https://blog.personal.ai/human-ai-labs-closes-3-2m-seed-round-to-create-an-ai-extension-of-human-memory-8595a9bd925f",
+        "date": "2026-11-08",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "businesswire.com",
+        "document": "https://www.businesswire.com/news/home/20230105005009/en",
+        "date": "2023-01-05",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "aabdc.com",
+        "document": "https://aabdc.com/post/sharon-zhang",
+        "date": "2024-05-31",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "8d50a834-aea2-5951-bb8b-97697c2fdc9c"
+     }
+    }
+   ],
+   "IS_CEO_OF": [
+    {
+     "id": "ee11f0cf-3c99-445b-8909-c48b8ddbc0c6",
+     "name": "Suman Kanuganti",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "blog.personal.ai",
+        "document": "https://blog.personal.ai/human-ai-labs-closes-3-2m-seed-round-to-create-an-ai-extension-of-human-memory-8595a9bd925f",
+        "date": "2026-11-08",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "businesswire.com",
+        "document": "https://www.businesswire.com/news/home/20230105005009/en",
+        "date": "2023-01-05",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "sec.gov",
+        "document": "https://www.sec.gov/Archives/edgar/data/1835770/000183577022000002/primary_doc.xml",
+        "date": "2022-11-18",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       },
+       {
+        "name": "sec.gov",
+        "document": "https://www.sec.gov/Archives/edgar/data/1835770/000183577025000002/primary_doc.xml",
+        "date": "2025-12-18",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "83787e82-efd2-5aa5-b9bd-78d7a5d16860"
+     }
+    }
+   ],
+   "IS_CTO_OF": [
+    {
+     "id": "f60b93fd-b1ce-5f6e-9240-051c63541a80",
+     "name": "Sharon Zhang",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "businesswire.com",
+        "document": "https://www.businesswire.com/news/home/20230105005009/en",
+        "date": "2023-01-05",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "aabdc.com",
+        "document": "https://aabdc.com/post/sharon-zhang",
+        "date": "2024-05-31",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "1dd447d2-23dd-5404-8301-b0412704eb44"
+     }
+    }
+   ],
+   "IS_BOARD_MEMBER_OF": [
+    {
+     "id": "8f938a93-97fc-54fd-8772-cf6ee4d4bc65",
+     "name": "William Hurd",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "en.wikipedia.org",
+        "document": "https://en.wikipedia.org/wiki/Human_AI_Labs",
+        "date": "2026-11-08",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       },
+       {
+        "name": "personal.ai",
+        "document": "https://www.personal.ai/news",
+        "date": "2024-07-10",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "7c1440be-badb-51fe-859d-10e6a78a1faf",
+      "valid_since": "2024-01-01"
+     }
+    },
+    {
+     "id": "adfd6077-0c72-402b-a523-a6b3c91d42c4",
+     "name": "David Magerman",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "SEC",
+        "document": "https://www.sec.gov/Archives/edgar/data/1835770/000183577025000002/primary_doc.xml",
+        "date": "2025-12-18"
+       },
+       {
+        "name": "SEC",
+        "document": "https://www.sec.gov/Archives/edgar/data/1835770/000183577020000001/primary_doc.xml",
+        "date": "2020-12-14"
+       },
+       {
+        "name": "SEC",
+        "document": "https://www.sec.gov/Archives/edgar/data/1835770/000183577022000002/primary_doc.xml",
+        "date": "2022-11-18"
+       }
+      ],
+      "id": "89559aeb-26ae-4fe7-bea1-7bb0d1127d8e",
+      "valid_since": "2020-12-14"
+     }
+    },
+    {
+     "id": "adfd6077-0c72-402b-a523-a6b3c91d42c4",
+     "name": "David Magerman",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "sec.gov",
+        "document": "https://www.sec.gov/Archives/edgar/data/1835770/000183577022000002/primary_doc.xml",
+        "date": "2022-11-18",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       },
+       {
+        "name": "sec.gov",
+        "document": "https://www.sec.gov/Archives/edgar/data/1835770/000183577025000002/primary_doc.xml",
+        "date": "2025-12-18",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       },
+       {
+        "name": "sec.gov",
+        "document": "https://www.sec.gov/Archives/edgar/data/1835770/000183577024000001/primary_doc.xml",
+        "date": "2024-04-25",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "cb8cd5de-6625-54bd-b697-2aea1776e369",
+      "valid_since": "2022-11-18"
+     }
+    },
+    {
+     "id": "df157464-2a1d-4bdd-9d71-bb6b60c60c75",
+     "name": "Xiaoran Zhang",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "SEC",
+        "document": "https://www.sec.gov/Archives/edgar/data/1835770/000183577025000002/primary_doc.xml",
+        "date": "2025-12-18"
+       },
+       {
+        "name": "SEC",
+        "document": "https://www.sec.gov/Archives/edgar/data/1835770/000183577020000001/primary_doc.xml",
+        "date": "2020-12-14"
+       },
+       {
+        "name": "SEC",
+        "document": "https://www.sec.gov/Archives/edgar/data/1835770/000183577022000002/primary_doc.xml",
+        "date": "2022-11-18"
+       }
+      ],
+      "id": "4534295b-a3e6-43cd-a7bd-19640656528d",
+      "valid_since": "2020-12-14"
+     }
+    },
+    {
+     "id": "df157464-2a1d-4bdd-9d71-bb6b60c60c75",
+     "name": "Xiaoran Zhang",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "sec.gov",
+        "document": "https://www.sec.gov/Archives/edgar/data/1835770/000183577022000002/primary_doc.xml",
+        "date": "2022-11-18",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       },
+       {
+        "name": "sec.gov",
+        "document": "https://www.sec.gov/Archives/edgar/data/1835770/000183577025000002/primary_doc.xml",
+        "date": "2025-12-18",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       },
+       {
+        "name": "sec.gov",
+        "document": "https://www.sec.gov/Archives/edgar/data/1835770/000183577024000001/primary_doc.xml",
+        "date": "2024-04-25",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "02c2ddf8-1570-5191-b0a9-fd93f400e8f0",
+      "valid_since": "2022-11-18"
+     }
+    },
+    {
+     "id": "ee11f0cf-3c99-445b-8909-c48b8ddbc0c6",
+     "name": "Suman Kanuganti",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "SEC",
+        "document": "https://www.sec.gov/Archives/edgar/data/1835770/000183577025000002/primary_doc.xml",
+        "date": "2025-12-18"
+       },
+       {
+        "name": "SEC",
+        "document": "https://www.sec.gov/Archives/edgar/data/1835770/000183577020000001/primary_doc.xml",
+        "date": "2020-12-14"
+       },
+       {
+        "name": "SEC",
+        "document": "https://www.sec.gov/Archives/edgar/data/1835770/000183577022000002/primary_doc.xml",
+        "date": "2022-11-18"
+       }
+      ],
+      "id": "b534303c-f105-40bb-91ad-43b860f3b8db",
+      "valid_since": "2020-12-14"
+     }
+    },
+    {
+     "id": "ee11f0cf-3c99-445b-8909-c48b8ddbc0c6",
+     "name": "Suman Kanuganti",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "sec.gov",
+        "document": "https://www.sec.gov/Archives/edgar/data/1835770/000183577022000002/primary_doc.xml",
+        "date": "2022-11-18",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       },
+       {
+        "name": "sec.gov",
+        "document": "https://www.sec.gov/Archives/edgar/data/1835770/000183577025000002/primary_doc.xml",
+        "date": "2025-12-18",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       },
+       {
+        "name": "sec.gov",
+        "document": "https://www.sec.gov/Archives/edgar/data/1835770/000183577024000001/primary_doc.xml",
+        "date": "2024-04-25",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "689a99d2-bb0b-5154-9c6d-a2901729cef7",
+      "valid_since": "2022-11-18"
+     }
+    }
+   ],
+   "WORKS_AT": [
+    {
+     "id": "1c909d87-b811-57d6-aa75-f292d13c8f56",
+     "name": "Kristie Kaiser",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Head of UX & Design",
+      "sources": [
+       {
+        "name": "businesswire.com",
+        "document": "https://www.businesswire.com/news/home/20230105005009/en",
+        "date": "2023-01-05",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "bb90b6e0-ae33-5573-87c2-5bbb9ab10fe9"
+     }
+    },
+    {
+     "id": "1c909d87-b811-57d6-aa75-f292d13c8f56",
+     "name": "Kristie Kaiser",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Chief Design Officer",
+      "sources": [
+       {
+        "name": "personal.ai",
+        "document": "https://www.personal.ai/company",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "2105bc14-d933-531e-a100-7d380228abab"
+     }
+    },
+    {
+     "id": "1e84c7dc-6d00-5905-9d56-b7c2c9fd91d5",
+     "name": "Eric Johnston",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Chief Revenue Officer",
+      "sources": [
+       {
+        "name": "personal.ai",
+        "document": "https://www.personal.ai/news",
+        "date": "2025-05-14",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "6599ef56-a1bd-5987-aa67-418cc59618ff",
+      "valid_since": "2025-05-14"
+     }
+    },
+    {
+     "id": "94520a9a-ce1a-5682-b665-bd5392a84ea3",
+     "name": "Jonathan Bikoff",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Chief Business Officer",
+      "sources": [
+       {
+        "name": "personal.ai",
+        "document": "https://www.personal.ai/company",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "2e8fe1d3-8463-57d9-8dd6-1cb392936b8f"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

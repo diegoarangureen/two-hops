@@ -1,0 +1,145 @@
+{
+ "id": "041fa214-ce61-50d5-85c5-7bb98a46d180",
+ "name": "Open Door Cinematic",
+ "entity_type": "Company",
+ "description": "Professional AI-powered listing media: cinematic video, virtually staged rooms, and listing copy for real estate agents. Human-reviewed and delivered fast.",
+ "properties": {
+  "name": {
+   "value": "Open Door Cinematic",
+   "sources": [
+    {
+     "name": "opendoorcinematic.com",
+     "document": "https://opendoorcinematic.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "Open Door Cinematic LLC",
+   "sources": [
+    {
+     "name": "opendoorcinematic.com",
+     "document": "https://opendoorcinematic.com/terms",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "opendoorcinematic.com",
+     "document": "https://opendoorcinematic.com/contact",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "website": {
+   "value": "opendoorcinematic.com",
+   "sources": [
+    {
+     "name": "opendoorcinematic.com",
+     "document": "https://opendoorcinematic.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "dns.google",
+     "document": "https://dns.google/query?name=opendoorcinematic.com&type=A",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "opendoorcinematic.com",
+     "document": "https://opendoorcinematic.com/terms",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "Professional AI-powered listing media: cinematic video, virtually staged rooms, and listing copy for real estate agents. Human-reviewed and delivered fast.",
+   "sources": [
+    {
+     "name": "opendoorcinematic.com",
+     "document": "https://opendoorcinematic.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "Chicago , United States",
+   "sources": [
+    {
+     "name": "opendoorcinematic.com",
+     "document": "https://opendoorcinematic.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "opendoorcinematic.com",
+     "document": "https://opendoorcinematic.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "5d49dee8-3807-52bf-bc82-63e5e7ddf576"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "6bd9aa61-75fa-4175-87a7-0d896a0b2386",
+     "name": "REAL_ESTATE",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "opendoorcinematic.com",
+        "document": "https://opendoorcinematic.com/",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "04349023-d0f9-590f-8003-7d586d6d17af",
+      "original_label": "realestate"
+     }
+    }
+   ]
+  },
+  "incoming": {}
+ },
+ "numerical_observations": []
+}

@@ -1,0 +1,227 @@
+{
+ "id": "65d0724b-043a-5cd8-8c4a-b8ee19c8a4d2",
+ "name": "Pre-Seed",
+ "entity_type": "FundingRound",
+ "description": null,
+ "properties": {
+  "name": {
+   "value": "Pre-Seed",
+   "sources": [
+    {
+     "name": "nordic9.com",
+     "document": "https://nordic9.com/news/arqus-aerospace-closed-a-pre-seed-funding-rou/",
+     "date": "2026-10-21",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "round_label": {
+   "value": "PRE_SEED",
+   "sources": [
+    {
+     "name": "nordic9.com",
+     "document": "https://nordic9.com/news/arqus-aerospace-closed-a-pre-seed-funding-rou/",
+     "date": "2026-10-21",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "announcement_date": {
+   "value": "2026-10-21",
+   "sources": [
+    {
+     "name": "nordic9.com",
+     "document": "https://nordic9.com/news/arqus-aerospace-closed-a-pre-seed-funding-rou/",
+     "date": "2026-10-21",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "annotations": {
+   "value": [
+    "Nordic9 deal page: 'Arqus Aerospace closed a pre-seed funding round' (2026-10-21).",
+    "round_label_stated:Pre-Seed"
+   ],
+   "sources": []
+  }
+ },
+ "relationships": {
+  "outgoing": {},
+  "incoming": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "060c01bb-f918-533b-aa65-13da24104ebc",
+     "name": "Arqus Aerospace",
+     "entity_type": "Company",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "nordic9.com",
+        "document": "https://nordic9.com/news/arqus-aerospace-closed-a-pre-seed-funding-rou/",
+        "date": "2026-10-21",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "e69bd778-255c-56e9-8399-ea53a8ce859f"
+     }
+    },
+    {
+     "id": "56b2de0a-5471-5fab-85c1-541e5bdda4b9",
+     "name": "Tholus Capital",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "nordic9.com",
+        "document": "https://nordic9.com/news/arqus-aerospace-closed-a-pre-seed-funding-rou/",
+        "date": "2026-10-21",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       },
+       {
+        "name": "tholuscapital.com",
+        "document": "https://www.tholuscapital.com/portfolio",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "arqusaerospace.com",
+        "document": "https://arqusaerospace.com/",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "f764352e-10ce-5087-801e-d8e4ad6da5c3"
+     }
+    },
+    {
+     "id": "59ba0988-cfc2-4dc1-863f-b10fdd972ddc",
+     "name": "Prototype Capital",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "nordic9.com",
+        "document": "https://nordic9.com/news/arqus-aerospace-closed-a-pre-seed-funding-rou/",
+        "date": "2026-10-21",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       },
+       {
+        "name": "arqusaerospace.com",
+        "document": "https://arqusaerospace.com/",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "4bb0b6ea-0953-5d1f-8d34-58ec965ecfa8"
+     }
+    },
+    {
+     "id": "7da9dd58-7122-4f9f-b635-20bb5af129d8",
+     "name": "Konstantin Sixt",
+     "entity_type": "Person",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "nordic9.com",
+        "document": "https://nordic9.com/news/arqus-aerospace-closed-a-pre-seed-funding-rou/",
+        "date": "2026-10-21",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "ba61608e-5486-5f9f-a0a7-21c966eaecc2"
+     }
+    },
+    {
+     "id": "b9e83dea-d2ba-4fdc-9f7a-e1d1fc763e7c",
+     "name": "ATLANTIC",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "nordic9.com",
+        "document": "https://nordic9.com/news/arqus-aerospace-closed-a-pre-seed-funding-rou/",
+        "date": "2026-10-21",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       },
+       {
+        "name": "atlantic.vc",
+        "document": "https://atlantic.vc/portfolio",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "arqusaerospace.com",
+        "document": "https://arqusaerospace.com/",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "561c9023-801e-54a7-8454-3168cec8383b"
+     }
+    },
+    {
+     "id": "bf695414-b1e3-454e-8935-be21971f775b",
+     "name": "P3A Ventures GmbH",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "nordic9.com",
+        "document": "https://nordic9.com/news/arqus-aerospace-closed-a-pre-seed-funding-rou/",
+        "date": "2026-10-21",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       },
+       {
+        "name": "arqusaerospace.com",
+        "document": "https://arqusaerospace.com/",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "01155f1c-bbda-55e5-b70b-c2a58f8140e0"
+     }
+    },
+    {
+     "id": "fd190e7d-d3e3-53ef-b708-72e372a25c15",
+     "name": "DKP Family Office",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "nordic9.com",
+        "document": "https://nordic9.com/news/arqus-aerospace-closed-a-pre-seed-funding-rou/",
+        "date": "2026-10-21",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "506527ff-0618-581e-b092-17e089f25257"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

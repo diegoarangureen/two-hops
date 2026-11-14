@@ -1,0 +1,950 @@
+{
+ "id": "06003085-7f8e-4373-860a-602a7892e670",
+ "name": "Cardboard",
+ "entity_type": "Company",
+ "description": "Cardboard simplifies SaaS spend management with virtual cards, automated receipt collection, and AI receipt matching, all accessible through a live dashboard to control software costs.",
+ "properties": {
+  "name": {
+   "value": "Cardboard",
+   "sources": [
+    {
+     "name": "Investing in founders shaping industry.",
+     "document": "https://runwayfbu.com/portfolio",
+     "date": "2026-01-01"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "Cardboard AS",
+   "sources": [
+    {
+     "name": "cardboard.inc",
+     "document": "https://cardboard.inc/",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "data.brreg.no",
+     "document": "https://data.brreg.no/enhetsregisteret/api/enheter/930070556",
+     "date": "2026-11-10",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "w2.brreg.no",
+     "document": "https://w2.brreg.no/kunngjoring/hent_en.jsp?kid=20230000329429&sokeverdi=930070556&spraak=nb",
+     "date": "2023-06-06",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "aliases": {
+   "value": [
+    "VIBAKO AS",
+    "Cardboard AS"
+   ],
+   "sources": []
+  },
+  "website": {
+   "value": "cardboard.inc",
+   "sources": [
+    {
+     "name": "cardboard.inc",
+     "document": "https://cardboard.inc/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "dns.google",
+     "document": "https://dns.google/query?name=cardboard.inc&type=A",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "web.archive.org",
+     "document": "https://web.archive.org/web/20230717234422/https://cardboard.inc/",
+     "date": "2026-11-10",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    },
+    {
+     "name": "cardboard.inc",
+     "document": "https://cardboard.inc/blog/cardboard-in-2023/",
+     "date": "2026-11-10",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "Cardboard simplifies SaaS spend management with virtual cards, automated receipt collection, and AI receipt matching, all accessible through a live dashboard to control software costs.",
+   "sources": [
+    {
+     "name": "cardboard.inc",
+     "document": "https://cardboard.inc/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2022-09-22",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/crdbrd/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    },
+    {
+     "name": "data.brreg.no",
+     "document": "https://data.brreg.no/enhetsregisteret/api/enheter/930070556",
+     "date": "2026-11-10",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "w2.brreg.no",
+     "document": "https://w2.brreg.no/kunngjoring/hent_en.jsp?kid=20220000704653&sokeverdi=930070556&spraak=nb",
+     "date": "2022-10-21",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "Oslo, Norway",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/crdbrd/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    },
+    {
+     "name": "cardboard.inc",
+     "document": "https://cardboard.inc/",
+     "date": "2026-11-10",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "data.brreg.no",
+     "document": "https://data.brreg.no/enhetsregisteret/api/enheter/930070556",
+     "date": "2026-11-10",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "cardboard.inc",
+     "document": "https://cardboard.inc/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "data.brreg.no",
+     "document": "https://data.brreg.no/enhetsregisteret/api/enheter/930070556",
+     "date": "2026-11-10",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/crdbrd/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    },
+    {
+     "name": "w2.brreg.no",
+     "document": "https://w2.brreg.no/kunngjoring/hent_en.jsp?kid=20220000704653&sokeverdi=930070556&spraak=nb",
+     "date": "2022-10-21",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "total_funding": {
+   "value": 2740000.0,
+   "sources": [
+    {
+     "name": "nordic9.com",
+     "document": "https://nordic9.com/news/cardboard-secures-nok-7-million-pre-seed-in-a-round-led-by-sondo/",
+     "date": "2026-11-10",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "total_funding_units": {
+   "value": "USD",
+   "sources": [
+    {
+     "name": "nordic9.com",
+     "document": "https://nordic9.com/news/cardboard-secures-nok-7-million-pre-seed-in-a-round-led-by-sondo/",
+     "date": "2026-11-10",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "total_funding_excluding_debt": {
+   "value": 2740000.0,
+   "sources": [
+    {
+     "name": "nordic9.com",
+     "document": "https://nordic9.com/news/cardboard-secures-nok-7-million-pre-seed-in-a-round-led-by-sondo/",
+     "date": "2026-11-10",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "funding_stage": {
+   "value": "SEED",
+   "sources": [
+    {
+     "name": "cardboard.inc",
+     "document": "https://cardboard.inc/blog/cardboard-in-2024/",
+     "date": "2025-01-09",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "arctictoday.com",
+     "document": "https://www.arctictoday.com/%F0%9F%87%B3%F0%9F%87%B4-cardboard-raises-e1-9-million-in-a-round-led-by-skyfall-ventures",
+     "date": "2024-08-29",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "tech.eu",
+     "document": "https://tech.eu/2024/08/27/cardboard-raises-1-9m-for-saas-subscription-management/",
+     "date": "2024-08-27",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "shifter.no",
+     "document": "https://www.shifter.no/nyheter/347166",
+     "date": "2024-08-27",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "3e09ddd3-dd13-5754-8f6e-8a909afca719",
+     "name": "Grant",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "cardboard.inc",
+        "document": "https://cardboard.inc/blog/cardboard-in-2023/",
+        "date": "2023-12-22",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "70d14d37-7e26-55d8-bfce-3b5d39071e4b"
+     }
+    },
+    {
+     "id": "5cfa57ca-8e7f-53f5-acb8-3d452725c1cb",
+     "name": "Seed",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "cardboard.inc",
+        "document": "https://cardboard.inc/blog/cardboard-in-2024/",
+        "date": "2025-01-09",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "arctictoday.com",
+        "document": "https://www.arctictoday.com/%F0%9F%87%B3%F0%9F%87%B4-cardboard-raises-e1-9-million-in-a-round-led-by-skyfall-ventures",
+        "date": "2024-08-29",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2024/08/27/cardboard-raises-1-9m-for-saas-subscription-management/",
+        "date": "2024-08-27",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "shifter.no",
+        "document": "https://www.shifter.no/nyheter/347166",
+        "date": "2024-08-27",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "7949ad24-9b7b-5199-abcf-7d5b590a2be6"
+     }
+    },
+    {
+     "id": "6f92d2dc-0505-5213-98c1-24a9fe59d8a4",
+     "name": "Pre-Seed",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "cardboard.inc",
+        "document": "https://cardboard.inc/blog/cardboard-in-2023/",
+        "date": "2023-12-22",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "nordic9.com",
+        "document": "https://nordic9.com/news/cardboard-secures-nok-7-million-pre-seed-in-a-round-led-by-sondo/",
+        "date": "2023-07-13",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "d866f1e6-39f0-5fa9-abbd-f15c104be40b"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "5c706626-c371-5ee6-8002-c64e63b973be"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "8190c30d-2703-40ab-94d0-6c193cb53908",
+     "name": "FINTECH",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "Investing in founders shaping industry.",
+        "document": "https://runwayfbu.com/portfolio",
+        "date": "2026-01-01"
+       }
+      ],
+      "id": "a2bc9f39-5fbe-4a9f-b3eb-28d72108a638"
+     }
+    },
+    {
+     "id": "8190c30d-2703-40ab-94d0-6c193cb53908",
+     "name": "FINTECH",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/crdbrd/",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "59ad734b-1848-5e5c-8ac6-8cc695147524",
+      "original_label": "fintech"
+     }
+    },
+    {
+     "id": "8ecf5e57-a149-438c-9eb4-089809bade56",
+     "name": "SOFTWARE_AND_SERVICES",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "Investing in founders shaping industry.",
+        "document": "https://runwayfbu.com/portfolio",
+        "date": "2026-01-01"
+       }
+      ],
+      "id": "3d83e1dd-58a4-4846-b75b-e6ae7fe25b11"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "INVESTED_IN": [
+    {
+     "id": "264e9f4b-07cc-4ee0-acef-94f3a0ab080e",
+     "name": "RunwayFBU",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "Investing in founders shaping industry.",
+        "document": "https://runwayfbu.com/portfolio",
+        "date": "2026-01-01"
+       },
+       {
+        "name": "cardboard.inc",
+        "document": "https://cardboard.inc/blog/cardboard-in-2024/",
+        "date": "2025-01-09",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "arctictoday.com",
+        "document": "https://www.arctictoday.com/%F0%9F%87%B3%F0%9F%87%B4-cardboard-raises-e1-9-million-in-a-round-led-by-skyfall-ventures",
+        "date": "2024-08-29",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2024/08/27/cardboard-raises-1-9m-for-saas-subscription-management/",
+        "date": "2024-08-27",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "shifter.no",
+        "document": "https://www.shifter.no/nyheter/347166",
+        "date": "2024-08-27",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "c0f12817-d7d9-4f18-8e71-5ebbaf3a002c"
+     }
+    },
+    {
+     "id": "5b41e29a-5d31-451b-8de0-68d99298b0ac",
+     "name": "SKYFALL VENTURES AS",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "cardboard.inc",
+        "document": "https://cardboard.inc/blog/cardboard-in-2024/",
+        "date": "2025-01-09",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "arctictoday.com",
+        "document": "https://www.arctictoday.com/%F0%9F%87%B3%F0%9F%87%B4-cardboard-raises-e1-9-million-in-a-round-led-by-skyfall-ventures",
+        "date": "2024-08-29",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2024/08/27/cardboard-raises-1-9m-for-saas-subscription-management/",
+        "date": "2024-08-27",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "shifter.no",
+        "document": "https://www.shifter.no/nyheter/347166",
+        "date": "2024-08-27",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "9dce85dd-7bc1-4b7f-9c39-cc03719b3659"
+     }
+    },
+    {
+     "id": "62fa021d-6008-5a20-a96f-76412deaa9d6",
+     "name": "Ellila Weltz",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "shifter.no",
+        "document": "https://www.shifter.no/nyheter/seriegrnder-og-utviklertrio-fra-oda-og-otovo-med-ny-startup-som-skal-lose-bedriftenes-abonnement-kaos/283803",
+        "date": "2023-08-03",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "9d594661-1306-488b-b9de-ed818dc203c0"
+     }
+    },
+    {
+     "id": "7c52f9a1-59c8-5b93-aa31-96bd6b8f75aa",
+     "name": "Simen Fure Jørgensen",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "shifter.no",
+        "document": "https://www.shifter.no/nyheter/seriegrnder-og-utviklertrio-fra-oda-og-otovo-med-ny-startup-som-skal-lose-bedriftenes-abonnement-kaos/283803",
+        "date": "2023-08-03",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "nordic9.com",
+        "document": "https://nordic9.com/news/cardboard-secures-nok-7-million-pre-seed-in-a-round-led-by-sondo/",
+        "date": "2023-07-13",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "cfa5a874-9522-4723-9fc9-33c5207c5e74"
+     }
+    },
+    {
+     "id": "bd05ed85-5ec4-5373-b9d7-abf5628f9cf4",
+     "name": "Patrik Berglund",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "shifter.no",
+        "document": "https://www.shifter.no/nyheter/seriegrnder-og-utviklertrio-fra-oda-og-otovo-med-ny-startup-som-skal-lose-bedriftenes-abonnement-kaos/283803",
+        "date": "2023-08-03",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "nordic9.com",
+        "document": "https://nordic9.com/news/cardboard-secures-nok-7-million-pre-seed-in-a-round-led-by-sondo/",
+        "date": "2023-07-13",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "36c01770-e741-4260-8c90-a1d8d8eacd77"
+     }
+    },
+    {
+     "id": "ececd87a-b611-51e5-a23e-8fca5f0a2fa4",
+     "name": "Vegard Vik",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "shifter.no",
+        "document": "https://www.shifter.no/nyheter/seriegrnder-og-utviklertrio-fra-oda-og-otovo-med-ny-startup-som-skal-lose-bedriftenes-abonnement-kaos/283803",
+        "date": "2023-08-03",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "nordic9.com",
+        "document": "https://nordic9.com/news/cardboard-secures-nok-7-million-pre-seed-in-a-round-led-by-sondo/",
+        "date": "2023-07-13",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "26c8bf25-1667-4380-bbbf-c555c0fb67b3"
+     }
+    },
+    {
+     "id": "f4c567c8-7219-41e0-a983-2158c077f3eb",
+     "name": "ProVenture ApS",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "shifter.no",
+        "document": "https://www.shifter.no/nyheter/seriegrnder-og-utviklertrio-fra-oda-og-otovo-med-ny-startup-som-skal-lose-bedriftenes-abonnement-kaos/283803",
+        "date": "2023-08-03",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "cardboard.inc",
+        "document": "https://cardboard.inc/blog/cardboard-in-2023/",
+        "date": "2023-12-22",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "nordic9.com",
+        "document": "https://nordic9.com/news/cardboard-secures-nok-7-million-pre-seed-in-a-round-led-by-sondo/",
+        "date": "2023-07-13",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "f0b64753-d569-471a-a299-b53e029f965e"
+     }
+    },
+    {
+     "id": "fa3933fa-1eeb-4a15-ab1f-4e16f6cb3d84",
+     "name": "Sondo",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "shifter.no",
+        "document": "https://www.shifter.no/nyheter/seriegrnder-og-utviklertrio-fra-oda-og-otovo-med-ny-startup-som-skal-lose-bedriftenes-abonnement-kaos/283803",
+        "date": "2023-08-03",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "cardboard.inc",
+        "document": "https://cardboard.inc/blog/cardboard-in-2023/",
+        "date": "2023-12-22",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "nordic9.com",
+        "document": "https://nordic9.com/news/cardboard-secures-nok-7-million-pre-seed-in-a-round-led-by-sondo/",
+        "date": "2023-07-13",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "42e18201-1364-437b-9dad-978d07744910"
+     }
+    }
+   ],
+   "FOUNDED": [
+    {
+     "id": "0ae5cf11-1ab8-5486-80a0-c1b7e5c17cbd",
+     "name": "Stein Magnus Jodal",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "cardboard.inc",
+        "document": "https://cardboard.inc/about/",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "75ac7b89-729d-5eef-922a-8402b7643842"
+     }
+    },
+    {
+     "id": "254c8f1d-38e9-58ae-aca3-f796db09d8b4",
+     "name": "Andreas Røyrvik",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "cardboard.inc",
+        "document": "https://cardboard.inc/about/",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "c5f46664-0727-5b14-bc7f-36ee8a887466"
+     }
+    },
+    {
+     "id": "2ecebc42-83db-52c8-85a5-2239be285f6d",
+     "name": "Vidhi Kumar",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "cardboard.inc",
+        "document": "https://cardboard.inc/about/",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "7fbd632c-88ea-52c8-b60c-a732d022cacd"
+     }
+    },
+    {
+     "id": "9ac2b432-04c3-5e0a-9a57-45cea19899de",
+     "name": "Jakob Gerhard Martinussen",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "cardboard.inc",
+        "document": "https://cardboard.inc/about/",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "c98ae69d-b1ac-51c1-a562-ffa3277e0024"
+     }
+    },
+    {
+     "id": "c11d5e5d-3292-567d-bed6-b79a52a637d2",
+     "name": "Lars Syse Christiansen",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "cardboard.inc",
+        "document": "https://cardboard.inc/about/",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "6c4a6938-f754-5208-a9fd-9984b8b488e6"
+     }
+    }
+   ],
+   "IS_CEO_OF": [
+    {
+     "id": "0ae5cf11-1ab8-5486-80a0-c1b7e5c17cbd",
+     "name": "Stein Magnus Jodal",
+     "entity_type": "Person",
+     "properties": {
+      "valid_until": "2025-07-09",
+      "sources": [
+       {
+        "name": "w2.brreg.no",
+        "document": "https://w2.brreg.no/kunngjoring/hent_en.jsp?kid=20220000704653&sokeverdi=930070556&spraak=nb",
+        "date": "2022-10-21",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       },
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2024/08/27/cardboard-raises-1-9m-for-saas-subscription-management/",
+        "date": "2024-08-27",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "9237622a-91ab-5cf8-a13a-96d7568b7b60"
+     }
+    },
+    {
+     "id": "93cdc0f0-c13e-577e-9417-31c6f61484be",
+     "name": "Ole Daniel Nitter",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "cardboard.inc",
+        "document": "https://cardboard.inc/about/",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "data.brreg.no",
+        "document": "https://data.brreg.no/enhetsregisteret/api/enheter/930070556/roller",
+        "date": "2026-11-10",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "42bb6cc6-9b3c-56db-b2e5-084a995d9ddf"
+     }
+    }
+   ],
+   "IS_CTO_OF": [
+    {
+     "id": "9ac2b432-04c3-5e0a-9a57-45cea19899de",
+     "name": "Jakob Gerhard Martinussen",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "cardboard.inc",
+        "document": "https://cardboard.inc/about/",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "988a618f-b49d-5cb3-a611-1ef4f98a9d9a"
+     }
+    }
+   ],
+   "IS_BOARD_MEMBER_OF": [
+    {
+     "id": "0ae5cf11-1ab8-5486-80a0-c1b7e5c17cbd",
+     "name": "Stein Magnus Jodal",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "data.brreg.no",
+        "document": "https://data.brreg.no/enhetsregisteret/api/enheter/930070556/roller",
+        "date": "2026-11-10",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       },
+       {
+        "name": "w2.brreg.no",
+        "document": "https://w2.brreg.no/kunngjoring/hent_en.jsp?kid=20220000704653&sokeverdi=930070556&spraak=nb",
+        "date": "2022-10-21",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "29efdd5a-ba52-5e8e-83ff-6276a1b0b2dd"
+     }
+    },
+    {
+     "id": "254c8f1d-38e9-58ae-aca3-f796db09d8b4",
+     "name": "Andreas Røyrvik",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "data.brreg.no",
+        "document": "https://data.brreg.no/enhetsregisteret/api/enheter/930070556/roller",
+        "date": "2026-11-10",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       },
+       {
+        "name": "w2.brreg.no",
+        "document": "https://w2.brreg.no/kunngjoring/hent_en.jsp?kid=20220000704653&sokeverdi=930070556&spraak=nb",
+        "date": "2022-10-21",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "c7fd689a-a98d-5f1f-95db-6fd99fbeec6f"
+     }
+    },
+    {
+     "id": "9ac2b432-04c3-5e0a-9a57-45cea19899de",
+     "name": "Jakob Gerhard Martinussen",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "data.brreg.no",
+        "document": "https://data.brreg.no/enhetsregisteret/api/enheter/930070556/roller",
+        "date": "2026-11-10",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       },
+       {
+        "name": "w2.brreg.no",
+        "document": "https://w2.brreg.no/kunngjoring/hent_en.jsp?kid=20220000704653&sokeverdi=930070556&spraak=nb",
+        "date": "2022-10-21",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "ac2c8549-9126-5219-ae63-9159181a9359"
+     }
+    },
+    {
+     "id": "c11d5e5d-3292-567d-bed6-b79a52a637d2",
+     "name": "Lars Syse Christiansen",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "data.brreg.no",
+        "document": "https://data.brreg.no/enhetsregisteret/api/enheter/930070556/roller",
+        "date": "2026-11-10",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       },
+       {
+        "name": "w2.brreg.no",
+        "document": "https://w2.brreg.no/kunngjoring/hent_en.jsp?kid=20220000704653&sokeverdi=930070556&spraak=nb",
+        "date": "2022-10-21",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       },
+       {
+        "name": "cardboard.inc",
+        "document": "https://cardboard.inc/about/",
+        "date": "2026-11-10",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "9d3b8017-3e91-5e69-b3ce-77bef4ba6bee"
+     }
+    }
+   ],
+   "WORKS_AT": [
+    {
+     "id": "254c8f1d-38e9-58ae-aca3-f796db09d8b4",
+     "name": "Andreas Røyrvik",
+     "entity_type": "Person",
+     "properties": {
+      "role": "CPO",
+      "sources": [
+       {
+        "name": "cardboard.inc",
+        "document": "https://cardboard.inc/about/",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "832112d3-afef-5aaa-a0b4-ffdbe57f37f6"
+     }
+    },
+    {
+     "id": "2ecebc42-83db-52c8-85a5-2239be285f6d",
+     "name": "Vidhi Kumar",
+     "entity_type": "Person",
+     "properties": {
+      "role": "CGO",
+      "sources": [
+       {
+        "name": "cardboard.inc",
+        "document": "https://cardboard.inc/about/",
+        "date": "2026-11-10",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2024/08/27/cardboard-raises-1-9m-for-saas-subscription-management/",
+        "date": "2024-08-27",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "8f0f9a0b-af01-5e82-9917-86a2aa478d33"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

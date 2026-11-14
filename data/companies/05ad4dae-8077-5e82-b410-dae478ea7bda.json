@@ -1,0 +1,166 @@
+{
+ "id": "05ad4dae-8077-5e82-b410-dae478ea7bda",
+ "name": "FunFox AI",
+ "entity_type": "Company",
+ "description": "Voice-first matchmaking for professional communities and events. Open your organizer's event link to get started.",
+ "properties": {
+  "name": {
+   "value": "FunFox AI",
+   "sources": [
+    {
+     "name": "funfox.ai",
+     "document": "https://funfox.ai/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/funfox",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "website": {
+   "value": "funfox.ai",
+   "sources": [
+    {
+     "name": "funfox.ai",
+     "document": "https://funfox.ai/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "dns.google",
+     "document": "https://dns.google/query?name=funfox.ai&type=A",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "Voice-first matchmaking for professional communities and events. Open your organizer's event link to get started.",
+   "sources": [
+    {
+     "name": "funfox.ai",
+     "document": "https://funfox.ai/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2026-01-01",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/funfox",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "Helsinki, Finland",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/funfox",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "funfox.ai",
+     "document": "https://funfox.ai/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "34c981e4-dbf9-5055-b60f-fca4e33aa019"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "8ecf5e57-a149-438c-9eb4-089809bade56",
+     "name": "SOFTWARE_AND_SERVICES",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/funfox",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "e75aaa60-b0c7-5fd2-8cd1-3578a0451fb2",
+      "original_label": "eventTech"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "FOUNDED": [
+    {
+     "id": "063a741a-29c3-5f6e-8e9e-17f198ae177b",
+     "name": "Bambi Dang",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "village.ai",
+        "document": "https://village.ai/person/bambi-dang-NzY4OTcwODQx",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       },
+       {
+        "name": "funfox.ai",
+        "document": "https://funfox.ai/",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "da23a28f-6820-5f79-8693-3c3003e193a0",
+      "valid_since": "2025-10-01"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

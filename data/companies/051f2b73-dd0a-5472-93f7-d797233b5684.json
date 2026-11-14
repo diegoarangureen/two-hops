@@ -1,0 +1,170 @@
+{
+ "id": "051f2b73-dd0a-5472-93f7-d797233b5684",
+ "name": "RadiXpert AI",
+ "entity_type": "Company",
+ "description": "RadiXpert AI provides AI-assisted radiology workflow support for Brain MRI, Chest X-Ray, Mammography, and Musculoskeletal X-Ray analysis for hospital radiology teams and clinical researchers.",
+ "properties": {
+  "name": {
+   "value": "RadiXpert AI",
+   "sources": [
+    {
+     "name": "radixpertai.com",
+     "document": "https://www.radixpertai.com/",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "Radiexpert Oy",
+   "sources": [
+    {
+     "name": "avoindata.prh.fi",
+     "document": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies?businessId=3639608-6",
+     "date": "2026-07-15",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "website": {
+   "value": "radixpertai.com",
+   "sources": [
+    {
+     "name": "radixpertai.com",
+     "document": "https://radixpertai.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "dns.google",
+     "document": "https://dns.google/query?name=radixpertai.com&type=A",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "RadiXpert AI provides AI-assisted radiology workflow support for Brain MRI, Chest X-Ray, Mammography, and Musculoskeletal X-Ray analysis for hospital radiology teams and clinical researchers.",
+   "sources": [
+    {
+     "name": "radixpertai.com",
+     "document": "https://www.radixpertai.com/",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2026-07-15",
+   "sources": [
+    {
+     "name": "avoindata.prh.fi",
+     "document": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies?businessId=3639608-6",
+     "date": "2026-07-15",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "Helsinki, Finland",
+   "sources": [
+    {
+     "name": "radixpertai.com",
+     "document": "https://radixpertai.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "radixpertai.com",
+     "document": "https://www.radixpertai.com/",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "avoindata.prh.fi",
+     "document": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies?businessId=3639608-6",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "5e226bf9-c8b7-50b7-964e-f184e718d8dd"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "8ecf5e57-a149-438c-9eb4-089809bade56",
+     "name": "SOFTWARE_AND_SERVICES",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "radixpertai.com",
+        "document": "https://radixpertai.com/",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "89ffd57d-dbd7-5f97-98d8-a3ec166fa6fa",
+      "original_label": "deeptech"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "FOUNDED": [
+    {
+     "id": "6d5ed290-dbc6-5b83-8442-acfc65bee3da",
+     "name": "Jyotidip Barman",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "radixpertai.com",
+        "document": "https://www.radixpertai.com/",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "54bac0e4-5e9e-5d39-ab5d-fff5d1eda707"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

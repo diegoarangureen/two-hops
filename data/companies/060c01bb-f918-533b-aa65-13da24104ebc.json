@@ -1,0 +1,377 @@
+{
+ "id": "060c01bb-f918-533b-aa65-13da24104ebc",
+ "name": "Arqus Aerospace",
+ "entity_type": "Company",
+ "description": "Europe's guardian in orbit. Arqus Aerospace watches what moves in space, so Europe can act early and calmly. Based in Munich.",
+ "properties": {
+  "name": {
+   "value": "Arqus Aerospace",
+   "sources": [
+    {
+     "name": "arqus.space",
+     "document": "https://arqus.space/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/123114455/admin/dashboard/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "Arqus GmbH",
+   "sources": [
+    {
+     "name": "arqusaerospace.com",
+     "document": "https://arqusaerospace.com/imprint",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "website": {
+   "value": "arqus.space",
+   "sources": [
+    {
+     "name": "arqus.space",
+     "document": "https://arqus.space/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "dns.google",
+     "document": "https://dns.google/query?name=arqus.space&type=A",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "Europe's guardian in orbit. Arqus Aerospace watches what moves in space, so Europe can act early and calmly. Based in Munich.",
+   "sources": [
+    {
+     "name": "arqus.space",
+     "document": "https://arqus.space/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2026-01-01",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/123114455/admin/dashboard/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "Munich, Germany",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/123114455/admin/dashboard/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    },
+    {
+     "name": "arqusaerospace.com",
+     "document": "https://arqusaerospace.com/",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "arqus.space",
+     "document": "https://arqus.space/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "65d0724b-043a-5cd8-8c4a-b8ee19c8a4d2",
+     "name": "Pre-Seed",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "nordic9.com",
+        "document": "https://nordic9.com/news/arqus-aerospace-closed-a-pre-seed-funding-rou/",
+        "date": "2026-10-21",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "e69bd778-255c-56e9-8399-ea53a8ce859f"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "4d835bdc-620e-5676-85a6-0849076512be"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "bb7caa00-59c3-4587-9aaf-5d9195444829",
+     "name": "AEROSPACE_AND_DEFENSE",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/123114455/admin/dashboard/",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "e8bfa44b-dc2e-5f69-bdef-839848d5e728",
+      "original_label": "space"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "INVESTED_IN": [
+    {
+     "id": "56b2de0a-5471-5fab-85c1-541e5bdda4b9",
+     "name": "Tholus Capital",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "nordic9.com",
+        "document": "https://nordic9.com/news/arqus-aerospace-closed-a-pre-seed-funding-rou/",
+        "date": "2026-10-21",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       },
+       {
+        "name": "tholuscapital.com",
+        "document": "https://www.tholuscapital.com/portfolio",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "arqusaerospace.com",
+        "document": "https://arqusaerospace.com/",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "a61d9417-fdf1-45db-8790-62bebb94701b"
+     }
+    },
+    {
+     "id": "59ba0988-cfc2-4dc1-863f-b10fdd972ddc",
+     "name": "Prototype Capital",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "nordic9.com",
+        "document": "https://nordic9.com/news/arqus-aerospace-closed-a-pre-seed-funding-rou/",
+        "date": "2026-10-21",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       },
+       {
+        "name": "arqusaerospace.com",
+        "document": "https://arqusaerospace.com/",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "9fac20ad-0de3-4a8a-9aae-48f8a4feafc4"
+     }
+    },
+    {
+     "id": "7da9dd58-7122-4f9f-b635-20bb5af129d8",
+     "name": "Konstantin Sixt",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "nordic9.com",
+        "document": "https://nordic9.com/news/arqus-aerospace-closed-a-pre-seed-funding-rou/",
+        "date": "2026-10-21",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "20bb253c-de13-44df-b7d6-501903aa1ef2"
+     }
+    },
+    {
+     "id": "b9e83dea-d2ba-4fdc-9f7a-e1d1fc763e7c",
+     "name": "ATLANTIC",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "nordic9.com",
+        "document": "https://nordic9.com/news/arqus-aerospace-closed-a-pre-seed-funding-rou/",
+        "date": "2026-10-21",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       },
+       {
+        "name": "atlantic.vc",
+        "document": "https://atlantic.vc/portfolio",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "arqusaerospace.com",
+        "document": "https://arqusaerospace.com/",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "ca4ddf1f-f626-4a95-8539-8839e996f447"
+     }
+    },
+    {
+     "id": "bf695414-b1e3-454e-8935-be21971f775b",
+     "name": "P3A Ventures GmbH",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "nordic9.com",
+        "document": "https://nordic9.com/news/arqus-aerospace-closed-a-pre-seed-funding-rou/",
+        "date": "2026-10-21",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       },
+       {
+        "name": "arqusaerospace.com",
+        "document": "https://arqusaerospace.com/",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "e7d0fc22-2181-4f0e-8b00-5787414c6f47"
+     }
+    },
+    {
+     "id": "fd190e7d-d3e3-53ef-b708-72e372a25c15",
+     "name": "DKP Family Office",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "nordic9.com",
+        "document": "https://nordic9.com/news/arqus-aerospace-closed-a-pre-seed-funding-rou/",
+        "date": "2026-10-21",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "edead099-8902-4bb7-9a4b-269320e222ee"
+     }
+    }
+   ],
+   "FOUNDED": [
+    {
+     "id": "4024acc4-6047-5520-aee9-591d76e5e049",
+     "name": "Anton Liegert",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "nordic9.com",
+        "document": "https://nordic9.com/companies/arqus-aerospace/",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "52dab1c6-5934-5a5a-8087-369b60a0000c"
+     }
+    },
+    {
+     "id": "9e134396-82b6-57f0-b309-099d13aaa216",
+     "name": "Stijn Lafontaine",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "nordic9.com",
+        "document": "https://nordic9.com/companies/arqus-aerospace/",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "ab7b851a-f807-5c95-8d04-37b5e2f68e4a"
+     }
+    },
+    {
+     "id": "d571861d-a48c-52db-b910-cf207eec06a2",
+     "name": "Marnix Meersman",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "nordic9.com",
+        "document": "https://nordic9.com/companies/arqus-aerospace/",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "f74dc464-dd2b-5a64-ab7f-72b107b6d039"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

@@ -1,0 +1,371 @@
+{
+ "id": "2df9a7a8-da70-5693-83f2-0b9a488de897",
+ "name": "Pre-Seed",
+ "entity_type": "FundingRound",
+ "description": null,
+ "properties": {
+  "name": {
+   "value": "Pre-Seed",
+   "sources": [
+    {
+     "name": "fundinglondon.co.uk",
+     "document": "https://fundinglondon.co.uk/news/investment-ready-alumus-cosysense-raises-1.5-million-to-scale-aidriven-hvac-efficiency",
+     "date": "2026-01-23",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "startupmag.co.uk",
+     "document": "https://www.startupmag.co.uk/funding/cosysense-2025-pre-seed-funding",
+     "date": "2025-11-19",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "round_label": {
+   "value": "PRE_SEED",
+   "sources": [
+    {
+     "name": "fundinglondon.co.uk",
+     "document": "https://fundinglondon.co.uk/news/investment-ready-alumus-cosysense-raises-1.5-million-to-scale-aidriven-hvac-efficiency",
+     "date": "2026-01-23",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "startupmag.co.uk",
+     "document": "https://www.startupmag.co.uk/funding/cosysense-2025-pre-seed-funding",
+     "date": "2025-11-19",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "instrument": {
+   "value": "EQUITY",
+   "sources": [
+    {
+     "name": "find-and-update.company-information.service.gov.uk",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/14298641/filing-history/MzQ5MTczMzcyNWFkaXF6a2N4/document?format=pdf&download=0",
+     "date": "2025-12-01",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "transaction_value": {
+   "value": 1500000.0,
+   "sources": [
+    {
+     "name": "fundinglondon.co.uk",
+     "document": "https://fundinglondon.co.uk/news/investment-ready-alumus-cosysense-raises-1.5-million-to-scale-aidriven-hvac-efficiency",
+     "date": "2026-01-23",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "startupmag.co.uk",
+     "document": "https://www.startupmag.co.uk/funding/cosysense-2025-pre-seed-funding",
+     "date": "2025-11-19",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "transaction_value_units": {
+   "value": "GBP",
+   "sources": [
+    {
+     "name": "fundinglondon.co.uk",
+     "document": "https://fundinglondon.co.uk/news/investment-ready-alumus-cosysense-raises-1.5-million-to-scale-aidriven-hvac-efficiency",
+     "date": "2026-01-23",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "startupmag.co.uk",
+     "document": "https://www.startupmag.co.uk/funding/cosysense-2025-pre-seed-funding",
+     "date": "2025-11-19",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "announcement_date": {
+   "value": "2025-11-19",
+   "sources": [
+    {
+     "name": "startupmag.co.uk",
+     "document": "https://www.startupmag.co.uk/funding/cosysense-2025-pre-seed-funding",
+     "date": "2025-11-19",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "event_date": {
+   "value": "2025-10-29",
+   "sources": [
+    {
+     "name": "find-and-update.company-information.service.gov.uk",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/14298641/filing-history/MzQ5MTczMzcyNWFkaXF6a2N4/document?format=pdf&download=0",
+     "date": "2025-12-01",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "annotations": {
+   "value": [
+    "Disclosed name 'combined Angel and Pre-Seed round' (Funding London) / 'angel and pre-seed round' (Startupmag).",
+    "round_label_stated:Pre-Seed"
+   ],
+   "sources": []
+  }
+ },
+ "relationships": {
+  "outgoing": {},
+  "incoming": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "0467d981-5964-4a9f-b32b-54d58a2d5131",
+     "name": "COSYSENSE LTD",
+     "entity_type": "Company",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "fundinglondon.co.uk",
+        "document": "https://fundinglondon.co.uk/news/investment-ready-alumus-cosysense-raises-1.5-million-to-scale-aidriven-hvac-efficiency",
+        "date": "2026-01-23",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "startupmag.co.uk",
+        "document": "https://www.startupmag.co.uk/funding/cosysense-2025-pre-seed-funding",
+        "date": "2025-11-19",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "3da93657-b9c9-5882-b56d-66b0821e27c9"
+     }
+    },
+    {
+     "id": "60a53881-32bf-40fd-9189-c30548282118",
+     "name": "Cranfield University",
+     "entity_type": "EducationalInstitution",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "fundinglondon.co.uk",
+        "document": "https://fundinglondon.co.uk/news/investment-ready-alumus-cosysense-raises-1.5-million-to-scale-aidriven-hvac-efficiency",
+        "date": "2026-01-23",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "startupmag.co.uk",
+        "document": "https://www.startupmag.co.uk/funding/cosysense-2025-pre-seed-funding",
+        "date": "2025-11-19",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "find-and-update.company-information.service.gov.uk",
+        "document": "https://find-and-update.company-information.service.gov.uk/company/14298641/filing-history/MzQ5MzE2ODk5OGFkaXF6a2N4/document?format=pdf&download=0",
+        "date": "2025-12-09",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "255c6cd4-7729-5599-ae55-a8f3bdf46fad"
+     }
+    },
+    {
+     "id": "7c007331-63fa-4a4b-b951-0a9f732c0b1b",
+     "name": "Bethnal Green Ventures LLP",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "fundinglondon.co.uk",
+        "document": "https://fundinglondon.co.uk/news/investment-ready-alumus-cosysense-raises-1.5-million-to-scale-aidriven-hvac-efficiency",
+        "date": "2026-01-23",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "startupmag.co.uk",
+        "document": "https://www.startupmag.co.uk/funding/cosysense-2025-pre-seed-funding",
+        "date": "2025-11-19",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "find-and-update.company-information.service.gov.uk",
+        "document": "https://find-and-update.company-information.service.gov.uk/company/14298641/filing-history/MzQ5MzE2ODk5OGFkaXF6a2N4/document?format=pdf&download=0",
+        "date": "2025-12-09",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "is_lead": true,
+      "id": "fc36ddf1-fb13-5437-a075-fa4bdd3ad64f"
+     }
+    },
+    {
+     "id": "9883ee3d-57e7-55e7-82a0-424f3896af10",
+     "name": "Jordi Goetstouwers Odena",
+     "entity_type": "Person",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "startupmag.co.uk",
+        "document": "https://www.startupmag.co.uk/funding/cosysense-2025-pre-seed-funding",
+        "date": "2025-11-19",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "1d447570-2804-580c-a801-18b80ac23627"
+     }
+    },
+    {
+     "id": "a68fecb1-e8d3-46f5-ab7b-b6a9df3df459",
+     "name": "CAMBRIDGE ENTERPRISE LIMITED",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "fundinglondon.co.uk",
+        "document": "https://fundinglondon.co.uk/news/investment-ready-alumus-cosysense-raises-1.5-million-to-scale-aidriven-hvac-efficiency",
+        "date": "2026-01-23",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "startupmag.co.uk",
+        "document": "https://www.startupmag.co.uk/funding/cosysense-2025-pre-seed-funding",
+        "date": "2025-11-19",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "57920f1e-bf10-553c-8800-a0d6ccbcdb47"
+     }
+    },
+    {
+     "id": "b9421b15-61ea-4f4b-a241-22a323f0a968",
+     "name": "SyndicateRoom",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "fundinglondon.co.uk",
+        "document": "https://fundinglondon.co.uk/news/investment-ready-alumus-cosysense-raises-1.5-million-to-scale-aidriven-hvac-efficiency",
+        "date": "2026-01-23",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "startupmag.co.uk",
+        "document": "https://www.startupmag.co.uk/funding/cosysense-2025-pre-seed-funding",
+        "date": "2025-11-19",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "find-and-update.company-information.service.gov.uk",
+        "document": "https://find-and-update.company-information.service.gov.uk/company/14298641/filing-history/MzQ5MzE2ODk5OGFkaXF6a2N4/document?format=pdf&download=0",
+        "date": "2025-12-09",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "b644e5ae-2196-54c6-9de2-a4dfea4799d8"
+     }
+    },
+    {
+     "id": "bbf0f109-173c-5351-8650-7b4aabe315cb",
+     "name": "Rob Dobson",
+     "entity_type": "Person",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "startupmag.co.uk",
+        "document": "https://www.startupmag.co.uk/funding/cosysense-2025-pre-seed-funding",
+        "date": "2025-11-19",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "2e09ddbf-f42b-5127-a688-56d634151708"
+     }
+    }
+   ],
+   "IS_TRANCHE_OF": [
+    {
+     "id": "a363d8b5-5d1e-5eee-ad9b-3303e5523616",
+     "name": "Tranche 3",
+     "entity_type": "FundingRoundTranche",
+     "properties": {
+      "sources": [
+       {
+        "name": "find-and-update.company-information.service.gov.uk",
+        "document": "https://find-and-update.company-information.service.gov.uk/company/14298641/filing-history/MzQ5MTc0NDU4OGFkaXF6a2N4/document?format=pdf&download=0",
+        "date": "2025-12-01",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "acabda22-1df5-56c1-b619-81beea457e05"
+     }
+    },
+    {
+     "id": "bdc28216-7bab-5f1e-abc5-9c50da5a03a7",
+     "name": "Tranche 1",
+     "entity_type": "FundingRoundTranche",
+     "properties": {
+      "sources": [
+       {
+        "name": "find-and-update.company-information.service.gov.uk",
+        "document": "https://find-and-update.company-information.service.gov.uk/company/14298641/filing-history/MzQ5MTczMzcyNWFkaXF6a2N4/document?format=pdf&download=0",
+        "date": "2025-12-01",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "ffe19e12-7b7e-5e31-bc45-8be5810cf1b1"
+     }
+    },
+    {
+     "id": "e55a7aca-3f57-5f10-8434-9008b224c775",
+     "name": "Tranche 2",
+     "entity_type": "FundingRoundTranche",
+     "properties": {
+      "sources": [
+       {
+        "name": "find-and-update.company-information.service.gov.uk",
+        "document": "https://find-and-update.company-information.service.gov.uk/company/14298641/filing-history/MzQ5MTczNTE5NGFkaXF6a2N4/document?format=pdf&download=0",
+        "date": "2025-12-01",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "1e93e9f6-5474-532d-ba7d-5c3261df1e89"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

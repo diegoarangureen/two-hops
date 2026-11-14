@@ -1,0 +1,503 @@
+{
+ "id": "042ef2e3-d937-5d28-81d4-bcd86f76f862",
+ "name": "H2K, Inc.",
+ "entity_type": "Company",
+ "description": "H2K (법인명: 에이치투케이, Happiness To Kids) is a Daejeon social venture founded in 2017 that provides the AI-based Korean literacy (한글) learning app 소중한글 for children, including slow learners.",
+ "properties": {
+  "name": {
+   "value": "H2K, Inc.",
+   "sources": [
+    {
+     "name": "h2kwiki.notion.site",
+     "document": "https://h2kwiki.notion.site/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/happinesstokids/mycompany/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "주식회사 에이치투케이",
+   "sources": []
+  },
+  "website": {
+   "value": "h2kwiki.notion.site",
+   "sources": [
+    {
+     "name": "h2kwiki.notion.site",
+     "document": "https://h2kwiki.notion.site/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "dns.google",
+     "document": "https://dns.google/query?name=h2kwiki.notion.site&type=A",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "H2K (법인명: 에이치투케이, Happiness To Kids) is a Daejeon social venture founded in 2017 that provides the AI-based Korean literacy (한글) learning app 소중한글 for children, including slow learners.",
+   "sources": [
+    {
+     "name": "h2kwiki.notion.site",
+     "document": "https://h2kwiki.notion.site/",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2017-01-01",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/happinesstokids/mycompany/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "Daejeon, South Korea",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/happinesstokids/mycompany/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "h2kwiki.notion.site",
+     "document": "https://h2kwiki.notion.site/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "total_funding": {
+   "value": 2000000000.0,
+   "sources": [
+    {
+     "name": "edaily.co.kr",
+     "document": "https://www.edaily.co.kr/news/read?newsId=01590806625905368&mediaCodeNo=E",
+     "date": "2020-09-30",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "h2kwiki.notion.site",
+     "document": "https://h2kwiki.notion.site/5146f9dda1834f318ae295d915f967c2",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "total_funding_units": {
+   "value": "KRW",
+   "sources": [
+    {
+     "name": "edaily.co.kr",
+     "document": "https://www.edaily.co.kr/news/read?newsId=01590806625905368&mediaCodeNo=E",
+     "date": "2020-09-30",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "h2kwiki.notion.site",
+     "document": "https://h2kwiki.notion.site/5146f9dda1834f318ae295d915f967c2",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "total_funding_excluding_debt": {
+   "value": 2000000000.0,
+   "sources": [
+    {
+     "name": "edaily.co.kr",
+     "document": "https://www.edaily.co.kr/news/read?newsId=01590806625905368&mediaCodeNo=E",
+     "date": "2020-09-30",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "h2kwiki.notion.site",
+     "document": "https://h2kwiki.notion.site/5146f9dda1834f318ae295d915f967c2",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "funding_stage": {
+   "value": "PRE_SERIES_A",
+   "sources": [
+    {
+     "name": "h2kwiki.notion.site",
+     "document": "https://h2kwiki.notion.site/5146f9dda1834f318ae295d915f967c2",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "edaily.co.kr",
+     "document": "https://www.edaily.co.kr/news/read?newsId=01590806625905368&mediaCodeNo=E",
+     "date": "2020-09-30",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "15578e32-3d2a-508c-b421-7cc1173c07f2",
+     "name": "Grant",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "h2kwiki.notion.site",
+        "document": "https://h2kwiki.notion.site/5146f9dda1834f318ae295d915f967c2",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "6daa69ca-253e-597e-a287-a08d0c3cbeea"
+     }
+    },
+    {
+     "id": "35a3aae9-a046-5b3d-bbc0-04da34ac37ae",
+     "name": "Pre-Seed",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "h2kwiki.notion.site",
+        "document": "https://h2kwiki.notion.site/5146f9dda1834f318ae295d915f967c2",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "91e5bd2d-475b-5f6f-b836-43dce7861363"
+     }
+    },
+    {
+     "id": "86973a3a-6771-564f-aea5-48ce329fe927",
+     "name": "Grant",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "venturesquare.net",
+        "document": "https://www.venturesquare.net/1004152",
+        "date": "2025-09-11",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "93b0ebbd-1029-50f5-b03d-20b410d92151"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "24dc2724-e90c-56b1-8728-66fd41d0526c"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "e89f6829-3a02-4330-b0c4-7746021a9837",
+     "name": "EDUCATION",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/happinesstokids/mycompany/",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "649504d5-d383-54dd-a1d2-67890fbe4001",
+      "original_label": "edu"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "INVESTED_IN": [
+    {
+     "id": "02df0988-8f28-5eb8-b0af-826843f22eb1",
+     "name": "Y-Planet (와이플래닛)",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "h2kwiki.notion.site",
+        "document": "https://h2kwiki.notion.site/5146f9dda1834f318ae295d915f967c2",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "9dcd4aeb-b177-4101-bab5-bf9404417cc4"
+     }
+    },
+    {
+     "id": "3315d502-c53d-4c3b-86bd-8dfe99b67a3d",
+     "name": "Sazze Partners, Inc.",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "h2kwiki.notion.site",
+        "document": "https://h2kwiki.notion.site/5146f9dda1834f318ae295d915f967c2",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "edaily.co.kr",
+        "document": "https://www.edaily.co.kr/news/read?newsId=01590806625905368&mediaCodeNo=E",
+        "date": "2020-09-30",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "be96c3fa-3df2-4f8f-b55d-91965e9aeaac"
+     }
+    },
+    {
+     "id": "6ef421d8-26cb-451b-9ef8-952834cfa42d",
+     "name": "Ascendo Ventures, LLC",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "h2kwiki.notion.site",
+        "document": "https://h2kwiki.notion.site/5146f9dda1834f318ae295d915f967c2",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "70d6d04d-f63b-47c5-80cf-5dd348bb1371"
+     }
+    },
+    {
+     "id": "7e47c301-6e04-5ce4-8f15-203685425a2e",
+     "name": "UTC Kakao-SK Telecom ESG Fund (유티씨 카카오-SK텔레콤 ESG 펀드)",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "h2kwiki.notion.site",
+        "document": "https://h2kwiki.notion.site/5146f9dda1834f318ae295d915f967c2",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "9dd27b85-986f-43fa-a107-4a6253d2410c"
+     }
+    },
+    {
+     "id": "8309cca8-0c75-56e1-bcef-96d7269f5bbe",
+     "name": "IPS Ventures (IPS벤처스)",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "h2kwiki.notion.site",
+        "document": "https://h2kwiki.notion.site/5146f9dda1834f318ae295d915f967c2",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "7662c8fc-26b6-4de5-8be3-bf74d8d30a98"
+     }
+    },
+    {
+     "id": "8fa229f5-ff32-5266-87e0-310db6b99f21",
+     "name": "Daedeok Venture Partners (대덕벤처파트너스)",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "h2kwiki.notion.site",
+        "document": "https://h2kwiki.notion.site/5146f9dda1834f318ae295d915f967c2",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "a8fd6595-8607-48e9-a50e-540975f24142"
+     }
+    },
+    {
+     "id": "bf67d783-5132-45e6-9b03-4bcd613fcb62",
+     "name": "Sopoong Ventures",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "h2kwiki.notion.site",
+        "document": "https://h2kwiki.notion.site/5146f9dda1834f318ae295d915f967c2",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "5132872c-638b-43a6-b7b7-033d31738937"
+     }
+    },
+    {
+     "id": "ee0b3541-72fa-5e70-80b2-d45e423b2629",
+     "name": "Seoul Business Agency (서울산업진흥원)",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "h2kwiki.notion.site",
+        "document": "https://h2kwiki.notion.site/5146f9dda1834f318ae295d915f967c2",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "ebebd075-42fd-4e27-9177-d7ae8f526b28"
+     }
+    }
+   ],
+   "FOUNDED": [
+    {
+     "id": "42279cea-8332-56eb-8698-f82275215cde",
+     "name": "김우현",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "h2kwiki.notion.site",
+        "document": "https://h2kwiki.notion.site/5146f9dda1834f318ae295d915f967c2",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "5d3cf5eb-c139-5131-a3e5-a7cada7c8615",
+      "valid_since": "2017-06-01"
+     }
+    },
+    {
+     "id": "aa46f71c-b1e4-51b7-8d41-1e0b6a2bf555",
+     "name": "홍창기",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "h2kwiki.notion.site",
+        "document": "https://h2kwiki.notion.site/5146f9dda1834f318ae295d915f967c2",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "333094f7-9d84-51f5-af19-503d36f35299",
+      "valid_since": "2017-06-01"
+     }
+    }
+   ],
+   "IS_CEO_OF": [
+    {
+     "id": "aa46f71c-b1e4-51b7-8d41-1e0b6a2bf555",
+     "name": "홍창기",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "h2kwiki.notion.site",
+        "document": "https://h2kwiki.notion.site/",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "venturesquare.net",
+        "document": "https://www.venturesquare.net/1004152",
+        "date": "2025-09-11",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "88e31956-6018-53ff-b055-b6eddf0b0ecb"
+     }
+    }
+   ],
+   "IS_CTO_OF": [
+    {
+     "id": "42279cea-8332-56eb-8698-f82275215cde",
+     "name": "김우현",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "h2kwiki.notion.site",
+        "document": "https://h2kwiki.notion.site/27b95474d569490b8a4eaad67c9e8dc4",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "45792cf0-f054-5b1d-9b7b-720cfbf190ee"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

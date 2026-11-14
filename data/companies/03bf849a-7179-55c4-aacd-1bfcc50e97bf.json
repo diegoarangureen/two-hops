@@ -1,0 +1,396 @@
+{
+ "id": "03bf849a-7179-55c4-aacd-1bfcc50e97bf",
+ "name": "Hashlist",
+ "entity_type": "Company",
+ "description": "Reinforcement learning environments, evaluations and expert training data for embedded engineering, for frontier AI labs and enterprises.",
+ "properties": {
+  "name": {
+   "value": "Hashlist",
+   "sources": [
+    {
+     "name": "hashlist.com",
+     "document": "https://hashlist.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/hashlist/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "Gigarator Oy",
+   "sources": [
+    {
+     "name": "avoindata.prh.fi",
+     "document": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies?businessId=3153482-2",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "website": {
+   "value": "hashlist.com",
+   "sources": [
+    {
+     "name": "hashlist.com",
+     "document": "https://hashlist.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "dns.google",
+     "document": "https://dns.google/query?name=hashlist.com&type=A",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "Reinforcement learning environments, evaluations and expert training data for embedded engineering, for frontier AI labs and enterprises.",
+   "sources": [
+    {
+     "name": "hashlist.com",
+     "document": "https://hashlist.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2020-09-14",
+   "sources": [
+    {
+     "name": "avoindata.prh.fi",
+     "document": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies?businessId=3153482-2",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "Helsinki, Finland",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/hashlist/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "hashlist.com",
+     "document": "https://hashlist.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "avoindata.prh.fi",
+     "document": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies?businessId=3153482-2",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "employee_count_range": {
+   "value": [
+    1,
+    10
+   ],
+   "sources": [
+    {
+     "name": "thehub.io",
+     "document": "https://thehub.io/startups/hashlist",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "total_funding": {
+   "value": 1000000.0,
+   "sources": [
+    {
+     "name": "vcbacked.co",
+     "document": "https://www.vcbacked.co/company/hashlist",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "total_funding_units": {
+   "value": "USD",
+   "sources": [
+    {
+     "name": "vcbacked.co",
+     "document": "https://www.vcbacked.co/company/hashlist",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "total_funding_excluding_debt": {
+   "value": 1000000.0,
+   "sources": [
+    {
+     "name": "vcbacked.co",
+     "document": "https://www.vcbacked.co/company/hashlist",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "funding_stage": {
+   "value": "PRE_SEED",
+   "sources": [
+    {
+     "name": "vcbacked.co",
+     "document": "https://www.vcbacked.co/company/hashlist",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "0e9e28a8-1642-5187-ba49-e9e5d5ab8468",
+     "name": "Equity round",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "hashlist.com",
+        "document": "https://hashlist.com/#blog.sands-makes-a-strategic-growth-investment-in-hashlist",
+        "date": "2026-06-10",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "dcf8357e-151a-5674-9447-93b0feab64f8"
+     }
+    },
+    {
+     "id": "c989b94a-430c-5a0e-bdc7-47ff704eb7ce",
+     "name": "Pre-Seed",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "vcbacked.co",
+        "document": "https://www.vcbacked.co/company/hashlist",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "445212d3-4f8f-5357-ba2e-3a5ac388cc2b"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "c904e225-4b25-53ac-a364-feadcf93a3f9"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "8ecf5e57-a149-438c-9eb4-089809bade56",
+     "name": "SOFTWARE_AND_SERVICES",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/hashlist/",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "10169c2e-185a-5b7f-bf2e-ff50ab5776ff",
+      "original_label": "ai"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "INVESTED_IN": [
+    {
+     "id": "81601c3a-9c66-4b13-8f36-a932cc13b8fa",
+     "name": "Sands Capital Ventures",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "hashlist.com",
+        "document": "https://hashlist.com/#blog.sands-makes-a-strategic-growth-investment-in-hashlist",
+        "date": "2026-06-10",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "63d2b480-be94-4441-9422-f722a1086796"
+     }
+    }
+   ],
+   "FOUNDED": [
+    {
+     "id": "315d716f-3b97-5b44-a0ad-151bc5fe5256",
+     "name": "William Engblom",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "thehub.io",
+        "document": "https://thehub.io/startups/hashlist",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "7d0f3a72-4074-5553-b8ad-a167532a9964"
+     }
+    },
+    {
+     "id": "6713303b-62d5-5650-8808-131394fad7f6",
+     "name": "Calle Unnérus",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "thehub.io",
+        "document": "https://thehub.io/startups/hashlist",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "27c0474a-c60b-5d2f-af24-0de9abcf2c9b"
+     }
+    }
+   ],
+   "IS_CEO_OF": [
+    {
+     "id": "6713303b-62d5-5650-8808-131394fad7f6",
+     "name": "Calle Unnérus",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "hashlist.com",
+        "document": "https://hashlist.com/",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "thehub.io",
+        "document": "https://thehub.io/startups/hashlist",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "fd732288-e908-566a-b6a6-c2de5a465c5b"
+     }
+    }
+   ],
+   "WORKS_AT": [
+    {
+     "id": "7e2f3ef4-8bf2-559e-ad0f-789d1135461d",
+     "name": "Milena Naumovic",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Head of Recruitment",
+      "sources": [
+       {
+        "name": "hashlist.com",
+        "document": "https://hashlist.com/",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "cb768752-7f73-539e-8623-1c1dc2634204"
+     }
+    },
+    {
+     "id": "94bdb45c-237a-5682-9c63-d5e8e5d4b354",
+     "name": "Andrzej Swaton",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Head of Engineering",
+      "sources": [
+       {
+        "name": "hashlist.com",
+        "document": "https://hashlist.com/",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "e71efbe3-301d-5082-99b1-bb992a9640c0"
+     }
+    },
+    {
+     "id": "dc5ff0f4-dcc3-55e5-a51a-8e2ad5357797",
+     "name": "Robert Laukas",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Chief Commercial Officer",
+      "sources": [
+       {
+        "name": "hashlist.com",
+        "document": "https://hashlist.com/",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "b98f0ff7-04b0-5d9f-91b6-e84d38b5d48b"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

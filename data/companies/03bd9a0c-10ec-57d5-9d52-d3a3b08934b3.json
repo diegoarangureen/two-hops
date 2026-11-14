@@ -1,0 +1,327 @@
+{
+ "id": "03bd9a0c-10ec-57d5-9d52-d3a3b08934b3",
+ "name": "Nauti",
+ "entity_type": "Company",
+ "description": "At NAUTI, our goal is to restore water quality and aquatic ecosystems while protecting both human and environmental health.",
+ "properties": {
+  "name": {
+   "value": "Nauti",
+   "sources": [
+    {
+     "name": "nauti.one",
+     "document": "https://nauti.one/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/nautiaquatic/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "Nauti",
+   "sources": [
+    {
+     "name": "liza.nl",
+     "document": "https://www.liza.nl/en/93370687",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    },
+    {
+     "name": "nauti.one",
+     "document": "https://nauti.one/contact/",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "website": {
+   "value": "nauti.one",
+   "sources": [
+    {
+     "name": "nauti.one",
+     "document": "https://nauti.one/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "dns.google",
+     "document": "https://dns.google/query?name=nauti.one&type=A",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "At NAUTI, our goal is to restore water quality and aquatic ecosystems while protecting both human and environmental health.",
+   "sources": [
+    {
+     "name": "nauti.one",
+     "document": "https://nauti.one/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2024-04-01",
+   "sources": [
+    {
+     "name": "liza.nl",
+     "document": "https://www.liza.nl/en/93370687",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "Voorschoterlaan 116A, 3062 KV Rotterdam, Netherlands",
+   "sources": [
+    {
+     "name": "nauti.one",
+     "document": "https://nauti.one/contact/",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "b2match.com",
+     "document": "https://www.b2match.com/e/sustainablesolutionsmatch2026/participations/706357",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "nauti.one",
+     "document": "https://nauti.one/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "liza.nl",
+     "document": "https://www.liza.nl/en/93370687",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "c8ddedc2-15fa-5339-977b-4de8766dd64f",
+     "name": "Grant",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "nauti.one",
+        "document": "https://nauti.one/about/",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "894eead2-e004-5156-86b2-7476be66bf34"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "54f6a2c3-7302-55aa-b2fd-48d5e06ec36e"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "11ce48e0-a853-4085-8142-f674977b1a3a",
+     "name": "RENEWABLE_ENERGY",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/nautiaquatic/",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "d8ac4c32-968e-5699-bf17-2b313e428b58",
+      "original_label": "climate"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "FOUNDED": [
+    {
+     "id": "54d66978-fdad-5e25-abe7-d161d4e91cdf",
+     "name": "Rawan Khater",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "nauti.one",
+        "document": "https://nauti.one/about/",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "e13a2974-b8ec-5e95-9007-fc8df730c293"
+     }
+    },
+    {
+     "id": "f6d72c6d-8759-5eac-bd3b-b73ab04b10c5",
+     "name": "Johannes Trebes",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "nauti.one",
+        "document": "https://nauti.one/about/",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "fa77bced-10a3-5afd-946b-66fb0275d66d"
+     }
+    }
+   ],
+   "WORKS_AT": [
+    {
+     "id": "1d1f4283-a768-59d4-b1cd-39ad255bfb75",
+     "name": "Lora Robillard",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Data Analyst",
+      "sources": [
+       {
+        "name": "nauti.one",
+        "document": "https://nauti.one/about/",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "15120be8-6ba1-532e-b14e-fd9b53e7d940"
+     }
+    },
+    {
+     "id": "54d66978-fdad-5e25-abe7-d161d4e91cdf",
+     "name": "Rawan Khater",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Chief Design Officer",
+      "sources": [
+       {
+        "name": "nauti.one",
+        "document": "https://nauti.one/about/",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "a388c2fa-3de4-5ed7-9e7a-7af8addde6ee"
+     }
+    },
+    {
+     "id": "56e95b1c-1c9c-5832-8591-7a8c586bc220",
+     "name": "Michael A. Olson",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Head of Business Development",
+      "sources": [
+       {
+        "name": "nauti.one",
+        "document": "https://nauti.one/about/",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "b2match.com",
+        "document": "https://www.b2match.com/e/sustainablesolutionsmatch2026/participations/706357",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "cc36491d-e75d-5aaf-88c2-853e9d276ba7"
+     }
+    },
+    {
+     "id": "f6d72c6d-8759-5eac-bd3b-b73ab04b10c5",
+     "name": "Johannes Trebes",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Chief Business Officer",
+      "sources": [
+       {
+        "name": "nauti.one",
+        "document": "https://nauti.one/about/",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "156e4248-919c-55a5-9c95-ce2a8c43bf1a"
+     }
+    },
+    {
+     "id": "fbd5ea4a-d9e2-5dbf-b0d4-8788abc79d65",
+     "name": "Chloe Wayman",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Water Quality & NBS",
+      "sources": [
+       {
+        "name": "nauti.one",
+        "document": "https://nauti.one/about/",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "1c158c75-9f31-592f-b925-290f503d0315"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

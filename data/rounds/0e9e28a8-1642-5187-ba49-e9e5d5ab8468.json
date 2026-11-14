@@ -1,0 +1,96 @@
+{
+ "id": "0e9e28a8-1642-5187-ba49-e9e5d5ab8468",
+ "name": "Equity round",
+ "entity_type": "FundingRound",
+ "description": null,
+ "properties": {
+  "name": {
+   "value": "Equity round",
+   "sources": [
+    {
+     "name": "hashlist.com",
+     "document": "https://hashlist.com/#blog.sands-makes-a-strategic-growth-investment-in-hashlist",
+     "date": "2026-06-10",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "instrument": {
+   "value": "EQUITY",
+   "sources": [
+    {
+     "name": "hashlist.com",
+     "document": "https://hashlist.com/#blog.sands-makes-a-strategic-growth-investment-in-hashlist",
+     "date": "2026-06-10",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "announcement_date": {
+   "value": "2026-06-10",
+   "sources": [
+    {
+     "name": "hashlist.com",
+     "document": "https://hashlist.com/#blog.sands-makes-a-strategic-growth-investment-in-hashlist",
+     "date": "2026-06-10",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "annotations": {
+   "value": [
+    "Strategic investment. No source names a round; labelled Strategic Investment.",
+    "Updated 2026-11-13: previously empty; a strategic investment no source names is labelled Strategic Investment (instructions v42 §3.5).",
+    "round_label_stated:Strategic Investment"
+   ],
+   "sources": []
+  }
+ },
+ "relationships": {
+  "outgoing": {},
+  "incoming": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "03bf849a-7179-55c4-aacd-1bfcc50e97bf",
+     "name": "Hashlist",
+     "entity_type": "Company",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "hashlist.com",
+        "document": "https://hashlist.com/#blog.sands-makes-a-strategic-growth-investment-in-hashlist",
+        "date": "2026-06-10",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "dcf8357e-151a-5674-9447-93b0feab64f8"
+     }
+    },
+    {
+     "id": "81601c3a-9c66-4b13-8f36-a932cc13b8fa",
+     "name": "Sands Capital Ventures",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "hashlist.com",
+        "document": "https://hashlist.com/#blog.sands-makes-a-strategic-growth-investment-in-hashlist",
+        "date": "2026-06-10",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "608649a4-24df-5dd3-9463-7c8948286a88"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

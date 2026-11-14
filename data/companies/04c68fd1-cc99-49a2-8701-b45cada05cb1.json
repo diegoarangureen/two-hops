@@ -1,0 +1,696 @@
+{
+ "id": "04c68fd1-cc99-49a2-8701-b45cada05cb1",
+ "name": "REMEDIUM ENERGY LTD",
+ "entity_type": "Company",
+ "description": "Lime|loop stores off-peak electricity as chemical heat, delivers process heat up to 900°C, and captures the carbon from any gas you still burn, in a single cycle.",
+ "properties": {
+  "name": {
+   "value": "REMEDIUM ENERGY LTD",
+   "sources": [
+    {
+     "name": "Companies House UK",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/15060329",
+     "date": "2026-05-01"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "Remedium Energy Ltd.",
+   "sources": [
+    {
+     "name": "remediumenergy.com",
+     "document": "https://remediumenergy.com/",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "find-and-update.company-information.service.gov.uk",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/15060329",
+     "date": "2023-08-09",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "aliases": {
+   "value": [
+    "Remedium Energy"
+   ],
+   "sources": []
+  },
+  "website": {
+   "value": "remediumenergy.com",
+   "sources": [
+    {
+     "name": "remediumenergy.com",
+     "document": "https://remediumenergy.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "dns.google",
+     "document": "https://dns.google/query?name=remediumenergy.com&type=A",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "remediumenergy.com",
+     "document": "https://remediumenergy.com/news/supercluster-climaccelerator-graduation",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "Lime|loop stores off-peak electricity as chemical heat, delivers process heat up to 900°C, and captures the carbon from any gas you still burn, in a single cycle.",
+   "sources": [
+    {
+     "name": "remediumenergy.com",
+     "document": "https://remediumenergy.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2023-08-09",
+   "sources": [
+    {
+     "name": "Companies House UK",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/15060329",
+     "date": "2026-10-01"
+    },
+    {
+     "name": "find-and-update.company-information.service.gov.uk",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/15060329",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "find-and-update.company-information.service.gov.uk",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/15060329/filing-history/MzM4ODk0Nzc1MGFkaXF6a2N4/document?format=pdf&download=0",
+     "date": "2023-08-09",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "Cambridge, United Kingdom",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/remedium-energy/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    },
+    {
+     "name": "remediumenergy.com",
+     "document": "https://remediumenergy.com/",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "registered_address": {
+   "value": "19 MOSS BANK, CAMBRIDGE, CB4 1UR, ENGLAND",
+   "sources": [
+    {
+     "name": "Companies House UK",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/15060329",
+     "date": "2026-10-01"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "Companies House UK",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/15060329",
+     "date": "2026-10-01"
+    },
+    {
+     "name": "remediumenergy.com",
+     "document": "https://remediumenergy.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "find-and-update.company-information.service.gov.uk",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/15060329",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "find-and-update.company-information.service.gov.uk",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/15060329/filing-history/MzM4ODk0Nzc1MGFkaXF6a2N4/document?format=pdf&download=0",
+     "date": "2023-08-09",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "company_ownership_status": {
+   "value": "Private Limited Company",
+   "sources": [
+    {
+     "name": "Companies House UK",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/15060329",
+     "date": "2026-10-01"
+    }
+   ]
+  },
+  "total_funding": {
+   "value": 60000.0,
+   "sources": [
+    {
+     "name": "enterprisesg.gov.sg",
+     "document": "https://www.enterprisesg.gov.sg/-/media/esg/files/media-centre/media-releases/2025/october/mr05124-cybersecurity-startup-goldilock-secure-crowned-grand-winner-of-slingshot-2025.pdf",
+     "date": "2025-10-31",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "remediumenergy.com",
+     "document": "https://remediumenergy.com/news/slingshot-2025-top-3",
+     "date": "2025-10-31",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "total_funding_units": {
+   "value": "SGD",
+   "sources": [
+    {
+     "name": "enterprisesg.gov.sg",
+     "document": "https://www.enterprisesg.gov.sg/-/media/esg/files/media-centre/media-releases/2025/october/mr05124-cybersecurity-startup-goldilock-secure-crowned-grand-winner-of-slingshot-2025.pdf",
+     "date": "2025-10-31",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "remediumenergy.com",
+     "document": "https://remediumenergy.com/news/slingshot-2025-top-3",
+     "date": "2025-10-31",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "total_funding_excluding_debt": {
+   "value": 60000.0,
+   "sources": [
+    {
+     "name": "enterprisesg.gov.sg",
+     "document": "https://www.enterprisesg.gov.sg/-/media/esg/files/media-centre/media-releases/2025/october/mr05124-cybersecurity-startup-goldilock-secure-crowned-grand-winner-of-slingshot-2025.pdf",
+     "date": "2025-10-31",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "remediumenergy.com",
+     "document": "https://remediumenergy.com/news/slingshot-2025-top-3",
+     "date": "2025-10-31",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "funding_stage": {
+   "value": "PRE_SEED",
+   "sources": [
+    {
+     "name": "remediumenergy.com",
+     "document": "https://remediumenergy.com/invest",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "find-and-update.company-information.service.gov.uk",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/15060329/filing-history/MzU1NTQzODgxNGFkaXF6a2N4/document?format=pdf&download=0",
+     "date": "2026-11-11",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "15ead395-3d8a-5cd4-8c17-ed9213cba74d",
+     "name": "Grant",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "businessweekly.co.uk",
+        "document": "https://www.businessweekly.co.uk/posts/cambridge-clean-energy-startup-remedium-wins-ps50k-climate-impact-prize",
+        "date": "2025-05-30",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "2e920e72-892f-5e0c-ba29-f745d4d9d991"
+     }
+    },
+    {
+     "id": "44702ca3-dd44-5533-a783-629175d918cd",
+     "name": "Pre-Seed",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "remediumenergy.com",
+        "document": "https://remediumenergy.com/invest",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "8294ee5a-2b7a-5f92-b5c9-84aee2a7b3f1"
+     }
+    },
+    {
+     "id": "872cc3ef-15a0-5075-823f-2a39686492aa",
+     "name": "Grant",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "remediumenergy.com",
+        "document": "https://remediumenergy.com/news/innovate-uk-a4i-grant-npl",
+        "date": "2026-01-01",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "146ce41e-a994-53ca-9b96-635028fb33a4"
+     }
+    },
+    {
+     "id": "aeaa2014-d7ad-5881-9a94-dd1f71f878ce",
+     "name": "Grant",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "enterprisesg.gov.sg",
+        "document": "https://www.enterprisesg.gov.sg/-/media/esg/files/media-centre/media-releases/2025/october/mr05124-cybersecurity-startup-goldilock-secure-crowned-grand-winner-of-slingshot-2025.pdf",
+        "date": "2025-10-31",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "remediumenergy.com",
+        "document": "https://remediumenergy.com/news/slingshot-2025-top-3",
+        "date": "2025-10-31",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "63aef708-47d5-506c-aa18-e6a2473100fb"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "b26b05ce-0568-5a7c-bc24-31b00032ee64"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "11ce48e0-a853-4085-8142-f674977b1a3a",
+     "name": "RENEWABLE_ENERGY",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/remedium-energy/",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "a0d8e897-274c-51a7-93df-5e118268f965",
+      "original_label": "cleantech"
+     }
+    },
+    {
+     "id": "bac6c914-6496-4376-8ed5-2fafa5c99c50",
+     "name": "UTILITIES",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "Companies House UK",
+        "document": "https://find-and-update.company-information.service.gov.uk/company/15060329",
+        "date": "2026-05-01"
+       }
+      ],
+      "id": "77905986-d2ad-5f4d-9c64-63dfe442078f"
+     }
+    }
+   ],
+   "IS_REGISTERED_IN": [
+    {
+     "id": "53914cb9-a4f7-4ea6-97f2-ec3f1933221d",
+     "name": "England",
+     "entity_type": "CountrySubdivision",
+     "properties": {
+      "sources": [
+       {
+        "name": "Companies House UK",
+        "document": "https://find-and-update.company-information.service.gov.uk/company/15060329",
+        "date": "2026-05-01"
+       }
+      ],
+      "id": "b49a6548-6bf0-50e2-9c7d-60af449f617f"
+     }
+    },
+    {
+     "id": "e332ff3d-605d-4b01-8222-5098236a3aff",
+     "name": "United Kingdom",
+     "entity_type": "Country",
+     "properties": {
+      "sources": [
+       {
+        "name": "Companies House UK",
+        "document": "https://find-and-update.company-information.service.gov.uk/company/15060329",
+        "date": "2026-05-01"
+       }
+      ],
+      "id": "7bfa46ee-2871-5075-9613-ef28b9829ebc"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "FOUNDED": [
+    {
+     "id": "14da7ed8-c512-514d-806a-7abefdba97d4",
+     "name": "Ahmad Saghafifar",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "remediumenergy.com",
+        "document": "https://remediumenergy.com/company",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "ecdcbecb-8e63-535c-96cc-c6f1b6c9c15c"
+     }
+    },
+    {
+     "id": "5f495e72-1117-52e5-b378-42a7022071f5",
+     "name": "Mohammad Saghafifar",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "remediumenergy.com",
+        "document": "https://remediumenergy.com/company",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "upstreamonline.com",
+        "document": "https://www.upstreamonline.com/energy-transition/uk-start-ups-target-carbon-capture-and-energy-efficiency-in-accelerator-programme/2-1-1790205",
+        "date": "2025-03-12",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "prototypesforhumanity.com",
+        "document": "https://prototypesforhumanity.com/?p=41651",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "20d50be6-7df1-5c54-a873-3db35e7d9dd0"
+     }
+    },
+    {
+     "id": "8505c2f2-9480-51cd-8221-815e21d38635",
+     "name": "Sophia Hummelman",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "remediumenergy.com",
+        "document": "https://remediumenergy.com/company",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "47936bae-2283-5a45-ab91-edb82c55a24a"
+     }
+    },
+    {
+     "id": "959c2ac1-dffd-574c-9c13-aed230c55767",
+     "name": "Seyed Mojtaba Hashemi",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "prototypesforhumanity.com",
+        "document": "https://www.prototypesforhumanity.com/?p=41655",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "2f1138fc-e622-5eb1-bdbb-a49c8a7f0fd3"
+     }
+    }
+   ],
+   "IS_CEO_OF": [
+    {
+     "id": "5f495e72-1117-52e5-b378-42a7022071f5",
+     "name": "Mohammad Saghafifar",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "remediumenergy.com",
+        "document": "https://remediumenergy.com/company",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "upstreamonline.com",
+        "document": "https://www.upstreamonline.com/energy-transition/uk-start-ups-target-carbon-capture-and-energy-efficiency-in-accelerator-programme/2-1-1790205",
+        "date": "2025-03-12",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "businessweekly.co.uk",
+        "document": "https://www.businessweekly.co.uk/posts/cambridge-clean-energy-startup-remedium-wins-ps50k-climate-impact-prize",
+        "date": "2025-05-30",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "fd315cee-705a-5271-ba78-7e0af41e3309"
+     }
+    }
+   ],
+   "IS_BOARD_MEMBER_OF": [
+    {
+     "id": "14da7ed8-c512-514d-806a-7abefdba97d4",
+     "name": "Ahmad Saghafifar",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "find-and-update.company-information.service.gov.uk",
+        "document": "https://find-and-update.company-information.service.gov.uk/company/15060329/officers",
+        "date": "2024-11-07",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "a70f354a-d2d7-55b5-86db-3aa032870c0b",
+      "valid_since": "2024-09-11"
+     }
+    },
+    {
+     "id": "5d30b7bd-73f9-57a1-af29-c750b5d72613",
+     "name": "Paul Mantle",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "remediumenergy.com",
+        "document": "https://remediumenergy.com/company",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "find-and-update.company-information.service.gov.uk",
+        "document": "https://find-and-update.company-information.service.gov.uk/company/15060329/officers",
+        "date": "2024-11-07",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "c008193b-60fc-5011-96bf-f0053e7029d3",
+      "valid_since": "2024-09-11"
+     }
+    },
+    {
+     "id": "5f495e72-1117-52e5-b378-42a7022071f5",
+     "name": "Mohammad Saghafifar",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "find-and-update.company-information.service.gov.uk",
+        "document": "https://find-and-update.company-information.service.gov.uk/company/15060329/officers",
+        "date": "2023-08-09",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "0a9df827-e553-50ae-b686-b0a3d0200227",
+      "valid_since": "2023-08-09"
+     }
+    },
+    {
+     "id": "959c2ac1-dffd-574c-9c13-aed230c55767",
+     "name": "Seyed Mojtaba Hashemi",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "find-and-update.company-information.service.gov.uk",
+        "document": "https://find-and-update.company-information.service.gov.uk/company/15060329/officers",
+        "date": "2024-11-07",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "8b40e24e-d1f6-5cd5-a21e-a8d915e491d2",
+      "valid_since": "2024-09-11"
+     }
+    }
+   ],
+   "WORKS_AT": [
+    {
+     "id": "01a32f91-626a-57e5-b3b8-c29d0f5ba21a",
+     "name": "Tim Boeltken",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Advisor",
+      "sources": [
+       {
+        "name": "remediumenergy.com",
+        "document": "https://remediumenergy.com/company",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "b0b01b6b-c1cd-51a9-96aa-0f2e18558af1"
+     }
+    },
+    {
+     "id": "14da7ed8-c512-514d-806a-7abefdba97d4",
+     "name": "Ahmad Saghafifar",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Engineering Director",
+      "sources": [
+       {
+        "name": "remediumenergy.com",
+        "document": "https://remediumenergy.com/company",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "c7239f9d-474a-5202-a531-ede363c0f515"
+     }
+    },
+    {
+     "id": "50d4c113-b3f5-5053-93b9-a5f35c7c5314",
+     "name": "Utsav Oza",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Advisor",
+      "sources": [
+       {
+        "name": "remediumenergy.com",
+        "document": "https://remediumenergy.com/company",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "872c6212-1d7b-54e7-b360-84407e99ff7a"
+     }
+    },
+    {
+     "id": "959c2ac1-dffd-574c-9c13-aed230c55767",
+     "name": "Seyed Mojtaba Hashemi",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Advisor",
+      "sources": [
+       {
+        "name": "remediumenergy.com",
+        "document": "https://remediumenergy.com/company",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "23230aed-8d19-52c5-95b9-1a9a105efb3c"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

@@ -1,0 +1,380 @@
+{
+ "id": "065be4f8-8bd3-54db-a779-c92d1b319566",
+ "name": "Recycllux",
+ "entity_type": "Company",
+ "description": "Recycllux helps coastal authorities detect marine pollution hotspots, prioritise interventions, coordinate local actors and verify measurable impact.",
+ "properties": {
+  "name": {
+   "value": "Recycllux",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/recycllux",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "Recycllux Malta Limited",
+   "sources": [
+    {
+     "name": "recycllux.com",
+     "document": "https://recycllux.com/contact",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "website": {
+   "value": "recycllux.com",
+   "sources": [
+    {
+     "name": "recycllux.com",
+     "document": "https://recycllux.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "dns.google",
+     "document": "https://dns.google/query?name=recycllux.com&type=A",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "Recycllux helps coastal authorities detect marine pollution hotspots, prioritise interventions, coordinate local actors and verify measurable impact.",
+   "sources": [
+    {
+     "name": "recycllux.com",
+     "document": "https://recycllux.com/",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2021-01-01",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/recycllux",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "Bucharest, Romania",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/recycllux",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "recycllux.com",
+     "document": "https://recycllux.com/",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "employee_count_range": {
+   "value": [
+    2,
+    10
+   ],
+   "sources": [
+    {
+     "name": "trysignalbase.com",
+     "document": "https://www.trysignalbase.com/news/funding/recycllux-secures-1-million-in-funding-to-tackle-marine-plastic-pollution-crisis-with-innovative-earth-observation-and-blockchain-solutions",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "total_funding": {
+   "value": 125000.0,
+   "sources": [
+    {
+     "name": "startupcafe.ro",
+     "document": "https://startupcafe.ro/finantare-de-250-000-dolari-pentru-un-startup-ai-romanesc-intr-un-accelerator-de-afaceri-sustinut-de-google-org-78835",
+     "date": "2025-03-18",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "total_funding_units": {
+   "value": "USD",
+   "sources": [
+    {
+     "name": "startupcafe.ro",
+     "document": "https://startupcafe.ro/finantare-de-250-000-dolari-pentru-un-startup-ai-romanesc-intr-un-accelerator-de-afaceri-sustinut-de-google-org-78835",
+     "date": "2025-03-18",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "total_funding_excluding_debt": {
+   "value": 125000.0,
+   "sources": [
+    {
+     "name": "startupcafe.ro",
+     "document": "https://startupcafe.ro/finantare-de-250-000-dolari-pentru-un-startup-ai-romanesc-intr-un-accelerator-de-afaceri-sustinut-de-google-org-78835",
+     "date": "2025-03-18",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "60d5a21d-446c-530f-8dc7-535b4d175a48",
+     "name": "Grant",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "recycllux.com",
+        "document": "https://recycllux.com/news/2025-11-30-recycllux-wins-final-edition-of-women-techeu",
+        "date": "2025-11-30",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "20f32127-f05f-5298-afd4-4dc9ae4281b8"
+     }
+    },
+    {
+     "id": "7074cf59-5adf-5d5d-8cd4-cbcefa5ffc19",
+     "name": "Grant",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "startupcafe.ro",
+        "document": "https://startupcafe.ro/finantare-de-250-000-dolari-pentru-un-startup-ai-romanesc-intr-un-accelerator-de-afaceri-sustinut-de-google-org-78835",
+        "date": "2025-03-18",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "9da87df5-a7ae-5140-94ef-9ccfb6ba6658"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "ee28be94-0f17-548c-afd3-334075b2c6ca"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "11ce48e0-a853-4085-8142-f674977b1a3a",
+     "name": "RENEWABLE_ENERGY",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/recycllux",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "eba337ba-c75b-59e3-9c55-abc45488b5bf",
+      "original_label": "climate"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "FOUNDED": [
+    {
+     "id": "37acd0c8-e7a2-5a87-af9a-dae32759ebb6",
+     "name": "Alexandra Cernian",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "recycllux.com",
+        "document": "https://recycllux.com/team",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "d94fad5f-fe29-5ec2-b9f1-3837a1473218"
+     }
+    },
+    {
+     "id": "b30f8c41-c428-5a0b-a176-4350b5fc3d77",
+     "name": "Sorina Uleia",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "pubt.io",
+        "document": "https://pubt.io/view/D617BB272BCF046283FABEC386660B7F3BB23CCF",
+        "date": "2025-12-17",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "7f7ef29f-bf99-52c7-81ba-1dcdf2702669"
+     }
+    },
+    {
+     "id": "c1a78714-d323-595b-a3c0-048aa2501a6e",
+     "name": "Bogdan Iuga",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "recycllux.com",
+        "document": "https://recycllux.com/team",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "f102e101-7ad9-50c6-a00c-88251f64af6a"
+     }
+    }
+   ],
+   "IS_CEO_OF": [
+    {
+     "id": "b30f8c41-c428-5a0b-a176-4350b5fc3d77",
+     "name": "Sorina Uleia",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "recycllux.com",
+        "document": "https://recycllux.com/team",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "80661460-6c6b-5d69-9a5d-3edcffbbf2bf"
+     }
+    }
+   ],
+   "IS_CTO_OF": [
+    {
+     "id": "7480f654-2436-55b0-a40d-c74a19de74d3",
+     "name": "Alin Olteanu",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "recycllux.com",
+        "document": "https://recycllux.com/team",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "7f38e16e-7bf3-524b-b65c-eb20b091d52b"
+     }
+    }
+   ],
+   "IS_BOARD_MEMBER_OF": [
+    {
+     "id": "37acd0c8-e7a2-5a87-af9a-dae32759ebb6",
+     "name": "Alexandra Cernian",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "recycllux.com",
+        "document": "https://recycllux.com/team",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "ba785091-b640-5579-bd91-ba0e794f803b"
+     }
+    },
+    {
+     "id": "c1a78714-d323-595b-a3c0-048aa2501a6e",
+     "name": "Bogdan Iuga",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "recycllux.com",
+        "document": "https://recycllux.com/team",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "137fbc33-027a-58ba-9d77-15fbed33d964"
+     }
+    }
+   ],
+   "WORKS_AT": [
+    {
+     "id": "08837f55-be2a-51a0-8d83-1c3608f1a216",
+     "name": "Marilou Suc",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Chief Ecosystem Development",
+      "sources": [
+       {
+        "name": "recycllux.com",
+        "document": "https://recycllux.com/team",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "9fcb3999-57b0-51e8-8bbb-57a089262e42"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

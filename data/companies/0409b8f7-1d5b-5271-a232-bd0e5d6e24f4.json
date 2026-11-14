@@ -1,0 +1,338 @@
+{
+ "id": "0409b8f7-1d5b-5271-a232-bd0e5d6e24f4",
+ "name": "WeldNova",
+ "entity_type": "Company",
+ "description": "WeldNova welds thick steel sections up to 35 mm in a single pass — automated, qualifiable, at zero CapEx. For wind towers, pressure vessels and shipbuilding.",
+ "properties": {
+  "name": {
+   "value": "WeldNova",
+   "sources": [
+    {
+     "name": "weldnova.com",
+     "document": "https://weldnova.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/weldnova",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "WeldNova GmbH",
+   "sources": [
+    {
+     "name": "weldnova.com",
+     "document": "https://weldnova.com/",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "website": {
+   "value": "weldnova.com",
+   "sources": [
+    {
+     "name": "weldnova.com",
+     "document": "https://weldnova.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "dns.google",
+     "document": "https://dns.google/query?name=weldnova.com&type=A",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "WeldNova welds thick steel sections up to 35 mm in a single pass — automated, qualifiable, at zero CapEx. For wind towers, pressure vessels and shipbuilding.",
+   "sources": [
+    {
+     "name": "weldnova.com",
+     "document": "https://weldnova.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2023-01-01",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/weldnova",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "Berlin, Germany",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/weldnova",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "weldnova.com",
+     "document": "https://weldnova.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "total_funding": {
+   "value": 1178404.0,
+   "sources": [
+    {
+     "name": "foerderportal.bund.de",
+     "document": "https://foerderportal.bund.de/foekat/jsp/SucheAction.do?actionMode=view&fkz=03EUWBE148",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "foerderportal.bund.de",
+     "document": "https://foerderportal.bund.de/foekat/jsp/SucheAction.do?actionMode=view&fkz=5602400G",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "total_funding_units": {
+   "value": "EUR",
+   "sources": [
+    {
+     "name": "foerderportal.bund.de",
+     "document": "https://foerderportal.bund.de/foekat/jsp/SucheAction.do?actionMode=view&fkz=03EUWBE148",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "foerderportal.bund.de",
+     "document": "https://foerderportal.bund.de/foekat/jsp/SucheAction.do?actionMode=view&fkz=5602400G",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "total_funding_excluding_debt": {
+   "value": 1178404.0,
+   "sources": [
+    {
+     "name": "foerderportal.bund.de",
+     "document": "https://foerderportal.bund.de/foekat/jsp/SucheAction.do?actionMode=view&fkz=03EUWBE148",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "foerderportal.bund.de",
+     "document": "https://foerderportal.bund.de/foekat/jsp/SucheAction.do?actionMode=view&fkz=5602400G",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "407480f6-9a0e-5972-9cea-2f35acc28566",
+     "name": "Grant",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "foerderportal.bund.de",
+        "document": "https://foerderportal.bund.de/foekat/jsp/SucheAction.do?actionMode=view&fkz=03EUWBE148",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "777d526c-6010-518f-a411-8749f82767f4"
+     }
+    },
+    {
+     "id": "7b5cff61-1b7e-574c-9a59-97e511ee456a",
+     "name": "Grant",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "foerderportal.bund.de",
+        "document": "https://foerderportal.bund.de/foekat/jsp/SucheAction.do?actionMode=view&fkz=5602400G",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "ed4a968a-9fd1-5d40-a528-c9a4cd8ee7ca"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "fe172552-8379-56eb-88ed-0a89cfbe69c3"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "8ecf5e57-a149-438c-9eb4-089809bade56",
+     "name": "SOFTWARE_AND_SERVICES",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/weldnova",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "ba4f9598-cb89-5112-a0fc-f5173979a186",
+      "original_label": "deeptech"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "FOUNDED": [
+    {
+     "id": "3d8b649c-a863-56dd-9c88-7a249d40078f",
+     "name": "Fatma Akyel",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "bam.de",
+        "document": "https://bam.de/en/news/press-releases-news/news/bam-spin-off-wants-to-speed-up-the-welding-process-of-wind-towers-eightfold",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "8729ce86-c533-526f-bcb0-55548478bd3d"
+     }
+    },
+    {
+     "id": "5f026cbe-8299-533f-97bf-42710dfbaa8e",
+     "name": "Christian Brunner-Schwer",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "bam.de",
+        "document": "https://bam.de/en/news/press-releases-news/news/bam-spin-off-wants-to-speed-up-the-welding-process-of-wind-towers-eightfold",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "2825f996-94b4-5cec-b1d5-780c21b23d31"
+     }
+    }
+   ],
+   "WORKS_AT": [
+    {
+     "id": "3d8b649c-a863-56dd-9c88-7a249d40078f",
+     "name": "Fatma Akyel",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Head of Research and Development",
+      "sources": [
+       {
+        "name": "weldnova.com",
+        "document": "https://weldnova.com/about",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "4b2045be-7d00-5e7b-b335-0a8d75b0c28d"
+     }
+    },
+    {
+     "id": "b1d9ee5c-7bca-5127-a26f-fadbbd2e811b",
+     "name": "Ömer Üstündağ",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Head of Application",
+      "sources": [
+       {
+        "name": "weldnova.com",
+        "document": "https://weldnova.com/about",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "014b4159-4f3e-554c-805a-e2e2638e33e3"
+     }
+    },
+    {
+     "id": "c9e70181-c5a1-5f02-88af-32b129b21565",
+     "name": "Nasim Bakir",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Head of Production Development",
+      "sources": [
+       {
+        "name": "weldnova.com",
+        "document": "https://weldnova.com/about",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "dd803a76-f783-5ab6-ae5f-39e225020488"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

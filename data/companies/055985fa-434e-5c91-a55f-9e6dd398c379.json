@@ -1,0 +1,189 @@
+{
+ "id": "055985fa-434e-5c91-a55f-9e6dd398c379",
+ "name": "Prop.mate Inc.",
+ "entity_type": "Company",
+ "description": "프롭메이트는 지도 기반으로 토지 관련 모든 정보를 신속하고 정확하게 제공하는 전문적인 서비스를 자랑합니다.",
+ "properties": {
+  "name": {
+   "value": "Prop.mate Inc.",
+   "sources": [
+    {
+     "name": "propmate.kr",
+     "document": "https://propmate.kr/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/prop-mate-inc/about/?viewAsMember=true",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "PROPMATE Inc.",
+   "sources": [
+    {
+     "name": "propmate.kr",
+     "document": "https://propmate.kr/",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "website": {
+   "value": "propmate.kr",
+   "sources": [
+    {
+     "name": "propmate.kr",
+     "document": "https://propmate.kr/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "dns.google",
+     "document": "https://dns.google/query?name=propmate.kr&type=A",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "프롭메이트는 지도 기반으로 토지 관련 모든 정보를 신속하고 정확하게 제공하는 전문적인 서비스를 자랑합니다.",
+   "sources": [
+    {
+     "name": "propmate.kr",
+     "document": "https://propmate.kr/",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2023-01-01",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/prop-mate-inc/about/?viewAsMember=true",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "Seoul, South Korea",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/prop-mate-inc/about/?viewAsMember=true",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "propmate.kr",
+     "document": "https://propmate.kr/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "09b454bb-0c7c-5756-8c0e-64ec1fa4bc9e"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "1c1977b3-663a-47fb-81eb-51958758b70b",
+     "name": "CONSTRUCTION_AND_ENGINEERING",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/prop-mate-inc/about/?viewAsMember=true",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "ea248b1f-a0b1-5a36-ab34-f48c45239b7f",
+      "original_label": "propConstruction"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "IS_CEO_OF": [
+    {
+     "id": "8bb11a5c-2e5d-5ebf-90ff-70a8862ec7d5",
+     "name": "Hojun Ko",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "propmate.kr",
+        "document": "https://propmate.kr/people",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "fa2ac61a-60c3-5bcd-b96b-4dc14e71b987"
+     }
+    }
+   ],
+   "IS_CTO_OF": [
+    {
+     "id": "a14865bb-bb4c-54d3-9aa7-5cf228cc981c",
+     "name": "Hyungwoo Lee",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "propmate.kr",
+        "document": "https://propmate.kr/people",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "6605505f-155b-5e8f-be6f-dcd179f5d403"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

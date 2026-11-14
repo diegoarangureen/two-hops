@@ -1,0 +1,488 @@
+{
+ "id": "ffcf53df-6f00-42b6-a7c4-9eb1961e1a82",
+ "name": "GlassDollar",
+ "entity_type": "Company",
+ "description": "GlassDollar is the venture clienting platform enterprise teams use to source, evaluate, and pilot solutions — with every business unit included.",
+ "properties": {
+  "name": {
+   "value": "GlassDollar",
+   "sources": [
+    {
+     "name": "tracxn.com",
+     "document": "https://tracxn.com/d/corporate-investments/investments-by-apx/__4pxVeQTJTNvB1bdtoSZfZ8X4k-o1JmzLijeKQojJWcY",
+     "date": "2026-08-24"
+    },
+    {
+     "name": "Glassdollar Archives",
+     "document": "https://apx.vc/startups/glassdollar",
+     "date": "2026-01-01"
+    },
+    {
+     "name": "APX, Axel Springer Porsche GmbH & Co. KG | Investor Profile & Funding Criteria | CAPLINK",
+     "document": "https://caplink.capital/investor-database/apx-axel-springer-porsche-gmbh-co-kg",
+     "date": "2026-01-01"
+    },
+    {
+     "name": "glassdollar.com",
+     "document": "https://glassdollar.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/glassdollar/mycompany/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "GlassDollar GmbH",
+   "sources": [
+    {
+     "name": "glassdollar.com",
+     "document": "https://www.glassdollar.com/contact",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "aliases": {
+   "value": [],
+   "sources": []
+  },
+  "website": {
+   "value": "glassdollar.com",
+   "sources": [
+    {
+     "name": "glassdollar.com",
+     "document": "https://glassdollar.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "dns.google",
+     "document": "https://dns.google/query?name=glassdollar.com&type=A",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "GlassDollar is the venture clienting platform enterprise teams use to source, evaluate, and pilot solutions — with every business unit included.",
+   "sources": [
+    {
+     "name": "glassdollar.com",
+     "document": "https://glassdollar.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2018-01-01",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/glassdollar/mycompany/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "Berlin, Germany",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/glassdollar/mycompany/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "glassdollar.com",
+     "document": "https://glassdollar.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "employee_count_range": {
+   "value": [
+    11,
+    50
+   ],
+   "sources": [
+    {
+     "name": "theorg.com",
+     "document": "https://theorg.com/org/glassdollar",
+     "date": "2026-11-10",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "total_funding": {
+   "value": 6000000,
+   "sources": [
+    {
+     "name": "htgf.de",
+     "document": "https://www.htgf.de/htgf-seed-glassdollar/",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "pitchbook.com",
+     "document": "https://pitchbook.com/profiles/company/454575-52",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    },
+    {
+     "name": "funding.tech.eu",
+     "document": "https://funding.tech.eu/companies/glassdollar-d19632cf",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "total_funding_units": {
+   "value": "EUR",
+   "sources": [
+    {
+     "name": "htgf.de",
+     "document": "https://www.htgf.de/htgf-seed-glassdollar/",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "pitchbook.com",
+     "document": "https://pitchbook.com/profiles/company/454575-52",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    },
+    {
+     "name": "funding.tech.eu",
+     "document": "https://funding.tech.eu/companies/glassdollar-d19632cf",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "total_funding_excluding_debt": {
+   "value": 6000000,
+   "sources": [
+    {
+     "name": "htgf.de",
+     "document": "https://www.htgf.de/htgf-seed-glassdollar/",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "pitchbook.com",
+     "document": "https://pitchbook.com/profiles/company/454575-52",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    },
+    {
+     "name": "funding.tech.eu",
+     "document": "https://funding.tech.eu/companies/glassdollar-d19632cf",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "funding_stage": {
+   "value": "SERIES_A",
+   "sources": [
+    {
+     "name": "funding.tech.eu",
+     "document": "https://funding.tech.eu/companies/glassdollar-d19632cf",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "0b1d591f-5c81-5ca0-a4cc-33c8d8874683",
+     "name": "Seed",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "funding.tech.eu",
+        "document": "https://funding.tech.eu/companies/glassdollar-d19632cf",
+        "date": "2026-11-04",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "83450b92-d38b-5330-aaad-6aca8b88d3aa"
+     }
+    },
+    {
+     "id": "4e911fa5-0654-599b-8dca-fb901f7717dc",
+     "name": "Seed",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "htgf.de",
+        "document": "https://www.htgf.de/htgf-seed-glassdollar/",
+        "date": "2026-11-04",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "pitchbook.com",
+        "document": "https://pitchbook.com/profiles/company/454575-52",
+        "date": "2026-11-04",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "4837583b-3c23-58d1-89e9-4399136d1ab7"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "428ede19-492b-559f-9998-28dc330313e2"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "8ecf5e57-a149-438c-9eb4-089809bade56",
+     "name": "SOFTWARE_AND_SERVICES",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/corporate-investments/investments-by-apx/__4pxVeQTJTNvB1bdtoSZfZ8X4k-o1JmzLijeKQojJWcY",
+        "date": "2026-08-24"
+       },
+       {
+        "name": "Glassdollar Archives",
+        "document": "https://apx.vc/startups/glassdollar",
+        "date": "2026-01-01"
+       },
+       {
+        "name": "APX, Axel Springer Porsche GmbH & Co. KG | Investor Profile & Funding Criteria | CAPLINK",
+        "document": "https://caplink.capital/investor-database/apx-axel-springer-porsche-gmbh-co-kg",
+        "date": "2026-01-01"
+       }
+      ],
+      "id": "1c0664f1-7a45-4d83-80d4-0952c2f6c51f"
+     }
+    },
+    {
+     "id": "8ecf5e57-a149-438c-9eb4-089809bade56",
+     "name": "SOFTWARE_AND_SERVICES",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/glassdollar/mycompany/",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "30900b24-7cea-5764-ac5f-bcb5018603b3",
+      "original_label": "enterpriseSoftware"
+     }
+    }
+   ],
+   "HAS_HEADQUARTERS_IN": [
+    {
+     "id": "61901653-115d-4cc4-a4e4-04d8c5009f1e",
+     "name": "Germany",
+     "entity_type": "Country",
+     "properties": {
+      "sources": [
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/corporate-investments/investments-by-apx/__4pxVeQTJTNvB1bdtoSZfZ8X4k-o1JmzLijeKQojJWcY",
+        "date": "2026-08-24"
+       },
+       {
+        "name": "Glassdollar Archives",
+        "document": "https://apx.vc/startups/glassdollar",
+        "date": "2026-01-01"
+       },
+       {
+        "name": "APX, Axel Springer Porsche GmbH & Co. KG | Investor Profile & Funding Criteria | CAPLINK",
+        "document": "https://caplink.capital/investor-database/apx-axel-springer-porsche-gmbh-co-kg",
+        "date": "2026-01-01"
+       }
+      ],
+      "id": "571e28c4-db1f-4c4e-9d34-35df5459a438"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "INVESTED_IN": [
+    {
+     "id": "a2abbba3-d423-4c3b-abb4-e0e24c05e91d",
+     "name": "High-Tech Gründerfonds GmbH & Co. KG",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "htgf.de",
+        "document": "https://www.htgf.de/de/htgf-seed-glassdollar/",
+        "date": "2023-05-31",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "6a1aab64-4279-4176-98de-065fc591e186"
+     }
+    },
+    {
+     "id": "e7bedf66-78fe-4a25-8497-ccb5cb7ef938",
+     "name": "APX, INC.",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/corporate-investments/investments-by-apx/__4pxVeQTJTNvB1bdtoSZfZ8X4k-o1JmzLijeKQojJWcY",
+        "date": "2026-08-24"
+       },
+       {
+        "name": "Glassdollar Archives",
+        "document": "https://apx.vc/startups/glassdollar",
+        "date": "2026-01-01"
+       },
+       {
+        "name": "APX, Axel Springer Porsche GmbH & Co. KG | Investor Profile & Funding Criteria | CAPLINK",
+        "document": "https://caplink.capital/investor-database/apx-axel-springer-porsche-gmbh-co-kg",
+        "date": "2026-01-01"
+       }
+      ],
+      "id": "56c3b6a8-f4f9-40eb-97d0-78f69ce07e19"
+     }
+    }
+   ],
+   "FOUNDED": [
+    {
+     "id": "40ff6e48-0623-5516-828c-8594b1efc39d",
+     "name": "Fabian Dudek",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "crunchbase.com",
+        "document": "https://www.crunchbase.com/person/fabian-dudek",
+        "date": "2026-11-04",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "b9ff11a2-99e8-5357-9346-c8f1b0bce00a"
+     }
+    },
+    {
+     "id": "85c660f4-e47b-5af0-9b64-019d108b3f1d",
+     "name": "Dollar Questions Who",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "rocketreach.co",
+        "document": "https://rocketreach.co/glassdollar-profile_b451983efc7023db",
+        "date": "2026-11-04",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "85e193ad-6bdd-5ea0-abb0-9f9e51c23b30"
+     }
+    }
+   ],
+   "IS_CEO_OF": [
+    {
+     "id": "40ff6e48-0623-5516-828c-8594b1efc39d",
+     "name": "Fabian Dudek",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "crunchbase.com",
+        "document": "https://www.crunchbase.com/person/fabian-dudek",
+        "date": "2026-11-04",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "6173a0d2-718b-5bd3-b2a3-74cc791f8d54"
+     }
+    },
+    {
+     "id": "85c660f4-e47b-5af0-9b64-019d108b3f1d",
+     "name": "Dollar Questions Who",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "rocketreach.co",
+        "document": "https://rocketreach.co/glassdollar-profile_b451983efc7023db",
+        "date": "2026-11-04",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "2007e592-eb5c-5f56-9666-a5d8d0ca6f11"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}
