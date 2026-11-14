@@ -19,7 +19,7 @@ For founders raising at Slush 2026: find the investors who funded companies like
 
 ## Description
 
-4,937 characters, limit 5,000. Paste the content of the block below, without the fence lines.
+4,968 characters, limit 5,000. Paste the content of the block below, without the fence lines.
 
 ````markdown
 A founder going to Slush on 18 and 19 November to raise a round knows that a warm intro gets a meeting where a cold email does not. What they don't know is which investors really fit them, and who in the building that week could introduce them. An investor database gives names and sector tags, not the founder at Slush who already took that investor's money.
@@ -46,7 +46,7 @@ An investor's score is 2 × log₂(1 + attendees it funded, each weighted from 0
 
 - One organisation stored as both a `Company` and an `Organization` is merged only when the names match after removing case, punctuation and legal form and something corroborates it: a shared neighbour through the same relationship, or the same website. Other pairs are kept apart and counted.
 - Round labels Cala inferred from the order of rounds (`round_label_basis:INFERRED`) are tagged. Cala labels a CHF 3.9M round of Synhelion "Series D" this way, so the draft calls it a "funding round".
-- A round record carrying several labels holds several financings: its amount and date are never stated together.
+- A round record carrying several stage labels (Seed and Series A, say) holds several financings: its amount and date are never stated together.
 - An investment recorded both ways, such as an attendee "investing in" Y Combinator, is resolved only when it is evident who the investor is; otherwise neither direction is used.
 - A financing recorded both as a `FundingRound` and as a `PrivateCompanyFundingRound` filing is matched by the round's own date, within 45 days, and never added twice.
 - A source date is not a round date: it earns no recency points and the draft does not give it.

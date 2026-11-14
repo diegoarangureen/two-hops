@@ -172,7 +172,7 @@ export interface SetOps {
     mergedDuplicates: { name: string; records: { id: string; type: string; name: string }[] }[];
     pairsLeftApart: number;
     inferredRoundLabels: number;
-    roundsWithSeveralLabels: { name: string; labels: string[] }[];
+    roundsWithSeveralLabels: { count: number; examples: { name: string; labels: string[] }[] };
     bothWays: number;
     bothWaysUnclear: number;
     bothWaysExamples: { from: string; to: string }[];

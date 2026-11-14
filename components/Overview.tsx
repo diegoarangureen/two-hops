@@ -146,6 +146,19 @@ export default function Overview({ coverage: c, setOps: s }: { coverage: Coverag
               <b>{s.traps.financingTwice.length}</b> financings found both as a FundingRound and as a filing event of the same
               company. Rounds and filing events are never added together.
             </li>
+            <li>
+              <b>{s.traps.roundsWithSeveralLabels.count}</b> round record{s.traps.roundsWithSeveralLabels.count === 1 ? "" : "s"} carrying
+              several labels at once
+              {s.traps.roundsWithSeveralLabels.examples.length > 0 && (
+                <span className="muted"> (e.g. one record labelled {s.traps.roundsWithSeveralLabels.examples[0].labels.join(", ")})</span>
+              )}
+              . Cala folded several financings into each, so its amount and date are never stated together and it earns no
+              recency.
+            </li>
+            <li>
+              <b>{s.traps.listsCutShort}</b> relationship list{s.traps.listsCutShort === 1 ? "" : "s"} that came back full at Cala&apos;s
+              1,000-item page: those investors hold more than is loaded, and their counts carry a “+”.
+            </li>
           </ul>
           <h4>Sources behind this graph</h4>
           <div className="rankbar" aria-hidden>

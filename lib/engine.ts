@@ -486,13 +486,29 @@ function earliestSource(g: Graph, edges: GEdge[]): string | null {
   return min ? min.slice(0, 10) : null;
 }
 
+const STAGE_LABEL = /^(pre[- ]?seed|seed(\s*\+|\s+plus|\s+extension)?|angel|pre[- ]?series\s+[a-z]|series\s+[a-z]\d?(\s+extension)?)$/i;
+
+/**
+ * The distinct stage labels one round record carries, when there are two or more (Seed and Series A, say):
+ * then Cala folded several financings into it. A second name that is not a stage, such as "Strategic
+ * Investment" next to "Equity round", is just another name for the same financing and does not count.
+ */
+function stageLabels(n: GNode): string[] {
+  const seen = new Map<string, string>();
+  for (const label of n.several_labels ?? []) {
+    const t = label.trim();
+    if (STAGE_LABEL.test(t)) seen.set(t.toLowerCase().replace(/[-\s]+/g, " "), t);
+  }
+  return seen.size > 1 ? [...seen.values()] : [];
+}
+
 /** The date of a round from its own record, and whether it can be read as "when this investor came in". */
 function roundDate(g: Graph, n: GNode, links: GEdge[]): { date: string | null; basis: RoundView["dateBasis"]; approx: boolean } {
   const ev = str(prop(n, "event_date"));
   const an = str(prop(n, "announcement_date"));
   if (ev || an) {
     // a record that mixes several financings has a date, but not necessarily the date of this investor's cheque
-    const mixed = Boolean(n.label_inferred) || (n.several_labels?.length ?? 0) > 1;
+    const mixed = Boolean(n.label_inferred) || stageLabels(n).length > 1;
     return { date: (ev ?? an)!.slice(0, 10), basis: ev ? "event_date" : "announcement_date", approx: mixed };
   }
   const fallback = earliestSource(g, links);
@@ -516,7 +532,7 @@ function roundView(g: Graph, roundId: string, links: GEdge[], now: string, compa
     dateBasis: basis,
     amount: money(prop(n, "transaction_value"), prop(n, "transaction_value_units")),
     labelInferred: Boolean(n.label_inferred),
-    severalLabels: (n.several_labels?.length ?? 0) > 1 ? n.several_labels! : [],
+    severalLabels: stageLabels(n),
     ...(filed ? { alsoFiledAs: filed.id } : {}),
   };
 }
@@ -776,6 +792,7 @@ export function setOps(g: Graph = getGraph()): SetOps {
   const ranks: Record<string, number> = {};
   for (const s of g.sources) ranks[toRank(s.source_rank)] = (ranks[toRank(s.source_rank)] ?? 0) + 1;
   const bothWays = t.investment_recorded_both_ways ?? [];
+  const mixedRounds = [...g.nodes.values()].filter((n) => n.type === "FundingRound" && stageLabels(n).length > 1);
   return {
     investorsInSeveral,
     coInvestorPairs,
@@ -784,7 +801,10 @@ export function setOps(g: Graph = getGraph()): SetOps {
       mergedDuplicates: (t.merged_duplicates ?? []).slice(0, 30).map((m) => ({ name: m.name, records: m.records })),
       pairsLeftApart: t.same_name_left_apart?.count ?? 0,
       inferredRoundLabels: (t.inferred_round_labels ?? []).length,
-      roundsWithSeveralLabels: (t.rounds_with_several_labels ?? []).slice(0, 6).map((r) => ({ name: r.name, labels: r.labels })),
+      roundsWithSeveralLabels: {
+        count: mixedRounds.length,
+        examples: mixedRounds.slice(0, 2).map((n) => ({ name: n.name, labels: stageLabels(n) })),
+      },
       bothWays: bothWays.length,
       bothWaysUnclear: bothWays.filter((x) => x.direction_unclear).length,
       bothWaysExamples: bothWays.slice(0, 4).map((x) => ({ from: x.from, to: x.to })),
@@ -1002,7 +1022,7 @@ export function examplePath(): { peer: PeerView; path: PathView; investor: NodeV
       if (!p.round || p.tranche) continue;
       const round = g.node(p.round);
       const peer = g.node(p.peer);
-      if (!round?.loaded || !peer?.loaded || round.label_inferred || (round.several_labels?.length ?? 0) > 1) continue;
+      if (!round?.loaded || !peer?.loaded || round.label_inferred || stageLabels(round).length > 1) continue;
       const score =
         RANK_ORDER[l.trust] * 10 +
         (l.isLead ? 8 : 0) +

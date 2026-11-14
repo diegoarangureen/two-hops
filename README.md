@@ -195,7 +195,7 @@ An investor's score (`lib/score.ts`) is the sum of five terms, each shown in the
 - 1.5 × log₂(1 + rounds of those attendees it led, from `is_lead`);
 - 3 × the likeness of its closest funded attendee;
 - 1 × recency of its latest round whose own record is loaded and dated, falling linearly to 0 over six years; a source
-  date, a round whose label Cala inferred and a round record that carries several labels earn none;
+  date, a round whose label Cala inferred and a round record that carries several stage labels earn none;
 - 1 × the trust of its best path: 1 for FILING, 0.8 PRIMARY, 0.55 PRESS, 0.35 AGGREGATOR, 0.15 for no rank.
 
 People to ask are the peer's sourced `FOUNDED`, `IS_CEO_OF`, `IS_CTO_OF`, `WORKS_AT` and `IS_BOARD_MEMBER_OF` links
@@ -213,9 +213,11 @@ The graph builder also flags data traps, each with the basis it used:
   without corroboration are left apart and counted (`same_name_left_apart`).
 - Round labels Cala inferred (`round_label_basis:INFERRED` in `annotations`) are tagged; the intro draft calls such a
   round a "funding round".
-- A round record whose name, aliases and stated labels name more than one label holds several financings
-  (`several_labels`): the app shows its amount and date each with its own source but never states them together,
-  the intro message names neither, and it earns no recency.
+- A round record whose name, aliases and stated labels name more than one stage (Seed and Series A, say) holds
+  several financings. The builder lists every label on the record (`several_labels`); the app counts it as mixed when
+  two or more of them are stage labels, since a second name such as "Strategic Investment" is only another name for
+  the same financing. For a mixed record the app shows the amount and the date each with its own source but never
+  states them together, the intro message names neither, and it earns no recency.
 - An `INVESTED_IN` recorded both ways is resolved only when it is evident who the investor is: one side alone is filed
   under an investor industry, or one side holds at least 3 more investments (a count that does not apply when the
   side it favours is filed only under other industries, or when only the other side's name reads as an investor's),
