@@ -184,6 +184,18 @@ async function doFetch(id: string, entityType: string): Promise<Result> {
         text = JSON.stringify({ client_error: String(e) });
       }
       if (status !== 429) break;
+      // a rate-limited attempt costs nothing, but it is still a call: log it like the tools do
+      logCall({
+        ts: new Date().toISOString().replace(/\.\d+Z$/, "+00:00"),
+        method: "POST",
+        path: `/entities/${id}`,
+        purpose: "find yourself: live profile read from the app (rate limited, retried)",
+        status,
+        seconds: Math.round((Date.now() - t0) / 10) / 100,
+        bytes: text.length,
+        credits: 0,
+        key: keyId(key),
+      });
     }
     state.last = Date.now();
     const seconds = Math.round((Date.now() - t0) / 10) / 100;

@@ -15,7 +15,8 @@
 
 Entities already cached are skipped, so every command can be stopped and resumed.
 Every call is logged in data/cala_calls.jsonl. Key: env CALA_API_KEY, or a one-line file at ~/.cala_key.
-Free plan: 10 requests/minute and 100 credits/month (1 credit = 1 call), hence the gap and the budget.
+Cala answers about 10 calls per rolling minute on both keys we have used (1 credit = 1 call), hence the gap
+and the budget. A 429 or a network failure is waited out and retried, and costs nothing.
   CALA_MIN_GAP  seconds between calls (default 6.5)
   --budget N    stop after N calls in this run (default 20)
   --purpose "…" why the calls are made; written to the log

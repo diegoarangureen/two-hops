@@ -117,9 +117,9 @@ function build(req: IntroRequest): Built | null {
       facts.push(
         fact(
           "mixed",
-          `Cala's record of this round carries ${r.severalLabels.length} labels (${r.severalLabels.join(", ")})${r.amount ? `, an amount of ${r.amount}` : ""}${r.date ? ` and the date ${r.date}` : ""}.`,
+          `Cala's record of this round carries ${r.severalLabels.length} labels: ${r.severalLabels.join(", ")}.`,
           [],
-          "Several financings are folded into this one record, so its amount and date may belong to different ones. The message names neither, and calls it a “funding round”.",
+          "Several financings are folded into this one record, so the amount and the date it holds may belong to different ones. The message names neither and calls it a “funding round”; the graph shows each with its own source.",
         ),
       );
     } else if (r.labelInferred) {

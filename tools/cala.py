@@ -4,7 +4,8 @@ Rules it enforces:
   - the key comes from env CALA_API_KEY or a one-line file at ~/.cala_key and is never printed or saved;
   - every call is appended to data/cala_calls.jsonl (method, path, purpose, status, seconds);
   - an entity already cached under data/ is never fetched again;
-  - calls are spaced CALA_MIN_GAP seconds apart (free plan: 10 per minute) and stop at a budget.
+  - calls are spaced CALA_MIN_GAP seconds apart (Cala answers about 10 per minute) and stop at a budget;
+  - a 429 and a failure before the request leaves this machine are waited out, retried, and cost no credit.
 """
 import datetime
 import hashlib
