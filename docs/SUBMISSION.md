@@ -19,7 +19,7 @@ For founders raising at Slush 2026: find the investors who funded companies like
 
 ## Description
 
-4,968 characters, limit 5,000. Paste the content of the block below, without the fence lines.
+4,973 characters, limit 5,000. Paste the content of the block below, without the fence lines.
 
 ````markdown
 A founder going to Slush on 18 and 19 November to raise a round knows that a warm intro gets a meeting where a cold email does not. What they don't know is which investors really fit them, and who in the building that week could introduce them. An investor database gives names and sector tags, not the founder at Slush who already took that investor's money.
@@ -57,7 +57,7 @@ Loading started from the investors' side: one call returns an investor's whole p
 
 ### The language model supplies no facts
 
-The draft is a template filled from the graph on the server. On request, Claude Haiku rewords it from the facts in use only; the result is thrown away if it contains a link, a number or a name not in those facts, drops the investor, peer or addressee, or says "led" when the path does not.
+The draft is a template filled from the graph on the server. On request, Gemini Flash-Lite rewords it from the facts in use only; the result is thrown away if it contains a link, a number or a name not in those facts, drops the investor, peer or addressee, or says "led" when the path does not.
 ````
 
 ## Links for the form
@@ -69,7 +69,7 @@ The draft is a template filled from the graph on the server. On request, Claude 
 
 Next.js 16 (App Router pages and route handlers), React 19 and TypeScript 5.9 for the web app; the path graph is
 hand-written SVG, with no graph or chart library. Python 3, standard library only, for the Cala crawler and the graph
-builder. Cala's REST API for all data. The Anthropic TypeScript SDK with Claude Haiku, optional, only to reword the
+builder. Cala's REST API for all data. Google's Gemini API (`gemini-3.5-flash-lite`, called over REST), optional, only to reword the
 intro draft.
 
 ## Cala endpoints and what they are used for

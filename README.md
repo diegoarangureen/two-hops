@@ -49,7 +49,8 @@ browser.
 | `CALA_LIVE_BUDGET` | 10 | Live calls allowed per server process. |
 | `CALA_MONTHLY_CREDITS` | unset | Optional, not in `.env.example`. When set, the server also stops making live calls once the credits logged in `data/cala_calls.jsonl` for the key in use reach this number. Unset, only `CALA_LIVE_BUDGET` limits live calls. The Python tools read it too, only to report what is left. |
 | `CALA_API_BASE` | `https://api.cala.ai/v1` | Not in `.env.example`. Where the live call goes, so it can be tested against a local stand-in without spending credits. |
-| `ANTHROPIC_API_KEY` | empty | Enables "Reword it" in the intro kit. Without it the draft is the template built from the graph. |
+| `GEMINI_API_KEY` | empty | Enables "Reword it" in the intro kit, through Gemini's `generateContent`. Without it the draft is the template built from the graph. |
+| `GEMINI_MODEL` | `gemini-3.5-flash-lite` | The model that rewords the draft. |
 | `INTRO_LLM_BUDGET` | 40 | Rewording calls allowed per server process. |
 
 Live calls are spaced 6.5 seconds apart (Cala allows about 10 calls per rolling minute; we measured the same limit on

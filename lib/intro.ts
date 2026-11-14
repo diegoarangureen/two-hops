@@ -3,7 +3,6 @@
 // language model never supplies one. Without a model the draft is a template filled with those facts; with
 // one, the model may only reword that template, and its output is checked before it is accepted.
 
-import Anthropic from "@anthropic-ai/sdk";
 import { introContext } from "./engine";
 import { bestRank, type Rank } from "./rank";
 import type { SourceView } from "./types";
@@ -37,7 +36,9 @@ export interface IntroRequest {
   reword?: boolean;
 }
 
-const MODEL = "claude-haiku-5-5"; // the cheap model: it only rewords a short message
+// The cheap model: it only rewords a short message. GEMINI_MODEL overrides it without a code change.
+const MODEL = process.env.GEMINI_MODEL?.trim() || "gemini-3.5-flash-lite";
+const GEMINI_URL = "https://generativelanguage.googleapis.com/v1beta/models";
 const SENDER_PLACEHOLDER = "[your name]";
 
 const holder = globalThis as unknown as { __twoHopsIntroCalls?: number };
@@ -198,6 +199,7 @@ function numbers(text: string): string[] {
 export function staysOnFacts(text: string, allowed: string, keep: string[], isLead: boolean): boolean {
   if (/https?:\/\//i.test(text)) return false;
   const allowedNumbers = new Set(numbers(allowed));
+  if (/\bten minutes\b/i.test(allowed)) allowedNumbers.add("10"); // the same ask written with a digit
   if (numbers(text).some((n) => !allowedNumbers.has(n))) return false;
   const allowedWords = new Set((allowed.match(/[\p{L}\d]+/gu) ?? []).map((w) => w));
   for (const line of text.split(/\n/)) {
@@ -215,62 +217,75 @@ export function staysOnFacts(text: string, allowed: string, keep: string[], isLe
   return keep.every((name) => text.includes(name));
 }
 
+interface GeminiResponse {
+  candidates?: { finishReason?: string; content?: { parts?: { text?: string }[] } }[];
+  promptFeedback?: { blockReason?: string };
+  error?: { code?: number; status?: string; message?: string };
+}
+
+/** One call to Gemini's generateContent. Returns the text, or why there is none. The key travels in a header. */
+async function gemini(key: string, system: string, user: string): Promise<{ text: string } | { why: string }> {
+  let res: Response;
+  try {
+    res = await fetch(`${GEMINI_URL}/${encodeURIComponent(MODEL)}:generateContent`, {
+      method: "POST",
+      headers: { "x-goog-api-key": key, "Content-Type": "application/json" },
+      body: JSON.stringify({
+        systemInstruction: { parts: [{ text: system }] },
+        contents: [{ role: "user", parts: [{ text: user }] }],
+        generationConfig: { maxOutputTokens: 1024 }, // a deliberately short message, and a cost cap
+      }),
+      signal: AbortSignal.timeout(20_000),
+      cache: "no-store",
+    });
+  } catch {
+    return { why: "The language model could not be reached" };
+  }
+  let j: GeminiResponse | null = null;
+  try {
+    j = (await res.json()) as GeminiResponse;
+  } catch {
+    j = null;
+  }
+  if (!res.ok) {
+    if (res.status === 429) return { why: "The language model is rate limited right now" };
+    if (res.status === 401 || res.status === 403) return { why: "The language-model key on this server was not accepted" };
+    // say what the provider said, cut short
+    const said = String(j?.error?.message ?? "").replace(/\s+/g, " ").trim().slice(0, 140);
+    return { why: `The language model turned the request down (${res.status}${said ? `: ${said}` : ""})` };
+  }
+  const c = j?.candidates?.[0];
+  if (!c) return { why: `The language model returned nothing${j?.promptFeedback?.blockReason ? ` (${j.promptFeedback.blockReason})` : ""}` };
+  if (c.finishReason && c.finishReason !== "STOP") return { why: `The model stopped early (${c.finishReason})` };
+  const text = (c.content?.parts ?? []).map((part) => part.text ?? "").join("").trim();
+  return text ? { text } : { why: "The language model returned an empty message" };
+}
+
 export async function buildIntro(req: IntroRequest): Promise<IntroDraft | null> {
   const built = build(req);
   if (!built || !req.reword) return built?.draft ?? null;
   const { draft, keep, isLead } = built;
+  const key = process.env.GEMINI_API_KEY?.trim();
+  if (!key) return { ...draft, note: "No language model is configured on this server (GEMINI_API_KEY), so this is the template draft." };
   if (rewordBudgetLeft() <= 0) return { ...draft, note: "The rewording budget on this server is used up, so this is the template draft." };
-
-  let client: Anthropic;
-  try {
-    client = new Anthropic(); // credentials from the environment (ANTHROPIC_API_KEY)
-  } catch {
-    return { ...draft, note: "No language model is configured on this server, so this is the template draft." };
-  }
   holder.__twoHopsIntroCalls = (holder.__twoHopsIntroCalls ?? 0) + 1;
 
   // the model sees only the facts that may be used; what is held back stays on the page, not in the prompt
   const factLines = draft.facts.filter((f) => !f.heldBack).map((f) => `- ${f.text}`).join("\n");
   const original = `Subject: ${draft.subject}\n\n${draft.body}`;
-  try {
-    const response = await client.messages.create(
-      {
-        model: MODEL,
-        max_tokens: 1024, // a deliberately short message, and a cost cap
-        thinking: { type: "disabled" },
-        output_config: { effort: "low" },
-        system: SYSTEM,
-        messages: [{ role: "user", content: `<facts>\n${factLines}\n</facts>\n\n<draft>\n${original}\n</draft>` }],
-      },
-      { timeout: 20_000, maxRetries: 1 },
-    );
-    if (response.stop_reason !== "end_turn") {
-      return { ...draft, note: `The model stopped early (${response.stop_reason}), so this is the template draft.` };
-    }
-    let text = "";
-    for (const block of response.content) if (block.type === "text") text += block.text;
-    text = text.trim();
-    const m = /^Subject:\s*(.+)\r?\n\s*\r?\n([\s\S]+)$/.exec(text);
-    if (!m || text.length > 1500 || !staysOnFacts(text, `${original}\n${factLines}`, keep, isLead)) {
-      return { ...draft, note: "The reworded version added or dropped something the facts do not support, so it was discarded. This is the template draft." };
-    }
-    return {
-      ...draft,
-      subject: m[1].trim(),
-      body: m[2].trim(),
-      mode: "reworded",
-      note: `Reworded by ${MODEL}. It was given only the facts in use, and the result was checked: no link, number or name that is not in them. Read it against the facts before sending.`,
-    };
-  } catch (error) {
-    let why = "The language model could not be reached";
-    if (error instanceof Anthropic.AuthenticationError) why = "No valid language-model key is configured on this server";
-    else if (error instanceof Anthropic.RateLimitError) why = "The language model is rate limited right now";
-    else if (error instanceof Anthropic.APIError) {
-      // say what the provider said (an account without credit, for one), cut short and without the request id
-      const said = String(error.message ?? "").replace(/\s+/g, " ").replace(/\{.*$/, "").trim().slice(0, 140);
-      why = `The language model turned the request down (${error.status ?? "no status"}${said ? `: ${said}` : ""})`;
-    }
-    else if (error instanceof Error && /api[_ ]?key|auth|credential/i.test(error.message)) why = "No language-model key is configured on this server";
-    return { ...draft, note: `${why}, so this is the template draft.` };
+  const out = await gemini(key, SYSTEM, `<facts>\n${factLines}\n</facts>\n\n<draft>\n${original}\n</draft>`);
+  if ("why" in out) return { ...draft, note: `${out.why}, so this is the template draft.` };
+
+  const text = out.text.replace(/^```[a-z]*\s*\n|\n```\s*$/g, "").trim(); // in case the reply comes fenced
+  const m = /^Subject:\s*(.+)\r?\n\s*\r?\n([\s\S]+)$/.exec(text);
+  if (!m || text.length > 1500 || !staysOnFacts(text, `${original}\n${factLines}`, keep, isLead)) {
+    return { ...draft, note: "The reworded version added or dropped something the facts do not support, so it was discarded. This is the template draft." };
   }
+  return {
+    ...draft,
+    subject: m[1].trim(),
+    body: m[2].trim(),
+    mode: "reworded",
+    note: `Reworded by ${MODEL}. It was given only the facts in use, and the result was checked: no link, number or name that is not in them. Read it against the facts before sending.`,
+  };
 }
