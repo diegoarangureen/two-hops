@@ -1,0 +1,757 @@
+{
+ "id": "064f16fb-10a0-4181-8a48-5b1bede13651",
+ "name": "Pally",
+ "entity_type": "Company",
+ "description": "Pally is the AI personal assistant that lives in your texts. It handles email, calendar, reminders, research, and errands. Free, with no Pally app to install.",
+ "properties": {
+  "name": {
+   "value": "Pally",
+   "sources": [
+    {
+     "name": "Y Combinator",
+     "document": "https://github.com/yc-oss/api",
+     "date": "2026-07-04"
+    },
+    {
+     "name": "pally.com",
+     "document": "https://pally.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/pallyai/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "Pally Technologies, Inc.",
+   "sources": [
+    {
+     "name": "pally.com",
+     "document": "https://pally.com/",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "pally.com",
+     "document": "https://pally.com/terms",
+     "date": "2026-11-11",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "aliases": {
+   "value": [],
+   "sources": []
+  },
+  "website": {
+   "value": "pally.com",
+   "sources": [
+    {
+     "name": "Y Combinator",
+     "document": "https://github.com/yc-oss/api",
+     "date": "2026-07-25"
+    },
+    {
+     "name": "pally.com",
+     "document": "https://pally.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "dns.google",
+     "document": "https://dns.google/query?name=pally.com&type=A",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "Pally is the AI personal assistant that lives in your texts. It handles email, calendar, reminders, research, and errands. Free, with no Pally app to install.",
+   "sources": [
+    {
+     "name": "pally.com",
+     "document": "https://pally.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2024-01-01",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/pallyai/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    },
+    {
+     "name": "ycombinator.com",
+     "document": "https://www.ycombinator.com/companies/pally",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "San Francisco, United States",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/pallyai/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    },
+    {
+     "name": "ycombinator.com",
+     "document": "https://www.ycombinator.com/companies/pally",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "Y Combinator",
+     "document": "https://github.com/yc-oss/api",
+     "date": "2026-07-25"
+    },
+    {
+     "name": "pally.com",
+     "document": "https://pally.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "total_funding": {
+   "value": 5200000.0,
+   "sources": [
+    {
+     "name": "dnyuz.com",
+     "document": "https://dnyuz.com/2026/08/06/this-yc-startup-raised-5-million-for-a-personal-assistant-to-help-you-stay-on-top-of-your-text-messages/",
+     "date": "2026-08-06",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "runtimewire.com",
+     "document": "https://runtimewire.com/article/pally-raised-5-2-million-ai-assistant-text-messages",
+     "date": "2026-08-06",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "thesaasnews.com",
+     "document": "https://thesaasnews.com/news/pally-raises-5-2m-seed",
+     "date": "2026-08-10",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "total_funding_units": {
+   "value": "USD",
+   "sources": [
+    {
+     "name": "dnyuz.com",
+     "document": "https://dnyuz.com/2026/08/06/this-yc-startup-raised-5-million-for-a-personal-assistant-to-help-you-stay-on-top-of-your-text-messages/",
+     "date": "2026-08-06",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "runtimewire.com",
+     "document": "https://runtimewire.com/article/pally-raised-5-2-million-ai-assistant-text-messages",
+     "date": "2026-08-06",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "thesaasnews.com",
+     "document": "https://thesaasnews.com/news/pally-raises-5-2m-seed",
+     "date": "2026-08-10",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "total_funding_excluding_debt": {
+   "value": 5200000.0,
+   "sources": [
+    {
+     "name": "dnyuz.com",
+     "document": "https://dnyuz.com/2026/08/06/this-yc-startup-raised-5-million-for-a-personal-assistant-to-help-you-stay-on-top-of-your-text-messages/",
+     "date": "2026-08-06",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "runtimewire.com",
+     "document": "https://runtimewire.com/article/pally-raised-5-2-million-ai-assistant-text-messages",
+     "date": "2026-08-06",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "thesaasnews.com",
+     "document": "https://thesaasnews.com/news/pally-raises-5-2m-seed",
+     "date": "2026-08-10",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "21dccb1f-30a3-520a-804d-7616872ae4a0",
+     "name": "Seed",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "thesaasnews.com",
+        "document": "https://thesaasnews.com/news/pally-raises-5-2m-seed",
+        "date": "2026-08-10",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "dealroom.co",
+        "document": "https://dealroom.co/news/143591-pally-raises-5-2m-seed-for-an-ai-assistant-that-lives-in-your-texts/",
+        "date": "2026-08-06",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "8d439a28-f72d-5c42-a8f3-c3254bc5fcd3"
+     }
+    },
+    {
+     "id": "73c4ffb0-4582-52e9-a921-f260284fdb08",
+     "name": "Pre-Seed",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "ycombinator.com",
+        "document": "https://www.ycombinator.com/companies/pally",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "798375a3-cc44-569d-98c2-f4031f173372"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_CORPORATE_EVENT": [
+    {
+     "id": "0a34b479-0f58-4a99-b962-caab5ec81a52",
+     "name": "FINANCING_RAISED_OR_FACILITY_ENTERED",
+     "entity_type": "PrivateCompanyFundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "Pally (YC S25) | LinkedIn",
+        "document": "https://www.linkedin.com/company/pallyai",
+        "date": "2025-11-06"
+       }
+      ],
+      "event_date": "2025-07-30",
+      "id": "009a62aa-5f67-4812-b254-e361c840119f"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "dcef9e10-5ff0-5b7c-a5bf-42f3fe76da8e"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "8ecf5e57-a149-438c-9eb4-089809bade56",
+     "name": "SOFTWARE_AND_SERVICES",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/pallyai/",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "5de6f05b-f3b6-5009-adc7-977f23773370",
+      "original_label": "ai"
+     }
+    }
+   ],
+   "HAS_HEADQUARTERS_IN": [
+    {
+     "id": "37a1f0f5-f5ef-4b63-b3d8-14f5636be703",
+     "name": "United States",
+     "entity_type": "Country",
+     "properties": {
+      "sources": [
+       {
+        "name": "Y Combinator",
+        "document": "https://github.com/yc-oss/api",
+        "date": "2026-07-04"
+       }
+      ],
+      "id": "6bf5d775-03d7-5659-b798-10686fea7b8f"
+     }
+    }
+   ],
+   "HAS_PRESENCE_IN": [
+    {
+     "id": "37a1f0f5-f5ef-4b63-b3d8-14f5636be703",
+     "name": "United States",
+     "entity_type": "Country",
+     "properties": {
+      "sources": [
+       {
+        "name": "Y Combinator",
+        "document": "https://github.com/yc-oss/api",
+        "date": "2026-07-04"
+       }
+      ],
+      "id": "0f3851e5-d1dd-5eca-933f-10879f4f2650"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "INVESTED_IN": [
+    {
+     "id": "1e86655e-373d-4fe8-be13-af3713581f73",
+     "name": "Y Combinator",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "Y Combinator",
+        "document": "https://github.com/yc-oss/api",
+        "date": "2026-07-04"
+       },
+       {
+        "name": "ycombinator.com",
+        "document": "https://www.ycombinator.com/companies/pally",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "826cb473-5d8d-5647-aa6a-25295883f774"
+     }
+    },
+    {
+     "id": "27e122cd-2ec5-4428-b95e-ebdad0451d46",
+     "name": "468 Capital GmbH & Co. KG",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "dnyuz.com",
+        "document": "https://dnyuz.com/2026/08/06/this-yc-startup-raised-5-million-for-a-personal-assistant-to-help-you-stay-on-top-of-your-text-messages/",
+        "date": "2026-08-06",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "thesaasnews.com",
+        "document": "https://thesaasnews.com/news/pally-raises-5-2m-seed",
+        "date": "2026-08-10",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "8a2f95b4-8ea9-4b41-a934-208a5dd8f277"
+     }
+    },
+    {
+     "id": "c01b859c-8b51-4bd3-a434-f1a13338b16d",
+     "name": "Founders Inc.",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "dnyuz.com",
+        "document": "https://dnyuz.com/2026/08/06/this-yc-startup-raised-5-million-for-a-personal-assistant-to-help-you-stay-on-top-of-your-text-messages/",
+        "date": "2026-08-06",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "thesaasnews.com",
+        "document": "https://thesaasnews.com/news/pally-raises-5-2m-seed",
+        "date": "2026-08-10",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "fe646e4a-11c6-4b9c-874b-162967f7e942"
+     }
+    },
+    {
+     "id": "e66eb684-b37b-4db4-8572-82dcbc72d037",
+     "name": "SixThirty Cyber Fund, LLC",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "dnyuz.com",
+        "document": "https://dnyuz.com/2026/08/06/this-yc-startup-raised-5-million-for-a-personal-assistant-to-help-you-stay-on-top-of-your-text-messages/",
+        "date": "2026-08-06",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "thesaasnews.com",
+        "document": "https://thesaasnews.com/news/pally-raises-5-2m-seed",
+        "date": "2026-08-10",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "48f7628e-8f77-4289-b6be-d3d8b57eb890"
+     }
+    },
+    {
+     "id": "efb7bc83-6548-4942-ae12-b831d108b94b",
+     "name": "Pioneer Fund",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "dnyuz.com",
+        "document": "https://dnyuz.com/2026/08/06/this-yc-startup-raised-5-million-for-a-personal-assistant-to-help-you-stay-on-top-of-your-text-messages/",
+        "date": "2026-08-06",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "thesaasnews.com",
+        "document": "https://thesaasnews.com/news/pally-raises-5-2m-seed",
+        "date": "2026-08-10",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "47aa1bc3-a5dc-4203-8093-78588965e63d"
+     }
+    }
+   ],
+   "FOUNDED": [
+    {
+     "id": "0279ea69-40b5-491f-87f8-c61f2ad355d9",
+     "name": "Haz Hubble",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "Pally: Intelligent Unified Inbox + Personal CRM | Y Combinator",
+        "document": "https://www.ycombinator.com/companies/pally",
+        "date": "2025-06-24"
+       },
+       {
+        "name": "www.crunchbase.com",
+        "document": "https://www.crunchbase.com/organization/pally-6028",
+        "date": "2026-07-29"
+       },
+       {
+        "name": "Pally — AI for your professional relationships. | Founders, Inc.",
+        "document": "https://f.inc/portfolio/pally",
+        "date": "2026-07-21"
+       },
+       {
+        "name": "Pally: Funding, Team & Investors",
+        "document": "https://startupintros.com/orgs/pally",
+        "date": "2026-07-13"
+       },
+       {
+        "name": "Pally 🤝",
+        "document": "https://www.angelsround.com/p/pally",
+        "date": "2025-09-17"
+       },
+       {
+        "name": "Pally (YC S25) | LinkedIn",
+        "document": "https://www.linkedin.com/company/pallyai",
+        "date": "2025-11-06"
+       }
+      ],
+      "id": "8a33274e-be79-48b1-9caa-a44ddd62e3de"
+     }
+    },
+    {
+     "id": "0279ea69-40b5-491f-87f8-c61f2ad355d9",
+     "name": "Haz Hubble",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "ycombinator.com",
+        "document": "https://www.ycombinator.com/companies/pally",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "ycombinator.com",
+        "document": "https://www.ycombinator.com/founders/978619-haz-hubble",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "dnyuz.com",
+        "document": "https://dnyuz.com/2026/08/06/this-yc-startup-raised-5-million-for-a-personal-assistant-to-help-you-stay-on-top-of-your-text-messages/",
+        "date": "2026-08-06",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "26f5a7b4-7b5a-59e0-b34f-51f0b2b2d4e7"
+     }
+    },
+    {
+     "id": "c5c9bcfc-c90f-4050-88e4-59f3fc4609ad",
+     "name": "Wyatt Lansford",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "Pally: Intelligent Unified Inbox + Personal CRM | Y Combinator",
+        "document": "https://www.ycombinator.com/companies/pally",
+        "date": "2025-06-24"
+       },
+       {
+        "name": "www.crunchbase.com",
+        "document": "https://www.crunchbase.com/organization/pally-6028",
+        "date": "2026-07-29"
+       },
+       {
+        "name": "Pally — AI for your professional relationships. | Founders, Inc.",
+        "document": "https://f.inc/portfolio/pally",
+        "date": "2026-07-21"
+       },
+       {
+        "name": "Pally: Funding, Team & Investors",
+        "document": "https://startupintros.com/orgs/pally",
+        "date": "2026-07-13"
+       },
+       {
+        "name": "Invested in Pally, an AI-powered relationship management platform | Taro Fukuyama posted on the topic | LinkedIn",
+        "document": "https://www.linkedin.com/posts/tarof_im-excited-to-announce-my-investment-in-activity-7364325499055075329-_X1E",
+        "date": "2025-08-21"
+       }
+      ],
+      "id": "9a4076ac-b9ec-409d-81f4-0f7c0820d39d"
+     }
+    },
+    {
+     "id": "c5c9bcfc-c90f-4050-88e4-59f3fc4609ad",
+     "name": "Wyatt Lansford",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "ycombinator.com",
+        "document": "https://www.ycombinator.com/companies/pally",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "ycombinator.com",
+        "document": "https://www.ycombinator.com/founders/1287862-wyatt-lansford",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "dnyuz.com",
+        "document": "https://dnyuz.com/2026/08/06/this-yc-startup-raised-5-million-for-a-personal-assistant-to-help-you-stay-on-top-of-your-text-messages/",
+        "date": "2026-08-06",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "16721224-b33a-5cfe-bdf5-abb5590f53a6"
+     }
+    }
+   ],
+   "IS_CEO_OF": [
+    {
+     "id": "0279ea69-40b5-491f-87f8-c61f2ad355d9",
+     "name": "Haz Hubble",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "ycombinator.com",
+        "document": "https://www.ycombinator.com/companies/pally",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "ycombinator.com",
+        "document": "https://www.ycombinator.com/founders/978619-haz-hubble",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "8845603c-c9a7-5ce1-829e-00fdaddfc15a"
+     }
+    }
+   ],
+   "IS_CTO_OF": [
+    {
+     "id": "c5c9bcfc-c90f-4050-88e4-59f3fc4609ad",
+     "name": "Wyatt Lansford",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "ycombinator.com",
+        "document": "https://www.ycombinator.com/companies/pally",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "ycombinator.com",
+        "document": "https://www.ycombinator.com/founders/1287862-wyatt-lansford",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "c0745d8a-d085-5c31-b616-5c7f6321a6c6"
+     }
+    }
+   ],
+   "WORKS_AT": [
+    {
+     "id": "0279ea69-40b5-491f-87f8-c61f2ad355d9",
+     "name": "Haz Hubble",
+     "entity_type": "Person",
+     "properties": {
+      "role": "CEO",
+      "sources": [
+       {
+        "name": "Pally: Intelligent Unified Inbox + Personal CRM | Y Combinator",
+        "document": "https://www.ycombinator.com/companies/pally",
+        "date": "2025-06-24"
+       },
+       {
+        "name": "www.crunchbase.com",
+        "document": "https://www.crunchbase.com/organization/pally-6028",
+        "date": "2026-07-29"
+       },
+       {
+        "name": "Pally — AI for your professional relationships. | Founders, Inc.",
+        "document": "https://f.inc/portfolio/pally",
+        "date": "2026-07-21"
+       },
+       {
+        "name": "Pally: Funding, Team & Investors",
+        "document": "https://startupintros.com/orgs/pally",
+        "date": "2026-07-13"
+       },
+       {
+        "name": "Pally 🤝",
+        "document": "https://www.angelsround.com/p/pally",
+        "date": "2025-09-17"
+       },
+       {
+        "name": "Pally (YC S25) | LinkedIn",
+        "document": "https://www.linkedin.com/company/pallyai",
+        "date": "2025-11-06"
+       }
+      ],
+      "id": "65623555-9ba5-44dd-83d7-f3c65e1cb982"
+     }
+    },
+    {
+     "id": "c5c9bcfc-c90f-4050-88e4-59f3fc4609ad",
+     "name": "Wyatt Lansford",
+     "entity_type": "Person",
+     "properties": {
+      "role": "CTO",
+      "sources": [
+       {
+        "name": "Pally: Intelligent Unified Inbox + Personal CRM | Y Combinator",
+        "document": "https://www.ycombinator.com/companies/pally",
+        "date": "2025-06-24"
+       },
+       {
+        "name": "www.crunchbase.com",
+        "document": "https://www.crunchbase.com/organization/pally-6028",
+        "date": "2026-07-29"
+       },
+       {
+        "name": "Pally — AI for your professional relationships. | Founders, Inc.",
+        "document": "https://f.inc/portfolio/pally",
+        "date": "2026-07-21"
+       },
+       {
+        "name": "Pally: Funding, Team & Investors",
+        "document": "https://startupintros.com/orgs/pally",
+        "date": "2026-07-13"
+       },
+       {
+        "name": "Invested in Pally, an AI-powered relationship management platform | Taro Fukuyama posted on the topic | LinkedIn",
+        "document": "https://www.linkedin.com/posts/tarof_im-excited-to-announce-my-investment-in-activity-7364325499055075329-_X1E",
+        "date": "2025-08-21"
+       }
+      ],
+      "id": "7844a160-a9e9-4c13-94d4-a7b8adddd5a4"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

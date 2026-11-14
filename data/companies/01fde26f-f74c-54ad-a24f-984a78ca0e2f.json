@@ -1,0 +1,297 @@
+{
+ "id": "01fde26f-f74c-54ad-a24f-984a78ca0e2f",
+ "name": "Mamboo Entertainment",
+ "entity_type": "Company",
+ "description": "Mobile game publisher (games, publishing, creative production).",
+ "properties": {
+  "name": {
+   "value": "Mamboo Entertainment",
+   "sources": [
+    {
+     "name": "ent.mamboo.games",
+     "document": "https://ent.mamboo.games",
+     "date": "2026-11-03",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "ent.mamboo.games",
+     "document": "https://ent.mamboo.games/chunks/Bo1SyzmeeDsBew1K.js",
+     "date": "2026-11-03",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "Mamboo Entertainment ME FZ LLC",
+   "sources": [
+    {
+     "name": "ent.mamboo.games",
+     "document": "https://ent.mamboo.games/terms-of-use.html",
+     "date": "2025-05-01",
+     "date_precision": "month",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "ent.mamboo.games",
+     "document": "https://ent.mamboo.games",
+     "date": "2026-11-03",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "ent.mamboo.games",
+     "document": "https://ent.mamboo.games/chunks/Bo1SyzmeeDsBew1K.js",
+     "date": "2026-11-03",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "aliases": {
+   "value": [
+    "Mamboo",
+    "Mamboo Games"
+   ],
+   "sources": []
+  },
+  "website": {
+   "value": "ent.mamboo.games",
+   "sources": [
+    {
+     "name": "ent.mamboo.games",
+     "document": "https://ent.mamboo.games/",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "claude.ai",
+     "document": "https://claude.ai/artifact/H3Eq8ujw2PKskrTrSvodVZ#conflicts",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    },
+    {
+     "name": "web.archive.org",
+     "document": "https://web.archive.org/web/20240522132958/https://ent.mamboo.games/",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "Mobile game publisher (games, publishing, creative production).",
+   "sources": [
+    {
+     "name": "ent.mamboo.games",
+     "document": "https://ent.mamboo.games",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "ent.mamboo.games",
+     "document": "https://ent.mamboo.games/chunks/Bo1SyzmeeDsBew1K.js",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2023-01-01",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/mamboo-entertainment/?viewAsMember=true",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "Abu-Dhabi, United Arab Emirates",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/mamboo-entertainment/?viewAsMember=true",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "ent.mamboo.games",
+     "document": "https://ent.mamboo.games",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "ent.mamboo.games",
+     "document": "https://ent.mamboo.games/chunks/Bo1SyzmeeDsBew1K.js",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "employee_count_range": {
+   "value": [
+    50
+   ],
+   "sources": [
+    {
+     "name": "about.my.games",
+     "document": "https://about.my.games/news/291",
+     "date": "2024-12-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "84fbb213-3af8-5bfa-921f-6131999569de"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "8561e6a1-d703-405b-9981-f78cf3428db5",
+     "name": "ENTERTAINMENT",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/mamboo-entertainment/?viewAsMember=true",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "8d2e97c6-405b-50c1-96b4-4f1b58c587d7",
+      "original_label": "gaming"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "IS_CEO_OF": [
+    {
+     "id": "905db128-004b-5581-8c07-f66f210d06bf",
+     "name": "Artur Beresnev",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "ent.mamboo.games",
+        "document": "https://ent.mamboo.games/",
+        "date": "2026-01-01",
+        "date_precision": "year",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "pocketgamer.biz",
+        "document": "https://www.pocketgamer.biz/mamboo-entertainment-surpasses-55m-in-lifetime-revenue",
+        "date": "2026-01-29",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "gamesbeat.com",
+        "document": "https://gamesbeat.com/mamboo-entertainment-tops-55-million-in-lifetime-revenue-with-strong-annual-growth/",
+        "date": "2026-01-01",
+        "date_precision": "month",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "586c1549-6db9-56e7-ac56-201b2b32e5d1"
+     }
+    }
+   ],
+   "IS_CTO_OF": [
+    {
+     "id": "945662b1-8e57-54a6-9389-ba3f1f9ff236",
+     "name": "Maxim Yurchin",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "ent.mamboo.games",
+        "document": "https://ent.mamboo.games/",
+        "date": "2026-01-01",
+        "date_precision": "year",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "30df7049-7fe1-53a2-a8e2-76435272fe08"
+     }
+    }
+   ],
+   "WORKS_AT": [
+    {
+     "id": "e4d47ec2-a924-5a16-a818-b254f511891e",
+     "name": "Lera Pilnitskaya",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Creative Lead",
+      "sources": [
+       {
+        "name": "ent.mamboo.games",
+        "document": "https://ent.mamboo.games/",
+        "date": "2026-01-01",
+        "date_precision": "year",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "f889845d-d1c7-5187-83d3-a21c40c65fcd"
+     }
+    },
+    {
+     "id": "f22cc4aa-609f-57bd-b133-bc418e2e3dc5",
+     "name": "Ivan Leshkevich",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Partner",
+      "sources": [
+       {
+        "name": "ent.mamboo.games",
+        "document": "https://ent.mamboo.games/",
+        "date": "2026-01-01",
+        "date_precision": "year",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "f75d385f-b832-5fc3-a0b6-6b0392b32956"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

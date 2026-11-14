@@ -1,0 +1,1147 @@
+{
+ "id": "01272a9a-df9d-49b7-a3f3-4258a7e52c1e",
+ "name": "Nextesy",
+ "entity_type": "Company",
+ "description": "nextesy ist die AI Business-Software für Schweizer KMU: Buchhaltung, CRM, Lohn und Aufträge in einer Lösung. Jetzt 14 Tage kostenlos testen.",
+ "properties": {
+  "name": {
+   "value": "Nextesy",
+   "sources": [
+    {
+     "name": "Portfolio - Investing in companies that will change the world",
+     "document": "https://fifthquarter.vc/portfolio",
+     "date": "2024-10-08"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "nextesy AG",
+   "sources": [
+    {
+     "name": "zefix.admin.ch",
+     "document": "https://www.zefix.admin.ch/ZefixREST/api/v1/firm/1602369.json",
+     "date": "2023-08-31",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "nextesy.com",
+     "document": "https://nextesy.com/en-ch/legal-notice",
+     "date": "2026-11-09",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "aliases": {
+   "value": [
+    "nextesy SA",
+    "nextesy Ltd",
+    "nextesy AG"
+   ],
+   "sources": []
+  },
+  "website": {
+   "value": "nextesy.com",
+   "sources": [
+    {
+     "name": "Portfolio - Investing in companies that will change the world",
+     "document": "https://fifthquarter.vc/portfolio",
+     "date": "2024-10-08"
+    },
+    {
+     "name": "nextesy.com",
+     "document": "https://nextesy.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "dns.google",
+     "document": "https://dns.google/query?name=nextesy.com&type=A",
+     "date": "2026-11-09",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "moneycab.com",
+     "document": "https://www.moneycab.com/finanz/nextesy-sichert-sich-33-millionen-chf-pre-seed-finanzierung-fuer-geschaeftsverwaltung-mit-ki/",
+     "date": "2026-11-09",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "nextesy ist die AI Business-Software für Schweizer KMU: Buchhaltung, CRM, Lohn und Aufträge in einer Lösung. Jetzt 14 Tage kostenlos testen.",
+   "sources": [
+    {
+     "name": "nextesy.com",
+     "document": "https://nextesy.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2023-08-28",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/nextesy",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    },
+    {
+     "name": "zefix.admin.ch",
+     "document": "https://www.zefix.admin.ch/ZefixREST/api/v1/firm/1602369.json",
+     "date": "2023-08-31",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "moneycab.com",
+     "document": "https://www.moneycab.com/finanz/nextesy-sichert-sich-33-millionen-chf-pre-seed-finanzierung-fuer-geschaeftsverwaltung-mit-ki/",
+     "date": "2025-02-11",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "Bändliweg 20, 8048 Zürich, Switzerland",
+   "sources": [
+    {
+     "name": "zefix.admin.ch",
+     "document": "https://www.zefix.admin.ch/ZefixREST/api/v1/firm/1602369.json",
+     "date": "2025-03-26",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "nextesy.com",
+     "document": "https://nextesy.com/en-ch/about-us",
+     "date": "2026-11-09",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "nextesy.com",
+     "document": "https://nextesy.com/en-ch/legal-notice",
+     "date": "2026-11-09",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "nextesy.com",
+     "document": "https://nextesy.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "zefix.admin.ch",
+     "document": "https://www.zefix.admin.ch/ZefixREST/api/v1/firm/1602369.json",
+     "date": "2026-03-09",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/nextesy",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    },
+    {
+     "name": "moneycab.com",
+     "document": "https://www.moneycab.com/finanz/nextesy-sichert-sich-33-millionen-chf-pre-seed-finanzierung-fuer-geschaeftsverwaltung-mit-ki/",
+     "date": "2025-02-11",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "employee_count_range": {
+   "value": [
+    40
+   ],
+   "sources": [
+    {
+     "name": "nextesy.com",
+     "document": "https://nextesy.com/en-ch/about-us",
+     "date": "2026-11-09",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "total_funding": {
+   "value": 3300000.0,
+   "sources": [
+    {
+     "name": "moneycab.com",
+     "document": "https://www.moneycab.com/finanz/nextesy-sichert-sich-33-millionen-chf-pre-seed-finanzierung-fuer-geschaeftsverwaltung-mit-ki/",
+     "date": "2025-02-11",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "nextesy.com",
+     "document": "https://nextesy.com/en-ch/blog/nextesy-vs-bexio-best-accounting-software-switzerland-2026",
+     "date": "2026-11-09",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "finder.techleap.nl",
+     "document": "https://finder.techleap.nl/news/feed/nextesy-secures-chf-3-3m-pre-seed-funding",
+     "date": "2026-11-09",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    },
+    {
+     "name": "nordic9.com",
+     "document": "https://nordic9.com/news/nextesy-raises-chf-33-million-with-fifth-quarter-ventures-and-angel-investors/",
+     "date": "2026-11-09",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    },
+    {
+     "name": "startuphub.unwe.bg",
+     "document": "https://startuphub.unwe.bg/bg/news/62901/backed-by-fifth-quarter-ventures-swiss-ai-startup-nextesy-raises-3-5m.html",
+     "date": "2025-02-17",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "finder.techleap.nl",
+     "document": "https://finder.techleap.nl/news/feed/nextesy-secures-3-5m-in-seed-funding",
+     "date": "2026-11-09",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "total_funding_units": {
+   "value": "CHF",
+   "sources": [
+    {
+     "name": "moneycab.com",
+     "document": "https://www.moneycab.com/finanz/nextesy-sichert-sich-33-millionen-chf-pre-seed-finanzierung-fuer-geschaeftsverwaltung-mit-ki/",
+     "date": "2025-02-11",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "nextesy.com",
+     "document": "https://nextesy.com/en-ch/blog/nextesy-vs-bexio-best-accounting-software-switzerland-2026",
+     "date": "2026-11-09",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "finder.techleap.nl",
+     "document": "https://finder.techleap.nl/news/feed/nextesy-secures-chf-3-3m-pre-seed-funding",
+     "date": "2026-11-09",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    },
+    {
+     "name": "nordic9.com",
+     "document": "https://nordic9.com/news/nextesy-raises-chf-33-million-with-fifth-quarter-ventures-and-angel-investors/",
+     "date": "2026-11-09",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    },
+    {
+     "name": "startuphub.unwe.bg",
+     "document": "https://startuphub.unwe.bg/bg/news/62901/backed-by-fifth-quarter-ventures-swiss-ai-startup-nextesy-raises-3-5m.html",
+     "date": "2025-02-17",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "finder.techleap.nl",
+     "document": "https://finder.techleap.nl/news/feed/nextesy-secures-3-5m-in-seed-funding",
+     "date": "2026-11-09",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "total_funding_excluding_debt": {
+   "value": 3300000.0,
+   "sources": [
+    {
+     "name": "moneycab.com",
+     "document": "https://www.moneycab.com/finanz/nextesy-sichert-sich-33-millionen-chf-pre-seed-finanzierung-fuer-geschaeftsverwaltung-mit-ki/",
+     "date": "2025-02-11",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "nextesy.com",
+     "document": "https://nextesy.com/en-ch/blog/nextesy-vs-bexio-best-accounting-software-switzerland-2026",
+     "date": "2026-11-09",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "finder.techleap.nl",
+     "document": "https://finder.techleap.nl/news/feed/nextesy-secures-chf-3-3m-pre-seed-funding",
+     "date": "2026-11-09",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    },
+    {
+     "name": "nordic9.com",
+     "document": "https://nordic9.com/news/nextesy-raises-chf-33-million-with-fifth-quarter-ventures-and-angel-investors/",
+     "date": "2026-11-09",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    },
+    {
+     "name": "startuphub.unwe.bg",
+     "document": "https://startuphub.unwe.bg/bg/news/62901/backed-by-fifth-quarter-ventures-swiss-ai-startup-nextesy-raises-3-5m.html",
+     "date": "2025-02-17",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "finder.techleap.nl",
+     "document": "https://finder.techleap.nl/news/feed/nextesy-secures-3-5m-in-seed-funding",
+     "date": "2026-11-09",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "funding_stage": {
+   "value": "SEED",
+   "sources": [
+    {
+     "name": "zefix.admin.ch",
+     "document": "https://www.zefix.admin.ch/ZefixREST/api/v1/firm/1602369.json",
+     "date": "2026-03-09",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "b5e9aa2d-88a1-5398-9fdf-588f873e333b",
+     "name": "Pre-Seed",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "moneycab.com",
+        "document": "https://www.moneycab.com/finanz/nextesy-sichert-sich-33-millionen-chf-pre-seed-finanzierung-fuer-geschaeftsverwaltung-mit-ki/",
+        "date": "2025-02-11",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "nextesy.com",
+        "document": "https://nextesy.com/en-ch/blog/nextesy-vs-bexio-best-accounting-software-switzerland-2026",
+        "date": "2026-11-09",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "zefix.admin.ch",
+        "document": "https://www.zefix.admin.ch/ZefixREST/api/v1/firm/1602369.json",
+        "date": "2026-03-09",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "1416bd04-8ac0-5fac-8ea6-88eb4aa57191"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_CORPORATE_EVENT": [
+    {
+     "id": "d114d599-9076-4f04-880d-2bc7f5877819",
+     "name": "FINANCING_RAISED_OR_FACILITY_ENTERED",
+     "entity_type": "PrivateCompanyFundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/nextesy/__HmxbyQYaBwgQahygeCCT1mEfhyubYoXs1t8qWnbJeUA",
+        "date": "2026-06-10"
+       },
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/venture-capital/fifthquarterventures/__o6P7lrNThRmKKiemcoSCo5JzPGCpccRJsBhWMLss3JM",
+        "date": "2026-06-10"
+       },
+       {
+        "name": "pitchbook.com",
+        "document": "https://pitchbook.com/profiles/company/589541-05",
+        "date": "2026-06-10"
+       }
+      ],
+      "event_date": "2025-02-11",
+      "id": "8cd7cdd3-29c5-43fa-b09a-76d63b0b7a2f"
+     }
+    },
+    {
+     "id": "fe57f85c-9d73-49f6-b18f-13d606e3bb80",
+     "name": "FINANCING_RAISED_OR_FACILITY_ENTERED",
+     "entity_type": "PrivateCompanyFundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "www.crunchbase.com",
+        "document": "https://www.crunchbase.com/funding_round/nextesy-pre-seed--52935738",
+        "date": "2026-06-10"
+       },
+       {
+        "name": "www.crunchbase.com",
+        "document": "https://www.crunchbase.com/hub/switzerland-business-development-companies",
+        "date": "2026-06-10"
+       }
+      ],
+      "id": "40e3d29e-16f8-4b1d-99b8-ca0e1982489a"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "0a3597aa-f59a-5f5f-ab76-4508b20fc6f5"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "8190c30d-2703-40ab-94d0-6c193cb53908",
+     "name": "FINTECH",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/nextesy",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "178adbd6-a582-5f59-b5e8-40c9d8115377",
+      "original_label": "fintech"
+     }
+    },
+    {
+     "id": "8ecf5e57-a149-438c-9eb4-089809bade56",
+     "name": "SOFTWARE_AND_SERVICES",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "Portfolio - Investing in companies that will change the world",
+        "document": "https://fifthquarter.vc/portfolio",
+        "date": "2024-10-08"
+       }
+      ],
+      "id": "6b5e0c88-0588-48a1-ad7e-d5a742de081a"
+     }
+    }
+   ],
+   "HAS_HEADQUARTERS_IN": [
+    {
+     "id": "30324bba-1827-47ae-b406-e3bde220e5d0",
+     "name": "Switzerland",
+     "entity_type": "Country",
+     "properties": {
+      "sources": [
+       {
+        "name": "Portfolio - Investing in companies that will change the world",
+        "document": "https://fifthquarter.vc/portfolio",
+        "date": "2024-10-08"
+       }
+      ],
+      "id": "19b2ed27-3781-464b-bb6f-66d53b8ce007"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "INVESTED_IN": [
+    {
+     "id": "1e944613-add4-48c4-a759-4ef96a07e468",
+     "name": "SICTIC",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "vcbacked.co",
+        "document": "https://www.vcbacked.co/company/nextesy",
+        "date": "2025-02-11",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       },
+       {
+        "name": "finder.techleap.nl",
+        "document": "https://finder.techleap.nl/news/feed/nextesy-secures-3-5m-in-seed-funding",
+        "date": "2026-11-09",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "9191ecb4-6ea0-4ec9-a7b5-5f97a4a1716e"
+     }
+    },
+    {
+     "id": "e9b93bf9-98dc-4fba-b045-d87a3a55ed01",
+     "name": "Fifth Quarter Oy",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "Portfolio - Investing in companies that will change the world",
+        "document": "https://fifthquarter.vc/portfolio",
+        "date": "2024-10-08"
+       },
+       {
+        "name": "moneycab.com",
+        "document": "https://www.moneycab.com/finanz/nextesy-sichert-sich-33-millionen-chf-pre-seed-finanzierung-fuer-geschaeftsverwaltung-mit-ki/",
+        "date": "2025-02-11",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "mondaq.com",
+        "document": "https://www.mondaq.com/pressrelease/158344/schoenherr-advises-fifth-quarter-ventures-on-its-investment-in-nextesy",
+        "date": "2025-02-14",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "finder.techleap.nl",
+        "document": "https://finder.techleap.nl/news/feed/nextesy-secures-chf-3-3m-pre-seed-funding",
+        "date": "2026-11-09",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       },
+       {
+        "name": "nordic9.com",
+        "document": "https://nordic9.com/news/nextesy-raises-chf-33-million-with-fifth-quarter-ventures-and-angel-investors/",
+        "date": "2026-11-09",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "acd8bfce-3dde-4fbb-8651-56071e7914f1"
+     }
+    }
+   ],
+   "FOUNDED": [
+    {
+     "id": "47e17e8f-5329-4dcf-929e-6e34aab23cee",
+     "name": "Milos Calija",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "Nextesy sichert sich 3,3 Millionen Franken Pre-Seed-Finanzierung",
+        "document": "https://www.startupticker.ch/en/news/nextesy-sichert-sich-3-3-millionen-franken-pre-seed-finanzierung",
+        "date": "2025-02-11"
+       },
+       {
+        "name": "nextesy AG in Zürich - Reports | Moneyhouse",
+        "document": "https://www.moneyhouse.ch/en/company/nextesy-ag-13569615471",
+        "date": "2024-02-05"
+       }
+      ],
+      "id": "f8f5443c-8a7e-41ef-b872-59892e25dbeb"
+     }
+    },
+    {
+     "id": "47e17e8f-5329-4dcf-929e-6e34aab23cee",
+     "name": "Milos Calija",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "moneycab.com",
+        "document": "https://www.moneycab.com/finanz/nextesy-sichert-sich-33-millionen-chf-pre-seed-finanzierung-fuer-geschaeftsverwaltung-mit-ki/",
+        "date": "2025-02-11",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "startuphub.unwe.bg",
+        "document": "https://startuphub.unwe.bg/bg/news/62901/backed-by-fifth-quarter-ventures-swiss-ai-startup-nextesy-raises-3-5m.html",
+        "date": "2025-02-17",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "cd59a134-cf63-579f-8e4d-80564260e2a7",
+      "valid_since": "2023-08-28"
+     }
+    },
+    {
+     "id": "632b7e2b-675c-5c39-85a9-3a8741ff1389",
+     "name": "Aleksandar Grujic",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "moneycab.com",
+        "document": "https://www.moneycab.com/finanz/nextesy-sichert-sich-33-millionen-chf-pre-seed-finanzierung-fuer-geschaeftsverwaltung-mit-ki/",
+        "date": "2025-02-11",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "startuphub.unwe.bg",
+        "document": "https://startuphub.unwe.bg/bg/news/62901/backed-by-fifth-quarter-ventures-swiss-ai-startup-nextesy-raises-3-5m.html",
+        "date": "2025-02-17",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "98057e6f-32da-57fd-a45e-7823ece93422",
+      "valid_since": "2023-08-28"
+     }
+    },
+    {
+     "id": "935ca5ff-1c56-43b2-906e-b2f82247dd61",
+     "name": "Aleks Grujic",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "nextesy AG",
+        "document": "https://swissstartupassociation.ch/startup-desk/it-desk/nextesy-ag",
+        "date": "2026-04-01"
+       },
+       {
+        "name": "Nextesy sichert sich 3,3 Millionen Franken Pre-Seed-Finanzierung",
+        "document": "https://www.startupticker.ch/en/news/nextesy-sichert-sich-3-3-millionen-franken-pre-seed-finanzierung",
+        "date": "2025-02-11"
+       },
+       {
+        "name": "nextesy AG in Zürich - Reports | Moneyhouse",
+        "document": "https://www.moneyhouse.ch/en/company/nextesy-ag-13569615471",
+        "date": "2024-02-05"
+       },
+       {
+        "name": "www.inside-it.ch",
+        "document": "https://www.inside-it.ch/nextesy-sammelt-3%2C3-millionen-franken-20250212",
+        "date": "2026-08-20"
+       }
+      ],
+      "id": "c0ea11af-d100-480d-889f-51a67dfbabc1"
+     }
+    },
+    {
+     "id": "9b6c0772-0ec2-47f4-84a6-9cbaba321fc4",
+     "name": "Dario Fazlic",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "nextesy AG",
+        "document": "https://swissstartupassociation.ch/startup-desk/it-desk/nextesy-ag",
+        "date": "2026-04-01"
+       },
+       {
+        "name": "Swiss startups strengthen C-suite across AI, biotech and engineering",
+        "document": "https://www.startupticker.ch/en/news/swiss-startups-strengthen-c-suite-across-ai-biotech-and-engineering",
+        "date": "2026-05-19"
+       },
+       {
+        "name": "Nextesy sichert sich 3,3 Millionen Franken Pre-Seed-Finanzierung",
+        "document": "https://www.startupticker.ch/en/news/nextesy-sichert-sich-3-3-millionen-franken-pre-seed-finanzierung",
+        "date": "2025-02-11"
+       },
+       {
+        "name": "nextesy AG in Zürich - Reports | Moneyhouse",
+        "document": "https://www.moneyhouse.ch/en/company/nextesy-ag-13569615471",
+        "date": "2024-02-05"
+       }
+      ],
+      "id": "2409cda2-0423-48f0-bab9-c8b4d9c4c58b"
+     }
+    },
+    {
+     "id": "9b6c0772-0ec2-47f4-84a6-9cbaba321fc4",
+     "name": "Dario Fazlic",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "moneycab.com",
+        "document": "https://www.moneycab.com/finanz/nextesy-sichert-sich-33-millionen-chf-pre-seed-finanzierung-fuer-geschaeftsverwaltung-mit-ki/",
+        "date": "2025-02-11",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "startuphub.unwe.bg",
+        "document": "https://startuphub.unwe.bg/bg/news/62901/backed-by-fifth-quarter-ventures-swiss-ai-startup-nextesy-raises-3-5m.html",
+        "date": "2025-02-17",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "c49882a9-a31f-5b91-98a4-2f5aafcfc4ff",
+      "valid_since": "2023-08-28"
+     }
+    },
+    {
+     "id": "bc3f0abc-0c54-472e-a245-d95425153ab5",
+     "name": "Milan Kuzmanovic",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "nextesy AG",
+        "document": "https://swissstartupassociation.ch/startup-desk/it-desk/nextesy-ag",
+        "date": "2026-04-01"
+       },
+       {
+        "name": "Nextesy sichert sich 3,3 Millionen Franken Pre-Seed-Finanzierung",
+        "document": "https://www.startupticker.ch/en/news/nextesy-sichert-sich-3-3-millionen-franken-pre-seed-finanzierung",
+        "date": "2025-02-11"
+       },
+       {
+        "name": "nextesy AG in Zürich - Reports | Moneyhouse",
+        "document": "https://www.moneyhouse.ch/en/company/nextesy-ag-13569615471",
+        "date": "2024-02-05"
+       },
+       {
+        "name": "nextesy verlässt den Stealth-Modus | Milan Kuzmanovic, PhD | 16 comments",
+        "document": "https://www.linkedin.com/posts/milan-kuzmanovic_schweizer-ai-startup-nextesy-erreicht-2000-activity-7493595974041464832-cYd3",
+        "date": "2026-08-13"
+       }
+      ],
+      "id": "88865c75-ccb0-4988-8df9-e1529413eda3"
+     }
+    },
+    {
+     "id": "bc3f0abc-0c54-472e-a245-d95425153ab5",
+     "name": "Milan Kuzmanovic",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "moneycab.com",
+        "document": "https://www.moneycab.com/finanz/nextesy-sichert-sich-33-millionen-chf-pre-seed-finanzierung-fuer-geschaeftsverwaltung-mit-ki/",
+        "date": "2025-02-11",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "startuphub.unwe.bg",
+        "document": "https://startuphub.unwe.bg/bg/news/62901/backed-by-fifth-quarter-ventures-swiss-ai-startup-nextesy-raises-3-5m.html",
+        "date": "2025-02-17",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "6621ebbf-70d6-5525-a463-5002bf7cac8e",
+      "valid_since": "2023-08-28"
+     }
+    },
+    {
+     "id": "d1055124-cc9a-4380-b9e6-80bdccc0b121",
+     "name": "Stefan Mitrovic",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "Nextesy sichert sich 3,3 Millionen Franken Pre-Seed-Finanzierung",
+        "document": "https://www.startupticker.ch/en/news/nextesy-sichert-sich-3-3-millionen-franken-pre-seed-finanzierung",
+        "date": "2025-02-11"
+       },
+       {
+        "name": "nextesy AG in Zürich - Reports | Moneyhouse",
+        "document": "https://www.moneyhouse.ch/en/company/nextesy-ag-13569615471",
+        "date": "2024-02-05"
+       }
+      ],
+      "id": "40d53717-3574-4ca0-b528-b9ca3a1411d9"
+     }
+    },
+    {
+     "id": "d1055124-cc9a-4380-b9e6-80bdccc0b121",
+     "name": "Stefan Mitrovic",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "moneycab.com",
+        "document": "https://www.moneycab.com/finanz/nextesy-sichert-sich-33-millionen-chf-pre-seed-finanzierung-fuer-geschaeftsverwaltung-mit-ki/",
+        "date": "2025-02-11",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "startuphub.unwe.bg",
+        "document": "https://startuphub.unwe.bg/bg/news/62901/backed-by-fifth-quarter-ventures-swiss-ai-startup-nextesy-raises-3-5m.html",
+        "date": "2025-02-17",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "57f90d15-7bac-51a1-bde7-167b00233e5c",
+      "valid_since": "2023-08-28"
+     }
+    }
+   ],
+   "IS_CEO_OF": [
+    {
+     "id": "632b7e2b-675c-5c39-85a9-3a8741ff1389",
+     "name": "Aleksandar Grujic",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "netzwoche.ch",
+        "document": "https://www.netzwoche.ch/news/2026-05-05/nextesy-erweitert-geschaeftsleitung-um-co-ceo-und-cco",
+        "date": "2026-05-05",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "itreseller.ch",
+        "document": "https://www.itreseller.ch/Artikel/105400/KI-Start-up_Nextesy_stellt_Management_fuer_Markteintritt_auf.html",
+        "date": "2026-05-04",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "0fabe627-1429-554e-a852-af7536826a4f"
+     }
+    },
+    {
+     "id": "9b6c0772-0ec2-47f4-84a6-9cbaba321fc4",
+     "name": "Dario Fazlic",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "itreseller.ch",
+        "document": "https://www.itreseller.ch/Artikel/105400/KI-Start-up_Nextesy_stellt_Management_fuer_Markteintritt_auf.html",
+        "date": "2026-05-04",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "netzwoche.ch",
+        "document": "https://www.netzwoche.ch/news/2026-05-05/nextesy-erweitert-geschaeftsleitung-um-co-ceo-und-cco",
+        "date": "2026-05-05",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "nextesy.com",
+        "document": "https://nextesy.com/en-ch/press-releases/schweizer-ai-startup-nextesy-unter-den-top-20-der-slush-100-pitch-in-helsinki-um-eur-500-000",
+        "date": "2026-10-14",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "05deb0a4-9bc0-52df-b86e-2ccac02970b5"
+     }
+    }
+   ],
+   "IS_BOARD_MEMBER_OF": [
+    {
+     "id": "47e17e8f-5329-4dcf-929e-6e34aab23cee",
+     "name": "Milos Calija",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "zefix.admin.ch",
+        "document": "https://www.zefix.admin.ch/ZefixREST/api/v1/firm/1602369.json",
+        "date": "2023-08-31",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "9e87d5a5-45f1-553a-9aa3-3962d2ae0f4e",
+      "valid_since": "2023-08-28"
+     }
+    },
+    {
+     "id": "632b7e2b-675c-5c39-85a9-3a8741ff1389",
+     "name": "Aleksandar Grujic",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "zefix.admin.ch",
+        "document": "https://www.zefix.admin.ch/ZefixREST/api/v1/firm/1602369.json",
+        "date": "2023-08-31",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "78e7da80-1f2f-5e82-827c-d512dc306a02",
+      "valid_since": "2023-08-28"
+     }
+    },
+    {
+     "id": "9b6c0772-0ec2-47f4-84a6-9cbaba321fc4",
+     "name": "Dario Fazlic",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "zefix.admin.ch",
+        "document": "https://www.zefix.admin.ch/ZefixREST/api/v1/firm/1602369.json",
+        "date": "2023-08-31",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "ebafab7e-9693-504a-a4ed-02f17062cb0a",
+      "valid_since": "2023-08-28"
+     }
+    },
+    {
+     "id": "bc3f0abc-0c54-472e-a245-d95425153ab5",
+     "name": "Milan Kuzmanovic",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "zefix.admin.ch",
+        "document": "https://www.zefix.admin.ch/ZefixREST/api/v1/firm/1602369.json",
+        "date": "2023-08-31",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "3b38d17f-2d96-5241-8026-26430f3bc08b",
+      "valid_since": "2023-08-28"
+     }
+    },
+    {
+     "id": "d1055124-cc9a-4380-b9e6-80bdccc0b121",
+     "name": "Stefan Mitrovic",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "zefix.admin.ch",
+        "document": "https://www.zefix.admin.ch/ZefixREST/api/v1/firm/1602369.json",
+        "date": "2023-08-31",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "fde8e1f8-f669-5f71-af0b-ba8ea32c701e",
+      "valid_since": "2023-08-28"
+     }
+    }
+   ],
+   "WORKS_AT": [
+    {
+     "id": "935ca5ff-1c56-43b2-906e-b2f82247dd61",
+     "name": "Aleks Grujic",
+     "entity_type": "Person",
+     "properties": {
+      "role": "CEO",
+      "sources": [
+       {
+        "name": "nextesy AG",
+        "document": "https://swissstartupassociation.ch/startup-desk/it-desk/nextesy-ag",
+        "date": "2026-04-01"
+       },
+       {
+        "name": "Nextesy sichert sich 3,3 Millionen Franken Pre-Seed-Finanzierung",
+        "document": "https://www.startupticker.ch/en/news/nextesy-sichert-sich-3-3-millionen-franken-pre-seed-finanzierung",
+        "date": "2025-02-11"
+       },
+       {
+        "name": "nextesy AG in Zürich - Reports | Moneyhouse",
+        "document": "https://www.moneyhouse.ch/en/company/nextesy-ag-13569615471",
+        "date": "2024-02-05"
+       },
+       {
+        "name": "www.inside-it.ch",
+        "document": "https://www.inside-it.ch/nextesy-sammelt-3%2C3-millionen-franken-20250212",
+        "date": "2026-08-20"
+       }
+      ],
+      "id": "16eeef94-0202-4102-8c56-ba22ad1d57d4"
+     }
+    },
+    {
+     "id": "9b6c0772-0ec2-47f4-84a6-9cbaba321fc4",
+     "name": "Dario Fazlic",
+     "entity_type": "Person",
+     "properties": {
+      "role": "CEO",
+      "sources": [
+       {
+        "name": "nextesy AG",
+        "document": "https://swissstartupassociation.ch/startup-desk/it-desk/nextesy-ag",
+        "date": "2026-04-01"
+       },
+       {
+        "name": "Swiss startups strengthen C-suite across AI, biotech and engineering",
+        "document": "https://www.startupticker.ch/en/news/swiss-startups-strengthen-c-suite-across-ai-biotech-and-engineering",
+        "date": "2026-05-19"
+       },
+       {
+        "name": "Nextesy sichert sich 3,3 Millionen Franken Pre-Seed-Finanzierung",
+        "document": "https://www.startupticker.ch/en/news/nextesy-sichert-sich-3-3-millionen-franken-pre-seed-finanzierung",
+        "date": "2025-02-11"
+       },
+       {
+        "name": "nextesy AG in Zürich - Reports | Moneyhouse",
+        "document": "https://www.moneyhouse.ch/en/company/nextesy-ag-13569615471",
+        "date": "2024-02-05"
+       }
+      ],
+      "id": "ca1454a4-c5c5-4a83-9718-c3241ed45b62"
+     }
+    },
+    {
+     "id": "9b6c0772-0ec2-47f4-84a6-9cbaba321fc4",
+     "name": "Dario Fazlic",
+     "entity_type": "Person",
+     "properties": {
+      "valid_until": "2026-05-04",
+      "role": "Chief Commercial Officer",
+      "sources": [
+       {
+        "name": "moneycab.com",
+        "document": "https://www.moneycab.com/finanz/nextesy-sichert-sich-33-millionen-chf-pre-seed-finanzierung-fuer-geschaeftsverwaltung-mit-ki/",
+        "date": "2025-02-11",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "db5c71c8-3b81-508b-b85f-6b6eebbc21a4"
+     }
+    },
+    {
+     "id": "9e69d592-2992-5be6-aa3e-4395b890da92",
+     "name": "Rouven Mayer",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Chief Commercial Officer",
+      "sources": [
+       {
+        "name": "itreseller.ch",
+        "document": "https://www.itreseller.ch/Artikel/105400/KI-Start-up_Nextesy_stellt_Management_fuer_Markteintritt_auf.html",
+        "date": "2026-05-04",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "netzwoche.ch",
+        "document": "https://www.netzwoche.ch/news/2026-05-05/nextesy-erweitert-geschaeftsleitung-um-co-ceo-und-cco",
+        "date": "2026-05-05",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "nextesy.com",
+        "document": "https://nextesy.com/en-ch/press-releases/swiss-ai-startup-nextesy-reaches-2000-customers-unique-product-innovations-as-drivers-of-growth",
+        "date": "2026-08-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "eb348f3d-d038-5cb2-8589-eb257c976004"
+     }
+    },
+    {
+     "id": "bc3f0abc-0c54-472e-a245-d95425153ab5",
+     "name": "Milan Kuzmanovic",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Chief AI Officer",
+      "sources": [
+       {
+        "name": "nextesy AG",
+        "document": "https://swissstartupassociation.ch/startup-desk/it-desk/nextesy-ag",
+        "date": "2026-04-01"
+       },
+       {
+        "name": "Nextesy sichert sich 3,3 Millionen Franken Pre-Seed-Finanzierung",
+        "document": "https://www.startupticker.ch/en/news/nextesy-sichert-sich-3-3-millionen-franken-pre-seed-finanzierung",
+        "date": "2025-02-11"
+       },
+       {
+        "name": "nextesy AG in Zürich - Reports | Moneyhouse",
+        "document": "https://www.moneyhouse.ch/en/company/nextesy-ag-13569615471",
+        "date": "2024-02-05"
+       },
+       {
+        "name": "nextesy verlässt den Stealth-Modus | Milan Kuzmanovic, PhD | 16 comments",
+        "document": "https://www.linkedin.com/posts/milan-kuzmanovic_schweizer-ai-startup-nextesy-erreicht-2000-activity-7493595974041464832-cYd3",
+        "date": "2026-08-13"
+       }
+      ],
+      "id": "16ebeb1c-4929-4bd3-89d4-6ee5658c1289"
+     }
+    },
+    {
+     "id": "bc3f0abc-0c54-472e-a245-d95425153ab5",
+     "name": "Milan Kuzmanovic",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Chief AI Officer",
+      "sources": [
+       {
+        "name": "nextesy.com",
+        "document": "https://nextesy.com/en-ch/press-releases/swiss-ai-startup-nextesy-reaches-2000-customers-unique-product-innovations-as-drivers-of-growth",
+        "date": "2026-08-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "nextesy.com",
+        "document": "https://nextesy.com/en-ch/press-releases/schweizer-ai-startup-nextesy-unter-den-top-20-der-slush-100-pitch-in-helsinki-um-eur-500-000",
+        "date": "2026-10-14",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "67ef5f28-472d-5e04-aecc-a767bc475f32"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

@@ -1,0 +1,246 @@
+{
+ "id": "4dbbe1bf-5a77-5855-9f04-83905ebac8e3",
+ "name": "Series D",
+ "entity_type": "FundingRound",
+ "description": null,
+ "properties": {
+  "name": {
+   "value": "Series D",
+   "sources": [
+    {
+     "name": "techfundingnews.com",
+     "document": "https://techfundingnews.com/vanta-150m-series-d-ai-driven-trust-compliance/",
+     "date": "2025-07-23",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "vanta.com",
+     "document": "https://www.vanta.com/resources/vanta-announces-series-d",
+     "date": "2025-07-23",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "round_label": {
+   "value": "SERIES_D",
+   "sources": [
+    {
+     "name": "techfundingnews.com",
+     "document": "https://techfundingnews.com/vanta-150m-series-d-ai-driven-trust-compliance/",
+     "date": "2025-07-23",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "vanta.com",
+     "document": "https://www.vanta.com/resources/vanta-announces-series-d",
+     "date": "2025-07-23",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "instrument": {
+   "value": "EQUITY",
+   "sources": [
+    {
+     "name": "techfundingnews.com",
+     "document": "https://techfundingnews.com/vanta-150m-series-d-ai-driven-trust-compliance/",
+     "date": "2025-07-23",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "transaction_value": {
+   "value": 150000000.0,
+   "sources": [
+    {
+     "name": "techfundingnews.com",
+     "document": "https://techfundingnews.com/vanta-150m-series-d-ai-driven-trust-compliance/",
+     "date": "2025-07-23",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "vanta.com",
+     "document": "https://www.vanta.com/resources/vanta-announces-series-d",
+     "date": "2025-07-23",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "transaction_value_units": {
+   "value": "USD",
+   "sources": [
+    {
+     "name": "techfundingnews.com",
+     "document": "https://techfundingnews.com/vanta-150m-series-d-ai-driven-trust-compliance/",
+     "date": "2025-07-23",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "vanta.com",
+     "document": "https://www.vanta.com/resources/vanta-announces-series-d",
+     "date": "2025-07-23",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "announcement_date": {
+   "value": "2025-07-23",
+   "sources": [
+    {
+     "name": "techfundingnews.com",
+     "document": "https://techfundingnews.com/vanta-150m-series-d-ai-driven-trust-compliance/",
+     "date": "2025-07-23",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "vanta.com",
+     "document": "https://www.vanta.com/resources/vanta-announces-series-d",
+     "date": "2025-07-23",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "annotations": {
+   "value": [
+    "Round name as stated in the article.",
+    "round_label_stated:Series D"
+   ],
+   "sources": []
+  }
+ },
+ "relationships": {
+  "outgoing": {},
+  "incoming": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "0857f228-184d-41bc-854a-8e75a77df225",
+     "name": "J.P. Morgan",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "techfundingnews.com",
+        "document": "https://techfundingnews.com/vanta-150m-series-d-ai-driven-trust-compliance/",
+        "date": "2025-07-23",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "b4d0ea2d-8373-57b8-92e0-1930c6707877"
+     }
+    },
+    {
+     "id": "17321f06-e5ee-4962-842b-42e8ecc97d5a",
+     "name": "Vanta Inc.",
+     "entity_type": "Company",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "techfundingnews.com",
+        "document": "https://techfundingnews.com/vanta-150m-series-d-ai-driven-trust-compliance/",
+        "date": "2025-07-23",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "vanta.com",
+        "document": "https://www.vanta.com/resources/vanta-announces-series-d",
+        "date": "2025-07-23",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "ed510876-4328-53bf-8a9e-2d8949dff0b8"
+     }
+    },
+    {
+     "id": "194bf0d0-b0b5-4c76-8226-91d4c864f76b",
+     "name": "WELLINGTON MANAGEMENT GROUP LLP",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "techfundingnews.com",
+        "document": "https://techfundingnews.com/vanta-150m-series-d-ai-driven-trust-compliance/",
+        "date": "2025-07-23",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "is_lead": true,
+      "id": "09b7fa78-95eb-5fe5-ba28-6c8d890d9c34"
+     }
+    },
+    {
+     "id": "b18315f9-a2f8-4889-aa7c-07bbc219f5b9",
+     "name": "Sequoia Capital",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "techfundingnews.com",
+        "document": "https://techfundingnews.com/vanta-150m-series-d-ai-driven-trust-compliance/",
+        "date": "2025-07-23",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "8f13fa1d-1fe9-5be3-9fe5-91200d5c4a01"
+     }
+    },
+    {
+     "id": "be2912b2-c3b3-40e0-bdbc-692ed7659dc3",
+     "name": "GOLDMAN SACHS GROUP INC",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "techfundingnews.com",
+        "document": "https://techfundingnews.com/vanta-150m-series-d-ai-driven-trust-compliance/",
+        "date": "2025-07-23",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "24736399-d8f4-5207-aca3-e3b62bdb5d44"
+     }
+    },
+    {
+     "id": "dcc52d2c-9898-4745-b6ba-573084e9411b",
+     "name": "Atlassian Ventures",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "techfundingnews.com",
+        "document": "https://techfundingnews.com/vanta-150m-series-d-ai-driven-trust-compliance/",
+        "date": "2025-07-23",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "11a06269-b65d-5922-83ab-b5045a5cd1f7"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

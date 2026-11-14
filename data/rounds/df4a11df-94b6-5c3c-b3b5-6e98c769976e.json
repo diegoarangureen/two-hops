@@ -1,0 +1,134 @@
+{
+ "id": "df4a11df-94b6-5c3c-b3b5-6e98c769976e",
+ "name": "Seed",
+ "entity_type": "FundingRound",
+ "description": null,
+ "properties": {
+  "name": {
+   "value": "Seed",
+   "sources": [
+    {
+     "name": "tech.eu",
+     "document": "https://tech.eu/2020/01/20/katana-seed-funding/",
+     "date": "2020-01-20",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "round_label": {
+   "value": "SEED",
+   "sources": [
+    {
+     "name": "tech.eu",
+     "document": "https://tech.eu/2020/01/20/katana-seed-funding/",
+     "date": "2020-01-20",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "instrument": {
+   "value": "EQUITY",
+   "sources": [
+    {
+     "name": "tech.eu",
+     "document": "https://tech.eu/2020/01/20/katana-seed-funding/",
+     "date": "2020-01-20",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "transaction_value": {
+   "value": 2200000.0,
+   "sources": [
+    {
+     "name": "tech.eu",
+     "document": "https://tech.eu/2020/01/20/katana-seed-funding/",
+     "date": "2020-01-20",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "transaction_value_units": {
+   "value": "USD",
+   "sources": [
+    {
+     "name": "tech.eu",
+     "document": "https://tech.eu/2020/01/20/katana-seed-funding/",
+     "date": "2020-01-20",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "announcement_date": {
+   "value": "2020-01-20",
+   "sources": [
+    {
+     "name": "tech.eu",
+     "document": "https://tech.eu/2020/01/20/katana-seed-funding/",
+     "date": "2020-01-20",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "annotations": {
+   "value": [
+    "tech.eu calls 42CAP a \"seed investor\"; no source names the round itself.",
+    "round_label_stated:Seed",
+    "round_label_basis:INFERRED",
+    "round_label_explanation:First equity round of the company (rounds.3), unnamed: Seed (instructions §3.5)."
+   ],
+   "sources": []
+  }
+ },
+ "relationships": {
+  "outgoing": {},
+  "incoming": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "51f64e19-6d58-4b3a-8374-ce9e9213b1bc",
+     "name": "Katana MRP",
+     "entity_type": "Company",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2020/01/20/katana-seed-funding/",
+        "date": "2020-01-20",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "e2c23369-aa2c-502d-b48b-685a454ddbdd"
+     }
+    },
+    {
+     "id": "706f00cd-8eca-430e-a07f-5e9ee2a3c44a",
+     "name": "42Cap",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2020/01/20/katana-seed-funding/",
+        "date": "2020-01-20",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "is_lead": true,
+      "id": "18ecfc3a-b9e9-54c2-b4e7-c9cb109ea554"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

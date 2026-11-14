@@ -1,0 +1,138 @@
+{
+ "id": "b3fc3f9c-7d8b-5d7f-8e96-79cb17357d11",
+ "name": "Seed",
+ "entity_type": "FundingRound",
+ "description": null,
+ "properties": {
+  "name": {
+   "value": "Seed",
+   "sources": [
+    {
+     "name": "arcticstartup.com",
+     "document": "https://arcticstartup.com/?p=71145",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "round_label": {
+   "value": "SEED",
+   "sources": [
+    {
+     "name": "arcticstartup.com",
+     "document": "https://arcticstartup.com/?p=71145",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "instrument": {
+   "value": "EQUITY",
+   "sources": [
+    {
+     "name": "tech.eu",
+     "document": "https://tech.eu/2017/08/23/popit-sense/",
+     "date": "2017-08-23",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "transaction_value": {
+   "value": 720000.0,
+   "sources": [
+    {
+     "name": "tech.eu",
+     "document": "https://tech.eu/2017/08/23/popit-sense/",
+     "date": "2017-08-23",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "transaction_value_units": {
+   "value": "EUR",
+   "sources": [
+    {
+     "name": "tech.eu",
+     "document": "https://tech.eu/2017/08/23/popit-sense/",
+     "date": "2017-08-23",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "announcement_date": {
+   "value": "2017-08-23",
+   "sources": [
+    {
+     "name": "tech.eu",
+     "document": "https://tech.eu/2017/08/23/popit-sense/",
+     "date": "2017-08-23",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "annotations": {
+   "value": [
+    "ArcticStartup: Popit 'recently' closed '€1.2M seed financing' from Butterfly Ventures, six private investors and Tekes; article date not readable (page behind a bot check on curl).",
+    "round_label_stated:Seed"
+   ],
+   "sources": []
+  }
+ },
+ "relationships": {
+  "outgoing": {},
+  "incoming": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "319651c9-6794-5b5c-914f-62373a1c68bf",
+     "name": "Popit",
+     "entity_type": "Company",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "arcticstartup.com",
+        "document": "https://arcticstartup.com/?p=71145",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "d46fb591-99eb-5e35-a8d6-68746b3e1f53"
+     }
+    },
+    {
+     "id": "a07abca3-fdb9-4ca6-ad7e-5911717ee2da",
+     "name": "Butterfly Ventures LLC",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2017/08/23/popit-sense/",
+        "date": "2017-08-23",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "arcticstartup.com",
+        "document": "https://arcticstartup.com/?p=71145",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "4025b44d-20ff-5497-810d-4a1fead5acee"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

@@ -4,6 +4,7 @@
   python tools/crawl.py plan                            # what the next calls would buy, from data/graph.json (no calls)
   python tools/crawl.py attendees                       # attendee list -> data/attendees.json (3 calls)
   python tools/crawl.py companies --budget 50           # full profile per attendee -> data/companies/<id>.json
+  python tools/crawl.py deep --budget 5000              # profile per attendee and, if it has investors, its rounds
   python tools/crawl.py peers --budget 30               # profiles of attendees that already have a sourced investor
   python tools/crawl.py rounds --budget 5               # rounds on a path that are not loaded yet, led ones first
   python tools/crawl.py entity investor <id> [<id>...]  # one investor: portfolio and rounds -> data/investors/<id>.json
@@ -46,11 +47,15 @@ def positional(args):
 
 
 def status():
-    used = cala.credits_used()
     idx = cala.cached_index()
     att = json.loads((DATA / "attendees.json").read_text(encoding="utf-8"))
     ids = {a["id"] for a in att}
-    print(f"credits: {used} used of {cala.MONTHLY_CREDITS} this month, {cala.MONTHLY_CREDITS - used} left (from data/cala_calls.jsonl)")
+    print(f"credits used, from data/cala_calls.jsonl: {cala.credits_used()} in total")
+    for k, n in cala.credits_by_key().items():
+        print(f"  key {k}: {n}")
+    if cala.MONTHLY_CREDITS is not None:
+        mine = cala.credits_used(cala.key_id(cala.load_key()))
+        print(f"  current key: {mine} of {cala.MONTHLY_CREDITS} (CALA_MONTHLY_CREDITS), {cala.MONTHLY_CREDITS - mine} left")
     print(f"attendees listed: {len(att)}; attendee profiles cached: {len(ids & set(idx))}")
     for sub in cala.KIND_DIR.values():
         d = DATA / sub
@@ -85,6 +90,50 @@ def companies(c, shuffle, purpose):
     for a in todo:
         js, _ = c.entity(a["id"], "company", purpose or "attendee profile (bulk crawl)", a.get("entity_type"))
         print(f"  {c.n}: {a['name']}" + ("" if js else "  (failed, will be retried on the next run)"))
+
+
+def round_ids(company, cap=6):
+    """Funding rounds a company raised, as ids, grants left out (a grant body is not an investor to be introduced to)."""
+    out = []
+    for r in ((company.get("relationships") or {}).get("outgoing") or {}).get("PARTICIPATES_IN_FUNDING_ROUND") or []:
+        if (r.get("properties") or {}).get("role") == "ISSUER" and r.get("entity_type") == "FundingRound" \
+                and not re.search(r"grant", r.get("name") or "", re.I):
+            out.append(r["id"])
+    return out[:cap]
+
+
+def has_investors(company):
+    return bool(((company.get("relationships") or {}).get("incoming") or {}).get("INVESTED_IN"))
+
+
+def deep(c, purpose):
+    """Attendee by attendee: the profile, then, if it has investors, its funding rounds (who led, how much, when).
+    So whatever is cached at any moment is complete for the companies it covers. Resumable."""
+    att = json.loads((DATA / "attendees.json").read_text(encoding="utf-8"))
+    todo = [a for a in att if a["id"] not in c.cache]
+    print(f"{len(att) - len(todo)} profiles cached, {len(todo)} to go, budget {c.budget}", flush=True)
+
+    def rounds_of(js, name):
+        if not has_investors(js):
+            return
+        for rid in round_ids(js):
+            if rid not in c.cache:
+                r, _ = c.entity(rid, "round", "funding round of an attendee with investors: amount, date, who led")
+                print(f"    {c.n}: round of {name}: {(r or {}).get('name', 'failed')}", flush=True)
+
+    # first catch up on the rounds of what is already cached
+    for a in att:
+        f = c.cache.get(a["id"])
+        if f:
+            try:
+                rounds_of(json.loads(f.read_text(encoding="utf-8")), a["name"])
+            except ValueError:
+                pass
+    for a in todo:
+        js, _ = c.entity(a["id"], "company", purpose or "attendee profile (full crawl of the Slush 2026 node)", a.get("entity_type"))
+        print(f"  {c.n}: {a['name']}" + ("" if js else "  (failed, will be retried on the next run)"), flush=True)
+        if js:
+            rounds_of(js, a["name"])
 
 
 def entities(c, kind, ids, purpose):
@@ -209,7 +258,7 @@ def kq(c, question, tag, purpose):
 if __name__ == "__main__":
     cala.utf8_stdout()
     args = sys.argv[1:]
-    cmds = ("status", "plan", "attendees", "companies", "peers", "rounds", "entity", "search", "kq")
+    cmds = ("status", "plan", "attendees", "companies", "deep", "peers", "rounds", "entity", "search", "kq")
     if not args or args[0] not in cmds:
         sys.exit(__doc__)
     if args[0] == "status":
@@ -225,6 +274,8 @@ if __name__ == "__main__":
         attendees(client)
     elif args[0] == "companies":
         companies(client, "--shuffle" in args, purpose)
+    elif args[0] == "deep":
+        deep(client, purpose)
     elif args[0] == "peers":
         todo = [r["id"] for r in plan_peers(load_graph())][: client.budget]
         entities(client, "company", todo, purpose or "profile of an attendee that an investor's portfolio points at")
@@ -240,4 +291,4 @@ if __name__ == "__main__":
         search(client, pos[0], types.split(",") if types else None, purpose)
     elif args[0] == "kq":
         kq(client, pos[0], opt(args, "--tag", "probe"), purpose)
-    print(f"{client.n} call(s) made in this run; {cala.MONTHLY_CREDITS - cala.credits_used()} credits left by the log")
+    print(f"{client.n} call(s) made in this run; {cala.credits_used(client.key_id)} credits logged for this key in total")

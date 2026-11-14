@@ -1,0 +1,512 @@
+{
+ "id": "119c618e-3405-4734-8641-b7172ac34b7a",
+ "name": "ArcanaBio",
+ "entity_type": "Company",
+ "description": "Develops label-free nano-photonic biosensing that detects protein biomarkers, for rapid diagnostics and at-home health and longevity insights.",
+ "properties": {
+  "name": {
+   "value": "ArcanaBio",
+   "sources": [
+    {
+     "name": "Eignasafn | Nýsköpunarsjóðurinn Kría",
+     "document": "https://www.nyskopun.is/en/eignasafn",
+     "date": "2023-11-09"
+    },
+    {
+     "name": "arcanabio.com",
+     "document": "https://arcanabio.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "ArcanaBio ApS",
+   "sources": [
+    {
+     "name": "estatistik.dk",
+     "document": "https://estatistik.dk/virksomhed/arcanabio-aps/44998173",
+     "date": "2026-11-10",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    },
+    {
+     "name": "arcanabio.com",
+     "document": "https://www.arcanabio.com/post/arcana-awarded-300k-eurostars-grant",
+     "date": "2025-08-21",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "aliases": {
+   "value": [],
+   "sources": []
+  },
+  "website": {
+   "value": "arcanabio.com",
+   "sources": [
+    {
+     "name": "arcanabio.com",
+     "document": "https://arcanabio.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "dns.google",
+     "document": "https://dns.google/query?name=arcanabio.com&type=A",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "Develops label-free nano-photonic biosensing that detects protein biomarkers, for rapid diagnostics and at-home health and longevity insights.",
+   "sources": [
+    {
+     "name": "arcanabio.com",
+     "document": "https://arcanabio.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "arcanabio.com",
+     "document": "https://www.arcanabio.com/post/arcana-awarded-300k-eurostars-grant",
+     "date": "2025-08-21",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2024-08-04",
+   "sources": [
+    {
+     "name": "estatistik.dk",
+     "document": "https://estatistik.dk/virksomhed/arcanabio-aps/44998173",
+     "date": "2026-11-10",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "Ole Maaløes Vej 3, 2200 København N, Denmark",
+   "sources": [
+    {
+     "name": "estatistik.dk",
+     "document": "https://estatistik.dk/virksomhed/arcanabio-aps/44998173",
+     "date": "2026-11-10",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    },
+    {
+     "name": "b2match.com",
+     "document": "https://www.b2match.com/e/global-innovation-summit-2026/participations/725847",
+     "date": "2026-11-10",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    },
+    {
+     "name": "arcanabio.com",
+     "document": "https://arcanabio.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "arcanabio.com",
+     "document": "https://arcanabio.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "estatistik.dk",
+     "document": "https://estatistik.dk/virksomhed/arcanabio-aps/44998173",
+     "date": "2026-11-10",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "total_funding": {
+   "value": 300000.0,
+   "sources": [
+    {
+     "name": "arcanabio.com",
+     "document": "https://www.arcanabio.com/post/arcana-awarded-300k-eurostars-grant",
+     "date": "2025-08-21",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "total_funding_units": {
+   "value": "EUR",
+   "sources": [
+    {
+     "name": "arcanabio.com",
+     "document": "https://www.arcanabio.com/post/arcana-awarded-300k-eurostars-grant",
+     "date": "2025-08-21",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "total_funding_excluding_debt": {
+   "value": 300000.0,
+   "sources": [
+    {
+     "name": "arcanabio.com",
+     "document": "https://www.arcanabio.com/post/arcana-awarded-300k-eurostars-grant",
+     "date": "2025-08-21",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "0cf621ac-0554-5790-abee-a82ab7719675",
+     "name": "Pre-Seed",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "businesswire.com",
+        "document": "https://businesswire.com/news/home/20240908214770/en",
+        "date": "2024-09-08",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "71b223de-d872-5122-a462-3046f35d5704"
+     }
+    },
+    {
+     "id": "372e792c-0bf1-557b-8606-b0e1a473e50b",
+     "name": "Grant",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "arcanabio.com",
+        "document": "https://www.arcanabio.com/post/arcana-awarded-300k-eurostars-grant",
+        "date": "2025-08-21",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "338dede5-1709-50d6-ab56-aa52ef8a92ff"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_CORPORATE_EVENT": [
+    {
+     "id": "615d0468-d509-404a-a4f7-1257b69de1af",
+     "name": "FINANCING_RAISED_OR_FACILITY_ENTERED",
+     "entity_type": "PrivateCompanyFundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/arcanabio/__j6kbxG5O2tMEQc2bgrn4Qsfhe2SlVk4VAxymwuceom4",
+        "date": "2026-08-25"
+       },
+       {
+        "name": "www.crunchbase.com",
+        "document": "https://www.crunchbase.com/organization/arcanabio/financial_details",
+        "date": "2026-08-25"
+       },
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/accelerator-incubator/bioinnovationinstitute/__W_9utZZY7qYe4mCuZjUbSaIyb8JeAV6g1g0DJhgJT7M",
+        "date": "2026-08-25"
+       },
+       {
+        "name": "pitchbook.com",
+        "document": "https://pitchbook.com/profiles/company/507457-00",
+        "date": "2026-08-25"
+       }
+      ],
+      "event_date": "2024-09-09",
+      "id": "9c0922a2-d83a-4821-88fb-e5b607c893c8"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "08266915-b1c1-57fa-a700-8b88eda676d8"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "211634f1-a4ff-46f8-a558-596235045d51",
+     "name": "BIOTECHNOLOGY",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "Eignasafn | Nýsköpunarsjóðurinn Kría",
+        "document": "https://www.nyskopun.is/en/eignasafn",
+        "date": "2023-11-09"
+       }
+      ],
+      "id": "2b610e53-8279-47a8-9523-5fb721853e97"
+     }
+    },
+    {
+     "id": "8ecf5e57-a149-438c-9eb4-089809bade56",
+     "name": "SOFTWARE_AND_SERVICES",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "arcanabio.com",
+        "document": "https://arcanabio.com/",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "48c59937-37a5-5464-8236-00fd976d7db4",
+      "original_label": "deeptech"
+     }
+    },
+    {
+     "id": "f37c835a-2bdc-4338-9d51-0b2ece520ffe",
+     "name": "MEDICAL_DEVICES",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "Eignasafn | Nýsköpunarsjóðurinn Kría",
+        "document": "https://www.nyskopun.is/en/eignasafn",
+        "date": "2023-11-09"
+       }
+      ],
+      "id": "4e53441a-f93c-4c40-ab8b-ceefeb3c9516"
+     }
+    }
+   ],
+   "HAS_HEADQUARTERS_IN": [
+    {
+     "id": "3e1f03a1-4fd7-46f0-af16-af5f54808c08",
+     "name": "Iceland",
+     "entity_type": "Country",
+     "properties": {
+      "sources": [
+       {
+        "name": "Eignasafn | Nýsköpunarsjóðurinn Kría",
+        "document": "https://www.nyskopun.is/en/eignasafn",
+        "date": "2023-11-09"
+       }
+      ],
+      "id": "e8bc64ae-56cd-427f-8f11-81a96912574e"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "INVESTED_IN": [
+    {
+     "id": "9959f461-f24f-45c1-b90c-f8bbec2fa53a",
+     "name": "BioInnovation Institute",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "businesswire.com",
+        "document": "https://businesswire.com/news/home/20240908214770/en",
+        "date": "2024-09-08",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "theaiinsider.tech",
+        "document": "https://theaiinsider.tech/?p=26839",
+        "date": "2024-09-10",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "a2902e07-5044-4469-8665-894c71711107"
+     }
+    },
+    {
+     "id": "f5c822ab-ad55-49f4-9266-6df2e38cccf7",
+     "name": "New Business Venture Fund",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "Eignasafn | Nýsköpunarsjóðurinn Kría",
+        "document": "https://www.nyskopun.is/en/eignasafn",
+        "date": "2023-11-09"
+       }
+      ],
+      "id": "f7013d22-37cc-4190-b180-57318aa4e53c"
+     }
+    }
+   ],
+   "FOUNDED": [
+    {
+     "id": "68efa8d6-2bb1-549e-a4a4-b95e00ab92c6",
+     "name": "Kristján Már Gunnarsson",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "thehub.io",
+        "document": "https://www.thehub.io/startups/arcana-bio",
+        "date": "2026-11-10",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "b2match.com",
+        "document": "https://www.b2match.com/e/global-innovation-summit-2026/participations/725847",
+        "date": "2026-11-10",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "30532890-dd56-54ad-9e8c-a3b9e45c24f2"
+     }
+    }
+   ],
+   "IS_CEO_OF": [
+    {
+     "id": "68efa8d6-2bb1-549e-a4a4-b95e00ab92c6",
+     "name": "Kristján Már Gunnarsson",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "arcanabio.com",
+        "document": "https://www.arcanabio.com/",
+        "date": "2026-11-10",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "estatistik.dk",
+        "document": "https://estatistik.dk/virksomhed/arcanabio-aps/44998173/roller",
+        "date": "2026-11-10",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "fff7a1f8-d091-5172-a051-777919e413d5",
+      "valid_since": "2024-08-04"
+     }
+    }
+   ],
+   "IS_CTO_OF": [
+    {
+     "id": "79c03dee-68b7-5268-a868-014d001cfa82",
+     "name": "Daniel Oskarsson",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "arcanabio.com",
+        "document": "https://www.arcanabio.com/",
+        "date": "2026-11-10",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "ac72551b-f11e-5376-ae12-9f0927aef14a"
+     }
+    }
+   ],
+   "WORKS_AT": [
+    {
+     "id": "193ac36f-b6ae-5fbd-a9e5-5f22913df775",
+     "name": "Magdalena Schimke",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Head of Innovation",
+      "sources": [
+       {
+        "name": "arcanabio.com",
+        "document": "https://www.arcanabio.com/",
+        "date": "2026-11-10",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "f86a5952-831e-52a2-bea9-00f05ccbef97"
+     }
+    },
+    {
+     "id": "79498211-237a-5bf2-83e2-8c2624cc03ff",
+     "name": "Kyle McCann",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Head of Product",
+      "sources": [
+       {
+        "name": "arcanabio.com",
+        "document": "https://www.arcanabio.com/",
+        "date": "2026-11-10",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "caa92779-b81d-56e7-8c93-513cba90b00b"
+     }
+    },
+    {
+     "id": "d7cfbb17-c863-5c8f-b6f0-7ef970c93f7e",
+     "name": "Karl Kristinsson",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Chief Medical Advisor",
+      "sources": [
+       {
+        "name": "arcanabio.com",
+        "document": "https://www.arcanabio.com/",
+        "date": "2026-11-10",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "dda225c6-3317-5472-a8d5-b95b9600cff7"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

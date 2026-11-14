@@ -1,0 +1,460 @@
+{
+ "id": "70e59d89-beeb-5fce-9055-583c0882349a",
+ "name": "Phanofi",
+ "entity_type": "Company",
+ "description": "Phanofi builds energy-efficient high-speed interconnect solutions to minimize the environmental impact of internet usage and ensure universal access.",
+ "properties": {
+  "name": {
+   "value": "Phanofi",
+   "sources": [
+    {
+     "name": "phanofi.com",
+     "document": "https://phanofi.com/",
+     "date": "2026-10-29",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "phanofi.com",
+     "document": "https://www.phanofi.com/contact",
+     "date": "2026-11-09",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "Phanofi Aps",
+   "sources": [
+    {
+     "name": "cordis.europa.eu",
+     "document": "https://cordis.europa.eu/search?q=%27Phanofi+Aps%27",
+     "date": "2026-10-29",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "cordis.europa.eu",
+     "document": "https://cordis.europa.eu/project/id/101214083",
+     "date": "2026-10-30",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "firmaapi.dk",
+     "document": "https://firmaapi.dk/virksomhed/43590324",
+     "date": "2026-11-09",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "aliases": {
+   "value": [
+    "Phanofi Photonics ApS"
+   ],
+   "sources": []
+  },
+  "website": {
+   "value": "phanofi.com",
+   "sources": [
+    {
+     "name": "phanofi.com",
+     "document": "https://phanofi.com/",
+     "date": "2026-10-29",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "dns.google",
+     "document": "https://dns.google/query?name=phanofi.com&type=A",
+     "date": "2026-10-29",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "phanofi.com",
+     "document": "https://www.phanofi.com/contact",
+     "date": "2026-11-09",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "bii.dk",
+     "document": "https://bii.dk/community/news/six-companies-receive-additional-funding-from-bii/",
+     "date": "2026-11-09",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "Phanofi builds energy-efficient high-speed interconnect solutions to minimize the environmental impact of internet usage and ensure universal access.",
+   "sources": [
+    {
+     "name": "phanofi.com",
+     "document": "https://phanofi.com/",
+     "date": "2026-11-03",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2022-10-18",
+   "sources": [
+    {
+     "name": "firmaapi.dk",
+     "document": "https://firmaapi.dk/virksomhed/43590324",
+     "date": "2026-11-09",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    },
+    {
+     "name": "danskcvrapi.dk",
+     "document": "https://danskcvrapi.dk/en/news/43590324-stiftelse-2022-10-18",
+     "date": "2026-11-09",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "Diplomvej 381, 2800, Kongens Lyngby, DK",
+   "sources": [
+    {
+     "name": "cordis.europa.eu",
+     "document": "https://cordis.europa.eu/project/id/101214083",
+     "date": "2026-10-30",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "phanofi.com",
+     "document": "https://phanofi.com/",
+     "date": "2026-11-03",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "firmaapi.dk",
+     "document": "https://firmaapi.dk/virksomhed/43590324",
+     "date": "2026-11-09",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    },
+    {
+     "name": "danskcvrapi.dk",
+     "document": "https://danskcvrapi.dk/en/news/43590324-stiftelse-2022-10-18",
+     "date": "2026-11-09",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "total_funding": {
+   "value": 4499999.0,
+   "sources": [
+    {
+     "name": "cordis.europa.eu",
+     "document": "https://cordis.europa.eu/project/id/101214083",
+     "date": "2026-10-30",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "bii.dk",
+     "document": "https://bii.dk/community/news/six-companies-receive-additional-funding-from-bii/",
+     "date": "2025-09-10",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "total_funding_units": {
+   "value": "EUR",
+   "sources": [
+    {
+     "name": "cordis.europa.eu",
+     "document": "https://cordis.europa.eu/project/id/101214083",
+     "date": "2026-10-30",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "bii.dk",
+     "document": "https://bii.dk/community/news/six-companies-receive-additional-funding-from-bii/",
+     "date": "2025-09-10",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "total_funding_excluding_debt": {
+   "value": 4499999.0,
+   "sources": [
+    {
+     "name": "cordis.europa.eu",
+     "document": "https://cordis.europa.eu/project/id/101214083",
+     "date": "2026-10-30",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "bii.dk",
+     "document": "https://bii.dk/community/news/six-companies-receive-additional-funding-from-bii/",
+     "date": "2025-09-10",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "02f42013-cd19-5b59-99c0-fffabfabd5f6",
+     "name": "Convertible Notes round",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "bii.dk",
+        "document": "https://bii.dk/community/news/six-companies-receive-additional-funding-from-bii/",
+        "date": "2025-09-10",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "4a10f504-5c6e-5fe3-aa26-f3b4f1777439"
+     }
+    },
+    {
+     "id": "03d82479-1e62-5b68-a2f9-0c692672e52a",
+     "name": "Grant",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "phanofi.com",
+        "document": "https://www.phanofi.com/funded-project/project",
+        "date": "2026-11-09",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "66b7a09c-7ed8-53cc-9d81-2c6e5b900d0b"
+     }
+    },
+    {
+     "id": "f2555ba7-eb19-57f5-adb6-0d6bfd01f8c4",
+     "name": "Grant",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "cordis.europa.eu",
+        "document": "https://cordis.europa.eu/project/id/101214083",
+        "date": "2026-10-30",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "383ce260-ba6b-55ac-90c0-a487d21c2a1b"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "0a34d92f-4f2f-5bb5-ad6e-2457fbb6cd65"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "e95ac8a0-1d70-4bc2-ba34-3b685f2103ac",
+     "name": "TELECOMMUNICATIONS",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/phanofi",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "455e5bec-5c71-52ee-8836-abe987c5dd8f",
+      "original_label": "comms"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "INVESTED_IN": [
+    {
+     "id": "9959f461-f24f-45c1-b90c-f8bbec2fa53a",
+     "name": "BioInnovation Institute",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "bii.dk",
+        "document": "https://bii.dk/community/news/six-companies-receive-additional-funding-from-bii/",
+        "date": "2025-09-10",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "33c63bf5-a1a8-4eea-b3d2-3628baa5410a"
+     }
+    }
+   ],
+   "FOUNDED": [
+    {
+     "id": "66bedd51-c8c2-531b-ad41-361ffb053356",
+     "name": "Hitesh Kumar Sahoo",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "dqc.dk",
+        "document": "https://dqc.dk/danish-quantum-community-welcomes-phanofi/",
+        "date": "2026-11-09",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "danskindustri.dk",
+        "document": "https://www.danskindustri.dk/brancher/di-digital/nyhedsarkiv/nyheder/2025/10/phanofi---ivarksatter/",
+        "date": "2026-11-09",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "189b9475-7d7e-5ea3-8a06-e9da51132d2d"
+     }
+    },
+    {
+     "id": "88ec1a23-46f8-5949-8782-24504973370e",
+     "name": "Dagmawi Alemayehu Bekele",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "dqc.dk",
+        "document": "https://dqc.dk/danish-quantum-community-welcomes-phanofi/",
+        "date": "2026-11-09",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "danskindustri.dk",
+        "document": "https://www.danskindustri.dk/brancher/di-digital/nyhedsarkiv/nyheder/2025/10/phanofi---ivarksatter/",
+        "date": "2026-11-09",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "4a58623b-206c-5ef3-8931-5381c4565ee4"
+     }
+    }
+   ],
+   "IS_CEO_OF": [
+    {
+     "id": "66bedd51-c8c2-531b-ad41-361ffb053356",
+     "name": "Hitesh Kumar Sahoo",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "dqc.dk",
+        "document": "https://dqc.dk/danish-quantum-community-welcomes-phanofi/",
+        "date": "2026-11-09",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "danskindustri.dk",
+        "document": "https://www.danskindustri.dk/brancher/di-digital/nyhedsarkiv/nyheder/2025/10/phanofi---ivarksatter/",
+        "date": "2026-11-09",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "4c90e89d-0256-5f35-a50d-5965c4b51764"
+     }
+    }
+   ],
+   "IS_CTO_OF": [
+    {
+     "id": "88ec1a23-46f8-5949-8782-24504973370e",
+     "name": "Dagmawi Alemayehu Bekele",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "dqc.dk",
+        "document": "https://dqc.dk/danish-quantum-community-welcomes-phanofi/",
+        "date": "2026-11-09",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "danskindustri.dk",
+        "document": "https://www.danskindustri.dk/brancher/di-digital/nyhedsarkiv/nyheder/2025/10/phanofi---ivarksatter/",
+        "date": "2026-11-09",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "3f92c6fa-ed6c-5981-9ecc-d7f66179a46d"
+     }
+    }
+   ],
+   "WORKS_AT": [
+    {
+     "id": "88ec1a23-46f8-5949-8782-24504973370e",
+     "name": "Dagmawi Alemayehu Bekele",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Director",
+      "sources": [
+       {
+        "name": "firmaapi.dk",
+        "document": "https://firmaapi.dk/virksomhed/43590324",
+        "date": "2026-11-09",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "d3b1f1f4-e92d-51d9-9eb3-141c57f07d66"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

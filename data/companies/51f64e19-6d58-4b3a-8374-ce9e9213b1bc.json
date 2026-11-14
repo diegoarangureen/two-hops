@@ -1,0 +1,1293 @@
+{
+ "id": "51f64e19-6d58-4b3a-8374-ce9e9213b1bc",
+ "name": "Katana MRP",
+ "entity_type": "Company",
+ "description": "Optimize operations with Katana, the cloud-based inventory management software designed for real-time production and material tracking. Try our free plan.",
+ "properties": {
+  "name": {
+   "value": "Katana MRP",
+   "sources": [
+    {
+     "name": "Portfolio",
+     "document": "https://community.fff.vc/investment-reports",
+     "date": "2022-02-13"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "Katana Technologies OÜ",
+   "sources": [
+    {
+     "name": "katanamrp.com",
+     "document": "https://katanamrp.com/",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "ariregister.rik.ee",
+     "document": "https://ariregister.rik.ee/est/company/14239650/Katana-Technologies-O%C3%9C",
+     "date": "2026-11-11",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "aliases": {
+   "value": [
+    "Katana MRP",
+    "Katana Cloud Inventory",
+    "Katana Technologies",
+    "Katana"
+   ],
+   "sources": []
+  },
+  "website": {
+   "value": "katanamrp.com",
+   "sources": [
+    {
+     "name": "Portfolio",
+     "document": "https://community.fff.vc/investment-reports",
+     "date": "2022-02-13"
+    },
+    {
+     "name": "katanamrp.com",
+     "document": "https://katanamrp.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "dns.google",
+     "document": "https://dns.google/query?name=katanamrp.com&type=A",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "Optimize operations with Katana, the cloud-based inventory management software designed for real-time production and material tracking. Try our free plan.",
+   "sources": [
+    {
+     "name": "katanamrp.com",
+     "document": "https://katanamrp.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2017-04-12",
+   "sources": [
+    {
+     "name": "ariregister.rik.ee",
+     "document": "https://ariregister.rik.ee/est/company/14239650/Katana-Technologies-O%C3%9C",
+     "date": "2026-11-11",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/katanamrp/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "Tallinn, Estonia",
+   "sources": [
+    {
+     "name": "katanamrp.com",
+     "document": "https://katanamrp.com/about-us/",
+     "date": "2026-11-11",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/katanamrp/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "katanamrp.com",
+     "document": "https://katanamrp.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "ariregister.rik.ee",
+     "document": "https://ariregister.rik.ee/est/company/14239650/Katana-Technologies-O%C3%9C",
+     "date": "2026-11-11",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/katanamrp/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "total_funding": {
+   "value": 60000000.0,
+   "sources": [
+    {
+     "name": "katanamrp.com",
+     "document": "https://katanamrp.com/newsroom/katana-series-b-extension/",
+     "date": "2025-10-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "total_funding_units": {
+   "value": "EUR",
+   "sources": [
+    {
+     "name": "katanamrp.com",
+     "document": "https://katanamrp.com/newsroom/katana-series-b-extension/",
+     "date": "2025-10-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "total_funding_excluding_debt": {
+   "value": 60000000.0,
+   "sources": [
+    {
+     "name": "katanamrp.com",
+     "document": "https://katanamrp.com/newsroom/katana-series-b-extension/",
+     "date": "2025-10-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "funding_stage": {
+   "value": "SERIES_B",
+   "sources": [
+    {
+     "name": "businesswire.com",
+     "document": "https://www.businesswire.com/news/home/20221012005045/en",
+     "date": "2022-10-12",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "northzone.com",
+     "document": "https://northzone.com/2022/10/13/the-key-to-manufacturing-our-investment-in-katana/",
+     "date": "2022-10-13",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "55019305-51c2-5fb1-9d8b-976a1308ca1c",
+     "name": "Grant",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "cordis.europa.eu",
+        "document": "https://cordis.europa.eu/project/id/855987",
+        "date": "2019-02-25",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "21f431b2-cd41-5ab4-b5d4-7dd46670ec4b"
+     }
+    },
+    {
+     "id": "688b8a1c-aa9b-5193-a6f7-9433b6d45bda",
+     "name": "Funding round",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "katanamrp.com",
+        "document": "https://katanamrp.com/about-us/",
+        "date": "2026-11-11",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "612442c1-f0a0-556a-806a-0d24f3190366"
+     }
+    },
+    {
+     "id": "774eb126-d80f-5f3f-897e-38ab419bed68",
+     "name": "Series A",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "techcrunch.com",
+        "document": "https://techcrunch.com/2021/02/22/katana/amp/",
+        "date": "2021-02-22",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2021/02/23/katana-series-a",
+        "date": "2021-02-23",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "35af87d3-bc35-5a79-82ed-22be6a8fbee7"
+     }
+    },
+    {
+     "id": "87268e5f-20ea-559b-ba41-5f222f94369b",
+     "name": "Series B",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "businesswire.com",
+        "document": "https://www.businesswire.com/news/home/20221012005045/en",
+        "date": "2022-10-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "northzone.com",
+        "document": "https://northzone.com/2022/10/13/the-key-to-manufacturing-our-investment-in-katana/",
+        "date": "2022-10-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "66e24a90-9fcf-59c2-a51e-caf25d05772c"
+     }
+    },
+    {
+     "id": "87cf0007-88a9-5878-8dcc-0e8c7d0470a8",
+     "name": "Series B",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "katanamrp.com",
+        "document": "https://katanamrp.com/newsroom/katana-series-b-extension/",
+        "date": "2025-10-02",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "estonia.ee",
+        "document": "https://estonia.ee/defence/news/estonia-born-katana-secures-strategic-investment-to-expand-its-erp-footprint-worldwide",
+        "date": "2025-10-07",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "512a4f9f-0292-5b52-8421-f9c55586b345"
+     }
+    },
+    {
+     "id": "8e1b6ca7-1fb9-5427-a10e-e571116fe0b4",
+     "name": "Pre-Seed",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2020/01/20/katana-seed-funding/",
+        "date": "2020-01-20",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "7f3ba51c-3579-53da-9b22-0b3ddcb833d8"
+     }
+    },
+    {
+     "id": "df4a11df-94b6-5c3c-b3b5-6e98c769976e",
+     "name": "Seed",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2020/01/20/katana-seed-funding/",
+        "date": "2020-01-20",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "e2c23369-aa2c-502d-b48b-685a454ddbdd"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_CORPORATE_EVENT": [
+    {
+     "id": "919a331d-6842-4f05-b136-f0beeca02f06",
+     "name": "FINANCING_RAISED_OR_FACILITY_ENTERED",
+     "entity_type": "PrivateCompanyFundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "Katana, an ERP for SMB manufacturers, raises $34M | TechCrunch",
+        "document": "https://techcrunch.com/2022/10/12/katana-an-erp-for-smb-manufacturers-raises-34m",
+        "date": "2022-10-12"
+       }
+      ],
+      "id": "6ba0ba3a-1565-41c8-bd64-466853d07723"
+     }
+    },
+    {
+     "id": "97c863f9-63d1-4c82-9946-5fef833e46d6",
+     "name": "FINANCING_RAISED_OR_FACILITY_ENTERED",
+     "entity_type": "PrivateCompanyFundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "Katana, an ERP for SMB manufacturers, raises $34M | TechCrunch",
+        "document": "https://techcrunch.com/2022/10/12/katana-an-erp-for-smb-manufacturers-raises-34m",
+        "date": "2022-10-12"
+       },
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/qad/__3axbET7vPltru9sJcHo9YvHMsMkdI8KT9yP5UZLRhJM",
+        "date": "2026-06-10"
+       }
+      ],
+      "event_date": "2022-10-12",
+      "id": "b5facc44-af03-42f1-84f9-e29875407c2a"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "f366644a-9b47-5371-a852-be8adfa91778"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "0f63c285-f941-493c-9f9a-95ddfdaf52ca",
+     "name": "RAW_MATERIALS",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/katanamrp/",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "866f1a3a-3aed-5b82-8be6-245d4fab8e96",
+      "original_label": "manufacturingMaterials"
+     }
+    },
+    {
+     "id": "8ecf5e57-a149-438c-9eb4-089809bade56",
+     "name": "SOFTWARE_AND_SERVICES",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "Portfolio",
+        "document": "https://community.fff.vc/investment-reports",
+        "date": "2022-02-13"
+       }
+      ],
+      "id": "85ffcded-be27-46ed-a588-a8272bd94ff0"
+     }
+    },
+    {
+     "id": "cffe9158-e2e5-4727-939a-a419eed30529",
+     "name": "MANUFACTURING_AUTOMOTIVE",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "Portfolio - Cogito Capital",
+        "document": "https://cogitocap.com/portfolio",
+        "date": "2025-05-22"
+       }
+      ],
+      "id": "4d7c670d-bbc9-4a68-8d78-8867a1e2e5a7"
+     }
+    }
+   ],
+   "HAS_HEADQUARTERS_IN": [
+    {
+     "id": "07056a52-5bc5-4e2a-a058-e001057cf6b7",
+     "name": "Estonia",
+     "entity_type": "Country",
+     "properties": {
+      "sources": [
+       {
+        "name": "Portfolio",
+        "document": "https://community.fff.vc/investment-reports",
+        "date": "2022-02-13"
+       }
+      ],
+      "id": "481c04ca-11c8-4658-8de6-086cac089f0d"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "INVESTED_IN": [
+    {
+     "id": "0817438a-9468-4495-a42f-0a0aa6efa7cd",
+     "name": "COGITO PARTNERS LIMITED",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "Portfolio - Cogito Capital",
+        "document": "https://cogitocap.com/portfolio",
+        "date": "2025-05-22"
+       }
+      ],
+      "id": "cfe00ccb-210e-4706-a422-0046f916da10"
+     }
+    },
+    {
+     "id": "10c75ca4-24d6-4a32-8f22-08d4b1dfffce",
+     "name": "Northzone",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "Portfolio - Northzone multi-stage venture capital fund",
+        "document": "https://northzone.com/portfolio",
+        "date": "2026-01-01"
+       },
+       {
+        "name": "businesswire.com",
+        "document": "https://www.businesswire.com/news/home/20221012005045/en",
+        "date": "2022-10-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "northzone.com",
+        "document": "https://northzone.com/2022/10/13/the-key-to-manufacturing-our-investment-in-katana/",
+        "date": "2022-10-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "f17c0730-2144-4f68-9d7b-bfcc7db2ce14"
+     }
+    },
+    {
+     "id": "12785c31-e80f-4b10-a503-60bd8f293ea4",
+     "name": "Fenton/Greer Family Trust",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "katanamrp.com",
+        "document": "https://katanamrp.com/newsroom/katana-series-b-extension/",
+        "date": "2025-10-02",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "estonia.ee",
+        "document": "https://estonia.ee/defence/news/estonia-born-katana-secures-strategic-investment-to-expand-its-erp-footprint-worldwide",
+        "date": "2025-10-07",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "e5c31cd6-494d-41ba-b334-527f07dfdc49"
+     }
+    },
+    {
+     "id": "2dcfcc6a-1142-4a01-a8dd-6ae8aa3aa9c9",
+     "name": "Cogito Capital Partners",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "katanamrp.com",
+        "document": "https://katanamrp.com/newsroom/katana-series-b-extension/",
+        "date": "2025-10-02",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "estonia.ee",
+        "document": "https://estonia.ee/defence/news/estonia-born-katana-secures-strategic-investment-to-expand-its-erp-footprint-worldwide",
+        "date": "2025-10-07",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "1320716e-c46d-4971-b18f-9b5d0eeb442b"
+     }
+    },
+    {
+     "id": "339d6cb4-3780-4271-af61-57911c22318c",
+     "name": "Sergei Anikin",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "techcrunch.com",
+        "document": "https://techcrunch.com/2021/02/22/katana/amp/",
+        "date": "2021-02-22",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2021/02/23/katana-series-a",
+        "date": "2021-02-23",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "f43c5111-e5c2-4d98-b0b2-6d2048b635e9"
+     }
+    },
+    {
+     "id": "46d49eac-8ba3-41e6-bb31-34f5e53c94d5",
+     "name": "FFF OÜ",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "Portfolio",
+        "document": "https://community.fff.vc/investment-reports",
+        "date": "2022-02-13"
+       }
+      ],
+      "id": "0acbd7ed-d9f8-4b47-a78f-efe00ae88502"
+     }
+    },
+    {
+     "id": "640cdfee-699a-4c9e-9199-20d863a64f78",
+     "name": "Lightrock",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "businesswire.com",
+        "document": "https://www.businesswire.com/news/home/20221012005045/en",
+        "date": "2022-10-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "northzone.com",
+        "document": "https://northzone.com/2022/10/13/the-key-to-manufacturing-our-investment-in-katana/",
+        "date": "2022-10-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "065d29cc-0e91-4143-a122-6880711d65cb"
+     }
+    },
+    {
+     "id": "706f00cd-8eca-430e-a07f-5e9ee2a3c44a",
+     "name": "42Cap",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2020/01/20/katana-seed-funding/",
+        "date": "2020-01-20",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "cdb99e97-c7d6-44d3-8e10-52061d1c48f3"
+     }
+    },
+    {
+     "id": "75724505-a976-45a7-bcaa-c8ccb65295ed",
+     "name": "Sten Tamkivi",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "techcrunch.com",
+        "document": "https://techcrunch.com/2021/02/22/katana/amp/",
+        "date": "2021-02-22",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2021/02/23/katana-series-a",
+        "date": "2021-02-23",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "037da219-2cb8-4dac-b60c-730c4671a8c8"
+     }
+    },
+    {
+     "id": "d4640009-5578-485e-9f77-3ab64881cddd",
+     "name": "ATOMICO (UK) LIMITED",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "techcrunch.com",
+        "document": "https://techcrunch.com/2021/02/22/katana/amp/",
+        "date": "2021-02-22",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2021/02/23/katana-series-a",
+        "date": "2021-02-23",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "ce183dcb-dad5-47b1-ba51-3d1fde013a3d"
+     }
+    },
+    {
+     "id": "e4ae4939-cc9a-543d-8a65-835e3b4bc2f6",
+     "name": "Kairi Pauskar",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "techcrunch.com",
+        "document": "https://techcrunch.com/2021/02/22/katana/amp/",
+        "date": "2021-02-22",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2021/02/23/katana-series-a",
+        "date": "2021-02-23",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "a69b3ca8-7ab8-4bf0-b4af-df08236b9ae9"
+     }
+    },
+    {
+     "id": "f1cc83af-b852-4f6c-99c6-cde23f37fcad",
+     "name": "Ott Kaukver",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "techcrunch.com",
+        "document": "https://techcrunch.com/2021/02/22/katana/amp/",
+        "date": "2021-02-22",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2021/02/23/katana-series-a",
+        "date": "2021-02-23",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "ea28c6bd-9ae2-4377-b071-fef2e55b6ebd"
+     }
+    }
+   ],
+   "FOUNDED": [
+    {
+     "id": "2ded0b5f-ebb4-4fc6-9467-d6ba867c3604",
+     "name": "Hannes Kert",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "katanamrp.com",
+        "document": "https://katanamrp.com/about-us",
+        "date": "2026-08-20"
+       },
+       {
+        "name": "et.wikipedia.org",
+        "document": "https://et.wikipedia.org/wiki/Katana_Technologies",
+        "date": "2026-08-20"
+       },
+       {
+        "name": "www.crunchbase.com",
+        "document": "https://www.crunchbase.com/organization/katana-mrp",
+        "date": "2026-08-20"
+       },
+       {
+        "name": "A Fika with Kristjan Vilosius, Co-founder and CEO of Katana - Northzone multi-stage venture capital fund",
+        "document": "https://northzone.com/insights/a-fika-with-kristjan-vilosius-co-founder-and-ceo-of-katana",
+        "date": "2024-04-17"
+       },
+       {
+        "name": "Estonian startup Katana makes manufacturers love software - Invest in Estonia",
+        "document": "https://investinestonia.com/estonian-startup-katana-makes-manufacturers-love-software",
+        "date": "2021-06-25"
+       },
+       {
+        "name": "Tallinn's B2B SaaS Startup Katana secures investment from Siena Secondary Fund II",
+        "document": "https://vestbee.com/insights/articles/katana-secures-funds",
+        "date": "2025-01-15"
+       }
+      ],
+      "id": "d09da74d-73b9-44a8-8ca6-1edd86c67650"
+     }
+    },
+    {
+     "id": "2ded0b5f-ebb4-4fc6-9467-d6ba867c3604",
+     "name": "Hannes Kert",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "katanamrp.com",
+        "document": "https://katanamrp.com/about-us/",
+        "date": "2026-11-11",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "techcrunch.com",
+        "document": "https://techcrunch.com/2021/02/22/katana/amp/",
+        "date": "2021-02-22",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "d3520bdb-0722-57b4-b4ad-a35375ed7f50"
+     }
+    },
+    {
+     "id": "4db6a099-65c7-477a-aef6-b3571018af83",
+     "name": "Priit Kaasik",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "katanamrp.com",
+        "document": "https://katanamrp.com/about-us",
+        "date": "2026-08-20"
+       },
+       {
+        "name": "et.wikipedia.org",
+        "document": "https://et.wikipedia.org/wiki/Katana_Technologies",
+        "date": "2026-08-20"
+       },
+       {
+        "name": "www.crunchbase.com",
+        "document": "https://www.crunchbase.com/organization/katana-mrp",
+        "date": "2026-08-20"
+       },
+       {
+        "name": "A Fika with Kristjan Vilosius, Co-founder and CEO of Katana - Northzone multi-stage venture capital fund",
+        "document": "https://northzone.com/insights/a-fika-with-kristjan-vilosius-co-founder-and-ceo-of-katana",
+        "date": "2024-04-17"
+       },
+       {
+        "name": "Katana: Funding, Team & Investors",
+        "document": "https://startupintros.com/orgs/katana",
+        "date": "2026-07-13"
+       },
+       {
+        "name": "This week marks seven years since the founding of Katana Cloud Inventory. It started with Priit Kaasik and me contemplating the idea, name, and logo in 2017 in Priit's apartment. In the picture, you… | Kristjan Vilosius | 11 comments",
+        "document": "https://www.linkedin.com/posts/kristjan-vilosius_this-week-marks-seven-years-since-the-founding-activity-7195682432958840832-m6HV",
+        "date": "2024-05-13"
+       }
+      ],
+      "id": "a600eb95-59cb-4ef9-a716-d8f8eb57916b"
+     }
+    },
+    {
+     "id": "4db6a099-65c7-477a-aef6-b3571018af83",
+     "name": "Priit Kaasik",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "katanamrp.com",
+        "document": "https://katanamrp.com/about-us/",
+        "date": "2026-11-11",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "techcrunch.com",
+        "document": "https://techcrunch.com/2021/02/22/katana/amp/",
+        "date": "2021-02-22",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "e3956a38-eae1-5f64-9cda-1075d3981084"
+     }
+    },
+    {
+     "id": "b86a9c7a-cd6b-47c8-a139-1750657bb91a",
+     "name": "Kristjan Vilosius",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "katanamrp.com",
+        "document": "https://katanamrp.com/about-us",
+        "date": "2026-08-20"
+       },
+       {
+        "name": "et.wikipedia.org",
+        "document": "https://et.wikipedia.org/wiki/Katana_Technologies",
+        "date": "2026-08-20"
+       },
+       {
+        "name": "www.crunchbase.com",
+        "document": "https://www.crunchbase.com/organization/katana-mrp",
+        "date": "2026-08-20"
+       },
+       {
+        "name": "A Fika with Kristjan Vilosius, Co-founder and CEO of Katana - Northzone multi-stage venture capital fund",
+        "document": "https://northzone.com/insights/a-fika-with-kristjan-vilosius-co-founder-and-ceo-of-katana",
+        "date": "2024-04-17"
+       },
+       {
+        "name": "Estonian startup Katana makes manufacturers love software - Invest in Estonia",
+        "document": "https://investinestonia.com/estonian-startup-katana-makes-manufacturers-love-software",
+        "date": "2021-06-25"
+       },
+       {
+        "name": "This week marks seven years since the founding of Katana Cloud Inventory. It started with Priit Kaasik and me contemplating the idea, name, and logo in 2017 in Priit's apartment. In the picture, you… | Kristjan Vilosius | 11 comments",
+        "document": "https://www.linkedin.com/posts/kristjan-vilosius_this-week-marks-seven-years-since-the-founding-activity-7195682432958840832-m6HV",
+        "date": "2024-05-13"
+       }
+      ],
+      "id": "b581c793-b224-447e-a5eb-8195e45ca0da"
+     }
+    },
+    {
+     "id": "b86a9c7a-cd6b-47c8-a139-1750657bb91a",
+     "name": "Kristjan Vilosius",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "katanamrp.com",
+        "document": "https://katanamrp.com/about-us/",
+        "date": "2026-11-11",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "northzone.com",
+        "document": "https://northzone.com/insights/a-fika-with-kristjan-vilosius-co-founder-and-ceo-of-katana",
+        "date": "2026-11-04",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "d841c9c0-0786-57e6-b765-a471fcd4e80f"
+     }
+    }
+   ],
+   "IS_CEO_OF": [
+    {
+     "id": "b86a9c7a-cd6b-47c8-a139-1750657bb91a",
+     "name": "Kristjan Vilosius",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "techcrunch.com",
+        "document": "https://techcrunch.com/2021/02/22/katana/amp/",
+        "date": "2021-02-22",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "northzone.com",
+        "document": "https://northzone.com/insights/a-fika-with-kristjan-vilosius-co-founder-and-ceo-of-katana",
+        "date": "2026-11-04",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       },
+       {
+        "name": "katanamrp.com",
+        "document": "https://katanamrp.com/about-us/",
+        "date": "2026-11-11",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "katanamrp.com",
+        "document": "https://katanamrp.com/blog/ben-hussey-co-ceo/",
+        "date": "2024-09-25",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "9230c3ed-be74-5b31-bde6-2be1c96eb115",
+      "valid_since": "2024-09-25"
+     }
+    },
+    {
+     "id": "d985711a-aeea-5100-b14a-756271e2164d",
+     "name": "Ben Hussey",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "katanamrp.com",
+        "document": "https://katanamrp.com/blog/ben-hussey-co-ceo/",
+        "date": "2024-09-25",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "katanamrp.com",
+        "document": "https://katanamrp.com/about-us/",
+        "date": "2026-11-11",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "df707395-9006-50a6-8cc5-ef7720bab77b",
+      "valid_since": "2024-09-25"
+     }
+    }
+   ],
+   "IS_CTO_OF": [
+    {
+     "id": "4db6a099-65c7-477a-aef6-b3571018af83",
+     "name": "Priit Kaasik",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "katanamrp.com",
+        "document": "https://katanamrp.com/about-us/",
+        "date": "2026-11-11",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "techcrunch.com",
+        "document": "https://techcrunch.com/2021/02/22/katana/amp/",
+        "date": "2021-02-22",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "2e459665-ef80-5bcd-8ac5-c2728e89bdf4"
+     }
+    }
+   ],
+   "IS_BOARD_MEMBER_OF": [
+    {
+     "id": "0f3559d4-8744-4b02-b2d7-babd6b77309a",
+     "name": "Michiel Kotting",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "ariregister.rik.ee",
+        "document": "https://ariregister.rik.ee/est/company/14239650/Katana-Technologies-O%C3%9C",
+        "date": "2026-11-11",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       },
+       {
+        "name": "northzone.com",
+        "document": "https://northzone.com/2022/10/13/the-key-to-manufacturing-our-investment-in-katana/",
+        "date": "2022-10-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "72ec43c0-6c85-5d78-8ad8-62794597c686",
+      "valid_since": "2022-09-01"
+     }
+    },
+    {
+     "id": "2ded0b5f-ebb4-4fc6-9467-d6ba867c3604",
+     "name": "Hannes Kert",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "ariregister.rik.ee",
+        "document": "https://ariregister.rik.ee/est/company/14239650/Katana-Technologies-O%C3%9C",
+        "date": "2026-11-11",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "8d4a7347-17eb-5462-944b-7b3fa4c7e64e",
+      "valid_since": "2017-04-12"
+     }
+    },
+    {
+     "id": "4db6a099-65c7-477a-aef6-b3571018af83",
+     "name": "Priit Kaasik",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "ariregister.rik.ee",
+        "document": "https://ariregister.rik.ee/est/company/14239650/Katana-Technologies-O%C3%9C",
+        "date": "2026-11-11",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "5743f9fa-7b68-5363-873a-f0c65d9b77ba",
+      "valid_since": "2026-07-02"
+     }
+    },
+    {
+     "id": "b86a9c7a-cd6b-47c8-a139-1750657bb91a",
+     "name": "Kristjan Vilosius",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "ariregister.rik.ee",
+        "document": "https://ariregister.rik.ee/est/company/14239650/Katana-Technologies-O%C3%9C",
+        "date": "2026-11-11",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "4b837352-047e-5fff-9731-ccf046a6aa18",
+      "valid_since": "2022-09-13"
+     }
+    },
+    {
+     "id": "f039e620-50b8-51e4-8338-cd79afe93dea",
+     "name": "Ben Blume",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "techcrunch.com",
+        "document": "https://techcrunch.com/2021/02/22/katana/amp/",
+        "date": "2021-02-22",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "ariregister.rik.ee",
+        "document": "https://ariregister.rik.ee/est/company/14239650/Katana-Technologies-O%C3%9C",
+        "date": "2026-11-11",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "b94e84ba-67f8-5337-90c4-ecfa6f7b5d62"
+     }
+    }
+   ],
+   "WORKS_AT": [
+    {
+     "id": "2ded0b5f-ebb4-4fc6-9467-d6ba867c3604",
+     "name": "Hannes Kert",
+     "entity_type": "Person",
+     "properties": {
+      "role": "CCO",
+      "sources": [
+       {
+        "name": "katanamrp.com",
+        "document": "https://katanamrp.com/about-us",
+        "date": "2026-08-20"
+       },
+       {
+        "name": "et.wikipedia.org",
+        "document": "https://et.wikipedia.org/wiki/Katana_Technologies",
+        "date": "2026-08-20"
+       },
+       {
+        "name": "www.crunchbase.com",
+        "document": "https://www.crunchbase.com/organization/katana-mrp",
+        "date": "2026-08-20"
+       },
+       {
+        "name": "A Fika with Kristjan Vilosius, Co-founder and CEO of Katana - Northzone multi-stage venture capital fund",
+        "document": "https://northzone.com/insights/a-fika-with-kristjan-vilosius-co-founder-and-ceo-of-katana",
+        "date": "2024-04-17"
+       },
+       {
+        "name": "Estonian startup Katana makes manufacturers love software - Invest in Estonia",
+        "document": "https://investinestonia.com/estonian-startup-katana-makes-manufacturers-love-software",
+        "date": "2021-06-25"
+       },
+       {
+        "name": "Tallinn's B2B SaaS Startup Katana secures investment from Siena Secondary Fund II",
+        "document": "https://vestbee.com/insights/articles/katana-secures-funds",
+        "date": "2025-01-15"
+       }
+      ],
+      "id": "702fc464-a73b-4e1d-a7fd-6f4664b5e910"
+     }
+    },
+    {
+     "id": "2ded0b5f-ebb4-4fc6-9467-d6ba867c3604",
+     "name": "Hannes Kert",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Chief Customer Officer",
+      "sources": [
+       {
+        "name": "katanamrp.com",
+        "document": "https://katanamrp.com/about-us/",
+        "date": "2026-11-11",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "techcrunch.com",
+        "document": "https://techcrunch.com/2021/02/22/katana/amp/",
+        "date": "2021-02-22",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "a61aa122-f98a-5366-b699-85723878f1b9"
+     }
+    },
+    {
+     "id": "4db6a099-65c7-477a-aef6-b3571018af83",
+     "name": "Priit Kaasik",
+     "entity_type": "Person",
+     "properties": {
+      "role": "CTO",
+      "sources": [
+       {
+        "name": "katanamrp.com",
+        "document": "https://katanamrp.com/about-us",
+        "date": "2026-08-20"
+       },
+       {
+        "name": "et.wikipedia.org",
+        "document": "https://et.wikipedia.org/wiki/Katana_Technologies",
+        "date": "2026-08-20"
+       },
+       {
+        "name": "www.crunchbase.com",
+        "document": "https://www.crunchbase.com/organization/katana-mrp",
+        "date": "2026-08-20"
+       },
+       {
+        "name": "A Fika with Kristjan Vilosius, Co-founder and CEO of Katana - Northzone multi-stage venture capital fund",
+        "document": "https://northzone.com/insights/a-fika-with-kristjan-vilosius-co-founder-and-ceo-of-katana",
+        "date": "2024-04-17"
+       },
+       {
+        "name": "Katana: Funding, Team & Investors",
+        "document": "https://startupintros.com/orgs/katana",
+        "date": "2026-07-13"
+       },
+       {
+        "name": "This week marks seven years since the founding of Katana Cloud Inventory. It started with Priit Kaasik and me contemplating the idea, name, and logo in 2017 in Priit's apartment. In the picture, you… | Kristjan Vilosius | 11 comments",
+        "document": "https://www.linkedin.com/posts/kristjan-vilosius_this-week-marks-seven-years-since-the-founding-activity-7195682432958840832-m6HV",
+        "date": "2024-05-13"
+       }
+      ],
+      "id": "4d1d12c9-0459-40dd-9f6f-2e3441fd0f96"
+     }
+    },
+    {
+     "id": "b86a9c7a-cd6b-47c8-a139-1750657bb91a",
+     "name": "Kristjan Vilosius",
+     "entity_type": "Person",
+     "properties": {
+      "role": "CEO",
+      "sources": [
+       {
+        "name": "katanamrp.com",
+        "document": "https://katanamrp.com/about-us",
+        "date": "2026-08-20"
+       },
+       {
+        "name": "et.wikipedia.org",
+        "document": "https://et.wikipedia.org/wiki/Katana_Technologies",
+        "date": "2026-08-20"
+       },
+       {
+        "name": "www.crunchbase.com",
+        "document": "https://www.crunchbase.com/organization/katana-mrp",
+        "date": "2026-08-20"
+       },
+       {
+        "name": "A Fika with Kristjan Vilosius, Co-founder and CEO of Katana - Northzone multi-stage venture capital fund",
+        "document": "https://northzone.com/insights/a-fika-with-kristjan-vilosius-co-founder-and-ceo-of-katana",
+        "date": "2024-04-17"
+       },
+       {
+        "name": "Estonian startup Katana makes manufacturers love software - Invest in Estonia",
+        "document": "https://investinestonia.com/estonian-startup-katana-makes-manufacturers-love-software",
+        "date": "2021-06-25"
+       },
+       {
+        "name": "This week marks seven years since the founding of Katana Cloud Inventory. It started with Priit Kaasik and me contemplating the idea, name, and logo in 2017 in Priit's apartment. In the picture, you… | Kristjan Vilosius | 11 comments",
+        "document": "https://www.linkedin.com/posts/kristjan-vilosius_this-week-marks-seven-years-since-the-founding-activity-7195682432958840832-m6HV",
+        "date": "2024-05-13"
+       }
+      ],
+      "id": "bd528d7b-355c-471f-a426-3b5ce261b2ec"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

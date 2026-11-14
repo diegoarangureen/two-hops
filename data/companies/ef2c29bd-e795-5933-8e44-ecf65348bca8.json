@@ -1,0 +1,383 @@
+{
+ "id": "ef2c29bd-e795-5933-8e44-ecf65348bca8",
+ "name": "DREV",
+ "entity_type": "Company",
+ "description": "Discover DREV, the leader in advanced manufacturing solutions for cleaner, safer, and more profitable facilities. Our innovative technologies capture, recycle, and repurpose microparticle waste, tr...",
+ "properties": {
+  "name": {
+   "value": "DREV",
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2025/11/as-europe-ramps-up-gigafactory-compliance-drev-raises-e2-8-million-to-help-capture-and-reuse-critical-metals-from-black-dust/",
+     "date": "2025-11-01",
+     "date_precision": "month",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "DREV AB",
+   "sources": [
+    {
+     "name": "drev.tech",
+     "document": "https://www.drev.tech/",
+     "date": "2026-11-09",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "funnelfeedr.com",
+     "document": "https://funnelfeedr.com/en/company/se/drev-ab-5594252420",
+     "date": "2026-11-09",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "website": {
+   "value": "drev.tech",
+   "sources": [
+    {
+     "name": "drev.tech",
+     "document": "https://drev.tech/",
+     "date": "2026-10-29",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "dns.google",
+     "document": "https://dns.google/query?name=drev.tech&type=A",
+     "date": "2026-10-29",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "Discover DREV, the leader in advanced manufacturing solutions for cleaner, safer, and more profitable facilities. Our innovative technologies capture, recycle, and repurpose microparticle waste, tr...",
+   "sources": [
+    {
+     "name": "drev.tech",
+     "document": "https://www.drev.tech/",
+     "date": "2026-11-09",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2023-01-01",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/drev",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "Mediavägen 4H, 438 91 Landvetter (Gothenburg), Sweden",
+   "sources": [
+    {
+     "name": "drev.tech",
+     "document": "https://www.drev.tech/",
+     "date": "2026-11-09",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "drev.tech",
+     "document": "https://www.drev.tech/",
+     "date": "2026-11-06",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "total_funding": {
+   "value": 2800000.0,
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2025/11/as-europe-ramps-up-gigafactory-compliance-drev-raises-e2-8-million-to-help-capture-and-reuse-critical-metals-from-black-dust/",
+     "date": "2025-11-01",
+     "date_precision": "month",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "total_funding_units": {
+   "value": "EUR",
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2025/11/as-europe-ramps-up-gigafactory-compliance-drev-raises-e2-8-million-to-help-capture-and-reuse-critical-metals-from-black-dust/",
+     "date": "2025-11-01",
+     "date_precision": "month",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "total_funding_excluding_debt": {
+   "value": 2800000.0,
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2025/11/as-europe-ramps-up-gigafactory-compliance-drev-raises-e2-8-million-to-help-capture-and-reuse-critical-metals-from-black-dust/",
+     "date": "2025-11-01",
+     "date_precision": "month",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "funding_stage": {
+   "value": "SEED",
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2025/11/as-europe-ramps-up-gigafactory-compliance-drev-raises-e2-8-million-to-help-capture-and-reuse-critical-metals-from-black-dust/",
+     "date": "2025-11-05",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "cbe65138-4168-5870-9a47-0aa7332383c7",
+     "name": "Seed",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "eu-startups.com",
+        "document": "https://www.eu-startups.com/2025/11/as-europe-ramps-up-gigafactory-compliance-drev-raises-e2-8-million-to-help-capture-and-reuse-critical-metals-from-black-dust/",
+        "date": "2025-11-05",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "152efb51-5c4c-55c7-afcc-3bf4e72084f3"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "c65e88f5-ca7d-5015-bb95-b548162596c0"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "0f63c285-f941-493c-9f9a-95ddfdaf52ca",
+     "name": "RAW_MATERIALS",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/drev",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "0eb9423a-ccdc-5556-a8ba-12c729339fe6",
+      "original_label": "manufacturingMaterials"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "INVESTED_IN": [
+    {
+     "id": "24c7dfe6-4186-4429-a0a6-efb8ccf42976",
+     "name": "Almi Invest GreenTech AB",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "eu-startups.com",
+        "document": "https://www.eu-startups.com/2025/11/as-europe-ramps-up-gigafactory-compliance-drev-raises-e2-8-million-to-help-capture-and-reuse-critical-metals-from-black-dust/",
+        "date": "2025-11-05",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "2dcf78ed-7da3-44e3-9b9d-1e3f75b10d90"
+     }
+    },
+    {
+     "id": "5076aa05-f736-445f-bcf6-3f9b64819805",
+     "name": "S-E-Bankens Utvecklingsstiftelse",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "bebeez.eu",
+        "document": "https://bebeez.eu/2025/11/06/nordic-cleantech-drev-raises-e2-8-million-to-strengthen-circular-battery-manufacturing/",
+        "date": "2025-11-06",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "78aedeab-dd18-4936-a80c-912b92fc7011"
+     }
+    },
+    {
+     "id": "a07abca3-fdb9-4ca6-ad7e-5911717ee2da",
+     "name": "Butterfly Ventures LLC",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "eu-startups.com",
+        "document": "https://www.eu-startups.com/2025/11/as-europe-ramps-up-gigafactory-compliance-drev-raises-e2-8-million-to-help-capture-and-reuse-critical-metals-from-black-dust/",
+        "date": "2025-11-05",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "6de85ca9-2ac5-4045-a962-a8b4a8bebf89"
+     }
+    },
+    {
+     "id": "f8d1329e-de65-47b4-a460-b2ba1f1cfd56",
+     "name": "Battle Born LLC",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "bebeez.eu",
+        "document": "https://bebeez.eu/2025/11/06/nordic-cleantech-drev-raises-e2-8-million-to-strengthen-circular-battery-manufacturing/",
+        "date": "2025-11-06",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "6414459e-2872-4af8-bfb3-b88269c709c4"
+     }
+    }
+   ],
+   "FOUNDED": [
+    {
+     "id": "8caeba72-ecbe-5086-9b28-6ee6899b3c3e",
+     "name": "Thomas Tingelöf",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "drev.tech",
+        "document": "https://www.drev.tech/about",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "b1ee3a77-dc53-52c5-9a74-f60e53402ae7"
+     }
+    },
+    {
+     "id": "b45b72cb-3c92-5f5c-b3ac-ae78d0d0b773",
+     "name": "Arelys Sosa",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "drev.tech",
+        "document": "https://www.drev.tech/about",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "d411ebe3-f8cb-5cc2-b4c6-3f5a6f6dac5f"
+     }
+    }
+   ],
+   "IS_CEO_OF": [
+    {
+     "id": "b45b72cb-3c92-5f5c-b3ac-ae78d0d0b773",
+     "name": "Arelys Sosa",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "drev.tech",
+        "document": "https://www.drev.tech/about",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "cee74237-4dc3-586c-b132-42e8b602d414"
+     }
+    }
+   ],
+   "IS_CTO_OF": [
+    {
+     "id": "8caeba72-ecbe-5086-9b28-6ee6899b3c3e",
+     "name": "Thomas Tingelöf",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "drev.tech",
+        "document": "https://www.drev.tech/about",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "9b271b97-9491-5740-a532-ea20b75c7301"
+     }
+    }
+   ],
+   "WORKS_AT": [
+    {
+     "id": "ce2c8e49-8b59-5af2-99d2-0bdf6bd49577",
+     "name": "Kent Moore",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Chief Commercial Officer",
+      "sources": [
+       {
+        "name": "drev.tech",
+        "document": "https://www.drev.tech/about",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "9e5f8cf7-3bb7-53d3-af7d-cfb32fb418b2"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

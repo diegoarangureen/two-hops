@@ -1,0 +1,272 @@
+{
+ "id": "0157670d-5607-542a-8504-914f43a771ff",
+ "name": "polySCOUT",
+ "entity_type": "Company",
+ "description": "Accelerating the material transition. We combine physics-informed AI with rapid physical validation to design high-performance, sustainable polymers.",
+ "properties": {
+  "name": {
+   "value": "polySCOUT",
+   "sources": [
+    {
+     "name": "polyscout.ai",
+     "document": "https://polyscout.ai/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/polyscout-ai/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "polySCOUT BV",
+   "sources": [
+    {
+     "name": "polyscout.ai",
+     "document": "https://www.polyscout.ai/about",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "liza.nl",
+     "document": "https://www.liza.nl/en/42150167",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "website": {
+   "value": "polyscout.ai",
+   "sources": [
+    {
+     "name": "polyscout.ai",
+     "document": "https://polyscout.ai/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "dns.google",
+     "document": "https://dns.google/query?name=polyscout.ai&type=A",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "Accelerating the material transition. We combine physics-informed AI with rapid physical validation to design high-performance, sustainable polymers.",
+   "sources": [
+    {
+     "name": "polyscout.ai",
+     "document": "https://polyscout.ai/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2026-08-27",
+   "sources": [
+    {
+     "name": "liza.nl",
+     "document": "https://www.liza.nl/en/42150167",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "polyscout.ai",
+     "document": "https://www.polyscout.ai/about",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "Utrecht, Netherlands",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/polyscout-ai/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "polyscout.ai",
+     "document": "https://polyscout.ai/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "liza.nl",
+     "document": "https://www.liza.nl/en/42150167",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "polyscout.ai",
+     "document": "https://www.polyscout.ai/about",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "06f1431a-96af-539c-855c-7b86e4b8175c"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "8ecf5e57-a149-438c-9eb4-089809bade56",
+     "name": "SOFTWARE_AND_SERVICES",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/polyscout-ai/",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "58d1406d-5c74-59e3-8465-9b1b912f847a",
+      "original_label": "deeptech"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "FOUNDED": [
+    {
+     "id": "4029a0f3-31cf-5f44-a7e0-3e03ecae9830",
+     "name": "Ellen de Ruiter",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "polyscout.ai",
+        "document": "https://www.polyscout.ai/about",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "2e609612-e076-52be-8fa1-175f752e1d74"
+     }
+    },
+    {
+     "id": "414d7a79-9707-5bae-a3c2-e85c55b744db",
+     "name": "Michaël van der Jagt",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "polyscout.ai",
+        "document": "https://www.polyscout.ai/about",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "polyscout.ai",
+        "document": "https://www.polyscout.ai/news/dutch-ai-company-designs-new-polymers-to-specification-in-weeks-instead-of-years",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "93853e24-8e26-5c2b-aa2c-4e3952e3c60d"
+     }
+    },
+    {
+     "id": "b6983f09-b769-5959-9111-3c408b62f475",
+     "name": "Milad Golkaram",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "polyscout.ai",
+        "document": "https://www.polyscout.ai/about",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "baab2e21-ab52-50b2-ae11-9d4409d07eea"
+     }
+    }
+   ],
+   "IS_CEO_OF": [
+    {
+     "id": "414d7a79-9707-5bae-a3c2-e85c55b744db",
+     "name": "Michaël van der Jagt",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "polyscout.ai",
+        "document": "https://www.polyscout.ai/about",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "polyscout.ai",
+        "document": "https://www.polyscout.ai/news/dutch-ai-company-designs-new-polymers-to-specification-in-weeks-instead-of-years",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "ioplus.nl",
+        "document": "https://ioplus.nl/en/posts/tno-spinout-polyscout-accelerates-polymer-development-with-ai",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "b26a3b51-14c5-5f22-9486-e8d3418d43fa"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

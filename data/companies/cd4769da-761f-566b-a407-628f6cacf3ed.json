@@ -1,0 +1,321 @@
+{
+ "id": "cd4769da-761f-566b-a407-628f6cacf3ed",
+ "name": "atmo",
+ "entity_type": "Company",
+ "description": "atmo helps farmers assess robotics investments - payback, grants, financing capacity and a bank-ready report. A digital advisor for farm investment decisions.",
+ "properties": {
+  "name": {
+   "value": "atmo",
+   "sources": [
+    {
+     "name": "atmo.earth",
+     "document": "https://atmo.earth/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/atmoearth",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "ATMO Technologies GmbH",
+   "sources": [
+    {
+     "name": "atmo.earth",
+     "document": "https://www.atmo.earth/imprint",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "northdata.de",
+     "document": "https://www.northdata.de/ATMO+Technologies+GmbH",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "website": {
+   "value": "atmo.earth",
+   "sources": [
+    {
+     "name": "atmo.earth",
+     "document": "https://atmo.earth/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "dns.google",
+     "document": "https://dns.google/query?name=atmo.earth&type=A",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "atmo helps farmers assess robotics investments - payback, grants, financing capacity and a bank-ready report. A digital advisor for farm investment decisions.",
+   "sources": [
+    {
+     "name": "atmo.earth",
+     "document": "https://atmo.earth/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2023-01-01",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/atmoearth",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "Berlin, Germany",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/atmoearth",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "atmo.earth",
+     "document": "https://atmo.earth/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "employee_count_range": {
+   "value": [
+    1,
+    10
+   ],
+   "sources": [
+    {
+     "name": "jobs.techstars.com",
+     "document": "https://jobs.techstars.com/companies/atmo-2-0a6a0d45-16eb-4b40-b48a-0aef33694427",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "total_funding": {
+   "value": 296843.12,
+   "sources": [
+    {
+     "name": "atmo.earth",
+     "document": "https://www.atmo.earth/press/step-foerderung",
+     "date": "2026-05-01",
+     "date_precision": "month",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "total_funding_units": {
+   "value": "EUR",
+   "sources": [
+    {
+     "name": "atmo.earth",
+     "document": "https://www.atmo.earth/press/step-foerderung",
+     "date": "2026-05-01",
+     "date_precision": "month",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "total_funding_excluding_debt": {
+   "value": 296843.12,
+   "sources": [
+    {
+     "name": "atmo.earth",
+     "document": "https://www.atmo.earth/press/step-foerderung",
+     "date": "2026-05-01",
+     "date_precision": "month",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "7f30c9ff-ddae-56f2-bf5d-e129d24c77d7",
+     "name": "Grant",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "atmo.earth",
+        "document": "https://www.atmo.earth/press/step-foerderung",
+        "date": "2026-05-01",
+        "date_precision": "month",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "6058e784-42d8-552d-b090-0db63ea8c04d"
+     }
+    },
+    {
+     "id": "de496aa3-1d71-583e-a11a-2f86e9822fca",
+     "name": "Pre-Seed",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "atmo.earth",
+        "document": "https://www.atmo.earth/",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "cfbd2ca2-418a-5b3d-b4ef-aef9c18abcd6"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "280280d2-6cdc-5724-945c-aabfcb8301a1"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "8ecf5e57-a149-438c-9eb4-089809bade56",
+     "name": "SOFTWARE_AND_SERVICES",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/atmoearth",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "8c1c879c-baf0-51c2-8b3c-c2c61b926cb0",
+      "original_label": "agriTech"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "INVESTED_IN": [
+    {
+     "id": "ae7530e4-556e-4547-ba15-88a12fbcdcb1",
+     "name": "Techstars",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "atmo.earth",
+        "document": "https://www.atmo.earth/",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "4919d68a-f1d4-4519-8a65-6be1f5384c43"
+     }
+    }
+   ],
+   "FOUNDED": [
+    {
+     "id": "0ccf9c09-784f-54a6-a01f-558f8a99d4eb",
+     "name": "Jennifer Godderidge",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "atmo.earth",
+        "document": "https://www.atmo.earth/about",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "587ff2fb-4d8c-5c9b-822c-85b87ed69aed"
+     }
+    },
+    {
+     "id": "c63dd5f9-584a-5a4e-894c-b6c32c279a62",
+     "name": "Dennis Melzer",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "atmo.earth",
+        "document": "https://www.atmo.earth/about",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "3983dd73-0ee0-5f41-a35c-5c0f016973ca"
+     }
+    }
+   ],
+   "IS_CEO_OF": [
+    {
+     "id": "0ccf9c09-784f-54a6-a01f-558f8a99d4eb",
+     "name": "Jennifer Godderidge",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "atmo.earth",
+        "document": "https://www.atmo.earth/about",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "47068980-d088-5f60-8576-6c71e78eb274"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

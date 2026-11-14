@@ -1,0 +1,295 @@
+{
+ "id": "0220cf38-d013-5600-9616-31da01caa416",
+ "name": "Trust Exchange",
+ "entity_type": "Company",
+ "description": "Trust Exchange builds a European standard for \"backability\": it assesses early-stage ventures on evidence with its published VALUATE methodology and shows founders, investors and boards where a ven...",
+ "properties": {
+  "name": {
+   "value": "Trust Exchange",
+   "sources": [
+    {
+     "name": "trustexchange.world",
+     "document": "https://trustexchange.world/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/trust-exchange-world/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "Trust Exchange AG",
+   "sources": [
+    {
+     "name": "shab.ch",
+     "document": "https://www.shab.ch/#!/search/publications/detail/1006789794",
+     "date": "2026-10-22",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "zefix.admin.ch",
+     "document": "https://www.zefix.admin.ch/ZefixREST/api/v1/firm/1773204.json",
+     "date": "2026-10-22",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "trustexchange.world",
+     "document": "https://www.trustexchange.world/legal-notice/",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "website": {
+   "value": "trustexchange.world",
+   "sources": [
+    {
+     "name": "trustexchange.world",
+     "document": "https://trustexchange.world/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "dns.google",
+     "document": "https://dns.google/query?name=trustexchange.world&type=A",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "trustexchange.world",
+     "document": "https://www.trustexchange.world/our-updates/",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "Trust Exchange builds a European standard for \"backability\": it assesses early-stage ventures on evidence with its published VALUATE methodology and shows founders, investors and boards where a ven...",
+   "sources": [
+    {
+     "name": "trustexchange.world",
+     "document": "https://www.trustexchange.world/about/",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "trustexchange.world",
+     "document": "https://www.trustexchange.world/",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2026-10-12",
+   "sources": [
+    {
+     "name": "shab.ch",
+     "document": "https://www.shab.ch/#!/search/publications/detail/1006789794",
+     "date": "2026-10-22",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "zefix.admin.ch",
+     "document": "https://www.zefix.admin.ch/ZefixREST/api/v1/firm/1773204.json",
+     "date": "2026-10-22",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "Talweid 10, 8852 Altendorf, Switzerland",
+   "sources": [
+    {
+     "name": "trustexchange.world",
+     "document": "https://www.trustexchange.world/legal-notice/",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "zefix.admin.ch",
+     "document": "https://www.zefix.admin.ch/ZefixREST/api/v1/firm/1773204.json",
+     "date": "2026-10-22",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "trustexchange.world",
+     "document": "https://trustexchange.world/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "shab.ch",
+     "document": "https://www.shab.ch/#!/search/publications/detail/1006789794",
+     "date": "2026-10-22",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "zefix.admin.ch",
+     "document": "https://www.zefix.admin.ch/ZefixREST/api/v1/firm/1773204.json",
+     "date": "2026-10-22",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "223d05f1-5afc-5598-8052-1e6f55ebb8e1"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "8190c30d-2703-40ab-94d0-6c193cb53908",
+     "name": "FINTECH",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/trust-exchange-world/",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "ad5730c3-49fe-5ba5-8eef-ea594934bf46",
+      "original_label": "fintech"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "FOUNDED": [
+    {
+     "id": "b203b964-3cea-5444-809f-aeb5ddc99620",
+     "name": "Martin Studer",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "trustexchange.world",
+        "document": "https://trustexchange.world/about/",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "c9c941a5-8faf-5520-b07c-870a3cff3cbb"
+     }
+    },
+    {
+     "id": "f2539cca-dfe2-524c-bd78-7780a2d75505",
+     "name": "Camille Accolas",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "trustexchange.world",
+        "document": "https://trustexchange.world/about/",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "e34223e4-44fe-5927-ac1c-8f93b44c2d50"
+     }
+    }
+   ],
+   "IS_BOARD_MEMBER_OF": [
+    {
+     "id": "b203b964-3cea-5444-809f-aeb5ddc99620",
+     "name": "Martin Studer",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "shab.ch",
+        "document": "https://www.shab.ch/#!/search/publications/detail/1006789794",
+        "date": "2026-10-22",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       },
+       {
+        "name": "zefix.admin.ch",
+        "document": "https://www.zefix.admin.ch/ZefixREST/api/v1/firm/1773204.json",
+        "date": "2026-10-22",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "332dc5eb-ec6c-5c70-b26f-6b85e1e9e0e5",
+      "valid_since": "2026-10-22"
+     }
+    },
+    {
+     "id": "f2539cca-dfe2-524c-bd78-7780a2d75505",
+     "name": "Camille Accolas",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "shab.ch",
+        "document": "https://www.shab.ch/#!/search/publications/detail/1006789794",
+        "date": "2026-10-22",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       },
+       {
+        "name": "zefix.admin.ch",
+        "document": "https://www.zefix.admin.ch/ZefixREST/api/v1/firm/1773204.json",
+        "date": "2026-10-22",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "be5a2fb1-7d1b-55e5-828c-462cb7f57ce1",
+      "valid_since": "2026-10-22"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

@@ -1,0 +1,391 @@
+{
+ "id": "21572190-7235-5153-b13c-a1358c78f9b1",
+ "name": "yasp",
+ "entity_type": "Company",
+ "description": "Agentic optimized GPU code and full-model compilation for NVIDIA, AMD, and edge silicon. You choose the hardware, yasp handles the rest.",
+ "properties": {
+  "name": {
+   "value": "yasp",
+   "sources": [
+    {
+     "name": "yasp.ai",
+     "document": "https://yasp.ai/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/107706940/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "yasp.ai GmbH",
+   "sources": [
+    {
+     "name": "yasp.ai",
+     "document": "https://yasp.ai/imprint",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "yasp.ai",
+     "document": "https://yasp.ai/data-privacy",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "northdata.de",
+     "document": "https://www.northdata.de/yasp.ai+GmbH,+Freiburg",
+     "date": "2025-11-20",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "aliases": {
+   "value": [
+    "naio.ai GmbH"
+   ],
+   "sources": []
+  },
+  "website": {
+   "value": "yasp.ai",
+   "sources": [
+    {
+     "name": "yasp.ai",
+     "document": "https://yasp.ai/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "dns.google",
+     "document": "https://dns.google/query?name=yasp.ai&type=A",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "Agentic optimized GPU code and full-model compilation for NVIDIA, AMD, and edge silicon. You choose the hardware, yasp handles the rest.",
+   "sources": [
+    {
+     "name": "yasp.ai",
+     "document": "https://yasp.ai/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2023-01-01",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/107706940/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "Freiburg, Germany",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/107706940/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "yasp.ai",
+     "document": "https://yasp.ai/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "total_funding": {
+   "value": 5000000.0,
+   "sources": [
+    {
+     "name": "yasp.ai",
+     "document": "https://yasp.ai/blog/yasp-secures-5-million-in-seed-funding",
+     "date": "2025-09-25",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "starting-up.de",
+     "document": "https://www.starting-up.de/news/news-investments/deeptech-start-up-yasp-sichert-sich-5-mio-us-dollar-seed-finanzierung.html",
+     "date": "2025-09-25",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "total_funding_units": {
+   "value": "USD",
+   "sources": [
+    {
+     "name": "yasp.ai",
+     "document": "https://yasp.ai/blog/yasp-secures-5-million-in-seed-funding",
+     "date": "2025-09-25",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "starting-up.de",
+     "document": "https://www.starting-up.de/news/news-investments/deeptech-start-up-yasp-sichert-sich-5-mio-us-dollar-seed-finanzierung.html",
+     "date": "2025-09-25",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "total_funding_excluding_debt": {
+   "value": 5000000.0,
+   "sources": [
+    {
+     "name": "yasp.ai",
+     "document": "https://yasp.ai/blog/yasp-secures-5-million-in-seed-funding",
+     "date": "2025-09-25",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "starting-up.de",
+     "document": "https://www.starting-up.de/news/news-investments/deeptech-start-up-yasp-sichert-sich-5-mio-us-dollar-seed-finanzierung.html",
+     "date": "2025-09-25",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "funding_stage": {
+   "value": "SEED",
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2025/09/german-deeptech-startup-yasp-raises-e4-2-million-to-accelerate-ai-model-optimisation/",
+     "date": "2025-09-25",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "8b5d814c-6ee9-5279-ae4c-c9c84635a707",
+     "name": "Seed",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "eu-startups.com",
+        "document": "https://www.eu-startups.com/2025/09/german-deeptech-startup-yasp-raises-e4-2-million-to-accelerate-ai-model-optimisation/",
+        "date": "2025-09-25",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "yasp.ai",
+        "document": "https://yasp.ai/blog/yasp-secures-5-million-in-seed-funding",
+        "date": "2025-09-25",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "49c8320d-d041-5361-b03d-1c55e74717e2"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "c7d7b8a9-bea3-5639-bdbf-75c0b79354a2"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "8ecf5e57-a149-438c-9eb4-089809bade56",
+     "name": "SOFTWARE_AND_SERVICES",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/107706940/",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "451fc1b7-3982-5494-a3f5-a290e20a04f9",
+      "original_label": "ai"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "INVESTED_IN": [
+    {
+     "id": "907dacb4-e59b-4d6c-8bf1-89a53208bb25",
+     "name": "Start-up BW Innovation Fonds",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "yasp.ai",
+        "document": "https://yasp.ai/blog/yasp-secures-5-million-in-seed-funding",
+        "date": "2025-09-25",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "eu-startups.com",
+        "document": "https://www.eu-startups.com/2025/09/german-deeptech-startup-yasp-raises-e4-2-million-to-accelerate-ai-model-optimisation/",
+        "date": "2025-09-25",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "a3d08937-3552-4cc1-a22d-7c4d7ed88aaf"
+     }
+    },
+    {
+     "id": "b6c49b77-7291-4713-8278-71256890e857",
+     "name": "Capnamic Ventures Management GmbH",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "yasp.ai",
+        "document": "https://yasp.ai/blog/yasp-secures-5-million-in-seed-funding",
+        "date": "2025-09-25",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "eu-startups.com",
+        "document": "https://www.eu-startups.com/2025/09/german-deeptech-startup-yasp-raises-e4-2-million-to-accelerate-ai-model-optimisation/",
+        "date": "2025-09-25",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "d7326c97-825c-4c1c-9133-592fd93c055e"
+     }
+    }
+   ],
+   "FOUNDED": [
+    {
+     "id": "0c09c86d-7648-54b9-b5f8-6d2a485e3e53",
+     "name": "Stefan Krassin",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "yasp.ai",
+        "document": "https://yasp.ai/company/about",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "ac6bd9db-b75e-5716-80c0-bdc3356eff5a"
+     }
+    },
+    {
+     "id": "2423ccad-9001-599f-8edf-a2620bf16e6a",
+     "name": "Reza Rahimi",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "yasp.ai",
+        "document": "https://yasp.ai/company/about",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "a1c3395c-ce0e-53bc-9f1c-b2bb8345f1b9"
+     }
+    }
+   ],
+   "IS_CEO_OF": [
+    {
+     "id": "0c09c86d-7648-54b9-b5f8-6d2a485e3e53",
+     "name": "Stefan Krassin",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "yasp.ai",
+        "document": "https://yasp.ai/company/about",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "4acb28c7-0a79-5c93-97b9-ef4bee4adbf3"
+     }
+    }
+   ],
+   "IS_CTO_OF": [
+    {
+     "id": "2423ccad-9001-599f-8edf-a2620bf16e6a",
+     "name": "Reza Rahimi",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "yasp.ai",
+        "document": "https://yasp.ai/company/about",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "52d24b43-678d-51c0-9902-b07d827a68d7"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

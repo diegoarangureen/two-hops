@@ -1,8 +1,9 @@
-// How investors are ordered. Shared by server and client so the order can be recomputed in the browser
-// when the "official records and first-party sources only" switch changes. No Node APIs here.
+// How investors are ordered. The arithmetic runs on the server over every path of every investor, once for
+// all paths and once for the paths that rest on filings and first-party sources only; the browser just picks
+// which of the two orders to show. No Node APIs here: the weights are imported by the client to explain a score.
 
 import { isStrict, RANK_VALUE, type Rank } from "./rank";
-import type { InvestorView, PathView, PeerView } from "./types";
+import type { InvestorView, PathView } from "./types";
 
 export const WEIGHTS = { peers: 2, leads: 1.5, fit: 3, recency: 1, trust: 1 } as const;
 
@@ -13,6 +14,18 @@ export const PEER_FLOOR = 0.25;
 export const RECENCY_HORIZON_YEARS = 6;
 
 const TRUST_VALUE: Record<Rank, number> = { FILING: 1, PRIMARY: 0.8, PRESS: 0.55, AGGREGATOR: 0.35, UNRANKED: 0.15 };
+
+/** The part of a path the score needs. */
+export interface PathLite {
+  peerId: string;
+  /** The round's id, or a per-peer key when the path is a direct investment with no round identified. */
+  roundKey: string;
+  trust: Rank;
+  isLead: boolean;
+  date: string | null;
+  /** True when the date is not the date of a round: a source date, or a record that mixes several financings. */
+  dateApprox: boolean;
+}
 
 export interface Factors {
   /** Distinct Slush attendees this investor funded: each one is a way in. */
@@ -37,6 +50,7 @@ export interface Factors {
 
 export interface Ranked {
   investor: InvestorView;
+  /** The paths sent for this investor that survive the current filter. */
   paths: PathView[];
   factors: Factors;
 }
@@ -45,14 +59,14 @@ function yearsBetween(a: string, b: string): number {
   return (Date.parse(b) - Date.parse(a)) / (365.25 * 86400000);
 }
 
-export function scorePaths(paths: PathView[], peers: Record<string, PeerView>, today: string): Factors {
+export function scorePaths(paths: PathLite[], likeness: Record<string, number | null>, today: string): Factors {
   const peerIds = new Set(paths.map((p) => p.peerId));
-  const led = new Set(paths.filter((p) => p.isLead).map((p) => p.round?.node.id ?? p.id));
+  const led = new Set(paths.filter((p) => p.isLead).map((p) => p.roundKey));
   let fit = 0;
   let fitPeer: string | undefined;
   let peersWeighted = 0;
   for (const id of peerIds) {
-    const s = peers[id]?.similarity.score ?? 0;
+    const s = likeness[id] ?? 0;
     peersWeighted += PEER_FLOOR + (1 - PEER_FLOOR) * s;
     if (s > fit) {
       fit = s;
@@ -84,26 +98,23 @@ export function scorePaths(paths: PathView[], peers: Record<string, PeerView>, t
 }
 
 /** Path order inside one investor: closest peer first, then led rounds, then newest. */
-export function sortPaths(paths: PathView[], peers: Record<string, PeerView>): PathView[] {
+export function sortPaths<T extends PathLite>(paths: T[], likeness: Record<string, number | null>): T[] {
   return [...paths].sort((a, b) => {
-    const sa = peers[a.peerId]?.similarity.score ?? -1;
-    const sb = peers[b.peerId]?.similarity.score ?? -1;
+    const sa = likeness[a.peerId] ?? -1;
+    const sb = likeness[b.peerId] ?? -1;
     if (sb !== sa) return sb - sa;
     if (a.isLead !== b.isLead) return a.isLead ? -1 : 1;
     return (b.date ?? "").localeCompare(a.date ?? "");
   });
 }
 
-export function rankInvestors(
-  investors: InvestorView[],
-  peers: Record<string, PeerView>,
-  opts: { strict: boolean; today: string },
-): Ranked[] {
+/** The order to show: the server's score for all paths, or for the filings-and-first-party paths only. */
+export function rankInvestors(investors: InvestorView[], strict: boolean): Ranked[] {
   const out: Ranked[] = [];
   for (const investor of investors) {
-    const paths = opts.strict ? investor.paths.filter((p) => isStrict(p.trust)) : investor.paths;
-    if (!paths.length) continue;
-    out.push({ investor, paths: sortPaths(paths, peers), factors: scorePaths(paths, peers, opts.today) });
+    const factors = strict ? investor.score.strict : investor.score.all;
+    if (!factors) continue;
+    out.push({ investor, factors, paths: strict ? investor.paths.filter((p) => isStrict(p.trust)) : investor.paths });
   }
   out.sort((a, b) => b.factors.total - a.factors.total || a.investor.node.name.localeCompare(b.investor.node.name));
   return out;

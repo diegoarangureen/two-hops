@@ -1,0 +1,192 @@
+{
+ "id": "15582a4b-4ea3-5ae0-bdca-0f693c3ff39e",
+ "name": "Seed",
+ "entity_type": "FundingRound",
+ "description": null,
+ "properties": {
+  "name": {
+   "value": "Seed",
+   "sources": [
+    {
+     "name": "sifted.eu",
+     "document": "https://sifted.eu/articles/carbon-storage-paebbl-seed-round",
+     "date": "2022-10-05",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "round_label": {
+   "value": "SEED",
+   "sources": [
+    {
+     "name": "sifted.eu",
+     "document": "https://sifted.eu/articles/carbon-storage-paebbl-seed-round",
+     "date": "2022-10-05",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "instrument": {
+   "value": "EQUITY",
+   "sources": [
+    {
+     "name": "sifted.eu",
+     "document": "https://sifted.eu/articles/carbon-storage-paebbl-seed-round",
+     "date": "2022-10-05",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "transaction_value": {
+   "value": 8000000.0,
+   "sources": [
+    {
+     "name": "sifted.eu",
+     "document": "https://sifted.eu/articles/carbon-storage-paebbl-seed-round",
+     "date": "2022-10-05",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "transaction_value_units": {
+   "value": "EUR",
+   "sources": [
+    {
+     "name": "sifted.eu",
+     "document": "https://sifted.eu/articles/carbon-storage-paebbl-seed-round",
+     "date": "2022-10-05",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "announcement_date": {
+   "value": "2022-10-05",
+   "sources": [
+    {
+     "name": "sifted.eu",
+     "document": "https://sifted.eu/articles/carbon-storage-paebbl-seed-round",
+     "date": "2022-10-05",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "paebbl.com",
+     "document": "https://paebbl.com/news-feed",
+     "date": "2022-10-05",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "annotations": {
+   "value": [
+    "Round name as stated in the Sifted headline ('seed round').",
+    "round_label_stated:Seed"
+   ],
+   "sources": []
+  }
+ },
+ "relationships": {
+  "outgoing": {},
+  "incoming": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "0d4ede8f-06d4-57fb-bf35-3fcda38ddef5",
+     "name": "Walerud Ventures",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "sifted.eu",
+        "document": "https://sifted.eu/articles/carbon-storage-paebbl-seed-round",
+        "date": "2022-10-05",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "f1a5e0c4-0362-54cf-bb2f-26787be68c71"
+     }
+    },
+    {
+     "id": "18c35d6c-f1c2-4363-aca3-66315895f6b0",
+     "name": "2050 OÜ",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "sifted.eu",
+        "document": "https://sifted.eu/articles/carbon-storage-paebbl-seed-round",
+        "date": "2022-10-05",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "8a41f84d-0390-5872-8745-ed7d5ec158dd"
+     }
+    },
+    {
+     "id": "3d5de533-b957-413e-8e7f-e202e8b7e8a5",
+     "name": "Paebbl",
+     "entity_type": "Company",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "sifted.eu",
+        "document": "https://sifted.eu/articles/carbon-storage-paebbl-seed-round",
+        "date": "2022-10-05",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "3be65f70-ab84-5c16-a4e6-0f0f1bf56b25"
+     }
+    },
+    {
+     "id": "464a4a20-3ca1-4ce2-95e3-5895f86e7b5d",
+     "name": "PALE BLUE DOT LTD",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "sifted.eu",
+        "document": "https://sifted.eu/articles/carbon-storage-paebbl-seed-round",
+        "date": "2022-10-05",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "fc774810-76a5-58ba-ab24-888c7828f464"
+     }
+    },
+    {
+     "id": "b484c606-11f8-42a1-8635-6bf4b6bb6ee0",
+     "name": "The Grantham Foundation for the Protection of the Environment",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "sifted.eu",
+        "document": "https://sifted.eu/articles/carbon-storage-paebbl-seed-round",
+        "date": "2022-10-05",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "5f46385a-edf5-56d9-9cec-a73991227da2"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

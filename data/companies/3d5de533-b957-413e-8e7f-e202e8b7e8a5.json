@@ -1,0 +1,1146 @@
+{
+ "id": "3d5de533-b957-413e-8e7f-e202e8b7e8a5",
+ "name": "Paebbl",
+ "entity_type": "Company",
+ "description": "We turn CO₂ into future-proof building materials. Paebbl 300 is a carbon-negative SCM that reduces embodied carbon and permanently locks CO₂ into the built environment.",
+ "properties": {
+  "name": {
+   "value": "Paebbl",
+   "sources": [
+    {
+     "name": "Amazon’s Climate Pledge Fund adds investments in startups focused on e-waste, carbon storage, and lower-carbon buildings",
+     "document": "https://www.aboutamazon.com/news/sustainability/amazon-climate-pledge-fund-investments-molg-paebble-14trees",
+     "date": "2024-10-09"
+    },
+    {
+     "name": "Amazon co-invests with Holcim in innovative startups for sustainable building",
+     "document": "https://www.holcim.com/media/company-news/amazon-co-investment-innovative-startups-sustainable-building",
+     "date": "2024-10-09"
+    },
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2024/10/rotterdam-based-paebbl-raises-e22-8-million-to-supercharge-co2-storage-in-the-built-environment/",
+     "date": "2024-10-01",
+     "date_precision": "month",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "PAEBBL AB",
+   "sources": [
+    {
+     "name": "cordis.europa.eu",
+     "document": "https://cordis.europa.eu/project/id/101223135",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "allabolag.se",
+     "document": "https://www.allabolag.se/5593170730",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "aliases": {
+   "value": [
+    "PAEBBL BV"
+   ],
+   "sources": []
+  },
+  "website": {
+   "value": "paebbl.com",
+   "sources": [
+    {
+     "name": "paebbl.com",
+     "document": "https://paebbl.com/",
+     "date": "2026-10-29",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "dns.google",
+     "document": "https://dns.google/query?name=paebbl.com&type=A",
+     "date": "2026-10-29",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "We turn CO₂ into future-proof building materials. Paebbl 300 is a carbon-negative SCM that reduces embodied carbon and permanently locks CO₂ into the built environment.",
+   "sources": [
+    {
+     "name": "paebbl.com",
+     "document": "https://paebbl.com/",
+     "date": "2026-11-03",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2021-01-01",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/paebbl/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "Scheepsbouwweg 29, 3089 JW, Rotterdam, NL",
+   "sources": [
+    {
+     "name": "cordis.europa.eu",
+     "document": "https://cordis.europa.eu/project/id/101223135",
+     "date": "2026-10-30",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "registered_address": {
+   "value": "Kungsgatan 10, 11143 Stockholm, Sweden",
+   "sources": [
+    {
+     "name": "Paebbl AB Credit Report",
+     "document": "https://www.creditsafe.com/business-index/en-gb/company/paebbl-ab-se04589345",
+     "date": "2026-01-01"
+    },
+    {
+     "name": "Business Directory",
+     "document": "https://www.dnb.com/business-directory/company-profiles.paebbl_ab.7ed84b8646f7e234dd2cab84b539fd23.html",
+     "date": "2026-05-11"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "paebbl.com",
+     "document": "https://paebbl.com/",
+     "date": "2026-11-03",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "total_funding": {
+   "value": 32437334.38,
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2024/10/rotterdam-based-paebbl-raises-e22-8-million-to-supercharge-co2-storage-in-the-built-environment/",
+     "date": "2024-10-09",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "siliconcanals.com",
+     "document": "https://siliconcanals.com/nordic-dutch-startup-paebbl-lands-e22-8m/",
+     "date": "2024-10-09",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "sifted.eu",
+     "document": "https://sifted.eu/articles/carbon-storage-paebbl-seed-round",
+     "date": "2022-10-05",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "cordis.europa.eu",
+     "document": "https://cordis.europa.eu/project/id/101223135",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "paebbl.com",
+     "document": "https://paebbl.com/news-feed/paebbl-awarded-euro4-million-grant-to-lead-european-consortium-developing-next-generation-carbon-storing-cement-binders",
+     "date": "2026-01-28",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "paebbl.com",
+     "document": "https://paebbl.com/news-feed/the-city-of-rotterdam-gemeente-rotterdam-has-awarded-paebbl-an-euro805k-grant-under-kansen-voor-west-co-financed-by-the-european-union-",
+     "date": "2026-08-12",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "total_funding_units": {
+   "value": "EUR",
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2024/10/rotterdam-based-paebbl-raises-e22-8-million-to-supercharge-co2-storage-in-the-built-environment/",
+     "date": "2024-10-09",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "siliconcanals.com",
+     "document": "https://siliconcanals.com/nordic-dutch-startup-paebbl-lands-e22-8m/",
+     "date": "2024-10-09",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "sifted.eu",
+     "document": "https://sifted.eu/articles/carbon-storage-paebbl-seed-round",
+     "date": "2022-10-05",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "cordis.europa.eu",
+     "document": "https://cordis.europa.eu/project/id/101223135",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "paebbl.com",
+     "document": "https://paebbl.com/news-feed/paebbl-awarded-euro4-million-grant-to-lead-european-consortium-developing-next-generation-carbon-storing-cement-binders",
+     "date": "2026-01-28",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "paebbl.com",
+     "document": "https://paebbl.com/news-feed/the-city-of-rotterdam-gemeente-rotterdam-has-awarded-paebbl-an-euro805k-grant-under-kansen-voor-west-co-financed-by-the-european-union-",
+     "date": "2026-08-12",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "total_funding_excluding_debt": {
+   "value": 32437334.38,
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2024/10/rotterdam-based-paebbl-raises-e22-8-million-to-supercharge-co2-storage-in-the-built-environment/",
+     "date": "2024-10-09",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "siliconcanals.com",
+     "document": "https://siliconcanals.com/nordic-dutch-startup-paebbl-lands-e22-8m/",
+     "date": "2024-10-09",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "sifted.eu",
+     "document": "https://sifted.eu/articles/carbon-storage-paebbl-seed-round",
+     "date": "2022-10-05",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "cordis.europa.eu",
+     "document": "https://cordis.europa.eu/project/id/101223135",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "paebbl.com",
+     "document": "https://paebbl.com/news-feed/paebbl-awarded-euro4-million-grant-to-lead-european-consortium-developing-next-generation-carbon-storing-cement-binders",
+     "date": "2026-01-28",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "paebbl.com",
+     "document": "https://paebbl.com/news-feed/the-city-of-rotterdam-gemeente-rotterdam-has-awarded-paebbl-an-euro805k-grant-under-kansen-voor-west-co-financed-by-the-european-union-",
+     "date": "2026-08-12",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "funding_stage": {
+   "value": "SERIES_A",
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2024/10/rotterdam-based-paebbl-raises-e22-8-million-to-supercharge-co2-storage-in-the-built-environment/",
+     "date": "2024-10-09",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "15582a4b-4ea3-5ae0-bdca-0f693c3ff39e",
+     "name": "Seed",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "sifted.eu",
+        "document": "https://sifted.eu/articles/carbon-storage-paebbl-seed-round",
+        "date": "2022-10-05",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "3be65f70-ab84-5c16-a4e6-0f0f1bf56b25"
+     }
+    },
+    {
+     "id": "2fc9e71b-706f-511d-9a8d-f2c3da369fba",
+     "name": "Series A",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "eu-startups.com",
+        "document": "https://www.eu-startups.com/2024/10/rotterdam-based-paebbl-raises-e22-8-million-to-supercharge-co2-storage-in-the-built-environment/",
+        "date": "2024-10-09",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "paebbl.com",
+        "document": "https://paebbl.com/news-feed/we-ve-raised-25m-to-supercharge-co-storage-in-the-built-environment",
+        "date": "2024-10-09",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "e8190684-e357-5c95-8e60-f2eb86039ce1"
+     }
+    },
+    {
+     "id": "7ff73cc3-51da-5ead-a122-6da77b97f042",
+     "name": "Grant",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "cordis.europa.eu",
+        "document": "https://cordis.europa.eu/project/id/101223135",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "344b3bfe-b08f-5a23-8289-809a7a477eed"
+     }
+    },
+    {
+     "id": "ef65808e-8a29-5f76-ac96-8664db2236fc",
+     "name": "Grant",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "paebbl.com",
+        "document": "https://paebbl.com/news-feed/the-city-of-rotterdam-gemeente-rotterdam-has-awarded-paebbl-an-euro805k-grant-under-kansen-voor-west-co-financed-by-the-european-union-",
+        "date": "2026-08-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "17002a60-8bc5-55bc-8430-83361f5f1a32"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_CORPORATE_EVENT": [
+    {
+     "id": "9301c182-2456-4c5b-8cdc-0d12eab3c478",
+     "name": "FINANCING_RAISED_OR_FACILITY_ENTERED",
+     "entity_type": "PrivateCompanyFundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/paebbl/__GEXstGPawIGPwxK0frp-Ug1ujhualF-HNgMT0aC2Q9Y",
+        "date": "2026-06-10"
+       },
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/paebbl/__GEXstGPawIGPwxK0frp-Ug1ujhualF-HNgMT0aC2Q9Y/funding-and-investors",
+        "date": "2026-06-10"
+       },
+       {
+        "name": "news.crunchbase.com",
+        "document": "https://news.crunchbase.com/seed/trends-carbon-capture-womens-health-ai-productivity",
+        "date": "2026-06-10"
+       }
+      ],
+      "event_date": "2022-10-25",
+      "id": "08d5e0b7-4095-4376-81f7-141fe4e6fc67"
+     }
+    },
+    {
+     "id": "f52c436e-dafd-40cd-83cb-575672a3539a",
+     "name": "FINANCING_RAISED_OR_FACILITY_ENTERED",
+     "entity_type": "PrivateCompanyFundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/paebbl/__GEXstGPawIGPwxK0frp-Ug1ujhualF-HNgMT0aC2Q9Y",
+        "date": "2026-06-10"
+       },
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/paebbl/__GEXstGPawIGPwxK0frp-Ug1ujhualF-HNgMT0aC2Q9Y/funding-and-investors",
+        "date": "2026-06-10"
+       },
+       {
+        "name": "pitchbook.com",
+        "document": "https://pitchbook.com/profiles/company/501154-66",
+        "date": "2026-06-10"
+       }
+      ],
+      "event_date": "2024-10-09",
+      "id": "70120d14-2aca-44ed-9a79-b33534222f81"
+     }
+    },
+    {
+     "id": "f665e0cf-943c-467d-9935-1830263e1b3b",
+     "name": "FINANCING_RAISED_OR_FACILITY_ENTERED",
+     "entity_type": "PrivateCompanyFundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/paebbl/__GEXstGPawIGPwxK0frp-Ug1ujhualF-HNgMT0aC2Q9Y",
+        "date": "2026-06-10"
+       },
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/paebbl/__GEXstGPawIGPwxK0frp-Ug1ujhualF-HNgMT0aC2Q9Y/funding-and-investors",
+        "date": "2026-06-10"
+       },
+       {
+        "name": "pitchbook.com",
+        "document": "https://pitchbook.com/profiles/company/501154-66",
+        "date": "2026-06-10"
+       }
+      ],
+      "event_date": "2025-12-23",
+      "id": "16d342d1-2f9b-42ae-b675-ae1078195662"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "e31bcab8-350a-51a0-9d31-79d40ab0d112"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "0f63c285-f941-493c-9f9a-95ddfdaf52ca",
+     "name": "RAW_MATERIALS",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/paebbl/",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "a74ccbc0-45f6-5bbe-b925-907f438d1712",
+      "original_label": "manufacturingMaterials"
+     }
+    },
+    {
+     "id": "1c1977b3-663a-47fb-81eb-51958758b70b",
+     "name": "CONSTRUCTION_AND_ENGINEERING",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "chainstoreage.com",
+        "document": "https://chainstoreage.com/amazon-makes-three-new-climate-pledge-fund-investments",
+        "date": "2026-05-11"
+       },
+       {
+        "name": "Amazon backs carbon capture startup Paebbl in $25m round as governments commit billions to the tech",
+        "document": "https://sifted.eu/articles/amazon-paebbl-raise-startup-news",
+        "date": "2025-06-27"
+       }
+      ],
+      "id": "01796c11-8b9a-45c1-9dfe-bd52c3aa19a3"
+     }
+    },
+    {
+     "id": "2b930298-6a59-4b80-809e-d446c23b1d1f",
+     "name": "CHEMICALS",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "chainstoreage.com",
+        "document": "https://chainstoreage.com/amazon-makes-three-new-climate-pledge-fund-investments",
+        "date": "2026-05-11"
+       },
+       {
+        "name": "Amazon backs carbon capture startup Paebbl in $25m round as governments commit billions to the tech",
+        "document": "https://sifted.eu/articles/amazon-paebbl-raise-startup-news",
+        "date": "2025-06-27"
+       }
+      ],
+      "id": "96f7b565-8014-4cb8-adc9-90242c2a1b9c"
+     }
+    }
+   ],
+   "HAS_HEADQUARTERS_IN": [
+    {
+     "id": "45268f56-905f-4cbe-9729-0ad0bbff87fa",
+     "name": "Sweden",
+     "entity_type": "Country",
+     "properties": {
+      "sources": [
+       {
+        "name": "Amazon’s Climate Pledge Fund adds investments in startups focused on e-waste, carbon storage, and lower-carbon buildings",
+        "document": "https://www.aboutamazon.com/news/sustainability/amazon-climate-pledge-fund-investments-molg-paebble-14trees",
+        "date": "2024-10-09"
+       },
+       {
+        "name": "Amazon co-invests with Holcim in innovative startups for sustainable building",
+        "document": "https://www.holcim.com/media/company-news/amazon-co-investment-innovative-startups-sustainable-building",
+        "date": "2024-10-09"
+       }
+      ],
+      "id": "d75c3fa6-8bc9-4f49-a1ac-2121e3efc552"
+     }
+    },
+    {
+     "id": "c380ee36-924c-4de9-978f-bb9f13dc926a",
+     "name": "Netherlands",
+     "entity_type": "Country",
+     "properties": {
+      "sources": [
+       {
+        "name": "chainstoreage.com",
+        "document": "https://chainstoreage.com/amazon-makes-three-new-climate-pledge-fund-investments",
+        "date": "2026-05-11"
+       },
+       {
+        "name": "Amazon backs carbon capture startup Paebbl in $25m round as governments commit billions to the tech",
+        "document": "https://sifted.eu/articles/amazon-paebbl-raise-startup-news",
+        "date": "2025-06-27"
+       }
+      ],
+      "id": "1f437d09-924d-42cc-b390-d1870cc0eece"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "INVESTED_IN": [
+    {
+     "id": "0d4ede8f-06d4-57fb-bf35-3fcda38ddef5",
+     "name": "Walerud Ventures",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "sifted.eu",
+        "document": "https://sifted.eu/articles/carbon-storage-paebbl-seed-round",
+        "date": "2022-10-05",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "233d2e55-d32d-48dc-a310-5053dd747e3e"
+     }
+    },
+    {
+     "id": "18c35d6c-f1c2-4363-aca3-66315895f6b0",
+     "name": "2050 OÜ",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "paebbl.com",
+        "document": "https://paebbl.com/news-feed/we-ve-raised-25m-to-supercharge-co-storage-in-the-built-environment",
+        "date": "2024-10-09",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "839b9b71-8277-459e-a328-2bf63ff3edda"
+     }
+    },
+    {
+     "id": "3e13ee63-5afe-4507-a6d9-bc3b7a050332",
+     "name": "Aurum Impact",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "Aurum Impact | Deep Tech Week",
+        "document": "https://www.deep-tech-week.com/organizations/aurum-impact",
+        "date": "2026-05-12"
+       },
+       {
+        "name": "Aurum Impact | Impact Investing backed by the Goldbeck Family",
+        "document": "https://www.aurum-impact.de",
+        "date": "2023-01-01"
+       }
+      ],
+      "id": "7da36afb-1051-5aae-89b1-d1c8d6cd5d85"
+     }
+    },
+    {
+     "id": "464a4a20-3ca1-4ce2-95e3-5895f86e7b5d",
+     "name": "PALE BLUE DOT LTD",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "paebbl.com",
+        "document": "https://paebbl.com/news-feed/we-ve-raised-25m-to-supercharge-co-storage-in-the-built-environment",
+        "date": "2024-10-09",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "a7b71539-0a5d-42ad-94e6-88fa995bd449"
+     }
+    },
+    {
+     "id": "6ed00269-d85b-49ae-8615-57842a41865f",
+     "name": "Amazon",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "chainstoreage.com",
+        "document": "https://chainstoreage.com/amazon-makes-three-new-climate-pledge-fund-investments",
+        "date": "2026-05-11"
+       },
+       {
+        "name": "Amazon backs carbon capture startup Paebbl in $25m round as governments commit billions to the tech",
+        "document": "https://sifted.eu/articles/amazon-paebbl-raise-startup-news",
+        "date": "2025-06-27"
+       }
+      ],
+      "id": "e87bd2eb-c1e6-4715-af63-6cfa32d02c02"
+     }
+    },
+    {
+     "id": "7d664cc6-40b8-4953-8198-82462abfb39e",
+     "name": "Ortner Goldbeck Holding SE",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/goldbeck/__q2w156Dwvs9erYZLszZh0AW0grPrYbxSmKG23X8trNo",
+        "date": "2026-09-11"
+       },
+       {
+        "name": "Paebbl opens ‘world’s first’ demo plant that turns CO2 into dust",
+        "document": "https://thenextweb.com/news/paebbl-startup-turning-co2-into-dust-opens-first-demo-plant-in-rotterdam",
+        "date": "2025-04-17"
+       }
+      ],
+      "id": "bc9a4a3e-32f6-578c-8f88-09dec25fdd01",
+      "valid_since": "2024-10-09"
+     }
+    },
+    {
+     "id": "84a56c8e-b3af-4149-b91c-0cfd795580e2",
+     "name": "Aurum Impact",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "Aurum Impact | Deep Tech Week",
+        "document": "https://www.deep-tech-week.com/organizations/aurum-impact",
+        "date": "2026-05-12"
+       },
+       {
+        "name": "paebbl.com",
+        "document": "https://paebbl.com/news-feed/we-ve-raised-25m-to-supercharge-co-storage-in-the-built-environment",
+        "date": "2024-10-09",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "934a1cce-90c7-5a9b-9221-dc5bd31d8769"
+     }
+    },
+    {
+     "id": "8a0e9723-5686-4206-b3eb-7e977d491713",
+     "name": "Holcim Group",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "Amazon backs carbon capture startup Paebbl in $25m round as governments commit billions to the tech",
+        "document": "https://sifted.eu/articles/amazon-paebbl-raise-startup-news",
+        "date": "2025-06-27"
+       },
+       {
+        "name": "Partnering with leading startups to reinvent how the world builds",
+        "document": "https://www.holcim.com/who-we-are/our-stories/partnering-leading-startups",
+        "date": "2024-11-26"
+       }
+      ],
+      "id": "0ba8f655-0e9f-5e4a-b7c4-7e783c35b860",
+      "valid_since": "2024-10-08"
+     }
+    },
+    {
+     "id": "9bffcabc-8b82-5a47-bb4c-51c1935d108f",
+     "name": "Holcim MAQER Ventures",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "paebbl.com",
+        "document": "https://paebbl.com/news-feed/we-ve-raised-25m-to-supercharge-co-storage-in-the-built-environment",
+        "date": "2024-10-09",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "958471c8-4ff9-4da2-9869-51b14b3ff28e"
+     }
+    },
+    {
+     "id": "b484c606-11f8-42a1-8635-6bf4b6bb6ee0",
+     "name": "The Grantham Foundation for the Protection of the Environment",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "paebbl.com",
+        "document": "https://paebbl.com/news-feed/we-ve-raised-25m-to-supercharge-co-storage-in-the-built-environment",
+        "date": "2024-10-09",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "21753339-b3d3-4876-adac-a0c18732b59b"
+     }
+    },
+    {
+     "id": "b6c49b77-7291-4713-8278-71256890e857",
+     "name": "Capnamic Ventures Management GmbH",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "paebbl.com",
+        "document": "https://paebbl.com/news-feed/we-ve-raised-25m-to-supercharge-co-storage-in-the-built-environment",
+        "date": "2024-10-09",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "302d7b46-c848-47f8-bae6-82b8afadce32"
+     }
+    },
+    {
+     "id": "f7ed0e7f-b272-5669-bb70-a1f70a7f521a",
+     "name": "Family office of Antti Herlin",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "paebbl.com",
+        "document": "https://paebbl.com/news-feed/we-ve-raised-25m-to-supercharge-co-storage-in-the-built-environment",
+        "date": "2024-10-09",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "4b0cc105-52f3-4cf1-93d4-aba04cdc076f"
+     }
+    },
+    {
+     "id": "f7f40b9a-b17f-4563-b711-a7daba9ce449",
+     "name": "Amazon Climate Pledge Fund",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "eu-startups.com",
+        "document": "https://www.eu-startups.com/2024/10/rotterdam-based-paebbl-raises-e22-8-million-to-supercharge-co2-storage-in-the-built-environment/",
+        "date": "2024-10-09",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "489f8851-61b9-42cb-b29c-4bc25253fd7d"
+     }
+    }
+   ],
+   "FOUNDED": [
+    {
+     "id": "30e4369b-fcfb-4e40-9831-0dd62bfe0b10",
+     "name": "Andreas Saari",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "www.crunchbase.com",
+        "document": "https://www.crunchbase.com/organization/paebbl",
+        "date": "2026-08-20"
+       },
+       {
+        "name": "Paebbl starts operating its continuous demo plant, a world-first for CO₂ mineralisation",
+        "document": "https://paebbl.com/news-feed/paebbl-starts-operating-its-continuous-demo-plant-a-world-first-for-co2-mineralisation",
+        "date": "2025-04-17"
+       },
+       {
+        "name": "Netherlands' Paebbl secures €22.8M to Advance CO2 Storage Solutions - TECHnicalBeep",
+        "document": "https://technicalbeep.com/netherlands-paebbl-secures-e22-8m-to-advance-co2-storage-solutions",
+        "date": "2024-10-14"
+       },
+       {
+        "name": "We’ve raised USD 25M to supercharge CO2 Storage in the Built Environment",
+        "document": "https://www.linkedin.com/pulse/weve-raised-usd-25m-supercharge-co2-storage-built-environment-mlikf",
+        "date": "2024-10-09"
+       }
+      ],
+      "id": "e1dfe56b-7a0b-4797-bb86-5b85929270a1"
+     }
+    },
+    {
+     "id": "30e4369b-fcfb-4e40-9831-0dd62bfe0b10",
+     "name": "Andreas Saari",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/paebbl/__GEXstGPawIGPwxK0frp-Ug1ujhualF-HNgMT0aC2Q9Y",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "a918891b-7fce-54ef-95bb-4f7266303c52"
+     }
+    },
+    {
+     "id": "9ab07d43-b247-47f6-a411-7f02745b5856",
+     "name": "Marta Sjögren",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "www.crunchbase.com",
+        "document": "https://www.crunchbase.com/organization/paebbl",
+        "date": "2026-08-20"
+       },
+       {
+        "name": "Paebbl awarded €4 million grant to lead European consortium developing next-generation carbon-storing cement binders",
+        "document": "https://paebbl.com/news-feed/paebbl-awarded-euro4-million-grant-to-lead-european-consortium-developing-next-generation-carbon-storing-cement-binders",
+        "date": "2026-01-28"
+       },
+       {
+        "name": "Paebbl Ramps Up CCU Production in the Netherlands, Setting the Stage for Sustainable Growth",
+        "document": "https://investinholland.com/news/paebbl-ramps-up-ccu-production-in-the-netherlands-setting-the-stage-for-sustainable-growth",
+        "date": "2023-12-20"
+       },
+       {
+        "name": "CEO of Paebbl: Getting the Whole Value Chain to Back Low-Carbon Concrete",
+        "document": "https://decarbconnect.com/ceo-of-paebbl-getting-the-whole-value-chain-to-back-low-carbon-concrete",
+        "date": "2026-05-12"
+       }
+      ],
+      "id": "b955d8a0-0961-480f-a02e-1acf5b2e4ebf"
+     }
+    },
+    {
+     "id": "9ab07d43-b247-47f6-a411-7f02745b5856",
+     "name": "Marta Sjögren",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "industrialconnectgroup.com",
+        "document": "https://industrialconnectgroup.com/ceo-of-paebbl-getting-the-whole-value-chain-to-back-low-carbon-concrete/",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "6e7fbb1b-1621-54f6-a354-69f967e1cca1"
+     }
+    },
+    {
+     "id": "b00d28bc-8005-422a-b128-1c65a0294388",
+     "name": "Jane Walerud",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "www.crunchbase.com",
+        "document": "https://www.crunchbase.com/organization/paebbl",
+        "date": "2026-08-20"
+       },
+       {
+        "name": "sifted.eu",
+        "document": "https://sifted.eu/articles/carbon-storage-paebbl-seed-round",
+        "date": "2026-08-20"
+       },
+       {
+        "name": "We’ve raised USD 25M to supercharge CO2 Storage in the Built Environment",
+        "document": "https://www.linkedin.com/pulse/weve-raised-usd-25m-supercharge-co2-storage-built-environment-mlikf",
+        "date": "2024-10-09"
+       }
+      ],
+      "id": "88fbc8fc-17af-4eb7-aa39-3caee441be09"
+     }
+    },
+    {
+     "id": "b00d28bc-8005-422a-b128-1c65a0294388",
+     "name": "Jane Walerud",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/paebbl/__GEXstGPawIGPwxK0frp-Ug1ujhualF-HNgMT0aC2Q9Y",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "b1cbadb4-358b-5c17-a6ec-9b421c5cfcc9"
+     }
+    },
+    {
+     "id": "f737c2be-5852-4813-b048-83c57b7a0a3a",
+     "name": "Pol Knops",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "www.crunchbase.com",
+        "document": "https://www.crunchbase.com/organization/paebbl",
+        "date": "2026-08-20"
+       },
+       {
+        "name": "sifted.eu",
+        "document": "https://sifted.eu/articles/carbon-storage-paebbl-seed-round",
+        "date": "2026-08-20"
+       },
+       {
+        "name": "Paebbl Ramps Up CCU Production in the Netherlands, Setting the Stage for Sustainable Growth",
+        "document": "https://investinholland.com/news/paebbl-ramps-up-ccu-production-in-the-netherlands-setting-the-stage-for-sustainable-growth",
+        "date": "2023-12-20"
+       }
+      ],
+      "id": "fdbd35ff-1a57-4731-bc82-97b45a46e7f1"
+     }
+    },
+    {
+     "id": "f737c2be-5852-4813-b048-83c57b7a0a3a",
+     "name": "Pol Knops",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "sifted.eu",
+        "document": "https://sifted.eu/articles/carbon-storage-paebbl-seed-round",
+        "date": "2022-10-05",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "012db806-c8a7-55fa-b7dc-f2b66241ecc7"
+     }
+    }
+   ],
+   "IS_CEO_OF": [
+    {
+     "id": "30e4369b-fcfb-4e40-9831-0dd62bfe0b10",
+     "name": "Andreas Saari",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "paebbl.com",
+        "document": "https://paebbl.com/news-feed/we-ve-raised-25m-to-supercharge-co-storage-in-the-built-environment",
+        "date": "2024-10-09",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "f51b37dc-6bee-5212-9e57-ada57907c752"
+     }
+    },
+    {
+     "id": "9ab07d43-b247-47f6-a411-7f02745b5856",
+     "name": "Marta Sjögren",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "industrialconnectgroup.com",
+        "document": "https://industrialconnectgroup.com/ceo-of-paebbl-getting-the-whole-value-chain-to-back-low-carbon-concrete/",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       },
+       {
+        "name": "paebbl.com",
+        "document": "https://paebbl.com/news-feed/we-ve-raised-25m-to-supercharge-co-storage-in-the-built-environment",
+        "date": "2024-10-09",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "2fe88eec-4d76-5cf4-a226-3362d1255358"
+     }
+    },
+    {
+     "id": "ed97e438-2323-5c72-928b-a01918f8c40a",
+     "name": "Fernando Sosa",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "paebbl.com",
+        "document": "https://paebbl.com/news-feed",
+        "date": "2026-04-07",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "c3e85138-8fdd-54c6-85df-c285f36d7518"
+     }
+    }
+   ],
+   "IS_BOARD_MEMBER_OF": [
+    {
+     "id": "b00d28bc-8005-422a-b128-1c65a0294388",
+     "name": "Jane Walerud",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "allabolag.se",
+        "document": "https://www.allabolag.se/5593170730",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "92250954-1e3b-55ff-850d-87db49b6cfcc"
+     }
+    }
+   ],
+   "WORKS_AT": [
+    {
+     "id": "30e4369b-fcfb-4e40-9831-0dd62bfe0b10",
+     "name": "Andreas Saari",
+     "entity_type": "Person",
+     "properties": {
+      "role": "CEO",
+      "sources": [
+       {
+        "name": "www.crunchbase.com",
+        "document": "https://www.crunchbase.com/organization/paebbl",
+        "date": "2026-08-20"
+       },
+       {
+        "name": "Paebbl starts operating its continuous demo plant, a world-first for CO₂ mineralisation",
+        "document": "https://paebbl.com/news-feed/paebbl-starts-operating-its-continuous-demo-plant-a-world-first-for-co2-mineralisation",
+        "date": "2025-04-17"
+       },
+       {
+        "name": "Netherlands' Paebbl secures €22.8M to Advance CO2 Storage Solutions - TECHnicalBeep",
+        "document": "https://technicalbeep.com/netherlands-paebbl-secures-e22-8m-to-advance-co2-storage-solutions",
+        "date": "2024-10-14"
+       },
+       {
+        "name": "We’ve raised USD 25M to supercharge CO2 Storage in the Built Environment",
+        "document": "https://www.linkedin.com/pulse/weve-raised-usd-25m-supercharge-co2-storage-built-environment-mlikf",
+        "date": "2024-10-09"
+       }
+      ],
+      "id": "f6efcf07-5771-462a-822d-9bbe3d99f9a3"
+     }
+    },
+    {
+     "id": "9ab07d43-b247-47f6-a411-7f02745b5856",
+     "name": "Marta Sjögren",
+     "entity_type": "Person",
+     "properties": {
+      "role": "CEO",
+      "sources": [
+       {
+        "name": "www.crunchbase.com",
+        "document": "https://www.crunchbase.com/organization/paebbl",
+        "date": "2026-08-20"
+       },
+       {
+        "name": "Paebbl awarded €4 million grant to lead European consortium developing next-generation carbon-storing cement binders",
+        "document": "https://paebbl.com/news-feed/paebbl-awarded-euro4-million-grant-to-lead-european-consortium-developing-next-generation-carbon-storing-cement-binders",
+        "date": "2026-01-28"
+       },
+       {
+        "name": "Paebbl Ramps Up CCU Production in the Netherlands, Setting the Stage for Sustainable Growth",
+        "document": "https://investinholland.com/news/paebbl-ramps-up-ccu-production-in-the-netherlands-setting-the-stage-for-sustainable-growth",
+        "date": "2023-12-20"
+       },
+       {
+        "name": "CEO of Paebbl: Getting the Whole Value Chain to Back Low-Carbon Concrete",
+        "document": "https://decarbconnect.com/ceo-of-paebbl-getting-the-whole-value-chain-to-back-low-carbon-concrete",
+        "date": "2026-05-12"
+       }
+      ],
+      "id": "02280034-3860-497e-9d6e-9ef4ee332285"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

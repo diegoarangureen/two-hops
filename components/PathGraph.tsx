@@ -111,7 +111,8 @@ export default function PathGraph({
 
     const peerY = top + HEAD + NH / 2;
     const roundY = rounds.map((_, i) => (rounds.length === 1 ? peerY : top + HEAD + ROUND_H / 2 + i * (ROUND_H + HEAD)));
-    const roundsBottom = rounds.length ? roundY[roundY.length - 1] + ROUND_H / 2 + (rounds.some((p) => p.round?.labelInferred) ? 14 : 0) : peerY + NH / 2;
+    const tagged = rounds.some((p) => p.round?.labelInferred || (p.round?.severalLabels.length ?? 0) > 1);
+    const roundsBottom = rounds.length ? roundY[roundY.length - 1] + ROUND_H / 2 + (tagged ? 14 : 0) : peerY + NH / 2;
     // with several rounds the lower rows need the space under the peer for their labels: people go below them
     const peopleTop = (rounds.length > 1 ? Math.max(peerY + NH / 2, roundsBottom) : peerY + NH / 2) + 10;
     const peopleH = people.length ? people.length * (PERSON_H + PERSON_GAP) + (morePeople > 0 ? 12 : 0) : 0;
@@ -303,8 +304,12 @@ export default function PathGraph({
         {rows.flatMap((r) =>
           r.rounds.map((p, i) => {
             const rd = p.round!;
-            const sub = [rd.amount, rd.date ? (rd.dateBasis === "earliest source" ? `source ${rd.date}` : rd.date) : null].filter(Boolean).join(" · ") || "details not loaded";
-            return box(`round-${p.id}`, "round", X.round, r.roundY[i], NW.round, ROUND_H, "FUNDING ROUND", rd.label, sub, nodeRank(rd.node), { kind: "node", id: rd.node.id }, rd.labelInferred ? "label inferred by Cala" : undefined);
+            const mixed = rd.severalLabels.length > 1;
+            const sub = mixed
+              ? `${rd.severalLabels.length} financings in one record`
+              : [rd.amount, rd.date ? (rd.dateBasis === "earliest source" ? `source ${rd.date}` : rd.dateText) : null].filter(Boolean).join(" · ") || "details not loaded";
+            const tag = rd.labelInferred ? "label inferred by Cala" : mixed ? "amount and date kept apart" : undefined;
+            return box(`round-${p.id}`, "round", X.round, r.roundY[i], NW.round, ROUND_H, "FUNDING ROUND", rd.label, sub, nodeRank(rd.node), { kind: "node", id: rd.node.id }, tag);
           }),
         )}
         {box("inv", "investor", X.inv, invY, NW.inv, NH, `INVESTOR · ${investor.type.toUpperCase()}`, investor.name, investor.loaded ? undefined : "known through its links", nodeRank(investor), { kind: "node", id: investor.id })}

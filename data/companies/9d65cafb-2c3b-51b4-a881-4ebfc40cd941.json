@@ -1,0 +1,464 @@
+{
+ "id": "9d65cafb-2c3b-51b4-a881-4ebfc40cd941",
+ "name": "SaveSpace",
+ "entity_type": "Company",
+ "description": "Lagerraum mieten & Möbel einlagern in deiner Nähe: Self-Storage einfach online buchen. Optionaler Abholservice, sichere Lagerung & flexible Rücklieferung.",
+ "properties": {
+  "name": {
+   "value": "SaveSpace",
+   "sources": [
+    {
+     "name": "savespace.eu",
+     "document": "https://savespace.eu/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/savespace-eu/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "SaveSpace GmbH",
+   "sources": [
+    {
+     "name": "savespace.eu",
+     "document": "https://savespace.eu/de/",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "savespace.eu",
+     "document": "https://savespace.eu/de/impressum",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "website": {
+   "value": "savespace.eu",
+   "sources": [
+    {
+     "name": "savespace.eu",
+     "document": "https://savespace.eu/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "dns.google",
+     "document": "https://dns.google/query?name=savespace.eu&type=A",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "web.archive.org",
+     "document": "https://web.archive.org/web/20211202175853/https://savespace.eu/impressum",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "Lagerraum mieten & Möbel einlagern in deiner Nähe: Self-Storage einfach online buchen. Optionaler Abholservice, sichere Lagerung & flexible Rücklieferung.",
+   "sources": [
+    {
+     "name": "savespace.eu",
+     "document": "https://savespace.eu/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2021-01-01",
+   "sources": [
+    {
+     "name": "startupticker.ch",
+     "document": "https://www.startupticker.ch/en/news/savespace-expansion-nach-finanzierungsrunde",
+     "date": "2026-03-06",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "tracxn.com",
+     "document": "https://tracxn.com/d/companies/savespace/__KYBcQSuRIvzQtaPsf6mDDNJmiKopS5wq_CAcuTNnHF8",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    },
+    {
+     "name": "web.archive.org",
+     "document": "https://web.archive.org/web/20211202175853/https://savespace.eu/impressum",
+     "date": "2021-12-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "Zurich, Switzerland",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/savespace-eu/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    },
+    {
+     "name": "startupticker.ch",
+     "document": "https://www.startupticker.ch/en/news/savespace-expansion-nach-finanzierungsrunde",
+     "date": "2026-03-06",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "savespace.eu",
+     "document": "https://savespace.eu/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "employee_count_range": {
+   "value": [
+    11,
+    50
+   ],
+   "sources": [
+    {
+     "name": "startbase.de",
+     "document": "https://www.startbase.de/organization/savespace-gmbh/",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "4f5954f8-9de0-5717-9b32-e053c4cb2307",
+     "name": "Funding round",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "leaderdigital.ch",
+        "document": "https://www.leaderdigital.ch/news/savespace-expandiert-in-die-schweiz-15014.html",
+        "date": "2026-02-25",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "startupvalley.news",
+        "document": "https://startupvalley.news/de/savespace-im-self-storage-markt-als-plattform/",
+        "date": "2026-02-27",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "startupticker.ch",
+        "document": "https://www.startupticker.ch/en/news/savespace-expansion-nach-finanzierungsrunde",
+        "date": "2026-03-06",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "savespace.eu",
+        "document": "https://savespace.eu/de/presse",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "050184dc-3bd3-56d6-aaf3-24833a9c3a6d"
+     }
+    },
+    {
+     "id": "7a9bb2d2-e488-5875-b7ca-65ae7bfa429a",
+     "name": "Pre-Seed",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "techstars.com",
+        "document": "https://www.techstars.com/newsroom/building-startups-in-turbulent-times-announcing-the-first-berlin-techstars-class-2022",
+        "date": "2022-04-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "dc3e7806-2c9e-5b9a-ba25-b33d457e6374"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "69663b55-2a2f-5bd0-adf4-22e47af48fce"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "6bd9aa61-75fa-4175-87a7-0d896a0b2386",
+     "name": "REAL_ESTATE",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/savespace-eu/",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "ae04ba2b-ab19-5560-9369-031c795d6053",
+      "original_label": "realestate"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "INVESTED_IN": [
+    {
+     "id": "ae7530e4-556e-4547-ba15-88a12fbcdcb1",
+     "name": "Techstars",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "techstars.com",
+        "document": "https://www.techstars.com/newsroom/building-startups-in-turbulent-times-announcing-the-first-berlin-techstars-class-2022",
+        "date": "2022-04-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "jobs.techstars.com",
+        "document": "https://jobs.techstars.com/companies/savespace",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "cbinsights.com",
+        "document": "https://www.cbinsights.com/company/savespace/financials",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       },
+       {
+        "name": "nordic9.com",
+        "document": "https://nordic9.com/news/savespace-was-incubated-at-techstars/",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "53ea78c1-eab4-4a8e-9cf8-50499155f75a"
+     }
+    }
+   ],
+   "FOUNDED": [
+    {
+     "id": "6159574f-fe1d-5c70-9fad-f5d15af19abb",
+     "name": "Kelvin Kassis",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "savespace.eu",
+        "document": "https://savespace.eu/de/presse",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "startupticker.ch",
+        "document": "https://www.startupticker.ch/en/news/savespace-expansion-nach-finanzierungsrunde",
+        "date": "2026-03-06",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "leaderdigital.ch",
+        "document": "https://www.leaderdigital.ch/news/savespace-expandiert-in-die-schweiz-15014.html",
+        "date": "2026-02-25",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "838d458e-d801-5d04-8bc9-11b125793318"
+     }
+    },
+    {
+     "id": "73a757cf-7b01-5f2c-9d16-722e18e0f574",
+     "name": "Max Bieri",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "thurgauerzeitung.ch",
+        "document": "https://www.thurgauerzeitung.ch/ostschweiz/kanton-thurgau/savespace-startet-selbstlagerung-in-der-schweiz-ld.4149834",
+        "date": "2026-11-04",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       },
+       {
+        "name": "savespace.eu",
+        "document": "https://savespace.eu/de/presse",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "startupticker.ch",
+        "document": "https://www.startupticker.ch/en/news/savespace-expansion-nach-finanzierungsrunde",
+        "date": "2026-03-06",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "7ab2ad3c-c229-5e2d-ba62-a857176c5251"
+     }
+    },
+    {
+     "id": "be7fa19f-4e52-5752-b9b1-cb88a1f508bb",
+     "name": "Tamara Krauss",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "savespace.eu",
+        "document": "https://savespace.eu/de/presse",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "leaderdigital.ch",
+        "document": "https://www.leaderdigital.ch/news/savespace-expandiert-in-die-schweiz-15014.html",
+        "date": "2026-02-25",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "startupticker.ch",
+        "document": "https://www.startupticker.ch/en/news/savespace-expansion-nach-finanzierungsrunde",
+        "date": "2026-03-06",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "f76eac91-6401-53a9-a4ef-148bf3dcfe2f"
+     }
+    },
+    {
+     "id": "d2e410a7-375d-5520-a497-063bd4c72878",
+     "name": "Charlotte Schmitt",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/savespace/__KYBcQSuRIvzQtaPsf6mDDNJmiKopS5wq_CAcuTNnHF8",
+        "date": "2026-11-04",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "72430451-f52a-550b-9d19-bcbd949d775a"
+     }
+    }
+   ],
+   "IS_CEO_OF": [
+    {
+     "id": "73a757cf-7b01-5f2c-9d16-722e18e0f574",
+     "name": "Max Bieri",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "thurgauerzeitung.ch",
+        "document": "https://www.thurgauerzeitung.ch/ostschweiz/kanton-thurgau/savespace-startet-selbstlagerung-in-der-schweiz-ld.4149834",
+        "date": "2026-11-04",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       },
+       {
+        "name": "savespace.eu",
+        "document": "https://savespace.eu/de/presse",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "startupticker.ch",
+        "document": "https://www.startupticker.ch/en/news/savespace-expansion-nach-finanzierungsrunde",
+        "date": "2026-03-06",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "cfb7735e-72f8-560b-b463-5523d2cc5836"
+     }
+    }
+   ],
+   "IS_CTO_OF": [
+    {
+     "id": "6159574f-fe1d-5c70-9fad-f5d15af19abb",
+     "name": "Kelvin Kassis",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "startupvalley.news",
+        "document": "https://startupvalley.news/de/savespace-im-self-storage-markt-als-plattform/",
+        "date": "2026-02-27",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "f277c78d-183e-5f8f-b0f0-8320583390b1"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

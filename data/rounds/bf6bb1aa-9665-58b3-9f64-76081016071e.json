@@ -1,0 +1,214 @@
+{
+ "id": "bf6bb1aa-9665-58b3-9f64-76081016071e",
+ "name": "Seed",
+ "entity_type": "FundingRound",
+ "description": null,
+ "properties": {
+  "name": {
+   "value": "Seed",
+   "sources": [
+    {
+     "name": "vcbacked.co",
+     "document": "https://www.vcbacked.co/company/tutornow",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "round_label": {
+   "value": "SEED",
+   "sources": [
+    {
+     "name": "vcbacked.co",
+     "document": "https://www.vcbacked.co/company/tutornow",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "instrument": {
+   "value": "EQUITY",
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2025/05/italian-edtech-startup-tutornow-raises-e1-million-to-scale-their-accessible-and-personalised-lessons/",
+     "date": "2025-05-09",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "transaction_value": {
+   "value": 1000000.0,
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2025/05/italian-edtech-startup-tutornow-raises-e1-million-to-scale-their-accessible-and-personalised-lessons/",
+     "date": "2025-05-09",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "transaction_value_units": {
+   "value": "EUR",
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2025/05/italian-edtech-startup-tutornow-raises-e1-million-to-scale-their-accessible-and-personalised-lessons/",
+     "date": "2025-05-09",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "announcement_date": {
+   "value": "2025-05-06",
+   "sources": [
+    {
+     "name": "startupbusiness.it",
+     "document": "https://www.startupbusiness.it/en/edutech-tutornow-closes-a-eur-1-million-round/145781/",
+     "date": "2025-05-06",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "annotations": {
+   "value": [
+    "Round name found by web search (\"Tutornow\" 1 million 2025 | \"Tutornow\" round 2025): the page names the company, an amount within 15% of this round and the round name.",
+    "round_label_stated:Seed"
+   ],
+   "sources": []
+  }
+ },
+ "relationships": {
+  "outgoing": {},
+  "incoming": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "37374077-da45-4367-8128-6284c77a2e72",
+     "name": "Tutornow",
+     "entity_type": "Company",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "vcbacked.co",
+        "document": "https://www.vcbacked.co/company/tutornow",
+        "date": "2026-11-04",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "45e2c513-f3c2-5204-85ba-12b46234cd9c"
+     }
+    },
+    {
+     "id": "6fb743e0-67a7-47ad-86a0-01646ab2293b",
+     "name": "AGENZIA NAZIONALE PER L'ATTRAZIONE DEGLI INVESTIMENTI E LO SVILUPPO D'IMPRESA S.P.A.",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "startupbusiness.it",
+        "document": "https://www.startupbusiness.it/en/edutech-tutornow-closes-a-eur-1-million-round/145781/",
+        "date": "2025-05-06",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "forbes.it",
+        "document": "https://forbes.it/2025/05/07/tutornow-chiude-un-round-da-1-milione-di-euro-e-integra-lai-nella-sua-piattaforma/",
+        "date": "2025-05-07",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "c75d6a30-cc53-55ad-bef8-778b8be19bb9"
+     }
+    },
+    {
+     "id": "92865b98-2484-5a7f-8eb8-75a4a630dbb5",
+     "name": "Mario Peveraro",
+     "entity_type": "Person",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "startupbusiness.it",
+        "document": "https://www.startupbusiness.it/en/edutech-tutornow-closes-a-eur-1-million-round/145781/",
+        "date": "2025-05-06",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "forbes.it",
+        "document": "https://forbes.it/2025/05/07/tutornow-chiude-un-round-da-1-milione-di-euro-e-integra-lai-nella-sua-piattaforma/",
+        "date": "2025-05-07",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "is_lead": true,
+      "id": "607dcb01-66eb-5f33-aaa7-0b49937c5fa8"
+     }
+    },
+    {
+     "id": "ae7530e4-556e-4547-ba15-88a12fbcdcb1",
+     "name": "Techstars",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "startupbusiness.it",
+        "document": "https://www.startupbusiness.it/en/edutech-tutornow-closes-a-eur-1-million-round/145781/",
+        "date": "2025-05-06",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "forbes.it",
+        "document": "https://forbes.it/2025/05/07/tutornow-chiude-un-round-da-1-milione-di-euro-e-integra-lai-nella-sua-piattaforma/",
+        "date": "2025-05-07",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "81770343-5c0f-5c32-865e-87ed072bb42c"
+     }
+    },
+    {
+     "id": "f8a9b4a4-5e01-55a3-ab68-9c4757e90c6e",
+     "name": "KF-Invest Sagl",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "startupbusiness.it",
+        "document": "https://www.startupbusiness.it/en/edutech-tutornow-closes-a-eur-1-million-round/145781/",
+        "date": "2025-05-06",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "forbes.it",
+        "document": "https://forbes.it/2025/05/07/tutornow-chiude-un-round-da-1-milione-di-euro-e-integra-lai-nella-sua-piattaforma/",
+        "date": "2025-05-07",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "63c4b8c6-a62a-5fa2-8288-9e153121f8d7"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

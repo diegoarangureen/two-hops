@@ -1,0 +1,1152 @@
+{
+ "id": "a2be62fd-59e2-48d8-bb2b-c39b58391e6f",
+ "name": "Nadmed",
+ "entity_type": "Company",
+ "description": "NADMED helps clinicians and researchers measure NAD and glutathione accurately and cost-effectively, making metabolic health tracking accessible.",
+ "properties": {
+  "name": {
+   "value": "Nadmed",
+   "sources": [
+    {
+     "name": "portfolio - Nordic Science Investments | Unlocking the Power of Scientifically Transformative Research",
+     "document": "https://nordscience.fi/portfolio",
+     "date": "2025-01-15"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "NADMED Oy",
+   "sources": [
+    {
+     "name": "tietopalvelu.ytj.fi",
+     "document": "https://tietopalvelu.ytj.fi/yritys/3259265-3",
+     "date": "2026-06-09",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "aliases": {
+   "value": [],
+   "sources": []
+  },
+  "website": {
+   "value": "nadmed.com",
+   "sources": [
+    {
+     "name": "nadmed.com",
+     "document": "https://nadmed.com/",
+     "date": "2026-10-29",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "dns.google",
+     "document": "https://dns.google/query?name=nadmed.com&type=A",
+     "date": "2026-10-29",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "NADMED helps clinicians and researchers measure NAD and glutathione accurately and cost-effectively, making metabolic health tracking accessible.",
+   "sources": [
+    {
+     "name": "nadmed.com",
+     "document": "https://www.nadmed.com/",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2022-01-28",
+   "sources": [
+    {
+     "name": "tietopalvelu.ytj.fi",
+     "document": "https://tietopalvelu.ytj.fi/yritys/3259265-3",
+     "date": "2026-06-09",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "Tukholmankatu 8, 00290 Helsinki, Finland",
+   "sources": [
+    {
+     "name": "tietopalvelu.ytj.fi",
+     "document": "https://tietopalvelu.ytj.fi/yritys/3259265-3",
+     "date": "2026-06-09",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "tietopalvelu.ytj.fi",
+     "document": "https://tietopalvelu.ytj.fi/yritys/3259265-3",
+     "date": "2026-06-09",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "total_funding": {
+   "value": 5400000.0,
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2024/08/finnish-biotech-nadmed-raises-e3-5-million-series-a-for-vitamin-b3-deficiencies-testing/",
+     "date": "2024-08-22",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "nadmed.com",
+     "document": "https://www.nadmed.com/nadmed-secures-e3-5m-to-accelerate-international-sales-expansion/",
+     "date": "2024-08-22",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "news.cision.com",
+     "document": "https://news.cision.com/san-francisco-oy/r/nadmed-raises--3-5m-to-bring-nad-tests-to-international-markets--advancing-personalized-treatment-op,c4027281",
+     "date": "2024-08-22",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "voimaventures.com",
+     "document": "https://voimaventures.com/nadmed-investment-news/",
+     "date": "2022-10-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "nadmed.com",
+     "document": "https://www.nadmed.com/voima-ventures-to-back-nadmed/",
+     "date": "2022-10-06",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "nadmed.com",
+     "document": "https://www.nadmed.com/recognition-for-nadmed-technology/",
+     "date": "2023-07-10",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "total_funding_units": {
+   "value": "EUR",
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2024/08/finnish-biotech-nadmed-raises-e3-5-million-series-a-for-vitamin-b3-deficiencies-testing/",
+     "date": "2024-08-22",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "nadmed.com",
+     "document": "https://www.nadmed.com/nadmed-secures-e3-5m-to-accelerate-international-sales-expansion/",
+     "date": "2024-08-22",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "news.cision.com",
+     "document": "https://news.cision.com/san-francisco-oy/r/nadmed-raises--3-5m-to-bring-nad-tests-to-international-markets--advancing-personalized-treatment-op,c4027281",
+     "date": "2024-08-22",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "voimaventures.com",
+     "document": "https://voimaventures.com/nadmed-investment-news/",
+     "date": "2022-10-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "nadmed.com",
+     "document": "https://www.nadmed.com/voima-ventures-to-back-nadmed/",
+     "date": "2022-10-06",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "nadmed.com",
+     "document": "https://www.nadmed.com/recognition-for-nadmed-technology/",
+     "date": "2023-07-10",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "total_funding_excluding_debt": {
+   "value": 4400000.0,
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2024/08/finnish-biotech-nadmed-raises-e3-5-million-series-a-for-vitamin-b3-deficiencies-testing/",
+     "date": "2024-08-22",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "nadmed.com",
+     "document": "https://www.nadmed.com/nadmed-secures-e3-5m-to-accelerate-international-sales-expansion/",
+     "date": "2024-08-22",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "news.cision.com",
+     "document": "https://news.cision.com/san-francisco-oy/r/nadmed-raises--3-5m-to-bring-nad-tests-to-international-markets--advancing-personalized-treatment-op,c4027281",
+     "date": "2024-08-22",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "voimaventures.com",
+     "document": "https://voimaventures.com/nadmed-investment-news/",
+     "date": "2022-10-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "nadmed.com",
+     "document": "https://www.nadmed.com/voima-ventures-to-back-nadmed/",
+     "date": "2022-10-06",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "nadmed.com",
+     "document": "https://www.nadmed.com/recognition-for-nadmed-technology/",
+     "date": "2023-07-10",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "funding_stage": {
+   "value": "SERIES_A",
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2024/08/finnish-biotech-nadmed-raises-e3-5-million-series-a-for-vitamin-b3-deficiencies-testing/",
+     "date": "2024-08-22",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "07604459-a405-53b2-a1b5-c40d84aba0b5",
+     "name": "Seed",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "avoindata.prh.fi",
+        "document": "https://avoindata.prh.fi/opendata-registerednotices-api/v3/3259265-3",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       },
+       {
+        "name": "voimaventures.com",
+        "document": "https://voimaventures.com/nadmed-investment-news/",
+        "date": "2022-10-04",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "nadmed.com",
+        "document": "https://www.nadmed.com/voima-ventures-to-back-nadmed/",
+        "date": "2022-10-06",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "f4fbdac6-c1fb-5994-acd1-e4ed6d931811"
+     }
+    },
+    {
+     "id": "353c5255-efe0-510d-a5b1-3dcc22e1ae2a",
+     "name": "Grant",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "nadmed.com",
+        "document": "https://www.nadmed.com/recognition-for-nadmed-technology/",
+        "date": "2023-07-10",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "fdfd766f-26da-5bce-b8d1-453940b667a7"
+     }
+    },
+    {
+     "id": "ac163d41-630a-5ade-98c8-a7bb39d538c0",
+     "name": "Debt Financing",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "nadmed.com",
+        "document": "https://www.nadmed.com/recognition-for-nadmed-technology/",
+        "date": "2023-07-10",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "8bcbfefb-9371-55f9-9440-42acf7391d2e"
+     }
+    },
+    {
+     "id": "c5051823-fa84-572f-946c-978d69c89e9a",
+     "name": "Series A",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "eu-startups.com",
+        "document": "https://www.eu-startups.com/2024/08/finnish-biotech-nadmed-raises-e3-5-million-series-a-for-vitamin-b3-deficiencies-testing/",
+        "date": "2024-08-22",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "nadmed.com",
+        "document": "https://www.nadmed.com/nadmed-secures-e3-5m-to-accelerate-international-sales-expansion/",
+        "date": "2024-08-22",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "news.cision.com",
+        "document": "https://news.cision.com/san-francisco-oy/r/nadmed-raises--3-5m-to-bring-nad-tests-to-international-markets--advancing-personalized-treatment-op,c4027281",
+        "date": "2024-08-22",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "22f00db7-2794-593b-a1d4-1a19365ff932"
+     }
+    },
+    {
+     "id": "d1ec9643-c882-5f29-8237-a6e15cbe5da6",
+     "name": "Grant",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "nadmed.com",
+        "document": "https://www.nadmed.com/nadmed-secures-e3-5m-to-accelerate-international-sales-expansion/",
+        "date": "2024-08-22",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "news.cision.com",
+        "document": "https://news.cision.com/san-francisco-oy/r/nadmed-raises--3-5m-to-bring-nad-tests-to-international-markets--advancing-personalized-treatment-op,c4027281",
+        "date": "2024-08-22",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "12a11e59-00a8-5ee5-82e9-e1479d3d9b6f"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_CORPORATE_EVENT": [
+    {
+     "id": "5f1ba733-e178-4257-847c-96d714a62838",
+     "name": "FINANCING_RAISED_OR_FACILITY_ENTERED",
+     "entity_type": "PrivateCompanyFundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "pitchbook.com",
+        "document": "https://pitchbook.com/profiles/company/459204-31",
+        "date": "2026-08-25"
+       },
+       {
+        "name": "www.crunchbase.com",
+        "document": "https://www.crunchbase.com/organization/nadmed",
+        "date": "2026-08-25"
+       },
+       {
+        "name": "www.crunchbase.com",
+        "document": "https://www.crunchbase.com/funding_round/nadmed-series-a--f5503e9e",
+        "date": "2026-08-25"
+       }
+      ],
+      "id": "72fdf28b-76cf-41c3-83da-ba8e47bc01d4"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "275c8a2a-5662-5ec4-be0e-b705154ec869"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "211634f1-a4ff-46f8-a558-596235045d51",
+     "name": "BIOTECHNOLOGY",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "portfolio - Nordic Science Investments | Unlocking the Power of Scientifically Transformative Research",
+        "document": "https://nordscience.fi/portfolio",
+        "date": "2025-01-15"
+       }
+      ],
+      "id": "315b0008-2e69-47d9-86d1-9c6e7d11e68e"
+     }
+    },
+    {
+     "id": "211634f1-a4ff-46f8-a558-596235045d51",
+     "name": "BIOTECHNOLOGY",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/nadmed/?viewAsMember=true",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "4f74454b-df03-565d-9b10-859b3b6fc513",
+      "original_label": "biotech"
+     }
+    },
+    {
+     "id": "f37c835a-2bdc-4338-9d51-0b2ece520ffe",
+     "name": "MEDICAL_DEVICES",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "portfolio - Nordic Science Investments | Unlocking the Power of Scientifically Transformative Research",
+        "document": "https://nordscience.fi/portfolio",
+        "date": "2025-01-15"
+       }
+      ],
+      "id": "838f59ab-a321-4371-b7b8-970ded433211"
+     }
+    }
+   ],
+   "HAS_HEADQUARTERS_IN": [
+    {
+     "id": "680000b7-a490-418f-8098-9b1757db2e58",
+     "name": "Finland",
+     "entity_type": "Country",
+     "properties": {
+      "sources": [
+       {
+        "name": "portfolio - Nordic Science Investments | Unlocking the Power of Scientifically Transformative Research",
+        "document": "https://nordscience.fi/portfolio",
+        "date": "2025-01-15"
+       }
+      ],
+      "id": "15b2714a-f330-4b6d-9f55-0a9c1d11bff6"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "INVESTED_IN": [
+    {
+     "id": "1f973216-f1e5-4466-8409-da6608460c02",
+     "name": "Voima Ventures Oy",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "voimaventures.com",
+        "document": "https://voimaventures.com/portfolio",
+        "date": "2026-08-24"
+       }
+      ],
+      "id": "5864c8b2-e413-4ba2-b7fc-af8fa1b4f726"
+     }
+    },
+    {
+     "id": "6a72a8be-6a7c-4e61-a7fc-93a6d61df81f",
+     "name": "Helsinki University Funds",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "nadmed.com",
+        "document": "https://www.nadmed.com/nadmed-secures-e3-5m-to-accelerate-international-sales-expansion/",
+        "date": "2024-08-22",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "news.cision.com",
+        "document": "https://news.cision.com/san-francisco-oy/r/nadmed-raises--3-5m-to-bring-nad-tests-to-international-markets--advancing-personalized-treatment-op,c4027281",
+        "date": "2024-08-22",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "17a87cdd-f4ef-4425-83fb-19acaff58a5b"
+     }
+    },
+    {
+     "id": "8673db97-466e-4e7e-8417-a0ce1207bf9e",
+     "name": "Voima Ventures",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "eu-startups.com",
+        "document": "https://www.eu-startups.com/2024/08/finnish-biotech-nadmed-raises-e3-5-million-series-a-for-vitamin-b3-deficiencies-testing/",
+        "date": "2024-08-22",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "nadmed.com",
+        "document": "https://www.nadmed.com/nadmed-secures-e3-5m-to-accelerate-international-sales-expansion/",
+        "date": "2024-08-22",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "news.cision.com",
+        "document": "https://news.cision.com/san-francisco-oy/r/nadmed-raises--3-5m-to-bring-nad-tests-to-international-markets--advancing-personalized-treatment-op,c4027281",
+        "date": "2024-08-22",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "f982c668-7bb8-4c89-9278-18854fce3b62"
+     }
+    },
+    {
+     "id": "bed03492-8d26-4d36-8a22-f6f7758dd564",
+     "name": "Nordic Science Investments",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "portfolio - Nordic Science Investments | Unlocking the Power of Scientifically Transformative Research",
+        "document": "https://nordscience.fi/portfolio",
+        "date": "2025-01-15"
+       },
+       {
+        "name": "nadmed.com",
+        "document": "https://www.nadmed.com/nadmed-secures-e3-5m-to-accelerate-international-sales-expansion/",
+        "date": "2024-08-22",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "news.cision.com",
+        "document": "https://news.cision.com/san-francisco-oy/r/nadmed-raises--3-5m-to-bring-nad-tests-to-international-markets--advancing-personalized-treatment-op,c4027281",
+        "date": "2024-08-22",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "e20bd96b-6d61-4e77-8720-26d63e81c749"
+     }
+    },
+    {
+     "id": "d4d6548d-e22e-4759-8ad3-b31346c9c3b0",
+     "name": "CVX Ventures",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "pitchbook.com",
+        "document": "https://pitchbook.com/profiles/company/459204-31",
+        "date": "2026-08-25"
+       },
+       {
+        "name": "www.crunchbase.com",
+        "document": "https://www.crunchbase.com/organization/nadmed",
+        "date": "2026-08-25"
+       },
+       {
+        "name": "www.crunchbase.com",
+        "document": "https://www.crunchbase.com/funding_round/nadmed-series-a--f5503e9e",
+        "date": "2026-08-25"
+       }
+      ],
+      "id": "8dbec1ba-09c5-44b0-b131-e173a0162543"
+     }
+    },
+    {
+     "id": "d5b41639-eb27-43df-a6ee-a4f03807fbca",
+     "name": "Business Finland",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "pitchbook.com",
+        "document": "https://pitchbook.com/profiles/company/459204-31",
+        "date": "2026-08-25"
+       },
+       {
+        "name": "www.crunchbase.com",
+        "document": "https://www.crunchbase.com/organization/nadmed",
+        "date": "2026-08-25"
+       },
+       {
+        "name": "www.crunchbase.com",
+        "document": "https://www.crunchbase.com/funding_round/nadmed-series-a--f5503e9e",
+        "date": "2026-08-25"
+       }
+      ],
+      "id": "02291303-177e-4f5b-adc3-aef270b60a93"
+     }
+    }
+   ],
+   "FOUNDED": [
+    {
+     "id": "27192a4d-3819-5616-b7d0-b08cb4e33b0f",
+     "name": "Anu Suomalainen Wartiovaara",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "nadmed.com",
+        "document": "https://www.nadmed.com/about-us/",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "4af2558c-68c6-5a49-9bd2-6fe28509b549"
+     }
+    },
+    {
+     "id": "369c1b2b-e401-578b-a42b-a69802d2fc09",
+     "name": "Jana Buzkova",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "nadmed.com",
+        "document": "https://www.nadmed.com/about-us/",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "d81ffe3a-544c-5cab-87bf-e480cd7dc835"
+     }
+    },
+    {
+     "id": "77c8eeea-3cc2-5de6-987b-c40213578cab",
+     "name": "Liliya Euro",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "nadmed.com",
+        "document": "https://www.nadmed.com/about-us/",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "6d5691ba-df96-5e5c-b484-324f9491f266"
+     }
+    },
+    {
+     "id": "b8e1bb3f-2b3c-5c39-8e76-086d40faab48",
+     "name": "Jari Närhi",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "nadmed.com",
+        "document": "https://www.nadmed.com/wp-content/uploads/2026/04/James-Lee-press-release.pdf",
+        "date": "2026-04-29",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "news.cision.com",
+        "document": "https://news.cision.com/san-francisco-oy/r/nadmed-raises--3-5m-to-bring-nad-tests-to-international-markets--advancing-personalized-treatment-op,c4027281",
+        "date": "2024-08-22",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "993d35ba-30ba-51c7-b9ed-342a38733671"
+     }
+    }
+   ],
+   "IS_CEO_OF": [
+    {
+     "id": "7264fd9c-9397-5e79-b55b-15acc510726a",
+     "name": "James Lee",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "nadmed.com",
+        "document": "https://www.nadmed.com/about-us/",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "nadmed.com",
+        "document": "https://www.nadmed.com/nadmed-appoints-james-lee-as-ceo/",
+        "date": "2026-04-29",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "nadmed.com",
+        "document": "https://www.nadmed.com/wp-content/uploads/2026/04/James-Lee-press-release.pdf",
+        "date": "2026-04-29",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "61116c52-3a33-5c46-9e52-c7f70027fb1f",
+      "valid_since": "2026-05-01"
+     }
+    },
+    {
+     "id": "b8e1bb3f-2b3c-5c39-8e76-086d40faab48",
+     "name": "Jari Närhi",
+     "entity_type": "Person",
+     "properties": {
+      "valid_until": "2026-05-01",
+      "sources": [
+       {
+        "name": "nadmed.com",
+        "document": "https://www.nadmed.com/wp-content/uploads/2026/04/James-Lee-press-release.pdf",
+        "date": "2026-04-29",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "nadmed.com",
+        "document": "https://www.nadmed.com/nadmed-appoints-james-lee-as-ceo/",
+        "date": "2026-04-29",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "voimaventures.com",
+        "document": "https://voimaventures.com/nadmed-investment-news/",
+        "date": "2022-10-04",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "3ef49b74-ad8e-5bed-b1be-c957036bf444"
+     }
+    }
+   ],
+   "IS_BOARD_MEMBER_OF": [
+    {
+     "id": "011d2b86-6de0-5ad8-bbca-52274c0fc692",
+     "name": "Ilkka Salonen",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "nadmed.com",
+        "document": "https://www.nadmed.com/about-us/",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "nadmed.com",
+        "document": "https://www.nadmed.com/new-board-members/",
+        "date": "2022-04-21",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "1d07bda9-c72c-55cd-b07b-151cfa7ba73c",
+      "valid_since": "2022-04-01"
+     }
+    },
+    {
+     "id": "0321a218-746e-59e1-97c4-f9e3a51580b5",
+     "name": "Helen Messier",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "nadmed.com",
+        "document": "https://www.nadmed.com/about-us/",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "82447979-0de4-5377-8f47-7ebe966444f1"
+     }
+    },
+    {
+     "id": "0a17e082-1492-57eb-bdae-31e57f06f075",
+     "name": "Gert Hoogland",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "nadmed.com",
+        "document": "https://www.nadmed.com/about-us/",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "e3089e17-7d01-57a1-86e2-73f48648c336"
+     }
+    },
+    {
+     "id": "27192a4d-3819-5616-b7d0-b08cb4e33b0f",
+     "name": "Anu Suomalainen Wartiovaara",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "nadmed.com",
+        "document": "https://www.nadmed.com/about-us/",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "nadmed.com",
+        "document": "https://www.nadmed.com/new-board-members/",
+        "date": "2022-04-21",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "voimaventures.com",
+        "document": "https://voimaventures.com/nadmed-investment-news/",
+        "date": "2022-10-04",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "2c3f29e6-ad0c-5a90-aa22-4315658f442e"
+     }
+    },
+    {
+     "id": "2ae3a0c7-a215-5a3e-9d69-327b2dc45291",
+     "name": "Juha Tuominen",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "nadmed.com",
+        "document": "https://www.nadmed.com/about-us/",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "nadmed.com",
+        "document": "https://www.nadmed.com/new-board-members/",
+        "date": "2022-04-21",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "2b153598-56cb-5eeb-9378-7d945c7e3999",
+      "valid_since": "2022-04-01"
+     }
+    },
+    {
+     "id": "76606955-8cea-5ff8-a863-93c59c21d969",
+     "name": "Charles Brenner",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "nadmed.com",
+        "document": "https://www.nadmed.com/about-us/",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "f257a303-7895-5493-9e39-09007cb7e7b6"
+     }
+    },
+    {
+     "id": "9213dc02-b7f4-5e57-8793-563f4197c6a8",
+     "name": "Sebastian Soidinsalo",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "nadmed.com",
+        "document": "https://www.nadmed.com/about-us/",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "nadmed.com",
+        "document": "https://www.nadmed.com/new-board-members/",
+        "date": "2022-04-21",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "e66a1658-4922-58af-a604-c40e3b99e95a"
+     }
+    },
+    {
+     "id": "e3ea705c-c35a-5b27-9eae-77a8479213f5",
+     "name": "Rita Horvath",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "nadmed.com",
+        "document": "https://www.nadmed.com/about-us/",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "2be95359-2767-5588-b5e1-c0a30cef82f5"
+     }
+    }
+   ],
+   "WORKS_AT": [
+    {
+     "id": "26aa69d3-61bb-5a06-83b8-3d0691564749",
+     "name": "Sonja Jansson",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Laboratory Manager",
+      "sources": [
+       {
+        "name": "nadmed.com",
+        "document": "https://www.nadmed.com/about-us/",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "24864b3f-8a72-5c5c-a0e6-e9d999263f12"
+     }
+    },
+    {
+     "id": "369c1b2b-e401-578b-a42b-a69802d2fc09",
+     "name": "Jana Buzkova",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Head of Market Expansion",
+      "sources": [
+       {
+        "name": "nadmed.com",
+        "document": "https://www.nadmed.com/about-us/",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "d48503a0-d660-5f29-9793-19ba6961571d"
+     }
+    },
+    {
+     "id": "823f2509-a68d-511a-bfc5-ed4f70bf26ce",
+     "name": "Teija Kupari",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Senior Laboratory Analyst",
+      "sources": [
+       {
+        "name": "nadmed.com",
+        "document": "https://www.nadmed.com/about-us/",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "141f2bac-63e2-5a51-b449-d4d0d8035a41"
+     }
+    },
+    {
+     "id": "878b008e-70a0-5a28-b792-9c59a4c28d4b",
+     "name": "Konstantin Kogan",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Senior R&D Scientist, Automation & Digital Solutions",
+      "sources": [
+       {
+        "name": "nadmed.com",
+        "document": "https://www.nadmed.com/about-us/",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "f31a417c-3a4d-58fc-8149-63ecf6f3c5e2"
+     }
+    },
+    {
+     "id": "ab038132-475a-5a10-9d4b-722e2b375aed",
+     "name": "Julia Eriksson",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Laboratory Analyst",
+      "sources": [
+       {
+        "name": "nadmed.com",
+        "document": "https://www.nadmed.com/about-us/",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "4fc9d1ea-eb5a-5b07-b6fb-82b10830d367"
+     }
+    },
+    {
+     "id": "b044aa38-671f-502f-9167-eda7162f3323",
+     "name": "Sirpa Salo",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Quality Manager",
+      "sources": [
+       {
+        "name": "nadmed.com",
+        "document": "https://www.nadmed.com/about-us/",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "7c59695e-e3e2-533e-9f33-dfd08e6394f4"
+     }
+    },
+    {
+     "id": "c85dcb68-c900-54d6-8e89-9e4cec93ba38",
+     "name": "Henna Uusitalo",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Director, Marketing & Pharma Partnerships",
+      "sources": [
+       {
+        "name": "nadmed.com",
+        "document": "https://www.nadmed.com/about-us/",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "10e23251-ecec-55e2-90f0-1008be9ef72c"
+     }
+    },
+    {
+     "id": "d0b8fc1d-30cc-5c50-83fe-3749a7184ad2",
+     "name": "Jasmin Hietaranta",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Laboratory Analyst",
+      "sources": [
+       {
+        "name": "nadmed.com",
+        "document": "https://www.nadmed.com/about-us/",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "a9bba943-66f5-59b2-9fd3-1b17418c1ceb"
+     }
+    },
+    {
+     "id": "e89e1ef4-7230-56b3-9e0d-5c002d4f77b4",
+     "name": "Riikka Äänismaa",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Vice President, Medical Affairs & Pharma Partnerships",
+      "sources": [
+       {
+        "name": "nadmed.com",
+        "document": "https://www.nadmed.com/about-us/",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "98bbb221-c559-59be-9e71-630000a1d83c"
+     }
+    },
+    {
+     "id": "fdb34d88-e70f-5562-bb94-3fa16e9a8609",
+     "name": "Martina Liuhola",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Systems & Solutions Lead",
+      "sources": [
+       {
+        "name": "nadmed.com",
+        "document": "https://www.nadmed.com/about-us/",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "c6d6b143-265a-5c37-bbb8-9551862f6119"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

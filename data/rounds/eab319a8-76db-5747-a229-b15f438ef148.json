@@ -1,0 +1,161 @@
+{
+ "id": "eab319a8-76db-5747-a229-b15f438ef148",
+ "name": "Pre-Seed",
+ "entity_type": "FundingRound",
+ "description": null,
+ "properties": {
+  "name": {
+   "value": "Pre-Seed",
+   "sources": [
+    {
+     "name": "startupsmagazine.co.uk",
+     "document": "https://startupsmagazine.co.uk/article-innovestor-backs-finnish-spinouts-pioneering-neurological-treatments",
+     "date": "2024-09-22",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "bebeez.eu",
+     "document": "https://bebeez.eu/2024/09/24/innovestor-backs-finnish-spinouts-addressing-neurological-disorders-with-e10m-investment/",
+     "date": "2024-09-24",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "round_label": {
+   "value": "PRE_SEED",
+   "sources": [
+    {
+     "name": "startupsmagazine.co.uk",
+     "document": "https://startupsmagazine.co.uk/article-innovestor-backs-finnish-spinouts-pioneering-neurological-treatments",
+     "date": "2024-09-22",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "bebeez.eu",
+     "document": "https://bebeez.eu/2024/09/24/innovestor-backs-finnish-spinouts-addressing-neurological-disorders-with-e10m-investment/",
+     "date": "2024-09-24",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "instrument": {
+   "value": "EQUITY",
+   "sources": [
+    {
+     "name": "startupsmagazine.co.uk",
+     "document": "https://startupsmagazine.co.uk/article-innovestor-backs-finnish-spinouts-pioneering-neurological-treatments",
+     "date": "2024-09-22",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "announcement_date": {
+   "value": "2024-09-22",
+   "sources": [
+    {
+     "name": "startupsmagazine.co.uk",
+     "document": "https://startupsmagazine.co.uk/article-innovestor-backs-finnish-spinouts-pioneering-neurological-treatments",
+     "date": "2024-09-22",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "annotations": {
+   "value": [
+    "Disclosed name 'pre-seed round' (Startups Magazine 2024-09-22, BeBeez 2024-09-24).",
+    "round_label_stated:Pre-Seed"
+   ],
+   "sources": []
+  }
+ },
+ "relationships": {
+  "outgoing": {},
+  "incoming": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "53e80375-1967-4c14-b4e5-ac33b016e110",
+     "name": "Soihtu DTx",
+     "entity_type": "Company",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "startupsmagazine.co.uk",
+        "document": "https://startupsmagazine.co.uk/article-innovestor-backs-finnish-spinouts-pioneering-neurological-treatments",
+        "date": "2024-09-22",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "bebeez.eu",
+        "document": "https://bebeez.eu/2024/09/24/innovestor-backs-finnish-spinouts-addressing-neurological-disorders-with-e10m-investment/",
+        "date": "2024-09-24",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "a51c2a10-bf95-5da0-adec-04c7333ebbf4"
+     }
+    },
+    {
+     "id": "6a966907-4006-4a4b-8d11-2330f76cb3cd",
+     "name": "Innovestor Oy",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "startupsmagazine.co.uk",
+        "document": "https://startupsmagazine.co.uk/article-innovestor-backs-finnish-spinouts-pioneering-neurological-treatments",
+        "date": "2024-09-22",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "bebeez.eu",
+        "document": "https://bebeez.eu/2024/09/24/innovestor-backs-finnish-spinouts-addressing-neurological-disorders-with-e10m-investment/",
+        "date": "2024-09-24",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "is_lead": true,
+      "id": "e24335f4-12b7-5eb9-94f8-efaaa2d5adf1"
+     }
+    },
+    {
+     "id": "d3ae0dbf-6282-5e0f-ba10-c4a370f672fb",
+     "name": "NewFund HEKA",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "startupsmagazine.co.uk",
+        "document": "https://startupsmagazine.co.uk/article-innovestor-backs-finnish-spinouts-pioneering-neurological-treatments",
+        "date": "2024-09-22",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "bebeez.eu",
+        "document": "https://bebeez.eu/2024/09/24/innovestor-backs-finnish-spinouts-addressing-neurological-disorders-with-e10m-investment/",
+        "date": "2024-09-24",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "62d12b3c-b8dc-5529-936d-c873ee38348a"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

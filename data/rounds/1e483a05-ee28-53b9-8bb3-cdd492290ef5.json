@@ -1,0 +1,225 @@
+{
+ "id": "1e483a05-ee28-53b9-8bb3-cdd492290ef5",
+ "name": "Series A",
+ "entity_type": "FundingRound",
+ "description": null,
+ "properties": {
+  "name": {
+   "value": "Series A",
+   "sources": [
+    {
+     "name": "techfundingnews.com",
+     "document": "https://techfundingnews.com/bliq-secures-13-5m-to-expand-its-fairer-business-model-for-gig-economy-drivers-to-more-markets/",
+     "date": "2022-05-11",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "round_label": {
+   "value": "SERIES_A",
+   "sources": [
+    {
+     "name": "techfundingnews.com",
+     "document": "https://techfundingnews.com/bliq-secures-13-5m-to-expand-its-fairer-business-model-for-gig-economy-drivers-to-more-markets/",
+     "date": "2022-05-11",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "instrument": {
+   "value": "EQUITY",
+   "sources": [
+    {
+     "name": "techfundingnews.com",
+     "document": "https://techfundingnews.com/bliq-secures-13-5m-to-expand-its-fairer-business-model-for-gig-economy-drivers-to-more-markets/",
+     "date": "2022-05-11",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "transaction_value": {
+   "value": 13500000.0,
+   "sources": [
+    {
+     "name": "techfundingnews.com",
+     "document": "https://techfundingnews.com/bliq-secures-13-5m-to-expand-its-fairer-business-model-for-gig-economy-drivers-to-more-markets/",
+     "date": "2022-05-11",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "tech.eu",
+     "document": "https://tech.eu/2022/05/11/distributor-cap-for-gig-economy-drivers-bliq-ignites-135-million/",
+     "date": "2022-05-11",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "transaction_value_units": {
+   "value": "USD",
+   "sources": [
+    {
+     "name": "techfundingnews.com",
+     "document": "https://techfundingnews.com/bliq-secures-13-5m-to-expand-its-fairer-business-model-for-gig-economy-drivers-to-more-markets/",
+     "date": "2022-05-11",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "tech.eu",
+     "document": "https://tech.eu/2022/05/11/distributor-cap-for-gig-economy-drivers-bliq-ignites-135-million/",
+     "date": "2022-05-11",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "announcement_date": {
+   "value": "2022-05-11",
+   "sources": [
+    {
+     "name": "techfundingnews.com",
+     "document": "https://techfundingnews.com/bliq-secures-13-5m-to-expand-its-fairer-business-model-for-gig-economy-drivers-to-more-markets/",
+     "date": "2022-05-11",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "annotations": {
+   "value": [
+    "Round name as stated in the article.",
+    "round_label_stated:Series A"
+   ],
+   "sources": []
+  }
+ },
+ "relationships": {
+  "outgoing": {},
+  "incoming": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "006f57a2-d9c7-522c-b310-461efae89794",
+     "name": "Bliq",
+     "entity_type": "Company",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "techfundingnews.com",
+        "document": "https://techfundingnews.com/bliq-secures-13-5m-to-expand-its-fairer-business-model-for-gig-economy-drivers-to-more-markets/",
+        "date": "2022-05-11",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "96e531a0-6e46-5fdb-9e28-8cd8eec4c456"
+     }
+    },
+    {
+     "id": "1648ea7d-da95-5bb4-9db5-be3761b214a0",
+     "name": "Revel Venture Partners",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "techfundingnews.com",
+        "document": "https://techfundingnews.com/bliq-secures-13-5m-to-expand-its-fairer-business-model-for-gig-economy-drivers-to-more-markets/",
+        "date": "2022-05-11",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "22afb1f9-2741-5c6e-aed8-d70fc95632c6"
+     }
+    },
+    {
+     "id": "94e0ca6a-4e39-4181-bd84-11f264d0aa62",
+     "name": "Speedinvest GmbH",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "techfundingnews.com",
+        "document": "https://techfundingnews.com/bliq-secures-13-5m-to-expand-its-fairer-business-model-for-gig-economy-drivers-to-more-markets/",
+        "date": "2022-05-11",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "9a544e9b-6f84-57dc-96ba-830f406f375b"
+     }
+    },
+    {
+     "id": "cc0391db-bc0e-4017-8a49-88b6ea47b152",
+     "name": "Proeza Ventures",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "techfundingnews.com",
+        "document": "https://techfundingnews.com/bliq-secures-13-5m-to-expand-its-fairer-business-model-for-gig-economy-drivers-to-more-markets/",
+        "date": "2022-05-11",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "01742ea0-2884-56ec-8c7d-8f1eb19781a9"
+     }
+    },
+    {
+     "id": "ebbe115b-c26b-58b0-ad51-70e185c60d8e",
+     "name": "Andreas Kupke",
+     "entity_type": "Person",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "techfundingnews.com",
+        "document": "https://techfundingnews.com/bliq-secures-13-5m-to-expand-its-fairer-business-model-for-gig-economy-drivers-to-more-markets/",
+        "date": "2022-05-11",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2022/05/11/distributor-cap-for-gig-economy-drivers-bliq-ignites-135-million/",
+        "date": "2022-05-11",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "be6ca52d-7af8-5cbe-b591-a1d4a97c593a"
+     }
+    },
+    {
+     "id": "f4c35f2d-da4c-564d-8daa-317dc6e22241",
+     "name": "NEA",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "techfundingnews.com",
+        "document": "https://techfundingnews.com/bliq-secures-13-5m-to-expand-its-fairer-business-model-for-gig-economy-drivers-to-more-markets/",
+        "date": "2022-05-11",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "is_lead": true,
+      "id": "abd3a368-8293-5bd4-94b1-05dd9a56b9b5"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

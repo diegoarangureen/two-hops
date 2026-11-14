@@ -1,0 +1,370 @@
+{
+ "id": "b5e9aa2d-88a1-5398-9fdf-588f873e333b",
+ "name": "Pre-Seed",
+ "entity_type": "FundingRound",
+ "description": null,
+ "properties": {
+  "name": {
+   "value": "Pre-Seed",
+   "sources": [
+    {
+     "name": "moneycab.com",
+     "document": "https://www.moneycab.com/finanz/nextesy-sichert-sich-33-millionen-chf-pre-seed-finanzierung-fuer-geschaeftsverwaltung-mit-ki/",
+     "date": "2025-02-11",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "nextesy.com",
+     "document": "https://nextesy.com/en-ch/blog/nextesy-vs-bexio-best-accounting-software-switzerland-2026",
+     "date": "2026-11-09",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "zefix.admin.ch",
+     "document": "https://www.zefix.admin.ch/ZefixREST/api/v1/firm/1602369.json",
+     "date": "2026-03-09",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "aliases": {
+   "value": [
+    "Seed"
+   ],
+   "sources": []
+  },
+  "round_label": {
+   "value": "PRE_SEED",
+   "sources": [
+    {
+     "name": "moneycab.com",
+     "document": "https://www.moneycab.com/finanz/nextesy-sichert-sich-33-millionen-chf-pre-seed-finanzierung-fuer-geschaeftsverwaltung-mit-ki/",
+     "date": "2025-02-11",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "nextesy.com",
+     "document": "https://nextesy.com/en-ch/blog/nextesy-vs-bexio-best-accounting-software-switzerland-2026",
+     "date": "2026-11-09",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "zefix.admin.ch",
+     "document": "https://www.zefix.admin.ch/ZefixREST/api/v1/firm/1602369.json",
+     "date": "2026-03-09",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "instrument": {
+   "value": "PREFERRED_EQUITY",
+   "sources": [
+    {
+     "name": "zefix.admin.ch",
+     "document": "https://www.zefix.admin.ch/ZefixREST/api/v1/firm/1602369.json",
+     "date": "2026-03-09",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "zefix.admin.ch",
+     "document": "https://www.zefix.admin.ch/ZefixREST/api/v1/firm/1602369.json",
+     "date": "2026-03-09",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "transaction_value": {
+   "value": 3300000.0,
+   "sources": [
+    {
+     "name": "moneycab.com",
+     "document": "https://www.moneycab.com/finanz/nextesy-sichert-sich-33-millionen-chf-pre-seed-finanzierung-fuer-geschaeftsverwaltung-mit-ki/",
+     "date": "2025-02-11",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "nextesy.com",
+     "document": "https://nextesy.com/en-ch/blog/nextesy-vs-bexio-best-accounting-software-switzerland-2026",
+     "date": "2026-11-09",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "finder.techleap.nl",
+     "document": "https://finder.techleap.nl/news/feed/nextesy-secures-chf-3-3m-pre-seed-funding",
+     "date": "2026-11-09",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    },
+    {
+     "name": "nordic9.com",
+     "document": "https://nordic9.com/news/nextesy-raises-chf-33-million-with-fifth-quarter-ventures-and-angel-investors/",
+     "date": "2026-11-09",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    },
+    {
+     "name": "startuphub.unwe.bg",
+     "document": "https://startuphub.unwe.bg/bg/news/62901/backed-by-fifth-quarter-ventures-swiss-ai-startup-nextesy-raises-3-5m.html",
+     "date": "2025-02-17",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "finder.techleap.nl",
+     "document": "https://finder.techleap.nl/news/feed/nextesy-secures-3-5m-in-seed-funding",
+     "date": "2026-11-09",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "transaction_value_units": {
+   "value": "CHF",
+   "sources": [
+    {
+     "name": "moneycab.com",
+     "document": "https://www.moneycab.com/finanz/nextesy-sichert-sich-33-millionen-chf-pre-seed-finanzierung-fuer-geschaeftsverwaltung-mit-ki/",
+     "date": "2025-02-11",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "nextesy.com",
+     "document": "https://nextesy.com/en-ch/blog/nextesy-vs-bexio-best-accounting-software-switzerland-2026",
+     "date": "2026-11-09",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "finder.techleap.nl",
+     "document": "https://finder.techleap.nl/news/feed/nextesy-secures-chf-3-3m-pre-seed-funding",
+     "date": "2026-11-09",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    },
+    {
+     "name": "nordic9.com",
+     "document": "https://nordic9.com/news/nextesy-raises-chf-33-million-with-fifth-quarter-ventures-and-angel-investors/",
+     "date": "2026-11-09",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    },
+    {
+     "name": "startuphub.unwe.bg",
+     "document": "https://startuphub.unwe.bg/bg/news/62901/backed-by-fifth-quarter-ventures-swiss-ai-startup-nextesy-raises-3-5m.html",
+     "date": "2025-02-17",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "finder.techleap.nl",
+     "document": "https://finder.techleap.nl/news/feed/nextesy-secures-3-5m-in-seed-funding",
+     "date": "2026-11-09",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "announcement_date": {
+   "value": "2026-03-09",
+   "sources": [
+    {
+     "name": "zefix.admin.ch",
+     "document": "https://www.zefix.admin.ch/ZefixREST/api/v1/firm/1602369.json",
+     "date": "2026-03-09",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "event_date": {
+   "value": "2026-02-05",
+   "sources": [
+    {
+     "name": "zefix.admin.ch",
+     "document": "https://www.zefix.admin.ch/ZefixREST/api/v1/firm/1602369.json",
+     "date": "2026-03-09",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "annotations": {
+   "value": [
+    "Named 'Pre-Seed-Finanzierungsrunde' by the company release; the register's 2026 publication names the preferred classes 'Vorzugsaktien Pre-Seed 1' (48,128 shares) and 'Vorzugsaktien Pre-Seed 2' (22,858 shares). Techleap's 'seed' label for the same round is an aggregator convention.",
+    "round_label_stated:Pre-Seed",
+    "Disclosed name of the share class in the commercial register: 'Vorzugsaktien Seed'.",
+    "round_label_stated:Seed"
+   ],
+   "sources": []
+  }
+ },
+ "relationships": {
+  "outgoing": {},
+  "incoming": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "01272a9a-df9d-49b7-a3f3-4258a7e52c1e",
+     "name": "Nextesy",
+     "entity_type": "Company",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "moneycab.com",
+        "document": "https://www.moneycab.com/finanz/nextesy-sichert-sich-33-millionen-chf-pre-seed-finanzierung-fuer-geschaeftsverwaltung-mit-ki/",
+        "date": "2025-02-11",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "nextesy.com",
+        "document": "https://nextesy.com/en-ch/blog/nextesy-vs-bexio-best-accounting-software-switzerland-2026",
+        "date": "2026-11-09",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "zefix.admin.ch",
+        "document": "https://www.zefix.admin.ch/ZefixREST/api/v1/firm/1602369.json",
+        "date": "2026-03-09",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "1416bd04-8ac0-5fac-8ea6-88eb4aa57191"
+     }
+    },
+    {
+     "id": "1e944613-add4-48c4-a759-4ef96a07e468",
+     "name": "SICTIC",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "vcbacked.co",
+        "document": "https://www.vcbacked.co/company/nextesy",
+        "date": "2025-02-11",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       },
+       {
+        "name": "finder.techleap.nl",
+        "document": "https://finder.techleap.nl/news/feed/nextesy-secures-3-5m-in-seed-funding",
+        "date": "2026-11-09",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "5c7dd266-6067-51be-bfda-a6fb749f9391"
+     }
+    },
+    {
+     "id": "e9b93bf9-98dc-4fba-b045-d87a3a55ed01",
+     "name": "Fifth Quarter Oy",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "moneycab.com",
+        "document": "https://www.moneycab.com/finanz/nextesy-sichert-sich-33-millionen-chf-pre-seed-finanzierung-fuer-geschaeftsverwaltung-mit-ki/",
+        "date": "2025-02-11",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "mondaq.com",
+        "document": "https://www.mondaq.com/pressrelease/158344/schoenherr-advises-fifth-quarter-ventures-on-its-investment-in-nextesy",
+        "date": "2025-02-14",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "finder.techleap.nl",
+        "document": "https://finder.techleap.nl/news/feed/nextesy-secures-chf-3-3m-pre-seed-funding",
+        "date": "2026-11-09",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       },
+       {
+        "name": "nordic9.com",
+        "document": "https://nordic9.com/news/nextesy-raises-chf-33-million-with-fifth-quarter-ventures-and-angel-investors/",
+        "date": "2026-11-09",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "is_lead": true,
+      "id": "311f0b7d-1ea4-5ea7-9189-d09fa526396a"
+     }
+    }
+   ],
+   "IS_TRANCHE_OF": [
+    {
+     "id": "8ca788b7-baab-591d-8df0-56c8a2069654",
+     "name": "Tranche 1",
+     "entity_type": "FundingRoundTranche",
+     "properties": {
+      "sources": [
+       {
+        "name": "zefix.admin.ch",
+        "document": "https://www.zefix.admin.ch/ZefixREST/api/v1/firm/1602369.json",
+        "date": "2024-08-02",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "4e1a96d6-14e3-586c-a8bf-89677f30509a"
+     }
+    },
+    {
+     "id": "a6d6fb38-f3fd-5fb7-b2ca-ad7faeac9a33",
+     "name": "Tranche 3",
+     "entity_type": "FundingRoundTranche",
+     "properties": {
+      "sources": [
+       {
+        "name": "zefix.admin.ch",
+        "document": "https://www.zefix.admin.ch/ZefixREST/api/v1/firm/1602369.json",
+        "date": "2025-08-08",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "e0e44e2b-7357-5522-813f-41d15c5c0b7c"
+     }
+    },
+    {
+     "id": "e55c6201-0a70-559b-bad8-0379b610862e",
+     "name": "Tranche 2",
+     "entity_type": "FundingRoundTranche",
+     "properties": {
+      "sources": [
+       {
+        "name": "zefix.admin.ch",
+        "document": "https://www.zefix.admin.ch/ZefixREST/api/v1/firm/1602369.json",
+        "date": "2025-01-09",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "7c7692e6-e3f5-560b-b96a-d1e2ff226226"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

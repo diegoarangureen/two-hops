@@ -40,6 +40,14 @@ LEGAL_SUFFIXES = {"inc", "ltd", "limited", "gmbh", "ag", "oy", "oyj", "ab", "sas
                   "llp", "sarl", "sp", "zoo", "ehf", "sia", "doo", "kft", "ltda", "incorporated", "corporation"}
 SAME_FINANCING_DAYS = 45  # a FundingRound and a filing event of the same company this close are one financing
 PAGE_LIMIT = 1000  # Cala returns at most this many items per relationship; a list this long is cut short
+INVESTOR_INDUSTRIES = ("VENTURE_CAPITAL", "ASSET_MANAGEMENT", "PRIVATE_EQUITY")
+CLEAR_DEGREE_GAP = 3  # INVESTED_IN recorded both ways: this many more out-edges on one side makes it the clear investor
+# a shared neighbour of one of these types corroborates a Company/Organization pair; industries, places and the
+# event are shared by thousands of unrelated companies and say nothing
+CORROBORATING_TYPES = ORG_TYPES | ROUND_TYPES | {"Person", "DomainName", "FundingRoundTranche", "CorporateEvent"}
+INVESTOR_NAME = re.compile(r"\b(ventures?|capital|vc|invest\w*|funds?|angels?|accelerator|incubator|family\s+office)\b",
+                           re.IGNORECASE)
+MAX_EXAMPLES = 20
 
 
 def norm_name(name):
@@ -52,7 +60,9 @@ def norm_name(name):
 
 
 def domain(value):
-    v = (value or "").strip().lower()
+    if isinstance(value, list):
+        value = value[0] if value else ""
+    v = str(value or "").strip().lower()
     v = re.sub(r"^https?://", "", v).split("/")[0]
     return v[4:] if v.startswith("www.") else v
 
@@ -138,17 +148,27 @@ class Builder:
 
 def merge_duplicates(b, attendee_ids):
     """Cala can hold one real organisation twice, once as a Company and once as an Organization.
-    Such a pair is merged when the names are identical after normalisation and the pairing is unambiguous:
-    exactly one record of each type carries the name. Two records of the same type with the same name are
-    left alone, because Cala models legal entities one by one and they may be different companies.
-    Returns {duplicate id: kept id} and the list of merged pairs."""
+    Such a pair is merged only when all of this holds:
+      - the names are identical after normalisation and exactly one record of each type carries the name
+        (two records of the same type are never merged: Cala models legal entities one by one);
+      - not both records are attendees, and their websites (when both give one) do not differ;
+      - something corroborates that they are one organisation: (a) both are neighbours of the same third entity
+        through the same relationship type in the same direction (one investor's portfolio listing the company
+        once per type), or (b) both profiles are loaded and give the same website domain.
+    A name match alone is not enough: a same-name Organization in some investor's portfolio may be an unrelated
+    company, and merging it would show that investor as funding the attendee.
+    Returns {duplicate id: kept id}, the list of merged pairs and the uncorroborated pairs left apart."""
     groups = collections.defaultdict(list)
     for n in b.nodes.values():
         if n["type"] in ORG_TYPES and n["name"]:
             k = norm_name(n["name"])
             if len(k) >= 3:
                 groups[k].append(n)
-    redirect, merged = {}, []
+
+    def site(n):
+        return domain((n["props"].get("website") or {}).get("value"))
+
+    candidates = []
     for k, ns in groups.items():
         if len(ns) < 2:
             continue
@@ -159,9 +179,38 @@ def merge_duplicates(b, attendee_ids):
         if sum(1 for n in ns if n["id"] in attendee_ids) > 1:
             b.notes["same_name_kept_apart_both_attendees"] += 1
             continue
-        sites = {domain((n["props"].get("website") or {}).get("value")) for n in ns if n["props"].get("website")}
-        if len(sites - {""}) > 1:
+        if len({site(n) for n in ns} - {""}) > 1:
             b.notes["same_name_kept_apart_different_websites"] += 1
+            continue
+        candidates.append(ns)
+
+    # neighbour signatures (relationship type, direction, third entity), for the candidate records only: one pass
+    pair_of = {n["id"]: {m["id"] for m in ns} for ns in candidates for n in ns}
+    sig = collections.defaultdict(set)
+    for e in b.edges.values():
+        for me, other, d in ((e["from"], e["to"], "out"), (e["to"], e["from"], "in")):
+            if me in pair_of and other not in pair_of[me] and b.nodes[other]["type"] in CORROBORATING_TYPES:
+                sig[me].add((e["type"], d, other))
+
+    redirect, merged, apart = {}, [], []
+    for ns in candidates:
+        x, y = ns
+        shared = sorted(sig[x["id"]] & sig[y["id"]])
+        basis = None
+        if shared:
+            rel, d, other = shared[0]
+            on = b.nodes[other]
+            who = f"{on['name']} ({on['type']} {other})"
+            basis = (f"both records have a {rel} relationship to {who}" if d == "out"
+                     else f"{who} has a {rel} relationship to both records")
+            if len(shared) > 1:
+                basis += f", and {len(shared) - 1} more shared neighbour(s)"
+        elif x["loaded"] and y["loaded"] and site(x) and site(x) == site(y):
+            basis = f"both profiles are loaded and give the website domain {site(x)}"
+        if basis is None:
+            b.notes["same_name_kept_apart_uncorroborated"] += 1
+            apart.append({"name": x["name"], "records": [{"id": n["id"], "type": n["type"], "name": n["name"]}
+                                                          for n in sorted(ns, key=lambda n: n["id"])]})
             continue
         ns.sort(key=lambda n: (n["id"] not in attendee_ids, not n["loaded"], n["type"] != "Company", n["id"]))
         keep = ns[0]
@@ -173,34 +222,48 @@ def merge_duplicates(b, attendee_ids):
             keep["loaded"] = keep["loaded"] or n["loaded"]
         merged.append({"kept": keep["id"], "name": keep["name"], "records": keep["merged"],
                        "basis": "one Company and one Organization with the same name after removing case, "
-                                "punctuation and legal form"})
+                                "punctuation and legal form; corroborated: " + basis})
     for dup in redirect:
         del b.nodes[dup]
-    # re-point edges; two Cala edges that now join the same pair become one edge that remembers both ids
+
+    # Re-point edges. Two edges that became parallel only because an endpoint was re-pointed are one Cala fact
+    # seen from both records: they become one edge that remembers both ids, provided their properties agree
+    # (is_lead aside). Edges that were already parallel before the merge are distinct Cala facts (a current and
+    # a past stint, say) and are never collapsed.
     out = {}
     for e in b.edges.values():
+        orig = (e["from"], e["to"])
         a, c = redirect.get(e["from"], e["from"]), redirect.get(e["to"], e["to"])
         if a == c:
             b.notes["self_edges_dropped_after_merge"] += 1
             continue
-        key = (e["type"], a, c, e["props"].get("role"))
-        if key in out:
-            o = out[key]
+        e["from"], e["to"] = a, c
+        kept = out.setdefault((e["type"], a, c, e["props"].get("role")), [])
+        mine = {k: v for k, v in e["props"].items() if k != "is_lead"}
+        for o in kept:
+            if orig in o["_origs"]:
+                continue  # parallel already before the merge: a distinct fact
+            if {k: v for k, v in o["props"].items() if k != "is_lead"} != mine:
+                b.notes["parallel_edges_kept_apart_props_differ"] += 1
+                continue
             o.setdefault("cala_ids", [o["id"]]).append(e["id"])
+            o["_origs"].add(orig)
             for s in e["sources"]:
                 if s not in o["sources"]:
                     o["sources"].append(s)
-            for pk, pv in e["props"].items():
-                if pk == "is_lead":
-                    o["props"]["is_lead"] = bool(o["props"].get("is_lead")) or bool(pv)
-                else:
-                    o["props"].setdefault(pk, pv)
+            if "is_lead" in e["props"] or "is_lead" in o["props"]:
+                o["props"]["is_lead"] = bool(o["props"].get("is_lead")) or bool(e["props"].get("is_lead"))
             b.notes["parallel_edges_merged"] += 1
+            break
         else:
-            e["from"], e["to"] = a, c
-            out[key] = e
-    b.edges = {e["id"]: e for e in out.values()}
-    return redirect, merged
+            e["_origs"] = {orig}
+            kept.append(e)
+    b.edges = {}
+    for kept in out.values():
+        for e in kept:
+            del e["_origs"]
+            b.edges[e["id"]] = e
+    return redirect, merged, apart
 
 
 def flag_rounds(b):
@@ -218,56 +281,155 @@ def flag_rounds(b):
     return inferred
 
 
-def flag_investment_direction(b):
-    """INVESTED_IN recorded both ways between the same pair: one of the two is the wrong way round.
-    The one pointing at the party that holds more investments is flagged and not used for paths."""
-    out_deg = collections.Counter(e["from"] for e in b.edges.values() if e["type"] == "INVESTED_IN")
-    pairs = {(e["from"], e["to"]): e for e in b.edges.values() if e["type"] == "INVESTED_IN"}
-    flagged = []
-    for (a, c), e in pairs.items():
-        back = pairs.get((c, a))
-        if not back:
+def flag_round_labels(b):
+    """A FundingRound into which Cala folded several financings: its name, its aliases and its
+    round_label_stated: annotations name more than one label. Its amount and date may come from different
+    financings, so the app must not state them together."""
+    several = []
+    for n in b.nodes.values():
+        if n["type"] not in ROUND_TYPES or not n["loaded"]:
             continue
-        e["reciprocal"] = True
-        if out_deg[a] < out_deg[c] or (out_deg[a] == out_deg[c] and a > c):
-            e["suspect_inverted"] = True
-            flagged.append({"edge": e["id"], "from": b.nodes[a]["name"], "to": b.nodes[c]["name"],
-                            "basis": f"also recorded the other way; {b.nodes[c]['name']} holds {out_deg[c]} "
-                                     f"investments, {b.nodes[a]['name']} holds {out_deg[a]}"})
+        raw = [n["name"]]
+        aliases = (n["props"].get("aliases") or {}).get("value") or []
+        raw += aliases if isinstance(aliases, list) else [aliases]
+        ann = (n["props"].get("annotations") or {}).get("value") or []
+        for a in ann if isinstance(ann, list) else [ann]:
+            a = str(a)
+            if a.startswith("round_label_stated:"):
+                raw.append(a[len("round_label_stated:"):])
+        labels = {}
+        for lab in raw:
+            lab = str(lab or "").strip()
+            if lab:
+                labels.setdefault(lab.casefold(), lab)
+        if len(labels) > 1:
+            n["several_labels"] = sorted(labels.values(), key=str.casefold)
+            several.append({"id": n["id"], "name": n["name"], "labels": n["several_labels"]})
+    return several
+
+
+def investor_industries(b):
+    """{entity id: [investor industries Cala files it under]} from OPERATES_IN_INDUSTRY."""
+    out = collections.defaultdict(set)
+    for e in b.edges.values():
+        if e["type"] == "OPERATES_IN_INDUSTRY" and b.nodes[e["to"]]["name"] in INVESTOR_INDUSTRIES:
+            out[e["from"]].add(b.nodes[e["to"]]["name"])
+    return {k: sorted(v) for k, v in out.items()}
+
+
+def flag_investment_direction(b, vc):
+    """INVESTED_IN recorded both ways between the same pair: one of the two is the wrong way round.
+    The direction pointing at the clear investor is flagged suspect_inverted and not used for paths. The
+    investor is clear only when one side is filed under an investor industry and the other is not, or one side
+    holds at least CLEAR_DEGREE_GAP more INVESTED_IN out-edges, and these two signs do not disagree. The count
+    does not count when the side it favours is filed only under non-investor industries, or when only the other
+    side's name reads as an investor's (a loaded startup profile lists its investors as out-edges). Otherwise
+    both directions are flagged suspect_inverted and direction_unclear, so neither is used."""
+    inv = [e for e in b.edges.values() if e["type"] == "INVESTED_IN"]
+    out_deg = collections.Counter(e["from"] for e in inv)
+    filed = {e["from"] for e in b.edges.values() if e["type"] == "OPERATES_IN_INDUSTRY"}
+    by_pair = collections.defaultdict(list)
+    for e in inv:
+        by_pair[(e["from"], e["to"])].append(e)
+    flagged = []
+
+    def item(e, basis, unclear=False):
+        it = {"edge": e["id"], "from": b.nodes[e["from"]]["name"], "to": b.nodes[e["to"]]["name"], "basis": basis}
+        if unclear:
+            it["direction_unclear"] = True
+        return it
+
+    for (a, c) in sorted(by_pair):
+        if a > c or (c, a) not in by_pair:
+            continue  # each unordered pair once; the order here decides nothing
+        both = by_pair[(a, c)] + by_pair[(c, a)]
+        for e in both:
+            e["reciprocal"] = True
+        na, nc = b.nodes[a]["name"], b.nodes[c]["name"]
+        by_ind = a if a in vc and c not in vc else c if c in vc and a not in vc else None
+        gap = out_deg[a] - out_deg[c]
+        by_deg = a if gap >= CLEAR_DEGREE_GAP else c if -gap >= CLEAR_DEGREE_GAP else None
+        degrees = f"{na} holds {out_deg[a]} investments, {nc} holds {out_deg[c]}"
+        # Out-degree counts only what is loaded, and a loaded startup profile often lists its own investors as
+        # INVESTED_IN out-edges (Cala's inversion), so the count is void when the side it favours is filed only
+        # under non-investor industries, or when only the other side's name reads as an investor's.
+        void = None
+        if by_deg:
+            other = c if by_deg == a else a
+            if by_deg in filed and by_deg not in vc:
+                void = f"{b.nodes[by_deg]['name']} is filed only under non-investor industries"
+            elif INVESTOR_NAME.search(b.nodes[other]["name"] or "") and not INVESTOR_NAME.search(b.nodes[by_deg]["name"] or ""):
+                void = f"the name {b.nodes[other]['name']} reads as an investor's"
+            if void:
+                by_deg = None
+        industry = (f"{b.nodes[by_ind]['name']} is filed under {', '.join(vc[by_ind])} and "
+                    f"{nc if by_ind == a else na} is not") if by_ind else None
+        if by_ind and by_deg and by_ind != by_deg:
+            investor = None
+        else:
+            investor = by_ind or by_deg
+        if investor:
+            reasons = "; ".join(r for r in (industry, degrees) if r)
+            for e in both:
+                if e["to"] == investor:
+                    e["suspect_inverted"] = True
+                    flagged.append(item(e, f"also recorded the other way; {b.nodes[investor]['name']} is the clear "
+                                           f"investor: {reasons}"))
+        else:
+            why = (f"the signs disagree ({industry}, but {degrees})" if by_ind and by_deg
+                   else f"no clear sign ({degrees}" + (f", which does not count because {void}" if void else "") +
+                        f"; {'both' if a in vc and c in vc else 'neither'} filed under an investor industry)")
+            for e in both:
+                e["suspect_inverted"] = True
+                e["direction_unclear"] = True
+                flagged.append(item(e, f"recorded both ways and it is not clear which side is the investor: {why}; "
+                                       f"neither direction is used for paths", unclear=True))
     return flagged, out_deg
 
 
 def flag_double_financings(b):
     """One financing can be a FundingRound (from announcements) and a PrivateCompanyFundingRound (from filings).
-    For each company, a filing event within SAME_FINANCING_DAYS of one of its rounds is marked as the same
-    financing, so nothing downstream counts it twice."""
-    by_company = collections.defaultdict(lambda: {"rounds": [], "events": []})
+    For each company, a filing event whose event_date lies within SAME_FINANCING_DAYS of one of its rounds' own
+    event_date or announcement_date (so only loaded rounds can match) is marked as the same financing as the
+    closest such round, so nothing downstream counts it twice. Source dates are never used: they are often the
+    day Cala read the page. A tie between two rounds is left unmatched."""
+    by_company = collections.defaultdict(lambda: {"rounds": {}, "events": {}})
     for e in b.edges.values():
         t = b.nodes[e["to"]]
         if e["type"] == "PARTICIPATES_IN_FUNDING_ROUND" and t["type"] == "FundingRound" and e["props"].get("role") == "ISSUER":
-            by_company[e["from"]]["rounds"].append((e, t))
+            by_company[e["from"]]["rounds"][t["id"]] = t
         elif e["type"] == "PARTICIPATES_IN_CORPORATE_EVENT" and t["type"] == "PrivateCompanyFundingRound" \
                 and e["props"].get("role") in (None, "ISSUER"):
-            by_company[e["from"]]["events"].append((e, t))
+            by_company[e["from"]]["events"].setdefault(t["id"], (e, t))
     found = []
     for cid, g in by_company.items():
-        for ee, ev in g["events"]:
-            d_ev = parse_date(ee["props"].get("event_date"))
-            if not d_ev:
-                continue
-            for re_, rd in g["rounds"]:
-                p = rd["props"]
-                d_r = parse_date((p.get("event_date") or {}).get("value")) or parse_date((p.get("announcement_date") or {}).get("value"))
-                basis = "round date"
-                if not d_r:  # round not loaded: fall back to the earliest source date on its link
-                    ds = [parse_date(b.sources[s]["date"]) for s in re_["sources"]]
-                    ds = [d for d in ds if d]
-                    d_r, basis = (min(ds) if ds else None), "earliest source date of the round link"
-                if d_r and abs((d_ev - d_r).days) <= SAME_FINANCING_DAYS:
-                    ev["same_financing_as"] = rd["id"]
-                    found.append({"company": b.nodes[cid]["name"], "round": rd["id"], "filing_event": ev["id"],
-                                  "basis": f"dates {abs((d_ev - d_r).days)} days apart ({basis})"})
+        dated = []
+        for rd in g["rounds"].values():
+            for field in ("event_date", "announcement_date"):
+                d = parse_date((rd["props"].get(field) or {}).get("value"))
+                if d:
+                    dated.append((rd, d, field))
                     break
+        if not dated:
+            continue
+        for _, (ee, ev) in sorted(g["events"].items()):
+            d_ev = parse_date(ee["props"].get("event_date"))
+            if not d_ev or ev.get("same_financing_as"):
+                continue
+            near = sorted((abs((d_ev - d).days), rd["id"], rd, d, field) for rd, d, field in dated
+                          if abs((d_ev - d).days) <= SAME_FINANCING_DAYS)
+            if not near:
+                continue
+            if len(near) > 1 and near[0][0] == near[1][0]:
+                b.notes["filing_event_equally_close_to_two_rounds_left_unmatched"] += 1
+                continue
+            days, _, rd, d_r, field = near[0]
+            ev["same_financing_as"] = rd["id"]
+            amounts = ("amounts were not compared" if ev["loaded"] else
+                       "amounts could not be compared because the filing event's own record is not loaded")
+            found.append({"company": b.nodes[cid]["name"], "round": rd["id"], "filing_event": ev["id"],
+                          "basis": f"dates {days} days apart (round {field} {d_r}, filing event_date {d_ev}; the "
+                                   f"closest of {len(near)} round(s) within {SAME_FINANCING_DAYS} days); {amounts}"})
     return found
 
 
@@ -297,14 +459,14 @@ def main():
     ev = b.node(SLUSH_2026, "Slush 2026", "Event")
     att_sources = collections.Counter()
     attendees, edge_id_mismatch = [], 0
+    attending = {e["from"] for e in b.edges.values() if e["type"] == "PARTICIPATES_IN_EVENT" and e["to"] == SLUSH_2026}
     for a in att:
         p = a.get("properties") or {}
         s = b.src(p.get("sources"))
         att_sources[tuple(s)] += 1
         attendees.append([a["id"], a["name"], a["entity_type"], p.get("role"), p.get("id"), s])
         seen = b.edges.get(p.get("id"))
-        if a["id"] in b.nodes and b.nodes[a["id"]]["loaded"] and not seen and any(
-                e["type"] == "PARTICIPATES_IN_EVENT" and e["from"] == a["id"] and e["to"] == SLUSH_2026 for e in b.edges.values()):
+        if a["id"] in b.nodes and b.nodes[a["id"]]["loaded"] and not seen and a["id"] in attending:
             edge_id_mismatch += 1
     # drop per-profile copies of the attendance edge: the attendee list is the one place it lives
     b.edges = {k: e for k, e in b.edges.items() if not (e["type"] == "PARTICIPATES_IN_EVENT" and e["to"] == SLUSH_2026)}
@@ -313,17 +475,17 @@ def main():
         if tuple(row[5]) == common:
             row.pop()
 
-    redirect, merged = merge_duplicates(b, attendee_ids)
+    redirect, merged, apart = merge_duplicates(b, attendee_ids)
     inferred = flag_rounds(b)
-    inverted, out_deg = flag_investment_direction(b)
+    several = flag_round_labels(b)
+    vc = investor_industries(b)
+    inverted, out_deg = flag_investment_direction(b, vc)
     double = flag_double_financings(b)
 
     # attendees that now sit under another id after the merge keep pointing at the kept record
     for row in attendees:
         if row[0] in redirect:
             b.notes["attendee_ids_redirected"] += 1
-    vc = {e["from"] for e in b.edges.values() if e["type"] == "OPERATES_IN_INDUSTRY"
-          and b.nodes[e["to"]]["name"] in ("VENTURE_CAPITAL", "ASSET_MANAGEMENT", "PRIVATE_EQUITY")}
     backs = collections.Counter(e["from"] for e in b.edges.values() if e["type"] == "PARTICIPATES_IN_FUNDING_ROUND"
                                 and e["props"].get("role") in ("INVESTOR", "LENDER"))
     for n in b.nodes.values():
@@ -332,9 +494,22 @@ def main():
         if out_deg[n["id"]]:
             n["investments"] = out_deg[n["id"]]
         # an attendee that is itself an investor is not a peer startup: it holds several investments, backs
-        # several rounds, or Cala files it under venture capital
-        if out_deg[n["id"]] >= 3 or backs[n["id"]] >= 2 or n["id"] in vc:
+        # several rounds, Cala files it under an investor industry, or (attendees only) its name says so. This
+        # only ever excludes an attendee from being a peer; it is not shown as a fact about the entity.
+        names = [n["name"]] + [m["name"] for m in n.get("merged", [])]
+        if out_deg[n["id"]] >= 3:
+            basis = f"holds {out_deg[n['id']]} investments"
+        elif backs[n["id"]] >= 2:
+            basis = f"backed {backs[n['id']]} rounds"
+        elif n["id"] in vc:
+            basis = f"filed under {', '.join(vc[n['id']])}"
+        elif n.get("attendee") and any(INVESTOR_NAME.search(x or "") for x in names):
+            basis = "name"
+        else:
+            basis = None
+        if basis:
             n["investor_like"] = True
+            n["investor_like_basis"] = basis
 
     log = [json.loads(line) for line in (DATA / "cala_calls.jsonl").read_text(encoding="utf-8").splitlines() if line.strip()] \
         if (DATA / "cala_calls.jsonl").exists() else []
@@ -364,6 +539,10 @@ def main():
             "inferred_round_labels": inferred,
             "investment_recorded_both_ways": inverted,
             "financing_recorded_twice": double,
+            "rounds_with_several_labels": several,
+            "same_name_left_apart": {"count": len(apart), "examples": apart[:MAX_EXAMPLES],
+                                     "basis": "one Company and one Organization with the same name, left apart "
+                                              "because nothing corroborates that they are one organisation"},
             "notes": dict(b.notes),
         },
         "redirect": redirect,
@@ -382,7 +561,8 @@ def main():
     print(f"  edges {c['edges']} {c['edges_by_type']}")
     print(f"  sources {c['sources']} {c['sources_by_rank']}")
     print(f"  traps: {len(merged)} merged duplicate groups, {len(inferred)} inferred round labels, "
-          f"{len(inverted)} investments recorded both ways, {len(double)} financings recorded twice; notes {dict(b.notes)}")
+          f"{len(inverted)} investments recorded both ways, {len(double)} financings recorded twice, "
+          f"{len(several)} rounds with several labels, {len(apart)} same-name pairs left apart; notes {dict(b.notes)}")
     if edge_id_mismatch:
         print(f"  warning: {edge_id_mismatch} loaded attendees whose attendance edge id differs from the attendee list")
     if "--check" in sys.argv:
@@ -390,36 +570,58 @@ def main():
 
 
 def check(graph, att):
-    """Independent re-read of the cache: every edge and property value in the graph must exist in a cached response."""
+    """Independent re-read of the cache. Every edge, and every Cala id it carries, must be a cached relationship
+    with that id that joins the same two entities (after the merge redirect), in the same direction, with the same
+    relationship type. Every property value of an unmerged node must equal the cached value."""
     redirect = graph["meta"]["redirect"]
-    raw_edges, raw_props = set(), {}
+    raw_edges, raw_props = collections.defaultdict(set), {}
     for sub in ("companies", "investors", "rounds"):
         for f in sorted((DATA / sub).glob("*.json")) if (DATA / sub).exists() else []:
-            j = json.loads(f.read_text(encoding="utf-8"))
+            try:
+                j = json.loads(f.read_text(encoding="utf-8"))
+            except ValueError:
+                continue  # half-written by the crawl; the build skipped it too
+            if not isinstance(j, dict) or not j.get("id"):
+                continue
+            me = redirect.get(j["id"], j["id"])
             for k, v in (j.get("properties") or {}).items():
-                if isinstance(v, dict) and v.get("value") not in (None, "", []):
-                    raw_props[(redirect.get(j["id"], j["id"]), k)] = v["value"]
+                if k != "id" and isinstance(v, dict) and v.get("value") not in (None, "", []):
+                    raw_props[(me, k)] = v["value"]
             for d in ("outgoing", "incoming"):
                 for rel, items in ((j.get("relationships") or {}).get(d) or {}).items():
                     for it in items or []:
+                        if not isinstance(it, dict) or not it.get("id"):
+                            continue
                         eid = (it.get("properties") or {}).get("id")
+                        other = redirect.get(it["id"], it["id"])
                         if eid:
-                            raw_edges.add(eid)
-    bad = 0
+                            raw_edges[eid].add((rel, me, other) if d == "outgoing" else (rel, other, me))
+    missing = misjoined = props_bad = 0
+    examples = []
     for e in graph["edges"]:
-        ids = e.get("cala_ids") or [e["id"]]
-        if not all(i in raw_edges for i in ids):
-            bad += 1
-        if not e["sources"]:
-            pass  # allowed: Cala returns some edges without sources; the app hides them
+        here = (e["type"], e["from"], e["to"])
+        for i in e.get("cala_ids") or [e["id"]]:
+            if i not in raw_edges:
+                missing += 1
+                examples.append(f"edge {i}: not in the cache")
+            elif here not in raw_edges[i]:
+                misjoined += 1
+                examples.append(f"edge {i}: graph has {here}, cache has {sorted(raw_edges[i])}")
     for n in graph["nodes"]:
+        if n.get("merged"):
+            continue
         for k, v in n["props"].items():
-            if (n["id"], k) not in raw_props and not n.get("merged"):
-                bad += 1
-    unsourced = sum(1 for e in graph["edges"] if not e["sources"])
+            if raw_props.get((n["id"], k), object()) != v["value"]:
+                props_bad += 1
+                examples.append(f"node {n['id']} property {k}: value not in the cache")
+    bad = missing + misjoined + props_bad
+    unsourced = sum(1 for e in graph["edges"] if not e["sources"])  # allowed: Cala returns some edges unsourced
     att_ids = {a["id"] for a in att}
-    print(f"check: {len(graph['edges'])} edges, {bad} not traceable to a cached response; "
+    print(f"check: {len(graph['edges'])} edges; {missing} edge ids not in the cache, {misjoined} edges whose cached "
+          f"relationship joins other entities, type or direction; {props_bad} property values not in the cache; "
           f"{unsourced} edges carry no source in Cala; attendee list intact: {len(graph['attendees']) == len(att_ids)}")
+    for x in examples[:10]:
+        print("  " + x)
     if bad:
         sys.exit(1)
 

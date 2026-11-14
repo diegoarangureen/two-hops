@@ -7,9 +7,11 @@ Rules it enforces:
   - calls are spaced CALA_MIN_GAP seconds apart (free plan: 10 per minute) and stop at a budget.
 """
 import datetime
+import hashlib
 import json
 import os
 import pathlib
+import socket
 import sys
 import time
 import urllib.error
@@ -21,7 +23,9 @@ SLUSH_2026 = "bc844d56-6ab4-452b-96bf-2661e86e592b"
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 LOG = DATA / "cala_calls.jsonl"
-MONTHLY_CREDITS = int(os.environ.get("CALA_MONTHLY_CREDITS", "100"))  # free plan, 1 credit = 1 call
+# 1 credit = 1 call. Set CALA_MONTHLY_CREDITS to the plan's allowance (the free plan has 100) to see what is left;
+# unset, the tools only report what was used.
+MONTHLY_CREDITS = int(os.environ["CALA_MONTHLY_CREDITS"]) if os.environ.get("CALA_MONTHLY_CREDITS", "").isdigit() else None
 PAGE = 1000  # the API rejects a larger limit per relationship
 
 # Property names seen in Cala's field guide and in introspection results. Asking for one the entity
@@ -87,8 +91,17 @@ def read_log():
     return out
 
 
-def credits_used():
-    return sum(int(e.get("credits", 0)) for e in read_log())
+def credits_used(key=None):
+    """Credits in the log. With a key id, only that key's; entries from before keys were tagged carry none."""
+    return sum(int(e.get("credits", 0)) for e in read_log() if key is None or e.get("key") == key)
+
+
+def credits_by_key():
+    out = {}
+    for e in read_log():
+        k = e.get("key", "untagged (first key)")
+        out[k] = out.get(k, 0) + int(e.get("credits", 0))
+    return out
 
 
 def log_call(entry):
@@ -114,51 +127,86 @@ def cached_index():
     return idx
 
 
+def key_id(key):
+    """A short tag that tells keys apart in the log without revealing them (first 6 hex of a SHA-256)."""
+    return hashlib.sha256(key.encode()).hexdigest()[:6]
+
+
 class Client:
+    MAX_429 = 8  # give up on one call after this many rate-limit answers in a row
+
     def __init__(self, budget):
         self.key, self.budget, self.n, self.last = load_key(), budget, 0, 0.0
+        self.key_id = key_id(self.key)
         self.gap = float(os.environ.get("CALA_MIN_GAP", "6.5"))
         self.cache = cached_index()
 
     def call(self, method, path, body=None, params=None, purpose="", timeout=120, saved=None):
-        """One HTTP call. Returns (status, json). Always logged; every attempt is counted as one credit."""
+        """One HTTP call. Returns (status, json). Every attempt is logged. A 429 is waited out and retried
+        with a wider gap; answers other than 429 count as one credit each."""
         if self.n >= self.budget:
             raise SystemExit(f"budget of {self.budget} calls reached; rerun with a higher --budget to continue")
-        wait = self.gap - (time.time() - self.last)
-        if wait > 0:
-            time.sleep(wait)
-        self.last, self.n = time.time(), self.n + 1
+        self.n += 1
         url = BASE + path
         if params:
             url += "?" + urllib.parse.urlencode(params, doseq=True)
-        req = urllib.request.Request(url, method=method, data=json.dumps(body).encode() if body is not None else None,
-                                     headers={"X-API-KEY": self.key, "Content-Type": "application/json",
-                                              "Accept": "application/json", "User-Agent": "two-hops/1.0"})
-        t0, headers = time.time(), {}
-        try:
-            with urllib.request.urlopen(req, timeout=timeout) as r:
-                status, text, headers = r.status, r.read().decode("utf-8", "replace"), dict(r.headers.items())
-        except urllib.error.HTTPError as e:
-            status, text, headers = e.code, e.read().decode("utf-8", "replace"), dict(e.headers.items())
-        except Exception as e:  # timeout, connection reset
-            status, text = 0, json.dumps({"client_error": repr(e)})
-        seconds = round(time.time() - t0, 2)
-        # keep only headers that say something about quota; never the key
-        quota = {k: v for k, v in headers.items() if any(w in k.lower() for w in ("ratelimit", "credit", "quota", "retry"))}
-        entry = {"ts": datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds"),
-                 "method": method, "path": path, "purpose": purpose, "status": status, "seconds": seconds,
-                 "bytes": len(text), "credits": 1}
-        if params:
-            entry["params"] = params
-        if saved:
-            entry["saved"] = saved
-        if quota:
-            entry["quota_headers"] = quota
-        log_call(entry)
-        if status == 429:
-            raise SystemExit(f"429 rate limited after {self.n} calls: stop, wait a minute, rerun")
-        if status in (401, 403):
-            raise SystemExit(f"{status}: key rejected")
+        data = json.dumps(body).encode() if body is not None else None
+        unsent = 0
+        for attempt in range(1, self.MAX_429 + 1):
+            wait = self.gap - (time.time() - self.last)
+            if wait > 0:
+                time.sleep(wait)
+            self.last = time.time()
+            req = urllib.request.Request(url, method=method, data=data, headers={
+                "X-API-KEY": self.key, "Content-Type": "application/json",
+                "Accept": "application/json", "User-Agent": "two-hops/1.0"})
+            t0, headers, never_sent = time.time(), {}, False
+            try:
+                with urllib.request.urlopen(req, timeout=timeout) as r:
+                    status, text, headers = r.status, r.read().decode("utf-8", "replace"), dict(r.headers.items())
+            except urllib.error.HTTPError as e:
+                status, text, headers = e.code, e.read().decode("utf-8", "replace"), dict(e.headers.items())
+            except Exception as e:  # timeout, connection reset
+                status, text = 0, json.dumps({"client_error": repr(e)})
+                # name lookup or connection refused: the request never reached Cala, so it cost nothing
+                reason = getattr(e, "reason", e)
+                never_sent = isinstance(reason, (socket.gaierror, ConnectionRefusedError))
+            seconds = round(time.time() - t0, 2)
+            # keep only headers that say something about quota; never the key
+            quota = {k: v for k, v in headers.items() if any(w in k.lower() for w in ("ratelimit", "credit", "quota", "retry"))}
+            entry = {"ts": datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds"),
+                     "method": method, "path": path, "purpose": purpose, "status": status, "seconds": seconds,
+                     "bytes": len(text), "credits": 0 if status == 429 or never_sent else 1, "key": self.key_id}
+            if never_sent:
+                entry["note"] = "network failure before the request left this machine"
+            if params:
+                entry["params"] = params
+            if saved and status == 200:
+                entry["saved"] = saved
+            if quota:
+                entry["quota_headers"] = quota
+            log_call(entry)
+            if never_sent and unsent < 5:
+                unsent += 1
+                print(f"  network down, retrying in {10 * unsent} s", flush=True)
+                time.sleep(10 * unsent)
+                continue
+            if status != 429:
+                break
+            retry_after = next((v for k, v in headers.items() if k.lower() == "retry-after"), "")
+            pause = float(retry_after) if retry_after.replace(".", "", 1).isdigit() else 20.0
+            # Measured on both keys: about 10 calls per rolling minute. Settle just under that instead of
+            # backing off further each time, which only makes a long crawl slower.
+            self.gap = min(max(self.gap * 1.1, 6.3), 7.5)
+            print(f"  429: waiting {pause:.0f} s, gap is now {self.gap:.1f} s (attempt {attempt})", flush=True)
+            time.sleep(pause)
+        else:
+            raise SystemExit(f"still rate limited after {self.MAX_429} attempts: stop, wait, rerun")
+        if status in (401, 402, 403):
+            raise SystemExit(f"{status}: key rejected or out of credits")
+        self.failures = 0 if status == 200 else getattr(self, "failures", 0) + 1
+        if self.failures >= 12:
+            raise SystemExit("12 calls in a row failed: stopping instead of spending more")
         try:
             return status, json.loads(text)
         except ValueError:
@@ -175,6 +223,8 @@ class Client:
         if st != 200 or not isinstance(js, dict) or not js.get("id"):
             print(f"  HTTP {st} for {eid}: {json.dumps(js, ensure_ascii=False)[:200]}")
             return None, True
-        out.write_text(json.dumps(js, ensure_ascii=False, indent=1), encoding="utf-8")
+        tmp = out.with_suffix(".json.tmp")  # written whole, then renamed: a reader never sees half a file
+        tmp.write_text(json.dumps(js, ensure_ascii=False, indent=1), encoding="utf-8")
+        os.replace(tmp, out)
         self.cache[eid] = out
         return js, True

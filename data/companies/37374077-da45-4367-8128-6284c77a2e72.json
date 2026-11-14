@@ -1,0 +1,506 @@
+{
+ "id": "37374077-da45-4367-8128-6284c77a2e72",
+ "name": "Tutornow",
+ "entity_type": "Company",
+ "description": "Tutornow offers personalized Tutoring for students from elementary school\nto university. We match you with the ideal tutor for\nclear, simple, and effective learning.\nRequest a free introductory cal...",
+ "properties": {
+  "name": {
+   "value": "Tutornow",
+   "sources": [
+    {
+     "name": "Tutornow acquires Swiss edtech Hdemia to expand European presence in digital training",
+     "document": "https://www.startupticker.ch/en/news/tutornow-acquires-swiss-edtech-hdemia-to-expand-european-presence-in-digital-training",
+     "date": "2025-07-14"
+    },
+    {
+     "name": "www.crunchbase.com",
+     "document": "https://www.crunchbase.com/acquisition/tutornow-acquires-hdemia--50baf02d",
+     "date": "2026-07-30"
+    },
+    {
+     "name": "Edutech, Tutornow acquires Swiss company Hdemia",
+     "document": "https://www.startupbusiness.it/en/edutech-tutornow-acquires-swiss-company-hdemia/146665",
+     "date": "2025-07-08"
+    },
+    {
+     "name": "pitchbook.com",
+     "document": "https://pitchbook.com/profiles/company/521424-73",
+     "date": "2026-07-30"
+    },
+    {
+     "name": "tutornow.com",
+     "document": "https://tutornow.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/tutornowonline/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "Tutornow S.R.L.",
+   "sources": [
+    {
+     "name": "zefix.admin.ch",
+     "document": "https://www.zefix.admin.ch/ZefixREST/api/v1/firm/1280980.json",
+     "date": "2025-08-12",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "aliases": {
+   "value": [],
+   "sources": []
+  },
+  "website": {
+   "value": "tutornow.com",
+   "sources": [
+    {
+     "name": "tutornow.com",
+     "document": "https://tutornow.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "dns.google",
+     "document": "https://dns.google/query?name=tutornow.com&type=A",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "Tutornow offers personalized Tutoring for students from elementary school\nto university. We match you with the ideal tutor for\nclear, simple, and effective learning.\nRequest a free introductory cal...",
+   "sources": [
+    {
+     "name": "tutornow.com",
+     "document": "https://tutornow.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2021-01-01",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/tutornowonline/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "Lomazzo, Italy",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/tutornowonline/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "tutornow.com",
+     "document": "https://tutornow.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "total_funding": {
+   "value": 1000000.0,
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2025/05/italian-edtech-startup-tutornow-raises-e1-million-to-scale-their-accessible-and-personalised-lessons/",
+     "date": "2025-05-09",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "total_funding_units": {
+   "value": "EUR",
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2025/05/italian-edtech-startup-tutornow-raises-e1-million-to-scale-their-accessible-and-personalised-lessons/",
+     "date": "2025-05-09",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "total_funding_excluding_debt": {
+   "value": 1000000.0,
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2025/05/italian-edtech-startup-tutornow-raises-e1-million-to-scale-their-accessible-and-personalised-lessons/",
+     "date": "2025-05-09",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "funding_stage": {
+   "value": "SEED",
+   "sources": [
+    {
+     "name": "vcbacked.co",
+     "document": "https://www.vcbacked.co/company/tutornow",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    },
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2025/05/italian-edtech-startup-tutornow-raises-e1-million-to-scale-their-accessible-and-personalised-lessons/",
+     "date": "2025-05-09",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "bf6bb1aa-9665-58b3-9f64-76081016071e",
+     "name": "Seed",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "vcbacked.co",
+        "document": "https://www.vcbacked.co/company/tutornow",
+        "date": "2026-11-04",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "45e2c513-f3c2-5204-85ba-12b46234cd9c"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_CORPORATE_EVENT": [
+    {
+     "id": "c0a29ded-0781-4dff-aa6c-cce27bd43b30",
+     "name": "MNA_COMPLETED",
+     "entity_type": "CorporateEvent",
+     "properties": {
+      "role": "ACQUIRER",
+      "sources": [
+       {
+        "name": "Tutornow acquires Swiss edtech Hdemia to expand European presence in digital training",
+        "document": "https://www.startupticker.ch/en/news/tutornow-acquires-swiss-edtech-hdemia-to-expand-european-presence-in-digital-training",
+        "date": "2025-07-14"
+       },
+       {
+        "name": "www.crunchbase.com",
+        "document": "https://www.crunchbase.com/acquisition/tutornow-acquires-hdemia--50baf02d",
+        "date": "2026-07-30"
+       },
+       {
+        "name": "Edutech, Tutornow acquires Swiss company Hdemia",
+        "document": "https://www.startupbusiness.it/en/edutech-tutornow-acquires-swiss-company-hdemia/146665",
+        "date": "2025-07-08"
+       },
+       {
+        "name": "pitchbook.com",
+        "document": "https://pitchbook.com/profiles/company/521424-73",
+        "date": "2026-07-30"
+       }
+      ],
+      "event_date": "2025-07-08",
+      "id": "f842d418-7071-4847-a63c-c996940be7df"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "8adf4739-2627-576e-8055-0ced75694a56"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "e89f6829-3a02-4330-b0c4-7746021a9837",
+     "name": "EDUCATION",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/tutornowonline/",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "4924184f-d94e-5634-9f5a-37703dca2383",
+      "original_label": "edu"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "INVESTED_IN": [
+    {
+     "id": "6fb743e0-67a7-47ad-86a0-01646ab2293b",
+     "name": "AGENZIA NAZIONALE PER L'ATTRAZIONE DEGLI INVESTIMENTI E LO SVILUPPO D'IMPRESA S.P.A.",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "startupbusiness.it",
+        "document": "https://www.startupbusiness.it/en/edutech-tutornow-closes-a-eur-1-million-round/145781/",
+        "date": "2025-05-06",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "forbes.it",
+        "document": "https://forbes.it/2025/05/07/tutornow-chiude-un-round-da-1-milione-di-euro-e-integra-lai-nella-sua-piattaforma/",
+        "date": "2025-05-07",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "b811e6a4-94f2-4c2a-b3bf-34b1fe00796e"
+     }
+    },
+    {
+     "id": "92865b98-2484-5a7f-8eb8-75a4a630dbb5",
+     "name": "Mario Peveraro",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "startupbusiness.it",
+        "document": "https://www.startupbusiness.it/en/edutech-tutornow-closes-a-eur-1-million-round/145781/",
+        "date": "2025-05-06",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "forbes.it",
+        "document": "https://forbes.it/2025/05/07/tutornow-chiude-un-round-da-1-milione-di-euro-e-integra-lai-nella-sua-piattaforma/",
+        "date": "2025-05-07",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "9395bad5-c04a-42fb-8834-56d3dfce3a1c"
+     }
+    },
+    {
+     "id": "ae7530e4-556e-4547-ba15-88a12fbcdcb1",
+     "name": "Techstars",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "startupbusiness.it",
+        "document": "https://www.startupbusiness.it/en/edutech-tutornow-closes-a-eur-1-million-round/145781/",
+        "date": "2025-05-06",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "forbes.it",
+        "document": "https://forbes.it/2025/05/07/tutornow-chiude-un-round-da-1-milione-di-euro-e-integra-lai-nella-sua-piattaforma/",
+        "date": "2025-05-07",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "0f4384a5-c9a3-499a-991e-f3516442f32b"
+     }
+    },
+    {
+     "id": "f8a9b4a4-5e01-55a3-ab68-9c4757e90c6e",
+     "name": "KF-Invest Sagl",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "startupbusiness.it",
+        "document": "https://www.startupbusiness.it/en/edutech-tutornow-closes-a-eur-1-million-round/145781/",
+        "date": "2025-05-06",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "forbes.it",
+        "document": "https://forbes.it/2025/05/07/tutornow-chiude-un-round-da-1-milione-di-euro-e-integra-lai-nella-sua-piattaforma/",
+        "date": "2025-05-07",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "f823bd8d-2396-4056-8a23-b8c2548fa380"
+     }
+    }
+   ],
+   "FOUNDED": [
+    {
+     "id": "03ed3dbd-33af-54ad-ae13-685bb155ca85",
+     "name": "Andrei Braila",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "startupbusiness.it",
+        "document": "https://www.startupbusiness.it/en/edutech-tutornow-closes-a-eur-1-million-round/145781/",
+        "date": "2025-05-06",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "forbes.it",
+        "document": "https://forbes.it/2025/05/07/tutornow-chiude-un-round-da-1-milione-di-euro-e-integra-lai-nella-sua-piattaforma/",
+        "date": "2025-05-07",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "f75f82d3-b0a7-556e-9f2b-88e7f33f74b6"
+     }
+    },
+    {
+     "id": "30940f6d-9df6-59b6-8a05-236cc3cac65f",
+     "name": "Luca Dei Rossi",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "startupbusiness.it",
+        "document": "https://www.startupbusiness.it/en/edutech-tutornow-closes-a-eur-1-million-round/145781/",
+        "date": "2025-05-06",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "forbes.it",
+        "document": "https://forbes.it/2025/05/07/tutornow-chiude-un-round-da-1-milione-di-euro-e-integra-lai-nella-sua-piattaforma/",
+        "date": "2025-05-07",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "ec387075-8cd3-5279-8a1d-9baa266baf95"
+     }
+    },
+    {
+     "id": "426f80ec-869b-5715-8eac-42597170235e",
+     "name": "Nicola De Carlo",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "startupbusiness.it",
+        "document": "https://www.startupbusiness.it/en/edutech-tutornow-closes-a-eur-1-million-round/145781/",
+        "date": "2025-05-06",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "forbes.it",
+        "document": "https://forbes.it/2025/05/07/tutornow-chiude-un-round-da-1-milione-di-euro-e-integra-lai-nella-sua-piattaforma/",
+        "date": "2025-05-07",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "625a57f4-41c1-5708-b723-ed7e5cd6f393"
+     }
+    },
+    {
+     "id": "89c6ebd5-2479-5b73-94a3-d30b3bb4d884",
+     "name": "Riccardo Sciortino",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "startupbusiness.it",
+        "document": "https://www.startupbusiness.it/en/edutech-tutornow-closes-a-eur-1-million-round/145781/",
+        "date": "2025-05-06",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "forbes.it",
+        "document": "https://forbes.it/2025/05/07/tutornow-chiude-un-round-da-1-milione-di-euro-e-integra-lai-nella-sua-piattaforma/",
+        "date": "2025-05-07",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "cb21fd7c-950b-5676-bb39-36f2e31fa143"
+     }
+    }
+   ],
+   "IS_CEO_OF": [
+    {
+     "id": "89c6ebd5-2479-5b73-94a3-d30b3bb4d884",
+     "name": "Riccardo Sciortino",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "startupbusiness.it",
+        "document": "https://www.startupbusiness.it/en/edutech-tutornow-closes-a-eur-1-million-round/145781/",
+        "date": "2025-05-06",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "forbes.it",
+        "document": "https://forbes.it/2025/05/07/tutornow-chiude-un-round-da-1-milione-di-euro-e-integra-lai-nella-sua-piattaforma/",
+        "date": "2025-05-07",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "2a45b41f-4de7-5ce7-b00e-5fea158feebf"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

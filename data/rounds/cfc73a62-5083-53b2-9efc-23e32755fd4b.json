@@ -1,0 +1,255 @@
+{
+ "id": "cfc73a62-5083-53b2-9efc-23e32755fd4b",
+ "name": "Series A",
+ "entity_type": "FundingRound",
+ "description": null,
+ "properties": {
+  "name": {
+   "value": "Series A",
+   "sources": [
+    {
+     "name": "forciot.com",
+     "document": "https://www.forciot.com/forciot-raises-eur-4-million-in-round-a/",
+     "date": "2019-01-29",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "forciot.com",
+     "document": "https://www.forciot.com/forciot-joined-by-new-investors-for-its-world-leading-stretchable-electronics-technology-2/",
+     "date": "2019-01-29",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "businesstampere.com",
+     "document": "https://businesstampere.com/?p=14049",
+     "date": "2019-02-19",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "round_label": {
+   "value": "SERIES_A",
+   "sources": [
+    {
+     "name": "forciot.com",
+     "document": "https://www.forciot.com/forciot-raises-eur-4-million-in-round-a/",
+     "date": "2019-01-29",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "forciot.com",
+     "document": "https://www.forciot.com/forciot-joined-by-new-investors-for-its-world-leading-stretchable-electronics-technology-2/",
+     "date": "2019-01-29",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "businesstampere.com",
+     "document": "https://businesstampere.com/?p=14049",
+     "date": "2019-02-19",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "instrument": {
+   "value": "EQUITY",
+   "sources": [
+    {
+     "name": "forciot.com",
+     "document": "https://www.forciot.com/forciot-raises-eur-4-million-in-round-a/",
+     "date": "2019-01-29",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "forciot.com",
+     "document": "https://www.forciot.com/forciot-joined-by-new-investors-for-its-world-leading-stretchable-electronics-technology-2/",
+     "date": "2019-01-29",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "transaction_value": {
+   "value": 4000000.0,
+   "sources": [
+    {
+     "name": "forciot.com",
+     "document": "https://www.forciot.com/forciot-raises-eur-4-million-in-round-a/",
+     "date": "2019-01-29",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "businesstampere.com",
+     "document": "https://businesstampere.com/?p=14049",
+     "date": "2019-02-19",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "wt-obk.wearable-technologies.com",
+     "document": "https://wt-obk.wearable-technologies.com/2019/02/forciot-raises-four-million-euros-in-a-funding-led-by-volvo-and-heraeus/",
+     "date": "2019-02-04",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "transaction_value_units": {
+   "value": "EUR",
+   "sources": [
+    {
+     "name": "forciot.com",
+     "document": "https://www.forciot.com/forciot-raises-eur-4-million-in-round-a/",
+     "date": "2019-01-29",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "businesstampere.com",
+     "document": "https://businesstampere.com/?p=14049",
+     "date": "2019-02-19",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "wt-obk.wearable-technologies.com",
+     "document": "https://wt-obk.wearable-technologies.com/2019/02/forciot-raises-four-million-euros-in-a-funding-led-by-volvo-and-heraeus/",
+     "date": "2019-02-04",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "announcement_date": {
+   "value": "2019-01-29",
+   "sources": [
+    {
+     "name": "forciot.com",
+     "document": "https://www.forciot.com/forciot-raises-eur-4-million-in-round-a/",
+     "date": "2019-01-29",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "annotations": {
+   "value": [
+    "Company release 2019-01-29: \"raising EUR 4 million in its investment Round A\"; \"We are thrilled to have closed the Series A investment round.\"",
+    "round_label_stated:Series A"
+   ],
+   "sources": []
+  }
+ },
+ "relationships": {
+  "outgoing": {},
+  "incoming": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "00ff9907-cdbb-4e3f-a56e-4cd4a28a333b",
+     "name": "Forciot",
+     "entity_type": "Company",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "forciot.com",
+        "document": "https://www.forciot.com/forciot-raises-eur-4-million-in-round-a/",
+        "date": "2019-01-29",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "forciot.com",
+        "document": "https://www.forciot.com/forciot-joined-by-new-investors-for-its-world-leading-stretchable-electronics-technology-2/",
+        "date": "2019-01-29",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "businesstampere.com",
+        "document": "https://businesstampere.com/?p=14049",
+        "date": "2019-02-19",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "d1938075-94ac-53c4-aed6-3a0c0923d1cc"
+     }
+    },
+    {
+     "id": "9248f290-d46f-55a2-9910-5714973ddd0b",
+     "name": "Volvo Car Technology Fund AB",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "forciot.com",
+        "document": "https://www.forciot.com/forciot-raises-eur-4-million-in-round-a/",
+        "date": "2019-01-29",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "forciot.com",
+        "document": "https://www.forciot.com/forciot-joined-by-new-investors-for-its-world-leading-stretchable-electronics-technology-2/",
+        "date": "2019-01-29",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "businesstampere.com",
+        "document": "https://businesstampere.com/?p=14049",
+        "date": "2019-02-19",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "f974c6c2-f337-53c7-a356-ea2312662300"
+     }
+    },
+    {
+     "id": "fd19cc35-a291-4ccf-8cb0-87f33c4d773d",
+     "name": "Heraeus Holding GmbH",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "forciot.com",
+        "document": "https://www.forciot.com/forciot-raises-eur-4-million-in-round-a/",
+        "date": "2019-01-29",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "forciot.com",
+        "document": "https://www.forciot.com/forciot-joined-by-new-investors-for-its-world-leading-stretchable-electronics-technology-2/",
+        "date": "2019-01-29",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "businesstampere.com",
+        "document": "https://businesstampere.com/?p=14049",
+        "date": "2019-02-19",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "is_lead": true,
+      "id": "b2ed58b8-e4e7-598d-9e61-43904b54c077"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

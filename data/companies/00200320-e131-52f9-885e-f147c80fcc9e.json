@@ -1,0 +1,185 @@
+{
+ "id": "00200320-e131-52f9-885e-f147c80fcc9e",
+ "name": "ExoSphere by Exoft",
+ "entity_type": "Company",
+ "description": "Internal people and operations platform: time tracking, absence, recruiting, approvals, announcements, AI assistant.",
+ "properties": {
+  "name": {
+   "value": "ExoSphere by Exoft",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/exoft/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "Exoft LLC",
+   "sources": [
+    {
+     "name": "exoft.net",
+     "document": "https://www.exoft.net/privacy-policy/",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "website": {
+   "value": "exo-sphere.net",
+   "sources": [
+    {
+     "name": "exo-sphere.net",
+     "document": "https://exo-sphere.net/",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "claude.ai",
+     "document": "https://claude.ai/artifact/H3Eq8ujw2PKskrTrSvodVZ#conflicts",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "description": {
+   "value": "Internal people and operations platform: time tracking, absence, recruiting, approvals, announcements, AI assistant.",
+   "sources": [
+    {
+     "name": "exo-sphere.net",
+     "document": "https://exo-sphere.net",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "exo-sphere.net",
+     "document": "https://exo-sphere.net/assets/i18n/en.json",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "exoft.net",
+     "document": "https://exoft.net",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2022-01-01",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/exoft/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "Lviv, Ukraine",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/exoft/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "exo-sphere.net",
+     "document": "https://exo-sphere.net",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "exo-sphere.net",
+     "document": "https://exo-sphere.net/assets/i18n/en.json",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "exoft.net",
+     "document": "https://exoft.net",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "employee_count_range": {
+   "value": [
+    70
+   ],
+   "sources": [
+    {
+     "name": "exoft.net",
+     "document": "https://www.exoft.net/about-us/",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "01e3f855-8d56-5efd-bb73-58c62b8bd2e0"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "e95ac8a0-1d70-4bc2-ba34-3b685f2103ac",
+     "name": "TELECOMMUNICATIONS",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/exoft/",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "d9b9b1c1-f205-5e1b-abd6-4f26f5684342",
+      "original_label": "informationNetworks"
+     }
+    }
+   ]
+  },
+  "incoming": {}
+ },
+ "numerical_observations": []
+}

@@ -1,0 +1,234 @@
+{
+ "id": "007017a9-ebe9-5efa-b3ad-ccb40d46ed74",
+ "name": "Dream On Technology",
+ "entity_type": "Company",
+ "description": "PanicSafe, a SaaS tool that gives a team a secure virtual crisis cell for cyber crisis management, independent from compromised systems.",
+ "properties": {
+  "name": {
+   "value": "Dream On Technology",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/dream-on-tech",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "DREAM ON TECHNOLOGY",
+   "sources": [
+    {
+     "name": "panicsafe.app",
+     "document": "https://www.panicsafe.app",
+     "date": "2026-11-03",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "recherche-entreprises.api.gouv.fr",
+     "document": "https://recherche-entreprises.api.gouv.fr/search?q=dream%20on%20technology",
+     "date": "2026-11-03",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "journaldunet.com",
+     "document": "https://www.journaldunet.com/cybersecurite/1542807-dream-on-technology-leve-1-3-million-d-euros-pour-son-ia-de-gestion-de-crise-cyber/",
+     "date": "2026-11-03",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "website": {
+   "value": "panicsafe.app",
+   "sources": [
+    {
+     "name": "panicsafe.app",
+     "document": "https://panicsafe.app/",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "claude.ai",
+     "document": "https://claude.ai/artifact/H3Eq8ujw2PKskrTrSvodVZ#conflicts",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "description": {
+   "value": "PanicSafe, a SaaS tool that gives a team a secure virtual crisis cell for cyber crisis management, independent from compromised systems.",
+   "sources": [
+    {
+     "name": "panicsafe.app",
+     "document": "https://www.panicsafe.app",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "recherche-entreprises.api.gouv.fr",
+     "document": "https://recherche-entreprises.api.gouv.fr/search?q=dream%20on%20technology",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "journaldunet.com",
+     "document": "https://www.journaldunet.com/cybersecurite/1542807-dream-on-technology-leve-1-3-million-d-euros-pour-son-ia-de-gestion-de-crise-cyber/",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2024-01-01",
+   "sources": [
+    {
+     "name": "panicsafe.app",
+     "document": "https://www.panicsafe.app",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "recherche-entreprises.api.gouv.fr",
+     "document": "https://recherche-entreprises.api.gouv.fr/search?q=dream%20on%20technology",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "journaldunet.com",
+     "document": "https://www.journaldunet.com/cybersecurite/1542807-dream-on-technology-leve-1-3-million-d-euros-pour-son-ia-de-gestion-de-crise-cyber/",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "Lyon, France",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/dream-on-tech",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "panicsafe.app",
+     "document": "https://www.panicsafe.app",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "recherche-entreprises.api.gouv.fr",
+     "document": "https://recherche-entreprises.api.gouv.fr/search?q=dream%20on%20technology",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "journaldunet.com",
+     "document": "https://www.journaldunet.com/cybersecurite/1542807-dream-on-technology-leve-1-3-million-d-euros-pour-son-ia-de-gestion-de-crise-cyber/",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "e3fc1456-57b2-548d-aa32-af57b54fffdf"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "8ecf5e57-a149-438c-9eb4-089809bade56",
+     "name": "SOFTWARE_AND_SERVICES",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/dream-on-tech",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "020ad7ba-f401-535e-8824-038021dfd906",
+      "original_label": "cyber"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "WORKS_AT": [
+    {
+     "id": "fe85a7dd-8740-55e7-9e30-d54e1f94983a",
+     "name": "Mikael Masson",
+     "entity_type": "Person",
+     "properties": {
+      "role": "per an exhibitor listing",
+      "sources": [
+       {
+        "name": "panicsafe.app",
+        "document": "https://www.panicsafe.app",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "recherche-entreprises.api.gouv.fr",
+        "document": "https://recherche-entreprises.api.gouv.fr/search?q=dream%20on%20technology",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "journaldunet.com",
+        "document": "https://www.journaldunet.com/cybersecurite/1542807-dream-on-technology-leve-1-3-million-d-euros-pour-son-ia-de-gestion-de-crise-cyber/",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "554da4d4-ef5c-5a45-bcd0-24d8c462d9f2"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

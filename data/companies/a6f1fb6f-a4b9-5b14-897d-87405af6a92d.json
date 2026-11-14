@@ -1,0 +1,348 @@
+{
+ "id": "a6f1fb6f-a4b9-5b14-897d-87405af6a92d",
+ "name": "Saro Robotics",
+ "entity_type": "Company",
+ "description": "Autonomous climbing robots for critical energy infrastructure inspection. Eliminate scaffolding, enable predictive maintenance, and reduce costs.",
+ "properties": {
+  "name": {
+   "value": "Saro Robotics",
+   "sources": [
+    {
+     "name": "sarorobotics.com",
+     "document": "https://sarorobotics.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/saro-robotics",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "SARO ROBOTICS AS",
+   "sources": [
+    {
+     "name": "data.brreg.no",
+     "document": "https://data.brreg.no/enhetsregisteret/api/enheter/936006418",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "website": {
+   "value": "sarorobotics.com",
+   "sources": [
+    {
+     "name": "sarorobotics.com",
+     "document": "https://sarorobotics.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "dns.google",
+     "document": "https://dns.google/query?name=sarorobotics.com&type=A",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "Autonomous climbing robots for critical energy infrastructure inspection. Eliminate scaffolding, enable predictive maintenance, and reduce costs.",
+   "sources": [
+    {
+     "name": "sarorobotics.com",
+     "document": "https://sarorobotics.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2025-01-01",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/saro-robotics",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "Sem Sælands vei 1, 7034 Trondheim, Norway",
+   "sources": [
+    {
+     "name": "data.brreg.no",
+     "document": "https://data.brreg.no/enhetsregisteret/api/enheter/936006418",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "sarorobotics.com",
+     "document": "https://www.sarorobotics.com/about",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "sarorobotics.com",
+     "document": "https://sarorobotics.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "total_funding": {
+   "value": 186000.0,
+   "sources": [
+    {
+     "name": "caplight.com",
+     "document": "https://www.caplight.com/company/sarorobotics",
+     "date": "2026-09-08",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "total_funding_units": {
+   "value": "USD",
+   "sources": [
+    {
+     "name": "caplight.com",
+     "document": "https://www.caplight.com/company/sarorobotics",
+     "date": "2026-09-08",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "total_funding_excluding_debt": {
+   "value": 186000.0,
+   "sources": [
+    {
+     "name": "caplight.com",
+     "document": "https://www.caplight.com/company/sarorobotics",
+     "date": "2026-09-08",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "605bef29-5c3a-52c2-8d22-c5887675ff12",
+     "name": "Pre-Seed",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "caplight.com",
+        "document": "https://www.caplight.com/company/sarorobotics",
+        "date": "2026-09-08",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "8e143197-25d1-5f30-9f1c-511816905559"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "ec909108-e309-5584-a15f-c945500cf4d7"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "11ce48e0-a853-4085-8142-f674977b1a3a",
+     "name": "RENEWABLE_ENERGY",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/saro-robotics",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "56ae7d61-3a7a-5fde-b4ff-d6b2b15b2e3c",
+      "original_label": "energy"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "INVESTED_IN": [
+    {
+     "id": "3c56ac53-1496-5c13-8ce0-8780c996b1d6",
+     "name": "6AM Accelerator",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "caplight.com",
+        "document": "https://www.caplight.com/company/sarorobotics",
+        "date": "2026-09-08",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "e76198b6-05fb-4613-b6ae-e2498f1602bc"
+     }
+    },
+    {
+     "id": "3ef31033-9773-4fbd-91bf-1a971554e683",
+     "name": "STARTUPLAB FOUNDERS AS",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "caplight.com",
+        "document": "https://www.caplight.com/company/sarorobotics",
+        "date": "2026-09-08",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "52096311-8bf1-4827-96d0-352958dd4961"
+     }
+    },
+    {
+     "id": "52ffcc84-7e81-53b0-bee3-f4becc295c1d",
+     "name": "Runway FBU",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "caplight.com",
+        "document": "https://www.caplight.com/company/sarorobotics",
+        "date": "2026-09-08",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       },
+       {
+        "name": "sarorobotics.com",
+        "document": "https://www.sarorobotics.com/blog/runway-fbu-ai-robotics-lab",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "ed57c69e-6c58-44f1-b651-55b187bea032"
+     }
+    },
+    {
+     "id": "ae7530e4-556e-4547-ba15-88a12fbcdcb1",
+     "name": "Techstars",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "caplight.com",
+        "document": "https://www.caplight.com/company/sarorobotics",
+        "date": "2026-09-08",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "1b1a6fd1-88df-413f-9b1d-04fb9baac57a"
+     }
+    }
+   ],
+   "IS_CEO_OF": [
+    {
+     "id": "2dcdb04a-0563-55b8-b412-823c6a016fcf",
+     "name": "Daniel Skogland",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "sarorobotics.com",
+        "document": "https://www.sarorobotics.com/about",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "7af00ebc-26ab-5ca1-a424-6aaeedadf9f8"
+     }
+    }
+   ],
+   "IS_CTO_OF": [
+    {
+     "id": "e2f79398-e3ea-5ae5-8e4a-61df80826bc2",
+     "name": "Oscar Lae",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "sarorobotics.com",
+        "document": "https://www.sarorobotics.com/about",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "67daae95-1a6c-5414-8cd9-ccf8674564c6"
+     }
+    }
+   ],
+   "IS_BOARD_MEMBER_OF": [
+    {
+     "id": "cf66e921-4a53-5b14-bd25-8d358e1b10ce",
+     "name": "Celine Rønquist Slåttelia",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "data.brreg.no",
+        "document": "https://data.brreg.no/enhetsregisteret/api/enheter/936006418/roller",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "f09dda7a-565d-59b4-af2c-e38aca00237c"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

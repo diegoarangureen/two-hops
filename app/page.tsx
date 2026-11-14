@@ -95,7 +95,7 @@ export default function Landing() {
           <p className="lede">
             Not a mock-up. {ex.peer.node.name} is on the Slush 2026 attendee list. {ex.investor.name}{" "}
             {ex.path.isLead ? "led" : "took part in"} its {ex.path.round?.labelInferred ? "funding" : ex.path.round?.label} round
-            {ex.path.round?.amount ? ` (${ex.path.round.amount}${ex.path.round.date ? `, ${ex.path.round.date}` : ""})` : ""}.
+            {ex.path.round?.amount ? ` (${ex.path.round.amount}${ex.path.round.dateText ? `, ${ex.path.round.dateText}` : ""})` : ""}.
             {asks.length > 0 && ` ${asks[0].name} is the person to ask.`} If your company is at Slush too, that investor is two hops
             from you.
           </p>

@@ -1,0 +1,125 @@
+{
+ "id": "941223e8-ac11-5a4d-ab7e-5b0ccc6b95c6",
+ "name": "Equity round",
+ "entity_type": "FundingRound",
+ "description": null,
+ "properties": {
+  "name": {
+   "value": "Equity round",
+   "sources": [
+    {
+     "name": "synhelion.com",
+     "document": "https://synhelion.com/news/synhelion-and-pilatus-launch-strategic-partnership",
+     "date": "2024-06-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "startupticker.ch",
+     "document": "https://www.startupticker.ch/en/news/pilatus-flugzeugwerke-investiert-in-synhelion",
+     "date": "2024-06-04",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "instrument": {
+   "value": "EQUITY",
+   "sources": [
+    {
+     "name": "synhelion.com",
+     "document": "https://synhelion.com/news/synhelion-and-pilatus-launch-strategic-partnership",
+     "date": "2024-06-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "announcement_date": {
+   "value": "2024-06-04",
+   "sources": [
+    {
+     "name": "synhelion.com",
+     "document": "https://synhelion.com/news/synhelion-and-pilatus-launch-strategic-partnership",
+     "date": "2024-06-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "startupticker.ch",
+     "document": "https://www.startupticker.ch/en/news/pilatus-flugzeugwerke-investiert-in-synhelion",
+     "date": "2024-06-04",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "annotations": {
+   "value": [
+    "Strategic investment. No source names a round; labelled Strategic Investment.",
+    "Updated 2026-11-13: previously empty; a strategic investment no source names is labelled Strategic Investment (instructions v42 §3.5).",
+    "round_label_stated:Strategic Investment"
+   ],
+   "sources": []
+  }
+ },
+ "relationships": {
+  "outgoing": {},
+  "incoming": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "05c3abc4-680f-4caa-a657-40d96da7e1fa",
+     "name": "Synhelion",
+     "entity_type": "Company",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "synhelion.com",
+        "document": "https://synhelion.com/news/synhelion-and-pilatus-launch-strategic-partnership",
+        "date": "2024-06-04",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "startupticker.ch",
+        "document": "https://www.startupticker.ch/en/news/pilatus-flugzeugwerke-investiert-in-synhelion",
+        "date": "2024-06-04",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "c989e573-3ef0-555e-9044-5668b76bc212"
+     }
+    },
+    {
+     "id": "0c77d3a4-1f19-4f3c-8a67-d59e90b40ebe",
+     "name": "PILATUS Flugzeugwerke AG",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "synhelion.com",
+        "document": "https://synhelion.com/news/synhelion-and-pilatus-launch-strategic-partnership",
+        "date": "2024-06-04",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "startupticker.ch",
+        "document": "https://www.startupticker.ch/en/news/pilatus-flugzeugwerke-investiert-in-synhelion",
+        "date": "2024-06-04",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "is_lead": true,
+      "id": "12cae45c-d256-5d54-9592-71201ed77b4b"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

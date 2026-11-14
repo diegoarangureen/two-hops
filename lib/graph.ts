@@ -24,7 +24,10 @@ export interface GNode {
   merged?: { id: string; type: string; name: string }[];
   investments?: number;
   investor_like?: boolean;
+  investor_like_basis?: string;
   label_inferred?: boolean;
+  /** More than one label on one round record: Cala folded several financings into it. */
+  several_labels?: string[];
   same_financing_as?: string;
   /** Relationship lists that hit Cala's page limit when this profile was read: {name: items loaded}. */
   truncated?: Record<string, number>;
@@ -41,6 +44,7 @@ export interface GEdge {
   cala_ids?: string[];
   reciprocal?: boolean;
   suspect_inverted?: boolean;
+  direction_unclear?: boolean;
 }
 
 /** [id, name, type, role, edge id, own sources?] */
@@ -55,8 +59,10 @@ interface GraphFile {
     traps: {
       merged_duplicates: { kept: string; name: string; records: { id: string; type: string; name: string }[] }[];
       inferred_round_labels: { id: string; name: string }[];
-      investment_recorded_both_ways: { edge: string; from: string; to: string; basis: string }[];
+      investment_recorded_both_ways: { edge: string; from: string; to: string; basis: string; direction_unclear?: boolean }[];
       financing_recorded_twice: { company: string; round: string; filing_event: string; basis: string }[];
+      rounds_with_several_labels?: { id: string; name: string; labels: string[] }[];
+      same_name_left_apart?: { count: number };
       notes: Record<string, number>;
     };
     redirect: Record<string, string>;
@@ -185,15 +191,51 @@ export class Graph {
           }
           const { sources, id: edgeId, ...props } = it.properties ?? {};
           const key = edgeId ?? `${rel}:${direction === "outgoing" ? id : other}:${direction === "outgoing" ? other : id}`;
-          if (this.edgeIds.has(key)) continue;
           const [from, to] = direction === "outgoing" ? [id, other] : [other, id];
           if (from === to) continue;
+          const known = this.edgeIds.has(key) ? this.edges.find((e) => e.id === key || e.cala_ids?.includes(key)) : undefined;
+          if (known) {
+            // the same Cala edge seen from its other end: keep the union of what both ends say
+            for (const [k, v] of Object.entries(props)) if (!(k in known.props)) known.props[k] = v;
+            for (const s of this.intern(sources)) if (!known.sources.includes(s)) known.sources.push(s);
+            continue;
+          }
+          if (this.edgeIds.has(key)) continue;
           this.addEdge({ id: key, type: rel, from, to, props, sources: this.intern(sources) });
+          if ((items?.length ?? 0) >= 1000) (n.truncated ??= {})[rel] = items!.length;
         }
       }
     }
+    this.flag(n);
     this.version++;
     return n;
+  }
+
+  /**
+   * What tools/build_graph.py works out for every node, redone for one profile that arrived after the build:
+   * is it an investor itself (then it is not a peer), and are any of its investments recorded both ways.
+   */
+  private flag(n: GNode) {
+    const invested = this.outgoing(n.id, "INVESTED_IN");
+    const backed = this.outgoing(n.id, "PARTICIPATES_IN_FUNDING_ROUND").filter((e) => e.props.role === "INVESTOR" || e.props.role === "LENDER");
+    const industry = this.outgoing(n.id, "OPERATES_IN_INDUSTRY").map((e) => this.nodes.get(e.to)?.name);
+    const investorIndustry = industry.some((x) => x === "VENTURE_CAPITAL" || x === "ASSET_MANAGEMENT" || x === "PRIVATE_EQUITY");
+    const byName = /\b(ventures?|capital|vc|invest\w*|funds?|angels?|accelerator|incubator|family office)\b/i.test(n.name);
+    if (invested.length) n.investments = invested.length;
+    if (invested.length >= 3 || backed.length >= 2 || investorIndustry || byName) {
+      n.investor_like = true;
+      n.investor_like_basis = invested.length >= 3 ? `holds ${invested.length} investments` : backed.length >= 2 ? `backed ${backed.length} rounds` : investorIndustry ? "filed under an investor industry" : "name";
+    }
+    // an investment Cala records in both directions cannot be read safely from a single late profile: use neither
+    for (const e of invested) {
+      const back = this.outgoing(e.to, "INVESTED_IN").find((x) => x.to === n.id);
+      if (!back) continue;
+      for (const x of [e, back]) {
+        x.reciprocal = true;
+        x.suspect_inverted = true;
+        x.direction_unclear = true;
+      }
+    }
   }
 }
 
@@ -208,18 +250,21 @@ function load(): Graph {
   const g = new Graph(file);
   // Profiles fetched live after the last build are in data/companies but not yet in graph.json: take them in,
   // so a call whose result is already on disk is never made again.
+  let files: string[] = [];
+  const dir = path.join(DATA_DIR, "companies");
   try {
-    const dir = path.join(DATA_DIR, "companies");
-    for (const f of fs.readdirSync(dir)) {
-      if (!f.endsWith(".json")) continue;
-      const id = f.slice(0, -5);
-      const n = g.node(id);
-      if (n?.loaded) continue;
-      const j = JSON.parse(fs.readFileSync(path.join(dir, f), "utf8")) as RawEntity;
-      if (j?.id && !g.node(j.id)?.loaded) g.ingest(j, `data/companies/${f}`);
-    }
+    files = fs.readdirSync(dir);
   } catch {
     // no data directory at runtime (read-only bundle): the built graph is all there is
+  }
+  for (const f of files) {
+    if (!f.endsWith(".json") || g.node(f.slice(0, -5))?.loaded) continue;
+    try {
+      const j = JSON.parse(fs.readFileSync(path.join(dir, f), "utf8")) as RawEntity;
+      if (j?.id && !g.node(j.id)?.loaded) g.ingest(j, `data/companies/${f}`);
+    } catch {
+      // a file cut short by an interrupted write: skip it, the others still count
+    }
   }
   return g;
 }

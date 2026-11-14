@@ -1,0 +1,163 @@
+{
+ "id": "383b57c5-58a0-5dfc-b1d9-a5762ae4e97c",
+ "name": "Pre-Seed",
+ "entity_type": "FundingRound",
+ "description": null,
+ "properties": {
+  "name": {
+   "value": "Pre-Seed",
+   "sources": [
+    {
+     "name": "cdn.busibee.be",
+     "document": "https://cdn.busibee.be/publications/1czXyxiEHe6BrR5yQQL4sb.pdf",
+     "date": "2025-01-15",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "einpresswire.com",
+     "document": "https://www.einpresswire.com/article/885641175/trince-raises-5-2-million-6-million-funding-to-fuel-commercial-expansion-and-technology-development",
+     "date": "2026-01-22",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "round_label": {
+   "value": "PRE_SEED",
+   "sources": [
+    {
+     "name": "cdn.busibee.be",
+     "document": "https://cdn.busibee.be/publications/1czXyxiEHe6BrR5yQQL4sb.pdf",
+     "date": "2025-01-15",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "einpresswire.com",
+     "document": "https://www.einpresswire.com/article/885641175/trince-raises-5-2-million-6-million-funding-to-fuel-commercial-expansion-and-technology-development",
+     "date": "2026-01-22",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "instrument": {
+   "value": "PREFERRED_EQUITY",
+   "sources": [
+    {
+     "name": "cdn.busibee.be",
+     "document": "https://cdn.busibee.be/publications/1czXyxiEHe6BrR5yQQL4sb.pdf",
+     "date": "2025-01-15",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "transaction_value": {
+   "value": 2028417.06,
+   "sources": [
+    {
+     "name": "cdn.busibee.be",
+     "document": "https://cdn.busibee.be/publications/1czXyxiEHe6BrR5yQQL4sb.pdf",
+     "date": "2025-01-15",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "einpresswire.com",
+     "document": "https://www.einpresswire.com/article/885641175/trince-raises-5-2-million-6-million-funding-to-fuel-commercial-expansion-and-technology-development",
+     "date": "2026-01-22",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "transaction_value_units": {
+   "value": "EUR",
+   "sources": [
+    {
+     "name": "cdn.busibee.be",
+     "document": "https://cdn.busibee.be/publications/1czXyxiEHe6BrR5yQQL4sb.pdf",
+     "date": "2025-01-15",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "einpresswire.com",
+     "document": "https://www.einpresswire.com/article/885641175/trince-raises-5-2-million-6-million-funding-to-fuel-commercial-expansion-and-technology-development",
+     "date": "2026-01-22",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "announcement_date": {
+   "value": "2025-01-15",
+   "sources": [
+    {
+     "name": "cdn.busibee.be",
+     "document": "https://cdn.busibee.be/publications/1czXyxiEHe6BrR5yQQL4sb.pdf",
+     "date": "2025-01-15",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "event_date": {
+   "value": "2024-12-24",
+   "sources": [
+    {
+     "name": "cdn.busibee.be",
+     "document": "https://cdn.busibee.be/publications/1czXyxiEHe6BrR5yQQL4sb.pdf",
+     "date": "2025-01-15",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "annotations": {
+   "value": [
+    "Extension of rounds.1.",
+    "No source names this round.",
+    "round_label_stated:Pre-Seed",
+    "round_label_basis:INFERRED",
+    "round_label_explanation:Unnamed equity round after rounds.1 (Pre-Seed) and before the source-named rounds.0 (Seed); the next label would reach Seed, so it takes the earlier label (instructions §3.5)."
+   ],
+   "sources": []
+  }
+ },
+ "relationships": {
+  "outgoing": {},
+  "incoming": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "01eeb50b-e428-41a6-ae7f-6287ec5c1ee5",
+     "name": "Trince",
+     "entity_type": "Company",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "cdn.busibee.be",
+        "document": "https://cdn.busibee.be/publications/1czXyxiEHe6BrR5yQQL4sb.pdf",
+        "date": "2025-01-15",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       },
+       {
+        "name": "einpresswire.com",
+        "document": "https://www.einpresswire.com/article/885641175/trince-raises-5-2-million-6-million-funding-to-fuel-commercial-expansion-and-technology-development",
+        "date": "2026-01-22",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "6ae0de73-dde5-5e68-80c2-483b73109618"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

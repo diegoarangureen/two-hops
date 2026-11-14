@@ -1,0 +1,1432 @@
+{
+ "id": "68950d21-4cef-4e22-92ce-c1651ada6a6a",
+ "name": "TesterArmy",
+ "entity_type": "Company",
+ "description": "TesterArmy (now e2e) builds AI software-testing tools: e2e, an open-source agentic end-to-end testing framework for web, iOS and Android; its hosted TesterArmy QA-agent platform is winding down (op...",
+ "properties": {
+  "name": {
+   "value": "TesterArmy",
+   "sources": [
+    {
+     "name": "Y Combinator",
+     "document": "https://github.com/yc-oss/api",
+     "date": "2026-06-05"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "TesterArmy, Inc.",
+   "sources": [
+    {
+     "name": "tester.army",
+     "document": "https://tester.army/",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "tester.army",
+     "document": "https://tester.army/terms",
+     "date": "2026-10-28",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "e2e.com",
+     "document": "https://e2e.com/privacy",
+     "date": "2026-11-07",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "aliases": {
+   "value": [
+    "Tester Army",
+    "TesterArmy",
+    "tester.army",
+    "e2e"
+   ],
+   "sources": []
+  },
+  "website": {
+   "value": "e2e.com",
+   "sources": [
+    {
+     "name": "e2e.com",
+     "document": "https://e2e.com/blog/seed",
+     "date": "2026-11-03",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "e2e.com",
+     "document": "https://e2e.com/privacy",
+     "date": "2026-11-07",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "ycombinator.com",
+     "document": "https://www.ycombinator.com/companies/e2e",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "TesterArmy (now e2e) builds AI software-testing tools: e2e, an open-source agentic end-to-end testing framework for web, iOS and Android; its hosted TesterArmy QA-agent platform is winding down (op...",
+   "sources": [
+    {
+     "name": "tester.army",
+     "document": "https://tester.army/",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "ycombinator.com",
+     "document": "https://www.ycombinator.com/companies/e2e",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "e2e.com",
+     "document": "https://e2e.com/blog/introducing-e2e",
+     "date": "2026-10-01",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2026-01-01",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/testerarmy",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    },
+    {
+     "name": "ycombinator.com",
+     "document": "https://www.ycombinator.com/companies/e2e",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "therecursive.com",
+     "document": "https://www.therecursive.com/polish-e2e-raises-eur7m-to-develop-ai-powered-software-testing/",
+     "date": "2026-11-03",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "e2e.com",
+     "document": "https://e2e.com/blog/seed",
+     "date": "2026-11-03",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "Warsaw, Poland",
+   "sources": [
+    {
+     "name": "ycombinator.com",
+     "document": "https://www.ycombinator.com/companies/e2e",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "xyz.pl",
+     "document": "https://xyz.pl/?p=271347",
+     "date": "2026-11-03",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "xyz.pl",
+     "document": "https://xyz.pl/poland-unpacked/from-test-scripts-to-ai-agents-testerarmy-targets-the-us-market-1132/",
+     "date": "2026-09-20",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "Y Combinator",
+     "document": "https://github.com/yc-oss/api",
+     "date": "2026-07-25"
+    },
+    {
+     "name": "tester.army",
+     "document": "https://tester.army/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "total_funding": {
+   "value": 9200000.0,
+   "sources": [
+    {
+     "name": "e2e.com",
+     "document": "https://e2e.com/blog/pre-seed",
+     "date": "2026-09-15",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "therecursive.com",
+     "document": "https://therecursive.com/yc-proven-testerarmy-raises-eur1m-for-ai-agents-that-test-software",
+     "date": "2026-09-15",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "xyz.pl",
+     "document": "https://xyz.pl/poland-unpacked/from-test-scripts-to-ai-agents-testerarmy-targets-the-us-market-1132/",
+     "date": "2026-09-20",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "e2e.com",
+     "document": "https://e2e.com/blog/seed",
+     "date": "2026-11-03",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "therecursive.com",
+     "document": "https://www.therecursive.com/polish-e2e-raises-eur7m-to-develop-ai-powered-software-testing/",
+     "date": "2026-11-03",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "forbes.cz",
+     "document": "https://forbes.cz/ai-napise-kod-e2e-ho-otestuje-mladi-polaci-od-investoru-ziskali-200-milionu-korun/",
+     "date": "2026-11-03",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "cc.cz",
+     "document": "https://cc.cz/je-to-ted-nejvic-hot-mlady-polsky-tym-hlasi-investori-dva-ceske-fondy-sazi-na-dalsi-tamni-raketu/",
+     "date": "2026-11-03",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "xyz.pl",
+     "document": "https://xyz.pl/?p=271347",
+     "date": "2026-11-03",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "total_funding_units": {
+   "value": "USD",
+   "sources": [
+    {
+     "name": "e2e.com",
+     "document": "https://e2e.com/blog/pre-seed",
+     "date": "2026-09-15",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "therecursive.com",
+     "document": "https://therecursive.com/yc-proven-testerarmy-raises-eur1m-for-ai-agents-that-test-software",
+     "date": "2026-09-15",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "xyz.pl",
+     "document": "https://xyz.pl/poland-unpacked/from-test-scripts-to-ai-agents-testerarmy-targets-the-us-market-1132/",
+     "date": "2026-09-20",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "e2e.com",
+     "document": "https://e2e.com/blog/seed",
+     "date": "2026-11-03",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "therecursive.com",
+     "document": "https://www.therecursive.com/polish-e2e-raises-eur7m-to-develop-ai-powered-software-testing/",
+     "date": "2026-11-03",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "forbes.cz",
+     "document": "https://forbes.cz/ai-napise-kod-e2e-ho-otestuje-mladi-polaci-od-investoru-ziskali-200-milionu-korun/",
+     "date": "2026-11-03",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "cc.cz",
+     "document": "https://cc.cz/je-to-ted-nejvic-hot-mlady-polsky-tym-hlasi-investori-dva-ceske-fondy-sazi-na-dalsi-tamni-raketu/",
+     "date": "2026-11-03",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "xyz.pl",
+     "document": "https://xyz.pl/?p=271347",
+     "date": "2026-11-03",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "total_funding_excluding_debt": {
+   "value": 9200000.0,
+   "sources": [
+    {
+     "name": "e2e.com",
+     "document": "https://e2e.com/blog/pre-seed",
+     "date": "2026-09-15",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "therecursive.com",
+     "document": "https://therecursive.com/yc-proven-testerarmy-raises-eur1m-for-ai-agents-that-test-software",
+     "date": "2026-09-15",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "xyz.pl",
+     "document": "https://xyz.pl/poland-unpacked/from-test-scripts-to-ai-agents-testerarmy-targets-the-us-market-1132/",
+     "date": "2026-09-20",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "e2e.com",
+     "document": "https://e2e.com/blog/seed",
+     "date": "2026-11-03",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "therecursive.com",
+     "document": "https://www.therecursive.com/polish-e2e-raises-eur7m-to-develop-ai-powered-software-testing/",
+     "date": "2026-11-03",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "forbes.cz",
+     "document": "https://forbes.cz/ai-napise-kod-e2e-ho-otestuje-mladi-polaci-od-investoru-ziskali-200-milionu-korun/",
+     "date": "2026-11-03",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "cc.cz",
+     "document": "https://cc.cz/je-to-ted-nejvic-hot-mlady-polsky-tym-hlasi-investori-dva-ceske-fondy-sazi-na-dalsi-tamni-raketu/",
+     "date": "2026-11-03",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "xyz.pl",
+     "document": "https://xyz.pl/?p=271347",
+     "date": "2026-11-03",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "6f3fa8f6-fbba-5d29-bcbf-9b483e70c519",
+     "name": "Seed",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "e2e.com",
+        "document": "https://e2e.com/blog/pre-seed",
+        "date": "2026-09-15",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "therecursive.com",
+        "document": "https://therecursive.com/yc-proven-testerarmy-raises-eur1m-for-ai-agents-that-test-software",
+        "date": "2026-09-15",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "e2e.com",
+        "document": "https://e2e.com/blog/seed",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "therecursive.com",
+        "document": "https://www.therecursive.com/polish-e2e-raises-eur7m-to-develop-ai-powered-software-testing/",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "99cc9e4c-71fb-5f60-8e63-882ab36ab0cb"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_CORPORATE_EVENT": [
+    {
+     "id": "ece4b629-13cb-4f41-8ff3-7548029e097a",
+     "name": "FINANCING_RAISED_OR_FACILITY_ENTERED",
+     "entity_type": "PrivateCompanyFundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "app.dealroom.co",
+        "document": "https://app.dealroom.co/companies/testerarmy_yc_x26",
+        "date": "2026-06-11"
+       },
+       {
+        "name": "TesterArmy: Test your app with AI, catch bugs before users do | Y Combinator",
+        "document": "https://www.ycombinator.com/companies/testerarmy",
+        "date": "2026-05-26"
+       }
+      ],
+      "event_date": "2026-03-01",
+      "id": "aeaab58a-39c7-4873-9fc9-1e8e30c35ac1"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "de84e090-e439-5d60-9b9c-0ad61dd2865c"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "8ecf5e57-a149-438c-9eb4-089809bade56",
+     "name": "SOFTWARE_AND_SERVICES",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/testerarmy",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "4b73f8e8-44ae-5fc1-b8ed-3360c1dfa36e",
+      "original_label": "ai"
+     }
+    }
+   ],
+   "HAS_HEADQUARTERS_IN": [
+    {
+     "id": "37a1f0f5-f5ef-4b63-b3d8-14f5636be703",
+     "name": "United States",
+     "entity_type": "Country",
+     "properties": {
+      "sources": [
+       {
+        "name": "Y Combinator",
+        "document": "https://github.com/yc-oss/api",
+        "date": "2026-06-05"
+       }
+      ],
+      "id": "717e586f-3fbf-5db5-80c6-556fc50400ea"
+     }
+    }
+   ],
+   "HAS_PRESENCE_IN": [
+    {
+     "id": "37a1f0f5-f5ef-4b63-b3d8-14f5636be703",
+     "name": "United States",
+     "entity_type": "Country",
+     "properties": {
+      "sources": [
+       {
+        "name": "Y Combinator",
+        "document": "https://github.com/yc-oss/api",
+        "date": "2026-06-05"
+       }
+      ],
+      "id": "5113f179-09d0-542b-8683-b5343bf68649"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "INVESTED_IN": [
+    {
+     "id": "0c96e1fb-3027-577c-a4b3-c5a3fc4f8c1d",
+     "name": "Piotr Karwatka",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "e2e.com",
+        "document": "https://e2e.com/blog/pre-seed",
+        "date": "2026-09-15",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "732ae38a-80a2-4c18-8801-da479be8fa3e"
+     }
+    },
+    {
+     "id": "10f68c11-0d27-56d1-b5f1-f39627d87817",
+     "name": "Adam Pietrasiak",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "e2e.com",
+        "document": "https://e2e.com/blog/pre-seed",
+        "date": "2026-09-15",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "18e5b3fc-c51b-4126-bb2b-f5e11c96b003"
+     }
+    },
+    {
+     "id": "119755d9-bae7-57f0-8a9e-bc04b690cad9",
+     "name": "Bartek Pucek",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "e2e.com",
+        "document": "https://e2e.com/blog/pre-seed",
+        "date": "2026-09-15",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "cbd9bef2-e3c2-4e7c-b449-7c6d4eb2dffc"
+     }
+    },
+    {
+     "id": "194c6cf7-cfde-4561-b417-e9ed1871ce39",
+     "name": "Oscar Salazar",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "e2e.com",
+        "document": "https://e2e.com/blog/seed",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "53f98ceb-4c39-4694-a4b2-23e0ef99d410"
+     }
+    },
+    {
+     "id": "1e86655e-373d-4fe8-be13-af3713581f73",
+     "name": "Y Combinator",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "Y Combinator",
+        "document": "https://github.com/yc-oss/api",
+        "date": "2026-06-09"
+       },
+       {
+        "name": "e2e.com",
+        "document": "https://e2e.com/blog/pre-seed",
+        "date": "2026-09-15",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "therecursive.com",
+        "document": "https://therecursive.com/yc-proven-testerarmy-raises-eur1m-for-ai-agents-that-test-software",
+        "date": "2026-09-15",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "47666350-88e8-544e-8b3d-22b8f6a47fd2"
+     }
+    },
+    {
+     "id": "2288b2e7-36fa-4556-b6a2-88e5e79b38ed",
+     "name": "Austen Allred",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "e2e.com",
+        "document": "https://e2e.com/blog/pre-seed",
+        "date": "2026-09-15",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "eea7574f-eb85-4bc7-81bd-2d5f377a8840"
+     }
+    },
+    {
+     "id": "2a41683a-97c9-5b61-98ce-7dc4b02a3bc8",
+     "name": "Mike Grabowski",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "e2e.com",
+        "document": "https://e2e.com/blog/pre-seed",
+        "date": "2026-09-15",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "dbaad1ab-38ba-4737-8ba8-cb778a028210"
+     }
+    },
+    {
+     "id": "36dfe063-46a1-5c50-9bf8-b33c8604419d",
+     "name": "Charlie Cheever",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "e2e.com",
+        "document": "https://e2e.com/blog/pre-seed",
+        "date": "2026-09-15",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "d5a82ea3-b211-4699-ba0f-cd9e813c2882"
+     }
+    },
+    {
+     "id": "39f23db1-266b-4506-a7a0-b3598f4466a0",
+     "name": "Fryderyk Wiatrowski",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "e2e.com",
+        "document": "https://e2e.com/blog/pre-seed",
+        "date": "2026-09-15",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "0117297e-e901-47cf-878e-24ba04d7d5c4"
+     }
+    },
+    {
+     "id": "3d0fc5b7-59a1-5313-9bac-714391288424",
+     "name": "Emil Kowalski",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "e2e.com",
+        "document": "https://e2e.com/blog/seed",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "5c12e803-b74c-4ff4-becc-2da6c23e5354"
+     }
+    },
+    {
+     "id": "48b7ff76-9bc7-4468-abba-4d937f848dfd",
+     "name": "Guillermo Rauch",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "e2e.com",
+        "document": "https://e2e.com/blog/pre-seed",
+        "date": "2026-09-15",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "41d0c586-6348-4549-80f0-255f5f452965"
+     }
+    },
+    {
+     "id": "5890d3f2-3877-5ed0-abb9-b8133f271c23",
+     "name": "Zeno Rocha",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "e2e.com",
+        "document": "https://e2e.com/blog/pre-seed",
+        "date": "2026-09-15",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "3c633c1d-b036-44fb-b57f-3867414f7ee5"
+     }
+    },
+    {
+     "id": "6f2346a2-0f82-4060-b8ab-dd98bf83c6e7",
+     "name": "KAYA",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "e2e.com",
+        "document": "https://e2e.com/blog/seed",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "therecursive.com",
+        "document": "https://www.therecursive.com/polish-e2e-raises-eur7m-to-develop-ai-powered-software-testing/",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "47764026-57a8-4286-9a20-0d754960a8ee"
+     }
+    },
+    {
+     "id": "6f8bc5bf-5d75-573b-8334-4d3312f45906",
+     "name": "Matt Swulinski",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "e2e.com",
+        "document": "https://e2e.com/blog/seed",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "5b9f9bb2-925e-4229-962a-14b2e2d7c8f9"
+     }
+    },
+    {
+     "id": "7f159297-7277-4418-a2bd-1f4ca708d778",
+     "name": "Script Capital",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "e2e.com",
+        "document": "https://e2e.com/blog/pre-seed",
+        "date": "2026-09-15",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "therecursive.com",
+        "document": "https://therecursive.com/yc-proven-testerarmy-raises-eur1m-for-ai-agents-that-test-software",
+        "date": "2026-09-15",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "d7b3b203-b116-4eb2-b9d4-dcbd563e7572"
+     }
+    },
+    {
+     "id": "7faf31b1-b7a2-4e93-b820-1fed0d86d2fa",
+     "name": "Candor",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "Y Combinator",
+        "document": "https://github.com/yc-oss/api",
+        "date": "2026-06-05"
+       }
+      ],
+      "id": "8f1d677e-1bc7-5423-bafa-61bd22034f43"
+     }
+    },
+    {
+     "id": "857c4739-9b37-5547-bd8f-bcbd3b8a8096",
+     "name": "Jakub Pawelski",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "xyz.pl",
+        "document": "https://xyz.pl/?p=271347",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "4c6a699e-6e1e-4ac1-916a-738dda61b58a"
+     }
+    },
+    {
+     "id": "92244ce9-f225-5e77-9f6f-002fc61d7799",
+     "name": "Tomasz Karwatka",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "e2e.com",
+        "document": "https://e2e.com/blog/pre-seed",
+        "date": "2026-09-15",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "5b48b58a-0b9b-4b58-b710-b52cdfd20018"
+     }
+    },
+    {
+     "id": "93a3462b-3ad2-437c-b183-5a2133fb944b",
+     "name": "Sarup Banskota",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "e2e.com",
+        "document": "https://e2e.com/blog/pre-seed",
+        "date": "2026-09-15",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "adfe16a3-d3b7-45d9-a013-dab99f1bddf9"
+     }
+    },
+    {
+     "id": "973eb039-5891-479c-9c66-dafe02543fbf",
+     "name": "Eight Capital",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "e2e.com",
+        "document": "https://e2e.com/blog/pre-seed",
+        "date": "2026-09-15",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "therecursive.com",
+        "document": "https://therecursive.com/yc-proven-testerarmy-raises-eur1m-for-ai-agents-that-test-software",
+        "date": "2026-09-15",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "0c4dad65-7492-41c0-b8a8-9deebc0da922"
+     }
+    },
+    {
+     "id": "9e4453fa-d724-5667-a1d5-9956f0926a0d",
+     "name": "Fernando Rojo",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "e2e.com",
+        "document": "https://e2e.com/blog/pre-seed",
+        "date": "2026-09-15",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "b047e2c0-6d33-4277-879e-5394a210be75"
+     }
+    },
+    {
+     "id": "ac4c6d37-43ee-55c0-99b8-8478b78064d5",
+     "name": "Theo Browne",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "e2e.com",
+        "document": "https://e2e.com/blog/pre-seed",
+        "date": "2026-09-15",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "49190a0e-1359-4acc-bd74-d52db3e9d084"
+     }
+    },
+    {
+     "id": "b93e1bfc-bddd-5b97-a403-19601d777727",
+     "name": "Walden Yan",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "e2e.com",
+        "document": "https://e2e.com/blog/pre-seed",
+        "date": "2026-09-15",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "87d96059-3df3-40d9-9150-f5527c11a286"
+     }
+    },
+    {
+     "id": "bc86588a-f674-5944-8cdd-7cd3feeea1e1",
+     "name": "Benedict Chan",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "e2e.com",
+        "document": "https://e2e.com/blog/pre-seed",
+        "date": "2026-09-15",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "daa824f9-ca28-4be9-a354-7f6032aa7df0"
+     }
+    },
+    {
+     "id": "c934f7e3-6ee3-4983-b0e1-f7827df567f9",
+     "name": "Point Nine Capital",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "e2e.com",
+        "document": "https://e2e.com/blog/seed",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "therecursive.com",
+        "document": "https://www.therecursive.com/polish-e2e-raises-eur7m-to-develop-ai-powered-software-testing/",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "755da66b-bbf8-40b5-a069-9275edf075ce"
+     }
+    },
+    {
+     "id": "cca845af-2a63-5feb-961d-a75ced3d94c6",
+     "name": "Daniel Dhawan",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "e2e.com",
+        "document": "https://e2e.com/blog/pre-seed",
+        "date": "2026-09-15",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "eb5000f4-4385-4504-8ec8-0886bf9c1179"
+     }
+    },
+    {
+     "id": "d45065f8-c5b6-54e0-b35d-045de78c445c",
+     "name": "Michał Pierzchała",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "e2e.com",
+        "document": "https://e2e.com/blog/pre-seed",
+        "date": "2026-09-15",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "71092155-d3a1-4b20-89d3-ffe6ca1ebd35"
+     }
+    },
+    {
+     "id": "d9f9a9ca-8f83-44ea-97f2-2f4d844dd9f1",
+     "name": "Credo Ventures a.s.",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "e2e.com",
+        "document": "https://e2e.com/blog/seed",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "therecursive.com",
+        "document": "https://www.therecursive.com/polish-e2e-raises-eur7m-to-develop-ai-powered-software-testing/",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "a1f21ae0-882d-4372-91c3-9da4e967589d"
+     }
+    },
+    {
+     "id": "e3704082-44ce-5399-a5fd-17cca9ef6413",
+     "name": "Chad Byers",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "e2e.com",
+        "document": "https://e2e.com/blog/seed",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "38353f13-87a2-4231-a933-57c5e7f37d38"
+     }
+    },
+    {
+     "id": "e499cab6-2ed9-4c23-83cc-4dd96fd97d6e",
+     "name": "Baobab Ventures",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "e2e.com",
+        "document": "https://e2e.com/blog/seed",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "therecursive.com",
+        "document": "https://www.therecursive.com/polish-e2e-raises-eur7m-to-develop-ai-powered-software-testing/",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "a8c7b65d-599c-4ac5-9bd9-cec996abd7ab"
+     }
+    },
+    {
+     "id": "f2d8862c-bec4-4739-9e90-d25a008c040d",
+     "name": "AIP SEED ALTERNATYWNA SPÓŁKA INWESTYCYJNA SPÓŁKA AKCYJNA",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "e2e.com",
+        "document": "https://e2e.com/blog/pre-seed",
+        "date": "2026-09-15",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "therecursive.com",
+        "document": "https://therecursive.com/yc-proven-testerarmy-raises-eur1m-for-ai-agents-that-test-software",
+        "date": "2026-09-15",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "63b4c79b-62df-4267-ae48-201fdd01d736"
+     }
+    },
+    {
+     "id": "fae82f36-c3bf-5477-a9f2-a45fe4d053ae",
+     "name": "Carles Reina",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "e2e.com",
+        "document": "https://e2e.com/blog/seed",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "c5c3676b-b3ea-4fb2-81a9-ebfeb51b17aa"
+     }
+    },
+    {
+     "id": "fd2363b3-101e-5a0f-a84c-972a74df04b8",
+     "name": "Marcin Żukowski",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "e2e.com",
+        "document": "https://e2e.com/blog/seed",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "bda99b23-5d20-427f-a052-693c1601cb68"
+     }
+    }
+   ],
+   "FOUNDED": [
+    {
+     "id": "073a0df5-7992-47b7-9036-b1dde0997e6c",
+     "name": "Szymon Rybczak",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "TesterArmy: Test your app with AI, catch bugs before users do | Y Combinator",
+        "document": "https://www.ycombinator.com/companies/testerarmy",
+        "date": "2026-05-26"
+       },
+       {
+        "name": "TesterArmy: About us",
+        "document": "https://tester.army/about",
+        "date": "2026-01-01"
+       },
+       {
+        "name": "yctierlist.com",
+        "document": "https://yctierlist.com/s26/testerarmy",
+        "date": "2026-07-29"
+       },
+       {
+        "name": "www.linkedin.com",
+        "document": "https://www.linkedin.com/in/szymonrybczak",
+        "date": "2026-07-29"
+       }
+      ],
+      "id": "2e4799b2-ad01-4e18-9d80-a530c6b7799b"
+     }
+    },
+    {
+     "id": "073a0df5-7992-47b7-9036-b1dde0997e6c",
+     "name": "Szymon Rybczak",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "ycombinator.com",
+        "document": "https://www.ycombinator.com/companies/e2e",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "e2e.com",
+        "document": "https://e2e.com/team",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "e2e.com",
+        "document": "https://e2e.com/blog/seed",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "therecursive.com",
+        "document": "https://therecursive.com/yc-proven-testerarmy-raises-eur1m-for-ai-agents-that-test-software",
+        "date": "2026-09-15",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "ae3c4a81-cee0-5d23-a3e3-5b39e66aedd8"
+     }
+    },
+    {
+     "id": "39832b88-d3e9-4b7d-b0cb-d54d89cf5657",
+     "name": "Oskar Kwaśniewski",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "TesterArmy: Test your app with AI, catch bugs before users do | Y Combinator",
+        "document": "https://www.ycombinator.com/companies/testerarmy",
+        "date": "2026-05-26"
+       },
+       {
+        "name": "TesterArmy: About us",
+        "document": "https://tester.army/about",
+        "date": "2026-01-01"
+       },
+       {
+        "name": "yctierlist.com",
+        "document": "https://yctierlist.com/s26/testerarmy",
+        "date": "2026-07-29"
+       },
+       {
+        "name": "TesterArmy (YC P26) | LinkedIn",
+        "document": "https://www.linkedin.com/company/testerarmy",
+        "date": "2026-07-27"
+       }
+      ],
+      "id": "a4bcbcd0-1857-49e2-b461-9a83c59c9148"
+     }
+    },
+    {
+     "id": "39832b88-d3e9-4b7d-b0cb-d54d89cf5657",
+     "name": "Oskar Kwaśniewski",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "ycombinator.com",
+        "document": "https://www.ycombinator.com/companies/e2e",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "e2e.com",
+        "document": "https://e2e.com/team",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "therecursive.com",
+        "document": "https://therecursive.com/yc-proven-testerarmy-raises-eur1m-for-ai-agents-that-test-software",
+        "date": "2026-09-15",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "442ca17a-dd77-56a2-9cfa-192434cfb295"
+     }
+    },
+    {
+     "id": "98bba802-8dfa-4db3-9358-b2ca563cf5ea",
+     "name": "Piotr Matyjasik",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "TesterArmy: Test your app with AI, catch bugs before users do | Y Combinator",
+        "document": "https://www.ycombinator.com/companies/testerarmy",
+        "date": "2026-05-26"
+       },
+       {
+        "name": "yctierlist.com",
+        "document": "https://yctierlist.com/s26/testerarmy",
+        "date": "2026-07-29"
+       }
+      ],
+      "id": "aa29a23f-550e-4bab-bd50-d7f25da7acd8"
+     }
+    }
+   ],
+   "IS_CEO_OF": [
+    {
+     "id": "073a0df5-7992-47b7-9036-b1dde0997e6c",
+     "name": "Szymon Rybczak",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "ycombinator.com",
+        "document": "https://www.ycombinator.com/companies/e2e",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "e2e.com",
+        "document": "https://e2e.com/team",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "e2e.com",
+        "document": "https://e2e.com/blog/seed",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "f1805454-0790-5a79-85d8-5965b77ddbb0"
+     }
+    }
+   ],
+   "IS_CTO_OF": [
+    {
+     "id": "39832b88-d3e9-4b7d-b0cb-d54d89cf5657",
+     "name": "Oskar Kwaśniewski",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "ycombinator.com",
+        "document": "https://www.ycombinator.com/companies/e2e",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "e2e.com",
+        "document": "https://e2e.com/team",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "e2e.com",
+        "document": "https://e2e.com/blog/introducing-e2e",
+        "date": "2026-10-01",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "bed53958-4f8f-54cf-9dfa-c1e26ae0454a"
+     }
+    }
+   ],
+   "WORKS_AT": [
+    {
+     "id": "073a0df5-7992-47b7-9036-b1dde0997e6c",
+     "name": "Szymon Rybczak",
+     "entity_type": "Person",
+     "properties": {
+      "role": "CEO",
+      "sources": [
+       {
+        "name": "TesterArmy: Test your app with AI, catch bugs before users do | Y Combinator",
+        "document": "https://www.ycombinator.com/companies/testerarmy",
+        "date": "2026-05-26"
+       },
+       {
+        "name": "TesterArmy: About us",
+        "document": "https://tester.army/about",
+        "date": "2026-01-01"
+       },
+       {
+        "name": "yctierlist.com",
+        "document": "https://yctierlist.com/s26/testerarmy",
+        "date": "2026-07-29"
+       },
+       {
+        "name": "www.linkedin.com",
+        "document": "https://www.linkedin.com/in/szymonrybczak",
+        "date": "2026-07-29"
+       }
+      ],
+      "id": "03f25b57-bba4-4f11-bd55-e95a87e998f4"
+     }
+    },
+    {
+     "id": "39832b88-d3e9-4b7d-b0cb-d54d89cf5657",
+     "name": "Oskar Kwaśniewski",
+     "entity_type": "Person",
+     "properties": {
+      "role": "CTO",
+      "sources": [
+       {
+        "name": "TesterArmy: Test your app with AI, catch bugs before users do | Y Combinator",
+        "document": "https://www.ycombinator.com/companies/testerarmy",
+        "date": "2026-05-26"
+       },
+       {
+        "name": "TesterArmy: About us",
+        "document": "https://tester.army/about",
+        "date": "2026-01-01"
+       },
+       {
+        "name": "yctierlist.com",
+        "document": "https://yctierlist.com/s26/testerarmy",
+        "date": "2026-07-29"
+       },
+       {
+        "name": "TesterArmy (YC P26) | LinkedIn",
+        "document": "https://www.linkedin.com/company/testerarmy",
+        "date": "2026-07-27"
+       }
+      ],
+      "id": "257137b7-99c4-4b92-8045-d1316e17e321"
+     }
+    },
+    {
+     "id": "98bba802-8dfa-4db3-9358-b2ca563cf5ea",
+     "name": "Piotr Matyjasik",
+     "entity_type": "Person",
+     "properties": {
+      "role": "CPO",
+      "sources": [
+       {
+        "name": "TesterArmy: Test your app with AI, catch bugs before users do | Y Combinator",
+        "document": "https://www.ycombinator.com/companies/testerarmy",
+        "date": "2026-05-26"
+       },
+       {
+        "name": "yctierlist.com",
+        "document": "https://yctierlist.com/s26/testerarmy",
+        "date": "2026-07-29"
+       }
+      ],
+      "id": "a95389ab-30ac-4a24-854f-753fae85507a"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

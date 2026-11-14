@@ -1,0 +1,112 @@
+{
+ "id": "0cf621ac-0554-5790-abee-a82ab7719675",
+ "name": "Pre-Seed",
+ "entity_type": "FundingRound",
+ "description": null,
+ "properties": {
+  "name": {
+   "value": "Pre-Seed",
+   "sources": [
+    {
+     "name": "businesswire.com",
+     "document": "https://businesswire.com/news/home/20240908214770/en",
+     "date": "2024-09-08",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "round_label": {
+   "value": "PRE_SEED",
+   "sources": [
+    {
+     "name": "businesswire.com",
+     "document": "https://businesswire.com/news/home/20240908214770/en",
+     "date": "2024-09-08",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "announcement_date": {
+   "value": "2024-09-08",
+   "sources": [
+    {
+     "name": "businesswire.com",
+     "document": "https://businesswire.com/news/home/20240908214770/en",
+     "date": "2024-09-08",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "theaiinsider.tech",
+     "document": "https://theaiinsider.tech/?p=26839",
+     "date": "2024-09-10",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "annotations": {
+   "value": [
+    "Accelerator programme round (instructions §3.5): ArcanaBio is one of the companies receiving BII funding in the Deep Tech Lab – Quantum programme starting September 2024. The Hub lists the company stage as pre-seed.",
+    "round_label_stated:Pre-Seed",
+    "round_label_basis:INFERRED",
+    "round_label_explanation:Accelerator programme round (BioInnovation Institute Deep Tech Lab – Quantum, 2024-09-08 release) -> Pre-Seed, instructions §3.5 table."
+   ],
+   "sources": []
+  }
+ },
+ "relationships": {
+  "outgoing": {},
+  "incoming": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "119c618e-3405-4734-8641-b7172ac34b7a",
+     "name": "ArcanaBio",
+     "entity_type": "Company",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "businesswire.com",
+        "document": "https://businesswire.com/news/home/20240908214770/en",
+        "date": "2024-09-08",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "71b223de-d872-5122-a462-3046f35d5704"
+     }
+    },
+    {
+     "id": "9959f461-f24f-45c1-b90c-f8bbec2fa53a",
+     "name": "BioInnovation Institute",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "businesswire.com",
+        "document": "https://businesswire.com/news/home/20240908214770/en",
+        "date": "2024-09-08",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "theaiinsider.tech",
+        "document": "https://theaiinsider.tech/?p=26839",
+        "date": "2024-09-10",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "is_lead": true,
+      "id": "060ca9e1-8e39-5b49-93f5-90d00dca3ec5"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

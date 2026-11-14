@@ -1,0 +1,570 @@
+{
+ "id": "1d0672ee-84e8-554c-96b0-498194cc3153",
+ "name": "yoona.ai",
+ "entity_type": "Company",
+ "description": "yoona.ai is the Enterprise AI platform for product innovation. Our agentic AI builds an Enterprise Twin of your brand — connecting PLM, e-commerce, and market data to autonomously design products,...",
+ "properties": {
+  "name": {
+   "value": "yoona.ai",
+   "sources": [
+    {
+     "name": "yoona.ai",
+     "document": "https://yoona.ai/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/yoonaai/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "YOONA Ventures GmbH",
+   "sources": [
+    {
+     "name": "yoona.ai",
+     "document": "https://www.yoona.ai/impressum",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "northdata.de",
+     "document": "https://www.northdata.de/YOONA%20Ventures%20GmbH,%20Berlin",
+     "date": "2021-01-21",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "aliases": {
+   "value": [
+    "yoona Ventures UG"
+   ],
+   "sources": []
+  },
+  "website": {
+   "value": "yoona.ai",
+   "sources": [
+    {
+     "name": "yoona.ai",
+     "document": "https://yoona.ai/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "dns.google",
+     "document": "https://dns.google/query?name=yoona.ai&type=A",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "yoona.ai is the Enterprise AI platform for product innovation. Our agentic AI builds an Enterprise Twin of your brand — connecting PLM, e-commerce, and market data to autonomously design products,...",
+   "sources": [
+    {
+     "name": "yoona.ai",
+     "document": "https://yoona.ai/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2020-10-07",
+   "sources": [
+    {
+     "name": "northdata.de",
+     "document": "https://www.northdata.de/YOONA%20Ventures%20GmbH,%20Berlin",
+     "date": "2020-10-07",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "Berlin, Germany",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/yoonaai/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "yoona.ai",
+     "document": "https://yoona.ai/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "northdata.de",
+     "document": "https://www.northdata.de/YOONA%20Ventures%20GmbH,%20Berlin",
+     "date": "2020-10-07",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "employee_count_range": {
+   "value": [
+    11,
+    50
+   ],
+   "sources": [
+    {
+     "name": "jobs.techstars.com",
+     "document": "https://jobs.techstars.com/companies/yoona-ai-2",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    },
+    {
+     "name": "startbase.de",
+     "document": "https://www.startbase.de/organization/yoona-ventures/",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "total_funding": {
+   "value": 1800000.0,
+   "sources": [
+    {
+     "name": "vcbacked.co",
+     "document": "https://www.vcbacked.co/company/yoonaai",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "total_funding_units": {
+   "value": "USD",
+   "sources": [
+    {
+     "name": "vcbacked.co",
+     "document": "https://www.vcbacked.co/company/yoonaai",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "total_funding_excluding_debt": {
+   "value": 1800000.0,
+   "sources": [
+    {
+     "name": "vcbacked.co",
+     "document": "https://www.vcbacked.co/company/yoonaai",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "funding_stage": {
+   "value": "SEED",
+   "sources": [
+    {
+     "name": "vcbacked.co",
+     "document": "https://www.vcbacked.co/company/yoonaai",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "3d1d9e98-13d0-560d-94e5-cbb068ac3cfa",
+     "name": "Grant",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "yoona.ai",
+        "document": "https://www.yoona.ai/profit",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "698981b1-1155-5269-90db-f91233b44767"
+     }
+    },
+    {
+     "id": "501b4685-6045-5f3b-b61d-020fd29a2ec3",
+     "name": "Seed",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "vcbacked.co",
+        "document": "https://www.vcbacked.co/company/yoonaai",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "bcca6b41-117b-59f2-8c92-6f419b78fcde"
+     }
+    },
+    {
+     "id": "e75d6467-80f4-5da7-a144-1f546239861e",
+     "name": "Grant",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "berlin.de",
+        "document": "https://www.berlin.de/sen/web/presse/pressemitteilungen/2023/pressemitteilung.1313721.php",
+        "date": "2023-04-14",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "a6c7b0a3-449b-5199-bc7b-a16df589ed56"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "f97dd9fd-6ff9-5ac5-a11e-e0392a8f3d58"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "8ecf5e57-a149-438c-9eb4-089809bade56",
+     "name": "SOFTWARE_AND_SERVICES",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/yoonaai/",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "2acd5325-42dd-5a7b-b30a-0671f0873ed2",
+      "original_label": "ai"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "INVESTED_IN": [
+    {
+     "id": "9e1dd444-cace-4225-812e-cc3bb0bc6994",
+     "name": "Google for Startups",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "vcbacked.co",
+        "document": "https://www.vcbacked.co/company/yoonaai",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "afe676b0-2ea3-4629-ae4e-b8c456a4e7bb"
+     }
+    },
+    {
+     "id": "ae7530e4-556e-4547-ba15-88a12fbcdcb1",
+     "name": "Techstars",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "vcbacked.co",
+        "document": "https://www.vcbacked.co/company/yoonaai",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "240b11f4-7698-4d07-8b09-0a102f0d7ace"
+     }
+    },
+    {
+     "id": "cb4dcb8d-0418-46b9-b960-8698b2d602d6",
+     "name": "Expert Dojo, Inc.",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "vcbacked.co",
+        "document": "https://www.vcbacked.co/company/yoonaai",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "ccee1b6a-ec41-418a-b663-03cb99a78b22"
+     }
+    },
+    {
+     "id": "ea826494-9ecc-5a5c-bce0-fd224eeaeb42",
+     "name": "Alexander Gedat",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "vcbacked.co",
+        "document": "https://www.vcbacked.co/company/yoonaai",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "3582c88a-37a7-4b4a-b653-4c6bcae3f228"
+     }
+    }
+   ],
+   "FOUNDED": [
+    {
+     "id": "0785ef2d-d40a-500a-a048-8eb4c593e96b",
+     "name": "Anna Franziska Michel",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "yoona.ai",
+        "document": "https://www.yoona.ai/about",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "94b55e1c-1b66-5bb5-8601-3a8192d61978"
+     }
+    },
+    {
+     "id": "0ed2ba0d-503a-5261-bdd4-789f1761900f",
+     "name": "Volker Issbruecker",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "yoona.ai",
+        "document": "https://www.yoona.ai/about",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "e7ea20d9-685b-5f35-a0d6-04fe14c8dc15"
+     }
+    }
+   ],
+   "IS_CEO_OF": [
+    {
+     "id": "0785ef2d-d40a-500a-a048-8eb4c593e96b",
+     "name": "Anna Franziska Michel",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "yoona.ai",
+        "document": "https://www.yoona.ai/about",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "077c0bff-2e83-53a1-a22c-aa6696d864df"
+     }
+    }
+   ],
+   "IS_CTO_OF": [
+    {
+     "id": "0ed2ba0d-503a-5261-bdd4-789f1761900f",
+     "name": "Volker Issbruecker",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "yoona.ai",
+        "document": "https://www.yoona.ai/about",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "b43a77fc-e99c-5d26-942f-b74477552dc1"
+     }
+    }
+   ],
+   "WORKS_AT": [
+    {
+     "id": "0be1137a-411b-5ca5-a935-a6d95ed63aca",
+     "name": "Luize Ferreira",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Head of Operations",
+      "sources": [
+       {
+        "name": "yoona.ai",
+        "document": "https://www.yoona.ai/about",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "14cc8792-f91c-5f64-8bb3-1dfa4a2a0fe1"
+     }
+    },
+    {
+     "id": "0ed2ba0d-503a-5261-bdd4-789f1761900f",
+     "name": "Volker Issbruecker",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Prokurist",
+      "sources": [
+       {
+        "name": "northdata.de",
+        "document": "https://www.northdata.de/YOONA%20Ventures%20GmbH,%20Berlin",
+        "date": "2024-02-28",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "0977eeee-0c15-592c-894c-aeb7f29a5c6a",
+      "valid_since": "2024-02-28"
+     }
+    },
+    {
+     "id": "258e7e82-f52c-5da9-bfba-942c39131aae",
+     "name": "Miriam Barnhart",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Customer Success & Forward Deployed Engineer",
+      "sources": [
+       {
+        "name": "yoona.ai",
+        "document": "https://www.yoona.ai/about",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "6832916e-1de7-5995-8380-638b2486786d"
+     }
+    },
+    {
+     "id": "2fd34078-cbeb-53d6-9d67-8910ed563c94",
+     "name": "Kamran Valijonov",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Lead Software Engineer",
+      "sources": [
+       {
+        "name": "yoona.ai",
+        "document": "https://www.yoona.ai/about",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "f544eff1-2e7d-51e6-8509-66246f9b2afe"
+     }
+    },
+    {
+     "id": "38f1c5d0-d87d-53fa-8619-9debbd90d228",
+     "name": "Elena Nürnberger",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Customer Success",
+      "sources": [
+       {
+        "name": "yoona.ai",
+        "document": "https://www.yoona.ai/about",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "634a4a81-9975-5aa7-beb1-c2aaf73e9fad"
+     }
+    },
+    {
+     "id": "676a42a2-a8f1-579e-8c1c-e409b09cd842",
+     "name": "Melisa Cilli",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Head of Customer Success",
+      "sources": [
+       {
+        "name": "yoona.ai",
+        "document": "https://www.yoona.ai/about",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "1c7f8d29-4512-578e-9c14-2cd7dccec0c9"
+     }
+    },
+    {
+     "id": "db522305-3784-5730-93ac-9117edfe881f",
+     "name": "Sethu Ramanathan",
+     "entity_type": "Person",
+     "properties": {
+      "role": "AI Specialist & Machine Engineer",
+      "sources": [
+       {
+        "name": "yoona.ai",
+        "document": "https://www.yoona.ai/about",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "a4a67500-218a-57c5-8460-bf63be2a94f5"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

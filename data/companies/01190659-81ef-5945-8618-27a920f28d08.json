@@ -1,0 +1,249 @@
+{
+ "id": "01190659-81ef-5945-8618-27a920f28d08",
+ "name": "Gopf",
+ "entity_type": "Company",
+ "description": "market intelligence for manufacturers, with signals delivered in Teams, SharePoint and SAP.",
+ "properties": {
+  "name": {
+   "value": "Gopf",
+   "sources": [
+    {
+     "name": "gopf.com",
+     "document": "https://gopf.com",
+     "date": "2026-11-03",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "Gopf AG",
+   "sources": [
+    {
+     "name": "gopf.com",
+     "document": "https://gopf.com",
+     "date": "2026-11-03",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "aliases": {
+   "value": [
+    "Gopf – Strategic Intelligence",
+    "Gopf AG"
+   ],
+   "sources": []
+  },
+  "website": {
+   "value": "gopf.com",
+   "sources": [
+    {
+     "name": "gopf.com",
+     "document": "https://gopf.com/",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "claude.ai",
+     "document": "https://claude.ai/artifact/H3Eq8ujw2PKskrTrSvodVZ#conflicts",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "description": {
+   "value": "market intelligence for manufacturers, with signals delivered in Teams, SharePoint and SAP.",
+   "sources": [
+    {
+     "name": "gopf.com",
+     "document": "https://gopf.com",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2022-01-01",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/gopf",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "Lucerne, Switzerland",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/gopf",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "gopf.com",
+     "document": "https://gopf.com",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "3892a8d8-55d0-5f92-a22b-7bb71c7367f1"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "8ecf5e57-a149-438c-9eb4-089809bade56",
+     "name": "SOFTWARE_AND_SERVICES",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/gopf",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "6f46fc0a-3a6d-5c81-90c3-312074067dc9",
+      "original_label": "enterpriseSoftware"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "FOUNDED": [
+    {
+     "id": "09d3c46f-7b6c-5fbb-ba25-60260c6ee998",
+     "name": "Marc Bravin",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "gopf.com",
+        "document": "https://gopf.com/about/",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "gopf.com",
+        "document": "https://gopf.com",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "36b70ac2-9b07-529f-b3bd-99a2f248be06"
+     }
+    },
+    {
+     "id": "807c07a9-a0b9-5a98-8078-8423b1a2b863",
+     "name": "Donnacha Daly",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "gopf.com",
+        "document": "https://gopf.com",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "8e314bf9-e9ca-5396-80d7-b747f50a55c1"
+     }
+    },
+    {
+     "id": "bb0b909c-776d-5dc9-8d30-91fbf9550fcc",
+     "name": "Kevin Kuhn",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "gopf.com",
+        "document": "https://gopf.com/about/",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "1b198f2c-5435-5796-b8c9-418e4393598d"
+     }
+    }
+   ],
+   "IS_CEO_OF": [
+    {
+     "id": "bb0b909c-776d-5dc9-8d30-91fbf9550fcc",
+     "name": "Kevin Kuhn",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "gopf.com",
+        "document": "https://gopf.com/about/",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "02b36f0b-afcc-5d41-85d0-e502eaf77666"
+     }
+    }
+   ],
+   "IS_CTO_OF": [
+    {
+     "id": "09d3c46f-7b6c-5fbb-ba25-60260c6ee998",
+     "name": "Marc Bravin",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "gopf.com",
+        "document": "https://gopf.com/about/",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "c5470376-af4e-5863-a06e-cfd5581ad753"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

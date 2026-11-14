@@ -1,0 +1,392 @@
+{
+ "id": "002fa088-723a-55ca-a047-15aa02cb731c",
+ "name": "Sonofit",
+ "entity_type": "Company",
+ "description": "Norwegian entertainment company founded in 2024 and headquartered in Trondheim.",
+ "properties": {
+  "name": {
+   "value": "Sonofit",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/sonofit-as",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "SONOFIT AS",
+   "sources": [
+    {
+     "name": "data.brreg.no",
+     "document": "https://data.brreg.no/enhetsregisteret/api/enheter/934341031",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "sonofit.no",
+     "document": "https://www.sonofit.no/investors",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "website": {
+   "value": "sonofit.no",
+   "sources": [
+    {
+     "name": "sonofit.no",
+     "document": "https://sonofit.no/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "dns.google",
+     "document": "https://dns.google/query?name=sonofit.no&type=A",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "Norwegian entertainment company founded in 2024 and headquartered in Trondheim.",
+   "sources": [
+    {
+     "name": "Cala AI",
+     "document": "",
+     "date": "2026-11-13",
+     "date_precision": null,
+     "source_rank": null
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2024-10-08",
+   "sources": [
+    {
+     "name": "data.brreg.no",
+     "document": "https://data.brreg.no/enhetsregisteret/api/enheter/934341031",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "Trondheim, Norway",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/sonofit-as",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "sonofit.no",
+     "document": "https://www.sonofit.no/",
+     "date": "2026-11-06",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "total_funding": {
+   "value": 1000000.0,
+   "sources": [
+    {
+     "name": "stotte.brreg.no",
+     "document": "https://stotte.brreg.no/en/oppslag/stoettetildeling/1000031215",
+     "date": "2025-12-11",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "sonofit.no",
+     "document": "https://www.sonofit.no/news",
+     "date": "2025-03-31",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "total_funding_units": {
+   "value": "NOK",
+   "sources": [
+    {
+     "name": "stotte.brreg.no",
+     "document": "https://stotte.brreg.no/en/oppslag/stoettetildeling/1000031215",
+     "date": "2025-12-11",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "sonofit.no",
+     "document": "https://www.sonofit.no/news",
+     "date": "2025-03-31",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "total_funding_excluding_debt": {
+   "value": 1000000.0,
+   "sources": [
+    {
+     "name": "stotte.brreg.no",
+     "document": "https://stotte.brreg.no/en/oppslag/stoettetildeling/1000031215",
+     "date": "2025-12-11",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "sonofit.no",
+     "document": "https://www.sonofit.no/news",
+     "date": "2025-03-31",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "funding_stage": {
+   "value": "SERIES_B",
+   "sources": [
+    {
+     "name": "w2.brreg.no",
+     "document": "https://w2.brreg.no/kunngjoring/hent_en.jsp?kid=20260000667117&sokeverdi=934341031&spraak=nb",
+     "date": "2026-08-06",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "3355dcb3-f307-5208-abc4-41a6443fbe0d",
+     "name": "Series B",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "w2.brreg.no",
+        "document": "https://w2.brreg.no/kunngjoring/hent_en.jsp?kid=20260000667117&sokeverdi=934341031&spraak=nb",
+        "date": "2026-08-06",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "39ca1770-5c34-547f-9e4c-84d0bd491977"
+     }
+    },
+    {
+     "id": "65066216-8bff-5bfd-8b8a-cfcda5c7052d",
+     "name": "Seed",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "w2.brreg.no",
+        "document": "https://w2.brreg.no/kunngjoring/hent_en.jsp?kid=20250000066327&sokeverdi=934341031&spraak=nb",
+        "date": "2025-02-18",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "21d6c626-6bd8-5522-9d03-60a4e26eafa2"
+     }
+    },
+    {
+     "id": "670d825f-4157-573f-ba62-cc77ba1e8a32",
+     "name": "Series A",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "w2.brreg.no",
+        "document": "https://w2.brreg.no/kunngjoring/hent_en.jsp?kid=20250000753373&sokeverdi=934341031&spraak=nb",
+        "date": "2025-09-22",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "d8379795-162f-5f0f-8cf8-00cc563f7501"
+     }
+    },
+    {
+     "id": "6a34ee21-a386-5234-99b9-f8c59e14fc54",
+     "name": "Grant",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "stotte.brreg.no",
+        "document": "https://stotte.brreg.no/en/oppslag/stoettetildeling/1000031215",
+        "date": "2025-12-11",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "f1a7c12e-8b44-5840-ab31-af8772a173ca"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "e92c0643-a3aa-5abb-9b44-89ec5903383f"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "8561e6a1-d703-405b-9981-f78cf3428db5",
+     "name": "ENTERTAINMENT",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/sonofit-as",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "158f78bd-12bf-5cc0-a447-10b2858b4bfa",
+      "original_label": "sports"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "FOUNDED": [
+    {
+     "id": "f605b906-e546-5696-9a87-80a8227a54d6",
+     "name": "Sigmund Frigstad",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "sonofit.no",
+        "document": "https://www.sonofit.no/about",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "6516aba4-e008-5786-95d3-258b65768521",
+      "valid_since": "2024-10-08"
+     }
+    }
+   ],
+   "IS_CEO_OF": [
+    {
+     "id": "f605b906-e546-5696-9a87-80a8227a54d6",
+     "name": "Sigmund Frigstad",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "sonofit.no",
+        "document": "https://www.sonofit.no/about",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "data.brreg.no",
+        "document": "https://data.brreg.no/enhetsregisteret/api/enheter/934341031/roller",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "411e70df-77c1-5816-bdbf-2dc71a2c5537",
+      "valid_since": "2024-10-08"
+     }
+    }
+   ],
+   "IS_BOARD_MEMBER_OF": [
+    {
+     "id": "3bc44cb2-96dc-5d77-9908-cdd223b8130f",
+     "name": "Terje Frigstad",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "data.brreg.no",
+        "document": "https://data.brreg.no/enhetsregisteret/api/enheter/934341031/roller",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       },
+       {
+        "name": "sonofit.no",
+        "document": "https://www.sonofit.no/about",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "21316607-8add-59bb-bb64-056b4153b8c5"
+     }
+    },
+    {
+     "id": "f605b906-e546-5696-9a87-80a8227a54d6",
+     "name": "Sigmund Frigstad",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "data.brreg.no",
+        "document": "https://data.brreg.no/enhetsregisteret/api/enheter/934341031/roller",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       },
+       {
+        "name": "w2.brreg.no",
+        "document": "https://w2.brreg.no/kunngjoring/hent_en.jsp?kid=20240000946925&sokeverdi=934341031&spraak=nb",
+        "date": "2024-10-24",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "a5d5b990-1ec9-5efe-9a3b-6ee1088600e0",
+      "valid_since": "2024-10-08"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

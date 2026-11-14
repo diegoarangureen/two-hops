@@ -1,0 +1,139 @@
+{
+ "id": "8bce1279-f3ea-5472-92f3-4313d34f94d7",
+ "name": "Seed",
+ "entity_type": "FundingRound",
+ "description": null,
+ "properties": {
+  "name": {
+   "value": "Seed",
+   "sources": [
+    {
+     "name": "elreferente.es",
+     "document": "https://elreferente.es/inversiones/secrets-vault-recauda-400-000-euros-con-el-respaldo-de-bcombinator-vc-ii/",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "round_label": {
+   "value": "SEED",
+   "sources": [
+    {
+     "name": "elreferente.es",
+     "document": "https://elreferente.es/inversiones/secrets-vault-recauda-400-000-euros-con-el-respaldo-de-bcombinator-vc-ii/",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "instrument": {
+   "value": "EQUITY",
+   "sources": [
+    {
+     "name": "elreferente.es",
+     "document": "https://elreferente.es/inversiones/secrets-vault-recauda-400-000-euros-con-el-respaldo-de-bcombinator-vc-ii/",
+     "date": "2025-01-29",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "transaction_value": {
+   "value": 400000.0,
+   "sources": [
+    {
+     "name": "elreferente.es",
+     "document": "https://elreferente.es/inversiones/secrets-vault-recauda-400-000-euros-con-el-respaldo-de-bcombinator-vc-ii/",
+     "date": "2025-01-29",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "transaction_value_units": {
+   "value": "EUR",
+   "sources": [
+    {
+     "name": "elreferente.es",
+     "document": "https://elreferente.es/inversiones/secrets-vault-recauda-400-000-euros-con-el-respaldo-de-bcombinator-vc-ii/",
+     "date": "2025-01-29",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "announcement_date": {
+   "value": "2025-01-29",
+   "sources": [
+    {
+     "name": "elreferente.es",
+     "document": "https://elreferente.es/inversiones/secrets-vault-recauda-400-000-euros-con-el-respaldo-de-bcombinator-vc-ii/",
+     "date": "2025-01-29",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "annotations": {
+   "value": [
+    "Round name found by web search (source article): the page names the company, an amount within 15% of this round and the round name.",
+    "round_label_stated:Seed"
+   ],
+   "sources": []
+  }
+ },
+ "relationships": {
+  "outgoing": {},
+  "incoming": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "008a8778-1201-4c4b-b762-1ed861cbc3e9",
+     "name": "Secrets Vault",
+     "entity_type": "Company",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "elreferente.es",
+        "document": "https://elreferente.es/inversiones/secrets-vault-recauda-400-000-euros-con-el-respaldo-de-bcombinator-vc-ii/",
+        "date": "2026-11-04",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "9490501c-cb74-5849-8650-2baa5984ec7a"
+     }
+    },
+    {
+     "id": "3a19eb19-8c1e-54bd-81cf-8881b94c9da5",
+     "name": "Bcombinator VC II",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "elreferente.es",
+        "document": "https://elreferente.es/inversiones/secrets-vault-recauda-400-000-euros-con-el-respaldo-de-bcombinator-vc-ii/",
+        "date": "2025-01-29",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "capital-riesgo.es",
+        "document": "https://capital-riesgo.es/es/articles/secrets-vault-recauda-400-000-y-lanza-su-innovadora-soluci-n-de-seguridad-digital-participan-bcombinator-vc-ii-y-varios-business-angels/",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "is_lead": true,
+      "id": "60574f39-1ae2-5f64-8c25-2c1347dca546"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

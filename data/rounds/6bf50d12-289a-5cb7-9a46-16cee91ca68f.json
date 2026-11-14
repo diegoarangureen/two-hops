@@ -1,0 +1,112 @@
+{
+ "id": "6bf50d12-289a-5cb7-9a46-16cee91ca68f",
+ "name": "Pre-Seed",
+ "entity_type": "FundingRound",
+ "description": null,
+ "properties": {
+  "name": {
+   "value": "Pre-Seed",
+   "sources": [
+    {
+     "name": "ycombinator.com",
+     "document": "https://www.ycombinator.com/companies/slicker",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "round_label": {
+   "value": "PRE_SEED",
+   "sources": [
+    {
+     "name": "ycombinator.com",
+     "document": "https://www.ycombinator.com/companies/slicker",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "event_date": {
+   "value": "2023-06-01",
+   "sources": [
+    {
+     "name": "ycombinator.com",
+     "document": "https://www.ycombinator.com/companies/slicker",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "annotations": {
+   "value": [
+    "Accelerator programme round (Y Combinator Summer 2023). vcbacked.co names it Pre-Seed; seedtable.com lists it as Seed.",
+    "round_label_stated:Pre-Seed",
+    "round_label_basis:INFERRED",
+    "round_label_explanation:Accelerator programme round (YC batch Summer 2023) -> Pre-Seed, instructions §3.5"
+   ],
+   "sources": []
+  }
+ },
+ "relationships": {
+  "outgoing": {},
+  "incoming": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "017826f8-558b-4209-b4e8-0b6a1e5f3b9e",
+     "name": "Slicker",
+     "entity_type": "Company",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "ycombinator.com",
+        "document": "https://www.ycombinator.com/companies/slicker",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "4c34dd7f-ad94-5852-96a5-fec5a335c7f2"
+     }
+    },
+    {
+     "id": "1e86655e-373d-4fe8-be13-af3713581f73",
+     "name": "Y Combinator",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "ycombinator.com",
+        "document": "https://www.ycombinator.com/companies/slicker",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "vcbacked.co",
+        "document": "https://www.vcbacked.co/company/slicker",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       },
+       {
+        "name": "seedtable.com",
+        "document": "https://seedtable.com/startups/slickerhq",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "is_lead": true,
+      "id": "50b2b2bd-e93a-5ce8-971e-c1e5fe77546a"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

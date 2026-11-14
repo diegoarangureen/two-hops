@@ -1,0 +1,297 @@
+{
+ "id": "5bea06c1-0cc4-559f-aa62-b00cac63b5d6",
+ "name": "Such Much AI",
+ "entity_type": "Company",
+ "description": "AI document generation for public tenders, RFP, and other docs – EU GDPR & AI Act ready",
+ "properties": {
+  "name": {
+   "value": "Such Much AI",
+   "sources": [
+    {
+     "name": "suchmuchai.com",
+     "document": "https://suchmuchai.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/such-much-ai/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "Such Much AI, Inc.",
+   "sources": [
+    {
+     "name": "suchmuchai.com",
+     "document": "https://suchmuchai.com/terms-of-service",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "website": {
+   "value": "suchmuchai.com",
+   "sources": [
+    {
+     "name": "suchmuchai.com",
+     "document": "https://suchmuchai.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "dns.google",
+     "document": "https://dns.google/query?name=suchmuchai.com&type=A",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "AI document generation for public tenders, RFP, and other docs – EU GDPR & AI Act ready",
+   "sources": [
+    {
+     "name": "suchmuchai.com",
+     "document": "https://suchmuchai.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2024-01-01",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/such-much-ai/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "Vilnius, Lithuania",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/such-much-ai/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "suchmuchai.com",
+     "document": "https://suchmuchai.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "employee_count_range": {
+   "value": [
+    1,
+    10
+   ],
+   "sources": [
+    {
+     "name": "jobs.techstars.com",
+     "document": "https://jobs.techstars.com/companies/such-much-ai-2",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "total_funding": {
+   "value": 3000.0,
+   "sources": [
+    {
+     "name": "kotis.kt.gov.lt",
+     "document": "https://kotis.kt.gov.lt/paraiskos/view_item/id.2314179?export=pdf",
+     "date": "2023-12-18",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "total_funding_units": {
+   "value": "EUR",
+   "sources": [
+    {
+     "name": "kotis.kt.gov.lt",
+     "document": "https://kotis.kt.gov.lt/paraiskos/view_item/id.2314179?export=pdf",
+     "date": "2023-12-18",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "total_funding_excluding_debt": {
+   "value": 3000.0,
+   "sources": [
+    {
+     "name": "kotis.kt.gov.lt",
+     "document": "https://kotis.kt.gov.lt/paraiskos/view_item/id.2314179?export=pdf",
+     "date": "2023-12-18",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "12769697-0f1c-5df5-88ce-83113d10757f",
+     "name": "Pre-Seed",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "suchmuchai.com",
+        "document": "https://suchmuchai.com/",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "0b924fb4-86e0-5409-9290-9a3051f8cfc1"
+     }
+    },
+    {
+     "id": "b973458c-0005-5d95-92c4-1dad37b4ed5f",
+     "name": "Grant",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "kotis.kt.gov.lt",
+        "document": "https://kotis.kt.gov.lt/paraiskos/view_item/id.2314179?export=pdf",
+        "date": "2023-12-18",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "55e88d3b-0123-560a-931c-32c85fa3a052"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "fd817c5d-ed9a-50f6-bca1-ff179f3da62c"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "8ecf5e57-a149-438c-9eb4-089809bade56",
+     "name": "SOFTWARE_AND_SERVICES",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/such-much-ai/",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "ba564d73-7d65-541c-a236-1d4276dfe582",
+      "original_label": "ai"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "INVESTED_IN": [
+    {
+     "id": "ae7530e4-556e-4547-ba15-88a12fbcdcb1",
+     "name": "Techstars",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "suchmuchai.com",
+        "document": "https://suchmuchai.com/",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "f6b5ab3e-d17d-4c5e-b600-e1a885959c59"
+     }
+    }
+   ],
+   "FOUNDED": [
+    {
+     "id": "a4a1327c-60c5-567e-b619-5fc1ccbde79f",
+     "name": "Edmundas Balčikonis",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "producthunt.com",
+        "document": "https://www.producthunt.com/products/such-much-ai/makers",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "3e088449-a27f-58b8-a9c9-11a0a4213568"
+     }
+    }
+   ],
+   "IS_CEO_OF": [
+    {
+     "id": "a4a1327c-60c5-567e-b619-5fc1ccbde79f",
+     "name": "Edmundas Balčikonis",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "producthunt.com",
+        "document": "https://www.producthunt.com/products/such-much-ai/makers",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "95cae9b8-8c37-5928-a084-05e0fbaffdba"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

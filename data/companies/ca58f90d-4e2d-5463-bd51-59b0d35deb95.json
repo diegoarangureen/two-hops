@@ -1,0 +1,356 @@
+{
+ "id": "ca58f90d-4e2d-5463-bd51-59b0d35deb95",
+ "name": "Ferrivia",
+ "entity_type": "Company",
+ "description": "Ferrivia on suomalainen palvelu, joka keskittyy raudanpuutteen ja rautaterveyden mittaamiseen.",
+ "properties": {
+  "name": {
+   "value": "Ferrivia",
+   "sources": [
+    {
+     "name": "ferrivia.fi",
+     "document": "https://ferrivia.fi/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/105846528/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "Ferrivia Oy",
+   "sources": [
+    {
+     "name": "ferrivia.fi",
+     "document": "https://ferrivia.fi/",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "avoindata.prh.fi",
+     "document": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies?businessId=3608532-5",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "website": {
+   "value": "ferrivia.fi",
+   "sources": [
+    {
+     "name": "ferrivia.fi",
+     "document": "https://ferrivia.fi/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "dns.google",
+     "document": "https://dns.google/query?name=ferrivia.fi&type=A",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "Ferrivia on suomalainen palvelu, joka keskittyy raudanpuutteen ja rautaterveyden mittaamiseen.",
+   "sources": [
+    {
+     "name": "ferrivia.fi",
+     "document": "https://ferrivia.fi/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2025-01-01",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/105846528/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "Helsinki, Finland",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/105846528/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "ferrivia.fi",
+     "document": "https://ferrivia.fi/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "employee_count_range": {
+   "value": [
+    1,
+    10
+   ],
+   "sources": [
+    {
+     "name": "thehub.io",
+     "document": "https://thehub.io/startups/ferrivia",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "total_funding": {
+   "value": 50000.0,
+   "sources": [
+    {
+     "name": "helsinki.fi",
+     "document": "https://www.helsinki.fi/en/news/innovations/university-helsinki-funds-invests-eu50000-ferrivia-oy-through-helseed-entrepreneurship-programme",
+     "date": "2026-06-17",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "total_funding_units": {
+   "value": "EUR",
+   "sources": [
+    {
+     "name": "helsinki.fi",
+     "document": "https://www.helsinki.fi/en/news/innovations/university-helsinki-funds-invests-eu50000-ferrivia-oy-through-helseed-entrepreneurship-programme",
+     "date": "2026-06-17",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "total_funding_excluding_debt": {
+   "value": 50000.0,
+   "sources": [
+    {
+     "name": "helsinki.fi",
+     "document": "https://www.helsinki.fi/en/news/innovations/university-helsinki-funds-invests-eu50000-ferrivia-oy-through-helseed-entrepreneurship-programme",
+     "date": "2026-06-17",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "f474ad8d-9ba7-549a-8f3c-ac463d4a37bd",
+     "name": "Funding round",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "helsinki.fi",
+        "document": "https://www.helsinki.fi/en/news/innovations/university-helsinki-funds-invests-eu50000-ferrivia-oy-through-helseed-entrepreneurship-programme",
+        "date": "2026-06-17",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "e8d55960-63ad-5078-9074-64263473bd95"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "126697ca-0a85-5681-905f-bdd7b876f4c1"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "dd70bbef-ce9b-4560-babf-e60310d2c6b1",
+     "name": "HEALTHCARE_PROVIDERS",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/105846528/",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "b918be90-8923-5587-9845-76f660bea1db",
+      "original_label": "health"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "INVESTED_IN": [
+    {
+     "id": "6a72a8be-6a7c-4e61-a7fc-93a6d61df81f",
+     "name": "Helsinki University Funds",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "helsinki.fi",
+        "document": "https://www.helsinki.fi/en/news/innovations/university-helsinki-funds-invests-eu50000-ferrivia-oy-through-helseed-entrepreneurship-programme",
+        "date": "2026-06-17",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "a2152878-5eff-4151-81b7-72b065aa1b13"
+     }
+    }
+   ],
+   "FOUNDED": [
+    {
+     "id": "08a96e0a-7b35-5787-879d-bd7461211763",
+     "name": "Mari Lahti",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "helsinki.fi",
+        "document": "https://www.helsinki.fi/en/news/innovations/university-helsinki-funds-invests-eu50000-ferrivia-oy-through-helseed-entrepreneurship-programme",
+        "date": "2026-06-17",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "adeb9ac5-a9f1-535e-9266-7cc71b3081f3"
+     }
+    },
+    {
+     "id": "70eb3563-88b5-5a1c-bf7e-611f35acb6a5",
+     "name": "Erica de Wit",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "helsinki.fi",
+        "document": "https://www.helsinki.fi/en/news/innovations/university-helsinki-funds-invests-eu50000-ferrivia-oy-through-helseed-entrepreneurship-programme",
+        "date": "2026-06-17",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "thehub.io",
+        "document": "https://thehub.io/startups/ferrivia",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "708cc89e-0f67-54e6-93d5-ad5d251bd649"
+     }
+    }
+   ],
+   "IS_CEO_OF": [
+    {
+     "id": "08a96e0a-7b35-5787-879d-bd7461211763",
+     "name": "Mari Lahti",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "kauppalehti.fi",
+        "document": "https://www.kauppalehti.fi/yritykset/yritys/ferrivia-oy/36085325",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "91cc9e0b-f41b-519c-b332-b5bae5427494"
+     }
+    }
+   ],
+   "IS_CTO_OF": [
+    {
+     "id": "e3086a7a-e952-56bc-8972-a8040b84bab6",
+     "name": "Ville Kumpulainen",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "ferrivia.fi",
+        "document": "https://ferrivia.fi/tietoa-meista/",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "helsinki.fi",
+        "document": "https://www.helsinki.fi/en/news/innovations/university-helsinki-funds-invests-eu50000-ferrivia-oy-through-helseed-entrepreneurship-programme",
+        "date": "2026-06-17",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "139c1b1d-f4b0-567b-b08a-5aaf9519b562"
+     }
+    }
+   ],
+   "WORKS_AT": [
+    {
+     "id": "70eb3563-88b5-5a1c-bf7e-611f35acb6a5",
+     "name": "Erica de Wit",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Head of Operations & Partnerships",
+      "sources": [
+       {
+        "name": "ferrivia.fi",
+        "document": "https://ferrivia.fi/tietoa-meista/",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "72d03a36-6e7d-5300-a0a0-3ec587a2b808"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

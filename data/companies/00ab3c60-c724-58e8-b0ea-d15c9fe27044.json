@@ -1,0 +1,468 @@
+{
+ "id": "00ab3c60-c724-58e8-b0ea-d15c9fe27044",
+ "name": "Scoped",
+ "entity_type": "Company",
+ "description": "PropTech software for property companies: building operations, energy monitoring, tenant cost allocation and environmental reporting",
+ "properties": {
+  "name": {
+   "value": "Scoped",
+   "sources": [
+    {
+     "name": "scoped.no",
+     "document": "https://www.scoped.no/",
+     "date": "2026-11-03",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "data.brreg.no",
+     "document": "https://data.brreg.no/enhetsregisteret/api/enheter/934225155",
+     "date": "2026-11-03",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "SCOPED SOLUTIONS AS",
+   "sources": [
+    {
+     "name": "scoped.no",
+     "document": "https://www.scoped.no/",
+     "date": "2026-11-03",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "data.brreg.no",
+     "document": "https://data.brreg.no/enhetsregisteret/api/enheter/934225155",
+     "date": "2026-11-03",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "website": {
+   "value": "scoped.no",
+   "sources": [
+    {
+     "name": "scoped.no",
+     "document": "https://scoped.no/",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "claude.ai",
+     "document": "https://claude.ai/artifact/H3Eq8ujw2PKskrTrSvodVZ#conflicts",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "description": {
+   "value": "PropTech software for property companies: building operations, energy monitoring, tenant cost allocation and environmental reporting",
+   "sources": [
+    {
+     "name": "scoped.no",
+     "document": "https://www.scoped.no/",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "data.brreg.no",
+     "document": "https://data.brreg.no/enhetsregisteret/api/enheter/934225155",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2024-01-01",
+   "sources": [
+    {
+     "name": "scoped.no",
+     "document": "https://www.scoped.no/",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "data.brreg.no",
+     "document": "https://data.brreg.no/enhetsregisteret/api/enheter/934225155",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "Trondheim, Norway",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/scoped-solutions/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "scoped.no",
+     "document": "https://www.scoped.no/",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "data.brreg.no",
+     "document": "https://data.brreg.no/enhetsregisteret/api/enheter/934225155",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "employee_count_range": {
+   "value": [
+    5,
+    10
+   ],
+   "sources": [
+    {
+     "name": "scoped.no",
+     "document": "https://www.scoped.no/om-oss",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "total_funding": {
+   "value": 1430000.0,
+   "sources": [
+    {
+     "name": "scoped.no",
+     "document": "https://www.scoped.no/blogg/arctic-ignite-folkets-pris-under-ignite-day",
+     "date": "2024-10-25",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "scoped.no",
+     "document": "https://www.scoped.no/blogg/scoped-solutions-tildelt-100-000-kr-av-innovasjon-norge",
+     "date": "2025-01-31",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "scoped.no",
+     "document": "https://www.scoped.no/blogg/scoped-solutions-blant-selskapene-som-er-tildelt-1-million-kroner-av-innovasjon-norge",
+     "date": "2025-05-16",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "total_funding_units": {
+   "value": "NOK",
+   "sources": [
+    {
+     "name": "scoped.no",
+     "document": "https://www.scoped.no/blogg/arctic-ignite-folkets-pris-under-ignite-day",
+     "date": "2024-10-25",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "scoped.no",
+     "document": "https://www.scoped.no/blogg/scoped-solutions-tildelt-100-000-kr-av-innovasjon-norge",
+     "date": "2025-01-31",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "scoped.no",
+     "document": "https://www.scoped.no/blogg/scoped-solutions-blant-selskapene-som-er-tildelt-1-million-kroner-av-innovasjon-norge",
+     "date": "2025-05-16",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "total_funding_excluding_debt": {
+   "value": 1430000.0,
+   "sources": [
+    {
+     "name": "scoped.no",
+     "document": "https://www.scoped.no/blogg/arctic-ignite-folkets-pris-under-ignite-day",
+     "date": "2024-10-25",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "scoped.no",
+     "document": "https://www.scoped.no/blogg/scoped-solutions-tildelt-100-000-kr-av-innovasjon-norge",
+     "date": "2025-01-31",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "scoped.no",
+     "document": "https://www.scoped.no/blogg/scoped-solutions-blant-selskapene-som-er-tildelt-1-million-kroner-av-innovasjon-norge",
+     "date": "2025-05-16",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "32991245-1e35-526e-b4cd-9e51341703e2",
+     "name": "Grant",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "scoped.no",
+        "document": "https://www.scoped.no/blogg/arctic-ignite-folkets-pris-under-ignite-day",
+        "date": "2024-10-25",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "fa9c664e-556d-5487-8c90-a7f857a2c68c"
+     }
+    },
+    {
+     "id": "4c2f2dc3-d0e8-5c38-9e30-866609733d70",
+     "name": "Grant",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "scoped.no",
+        "document": "https://www.scoped.no/blogg/scoped-solutions-tildelt-100-000-kr-av-innovasjon-norge",
+        "date": "2025-01-31",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "scoped.no",
+        "document": "https://www.scoped.no/blogg/scoped-solutions-blant-selskapene-som-er-tildelt-1-million-kroner-av-innovasjon-norge",
+        "date": "2025-05-16",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "2ffcbf2e-1a8e-59ab-bf84-bf2bffce6e20"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "83e8bfa0-0b41-59b3-a409-9428319ce1d6"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "1c1977b3-663a-47fb-81eb-51958758b70b",
+     "name": "CONSTRUCTION_AND_ENGINEERING",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/scoped-solutions/",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "adcfacf6-67f4-5ff8-87c7-e6c3badbe680",
+      "original_label": "propConstruction"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "FOUNDED": [
+    {
+     "id": "12f26d2c-d32d-5a40-b20e-8a56fa09f557",
+     "name": "Henrik Talstad",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "scoped.no",
+        "document": "https://www.scoped.no/om-oss",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "6807cb34-947e-56e9-a5ac-e5214b4380d8"
+     }
+    },
+    {
+     "id": "5da0b830-481c-5529-ab38-ce4aa07c4a1b",
+     "name": "Mats Heide",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "scoped.no",
+        "document": "https://www.scoped.no/om-oss",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "07c18340-4db5-5f34-be73-f46268730a95"
+     }
+    },
+    {
+     "id": "dd0d7f14-1293-5cee-8d15-63cd48589ef1",
+     "name": "Vetle Frigstad",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "scoped.no",
+        "document": "https://www.scoped.no/om-oss",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "49766049-3718-5a30-b069-9f1a9915678b"
+     }
+    }
+   ],
+   "IS_CEO_OF": [
+    {
+     "id": "12f26d2c-d32d-5a40-b20e-8a56fa09f557",
+     "name": "Henrik Talstad",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "scoped.no",
+        "document": "https://www.scoped.no/om-oss",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "data.brreg.no",
+        "document": "https://data.brreg.no/enhetsregisteret/api/enheter/934225155/roller",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "4b26eedc-e030-5cf2-a2b3-b12833f8fd5c"
+     }
+    }
+   ],
+   "IS_CTO_OF": [
+    {
+     "id": "dd0d7f14-1293-5cee-8d15-63cd48589ef1",
+     "name": "Vetle Frigstad",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "scoped.no",
+        "document": "https://www.scoped.no/om-oss",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "154deea0-dc4c-5bf6-8a18-46496cb2355e"
+     }
+    }
+   ],
+   "IS_BOARD_MEMBER_OF": [
+    {
+     "id": "12f26d2c-d32d-5a40-b20e-8a56fa09f557",
+     "name": "Henrik Talstad",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "data.brreg.no",
+        "document": "https://data.brreg.no/enhetsregisteret/api/enheter/934225155/roller",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "e9e79444-61be-5d21-8983-a6e43807261e"
+     }
+    },
+    {
+     "id": "5da0b830-481c-5529-ab38-ce4aa07c4a1b",
+     "name": "Mats Heide",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "data.brreg.no",
+        "document": "https://data.brreg.no/enhetsregisteret/api/enheter/934225155/roller",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "2cffadca-c865-5a93-9729-4044023f1698"
+     }
+    },
+    {
+     "id": "dd0d7f14-1293-5cee-8d15-63cd48589ef1",
+     "name": "Vetle Frigstad",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "data.brreg.no",
+        "document": "https://data.brreg.no/enhetsregisteret/api/enheter/934225155/roller",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "628168fb-8a7a-5493-a0fa-0516bf06b4a0"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

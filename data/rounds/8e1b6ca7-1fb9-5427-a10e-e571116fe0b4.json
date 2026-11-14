@@ -1,0 +1,113 @@
+{
+ "id": "8e1b6ca7-1fb9-5427-a10e-e571116fe0b4",
+ "name": "Pre-Seed",
+ "entity_type": "FundingRound",
+ "description": null,
+ "properties": {
+  "name": {
+   "value": "Pre-Seed",
+   "sources": [
+    {
+     "name": "tech.eu",
+     "document": "https://tech.eu/2020/01/20/katana-seed-funding/",
+     "date": "2020-01-20",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "round_label": {
+   "value": "PRE_SEED",
+   "sources": [
+    {
+     "name": "tech.eu",
+     "document": "https://tech.eu/2020/01/20/katana-seed-funding/",
+     "date": "2020-01-20",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "instrument": {
+   "value": "CONVERTIBLE_NOTES",
+   "sources": [
+    {
+     "name": "tech.eu",
+     "document": "https://tech.eu/2020/01/20/katana-seed-funding/",
+     "date": "2020-01-20",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "transaction_value": {
+   "value": 1700000.0,
+   "sources": [
+    {
+     "name": "tech.eu",
+     "document": "https://tech.eu/2020/01/20/katana-seed-funding/",
+     "date": "2020-01-20",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "transaction_value_units": {
+   "value": "USD",
+   "sources": [
+    {
+     "name": "tech.eu",
+     "document": "https://tech.eu/2020/01/20/katana-seed-funding/",
+     "date": "2020-01-20",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "announcement_date": {
+   "value": "2020-01-20",
+   "sources": [
+    {
+     "name": "tech.eu",
+     "document": "https://tech.eu/2020/01/20/katana-seed-funding/",
+     "date": "2020-01-20",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "annotations": {
+   "value": [
+    "Disclosed name: \"pre-seed convertible note\" (tech.eu).",
+    "round_label_stated:Pre-Seed"
+   ],
+   "sources": []
+  }
+ },
+ "relationships": {
+  "outgoing": {},
+  "incoming": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "51f64e19-6d58-4b3a-8374-ce9e9213b1bc",
+     "name": "Katana MRP",
+     "entity_type": "Company",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2020/01/20/katana-seed-funding/",
+        "date": "2020-01-20",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "7f3ba51c-3579-53da-9b22-0b3ddcb833d8"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

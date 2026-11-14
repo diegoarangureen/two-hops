@@ -1,0 +1,176 @@
+{
+ "id": "c4fcf57a-a1eb-54e0-a1c5-7bb28014e0f5",
+ "name": "Pre-Seed",
+ "entity_type": "FundingRound",
+ "description": null,
+ "properties": {
+  "name": {
+   "value": "Pre-Seed",
+   "sources": [
+    {
+     "name": "ycombinator.com",
+     "document": "https://www.ycombinator.com/companies/conductor-quantum",
+     "date": "2026-11-10",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "round_label": {
+   "value": "PRE_SEED",
+   "sources": [
+    {
+     "name": "ycombinator.com",
+     "document": "https://www.ycombinator.com/companies/conductor-quantum",
+     "date": "2026-11-10",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "announcement_date": {
+   "value": "2025-11-03",
+   "sources": [
+    {
+     "name": "thequantuminsider.com",
+     "document": "https://thequantuminsider.com/2025/11/03/yc-backed-conductor-quantum-partners-with-finlands-semiqon-to-push-silicon-quantum-computing-forward/",
+     "date": "2025-11-03",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "annotations": {
+   "value": [
+    "Accelerator programme round (Y Combinator Summer 2024).",
+    "round_label_stated:Pre-Seed",
+    "round_label_basis:INFERRED",
+    "round_label_explanation:Accelerator programme round (YC batch Summer 2024 on the YC profile) -> Pre-Seed (instructions §3.5)."
+   ],
+   "sources": []
+  }
+ },
+ "relationships": {
+  "outgoing": {},
+  "incoming": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "06b43e4c-8374-495f-b866-919d9ce1e112",
+     "name": "Conductor Quantum",
+     "entity_type": "Company",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "ycombinator.com",
+        "document": "https://www.ycombinator.com/companies/conductor-quantum",
+        "date": "2026-11-10",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "1379f3a7-281b-510f-88cb-c7ff5b7e1431"
+     }
+    },
+    {
+     "id": "072d8d85-4f2e-41ad-ae17-abd994418b72",
+     "name": "Pioneer Fund",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "vcbacked.co",
+        "document": "https://www.vcbacked.co/company/conductor-quantum",
+        "date": "2024-10-21",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "a1ffc377-4b77-5443-ab4b-e3325ac6f973"
+     }
+    },
+    {
+     "id": "1e86655e-373d-4fe8-be13-af3713581f73",
+     "name": "Y Combinator",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "ycombinator.com",
+        "document": "https://www.ycombinator.com/companies/conductor-quantum",
+        "date": "2026-11-10",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "thequantuminsider.com",
+        "document": "https://thequantuminsider.com/2025/11/03/yc-backed-conductor-quantum-partners-with-finlands-semiqon-to-push-silicon-quantum-computing-forward/",
+        "date": "2025-11-03",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "93618cd2-6f5f-552f-b4a7-f49121cfb6de"
+     }
+    },
+    {
+     "id": "3085fa5b-dc16-505f-a9e2-6b007aae99ac",
+     "name": "Mergus Ventures",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "vcbacked.co",
+        "document": "https://www.vcbacked.co/company/conductor-quantum",
+        "date": "2024-10-21",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "fc520df1-2b4c-5618-a5f4-1c8318998ce7"
+     }
+    },
+    {
+     "id": "3a9cba83-df3d-4191-93f7-9aad5217daa5",
+     "name": "Oxford Angel Fund",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "vcbacked.co",
+        "document": "https://www.vcbacked.co/company/conductor-quantum",
+        "date": "2024-10-21",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "5a38165e-7c34-5f2d-a6a4-5a61c0ee1153"
+     }
+    },
+    {
+     "id": "5758a648-e4bf-4eb5-a34f-e1eabf91c806",
+     "name": "Outbound Capital I, LP",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "vcbacked.co",
+        "document": "https://www.vcbacked.co/company/conductor-quantum",
+        "date": "2024-10-21",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "1cea58c8-0819-54ae-82c2-f34b43fd9568"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

@@ -1,0 +1,409 @@
+{
+ "id": "e3f43c6d-a0a2-5733-ab5b-af48ad5b4239",
+ "name": "Narrative",
+ "entity_type": "Company",
+ "description": "Narrative Coach helps small business owners understand their finances and plan ahead, and connects their needs with relevant products and people in your app.",
+ "properties": {
+  "name": {
+   "value": "Narrative",
+   "sources": [
+    {
+     "name": "narrativebanking.com",
+     "document": "https://narrativebanking.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/narrative-banking/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "Narrative Fintech Limited",
+   "sources": [
+    {
+     "name": "narrativebanking.com",
+     "document": "https://narrativebanking.com/",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "opendata.cro.ie",
+     "document": "https://opendata.cro.ie/api/3/action/datastore_search?resource_id=3fef41bc-b8f4-4b10-8434-ce51c29b1bba&q=Narrative%20Fintech",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "website": {
+   "value": "narrativebanking.com",
+   "sources": [
+    {
+     "name": "narrativebanking.com",
+     "document": "https://narrativebanking.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "dns.google",
+     "document": "https://dns.google/query?name=narrativebanking.com&type=A",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "narrativebanking.com",
+     "document": "https://narrativebanking.com/insights/central-bank-sandbox",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "Narrative Coach helps small business owners understand their finances and plan ahead, and connects their needs with relevant products and people in your app.",
+   "sources": [
+    {
+     "name": "narrativebanking.com",
+     "document": "https://narrativebanking.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2025-07-30",
+   "sources": [
+    {
+     "name": "opendata.cro.ie",
+     "document": "https://opendata.cro.ie/api/3/action/datastore_search?resource_id=3fef41bc-b8f4-4b10-8434-ce51c29b1bba&q=Narrative%20Fintech",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "Dublin, Ireland",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/narrative-banking/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    },
+    {
+     "name": "jobs.techstars.com",
+     "document": "https://jobs.techstars.com/companies/narrative-banking",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "narrativebanking.com",
+     "document": "https://narrativebanking.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "opendata.cro.ie",
+     "document": "https://opendata.cro.ie/api/3/action/datastore_search?resource_id=3fef41bc-b8f4-4b10-8434-ce51c29b1bba&q=Narrative%20Fintech",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "employee_count_range": {
+   "value": [
+    1,
+    10
+   ],
+   "sources": [
+    {
+     "name": "jobs.techstars.com",
+     "document": "https://jobs.techstars.com/companies/narrative-banking",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "funding_stage": {
+   "value": "PRE_SEED",
+   "sources": [
+    {
+     "name": "narrativebanking.com",
+     "document": "https://narrativebanking.com/about",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "narrativebanking.com",
+     "document": "https://narrativebanking.com/insights/a-year-on-from-techstars",
+     "date": "2026-09-07",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "aef8f13f-e945-581d-b206-0f8329efb91b",
+     "name": "Pre-Seed",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "narrativebanking.com",
+        "document": "https://narrativebanking.com/about",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "narrativebanking.com",
+        "document": "https://narrativebanking.com/insights/a-year-on-from-techstars",
+        "date": "2026-09-07",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "dcu.ie",
+        "document": "https://www.dcu.ie/blog/2056/ai-finance",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "9770a957-5a2d-5692-9fae-a26bbc78e7c2"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "27159ce5-fb5f-5f4f-9800-b4ef762d3628"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "8190c30d-2703-40ab-94d0-6c193cb53908",
+     "name": "FINTECH",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/narrative-banking/",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "51bf3c03-9102-5854-aa14-4885a665df21",
+      "original_label": "fintech"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "INVESTED_IN": [
+    {
+     "id": "4b4be7bd-2f47-447f-b00a-5d7fc3a4cac9",
+     "name": "Enterprise Ireland",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "narrativebanking.com",
+        "document": "https://narrativebanking.com/about",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "dcu.ie",
+        "document": "https://www.dcu.ie/blog/2056/ai-finance",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "a03b4368-b24f-442e-80ea-24ef86d8775b"
+     }
+    },
+    {
+     "id": "ae7530e4-556e-4547-ba15-88a12fbcdcb1",
+     "name": "Techstars",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "jobs.techstars.com",
+        "document": "https://jobs.techstars.com/companies/narrative-banking",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "narrativebanking.com",
+        "document": "https://narrativebanking.com/about",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "e4d1f083-cc73-4c58-81f9-c7fd897fc429"
+     }
+    }
+   ],
+   "FOUNDED": [
+    {
+     "id": "0e306179-9911-5be8-a3e2-332557fe4c36",
+     "name": "Yulia Plaksina",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "narrativebanking.com",
+        "document": "https://narrativebanking.com/about",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "ba96a142-86f9-589c-892d-5e6fddafb963"
+     }
+    },
+    {
+     "id": "5d75a982-edfa-5f75-98d8-ac54460d6a2e",
+     "name": "Michael Dowling",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "narrativebanking.com",
+        "document": "https://narrativebanking.com/about",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "6068e67d-cdef-571f-a490-9bb55a787f28"
+     }
+    }
+   ],
+   "IS_CEO_OF": [
+    {
+     "id": "5d75a982-edfa-5f75-98d8-ac54460d6a2e",
+     "name": "Michael Dowling",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "narrativebanking.com",
+        "document": "https://narrativebanking.com/about",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "769237ae-e90e-5970-b201-d25e4d910b3f"
+     }
+    }
+   ],
+   "IS_CTO_OF": [
+    {
+     "id": "6db99a4c-902d-5cce-8c74-c9868204ddaa",
+     "name": "Chonghuan Wang",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "narrativebanking.com",
+        "document": "https://narrativebanking.com/about",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "f2fa4cf4-eda3-5c09-848c-289986710707"
+     }
+    }
+   ],
+   "WORKS_AT": [
+    {
+     "id": "0e306179-9911-5be8-a3e2-332557fe4c36",
+     "name": "Yulia Plaksina",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Chief Product Officer",
+      "sources": [
+       {
+        "name": "narrativebanking.com",
+        "document": "https://narrativebanking.com/about",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "de2fe5c5-acd1-5164-b55f-ded9c5d64c7a"
+     }
+    },
+    {
+     "id": "de9a1492-753d-5b37-8d22-12ed56ed7469",
+     "name": "Ting Chen",
+     "entity_type": "Person",
+     "properties": {
+      "role": "AI Lead",
+      "sources": [
+       {
+        "name": "narrativebanking.com",
+        "document": "https://narrativebanking.com/about",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "ba0470e4-07f2-5eb6-8f7f-33a3770ca6b2"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

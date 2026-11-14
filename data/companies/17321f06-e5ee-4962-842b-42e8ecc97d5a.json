@@ -1,0 +1,1614 @@
+{
+ "id": "17321f06-e5ee-4962-842b-42e8ecc97d5a",
+ "name": "Vanta Inc.",
+ "entity_type": "Company",
+ "description": "Vanta automates the complex and time-consuming process of SOC 2, HIPAA, ISO 27001, PCI, and GDPR compliance certification. Automate your security monitoring in weeks instead of months.",
+ "properties": {
+  "name": {
+   "value": "Vanta Inc.",
+   "sources": [
+    {
+     "name": "SEC",
+     "document": "https://www.sec.gov/edgar/browse/?CIK=1934145",
+     "date": "2026-05-27"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "Vanta Inc.",
+   "sources": [
+    {
+     "name": "vanta.com",
+     "document": "https://www.vanta.com/legal/terms",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "sec.gov",
+     "document": "https://www.sec.gov/Archives/edgar/data/1934145/000193414522000002/primary_doc.xml",
+     "date": "2022-06-16",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "aliases": {
+   "value": [
+    "Vanta",
+    "Vanta Inc"
+   ],
+   "sources": []
+  },
+  "website": {
+   "value": "vanta.com",
+   "sources": [
+    {
+     "name": "www.zoominfo.com",
+     "document": "https://www.zoominfo.com/c/vanta-inc/458090300",
+     "date": "2026-05-29"
+    },
+    {
+     "name": "Vanta | LinkedIn",
+     "document": "https://www.linkedin.com/company/vanta-security",
+     "date": "2026-05-28"
+    },
+    {
+     "name": "Y Combinator",
+     "document": "https://github.com/yc-oss/api",
+     "date": "2026-07-18"
+    },
+    {
+     "name": "vanta.com",
+     "document": "https://vanta.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "dns.google",
+     "document": "https://dns.google/query?name=vanta.com&type=A",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "vanta.com",
+     "document": "https://www.vanta.com/resources/vanta-announces-series-a",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "Vanta automates the complex and time-consuming process of SOC 2, HIPAA, ISO 27001, PCI, and GDPR compliance certification. Automate your security monitoring in weeks instead of months.",
+   "sources": [
+    {
+     "name": "vanta.com",
+     "document": "https://vanta.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2018-01-01",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/vanta-security",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    },
+    {
+     "name": "vanta.com",
+     "document": "https://www.vanta.com/company/about",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "ycombinator.com",
+     "document": "https://www.ycombinator.com/companies/vanta",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "369 Hayes Street, San Francisco, CA 94012, United States",
+   "sources": [
+    {
+     "name": "sec.gov",
+     "document": "https://www.sec.gov/Archives/edgar/data/1934145/000193414522000002/primary_doc.xml",
+     "date": "2022-06-16",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "sec.gov",
+     "document": "https://www.sec.gov/Archives/edgar/data/1934145/000193414523000001/primary_doc.xml",
+     "date": "2023-08-23",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "data.sec.gov",
+     "document": "https://data.sec.gov/submissions/CIK0001934145.json",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "Y Combinator",
+     "document": "https://github.com/yc-oss/api",
+     "date": "2026-07-18"
+    },
+    {
+     "name": "vanta.com",
+     "document": "https://vanta.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "employee_count_range": {
+   "value": [
+    1000
+   ],
+   "sources": [
+    {
+     "name": "techfundingnews.com",
+     "document": "https://techfundingnews.com/vanta-150m-series-d-ai-driven-trust-compliance/",
+     "date": "2025-07-23",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "total_funding": {
+   "value": 504000000.0,
+   "sources": [
+    {
+     "name": "techfundingnews.com",
+     "document": "https://techfundingnews.com/vanta-150m-series-d-ai-driven-trust-compliance/",
+     "date": "2025-07-23",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "total_funding_units": {
+   "value": "USD",
+   "sources": [
+    {
+     "name": "techfundingnews.com",
+     "document": "https://techfundingnews.com/vanta-150m-series-d-ai-driven-trust-compliance/",
+     "date": "2025-07-23",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "total_funding_excluding_debt": {
+   "value": 504000000.0,
+   "sources": [
+    {
+     "name": "techfundingnews.com",
+     "document": "https://techfundingnews.com/vanta-150m-series-d-ai-driven-trust-compliance/",
+     "date": "2025-07-23",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "funding_stage": {
+   "value": "SERIES_D",
+   "sources": [
+    {
+     "name": "techfundingnews.com",
+     "document": "https://techfundingnews.com/vanta-150m-series-d-ai-driven-trust-compliance/",
+     "date": "2025-07-23",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "0943a10f-1ee8-5139-b9ed-385571caeecc",
+     "name": "Pre-Seed",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "ycombinator.com",
+        "document": "https://www.ycombinator.com/companies/vanta",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "vanta.com",
+        "document": "https://www.vanta.com/resources/vanta-announces-series-a",
+        "date": "2021-05-04",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "4b366d94-2892-5c30-933b-b7b0c977fbae"
+     }
+    },
+    {
+     "id": "17ad1380-a5af-55af-ab86-c2a140ccfa2c",
+     "name": "Series C",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "vanta.com",
+        "document": "https://www.vanta.com/resources/vanta-announces-series-c",
+        "date": "2024-07-24",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "54de6306-3c13-5218-8837-f639dd87162d"
+     }
+    },
+    {
+     "id": "4dbbe1bf-5a77-5855-9f04-83905ebac8e3",
+     "name": "Series D",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "techfundingnews.com",
+        "document": "https://techfundingnews.com/vanta-150m-series-d-ai-driven-trust-compliance/",
+        "date": "2025-07-23",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "vanta.com",
+        "document": "https://www.vanta.com/resources/vanta-announces-series-d",
+        "date": "2025-07-23",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "ed510876-4328-53bf-8a9e-2d8949dff0b8"
+     }
+    },
+    {
+     "id": "61eca991-f510-5b72-97a9-df622c215f7e",
+     "name": "Series B",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "vanta.com",
+        "document": "https://www.vanta.com/resources/vanta-announces-series-b",
+        "date": "2022-06-08",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "532808da-4639-595e-b67e-cea1424488b6"
+     }
+    },
+    {
+     "id": "6438c177-2fa6-5630-aa41-acbf9075b1dd",
+     "name": "Series B",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "techcrunch.com",
+        "document": "https://techcrunch.com/2022/10/12/vanta-lands-40m-to-automate-cybersecurity-compliance/",
+        "date": "2022-10-12",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "vanta.com",
+        "document": "https://www.vanta.com/resources/crowdstrike-integration-new-investors",
+        "date": "2023-05-10",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "f3cf5c41-9108-5ae7-abb5-41336ebe070e"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_CORPORATE_EVENT": [
+    {
+     "id": "1120f2c2-95ae-41bd-af99-ea976ed8792e",
+     "name": "FINANCING_RAISED_OR_FACILITY_ENTERED",
+     "entity_type": "PrivateCompanyFundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/vanta/__pPtFJxxIAwbrYHgPClxzjK33aPeDcoAj76W_aB_I3WE/funding-and-investors",
+        "date": "2026-07-28"
+       },
+       {
+        "name": "news.crunchbase.com",
+        "document": "https://news.crunchbase.com/venture/biggest-funding-rounds-risk-management-ai-quavo-vanta",
+        "date": "2026-07-28"
+       },
+       {
+        "name": "pitchbook.com",
+        "document": "https://pitchbook.com/profiles/company/231357-97",
+        "date": "2026-07-28"
+       }
+      ],
+      "event_date": "2025-07-23",
+      "id": "8d8c8e9d-0807-44e8-8b0a-efbdf25e8a66"
+     }
+    },
+    {
+     "id": "115f1405-73eb-464b-8aae-c19dacd4740e",
+     "name": "FINANCING_RAISED_OR_FACILITY_ENTERED",
+     "entity_type": "PrivateCompanyFundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "pitchbook.com",
+        "document": "https://pitchbook.com/profiles/company/231357-97",
+        "date": "2026-07-28"
+       }
+      ],
+      "event_date": "2018-01-01",
+      "id": "27b0bf28-cd56-44e3-8b2e-0c11bc0bb8ae"
+     }
+    },
+    {
+     "id": "41f09b54-6ee0-4b3d-8516-f8cce624bef0",
+     "name": "FINANCING_RAISED_OR_FACILITY_ENTERED",
+     "entity_type": "PrivateCompanyFundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "Vanta raises $150M Series C, now valued at $2.45B | TechCrunch",
+        "document": "https://techcrunch.com/2024/07/24/trust-management-platform-vanta-raises-150m-series-c-now-valued-at-2-45b",
+        "date": "2024-07-24"
+       },
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/vanta/__pPtFJxxIAwbrYHgPClxzjK33aPeDcoAj76W_aB_I3WE/funding-and-investors",
+        "date": "2026-07-28"
+       }
+      ],
+      "event_date": "2024-07-24",
+      "id": "3523d64d-513d-4a0d-9bcd-9aeaebd05eda"
+     }
+    },
+    {
+     "id": "57193715-21a1-44a4-8a5d-062ad2ceb458",
+     "name": "FINANCING_RAISED_OR_FACILITY_ENTERED",
+     "entity_type": "CorporateEvent",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "SEC",
+        "document": "https://www.sec.gov/Archives/edgar/data/1934145/000193414523000001/primary_doc.xml",
+        "date": "2023-08-23"
+       }
+      ],
+      "event_date": "2022-06-01",
+      "id": "b1d48676-1eff-4f0e-8586-ce315e32d564"
+     }
+    },
+    {
+     "id": "6230fe10-4288-5a93-9f50-ba4d006bac2f",
+     "name": "MNA_COMPLETED",
+     "entity_type": "CorporateEvent",
+     "properties": {
+      "role": "ACQUIRER",
+      "sources": [
+       {
+        "name": "vanta.com",
+        "document": "https://www.vanta.com/resources/reimagining-the-future-of-trust-with-trustpage-by-vanta",
+        "date": "2023-01-19",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "event_date": "2023-01-19",
+      "id": "35967087-57ad-54d3-82ff-a221b5b5a6b5"
+     }
+    },
+    {
+     "id": "71a7fb98-0e59-4084-a99f-f62eee403fde",
+     "name": "FINANCING_RAISED_OR_FACILITY_ENTERED",
+     "entity_type": "PrivateCompanyFundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/vanta/__pPtFJxxIAwbrYHgPClxzjK33aPeDcoAj76W_aB_I3WE/funding-and-investors",
+        "date": "2026-07-28"
+       }
+      ],
+      "event_date": "2021-05-04",
+      "id": "7ec532f4-62d7-4c92-b148-25e61a59483d"
+     }
+    },
+    {
+     "id": "81e04c50-f9b5-4dd0-99a1-3dc7f3db9abc",
+     "name": "FINANCING_RAISED_OR_FACILITY_ENTERED",
+     "entity_type": "PrivateCompanyFundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/vanta/__pPtFJxxIAwbrYHgPClxzjK33aPeDcoAj76W_aB_I3WE/funding-and-investors",
+        "date": "2026-07-28"
+       }
+      ],
+      "event_date": "2023-08-23",
+      "id": "6b309a52-adac-47bd-b507-4dfa25d40487"
+     }
+    },
+    {
+     "id": "d9e0f701-9207-529b-9189-e73593165eee",
+     "name": "MNA_COMPLETED",
+     "entity_type": "CorporateEvent",
+     "properties": {
+      "role": "ACQUIRER",
+      "sources": [
+       {
+        "name": "vanta.com",
+        "document": "https://www.vanta.com/resources/vanta-acquires-riskey",
+        "date": "2025-07-17",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "event_date": "2025-07-17",
+      "id": "d811bf83-8aad-575e-9fba-196f5ba8aaed"
+     }
+    },
+    {
+     "id": "f4796987-5d4d-50ae-bcc5-9ede93edb824",
+     "name": "MATERIAL_AGREEMENT_ANNOUNCED",
+     "entity_type": "CorporateEvent",
+     "properties": {
+      "role": "ACQUIRER",
+      "sources": [
+       {
+        "name": "vanta.com",
+        "document": "https://www.vanta.com/resources/vanta-acquires-pillar",
+        "date": "2026-11-09",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "refreshmiami.com",
+        "document": "https://refreshmiami.com/news/months-after-setting-its-sights-on-miami-ai-security-startup-pillar-lands-150m-acquisition-deal-with-vanta/",
+        "date": "2026-11-10",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "event_date": "2026-11-09",
+      "id": "eba114eb-96ab-5ea3-b32d-71872354dd6c"
+     }
+    },
+    {
+     "id": "f578fc95-d4f5-4052-b89a-a8f1f27f3710",
+     "name": "FINANCING_RAISED_OR_FACILITY_ENTERED",
+     "entity_type": "PrivateCompanyFundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/vanta/__pPtFJxxIAwbrYHgPClxzjK33aPeDcoAj76W_aB_I3WE/funding-and-investors",
+        "date": "2026-07-28"
+       },
+       {
+        "name": "pitchbook.com",
+        "document": "https://pitchbook.com/profiles/company/231357-97",
+        "date": "2026-07-28"
+       }
+      ],
+      "event_date": "2018-04-10",
+      "id": "70ac3820-0d68-4882-a5df-a177ec81428b"
+     }
+    },
+    {
+     "id": "f63d52ea-2f96-40c6-9f55-bf278d1a2119",
+     "name": "FINANCING_RAISED_OR_FACILITY_ENTERED",
+     "entity_type": "PrivateCompanyFundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "Vanta lands $40M to automate cybersecurity compliance | TechCrunch",
+        "document": "https://techcrunch.com/2022/10/12/vanta-lands-40m-to-automate-cybersecurity-compliance",
+        "date": "2022-10-12"
+       },
+       {
+        "name": "pitchbook.com",
+        "document": "https://pitchbook.com/profiles/company/231357-97",
+        "date": "2026-07-28"
+       }
+      ],
+      "event_date": "2022-10-12",
+      "id": "d6d72a23-7a85-4356-b498-b8fa7a8acc0e"
+     }
+    },
+    {
+     "id": "fb855400-ee35-4f12-898c-3d8532b00bf4",
+     "name": "FINANCING_RAISED_OR_FACILITY_ENTERED",
+     "entity_type": "PrivateCompanyFundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/vanta/__pPtFJxxIAwbrYHgPClxzjK33aPeDcoAj76W_aB_I3WE/funding-and-investors",
+        "date": "2026-07-28"
+       },
+       {
+        "name": "Security compliance and automation platform Drata nabs $200M at $2B valuation | TechCrunch",
+        "document": "https://techcrunch.com/2022/12/07/security-compliance-and-automation-platform-drata-nabs-200m-at-2b-valuation",
+        "date": "2022-12-07"
+       },
+       {
+        "name": "Why more startups are getting compliant | TechCrunch",
+        "document": "https://techcrunch.com/2023/02/08/why-more-startups-are-getting-compliant",
+        "date": "2023-02-08"
+       }
+      ],
+      "event_date": "2022-06-01",
+      "id": "7e799161-17c5-4c08-bef9-ac12ec73ad63"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "568a08a9-bb44-59c0-8546-31c489a30d01"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "66fc10d5-ed8a-402a-bed1-7b26a7516501",
+     "name": "CONSULTING",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "ismscopilot.com",
+        "document": "https://www.ismscopilot.com/resources/eu-compliance-platforms",
+        "date": "2026-06-19"
+       }
+      ],
+      "id": "3761c234-4482-55b3-94cc-23bbc34b47c8"
+     }
+    },
+    {
+     "id": "8190c30d-2703-40ab-94d0-6c193cb53908",
+     "name": "FINTECH",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "RegTech Analyst",
+        "document": "https://regtechanalyst.com/vanta-secured-one-of-the-top-us-regtech-deals-as-funding-in-the-country-grew-by-61-in-q3",
+        "date": "2026-06-25"
+       }
+      ],
+      "id": "bcb13640-de3e-5186-8d14-7688a985a951"
+     }
+    },
+    {
+     "id": "8ecf5e57-a149-438c-9eb4-089809bade56",
+     "name": "SOFTWARE_AND_SERVICES",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "en.wikipedia.org",
+        "document": "https://en.wikipedia.org/wiki/Vanta_(company)",
+        "date": "2026-05-29"
+       },
+       {
+        "name": "Vanta | LinkedIn",
+        "document": "https://www.linkedin.com/company/vanta-security",
+        "date": "2026-05-28"
+       },
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/vanta-security",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "ad02da9d-418c-5eb0-9d18-31b191b86476",
+      "original_label": "cyber"
+     }
+    }
+   ],
+   "HAS_HEADQUARTERS_IN": [
+    {
+     "id": "37a1f0f5-f5ef-4b63-b3d8-14f5636be703",
+     "name": "United States",
+     "entity_type": "Country",
+     "properties": {
+      "sources": [
+       {
+        "name": "Y Combinator",
+        "document": "https://github.com/yc-oss/api",
+        "date": "2026-07-04"
+       }
+      ],
+      "id": "7f75b975-f68e-50fc-9f50-0bd266a91439"
+     }
+    }
+   ],
+   "HAS_PRESENCE_IN": [
+    {
+     "id": "37a1f0f5-f5ef-4b63-b3d8-14f5636be703",
+     "name": "United States",
+     "entity_type": "Country",
+     "properties": {
+      "sources": [
+       {
+        "name": "Y Combinator",
+        "document": "https://github.com/yc-oss/api",
+        "date": "2026-07-04"
+       }
+      ],
+      "id": "0d8be74e-f731-519d-89ac-3fa8e512892c"
+     }
+    }
+   ],
+   "INVESTED_IN": [
+    {
+     "id": "17321f06-e5ee-4962-842b-42e8ecc97d5a",
+     "name": "Vanta Inc.",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "Home - Sequoia Capital",
+        "document": "https://www.sequoiacap.com/our-companies?_categories=ai-ml",
+        "date": "2026-07-03"
+       },
+       {
+        "name": "Home - Sequoia Capital",
+        "document": "https://www.sequoiacap.com/our-companies?_categories=gtm",
+        "date": "2026-07-03"
+       }
+      ],
+      "id": "783dfd6f-099b-58e8-a552-228abdb61b31"
+     }
+    },
+    {
+     "id": "468fd011-b90b-4788-84ef-44d63efb9c9c",
+     "name": "Y Combinator",
+     "entity_type": "EducationalInstitution",
+     "properties": {
+      "sources": [
+       {
+        "name": "Top Startups — Funded by Sequoia, A16Z, YC",
+        "document": "https://topstartups.io/?industries=Cybersecurity&hitsPerPage=200",
+        "date": "2026-06-20"
+       }
+      ],
+      "id": "c4f8ed2f-6e16-51b5-b427-b5d2fadf2f69"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "INVESTED_IN": [
+    {
+     "id": "0857f228-184d-41bc-854a-8e75a77df225",
+     "name": "J.P. Morgan",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "techfundingnews.com",
+        "document": "https://techfundingnews.com/vanta-150m-series-d-ai-driven-trust-compliance/",
+        "date": "2025-07-23",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "859df2a9-8308-48a6-9842-9fdac609deed"
+     }
+    },
+    {
+     "id": "151bf814-7566-4b14-a7d2-f0d802ef0981",
+     "name": "Sequoia Capital",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "Our Companies",
+        "document": "https://sequoiacap.com/our-companies",
+        "date": "2026-06-12"
+       }
+      ],
+      "id": "1100a59e-7a4e-5dc0-b5ee-5354844b70e2"
+     }
+    },
+    {
+     "id": "17321f06-e5ee-4962-842b-42e8ecc97d5a",
+     "name": "Vanta Inc.",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "Home - Sequoia Capital",
+        "document": "https://www.sequoiacap.com/our-companies?_categories=ai-ml",
+        "date": "2026-07-03"
+       },
+       {
+        "name": "Home - Sequoia Capital",
+        "document": "https://www.sequoiacap.com/our-companies?_categories=gtm",
+        "date": "2026-07-03"
+       }
+      ],
+      "id": "783dfd6f-099b-58e8-a552-228abdb61b31"
+     }
+    },
+    {
+     "id": "194bf0d0-b0b5-4c76-8226-91d4c864f76b",
+     "name": "WELLINGTON MANAGEMENT GROUP LLP",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "Technology & Data for Venture Capital, Corp Dev, Investment Banks",
+        "document": "https://tracxn.com/d/companies/vanta/__pPtFJxxIAwbrYHgPClxzjK33aPeDcoAj76W_aB_I3WE/funding-and-investors#:~:text=Vanta's%20Funding%20Rounds,%24150M%20in%20Aug%202023.&text=Access%20funding%20benchmarks%20and%20valuations.",
+        "date": "2026-06-04"
+       },
+       {
+        "name": "Forbes",
+        "document": "https://www.forbes.com/sites/phoebeliu/2025/07/23/christina-cacioppos-startup-vanta-raised-new-funds-at-a-4-billion-valuation-despite-not-needing-the-money",
+        "date": "2026-06-04"
+       },
+       {
+        "name": "techfundingnews.com",
+        "document": "https://techfundingnews.com/vanta-150m-series-d-ai-driven-trust-compliance/",
+        "date": "2025-07-23",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "dfc1b045-d892-567b-a878-63a5650bcb7f"
+     }
+    },
+    {
+     "id": "1e86655e-373d-4fe8-be13-af3713581f73",
+     "name": "Y Combinator",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "Technology & Data for Venture Capital, Corp Dev, Investment Banks",
+        "document": "https://tracxn.com/d/companies/vanta/__pPtFJxxIAwbrYHgPClxzjK33aPeDcoAj76W_aB_I3WE/funding-and-investors#:~:text=Vanta's%20Funding%20Rounds,%24150M%20in%20Aug%202023.&text=Access%20funding%20benchmarks%20and%20valuations.",
+        "date": "2026-06-09"
+       },
+       {
+        "name": "ycombinator.com",
+        "document": "https://www.ycombinator.com/companies/vanta",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "vanta.com",
+        "document": "https://www.vanta.com/resources/vanta-announces-series-a",
+        "date": "2021-05-04",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "6e707997-4b9a-5e07-8727-63e1d6afc2cb"
+     }
+    },
+    {
+     "id": "29d811fd-8019-42d6-a7da-1f66d8ecfb97",
+     "name": "J.P. Morgan Growth Equity Partners",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "Vanta raises $150M Series C, now valued at $2.45B | TechCrunch",
+        "document": "https://techcrunch.com/2024/07/24/trust-management-platform-vanta-raises-150m-series-c-now-valued-at-2-45b",
+        "date": "2024-07-24"
+       },
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/vanta/__pPtFJxxIAwbrYHgPClxzjK33aPeDcoAj76W_aB_I3WE/funding-and-investors",
+        "date": "2026-07-28"
+       }
+      ],
+      "id": "4a019e02-10ed-4a1e-a2ed-07cc0430dc8a"
+     }
+    },
+    {
+     "id": "2cec04bf-0433-4305-8726-417856fc2063",
+     "name": "Workday Ventures",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/vanta/__pPtFJxxIAwbrYHgPClxzjK33aPeDcoAj76W_aB_I3WE/funding-and-investors",
+        "date": "2026-07-28"
+       },
+       {
+        "name": "Security compliance and automation platform Drata nabs $200M at $2B valuation | TechCrunch",
+        "document": "https://techcrunch.com/2022/12/07/security-compliance-and-automation-platform-drata-nabs-200m-at-2b-valuation",
+        "date": "2022-12-07"
+       },
+       {
+        "name": "Why more startups are getting compliant | TechCrunch",
+        "document": "https://techcrunch.com/2023/02/08/why-more-startups-are-getting-compliant",
+        "date": "2023-02-08"
+       },
+       {
+        "name": "vanta.com",
+        "document": "https://www.vanta.com/resources/crowdstrike-integration-new-investors",
+        "date": "2023-05-10",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "d19e3851-26ce-4ccf-9b38-73d377c04e00"
+     }
+    },
+    {
+     "id": "2fb5de92-5c9e-4c41-90da-50c16c710125",
+     "name": "CROWDSTRIKE HOLDINGS, INC.",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "Vanta lands $40M to automate cybersecurity compliance | TechCrunch",
+        "document": "https://techcrunch.com/2022/10/12/vanta-lands-40m-to-automate-cybersecurity-compliance",
+        "date": "2022-10-12"
+       },
+       {
+        "name": "pitchbook.com",
+        "document": "https://pitchbook.com/profiles/company/231357-97",
+        "date": "2026-07-28"
+       }
+      ],
+      "id": "978c8d1b-4911-474f-a95d-45121ab6ff61"
+     }
+    },
+    {
+     "id": "3416b0d1-32d4-4ee2-8905-ed6f40c995eb",
+     "name": "HubSpot Ventures",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "vanta.com",
+        "document": "https://www.vanta.com/resources/crowdstrike-integration-new-investors",
+        "date": "2023-05-10",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "4296c58b-cbbb-4213-ae23-47cf8a755142"
+     }
+    },
+    {
+     "id": "7f016190-f0f6-4709-a68f-fd786cb67af0",
+     "name": "Workday, Inc.",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "Vanta raises $150M Series C, now valued at $2.45B | TechCrunch",
+        "document": "https://techcrunch.com/2024/07/24/trust-management-platform-vanta-raises-150m-series-c-now-valued-at-2-45b",
+        "date": "2024-07-24"
+       },
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/vanta/__pPtFJxxIAwbrYHgPClxzjK33aPeDcoAj76W_aB_I3WE/funding-and-investors",
+        "date": "2026-07-28"
+       }
+      ],
+      "id": "29250b08-0002-404c-ae1d-575f1d0f79e0"
+     }
+    },
+    {
+     "id": "7faf31b1-b7a2-4e93-b820-1fed0d86d2fa",
+     "name": "Candor",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "Welcome to Crunchbase Data",
+        "document": "https://mobile-api.crunchbase.com/organization/vanta",
+        "date": "2026-06-04"
+       },
+       {
+        "name": "Technology & Data for Venture Capital, Corp Dev, Investment Banks",
+        "document": "https://tracxn.com/d/companies/vanta/__pPtFJxxIAwbrYHgPClxzjK33aPeDcoAj76W_aB_I3WE/funding-and-investors#:~:text=Vanta's%20Funding%20Rounds,%24150M%20in%20Aug%202023.&text=Access%20funding%20benchmarks%20and%20valuations.",
+        "date": "2026-06-04"
+       }
+      ],
+      "id": "ae867c6d-d664-557a-8e09-fe07d803ea36"
+     }
+    },
+    {
+     "id": "9145d2e5-bf37-420d-9e45-e657587f0b90",
+     "name": "Goldman Sachs Growth Equity",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "Vanta raises $150M Series C, now valued at $2.45B | TechCrunch",
+        "document": "https://techcrunch.com/2024/07/24/trust-management-platform-vanta-raises-150m-series-c-now-valued-at-2-45b",
+        "date": "2024-07-24"
+       },
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/vanta/__pPtFJxxIAwbrYHgPClxzjK33aPeDcoAj76W_aB_I3WE/funding-and-investors",
+        "date": "2026-07-28"
+       }
+      ],
+      "id": "fcd46aab-cbac-4662-b534-f74c27304f60"
+     }
+    },
+    {
+     "id": "acb37c97-859d-4b78-a95a-96b4858d9680",
+     "name": "Sequoia Capital",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "Our Companies",
+        "document": "https://sequoiacap.com/our-companies",
+        "date": "2026-06-12"
+       },
+       {
+        "name": "vanta.com",
+        "document": "https://www.vanta.com/resources/vanta-announces-series-a",
+        "date": "2021-05-04",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "f961e179-7801-514b-bc60-aada98e81982"
+     }
+    },
+    {
+     "id": "adf0add6-43a8-4362-989e-dd772c988a3c",
+     "name": "Pear VC",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "Pear VC – Info, Investments & Portfolio",
+        "document": "https://vc-mapping.gilion.com/vc-firms/pear-vc",
+        "date": "2026-04-08"
+       }
+      ],
+      "id": "db661168-55c1-5642-a2ed-bac946fbdaf9"
+     }
+    },
+    {
+     "id": "b18315f9-a2f8-4889-aa7c-07bbc219f5b9",
+     "name": "Sequoia Capital",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "Our Companies",
+        "document": "https://www.sequoiacap.com/our-companies?_sort=title-desc",
+        "date": "2026-06-12"
+       },
+       {
+        "name": "techfundingnews.com",
+        "document": "https://techfundingnews.com/vanta-150m-series-d-ai-driven-trust-compliance/",
+        "date": "2025-07-23",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "76a0bb0f-1a46-5052-95c6-23776308e94e"
+     }
+    },
+    {
+     "id": "b98489c9-af83-5431-b36b-e67b328d450f",
+     "name": "Hubspot, Inc.",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/vanta/__pPtFJxxIAwbrYHgPClxzjK33aPeDcoAj76W_aB_I3WE/funding-and-investors",
+        "date": "2026-07-28"
+       },
+       {
+        "name": "Security compliance and automation platform Drata nabs $200M at $2B valuation | TechCrunch",
+        "document": "https://techcrunch.com/2022/12/07/security-compliance-and-automation-platform-drata-nabs-200m-at-2b-valuation",
+        "date": "2022-12-07"
+       },
+       {
+        "name": "Why more startups are getting compliant | TechCrunch",
+        "document": "https://techcrunch.com/2023/02/08/why-more-startups-are-getting-compliant",
+        "date": "2023-02-08"
+       }
+      ],
+      "id": "2d36129b-747f-4b9c-adc9-49350f1f0c7c"
+     }
+    },
+    {
+     "id": "be2912b2-c3b3-40e0-bdbc-692ed7659dc3",
+     "name": "GOLDMAN SACHS GROUP INC",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "Technology & Data for Venture Capital, Corp Dev, Investment Banks",
+        "document": "https://tracxn.com/d/companies/vanta/__pPtFJxxIAwbrYHgPClxzjK33aPeDcoAj76W_aB_I3WE/funding-and-investors#:~:text=Vanta's%20Funding%20Rounds,%24150M%20in%20Aug%202023.&text=Access%20funding%20benchmarks%20and%20valuations.",
+        "date": "2026-06-04"
+       },
+       {
+        "name": "techfundingnews.com",
+        "document": "https://techfundingnews.com/vanta-150m-series-d-ai-driven-trust-compliance/",
+        "date": "2025-07-23",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "vanta.com",
+        "document": "https://www.vanta.com/resources/vanta-announces-series-c",
+        "date": "2024-07-24",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "dbf58e35-dfe3-5081-8817-bcf6474ff41f"
+     }
+    },
+    {
+     "id": "c6efc093-4545-4592-95cd-ba0560bb8ee6",
+     "name": "CrowdStrike Ventures",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "techcrunch.com",
+        "document": "https://techcrunch.com/2022/10/12/vanta-lands-40m-to-automate-cybersecurity-compliance/",
+        "date": "2022-10-12",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "vanta.com",
+        "document": "https://www.vanta.com/resources/crowdstrike-integration-new-investors",
+        "date": "2023-05-10",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "19c60220-1f63-44ea-ad66-68d6eb7dfd20"
+     }
+    },
+    {
+     "id": "d743b4cb-2179-4332-933f-df987e8e9ae0",
+     "name": "CROWDSTRIKE, INC.",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "Technology & Data for Venture Capital, Corp Dev, Investment Banks",
+        "document": "https://tracxn.com/d/companies/vanta/__pPtFJxxIAwbrYHgPClxzjK33aPeDcoAj76W_aB_I3WE/funding-and-investors#:~:text=Vanta's%20Funding%20Rounds,%24150M%20in%20Aug%202023.&text=Access%20funding%20benchmarks%20and%20valuations.",
+        "date": "2026-06-04"
+       }
+      ],
+      "id": "6a3f329a-00e2-5d6a-b1ea-086c934bf403"
+     }
+    },
+    {
+     "id": "dcc52d2c-9898-4745-b6ba-573084e9411b",
+     "name": "Atlassian Ventures",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "techfundingnews.com",
+        "document": "https://techfundingnews.com/vanta-150m-series-d-ai-driven-trust-compliance/",
+        "date": "2025-07-23",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "2850a014-1d1b-4006-9426-b0179c7f13c8"
+     }
+    },
+    {
+     "id": "ecb42cb9-fe63-4580-a2ac-a072cb6a5049",
+     "name": "ATLASSIAN CORPORATION PLC",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "Technology & Data for Venture Capital, Corp Dev, Investment Banks",
+        "document": "https://tracxn.com/d/companies/vanta/__pPtFJxxIAwbrYHgPClxzjK33aPeDcoAj76W_aB_I3WE/funding-and-investors#:~:text=Vanta's%20Funding%20Rounds,%24150M%20in%20Aug%202023.&text=Access%20funding%20benchmarks%20and%20valuations.",
+        "date": "2026-06-04"
+       }
+      ],
+      "id": "af26d561-6709-5bf4-a6c3-1abec1cd1d6c"
+     }
+    },
+    {
+     "id": "ed445ca8-f89c-4c84-826e-d8e351f8c7ed",
+     "name": "ATLASSIAN CORPORATION",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/vanta/__pPtFJxxIAwbrYHgPClxzjK33aPeDcoAj76W_aB_I3WE/funding-and-investors",
+        "date": "2026-07-28"
+       },
+       {
+        "name": "Security compliance and automation platform Drata nabs $200M at $2B valuation | TechCrunch",
+        "document": "https://techcrunch.com/2022/12/07/security-compliance-and-automation-platform-drata-nabs-200m-at-2b-valuation",
+        "date": "2022-12-07"
+       },
+       {
+        "name": "Why more startups are getting compliant | TechCrunch",
+        "document": "https://techcrunch.com/2023/02/08/why-more-startups-are-getting-compliant",
+        "date": "2023-02-08"
+       }
+      ],
+      "id": "627cf98f-aae7-4800-92a6-219b86fdf893"
+     }
+    },
+    {
+     "id": "fa64fbbb-28ad-4344-976a-1fb1d49ec412",
+     "name": "Craft Ventures",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/vanta/__pPtFJxxIAwbrYHgPClxzjK33aPeDcoAj76W_aB_I3WE/funding-and-investors",
+        "date": "2026-07-28"
+       },
+       {
+        "name": "Security compliance and automation platform Drata nabs $200M at $2B valuation | TechCrunch",
+        "document": "https://techcrunch.com/2022/12/07/security-compliance-and-automation-platform-drata-nabs-200m-at-2b-valuation",
+        "date": "2022-12-07"
+       },
+       {
+        "name": "Why more startups are getting compliant | TechCrunch",
+        "document": "https://techcrunch.com/2023/02/08/why-more-startups-are-getting-compliant",
+        "date": "2023-02-08"
+       },
+       {
+        "name": "vanta.com",
+        "document": "https://www.vanta.com/resources/vanta-announces-series-b",
+        "date": "2022-06-08",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "3adb30f9-22bd-4258-857a-a543cd6574a1"
+     }
+    }
+   ],
+   "FOUNDED": [
+    {
+     "id": "1c4ad945-beb0-47a5-bf2f-a46642fd0afe",
+     "name": "Erik Goldman",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "en.wikipedia.org",
+        "document": "https://en.wikipedia.org/wiki/Vanta_(company)",
+        "date": "2026-07-29"
+       },
+       {
+        "name": "www.crunchbase.com",
+        "document": "https://www.crunchbase.com/organization/vanta",
+        "date": "2026-07-29"
+       },
+       {
+        "name": "How Christina Cacioppo Built Startup Vanta Into A $1.6 Billion Unicorn To Automate Complicated Security Compliance Issues",
+        "document": "https://www.forbes.com/sites/phoebeliu/2023/06/25/how-christina-cacioppo-built-startup-vanta-into-a-16-billion-unicorn-to-automate-complicated-security-compliance-issues",
+        "date": "2023-06-25"
+       },
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/vanta/__pPtFJxxIAwbrYHgPClxzjK33aPeDcoAj76W_aB_I3WE",
+        "date": "2026-07-29"
+       }
+      ],
+      "id": "106892ae-c6c0-4eb7-b6d9-61b2b7d2d506"
+     }
+    },
+    {
+     "id": "a00d8730-c7dc-4b16-85bf-60249a8b5d16",
+     "name": "Christina Cacioppo",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "en.wikipedia.org",
+        "document": "https://en.wikipedia.org/wiki/Vanta_(company)",
+        "date": "2026-07-29"
+       },
+       {
+        "name": "Vanta: About us",
+        "document": "https://www.vanta.com/company/about",
+        "date": "2026-01-01"
+       },
+       {
+        "name": "www.crunchbase.com",
+        "document": "https://www.crunchbase.com/person/christina-cacioppo",
+        "date": "2026-07-29"
+       },
+       {
+        "name": "Vanta: Vanta—the proven leader in automated compliance helping startups… | Y Combinator",
+        "document": "https://www.ycombinator.com/companies/vanta",
+        "date": "2023-06-25"
+       },
+       {
+        "name": "How Christina Cacioppo Built Startup Vanta Into A $1.6 Billion Unicorn To Automate Complicated Security Compliance Issues",
+        "document": "https://www.forbes.com/sites/phoebeliu/2023/06/25/how-christina-cacioppo-built-startup-vanta-into-a-16-billion-unicorn-to-automate-complicated-security-compliance-issues",
+        "date": "2023-06-25"
+       }
+      ],
+      "id": "f59d7eb9-fcfa-481d-995d-b8cf0100eca6"
+     }
+    },
+    {
+     "id": "cfc2141f-8a9e-5b91-bc9e-40dbf0b8e17f",
+     "name": "Christina Cacioppo",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "vanta.com",
+        "document": "https://www.vanta.com/company/about",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "ycombinator.com",
+        "document": "https://www.ycombinator.com/companies/vanta",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "ec183911-451b-5009-a054-4f8ecf8add75"
+     }
+    }
+   ],
+   "IS_CEO_OF": [
+    {
+     "id": "cfc2141f-8a9e-5b91-bc9e-40dbf0b8e17f",
+     "name": "Christina Cacioppo",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "vanta.com",
+        "document": "https://www.vanta.com/company/about",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "ycombinator.com",
+        "document": "https://www.ycombinator.com/companies/vanta",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "sec.gov",
+        "document": "https://www.sec.gov/Archives/edgar/data/1934145/000193414522000002/primary_doc.xml",
+        "date": "2022-06-16",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "f7ef260c-0be3-5239-98f9-db7f4f15dc08"
+     }
+    }
+   ],
+   "IS_BOARD_MEMBER_OF": [
+    {
+     "id": "597ca40c-03f5-5cfa-bb5a-a35610dbbeb8",
+     "name": "Andrew Reed",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "SEC",
+        "document": "https://www.sec.gov/Archives/edgar/data/1934145/000193414523000001/primary_doc.xml",
+        "date": "2023-08-23"
+       },
+       {
+        "name": "SEC",
+        "document": "https://www.sec.gov/Archives/edgar/data/1934145/000193414522000002/primary_doc.xml",
+        "date": "2022-06-16"
+       }
+      ],
+      "id": "9d9f0d31-8058-4abb-bb36-685166859233",
+      "valid_since": "2022-06-16"
+     }
+    },
+    {
+     "id": "597ca40c-03f5-5cfa-bb5a-a35610dbbeb8",
+     "name": "Andrew Reed",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "sec.gov",
+        "document": "https://www.sec.gov/Archives/edgar/data/1934145/000193414522000002/primary_doc.xml",
+        "date": "2022-06-16",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       },
+       {
+        "name": "sec.gov",
+        "document": "https://www.sec.gov/Archives/edgar/data/1934145/000193414523000001/primary_doc.xml",
+        "date": "2023-08-23",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "7a84942f-211a-5f21-90c7-b575baf2230b"
+     }
+    },
+    {
+     "id": "9ece3ba7-1f77-4ea3-8700-8222a7a3cc51",
+     "name": "J Zachary Stein",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "SEC",
+        "document": "https://www.sec.gov/Archives/edgar/data/1934145/000193414523000001/primary_doc.xml",
+        "date": "2023-08-23"
+       },
+       {
+        "name": "SEC",
+        "document": "https://www.sec.gov/Archives/edgar/data/1934145/000193414522000002/primary_doc.xml",
+        "date": "2022-06-16"
+       }
+      ],
+      "id": "75469440-8d4c-458a-b600-806a45cd268d",
+      "valid_since": "2022-06-16"
+     }
+    },
+    {
+     "id": "9ece3ba7-1f77-4ea3-8700-8222a7a3cc51",
+     "name": "J Zachary Stein",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "sec.gov",
+        "document": "https://www.sec.gov/Archives/edgar/data/1934145/000193414522000002/primary_doc.xml",
+        "date": "2022-06-16",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       },
+       {
+        "name": "sec.gov",
+        "document": "https://www.sec.gov/Archives/edgar/data/1934145/000193414523000001/primary_doc.xml",
+        "date": "2023-08-23",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "def8bf5b-01d0-583e-b63b-84644fd676a3"
+     }
+    },
+    {
+     "id": "a00d8730-c7dc-4b16-85bf-60249a8b5d16",
+     "name": "Christina Cacioppo",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "SEC",
+        "document": "https://www.sec.gov/Archives/edgar/data/1934145/000193414523000001/primary_doc.xml",
+        "date": "2023-08-23"
+       },
+       {
+        "name": "SEC",
+        "document": "https://www.sec.gov/Archives/edgar/data/1934145/000193414522000002/primary_doc.xml",
+        "date": "2022-06-16"
+       }
+      ],
+      "id": "c4d69794-9bc2-472e-b7fe-cfba16c05623",
+      "valid_since": "2022-06-16"
+     }
+    },
+    {
+     "id": "cfc2141f-8a9e-5b91-bc9e-40dbf0b8e17f",
+     "name": "Christina Cacioppo",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "sec.gov",
+        "document": "https://www.sec.gov/Archives/edgar/data/1934145/000193414522000002/primary_doc.xml",
+        "date": "2022-06-16",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       },
+       {
+        "name": "sec.gov",
+        "document": "https://www.sec.gov/Archives/edgar/data/1934145/000193414523000001/primary_doc.xml",
+        "date": "2023-08-23",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "265d1cb4-6245-5b06-a117-5cdddaf8dbf4"
+     }
+    }
+   ],
+   "WORKS_AT": [
+    {
+     "id": "8e1c3ce8-fdb4-5199-9d33-7263c85c0968",
+     "name": "Jadee Hanson",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Chief Information Security Officer",
+      "sources": [
+       {
+        "name": "vanta.com",
+        "document": "https://www.vanta.com/resources/celebrating-new-milestones",
+        "date": "2024-01-31",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "f976fd73-3888-562c-b542-b2167ec31735"
+     }
+    },
+    {
+     "id": "a00d8730-c7dc-4b16-85bf-60249a8b5d16",
+     "name": "Christina Cacioppo",
+     "entity_type": "Person",
+     "properties": {
+      "role": "CEO",
+      "sources": [
+       {
+        "name": "en.wikipedia.org",
+        "document": "https://en.wikipedia.org/wiki/Vanta_(company)",
+        "date": "2026-07-29"
+       },
+       {
+        "name": "Vanta: About us",
+        "document": "https://www.vanta.com/company/about",
+        "date": "2026-01-01"
+       },
+       {
+        "name": "www.crunchbase.com",
+        "document": "https://www.crunchbase.com/person/christina-cacioppo",
+        "date": "2026-07-29"
+       },
+       {
+        "name": "Vanta: Vanta—the proven leader in automated compliance helping startups… | Y Combinator",
+        "document": "https://www.ycombinator.com/companies/vanta",
+        "date": "2023-06-25"
+       },
+       {
+        "name": "How Christina Cacioppo Built Startup Vanta Into A $1.6 Billion Unicorn To Automate Complicated Security Compliance Issues",
+        "document": "https://www.forbes.com/sites/phoebeliu/2023/06/25/how-christina-cacioppo-built-startup-vanta-into-a-16-billion-unicorn-to-automate-complicated-security-compliance-issues",
+        "date": "2023-06-25"
+       }
+      ],
+      "id": "a8e580d1-ad35-4863-a042-33950220a5a6"
+     }
+    },
+    {
+     "id": "a2e0a7f8-8611-54ff-9903-7d8467d0b6d5",
+     "name": "Jeremy Epling",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Chief Product Officer",
+      "sources": [
+       {
+        "name": "vanta.com",
+        "document": "https://www.vanta.com/company/about",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "vanta.com",
+        "document": "https://www.vanta.com/resources/celebrating-new-milestones",
+        "date": "2024-01-31",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "50f75087-96ca-5995-bc0a-27608170c4cf"
+     }
+    },
+    {
+     "id": "e3ba7b38-95bd-4310-9e0f-8e48bd66aa7a",
+     "name": "Paulo Rodriguez",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Head of International",
+      "sources": [
+       {
+        "name": "Why SMEs need strong security and compliance now more than ever",
+        "document": "https://www.siliconrepublic.com/business/vanta-paulo-rodriguez-cybersecurity",
+        "date": "2023-04-27"
+       },
+       {
+        "name": "www.eu-startups.com",
+        "document": "https://www.eu-startups.com/2023/03/paulo-rodriguez-head-of-international-at-vanta-will-speak-at-this-years-eu-startups-summit",
+        "date": "2026-07-22"
+       }
+      ],
+      "id": "76fe3dcb-8080-5593-bafa-082ed7f40937"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

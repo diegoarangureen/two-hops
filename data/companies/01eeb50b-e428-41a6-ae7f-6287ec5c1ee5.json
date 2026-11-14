@@ -1,0 +1,1115 @@
+{
+ "id": "01eeb50b-e428-41a6-ae7f-6287ec5c1ee5",
+ "name": "Trince",
+ "entity_type": "Company",
+ "description": "Trince is a Ghent University spin-off that develops photoporation-based intracellular delivery technology for drug discovery, preclinical research and cell therapy manufacturing.",
+ "properties": {
+  "name": {
+   "value": "Trince",
+   "sources": [
+    {
+     "name": "Portfolio",
+     "document": "https://qbic.be/portfolio",
+     "date": "2000-01-01"
+    },
+    {
+     "name": "trincebio.com",
+     "document": "https://trincebio.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/trince/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "Trince",
+   "sources": [
+    {
+     "name": "kbopub.economie.fgov.be",
+     "document": "https://kbopub.economie.fgov.be/kbopub/toonondernemingps.html?lang=en&ondernemingsnummer=0774374358",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "cdn.busibee.be",
+     "document": "https://cdn.busibee.be/publications/1czXyxAnMDCCdKLG4RDE7a.pdf",
+     "date": "2021-09-23",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "aliases": {
+   "value": [],
+   "sources": []
+  },
+  "website": {
+   "value": "trincebio.com",
+   "sources": [
+    {
+     "name": "trincebio.com",
+     "document": "https://trincebio.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "dns.google",
+     "document": "https://dns.google/query?name=trincebio.com&type=A",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "Trince is a Ghent University spin-off that develops photoporation-based intracellular delivery technology for drug discovery, preclinical research and cell therapy manufacturing.",
+   "sources": [
+    {
+     "name": "trincebio.com",
+     "document": "https://www.trincebio.com/about-trince/",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "trincebio.com",
+     "document": "https://www.trincebio.com/",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2021-09-21",
+   "sources": [
+    {
+     "name": "kbopub.economie.fgov.be",
+     "document": "https://kbopub.economie.fgov.be/kbopub/toonondernemingps.html?lang=en&ondernemingsnummer=0774374358",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "cdn.busibee.be",
+     "document": "https://cdn.busibee.be/publications/1czXyxAnMDCCdKLG4RDE7a.pdf",
+     "date": "2021-09-23",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "Gent, Belgium",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/trince/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "trincebio.com",
+     "document": "https://trincebio.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "kbopub.economie.fgov.be",
+     "document": "https://kbopub.economie.fgov.be/kbopub/toonondernemingps.html?lang=en&ondernemingsnummer=0774374358",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "cdn.busibee.be",
+     "document": "https://cdn.busibee.be/publications/1czXyxAnMDCCdKLG4RDE7a.pdf",
+     "date": "2021-09-23",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "total_funding": {
+   "value": 13349988.31,
+   "sources": [
+    {
+     "name": "cdn.busibee.be",
+     "document": "https://cdn.busibee.be/publications/1czXyxfJQN1EZKSKwLfjhG.pdf",
+     "date": "2025-12-29",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "einpresswire.com",
+     "document": "https://www.einpresswire.com/article/885641175/trince-raises-5-2-million-6-million-funding-to-fuel-commercial-expansion-and-technology-development",
+     "date": "2026-01-22",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "biovox.eu",
+     "document": "https://biovox.eu/new-start-up-trince-raises-eur-4-million-for-innovative-technology-to-produce-personalized-cancer-therapies-safer-cheaper-and-faster/",
+     "date": "2021-12-06",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "qbic.be",
+     "document": "https://www.qbic.be/nieuws/trince-raises-eu-4m-with-support-of-qbic-ii",
+     "date": "2021-12-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "cdn.busibee.be",
+     "document": "https://cdn.busibee.be/publications/1czXyxiEHe6BrR5yQQL4sb.pdf",
+     "date": "2025-01-15",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "cordis.europa.eu",
+     "document": "https://cordis.europa.eu/project/id/101158879",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "trincebio.com",
+     "document": "https://www.trincebio.com/european-innovation-council-awards/",
+     "date": "2024-03-19",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "cordis.europa.eu",
+     "document": "https://cordis.europa.eu/project/id/101071105",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "total_funding_units": {
+   "value": "EUR",
+   "sources": [
+    {
+     "name": "cdn.busibee.be",
+     "document": "https://cdn.busibee.be/publications/1czXyxfJQN1EZKSKwLfjhG.pdf",
+     "date": "2025-12-29",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "einpresswire.com",
+     "document": "https://www.einpresswire.com/article/885641175/trince-raises-5-2-million-6-million-funding-to-fuel-commercial-expansion-and-technology-development",
+     "date": "2026-01-22",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "biovox.eu",
+     "document": "https://biovox.eu/new-start-up-trince-raises-eur-4-million-for-innovative-technology-to-produce-personalized-cancer-therapies-safer-cheaper-and-faster/",
+     "date": "2021-12-06",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "qbic.be",
+     "document": "https://www.qbic.be/nieuws/trince-raises-eu-4m-with-support-of-qbic-ii",
+     "date": "2021-12-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "cdn.busibee.be",
+     "document": "https://cdn.busibee.be/publications/1czXyxiEHe6BrR5yQQL4sb.pdf",
+     "date": "2025-01-15",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "cordis.europa.eu",
+     "document": "https://cordis.europa.eu/project/id/101158879",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "trincebio.com",
+     "document": "https://www.trincebio.com/european-innovation-council-awards/",
+     "date": "2024-03-19",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "cordis.europa.eu",
+     "document": "https://cordis.europa.eu/project/id/101071105",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "total_funding_excluding_debt": {
+   "value": 13349988.31,
+   "sources": [
+    {
+     "name": "cdn.busibee.be",
+     "document": "https://cdn.busibee.be/publications/1czXyxfJQN1EZKSKwLfjhG.pdf",
+     "date": "2025-12-29",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "einpresswire.com",
+     "document": "https://www.einpresswire.com/article/885641175/trince-raises-5-2-million-6-million-funding-to-fuel-commercial-expansion-and-technology-development",
+     "date": "2026-01-22",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "biovox.eu",
+     "document": "https://biovox.eu/new-start-up-trince-raises-eur-4-million-for-innovative-technology-to-produce-personalized-cancer-therapies-safer-cheaper-and-faster/",
+     "date": "2021-12-06",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "qbic.be",
+     "document": "https://www.qbic.be/nieuws/trince-raises-eu-4m-with-support-of-qbic-ii",
+     "date": "2021-12-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "cdn.busibee.be",
+     "document": "https://cdn.busibee.be/publications/1czXyxiEHe6BrR5yQQL4sb.pdf",
+     "date": "2025-01-15",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "cordis.europa.eu",
+     "document": "https://cordis.europa.eu/project/id/101158879",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "trincebio.com",
+     "document": "https://www.trincebio.com/european-innovation-council-awards/",
+     "date": "2024-03-19",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "cordis.europa.eu",
+     "document": "https://cordis.europa.eu/project/id/101071105",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "funding_stage": {
+   "value": "SEED",
+   "sources": [
+    {
+     "name": "cdn.busibee.be",
+     "document": "https://cdn.busibee.be/publications/1czXyxfJQN1EZKSKwLfjhG.pdf",
+     "date": "2025-12-29",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "trysignalbase.com",
+     "document": "https://www.trysignalbase.com/news/funding/trince-raises-61m-seed",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "1784b3c2-5f66-5328-a1c3-731daf4614f4",
+     "name": "Grant",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "cordis.europa.eu",
+        "document": "https://cordis.europa.eu/project/id/101158879",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       },
+       {
+        "name": "trincebio.com",
+        "document": "https://www.trincebio.com/european-innovation-council-awards/",
+        "date": "2024-03-19",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "ea2485d5-36f7-5f54-991d-e2e1a0003f00"
+     }
+    },
+    {
+     "id": "383b57c5-58a0-5dfc-b1d9-a5762ae4e97c",
+     "name": "Pre-Seed",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "cdn.busibee.be",
+        "document": "https://cdn.busibee.be/publications/1czXyxiEHe6BrR5yQQL4sb.pdf",
+        "date": "2025-01-15",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       },
+       {
+        "name": "einpresswire.com",
+        "document": "https://www.einpresswire.com/article/885641175/trince-raises-5-2-million-6-million-funding-to-fuel-commercial-expansion-and-technology-development",
+        "date": "2026-01-22",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "6ae0de73-dde5-5e68-80c2-483b73109618"
+     }
+    },
+    {
+     "id": "3de386c2-b8e3-544c-ab32-49df93b51d12",
+     "name": "Grant",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "trincebio.com",
+        "document": "https://www.trincebio.com/successful-vlaio-rd-grant-application/",
+        "date": "2023-07-27",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "f5838887-1e37-553b-8fa6-6a9ebc8927db"
+     }
+    },
+    {
+     "id": "a3796bc7-7103-52d8-8329-28c24fe1784f",
+     "name": "Pre-Seed",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "cdn.busibee.be",
+        "document": "https://cdn.busibee.be/publications/1czXyxxHiKchHxn9wWMj7u.pdf",
+        "date": "2021-12-09",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       },
+       {
+        "name": "biovox.eu",
+        "document": "https://biovox.eu/new-start-up-trince-raises-eur-4-million-for-innovative-technology-to-produce-personalized-cancer-therapies-safer-cheaper-and-faster/",
+        "date": "2021-12-06",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "qbic.be",
+        "document": "https://www.qbic.be/nieuws/trince-raises-eu-4m-with-support-of-qbic-ii",
+        "date": "2021-12-04",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "4d1a73f0-8d6c-5d45-834a-02c61ef54a46"
+     }
+    },
+    {
+     "id": "e9324ef0-8b05-5bd6-b56f-73330d17da4b",
+     "name": "Seed",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "trysignalbase.com",
+        "document": "https://www.trysignalbase.com/news/funding/trince-raises-61m-seed",
+        "date": "2026-11-04",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "ce1adc2c-1be3-52ca-bd69-984f5071cbf9"
+     }
+    },
+    {
+     "id": "ffd4f6bd-c531-5f66-8007-c34d38b46f5a",
+     "name": "Grant",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "cordis.europa.eu",
+        "document": "https://cordis.europa.eu/project/id/101071105",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "66c77ac2-ce2b-5879-93ca-034fb1b794d9"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "99ed019c-34e4-5129-948d-7c45872614ea"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "211634f1-a4ff-46f8-a558-596235045d51",
+     "name": "BIOTECHNOLOGY",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "Portfolio",
+        "document": "https://qbic.be/portfolio",
+        "date": "2000-01-01"
+       }
+      ],
+      "id": "d30ede26-9b7b-456d-8637-01fa6851f08d"
+     }
+    },
+    {
+     "id": "ef520286-feae-4797-9346-55601c7c0e19",
+     "name": "PHARMACEUTICALS",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "Portfolio",
+        "document": "https://qbic.be/portfolio",
+        "date": "2000-01-01"
+       }
+      ],
+      "id": "230b1f87-f251-4be0-a36e-611da6e449e5"
+     }
+    },
+    {
+     "id": "ef520286-feae-4797-9346-55601c7c0e19",
+     "name": "PHARMACEUTICALS",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/trince/",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "b3f3104f-b93f-5dcb-a0d9-f39470cb2542",
+      "original_label": "medtechPharma"
+     }
+    }
+   ],
+   "HAS_HEADQUARTERS_IN": [
+    {
+     "id": "9a76882e-8c21-4893-9cb8-6dd4c6742ee1",
+     "name": "Belgium",
+     "entity_type": "Country",
+     "properties": {
+      "sources": [
+       {
+        "name": "Portfolio",
+        "document": "https://qbic.be/portfolio",
+        "date": "2000-01-01"
+       }
+      ],
+      "id": "70e55cd9-741a-4857-a3b1-960d6aa130ae"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "INVESTED_IN": [
+    {
+     "id": "0c6e3e66-af49-4a9b-b27d-f8274c054dcc",
+     "name": "Qbic Fund",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "Portfolio",
+        "document": "https://qbic.be/portfolio",
+        "date": "2000-01-01"
+       }
+      ],
+      "id": "ce223864-9027-480a-95b1-fa6e316668a9"
+     }
+    },
+    {
+     "id": "1f44c100-ab27-4cf7-86a6-4a341b34b678",
+     "name": "QBIC II FUND ARKIV",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "biovox.eu",
+        "document": "https://biovox.eu/new-start-up-trince-raises-eur-4-million-for-innovative-technology-to-produce-personalized-cancer-therapies-safer-cheaper-and-faster/",
+        "date": "2021-12-06",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "qbic.be",
+        "document": "https://www.qbic.be/nieuws/trince-raises-eu-4m-with-support-of-qbic-ii",
+        "date": "2021-12-04",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "d7eeb75f-7bbb-4e4e-8268-5a21caf05447"
+     }
+    },
+    {
+     "id": "e5a72c82-b8f3-52af-9a4e-0474bc023e41",
+     "name": "Novalis Biotech Acceleration",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "biovox.eu",
+        "document": "https://biovox.eu/new-start-up-trince-raises-eur-4-million-for-innovative-technology-to-produce-personalized-cancer-therapies-safer-cheaper-and-faster/",
+        "date": "2021-12-06",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "qbic.be",
+        "document": "https://www.qbic.be/nieuws/trince-raises-eu-4m-with-support-of-qbic-ii",
+        "date": "2021-12-04",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "50c54fd2-f70d-44ed-b8e1-40d376d1cac6"
+     }
+    }
+   ],
+   "FOUNDED": [
+    {
+     "id": "63eca701-5703-5e70-9502-7d22ba9b436a",
+     "name": "Kevin Braeckmans",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "trincebio.com",
+        "document": "https://www.trincebio.com/about-trince/who-we-are/",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "cdn.busibee.be",
+        "document": "https://cdn.busibee.be/publications/1czXyxAnMDCCdKLG4RDE7a.pdf",
+        "date": "2021-09-23",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "3b89bb24-ba13-5948-bcdb-3f85e54a78d1"
+     }
+    },
+    {
+     "id": "f73d09c0-0b2f-559b-ac4d-739c1d258eb2",
+     "name": "Philip Mathuis",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "trincebio.com",
+        "document": "https://www.trincebio.com/about-trince/who-we-are/",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "f7a65779-3c8b-5d04-a1ec-1609942018bb"
+     }
+    },
+    {
+     "id": "f87b2554-80e5-5aa5-af18-1afafca5c988",
+     "name": "Stefaan De Smedt",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "trincebio.com",
+        "document": "https://www.trincebio.com/about-trince/who-we-are/",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "cdn.busibee.be",
+        "document": "https://cdn.busibee.be/publications/1czXyxAnMDCCdKLG4RDE7a.pdf",
+        "date": "2021-09-23",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "31f387fd-5a65-51f9-a3d0-553384d768e9"
+     }
+    }
+   ],
+   "IS_CEO_OF": [
+    {
+     "id": "63eca701-5703-5e70-9502-7d22ba9b436a",
+     "name": "Kevin Braeckmans",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "trincebio.com",
+        "document": "https://www.trincebio.com/about-trince/who-we-are/",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "trincebio.com",
+        "document": "https://www.trincebio.com/trince-strengthens-leadership-team-to-accelerate-global-growth/",
+        "date": "2026-03-01",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "b678c77a-9cb8-5769-9f03-25507d5c25e5",
+      "valid_since": "2026-03-01"
+     }
+    },
+    {
+     "id": "f73d09c0-0b2f-559b-ac4d-739c1d258eb2",
+     "name": "Philip Mathuis",
+     "entity_type": "Person",
+     "properties": {
+      "valid_until": "2026-03-01",
+      "sources": [
+       {
+        "name": "cdn.busibee.be",
+        "document": "https://cdn.busibee.be/publications/1czXyxuFeAzVoFLc5xGxw5.pdf",
+        "date": "2022-03-04",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       },
+       {
+        "name": "trincebio.com",
+        "document": "https://www.trincebio.com/trince-strengthens-leadership-team-to-accelerate-global-growth/",
+        "date": "2026-03-01",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "0770ddea-0c01-53d5-abca-95d682aa8861",
+      "valid_since": "2021-11-30"
+     }
+    }
+   ],
+   "IS_BOARD_MEMBER_OF": [
+    {
+     "id": "04815a79-e420-53c2-a6c8-7eef3fce1a04",
+     "name": "Heinz Redl",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "trincebio.com",
+        "document": "https://www.trincebio.com/about-trince/who-we-are/",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "d428d752-ae73-51b9-9a24-156cc27b01b5"
+     }
+    },
+    {
+     "id": "143b648f-66ad-582a-8fe6-357420a9827c",
+     "name": "Pascale Berthet",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "trincebio.com",
+        "document": "https://www.trincebio.com/about-trince/who-we-are/",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "164716a5-fdd6-57ab-9406-9cf907e8fdc9"
+     }
+    },
+    {
+     "id": "3c17ae03-f6db-5f68-9404-ccbd76e06b29",
+     "name": "Patrick Keereman",
+     "entity_type": "Person",
+     "properties": {
+      "valid_until": "2026-03-17",
+      "sources": [
+       {
+        "name": "cdn.busibee.be",
+        "document": "https://cdn.busibee.be/publications/1czXyxxHiKchHxn9wWMj7u.pdf",
+        "date": "2021-12-09",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       },
+       {
+        "name": "cdn.busibee.be",
+        "document": "https://cdn.busibee.be/publications/1cCeEsTcT2fJiTR1SVCLAo.pdf",
+        "date": "2026-05-27",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "5fbefda6-6b55-5322-a570-aae3a167b542",
+      "valid_since": "2021-11-30"
+     }
+    },
+    {
+     "id": "3dec7c1b-4388-481c-9832-a96b25197072",
+     "name": "Walter Mastelinck",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "cdn.busibee.be",
+        "document": "https://cdn.busibee.be/publications/1cCeEsTcT2fJiTR1SVCLAo.pdf",
+        "date": "2026-05-27",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       },
+       {
+        "name": "kbopub.economie.fgov.be",
+        "document": "https://kbopub.economie.fgov.be/kbopub/toonondernemingps.html?lang=en&ondernemingsnummer=0774374358",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "b74e0e00-ea62-551a-9892-c86d4b51145f",
+      "valid_since": "2026-03-01"
+     }
+    },
+    {
+     "id": "63eca701-5703-5e70-9502-7d22ba9b436a",
+     "name": "Kevin Braeckmans",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "kbopub.economie.fgov.be",
+        "document": "https://kbopub.economie.fgov.be/kbopub/toonondernemingps.html?lang=en&ondernemingsnummer=0774374358",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       },
+       {
+        "name": "cdn.busibee.be",
+        "document": "https://cdn.busibee.be/publications/1czXyxfJQN1EZKSKwLfjhG.pdf",
+        "date": "2025-12-29",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "4a8edb5f-d68e-56d7-b465-5e1c2f613eb6",
+      "valid_since": "2025-12-18"
+     }
+    },
+    {
+     "id": "741d8e8a-4b69-5328-b6cd-d302567566c2",
+     "name": "James Lovgren",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "kbopub.economie.fgov.be",
+        "document": "https://kbopub.economie.fgov.be/kbopub/toonondernemingps.html?lang=en&ondernemingsnummer=0774374358",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       },
+       {
+        "name": "cdn.busibee.be",
+        "document": "https://cdn.busibee.be/publications/1cE4xjk6snmpf47Zh8SRNH.pdf",
+        "date": "2026-09-14",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       },
+       {
+        "name": "trincebio.com",
+        "document": "https://www.trincebio.com/about-trince/who-we-are/",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "b7389350-6bf5-527c-85d4-b51a1ef0b4d6",
+      "valid_since": "2026-07-06"
+     }
+    },
+    {
+     "id": "b6b25240-c043-5bba-a292-b36e7337253f",
+     "name": "Daisy Flamez",
+     "entity_type": "Person",
+     "properties": {
+      "valid_until": "2025-12-18",
+      "sources": [
+       {
+        "name": "cdn.busibee.be",
+        "document": "https://cdn.busibee.be/publications/1czXyxxHiKchHxn9wWMj7u.pdf",
+        "date": "2021-12-09",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       },
+       {
+        "name": "cdn.busibee.be",
+        "document": "https://cdn.busibee.be/publications/1czXyxfJQN1EZKSKwLfjhG.pdf",
+        "date": "2025-12-29",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "2cbe3b12-9707-5196-ac6b-8f4a90f4ed6e",
+      "valid_since": "2021-11-30"
+     }
+    },
+    {
+     "id": "c7df4f88-a1ed-5a11-bba5-45901a166cce",
+     "name": "Marie-Pierre Rols",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "trincebio.com",
+        "document": "https://www.trincebio.com/about-trince/who-we-are/",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "155d6610-055f-511f-bf84-91c3b504ee6f"
+     }
+    },
+    {
+     "id": "e28bac23-51bd-5e45-992f-d7dce208d9f1",
+     "name": "Cédric Van Nevel",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "cdn.busibee.be",
+        "document": "https://cdn.busibee.be/publications/1czXyxxHiKchHxn9wWMj7u.pdf",
+        "date": "2021-12-09",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       },
+       {
+        "name": "kbopub.economie.fgov.be",
+        "document": "https://kbopub.economie.fgov.be/kbopub/toonondernemingps.html?lang=en&ondernemingsnummer=0774374358",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "dc101a93-bb9e-5df4-be0a-2dc23487f7cc",
+      "valid_since": "2021-11-30"
+     }
+    },
+    {
+     "id": "ee7a098c-87f9-5136-8487-db85727e15e0",
+     "name": "Jan Van den Berghe",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "cdn.busibee.be",
+        "document": "https://cdn.busibee.be/publications/1czXyxxHiKchHxn9wWMj7u.pdf",
+        "date": "2021-12-09",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       },
+       {
+        "name": "kbopub.economie.fgov.be",
+        "document": "https://kbopub.economie.fgov.be/kbopub/toonondernemingps.html?lang=en&ondernemingsnummer=0774374358",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "22f69105-c685-546b-a5b7-cf7f1d9a2f96",
+      "valid_since": "2021-11-30"
+     }
+    },
+    {
+     "id": "ef9354e0-ed50-5016-832e-c52d51236dfd",
+     "name": "Wilfred Germeraad",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "trincebio.com",
+        "document": "https://www.trincebio.com/about-trince/who-we-are/",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "e27070c0-a9b4-5c46-8f62-ff80c8810256"
+     }
+    },
+    {
+     "id": "f73d09c0-0b2f-559b-ac4d-739c1d258eb2",
+     "name": "Philip Mathuis",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "trincebio.com",
+        "document": "https://www.trincebio.com/trince-strengthens-leadership-team-to-accelerate-global-growth/",
+        "date": "2026-03-01",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "trincebio.com",
+        "document": "https://www.trincebio.com/about-trince/who-we-are/",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "kbopub.economie.fgov.be",
+        "document": "https://kbopub.economie.fgov.be/kbopub/toonondernemingps.html?lang=en&ondernemingsnummer=0774374358",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       },
+       {
+        "name": "cdn.busibee.be",
+        "document": "https://cdn.busibee.be/publications/1czXyxxHiKchHxn9wWMj7u.pdf",
+        "date": "2021-12-09",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "edf6ae29-9a98-5e4e-9b4d-3f75512fa4d5",
+      "valid_since": "2021-09-17"
+     }
+    },
+    {
+     "id": "f87b2554-80e5-5aa5-af18-1afafca5c988",
+     "name": "Stefaan De Smedt",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "trincebio.com",
+        "document": "https://www.trincebio.com/about-trince/who-we-are/",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "9ba9483e-5310-518f-bce0-81fe5eee9cd6"
+     }
+    }
+   ],
+   "WORKS_AT": [
+    {
+     "id": "612c25b4-7683-5b64-9215-2d3c65f7d8ef",
+     "name": "Louis Van der Meeren",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Head of Science",
+      "sources": [
+       {
+        "name": "trincebio.com",
+        "document": "https://www.trincebio.com/about-trince/who-we-are/",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "57f87407-0716-5b8e-9af6-53d05670bb60"
+     }
+    },
+    {
+     "id": "d3e35dd3-ab56-5b01-b4ac-e71df9ba79bf",
+     "name": "Robin de Moor",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Head of Technology",
+      "sources": [
+       {
+        "name": "trincebio.com",
+        "document": "https://www.trincebio.com/about-trince/who-we-are/",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "726b6e0a-5dc7-595c-8145-45c988bcc759"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

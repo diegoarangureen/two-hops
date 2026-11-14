@@ -1,6 +1,7 @@
 // Shapes shared by the server engine and the client. Everything the client shows comes in these.
 
 import type { Rank } from "./rank";
+import type { Factors } from "./score";
 
 /** One source as Cala returned it, with its rank normalised and its age worked out. */
 export interface SourceView {
@@ -82,11 +83,17 @@ export interface Similarity {
 export interface RoundView {
   node: NodeView;
   label: string;
+  /** ISO date, for ordering. */
   date: string | null;
+  /** The same date as it should be read: a year alone when the day is not known. */
+  dateText: string | null;
   /** Where the date comes from: the round itself, or the earliest source on its links. */
   dateBasis: "event_date" | "announcement_date" | "earliest source" | "none";
   amount: string | null;
   labelInferred: boolean;
+  /** More than one label on the same record: Cala folded several financings into it, so its amount and
+   *  its date may belong to different ones. Empty when the record carries a single label. */
+  severalLabels: string[];
   /** Set when a filing event of the same company is the same financing as this round. */
   alsoFiledAs?: string;
 }
@@ -97,7 +104,7 @@ export interface PeerView {
   similarity: Similarity;
   people: PersonView[];
   formerPeople: number;
-  rounds: RoundView[];
+  roundCount: number;
   filingEvents: number;
   filingEventsSameAsRound: number;
   headline: { industry?: string; hq?: string; stage?: string; founded?: string };
@@ -107,12 +114,17 @@ export interface PathView {
   id: string;
   investorId: string;
   peerId: string;
+  /** The round's id, or a per-peer key for a direct investment. */
+  roundKey: string;
   kind: "round" | "direct";
   round?: RoundView;
   /** Links in walking order from the peer to the investor. */
   links: LinkView[];
+  /** When the investor is recorded on a tranche of the round: the tranche's own link to the round. */
+  tranche?: LinkView;
   /** INVESTED_IN between the same two parties, when the path itself runs through a round. */
   corroboration?: LinkView;
+  /** The weakest of the funding links (and of the tranche link, if any). */
   trust: Rank;
   weakestLinkId: string;
   isLead: boolean;
@@ -122,7 +134,11 @@ export interface PathView {
 
 export interface InvestorView {
   node: NodeView;
+  /** The best paths of this investor (a large investor has more than are sent). */
   paths: PathView[];
+  /** Scores over every path of this investor, and over the filings-and-first-party paths only. */
+  score: { all: Factors; strict: Factors | null };
+  counts: { paths: number; strictPaths: number; peers: number };
   /** What Cala holds for this investor overall; shown, never added together. */
   totals: {
     investments: number;
@@ -154,11 +170,15 @@ export interface SetOps {
   sourcesByRank: Record<string, number>;
   traps: {
     mergedDuplicates: { name: string; records: { id: string; type: string; name: string }[] }[];
-    inferredRoundLabels: { id: string; name: string }[];
+    pairsLeftApart: number;
+    inferredRoundLabels: number;
+    roundsWithSeveralLabels: { name: string; labels: string[] }[];
     bothWays: number;
+    bothWaysUnclear: number;
     bothWaysExamples: { from: string; to: string }[];
     financingTwice: { company: string; basis: string }[];
     sameNameKeptApart: number;
+    listsCutShort: number;
   };
 }
 
@@ -171,6 +191,20 @@ export interface LiveCall {
   budgetLeft: number;
 }
 
+/** One funded attendee of the first hop. */
+export interface Hop1Peer {
+  id: string;
+  name: string;
+  loaded: boolean;
+  likeness: number | null;
+  industry?: string;
+  hq?: string;
+  investors: number;
+  /** The best-ranked investor behind it, and the path to open. */
+  investorId: string | null;
+  pathId: string | null;
+}
+
 export interface Analysis {
   me: {
     node: NodeView;
@@ -180,9 +214,10 @@ export interface Analysis {
     people: PersonView[];
   };
   event: NodeView;
+  hop1: { top: Hop1Peer[]; comparable: number; total: number };
   peers: Record<string, PeerView>;
   investors: InvestorView[];
-  counts: { peersWithPath: number; peersShown: number; investorsTotal: number; investorsShown: number };
+  counts: { peersWithPath: number; investorsTotal: number; investorsStrict: number; investorsShown: number };
   coverage: Coverage;
   live: LiveCall;
   today: string;

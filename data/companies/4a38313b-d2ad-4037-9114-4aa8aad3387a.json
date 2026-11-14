@@ -1,0 +1,237 @@
+{
+ "id": "4a38313b-d2ad-4037-9114-4aa8aad3387a",
+ "name": "Umbra Ai",
+ "entity_type": "Company",
+ "description": "The compliance operating system for financial services. Umbra is embedded in your existing tools, continuously monitoring and reporting compliance.",
+ "properties": {
+  "name": {
+   "value": "Umbra Ai",
+   "sources": [
+    {
+     "name": "Cala AI",
+     "document": "",
+     "date": "2026-11-06"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "Umbraic B.V.",
+   "sources": [
+    {
+     "name": "umbra-ai.com",
+     "document": "https://umbra-ai.com/Privacy-Policy.pdf",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "aliases": {
+   "value": [
+    "Umbra"
+   ],
+   "sources": []
+  },
+  "website": {
+   "value": "umbra-ai.com",
+   "sources": [
+    {
+     "name": "umbra-ai.com",
+     "document": "https://umbra-ai.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "dns.google",
+     "document": "https://dns.google/query?name=umbra-ai.com&type=A",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "The compliance operating system for financial services. Umbra is embedded in your existing tools, continuously monitoring and reporting compliance.",
+   "sources": [
+    {
+     "name": "umbra-ai.com",
+     "document": "https://umbra-ai.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2025-01-01",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/umbra-ai/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    },
+    {
+     "name": "liza.nl",
+     "document": "https://www.liza.nl/en/98648640",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "Amsterdam, Netherlands",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/umbra-ai/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "umbra-ai.com",
+     "document": "https://umbra-ai.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "98059fb6-d9a9-579e-a305-525715d21754",
+     "name": "Pre-Seed",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "umbra-ai.com",
+        "document": "https://umbra-ai.com/news/umbra-joins-techstars/",
+        "date": "2026-09-20",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "2a75c9f9-dbd4-5924-89ae-768383d50322"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "2a60a655-66a2-5cef-ad0b-077c26e23698"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "8190c30d-2703-40ab-94d0-6c193cb53908",
+     "name": "FINTECH",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/umbra-ai/",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "3a0d9ccf-0882-5844-8c5f-b26a30a0b447",
+      "original_label": "regtech"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "INVESTED_IN": [
+    {
+     "id": "ae7530e4-556e-4547-ba15-88a12fbcdcb1",
+     "name": "Techstars",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "umbra-ai.com",
+        "document": "https://umbra-ai.com/news/umbra-joins-techstars/",
+        "date": "2026-09-20",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "techstars.com",
+        "document": "https://www.techstars.com/newsroom/introducing-techstars-fall-2026-accelerator-class",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "bc5a1592-8a63-4353-92f5-1d3b14246e28"
+     }
+    }
+   ],
+   "FOUNDED": [
+    {
+     "id": "80484675-79b1-58cc-a71c-80bee0811d85",
+     "name": "Julian Holle",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "amsterdam.aitinkerers.org",
+        "document": "https://amsterdam.aitinkerers.org/hackathons/h_e3M3fuqqAhA/teams/ht_6iadJX9oZoc",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "7b885bdb-a0ad-5a68-a692-0bb777213c48"
+     }
+    },
+    {
+     "id": "9ed104b4-5393-5f18-88a2-991c6bc121b1",
+     "name": "Jochem Lith",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "amsterdam.aitinkerers.org",
+        "document": "https://amsterdam.aitinkerers.org/hackathons/h_e3M3fuqqAhA/teams/ht_6iadJX9oZoc",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "ec96a00b-4715-5003-bf23-dbed85035250"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

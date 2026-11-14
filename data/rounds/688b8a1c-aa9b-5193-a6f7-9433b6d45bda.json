@@ -1,0 +1,82 @@
+{
+ "id": "688b8a1c-aa9b-5193-a6f7-9433b6d45bda",
+ "name": "Funding round",
+ "entity_type": "FundingRound",
+ "description": null,
+ "properties": {
+  "name": {
+   "value": "Funding round",
+   "sources": [
+    {
+     "name": "katanamrp.com",
+     "document": "https://katanamrp.com/about-us/",
+     "date": "2026-11-11",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "transaction_value": {
+   "value": 700000.0,
+   "sources": [
+    {
+     "name": "katanamrp.com",
+     "document": "https://katanamrp.com/about-us/",
+     "date": "2026-11-11",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "transaction_value_units": {
+   "value": "USD",
+   "sources": [
+    {
+     "name": "katanamrp.com",
+     "document": "https://katanamrp.com/about-us/",
+     "date": "2026-11-11",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "event_date": {
+   "value": "2017-04-01",
+   "sources": [
+    {
+     "name": "katanamrp.com",
+     "document": "https://katanamrp.com/about-us/",
+     "date": "2026-11-11",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {},
+  "incoming": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "51f64e19-6d58-4b3a-8374-ce9e9213b1bc",
+     "name": "Katana MRP",
+     "entity_type": "Company",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "katanamrp.com",
+        "document": "https://katanamrp.com/about-us/",
+        "date": "2026-11-11",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "612442c1-f0a0-556a-806a-0d24f3190366"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

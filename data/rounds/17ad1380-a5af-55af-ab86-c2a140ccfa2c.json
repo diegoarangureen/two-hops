@@ -1,0 +1,297 @@
+{
+ "id": "17ad1380-a5af-55af-ab86-c2a140ccfa2c",
+ "name": "Series C",
+ "entity_type": "FundingRound",
+ "description": null,
+ "properties": {
+  "name": {
+   "value": "Series C",
+   "sources": [
+    {
+     "name": "vanta.com",
+     "document": "https://www.vanta.com/resources/vanta-announces-series-c",
+     "date": "2024-07-24",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "round_label": {
+   "value": "SERIES_C",
+   "sources": [
+    {
+     "name": "vanta.com",
+     "document": "https://www.vanta.com/resources/vanta-announces-series-c",
+     "date": "2024-07-24",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "instrument": {
+   "value": "EQUITY",
+   "sources": [
+    {
+     "name": "vanta.com",
+     "document": "https://www.vanta.com/resources/vanta-announces-series-c",
+     "date": "2024-07-24",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "transaction_value": {
+   "value": 150000000.0,
+   "sources": [
+    {
+     "name": "vanta.com",
+     "document": "https://www.vanta.com/resources/vanta-announces-series-c",
+     "date": "2024-07-24",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "techcrunch.com",
+     "document": "https://techcrunch.com/2024/07/24/trust-management-platform-vanta-raises-150m-series-c-now-valued-at-2-45b/",
+     "date": "2024-07-24",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "transaction_value_units": {
+   "value": "USD",
+   "sources": [
+    {
+     "name": "vanta.com",
+     "document": "https://www.vanta.com/resources/vanta-announces-series-c",
+     "date": "2024-07-24",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "techcrunch.com",
+     "document": "https://techcrunch.com/2024/07/24/trust-management-platform-vanta-raises-150m-series-c-now-valued-at-2-45b/",
+     "date": "2024-07-24",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "announcement_date": {
+   "value": "2024-07-24",
+   "sources": [
+    {
+     "name": "vanta.com",
+     "document": "https://www.vanta.com/resources/vanta-announces-series-c",
+     "date": "2024-07-24",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "techcrunch.com",
+     "document": "https://techcrunch.com/2024/07/24/trust-management-platform-vanta-raises-150m-series-c-now-valued-at-2-45b/",
+     "date": "2024-07-24",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "annotations": {
+   "value": [
+    "Round name as stated in the company release.",
+    "round_label_stated:Series C"
+   ],
+   "sources": []
+  }
+ },
+ "relationships": {
+  "outgoing": {},
+  "incoming": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "0857f228-184d-41bc-854a-8e75a77df225",
+     "name": "J.P. Morgan",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "vanta.com",
+        "document": "https://www.vanta.com/resources/vanta-announces-series-c",
+        "date": "2024-07-24",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "d6858385-9030-56bc-8b72-da2b91d8da1f"
+     }
+    },
+    {
+     "id": "17321f06-e5ee-4962-842b-42e8ecc97d5a",
+     "name": "Vanta Inc.",
+     "entity_type": "Company",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "vanta.com",
+        "document": "https://www.vanta.com/resources/vanta-announces-series-c",
+        "date": "2024-07-24",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "54de6306-3c13-5218-8837-f639dd87162d"
+     }
+    },
+    {
+     "id": "1e86655e-373d-4fe8-be13-af3713581f73",
+     "name": "Y Combinator",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "vanta.com",
+        "document": "https://www.vanta.com/resources/vanta-announces-series-c",
+        "date": "2024-07-24",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "010c3396-74c1-56fa-b38d-07c17a5d6dff"
+     }
+    },
+    {
+     "id": "2cec04bf-0433-4305-8726-417856fc2063",
+     "name": "Workday Ventures",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "vanta.com",
+        "document": "https://www.vanta.com/resources/vanta-announces-series-c",
+        "date": "2024-07-24",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "a34e7f02-3547-5b8b-bc83-3d9e357c57c3"
+     }
+    },
+    {
+     "id": "3416b0d1-32d4-4ee2-8905-ed6f40c995eb",
+     "name": "HubSpot Ventures",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "vanta.com",
+        "document": "https://www.vanta.com/resources/vanta-announces-series-c",
+        "date": "2024-07-24",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "3a3c62f5-b6e9-5bcb-b12c-fc280d58afa1"
+     }
+    },
+    {
+     "id": "acb37c97-859d-4b78-a95a-96b4858d9680",
+     "name": "Sequoia Capital",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "vanta.com",
+        "document": "https://www.vanta.com/resources/vanta-announces-series-c",
+        "date": "2024-07-24",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "is_lead": true,
+      "id": "39e837d2-2051-5fde-bbba-0c33fed3f64b"
+     }
+    },
+    {
+     "id": "be2912b2-c3b3-40e0-bdbc-692ed7659dc3",
+     "name": "GOLDMAN SACHS GROUP INC",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "vanta.com",
+        "document": "https://www.vanta.com/resources/vanta-announces-series-c",
+        "date": "2024-07-24",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "2b6b269d-298b-50ac-8794-f5ea35b976b3"
+     }
+    },
+    {
+     "id": "c6efc093-4545-4592-95cd-ba0560bb8ee6",
+     "name": "CrowdStrike Ventures",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "vanta.com",
+        "document": "https://www.vanta.com/resources/vanta-announces-series-c",
+        "date": "2024-07-24",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "e0989e53-bd3a-586a-b8ff-1d2ad1108531"
+     }
+    },
+    {
+     "id": "dcc52d2c-9898-4745-b6ba-573084e9411b",
+     "name": "Atlassian Ventures",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "vanta.com",
+        "document": "https://www.vanta.com/resources/vanta-announces-series-c",
+        "date": "2024-07-24",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "af8bff16-50c1-5e50-b7d6-c2d761b0b7eb"
+     }
+    },
+    {
+     "id": "fa64fbbb-28ad-4344-976a-1fb1d49ec412",
+     "name": "Craft Ventures",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "vanta.com",
+        "document": "https://www.vanta.com/resources/vanta-announces-series-c",
+        "date": "2024-07-24",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "9dd145b0-5c85-5aa3-bf90-3dd3253b2b79"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

@@ -158,6 +158,13 @@ code,
   background: #fbf4dc;
   color: #7a5a00;
 }
+.chip-btn {
+  max-width: 260px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;
+  vertical-align: bottom;
+}
 .chip-btn:disabled {
   cursor: default;
   opacity: 0.75;

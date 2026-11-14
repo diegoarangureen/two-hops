@@ -1,0 +1,340 @@
+{
+ "id": "930601eb-ff6d-58ac-bc62-9ef7c9a8b2ec",
+ "name": "Series B",
+ "entity_type": "FundingRound",
+ "description": null,
+ "properties": {
+  "name": {
+   "value": "Series B",
+   "sources": [
+    {
+     "name": "tech.eu",
+     "document": "https://tech.eu/2024/01/22/andreessen-horowitz-backed-elevenlabs-raises-80m-series-b-for-voice-ai-development/",
+     "date": "2024-01-22",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "wsgr.com",
+     "document": "https://www.wsgr.com/en/insights/wilson-sonsini-advises-elevenlabs-on-dollar80-million-series-b-financing",
+     "date": "2024-01-26",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "round_label": {
+   "value": "SERIES_B",
+   "sources": [
+    {
+     "name": "tech.eu",
+     "document": "https://tech.eu/2024/01/22/andreessen-horowitz-backed-elevenlabs-raises-80m-series-b-for-voice-ai-development/",
+     "date": "2024-01-22",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "wsgr.com",
+     "document": "https://www.wsgr.com/en/insights/wilson-sonsini-advises-elevenlabs-on-dollar80-million-series-b-financing",
+     "date": "2024-01-26",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "instrument": {
+   "value": "EQUITY",
+   "sources": [
+    {
+     "name": "tech.eu",
+     "document": "https://tech.eu/2024/01/22/andreessen-horowitz-backed-elevenlabs-raises-80m-series-b-for-voice-ai-development/",
+     "date": "2024-01-22",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "wsgr.com",
+     "document": "https://www.wsgr.com/en/insights/wilson-sonsini-advises-elevenlabs-on-dollar80-million-series-b-financing",
+     "date": "2024-01-26",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "transaction_value": {
+   "value": 80000000.0,
+   "sources": [
+    {
+     "name": "tech.eu",
+     "document": "https://tech.eu/2024/01/22/andreessen-horowitz-backed-elevenlabs-raises-80m-series-b-for-voice-ai-development/",
+     "date": "2024-01-22",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "wsgr.com",
+     "document": "https://www.wsgr.com/en/insights/wilson-sonsini-advises-elevenlabs-on-dollar80-million-series-b-financing",
+     "date": "2024-01-26",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "transaction_value_units": {
+   "value": "USD",
+   "sources": [
+    {
+     "name": "tech.eu",
+     "document": "https://tech.eu/2024/01/22/andreessen-horowitz-backed-elevenlabs-raises-80m-series-b-for-voice-ai-development/",
+     "date": "2024-01-22",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "wsgr.com",
+     "document": "https://www.wsgr.com/en/insights/wilson-sonsini-advises-elevenlabs-on-dollar80-million-series-b-financing",
+     "date": "2024-01-26",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "announcement_date": {
+   "value": "2024-01-22",
+   "sources": [
+    {
+     "name": "tech.eu",
+     "document": "https://tech.eu/2024/01/22/andreessen-horowitz-backed-elevenlabs-raises-80m-series-b-for-voice-ai-development/",
+     "date": "2024-01-22",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "wsgr.com",
+     "document": "https://www.wsgr.com/en/insights/wilson-sonsini-advises-elevenlabs-on-dollar80-million-series-b-financing",
+     "date": "2024-01-26",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "annotations": {
+   "value": [
+    "'Series B' (Tech.eu, Wilson Sonsini).",
+    "round_label_stated:Series B"
+   ],
+   "sources": []
+  }
+ },
+ "relationships": {
+  "outgoing": {},
+  "incoming": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "151bf814-7566-4b14-a7d2-f0d802ef0981",
+     "name": "Sequoia Capital",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2024/01/22/andreessen-horowitz-backed-elevenlabs-raises-80m-series-b-for-voice-ai-development/",
+        "date": "2024-01-22",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "wsgr.com",
+        "document": "https://www.wsgr.com/en/insights/wilson-sonsini-advises-elevenlabs-on-dollar80-million-series-b-financing",
+        "date": "2024-01-26",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "3906d003-5be1-5bba-8100-86ab3b7a7032"
+     }
+    },
+    {
+     "id": "1c2ad8a2-8b24-48d6-915d-2a67e92e3711",
+     "name": "ELEVEN LABS INC.",
+     "entity_type": "Company",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2024/01/22/andreessen-horowitz-backed-elevenlabs-raises-80m-series-b-for-voice-ai-development/",
+        "date": "2024-01-22",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "wsgr.com",
+        "document": "https://www.wsgr.com/en/insights/wilson-sonsini-advises-elevenlabs-on-dollar80-million-series-b-financing",
+        "date": "2024-01-26",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "9639c76b-50f9-5e53-a0e3-32864f95ce97"
+     }
+    },
+    {
+     "id": "5f580685-49ac-4324-8c2c-dda02cc2760d",
+     "name": "SV Angel",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2024/01/22/andreessen-horowitz-backed-elevenlabs-raises-80m-series-b-for-voice-ai-development/",
+        "date": "2024-01-22",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "wsgr.com",
+        "document": "https://www.wsgr.com/en/insights/wilson-sonsini-advises-elevenlabs-on-dollar80-million-series-b-financing",
+        "date": "2024-01-26",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "62231dc5-32dc-5331-83bf-e3ad02eb5c00"
+     }
+    },
+    {
+     "id": "73aa76d4-5869-40f8-acd5-81eb8102892f",
+     "name": "Nat Friedman",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2024/01/22/andreessen-horowitz-backed-elevenlabs-raises-80m-series-b-for-voice-ai-development/",
+        "date": "2024-01-22",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "wsgr.com",
+        "document": "https://www.wsgr.com/en/insights/wilson-sonsini-advises-elevenlabs-on-dollar80-million-series-b-financing",
+        "date": "2024-01-26",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "is_lead": true,
+      "id": "35200d74-afc0-56c3-8f51-156d6d95b679"
+     }
+    },
+    {
+     "id": "b0f143e9-f624-489e-bd23-0657a0646c62",
+     "name": "BroadLight Capital",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2024/01/22/andreessen-horowitz-backed-elevenlabs-raises-80m-series-b-for-voice-ai-development/",
+        "date": "2024-01-22",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "wsgr.com",
+        "document": "https://www.wsgr.com/en/insights/wilson-sonsini-advises-elevenlabs-on-dollar80-million-series-b-financing",
+        "date": "2024-01-26",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "dd993892-6401-55ae-904f-cfd7ddc42931"
+     }
+    },
+    {
+     "id": "d4c3a691-c0b1-4777-b3cc-2cd1755cbbac",
+     "name": "Smash Capital Advisors L.P.",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2024/01/22/andreessen-horowitz-backed-elevenlabs-raises-80m-series-b-for-voice-ai-development/",
+        "date": "2024-01-22",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "wsgr.com",
+        "document": "https://www.wsgr.com/en/insights/wilson-sonsini-advises-elevenlabs-on-dollar80-million-series-b-financing",
+        "date": "2024-01-26",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "efe08e6d-4ea0-5274-a0bc-b6ef7215f405"
+     }
+    },
+    {
+     "id": "daebf7ee-cf07-459c-a3c6-65523efcefa7",
+     "name": "Andreessen Horowitz",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2024/01/22/andreessen-horowitz-backed-elevenlabs-raises-80m-series-b-for-voice-ai-development/",
+        "date": "2024-01-22",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "wsgr.com",
+        "document": "https://www.wsgr.com/en/insights/wilson-sonsini-advises-elevenlabs-on-dollar80-million-series-b-financing",
+        "date": "2024-01-26",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "is_lead": true,
+      "id": "a26d3b9c-3561-55b2-a66a-3431ab32b0ba"
+     }
+    },
+    {
+     "id": "eeb4af3d-5cc3-4b52-9906-dc63d41f1d16",
+     "name": "Daniel Gross",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2024/01/22/andreessen-horowitz-backed-elevenlabs-raises-80m-series-b-for-voice-ai-development/",
+        "date": "2024-01-22",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "wsgr.com",
+        "document": "https://www.wsgr.com/en/insights/wilson-sonsini-advises-elevenlabs-on-dollar80-million-series-b-financing",
+        "date": "2024-01-26",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "is_lead": true,
+      "id": "3200e9d3-51a8-511d-a177-5821be66816f"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

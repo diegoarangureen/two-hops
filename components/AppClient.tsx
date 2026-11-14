@@ -93,34 +93,13 @@ export default function AppClient() {
     return () => clearTimeout(t);
   }, [q]);
 
-  const ranked: Ranked[] = useMemo(
-    () => (analysis ? rankInvestors(analysis.investors, analysis.peers, { strict, today: analysis.today }) : []),
-    [analysis, strict],
-  );
+  const ranked: Ranked[] = useMemo(() => (analysis ? rankInvestors(analysis.investors, strict) : []), [analysis, strict]);
   const current = ranked.find((r) => r.investor.node.id === investorId) ?? ranked[0] ?? null;
   const currentRank = current ? ranked.indexOf(current) + 1 : 0;
   const topScore = ranked[0]?.factors.total ?? 1;
   const kitPath = current?.paths.find((p) => p.id === kitPathId) ?? current?.paths[0] ?? null;
-  const strictCount = useMemo(
-    () => (analysis ? analysis.investors.filter((i) => i.paths.some((p) => isStrict(p.trust))).length : 0),
-    [analysis],
-  );
-
-  // first hop: the funded peers in the room, closest to you first, with how many investors stand behind each
-  const hop1 = useMemo(() => {
-    if (!analysis) return { top: [], comparable: 0, total: 0 };
-    const backers = new Map<string, Set<string>>();
-    for (const r of ranked) for (const p of r.paths) backers.set(p.peerId, (backers.get(p.peerId) ?? new Set()).add(r.investor.node.id));
-    const all = [...backers.keys()].map((id) => ({ id, peer: analysis.peers[id], investors: backers.get(id)!.size })).filter((x) => x.peer);
-    all.sort(
-      (a, b) =>
-        (b.peer.similarity.score ?? -1) - (a.peer.similarity.score ?? -1) ||
-        Number(b.peer.node.loaded) - Number(a.peer.node.loaded) ||
-        b.investors - a.investors ||
-        a.peer.node.name.localeCompare(b.peer.node.name),
-    );
-    return { top: all.slice(0, 6), comparable: all.filter((x) => x.peer.similarity.score !== null).length, total: all.length };
-  }, [analysis, ranked]);
+  // how many investors exist in the current view, of which only the best are sent
+  const investorsInView = analysis ? (strict ? analysis.counts.investorsStrict : analysis.counts.investorsTotal) : 0;
 
   const picked: Picked = useMemo(() => {
     if (!analysis || !current || !selection) return null;
@@ -140,6 +119,7 @@ export default function AppClient() {
       const links: LinkView[] = [analysis.me.attendance];
       for (const p of current.paths) {
         links.push(...p.links, analysis.peers[p.peerId].attendance);
+        if (p.tranche) links.push(p.tranche);
         if (p.corroboration) links.push(p.corroboration);
       }
       const link = links.find((l) => l.id === selection.id);
@@ -177,8 +157,12 @@ export default function AppClient() {
               : r.date
                 ? `This round's own record is not loaded. The date shown (${r.date}) is the earliest source on its links, not the round date.`
                 : "This round's own record is not loaded: no amount or date."}
+            {r.severalLabels.length > 1
+              ? ` This one record carries ${r.severalLabels.length} labels (${r.severalLabels.join(", ")}): Cala folded several financings into it, so the amount and the date below may belong to different ones. They are shown each with its own source and never stated together.`
+              : ""}
             {r.labelInferred ? " Cala inferred this label from the order of the company's rounds; it was not stated by a source." : ""}
             {r.alsoFiledAs ? " The same financing also exists in Cala as a filing event; it is counted once." : ""}
+            {path.tranche ? " The investor is recorded on a tranche of this round; the tranche's own link counts towards the path's trust." : ""}
           </p>
         ),
       };
@@ -194,18 +178,16 @@ export default function AppClient() {
     if (window.innerWidth < 1000) detailRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
   };
 
-  /** From a peer, jump to the best-ranked investor behind it and open that path. */
-  const openPeer = (peerId: string) => {
-    for (const r of ranked) {
-      const path = r.paths.find((p) => p.peerId === peerId);
-      if (!path) continue;
-      setInvestorId(r.investor.node.id);
-      setKitPathId(path.id);
-      setSelection({ kind: "node", id: peerId });
-      setShowAllPeers(false);
-      detailRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
-      return;
-    }
+  /** From a first-hop card, jump to the best-ranked investor behind that peer and open the path. */
+  const openPeer = (peerId: string, investor: string | null, pathId: string | null) => {
+    const r = ranked.find((x) => x.investor.node.id === investor) ?? ranked.find((x) => x.paths.some((p) => p.peerId === peerId));
+    const path = r?.paths.find((p) => p.id === pathId) ?? r?.paths.find((p) => p.peerId === peerId);
+    if (!r || !path) return;
+    setInvestorId(r.investor.node.id);
+    setKitPathId(path.id);
+    setSelection({ kind: "node", id: peerId });
+    setShowAllPeers(false);
+    detailRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
   };
 
   return (
@@ -315,19 +297,21 @@ export default function AppClient() {
               <span className="step">2</span> First hop: funded peers in the room
             </h2>
             <p className="muted small">
-              Attendees with a sourced investor, closest to you first. {hop1.comparable} of {hop1.total} have their own profile
-              loaded and can be compared with you; the rest are known only through an investor&apos;s portfolio.
+              Attendees with a sourced investor, closest to you first.{" "}
+              {analysis.hop1.comparable === analysis.hop1.total
+                ? `All ${analysis.hop1.total} have their own profile loaded and are compared with you on industry, country, stage and what they say they do.`
+                : `${analysis.hop1.comparable} of ${analysis.hop1.total} have their own profile loaded and can be compared with you; the rest are known only through an investor's portfolio.`}
             </p>
             <div className="peer-strip">
-              {hop1.top.map(({ id, peer, investors }) => (
-                <button key={id} type="button" className="peer-chip" onClick={() => openPeer(id)}>
-                  <b>{peer.node.name}</b>
-                  <span className={peer.similarity.score === null ? "muted" : "like"}>
-                    {peer.similarity.score === null ? "profile not loaded" : `${Math.round(peer.similarity.score * 100)}% like you`}
+              {analysis.hop1.top.map((h) => (
+                <button key={h.id} type="button" className="peer-chip" onClick={() => openPeer(h.id, h.investorId, h.pathId)}>
+                  <b>{h.name}</b>
+                  <span className={h.likeness === null ? "muted" : "like"}>
+                    {h.likeness === null ? "profile not loaded" : `${Math.round(h.likeness * 100)}% like you`}
                   </span>
-                  {peer.headline.industry && <span className="muted">{peer.headline.industry}</span>}
+                  <span className="muted">{[h.industry, h.hq?.split(",").pop()?.trim()].filter(Boolean).join(" · ") || "\u00a0"}</span>
                   <em>
-                    {investors} investor{investors === 1 ? "" : "s"} →
+                    {h.investors} investor{h.investors === 1 ? "" : "s"} →
                   </em>
                 </button>
               ))}
@@ -343,7 +327,7 @@ export default function AppClient() {
                 <label className="switch" title="Keep only paths where every funding link is backed by an official filing or a first-party source">
                   <input type="checkbox" checked={strict} onChange={(e) => { setStrict(e.target.checked); setSelection(null); }} />
                   <span>
-                    Official &amp; first-party sources only <em>({strictCount})</em>
+                    Official &amp; first-party sources only <em>({analysis.counts.investorsStrict})</em>
                   </span>
                 </label>
               </div>
@@ -383,9 +367,9 @@ export default function AppClient() {
                   );
                 })}
               </ol>
-              {analysis.counts.investorsShown < analysis.counts.investorsTotal && (
+              {ranked.length < investorsInView && (
                 <p className="muted small pad">
-                  Top {analysis.counts.investorsShown} of {analysis.counts.investorsTotal} investors shown.
+                  The best {ranked.length} of {investorsInView.toLocaleString("en")} investors, scored over all of them.
                 </p>
               )}
             </aside>
@@ -466,7 +450,11 @@ export default function AppClient() {
                       </tbody>
                     </table>
                     <p className="muted small">
-                      Path trust is the weakest of its funding links; each link counts as its best source. Click a trust badge to see
+                      {current.paths.length < (strict ? current.investor.counts.strictPaths : current.investor.counts.paths)
+                        ? `The closest ${current.paths.length} of this investor's ${strict ? current.investor.counts.strictPaths : current.investor.counts.paths} paths; its score counts all of them. `
+                        : ""}
+                      Path trust is the weakest of its funding links; each link counts as its best source. Attendance links carry no
+                      rank in Cala and are the same in every path, so they are left out of it. Click a trust badge to see
                       that weakest link.
                     </p>
                   </div>
@@ -515,7 +503,7 @@ function PeerExtra({ peer }: { peer: PeerView }) {
   return (
     <div className="sim">
       <p className="note">
-        {peer.rounds.length} funding round{peer.rounds.length === 1 ? "" : "s"} on record
+        {peer.roundCount} funding round{peer.roundCount === 1 ? "" : "s"} on record
         {peer.filingEvents ? `, ${peer.filingEvents} filing event${peer.filingEvents === 1 ? "" : "s"}` : ""}
         {peer.filingEventsSameAsRound ? ` (${peer.filingEventsSameAsRound} is the same financing as a round and is counted once)` : ""}.
         {peer.formerPeople ? ` ${peer.formerPeople} past role-holder${peer.formerPeople === 1 ? "" : "s"} left out (valid_until in the past).` : ""}
@@ -620,8 +608,12 @@ function PathRow({ p, peer, active, onKit, onWeakest }: { p: PathView; peer: Pee
           <>
             {p.round.label}
             {p.round.labelInferred && <span className="flag">label inferred</span>}
+            {p.round.severalLabels.length > 1 && <span className="flag">{p.round.severalLabels.length} labels in one record</span>}
             <span className="sub">
-              {[p.round.amount, p.round.date ? (p.round.dateBasis === "earliest source" ? `source dated ${p.round.date}` : p.round.date) : null]
+              {(p.round.severalLabels.length > 1
+                ? []
+                : [p.round.amount, p.round.date ? (p.round.dateBasis === "earliest source" ? `source dated ${p.round.date}` : p.round.dateText) : null]
+              )
                 .filter(Boolean)
                 .join(" · ") || "round details not loaded"}
             </span>

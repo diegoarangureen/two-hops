@@ -1,0 +1,1233 @@
+{
+ "id": "04a3173c-a2f1-4f05-bac7-dac00dc97d1b",
+ "name": "Brickanta",
+ "entity_type": "Company",
+ "description": "Brickanta builds an agentic AI platform for construction contractors and developers that follows projects from tender to handover: tender and contract risk review, project Q&A and a shared project...",
+ "properties": {
+  "name": {
+   "value": "Brickanta",
+   "sources": [
+    {
+     "name": "Y Combinator",
+     "document": "https://github.com/yc-oss/api",
+     "date": "2026-06-05"
+    },
+    {
+     "name": "brickanta.com",
+     "document": "https://brickanta.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/brickanta/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "Byggveai Technology AB",
+   "sources": [
+    {
+     "name": "brickanta.com",
+     "document": "https://www.brickanta.com/terms.pdf",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "allabolag.se",
+     "document": "https://www.allabolag.se/5595373647",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "aliases": {
+   "value": [
+    "Brickanta AI"
+   ],
+   "sources": []
+  },
+  "website": {
+   "value": "brickanta.com",
+   "sources": [
+    {
+     "name": "Y Combinator",
+     "document": "https://github.com/yc-oss/api",
+     "date": "2026-07-25"
+    },
+    {
+     "name": "brickanta.com",
+     "document": "https://brickanta.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "dns.google",
+     "document": "https://dns.google/query?name=brickanta.com&type=A",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "ycombinator.com",
+     "document": "https://www.ycombinator.com/launches/OUy-brickanta-the-construction-estimator-s-best-friend",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "Brickanta builds an agentic AI platform for construction contractors and developers that follows projects from tender to handover: tender and contract risk review, project Q&A and a shared project...",
+   "sources": [
+    {
+     "name": "brickanta.com",
+     "document": "https://www.brickanta.com/",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "ycombinator.com",
+     "document": "https://www.ycombinator.com/companies/brickanta",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2025-07-04",
+   "sources": [
+    {
+     "name": "allabolag.se",
+     "document": "https://www.allabolag.se/5595373647",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "Stockholm, Sweden",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/brickanta/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "Y Combinator",
+     "document": "https://github.com/yc-oss/api",
+     "date": "2026-07-25"
+    },
+    {
+     "name": "brickanta.com",
+     "document": "https://brickanta.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "allabolag.se",
+     "document": "https://www.allabolag.se/5595373647",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "employee_count_range": {
+   "value": [
+    20,
+    49
+   ],
+   "sources": [
+    {
+     "name": "allabolag.se",
+     "document": "https://www.allabolag.se/5595373647",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "total_funding": {
+   "value": 8000000.0,
+   "sources": [
+    {
+     "name": "brickanta.com",
+     "document": "https://www.brickanta.com/resources/about",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "brickanta.com",
+     "document": "https://www.brickanta.com/resources/blog/brickanta-seed-announcement",
+     "date": "2026-01-27",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "total_funding_units": {
+   "value": "USD",
+   "sources": [
+    {
+     "name": "brickanta.com",
+     "document": "https://www.brickanta.com/resources/about",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "brickanta.com",
+     "document": "https://www.brickanta.com/resources/blog/brickanta-seed-announcement",
+     "date": "2026-01-27",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "total_funding_excluding_debt": {
+   "value": 8000000.0,
+   "sources": [
+    {
+     "name": "brickanta.com",
+     "document": "https://www.brickanta.com/resources/about",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "brickanta.com",
+     "document": "https://www.brickanta.com/resources/blog/brickanta-seed-announcement",
+     "date": "2026-01-27",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "funding_stage": {
+   "value": "SEED",
+   "sources": [
+    {
+     "name": "techfundingnews.com",
+     "document": "https://techfundingnews.com/brickanta-8m-seed-northzone-ai-construction/",
+     "date": "2026-01-28",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "a5e07ef6-eabd-522d-9cad-50362deb21f5",
+     "name": "Pre-Seed",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "techfundingnews.com",
+        "document": "https://techfundingnews.com/brickanta-8m-seed-northzone-ai-construction/",
+        "date": "2026-01-28",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "brickanta.com",
+        "document": "https://www.brickanta.com/resources/blog/brickanta-seed-announcement",
+        "date": "2026-01-27",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "ycombinator.com",
+        "document": "https://www.ycombinator.com/companies/brickanta",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "6133e241-efd7-5ba4-a314-802477414913"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_CORPORATE_EVENT": [
+    {
+     "id": "30600b3a-c618-4796-a072-a0d5095b485f",
+     "name": "FINANCING_RAISED_OR_FACILITY_ENTERED",
+     "entity_type": "PrivateCompanyFundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/brickanta/__oW8roIYswidKtCBEB9hC4131QviJppK70p9KpHO0eMQ/funding-and-investors",
+        "date": "2026-06-10"
+       },
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/brickanta/__oW8roIYswidKtCBEB9hC4131QviJppK70p9KpHO0eMQ",
+        "date": "2026-06-10"
+       }
+      ],
+      "event_date": "2025-01-01",
+      "id": "06d529bd-faa8-47b5-807e-d165d4c5e224"
+     }
+    },
+    {
+     "id": "d24693bc-44c6-4f00-ae10-cfd0659761ee",
+     "name": "FINANCING_RAISED_OR_FACILITY_ENTERED",
+     "entity_type": "PrivateCompanyFundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/brickanta/__oW8roIYswidKtCBEB9hC4131QviJppK70p9KpHO0eMQ/funding-and-investors",
+        "date": "2026-06-10"
+       },
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/brickanta/__oW8roIYswidKtCBEB9hC4131QviJppK70p9KpHO0eMQ",
+        "date": "2026-06-10"
+       },
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/explore/construction-tech-startups-in-stockholm-sweden/__cLnb1mC6y4QONtqRx2B7vAEvODrgsPpNfnYAVS5qH44",
+        "date": "2026-06-10"
+       },
+       {
+        "name": "www.crunchbase.com",
+        "document": "https://www.crunchbase.com/organization/brickanta",
+        "date": "2026-06-10"
+       }
+      ],
+      "event_date": "2025-01-01",
+      "id": "0fc4481c-efa0-42a2-b6d5-f20beadc56fb"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "c1e0b207-5fce-57a4-b075-ed853f532b8a"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "1c1977b3-663a-47fb-81eb-51958758b70b",
+     "name": "CONSTRUCTION_AND_ENGINEERING",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "Portfolio - Northzone multi-stage venture capital fund",
+        "document": "https://northzone.com/portfolio",
+        "date": "2026-01-01"
+       }
+      ],
+      "id": "c18c208f-f7e0-4e7f-ad5b-865075421314"
+     }
+    },
+    {
+     "id": "1c1977b3-663a-47fb-81eb-51958758b70b",
+     "name": "CONSTRUCTION_AND_ENGINEERING",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/brickanta/",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "aa072d4e-7704-56b9-8f2a-7b2d7380498b",
+      "original_label": "propConstruction"
+     }
+    },
+    {
+     "id": "8ecf5e57-a149-438c-9eb4-089809bade56",
+     "name": "SOFTWARE_AND_SERVICES",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "Portfolio - Northzone multi-stage venture capital fund",
+        "document": "https://northzone.com/portfolio",
+        "date": "2026-01-01"
+       }
+      ],
+      "id": "e02f3bcc-0357-449c-a501-0e8ed55d0f3b"
+     }
+    }
+   ],
+   "HAS_HEADQUARTERS_IN": [
+    {
+     "id": "45268f56-905f-4cbe-9729-0ad0bbff87fa",
+     "name": "Sweden",
+     "entity_type": "Country",
+     "properties": {
+      "sources": [
+       {
+        "name": "Y Combinator",
+        "document": "https://github.com/yc-oss/api",
+        "date": "2026-06-05"
+       }
+      ],
+      "id": "eb290b9c-51d2-51ea-aa75-74f9d8412a85"
+     }
+    }
+   ],
+   "HAS_PRESENCE_IN": [
+    {
+     "id": "45268f56-905f-4cbe-9729-0ad0bbff87fa",
+     "name": "Sweden",
+     "entity_type": "Country",
+     "properties": {
+      "sources": [
+       {
+        "name": "Y Combinator",
+        "document": "https://github.com/yc-oss/api",
+        "date": "2026-06-05"
+       }
+      ],
+      "id": "3c8f6565-c039-58e4-bfe2-e4a4c8a83f40"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "INVESTED_IN": [
+    {
+     "id": "06bfd2d0-39c9-5158-b289-db87746e73a3",
+     "name": "Johan Edenström",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "brickanta.com",
+        "document": "https://www.brickanta.com/resources/blog/brickanta-seed-announcement",
+        "date": "2026-01-27",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "620e14ca-2c65-4849-82db-9c7407822d69"
+     }
+    },
+    {
+     "id": "108d9694-f0cf-5216-bc52-eee84babd357",
+     "name": "Cody Gakpo",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "brickanta.com",
+        "document": "https://www.brickanta.com/resources/blog/brickanta-seed-announcement",
+        "date": "2026-01-27",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "brickanta.com",
+        "document": "https://www.brickanta.com/resources/about",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "cbinsights.com",
+        "document": "https://www.cbinsights.com/company/brickanta/financials",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "7b04d96f-dc4e-43fd-a992-b878216cba11"
+     }
+    },
+    {
+     "id": "10c75ca4-24d6-4a32-8f22-08d4b1dfffce",
+     "name": "Northzone",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "Portfolio - Northzone multi-stage venture capital fund",
+        "document": "https://northzone.com/portfolio",
+        "date": "2026-01-01"
+       },
+       {
+        "name": "techfundingnews.com",
+        "document": "https://techfundingnews.com/brickanta-8m-seed-northzone-ai-construction/",
+        "date": "2026-01-28",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "brickanta.com",
+        "document": "https://www.brickanta.com/resources/blog/brickanta-seed-announcement",
+        "date": "2026-01-27",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "2104697a-4668-46ee-b80f-a019752b46f2"
+     }
+    },
+    {
+     "id": "145b310c-35a2-58c3-8e1b-11070ebdb029",
+     "name": "Erik Engellau-Nilsson",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "brickanta.com",
+        "document": "https://www.brickanta.com/resources/blog/brickanta-seed-announcement",
+        "date": "2026-01-27",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "855c1fa2-c0c6-439b-b142-dee53bb529ce"
+     }
+    },
+    {
+     "id": "183da18d-acfc-5e98-bccb-125f03f011e9",
+     "name": "Navid Haddad",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "brickanta.com",
+        "document": "https://www.brickanta.com/resources/blog/brickanta-seed-announcement",
+        "date": "2026-01-27",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "d99f9269-5408-47b6-b46b-e96ae4094d4a"
+     }
+    },
+    {
+     "id": "1966f6e4-46eb-5a12-8f92-3b149923b79f",
+     "name": "Oliver Robsahm",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "techfundingnews.com",
+        "document": "https://techfundingnews.com/brickanta-8m-seed-northzone-ai-construction/",
+        "date": "2026-01-28",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "brickanta.com",
+        "document": "https://www.brickanta.com/resources/blog/brickanta-seed-announcement",
+        "date": "2026-01-27",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "42351039-d67c-4b3d-9c98-412c0db187f1"
+     }
+    },
+    {
+     "id": "1e86655e-373d-4fe8-be13-af3713581f73",
+     "name": "Y Combinator",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "Y Combinator",
+        "document": "https://github.com/yc-oss/api",
+        "date": "2026-06-09"
+       },
+       {
+        "name": "brickanta.com",
+        "document": "https://www.brickanta.com/resources/blog/brickanta-seed-announcement",
+        "date": "2026-01-27",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "cbinsights.com",
+        "document": "https://www.cbinsights.com/company/brickanta/financials",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "fa19980b-8c16-53fe-9c85-cdd17a74fdc5"
+     }
+    },
+    {
+     "id": "25d988c7-1118-4fa1-968f-11738c066f7a",
+     "name": "SSE Business Lab",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "brickanta.com",
+        "document": "https://www.brickanta.com/resources/blog/brickanta-seed-announcement",
+        "date": "2026-01-27",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "cbinsights.com",
+        "document": "https://www.cbinsights.com/company/brickanta/financials",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "afcefb50-f5e3-4dbb-a340-e4f49f3e7a02"
+     }
+    },
+    {
+     "id": "4821e138-87f5-50b5-8ce2-dcc02d1a82af",
+     "name": "Fredrik Carlsson",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "brickanta.com",
+        "document": "https://www.brickanta.com/resources/blog/brickanta-seed-announcement",
+        "date": "2026-01-27",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "444ba05e-877f-47bd-880a-23202b0017ee"
+     }
+    },
+    {
+     "id": "6827c8a4-963c-5973-80e8-98a6b0754d89",
+     "name": "Agnes Sjöberg",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "brickanta.com",
+        "document": "https://www.brickanta.com/resources/blog/brickanta-seed-announcement",
+        "date": "2026-01-27",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "4366b945-fd34-49b4-b900-174e8c983856"
+     }
+    },
+    {
+     "id": "6bf63f39-ad4c-5fc8-ad31-0d765ca1d9ce",
+     "name": "Joel Wägmark",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "brickanta.com",
+        "document": "https://www.brickanta.com/resources/blog/brickanta-seed-announcement",
+        "date": "2026-01-27",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "0fcccd72-3e45-4ac4-a314-2f8f696f9761"
+     }
+    },
+    {
+     "id": "78840137-31a9-53a8-8cfa-58f3ad2f37bf",
+     "name": "Alfred Wahlforss",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "brickanta.com",
+        "document": "https://www.brickanta.com/resources/blog/brickanta-seed-announcement",
+        "date": "2026-01-27",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "4fd72213-2cfc-4cf5-b235-e1f46c60896d"
+     }
+    },
+    {
+     "id": "7faf31b1-b7a2-4e93-b820-1fed0d86d2fa",
+     "name": "Candor",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "Y Combinator",
+        "document": "https://github.com/yc-oss/api",
+        "date": "2026-06-05"
+       }
+      ],
+      "id": "083312d0-5a4e-5e52-879e-755fac3daba3"
+     }
+    },
+    {
+     "id": "8999d310-c63a-50d3-973d-0fe0d537a7e4",
+     "name": "JJ Fiegelman",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "brickanta.com",
+        "document": "https://www.brickanta.com/resources/blog/brickanta-seed-announcement",
+        "date": "2026-01-27",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "b1e91b61-bf31-498f-a975-2ff1759cc87e"
+     }
+    },
+    {
+     "id": "a358918a-40b9-5e1b-94b7-9686569e4fae",
+     "name": "Lukas Saari",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "brickanta.com",
+        "document": "https://www.brickanta.com/resources/blog/brickanta-seed-announcement",
+        "date": "2026-01-27",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "5242dc3d-acca-482b-8399-4d00b83bd24d"
+     }
+    },
+    {
+     "id": "c10d642f-7e4d-4244-85e9-10f66619fcc7",
+     "name": "20VC",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "brickanta.com",
+        "document": "https://www.brickanta.com/resources/blog/brickanta-seed-announcement",
+        "date": "2026-01-27",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "cbinsights.com",
+        "document": "https://www.cbinsights.com/company/brickanta/financials",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "263604a6-7efa-4430-9921-672b94e2a306"
+     }
+    },
+    {
+     "id": "c1ed71a5-f51b-57dc-a50a-c56f37f92a30",
+     "name": "Tobias Hedlund",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "techfundingnews.com",
+        "document": "https://techfundingnews.com/brickanta-8m-seed-northzone-ai-construction/",
+        "date": "2026-01-28",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "brickanta.com",
+        "document": "https://www.brickanta.com/resources/blog/brickanta-seed-announcement",
+        "date": "2026-01-27",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "675864cc-27e4-4340-9503-bb93e5e114b9"
+     }
+    },
+    {
+     "id": "cf7a130f-3db5-531a-9d1c-86ee984fc735",
+     "name": "Tom Sakofall",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "techfundingnews.com",
+        "document": "https://techfundingnews.com/brickanta-8m-seed-northzone-ai-construction/",
+        "date": "2026-01-28",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "brickanta.com",
+        "document": "https://www.brickanta.com/resources/blog/brickanta-seed-announcement",
+        "date": "2026-01-27",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "31d73995-6ae9-4df7-aba4-c66303e936e4"
+     }
+    },
+    {
+     "id": "d0047fc0-5127-5ec5-9144-19b7bb4e35cc",
+     "name": "Mario Götze",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "brickanta.com",
+        "document": "https://www.brickanta.com/resources/blog/brickanta-seed-announcement",
+        "date": "2026-01-27",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "brickanta.com",
+        "document": "https://www.brickanta.com/resources/about",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "cbinsights.com",
+        "document": "https://www.cbinsights.com/company/brickanta/financials",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "0ab4c3e9-94ec-45d6-9039-3620234417e1"
+     }
+    },
+    {
+     "id": "d00f4d21-06ad-5467-999c-edd1e1f621b3",
+     "name": "Kalle Erlandsson",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "techfundingnews.com",
+        "document": "https://techfundingnews.com/brickanta-8m-seed-northzone-ai-construction/",
+        "date": "2026-01-28",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "brickanta.com",
+        "document": "https://www.brickanta.com/resources/blog/brickanta-seed-announcement",
+        "date": "2026-01-27",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "eec2db59-eaca-42db-aca8-9ffa3b59eda3"
+     }
+    },
+    {
+     "id": "d5cfb085-6499-5ce8-9314-00e55e51e03b",
+     "name": "Anton Osika",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "brickanta.com",
+        "document": "https://www.brickanta.com/resources/blog/brickanta-seed-announcement",
+        "date": "2026-01-27",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "60a7a909-587f-4334-a179-f4ac4712c8c7"
+     }
+    },
+    {
+     "id": "f260f8b6-b3c3-5b3d-88f8-751aba98a56f",
+     "name": "Gabriel Petersson",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "brickanta.com",
+        "document": "https://www.brickanta.com/resources/blog/brickanta-seed-announcement",
+        "date": "2026-01-27",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "2c1dee3b-1c75-44f7-b3a4-fe4f993bdf67"
+     }
+    },
+    {
+     "id": "f58a18f1-7be2-5c11-a94f-1de7223ab903",
+     "name": "Stefan Lennhammer",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "techfundingnews.com",
+        "document": "https://techfundingnews.com/brickanta-8m-seed-northzone-ai-construction/",
+        "date": "2026-01-28",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "brickanta.com",
+        "document": "https://www.brickanta.com/resources/blog/brickanta-seed-announcement",
+        "date": "2026-01-27",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "c61e54e4-43e4-4b03-8d54-1b89aca34c4c"
+     }
+    },
+    {
+     "id": "fab772d1-7261-5ce9-b9d0-0485ea634157",
+     "name": "Oliver Åstrand",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "brickanta.com",
+        "document": "https://www.brickanta.com/resources/blog/brickanta-seed-announcement",
+        "date": "2026-01-27",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "774a24f8-72dd-47d9-a840-cc8128b6f31f"
+     }
+    }
+   ],
+   "FOUNDED": [
+    {
+     "id": "cc3247b6-ceaf-42fe-99d5-d4738ce1beb7",
+     "name": "Linus Bein Fahlander",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "Brickanta: Agentic AI for Society Builders | Y Combinator",
+        "document": "https://www.ycombinator.com/companies/brickanta",
+        "date": "2025-09-29"
+       },
+       {
+        "name": "www.crunchbase.com",
+        "document": "https://www.crunchbase.com/organization/brickanta",
+        "date": "2026-08-20"
+       },
+       {
+        "name": "Announcing our $8M seed round to bring construction into the AI era",
+        "document": "https://brickanta.com/blog/brickanta-seed-announcement",
+        "date": "2026-08-12"
+       },
+       {
+        "name": "Svenska AI-bolaget ska spara miljarder åt byggsektorn",
+        "document": "https://www.byggindustrin.se/utveckling/digitalisering/svenska-ai-bolaget-ska-spara-miljarder-at-byggsektorn",
+        "date": "2025-09-30"
+       },
+       {
+        "name": "techfundingnews.com",
+        "document": "https://techfundingnews.com/brickanta-8m-seed-northzone-ai-construction",
+        "date": "2026-08-20"
+       },
+       {
+        "name": "Stockholm-based startup Brickanta secures $8M seed round led by Northzone",
+        "document": "https://www.vestbee.com/insights/articles/brickanta-secures-8-m",
+        "date": "2026-01-29"
+       },
+       {
+        "name": "Dagens Industri: Swedish AI company aims to save billions for the construction sector",
+        "document": "https://brickanta.com/blog/brickanta-in-dagens-industri",
+        "date": "2026-08-12"
+       }
+      ],
+      "id": "a2d756f5-1698-45c9-9164-9a62bd8f69d3"
+     }
+    },
+    {
+     "id": "cc3247b6-ceaf-42fe-99d5-d4738ce1beb7",
+     "name": "Linus Bein Fahlander",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "ycombinator.com",
+        "document": "https://www.ycombinator.com/companies/brickanta",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "techfundingnews.com",
+        "document": "https://techfundingnews.com/brickanta-8m-seed-northzone-ai-construction/",
+        "date": "2026-01-28",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "947cc775-da3a-5341-adb1-d9a3b78e741f"
+     }
+    },
+    {
+     "id": "cd27035d-e7ab-45b1-8cb1-844e01e861e6",
+     "name": "Lucas Otterling",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "Brickanta: Agentic AI for Society Builders | Y Combinator",
+        "document": "https://www.ycombinator.com/companies/brickanta",
+        "date": "2025-09-29"
+       },
+       {
+        "name": "www.crunchbase.com",
+        "document": "https://www.crunchbase.com/organization/brickanta",
+        "date": "2026-08-20"
+       },
+       {
+        "name": "Announcing our $8M seed round to bring construction into the AI era",
+        "document": "https://brickanta.com/blog/brickanta-seed-announcement",
+        "date": "2026-08-12"
+       },
+       {
+        "name": "Svenska AI-bolaget ska spara miljarder åt byggsektorn",
+        "document": "https://www.byggindustrin.se/utveckling/digitalisering/svenska-ai-bolaget-ska-spara-miljarder-at-byggsektorn",
+        "date": "2025-09-30"
+       },
+       {
+        "name": "Sov på kundernas soffor och körde 100 investerarmöten på en vecka: \"Det är nu det händer\"",
+        "document": "https://www.breakit.se/artikel/45276/brickanta-grundarna-sov-pa-kundernas-soffor-och-korde-100-investerarmoten-pa-en-vecka-det-ar-nu-det-hander",
+        "date": "2026-01-27"
+       },
+       {
+        "name": "techfundingnews.com",
+        "document": "https://techfundingnews.com/brickanta-8m-seed-northzone-ai-construction",
+        "date": "2026-08-20"
+       },
+       {
+        "name": "Stockholm-based startup Brickanta secures $8M seed round led by Northzone",
+        "document": "https://www.vestbee.com/insights/articles/brickanta-secures-8-m",
+        "date": "2026-01-29"
+       }
+      ],
+      "id": "93d32515-dfb2-4264-959b-1da74f78f938"
+     }
+    },
+    {
+     "id": "cd27035d-e7ab-45b1-8cb1-844e01e861e6",
+     "name": "Lucas Otterling",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "techfundingnews.com",
+        "document": "https://techfundingnews.com/brickanta-8m-seed-northzone-ai-construction/",
+        "date": "2026-01-28",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "ycombinator.com",
+        "document": "https://www.ycombinator.com/companies/brickanta",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "815a45c5-d557-58df-a9a3-55928f2b3c14"
+     }
+    }
+   ],
+   "IS_CEO_OF": [
+    {
+     "id": "cd27035d-e7ab-45b1-8cb1-844e01e861e6",
+     "name": "Lucas Otterling",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "techfundingnews.com",
+        "document": "https://techfundingnews.com/brickanta-8m-seed-northzone-ai-construction/",
+        "date": "2026-01-28",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "ycombinator.com",
+        "document": "https://www.ycombinator.com/companies/brickanta",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "b3f96cf6-84c3-52dd-a2ac-5517aee27658"
+     }
+    }
+   ],
+   "IS_CTO_OF": [
+    {
+     "id": "cc3247b6-ceaf-42fe-99d5-d4738ce1beb7",
+     "name": "Linus Bein Fahlander",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "ycombinator.com",
+        "document": "https://www.ycombinator.com/companies/brickanta",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "cea84920-adfa-543a-83b2-c03302bf7739"
+     }
+    }
+   ],
+   "IS_BOARD_MEMBER_OF": [
+    {
+     "id": "8374d875-46af-51e4-9dd6-757c16bd57a4",
+     "name": "Sofia Maria Otterling Lennhammer",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "allabolag.se",
+        "document": "https://www.allabolag.se/5595373647/befattningar",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "29bc67d0-ba6c-5181-8893-a3fab1120745"
+     }
+    },
+    {
+     "id": "cc3247b6-ceaf-42fe-99d5-d4738ce1beb7",
+     "name": "Linus Bein Fahlander",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "allabolag.se",
+        "document": "https://www.allabolag.se/5595373647/befattningar",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "c9316ec7-b4a9-5260-8d1b-4c926161719a"
+     }
+    },
+    {
+     "id": "cd27035d-e7ab-45b1-8cb1-844e01e861e6",
+     "name": "Lucas Otterling",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "allabolag.se",
+        "document": "https://www.allabolag.se/5595373647/befattningar",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "882cda82-e262-5b37-a70d-6be03d36f047"
+     }
+    }
+   ],
+   "WORKS_AT": [
+    {
+     "id": "cd27035d-e7ab-45b1-8cb1-844e01e861e6",
+     "name": "Lucas Otterling",
+     "entity_type": "Person",
+     "properties": {
+      "role": "CEO",
+      "sources": [
+       {
+        "name": "Brickanta: Agentic AI for Society Builders | Y Combinator",
+        "document": "https://www.ycombinator.com/companies/brickanta",
+        "date": "2025-09-29"
+       },
+       {
+        "name": "www.crunchbase.com",
+        "document": "https://www.crunchbase.com/organization/brickanta",
+        "date": "2026-08-20"
+       },
+       {
+        "name": "Announcing our $8M seed round to bring construction into the AI era",
+        "document": "https://brickanta.com/blog/brickanta-seed-announcement",
+        "date": "2026-08-12"
+       },
+       {
+        "name": "Svenska AI-bolaget ska spara miljarder åt byggsektorn",
+        "document": "https://www.byggindustrin.se/utveckling/digitalisering/svenska-ai-bolaget-ska-spara-miljarder-at-byggsektorn",
+        "date": "2025-09-30"
+       },
+       {
+        "name": "Sov på kundernas soffor och körde 100 investerarmöten på en vecka: \"Det är nu det händer\"",
+        "document": "https://www.breakit.se/artikel/45276/brickanta-grundarna-sov-pa-kundernas-soffor-och-korde-100-investerarmoten-pa-en-vecka-det-ar-nu-det-hander",
+        "date": "2026-01-27"
+       },
+       {
+        "name": "techfundingnews.com",
+        "document": "https://techfundingnews.com/brickanta-8m-seed-northzone-ai-construction",
+        "date": "2026-08-20"
+       },
+       {
+        "name": "Stockholm-based startup Brickanta secures $8M seed round led by Northzone",
+        "document": "https://www.vestbee.com/insights/articles/brickanta-secures-8-m",
+        "date": "2026-01-29"
+       }
+      ],
+      "id": "250826b6-376a-4804-9ff4-1ef2d3ed295d"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

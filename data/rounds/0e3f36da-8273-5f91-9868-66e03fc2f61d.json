@@ -1,0 +1,363 @@
+{
+ "id": "0e3f36da-8273-5f91-9868-66e03fc2f61d",
+ "name": "Seed",
+ "entity_type": "FundingRound",
+ "description": null,
+ "properties": {
+  "name": {
+   "value": "Seed",
+   "sources": [
+    {
+     "name": "electrive.net",
+     "document": "https://www.electrive.net/2025/07/12/cariqa-schliesst-seed-finanzierung-erfolgreich-ab/",
+     "date": "2025-07-12",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "round_label": {
+   "value": "SEED",
+   "sources": [
+    {
+     "name": "electrive.net",
+     "document": "https://www.electrive.net/2025/07/12/cariqa-schliesst-seed-finanzierung-erfolgreich-ab/",
+     "date": "2025-07-12",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "instrument": {
+   "value": "EQUITY",
+   "sources": [
+    {
+     "name": "tech.eu",
+     "document": "https://tech.eu/2025/07/08/cariqa-raises-eur4m-to-simplify-ev-charging-payments-and-pricing/",
+     "date": "2025-07-08",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "siliconcanals.com",
+     "document": "https://siliconcanals.com/cariqa-lands-e4m/",
+     "date": "2025-07-08",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "electrive.net",
+     "document": "https://www.electrive.net/2025/07/12/cariqa-schliesst-seed-finanzierung-erfolgreich-ab/",
+     "date": "2025-07-12",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "transaction_value": {
+   "value": 4000000.0,
+   "sources": [
+    {
+     "name": "tech.eu",
+     "document": "https://tech.eu/2025/07/08/cariqa-raises-eur4m-to-simplify-ev-charging-payments-and-pricing/",
+     "date": "2025-07-08",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "siliconcanals.com",
+     "document": "https://siliconcanals.com/cariqa-lands-e4m/",
+     "date": "2025-07-08",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "electrive.net",
+     "document": "https://www.electrive.net/2025/07/12/cariqa-schliesst-seed-finanzierung-erfolgreich-ab/",
+     "date": "2025-07-12",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "transaction_value_units": {
+   "value": "EUR",
+   "sources": [
+    {
+     "name": "tech.eu",
+     "document": "https://tech.eu/2025/07/08/cariqa-raises-eur4m-to-simplify-ev-charging-payments-and-pricing/",
+     "date": "2025-07-08",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "siliconcanals.com",
+     "document": "https://siliconcanals.com/cariqa-lands-e4m/",
+     "date": "2025-07-08",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "electrive.net",
+     "document": "https://www.electrive.net/2025/07/12/cariqa-schliesst-seed-finanzierung-erfolgreich-ab/",
+     "date": "2025-07-12",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "announcement_date": {
+   "value": "2025-07-08",
+   "sources": [
+    {
+     "name": "tech.eu",
+     "document": "https://tech.eu/2025/07/08/cariqa-raises-eur4m-to-simplify-ev-charging-payments-and-pricing/",
+     "date": "2025-07-08",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "siliconcanals.com",
+     "document": "https://siliconcanals.com/cariqa-lands-e4m/",
+     "date": "2025-07-08",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "electrive.net",
+     "document": "https://www.electrive.net/2025/07/12/cariqa-schliesst-seed-finanzierung-erfolgreich-ab/",
+     "date": "2025-07-12",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "annotations": {
+   "value": [
+    "electrive: \"in einer Seed-Runde vier Millionen Euro eingesammelt\".",
+    "round_label_stated:Seed"
+   ],
+   "sources": []
+  }
+ },
+ "relationships": {
+  "outgoing": {},
+  "incoming": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "36fb528c-7795-4825-a9a4-a66ba327461b",
+     "name": "Cariqa",
+     "entity_type": "Company",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "electrive.net",
+        "document": "https://www.electrive.net/2025/07/12/cariqa-schliesst-seed-finanzierung-erfolgreich-ab/",
+        "date": "2025-07-12",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "cd363de4-986c-5104-b4f2-4818039b6cf9"
+     }
+    },
+    {
+     "id": "3c7caf1d-2b92-493f-bed9-7e14f8e4cc78",
+     "name": "UAB Contrarian Ventures",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2025/07/08/cariqa-raises-eur4m-to-simplify-ev-charging-payments-and-pricing/",
+        "date": "2025-07-08",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "siliconcanals.com",
+        "document": "https://siliconcanals.com/cariqa-lands-e4m/",
+        "date": "2025-07-08",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "electrive.net",
+        "document": "https://www.electrive.net/2025/07/12/cariqa-schliesst-seed-finanzierung-erfolgreich-ab/",
+        "date": "2025-07-12",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "is_lead": true,
+      "id": "4f1f0f8a-9bd2-5fba-bfda-781674f3c804"
+     }
+    },
+    {
+     "id": "4985b453-12d1-4307-aa52-79ee031ba8e4",
+     "name": "Anthemis Group",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2025/07/08/cariqa-raises-eur4m-to-simplify-ev-charging-payments-and-pricing/",
+        "date": "2025-07-08",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "siliconcanals.com",
+        "document": "https://siliconcanals.com/cariqa-lands-e4m/",
+        "date": "2025-07-08",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "electrive.net",
+        "document": "https://www.electrive.net/2025/07/12/cariqa-schliesst-seed-finanzierung-erfolgreich-ab/",
+        "date": "2025-07-12",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "is_lead": true,
+      "id": "0cedf5b4-32e7-5973-a397-9f19bb826849"
+     }
+    },
+    {
+     "id": "684da1ca-282f-5288-9b0b-5cd0de1aa323",
+     "name": "Earth",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2025/07/08/cariqa-raises-eur4m-to-simplify-ev-charging-payments-and-pricing/",
+        "date": "2025-07-08",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "siliconcanals.com",
+        "document": "https://siliconcanals.com/cariqa-lands-e4m/",
+        "date": "2025-07-08",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "electrive.net",
+        "document": "https://www.electrive.net/2025/07/12/cariqa-schliesst-seed-finanzierung-erfolgreich-ab/",
+        "date": "2025-07-12",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "03ab26db-9243-5f27-af45-94d3d12791da"
+     }
+    },
+    {
+     "id": "9feb906c-9d6c-4f3b-bac9-5660c69cbaa0",
+     "name": "FEMALE INNOVATORS LAB L.P.",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2025/07/08/cariqa-raises-eur4m-to-simplify-ev-charging-payments-and-pricing/",
+        "date": "2025-07-08",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "siliconcanals.com",
+        "document": "https://siliconcanals.com/cariqa-lands-e4m/",
+        "date": "2025-07-08",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "electrive.net",
+        "document": "https://www.electrive.net/2025/07/12/cariqa-schliesst-seed-finanzierung-erfolgreich-ab/",
+        "date": "2025-07-12",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "3cec9ed6-e3ef-53da-8024-f17b7a86caaa"
+     }
+    },
+    {
+     "id": "ae7530e4-556e-4547-ba15-88a12fbcdcb1",
+     "name": "Techstars",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2025/07/08/cariqa-raises-eur4m-to-simplify-ev-charging-payments-and-pricing/",
+        "date": "2025-07-08",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "siliconcanals.com",
+        "document": "https://siliconcanals.com/cariqa-lands-e4m/",
+        "date": "2025-07-08",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "electrive.net",
+        "document": "https://www.electrive.net/2025/07/12/cariqa-schliesst-seed-finanzierung-erfolgreich-ab/",
+        "date": "2025-07-12",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "d2e0fb14-06c1-5887-8486-8d022d1bead3"
+     }
+    },
+    {
+     "id": "f64a71c5-bcd7-4822-9580-60a1e3ab620d",
+     "name": "Golden Egg Check Capital",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2025/07/08/cariqa-raises-eur4m-to-simplify-ev-charging-payments-and-pricing/",
+        "date": "2025-07-08",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "siliconcanals.com",
+        "document": "https://siliconcanals.com/cariqa-lands-e4m/",
+        "date": "2025-07-08",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "electrive.net",
+        "document": "https://www.electrive.net/2025/07/12/cariqa-schliesst-seed-finanzierung-erfolgreich-ab/",
+        "date": "2025-07-12",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "b8197bf8-8941-542e-bd20-7911f26a9de2"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

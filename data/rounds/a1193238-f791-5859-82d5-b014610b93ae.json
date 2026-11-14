@@ -1,0 +1,438 @@
+{
+ "id": "a1193238-f791-5859-82d5-b014610b93ae",
+ "name": "Series D",
+ "entity_type": "FundingRound",
+ "description": null,
+ "properties": {
+  "name": {
+   "value": "Series D",
+   "sources": [
+    {
+     "name": "tech.eu",
+     "document": "https://tech.eu/2026/02/04/elevenlabs-raises-500m-says-building-towards-ipo/",
+     "date": "2026-02-04",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "hlth.com",
+     "document": "https://hlth.com/insights/news/elevenlabs-raises-500m-series-d-led-by-sequoia-at-11b-valuation-2026-02-05",
+     "date": "2026-02-05",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "round_label": {
+   "value": "SERIES_D",
+   "sources": [
+    {
+     "name": "tech.eu",
+     "document": "https://tech.eu/2026/02/04/elevenlabs-raises-500m-says-building-towards-ipo/",
+     "date": "2026-02-04",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "hlth.com",
+     "document": "https://hlth.com/insights/news/elevenlabs-raises-500m-series-d-led-by-sequoia-at-11b-valuation-2026-02-05",
+     "date": "2026-02-05",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "instrument": {
+   "value": "EQUITY",
+   "sources": [
+    {
+     "name": "tech.eu",
+     "document": "https://tech.eu/2026/02/04/elevenlabs-raises-500m-says-building-towards-ipo/",
+     "date": "2026-02-04",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "hlth.com",
+     "document": "https://hlth.com/insights/news/elevenlabs-raises-500m-series-d-led-by-sequoia-at-11b-valuation-2026-02-05",
+     "date": "2026-02-05",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "transaction_value": {
+   "value": 500000000.0,
+   "sources": [
+    {
+     "name": "tech.eu",
+     "document": "https://tech.eu/2026/02/04/elevenlabs-raises-500m-says-building-towards-ipo/",
+     "date": "2026-02-04",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "hlth.com",
+     "document": "https://hlth.com/insights/news/elevenlabs-raises-500m-series-d-led-by-sequoia-at-11b-valuation-2026-02-05",
+     "date": "2026-02-05",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "transaction_value_units": {
+   "value": "USD",
+   "sources": [
+    {
+     "name": "tech.eu",
+     "document": "https://tech.eu/2026/02/04/elevenlabs-raises-500m-says-building-towards-ipo/",
+     "date": "2026-02-04",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "hlth.com",
+     "document": "https://hlth.com/insights/news/elevenlabs-raises-500m-series-d-led-by-sequoia-at-11b-valuation-2026-02-05",
+     "date": "2026-02-05",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "announcement_date": {
+   "value": "2026-02-04",
+   "sources": [
+    {
+     "name": "tech.eu",
+     "document": "https://tech.eu/2026/02/04/elevenlabs-raises-500m-says-building-towards-ipo/",
+     "date": "2026-02-04",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "hlth.com",
+     "document": "https://hlth.com/insights/news/elevenlabs-raises-500m-series-d-led-by-sequoia-at-11b-valuation-2026-02-05",
+     "date": "2026-02-05",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "annotations": {
+   "value": [
+    "'Series D' (Tech.eu).",
+    "round_label_stated:Series D"
+   ],
+   "sources": []
+  }
+ },
+ "relationships": {
+  "outgoing": {},
+  "incoming": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "151bf814-7566-4b14-a7d2-f0d802ef0981",
+     "name": "Sequoia Capital",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2026/02/04/elevenlabs-raises-500m-says-building-towards-ipo/",
+        "date": "2026-02-04",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "hlth.com",
+        "document": "https://hlth.com/insights/news/elevenlabs-raises-500m-series-d-led-by-sequoia-at-11b-valuation-2026-02-05",
+        "date": "2026-02-05",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "is_lead": true,
+      "id": "39595c27-2a1f-5395-9560-3e27872876a5"
+     }
+    },
+    {
+     "id": "1c2ad8a2-8b24-48d6-915d-2a67e92e3711",
+     "name": "ELEVEN LABS INC.",
+     "entity_type": "Company",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2026/02/04/elevenlabs-raises-500m-says-building-towards-ipo/",
+        "date": "2026-02-04",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "hlth.com",
+        "document": "https://hlth.com/insights/news/elevenlabs-raises-500m-series-d-led-by-sequoia-at-11b-valuation-2026-02-05",
+        "date": "2026-02-05",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "f2daf0e3-e360-5a44-b5f0-149ec23afa4a"
+     }
+    },
+    {
+     "id": "54957508-272a-46df-9c61-62434010ba2e",
+     "name": "BOND LIMITED",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2026/02/04/elevenlabs-raises-500m-says-building-towards-ipo/",
+        "date": "2026-02-04",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "hlth.com",
+        "document": "https://hlth.com/insights/news/elevenlabs-raises-500m-series-d-led-by-sequoia-at-11b-valuation-2026-02-05",
+        "date": "2026-02-05",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "f7bb2471-1124-58fc-a3c7-9045ce48652c"
+     }
+    },
+    {
+     "id": "5a9d0c1c-1e04-4816-b38a-28c4f560569b",
+     "name": "Lightspeed Venture Partners",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2026/02/04/elevenlabs-raises-500m-says-building-towards-ipo/",
+        "date": "2026-02-04",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "hlth.com",
+        "document": "https://hlth.com/insights/news/elevenlabs-raises-500m-series-d-led-by-sequoia-at-11b-valuation-2026-02-05",
+        "date": "2026-02-05",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "3ccc540b-8fed-5733-a098-8659c9626b09"
+     }
+    },
+    {
+     "id": "6394d692-f00a-5afc-bccc-51cb26da4842",
+     "name": "AMP Coalition",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2026/02/04/elevenlabs-raises-500m-says-building-towards-ipo/",
+        "date": "2026-02-04",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "hlth.com",
+        "document": "https://hlth.com/insights/news/elevenlabs-raises-500m-series-d-led-by-sequoia-at-11b-valuation-2026-02-05",
+        "date": "2026-02-05",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "2714b261-c6bf-5ea9-9e27-903b9b9c720d"
+     }
+    },
+    {
+     "id": "a2e949a3-8648-4462-8dd6-ac689670e762",
+     "name": "Valor Capital Group",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2026/02/04/elevenlabs-raises-500m-says-building-towards-ipo/",
+        "date": "2026-02-04",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "hlth.com",
+        "document": "https://hlth.com/insights/news/elevenlabs-raises-500m-series-d-led-by-sequoia-at-11b-valuation-2026-02-05",
+        "date": "2026-02-05",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "a215d1d4-ae74-517a-9c8b-7b3517de2fbe"
+     }
+    },
+    {
+     "id": "b0f143e9-f624-489e-bd23-0657a0646c62",
+     "name": "BroadLight Capital",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2026/02/04/elevenlabs-raises-500m-says-building-towards-ipo/",
+        "date": "2026-02-04",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "hlth.com",
+        "document": "https://hlth.com/insights/news/elevenlabs-raises-500m-series-d-led-by-sequoia-at-11b-valuation-2026-02-05",
+        "date": "2026-02-05",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "a6689563-5f66-5d07-a44f-d5e7a1c4705e"
+     }
+    },
+    {
+     "id": "cb1810ff-fc3a-4196-961b-b5d817306bb8",
+     "name": "NFDG",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2026/02/04/elevenlabs-raises-500m-says-building-towards-ipo/",
+        "date": "2026-02-04",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "hlth.com",
+        "document": "https://hlth.com/insights/news/elevenlabs-raises-500m-series-d-led-by-sequoia-at-11b-valuation-2026-02-05",
+        "date": "2026-02-05",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "5365e73a-7218-508f-8d7e-06e7e8f15748"
+     }
+    },
+    {
+     "id": "cd8b3ae2-12c7-4a78-ba0b-04e805f30f90",
+     "name": "Evantic Capital, LLC",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2026/02/04/elevenlabs-raises-500m-says-building-towards-ipo/",
+        "date": "2026-02-04",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "hlth.com",
+        "document": "https://hlth.com/insights/news/elevenlabs-raises-500m-series-d-led-by-sequoia-at-11b-valuation-2026-02-05",
+        "date": "2026-02-05",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "35e62144-e0c7-5293-a941-d3307ca277dd"
+     }
+    },
+    {
+     "id": "d3431684-7241-447c-b765-a14e5e840a09",
+     "name": "ICONIQ",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2026/02/04/elevenlabs-raises-500m-says-building-towards-ipo/",
+        "date": "2026-02-04",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "hlth.com",
+        "document": "https://hlth.com/insights/news/elevenlabs-raises-500m-series-d-led-by-sequoia-at-11b-valuation-2026-02-05",
+        "date": "2026-02-05",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "8df16e31-edba-5552-a305-56690c2ffe4d"
+     }
+    },
+    {
+     "id": "d4c3a691-c0b1-4777-b3cc-2cd1755cbbac",
+     "name": "Smash Capital Advisors L.P.",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2026/02/04/elevenlabs-raises-500m-says-building-towards-ipo/",
+        "date": "2026-02-04",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "hlth.com",
+        "document": "https://hlth.com/insights/news/elevenlabs-raises-500m-series-d-led-by-sequoia-at-11b-valuation-2026-02-05",
+        "date": "2026-02-05",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "d051c6d1-1048-50ee-bd23-e2dceb799345"
+     }
+    },
+    {
+     "id": "daebf7ee-cf07-459c-a3c6-65523efcefa7",
+     "name": "Andreessen Horowitz",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2026/02/04/elevenlabs-raises-500m-says-building-towards-ipo/",
+        "date": "2026-02-04",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "hlth.com",
+        "document": "https://hlth.com/insights/news/elevenlabs-raises-500m-series-d-led-by-sequoia-at-11b-valuation-2026-02-05",
+        "date": "2026-02-05",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "af2d4c79-aaaa-5a0f-8e5b-b5127aa7e96b"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

@@ -1,0 +1,157 @@
+{
+ "id": "c57553d3-ca89-5b94-810f-1ee6295b8b39",
+ "name": "Series B",
+ "entity_type": "FundingRound",
+ "description": null,
+ "properties": {
+  "name": {
+   "value": "Series B",
+   "sources": [
+    {
+     "name": "forciot.com",
+     "document": "https://www.forciot.com/forciot-joined-by-new-investors/",
+     "date": "2021-09-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "round_label": {
+   "value": "SERIES_B",
+   "sources": [
+    {
+     "name": "forciot.com",
+     "document": "https://www.forciot.com/forciot-joined-by-new-investors/",
+     "date": "2021-09-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "instrument": {
+   "value": "EQUITY",
+   "sources": [
+    {
+     "name": "forciot.com",
+     "document": "https://www.forciot.com/forciot-joined-by-new-investors/",
+     "date": "2021-09-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "announcement_date": {
+   "value": "2021-09-02",
+   "sources": [
+    {
+     "name": "forciot.com",
+     "document": "https://www.forciot.com/forciot-joined-by-new-investors/",
+     "date": "2021-09-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "theglobeandmail.com",
+     "document": "https://www.theglobeandmail.com/investing/markets/stocks/THRM/pressreleases/6243840/gentherm-invests-in-electric-sensor-technology-company-forciot/",
+     "date": "2021-09-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "annotations": {
+   "value": [
+    "Company release 2021-09-02: \"Forciot series B investment round is currently ongoing\"; the investors invest \"as part of the B-round\".",
+    "round_label_stated:Series B"
+   ],
+   "sources": []
+  }
+ },
+ "relationships": {
+  "outgoing": {},
+  "incoming": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "00ff9907-cdbb-4e3f-a56e-4cd4a28a333b",
+     "name": "Forciot",
+     "entity_type": "Company",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "forciot.com",
+        "document": "https://www.forciot.com/forciot-joined-by-new-investors/",
+        "date": "2021-09-02",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "40a05351-1600-505e-88f1-7aa6bb7ab5df"
+     }
+    },
+    {
+     "id": "0a5a3051-fbdb-475f-96f0-56a95ac0162e",
+     "name": "Gentherm Inc",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "forciot.com",
+        "document": "https://www.forciot.com/forciot-joined-by-new-investors/",
+        "date": "2021-09-02",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "theglobeandmail.com",
+        "document": "https://www.theglobeandmail.com/investing/markets/stocks/THRM/pressreleases/6243840/gentherm-invests-in-electric-sensor-technology-company-forciot/",
+        "date": "2021-09-02",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "4ab47861-def6-567a-a002-c5e3367c36d1"
+     }
+    },
+    {
+     "id": "9248f290-d46f-55a2-9910-5714973ddd0b",
+     "name": "Volvo Car Technology Fund AB",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "forciot.com",
+        "document": "https://www.forciot.com/forciot-joined-by-new-investors/",
+        "date": "2021-09-02",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "a458d55e-b5af-54f2-a16e-5c820717ec19"
+     }
+    },
+    {
+     "id": "fd19cc35-a291-4ccf-8cb0-87f33c4d773d",
+     "name": "Heraeus Holding GmbH",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "forciot.com",
+        "document": "https://www.forciot.com/forciot-joined-by-new-investors/",
+        "date": "2021-09-02",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "75e728d6-a417-5023-910a-09660ec85b90"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

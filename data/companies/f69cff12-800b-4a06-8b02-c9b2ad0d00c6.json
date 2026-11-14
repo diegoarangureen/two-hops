@@ -1,0 +1,980 @@
+{
+ "id": "f69cff12-800b-4a06-8b02-c9b2ad0d00c6",
+ "name": "ASTRON SYSTEMS LTD",
+ "entity_type": "Company",
+ "description": "Flexible, fast, & affordable rides to orbit and back for small payloads using small 100% reusable rockets. Astron Systems are an award winning company leading the development of 100% reusable small...",
+ "properties": {
+  "name": {
+   "value": "ASTRON SYSTEMS LTD",
+   "sources": [
+    {
+     "name": "Companies House UK",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/13346875",
+     "date": "2026-11-01"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "Astron Systems Ltd",
+   "sources": [
+    {
+     "name": "astronsystems.com",
+     "document": "https://astronsystems.com/",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "find-and-update.company-information.service.gov.uk",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/13346875",
+     "date": "2021-04-20",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "aliases": {
+   "value": [
+    "Astron Systems"
+   ],
+   "sources": []
+  },
+  "website": {
+   "value": "astronsystems.com",
+   "sources": [
+    {
+     "name": "astronsystems.com",
+     "document": "https://astronsystems.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "dns.google",
+     "document": "https://dns.google/query?name=astronsystems.com&type=A",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "astronsystems.com",
+     "document": "https://astronsystems.com/news/prototype-new-hybrid-electric-turbopump-tested-pumping-cryo.jsp",
+     "date": "2026-11-10",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "Flexible, fast, & affordable rides to orbit and back for small payloads using small 100% reusable rockets. Astron Systems are an award winning company leading the development of 100% reusable small...",
+   "sources": [
+    {
+     "name": "astronsystems.com",
+     "document": "https://astronsystems.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2021-04-20",
+   "sources": [
+    {
+     "name": "Companies House UK",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/13346875",
+     "date": "2026-11-01"
+    },
+    {
+     "name": "find-and-update.company-information.service.gov.uk",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/13346875",
+     "date": "2021-04-20",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "find-and-update.company-information.service.gov.uk",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/13346875/filing-history/MzI5ODEzMjM4N2FkaXF6a2N4/document?format=pdf&download=0",
+     "date": "2021-04-20",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "Didcot, Oxfordshire, United Kingdom",
+   "sources": [
+    {
+     "name": "astronsystems.com",
+     "document": "https://astronsystems.com/",
+     "date": "2026-11-10",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "astronsystems.com",
+     "document": "https://astronsystems.com/team.jsp",
+     "date": "2026-11-10",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "registered_address": {
+   "value": "2 MAPLE COURT, DAVENPORT STREET, MACCLESFIELD, CHESHIRE, SK10 1JE, UNITED KINGDOM",
+   "sources": [
+    {
+     "name": "Companies House UK",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/13346875",
+     "date": "2026-11-01"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "Companies House UK",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/13346875",
+     "date": "2026-11-01"
+    },
+    {
+     "name": "astronsystems.com",
+     "document": "https://astronsystems.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "find-and-update.company-information.service.gov.uk",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/13346875",
+     "date": "2026-08-25",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "find-and-update.company-information.service.gov.uk",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/13346875/filing-history/MzI5ODEzMjM4N2FkaXF6a2N4/document?format=pdf&download=0",
+     "date": "2021-04-20",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "company_ownership_status": {
+   "value": "Private Limited Company",
+   "sources": [
+    {
+     "name": "Companies House UK",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/13346875",
+     "date": "2026-11-01"
+    }
+   ]
+  },
+  "total_funding": {
+   "value": 560145.23,
+   "sources": [
+    {
+     "name": "find-and-update.company-information.service.gov.uk",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/13346875/filing-history/MzM1MTA2MjgxMmFkaXF6a2N4/document?format=pdf&download=0",
+     "date": "2022-09-07",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "find-and-update.company-information.service.gov.uk",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/13346875/filing-history/MzQxNzk1NTc1MWFkaXF6a2N4/document?format=pdf&download=0",
+     "date": "2024-04-08",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "find-and-update.company-information.service.gov.uk",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/13346875/filing-history/MzUxNzk2MzkxMmFkaXF6a2N4/document?format=pdf&download=0",
+     "date": "2026-04-23",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "total_funding_units": {
+   "value": "GBP",
+   "sources": [
+    {
+     "name": "find-and-update.company-information.service.gov.uk",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/13346875/filing-history/MzM1MTA2MjgxMmFkaXF6a2N4/document?format=pdf&download=0",
+     "date": "2022-09-07",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "find-and-update.company-information.service.gov.uk",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/13346875/filing-history/MzQxNzk1NTc1MWFkaXF6a2N4/document?format=pdf&download=0",
+     "date": "2024-04-08",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "find-and-update.company-information.service.gov.uk",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/13346875/filing-history/MzUxNzk2MzkxMmFkaXF6a2N4/document?format=pdf&download=0",
+     "date": "2026-04-23",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "total_funding_excluding_debt": {
+   "value": 560145.23,
+   "sources": [
+    {
+     "name": "find-and-update.company-information.service.gov.uk",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/13346875/filing-history/MzM1MTA2MjgxMmFkaXF6a2N4/document?format=pdf&download=0",
+     "date": "2022-09-07",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "find-and-update.company-information.service.gov.uk",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/13346875/filing-history/MzQxNzk1NTc1MWFkaXF6a2N4/document?format=pdf&download=0",
+     "date": "2024-04-08",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "find-and-update.company-information.service.gov.uk",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/13346875/filing-history/MzUxNzk2MzkxMmFkaXF6a2N4/document?format=pdf&download=0",
+     "date": "2026-04-23",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "funding_stage": {
+   "value": "SERIES_B",
+   "sources": [
+    {
+     "name": "find-and-update.company-information.service.gov.uk",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/13346875/filing-history/MzUxNzk2MzkxMmFkaXF6a2N4/document?format=pdf&download=0",
+     "date": "2026-04-23",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "astronsystems.com",
+     "document": "https://astronsystems.com/news/funding-close-april-2026.jsp",
+     "date": "2026-04-06",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "3aa2df2a-784a-5d4f-b6fb-bd7dc5c3d8c3",
+     "name": "Grant",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "esa-bic.org.uk",
+        "document": "https://esa-bic.org.uk/2024/07/05/reusable-rockets-for-affordable-responsive-and-sustainable-orbital-launch/",
+        "date": "2024-07-05",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "b8aa785c-2e20-588a-90f6-1b3998510ba5"
+     }
+    },
+    {
+     "id": "6203f333-3298-5869-85c9-93377b2b6ed1",
+     "name": "Seed",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "find-and-update.company-information.service.gov.uk",
+        "document": "https://find-and-update.company-information.service.gov.uk/company/13346875/filing-history/MzM1MTA2MjgxMmFkaXF6a2N4/document?format=pdf&download=0",
+        "date": "2022-09-07",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "eed3af8a-df8f-58bf-904f-6e7b367dbcf0"
+     }
+    },
+    {
+     "id": "74f8d1ff-578a-5fe6-8812-fa8ba0004145",
+     "name": "Grant",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "astronsystems.com",
+        "document": "https://astronsystems.com/news/astron-kicks-off-esa-contract-to-demonstrate-second-gen-hybrid-electric-turbopump.jsp",
+        "date": "2026-03-30",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "7927f5e8-19fe-5357-bb16-34dcdf4a28cf"
+     }
+    },
+    {
+     "id": "752ca20b-3f35-5195-be1e-5f2d2572ff87",
+     "name": "Series B",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "astronsystems.com",
+        "document": "https://astronsystems.com/news/astron-graduates-from-prestigious-techstars-space-accelerator.jsp",
+        "date": "2024-12-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "find-and-update.company-information.service.gov.uk",
+        "document": "https://find-and-update.company-information.service.gov.uk/company/13346875/filing-history/MzUxNzk2MzkxMmFkaXF6a2N4/document?format=pdf&download=0",
+        "date": "2026-04-23",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       },
+       {
+        "name": "astronsystems.com",
+        "document": "https://astronsystems.com/news/funding-close-april-2026.jsp",
+        "date": "2026-04-06",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "68850cf4-326c-5a1f-9cac-f659b563ae46"
+     }
+    },
+    {
+     "id": "a6ea9961-c838-53d0-a70e-de2c53f2fff1",
+     "name": "Series A",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "find-and-update.company-information.service.gov.uk",
+        "document": "https://find-and-update.company-information.service.gov.uk/company/13346875/filing-history/MzQxNzk1NTc1MWFkaXF6a2N4/document?format=pdf&download=0",
+        "date": "2024-04-08",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "c2dc0804-8efc-59b0-b54e-d95afa4255ba"
+     }
+    },
+    {
+     "id": "bba0d441-83f4-5b84-bb46-b874222834d9",
+     "name": "Grant",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "astronsystems.com",
+        "document": "https://astronsystems.com/news/astron-completes-esa-funded-design-work-studying-hybrid-expander-electric-cycle-rocket-engines.jsp",
+        "date": "2025-03-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "318b3c51-3bdf-5fc3-9338-f9495a97dcc1"
+     }
+    },
+    {
+     "id": "c914c0f6-0e02-5d16-bc8b-234c33d9036e",
+     "name": "Grant",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "astronsystems.com",
+        "document": "https://astronsystems.com/news/prototype-torch-igniter-performs-well-with-gaseous-tests.jsp",
+        "date": "2024-10-10",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "69c77148-da7a-5029-9466-6b0bc9e08be5"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "040e2a80-3532-52c7-a169-12450c54181a"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "1c1977b3-663a-47fb-81eb-51958758b70b",
+     "name": "CONSTRUCTION_AND_ENGINEERING",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "Companies House UK",
+        "document": "https://find-and-update.company-information.service.gov.uk/company/13346875",
+        "date": "2026-05-01"
+       }
+      ],
+      "id": "ce2a04d9-5546-586c-9eb2-5bdb19c4448e"
+     }
+    },
+    {
+     "id": "1df5b32c-1db4-4368-9b3b-84604324aec9",
+     "name": "TRANSPORTATION_AND_LOGISTICS",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "Companies House UK",
+        "document": "https://find-and-update.company-information.service.gov.uk/company/13346875",
+        "date": "2026-05-01"
+       }
+      ],
+      "id": "c938b370-e9f4-503e-b301-46df06494d77"
+     }
+    },
+    {
+     "id": "bb7caa00-59c3-4587-9aaf-5d9195444829",
+     "name": "AEROSPACE_AND_DEFENSE",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "Companies House UK",
+        "document": "https://find-and-update.company-information.service.gov.uk/company/13346875",
+        "date": "2026-05-01"
+       },
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/astron-systems/",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       },
+       {
+        "name": "astronsystems.com",
+        "document": "https://astronsystems.com/",
+        "date": "2026-11-10",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "2212377e-aff3-5d7f-9f42-b2b06ba1df79",
+      "original_label": "space"
+     }
+    }
+   ],
+   "IS_REGISTERED_IN": [
+    {
+     "id": "e332ff3d-605d-4b01-8222-5098236a3aff",
+     "name": "United Kingdom",
+     "entity_type": "Country",
+     "properties": {
+      "sources": [
+       {
+        "name": "Companies House UK",
+        "document": "https://find-and-update.company-information.service.gov.uk/company/13346875",
+        "date": "2026-05-01"
+       }
+      ],
+      "id": "29878663-83ed-5576-ad54-5eed67799ec8"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "INVESTED_IN": [
+    {
+     "id": "08b93c36-102b-408b-9bf5-7e1a4f5c2ec0",
+     "name": "SEEDLEGALS MPL NOMINEES LIMITED",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "find-and-update.company-information.service.gov.uk",
+        "document": "https://find-and-update.company-information.service.gov.uk/company/13346875/filing-history/MzU0MDcyMTI2MWFkaXF6a2N4/document?format=pdf&download=0",
+        "date": "2026-08-25",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "ca9bb065-7ca5-443b-afdb-c7d5d6ef8b39"
+     }
+    },
+    {
+     "id": "0ad2edd7-9ef8-54a7-92b1-71bdb15521d0",
+     "name": "Angel Invest Ventures",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "astronsystems.com",
+        "document": "https://astronsystems.com/news/funding-close-april-2026.jsp",
+        "date": "2026-04-06",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "find-and-update.company-information.service.gov.uk",
+        "document": "https://find-and-update.company-information.service.gov.uk/company/13346875/filing-history/MzU0MDcyMTI2MWFkaXF6a2N4/document?format=pdf&download=0",
+        "date": "2026-08-25",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "b4e23255-bb2e-47d4-b788-f524fec2195a"
+     }
+    },
+    {
+     "id": "25a63ce4-7afe-55e4-87c7-978e07f8b5ea",
+     "name": "Sfc Nominees Limited",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "find-and-update.company-information.service.gov.uk",
+        "document": "https://find-and-update.company-information.service.gov.uk/company/13346875/filing-history/MzM5NDk3NTkyNGFkaXF6a2N4/document?format=pdf&download=0",
+        "date": "2023-09-29",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "c700afa7-889a-4107-8b84-1a15aa4f5d5f"
+     }
+    },
+    {
+     "id": "2d52335c-cc90-49f5-8703-afe651facd48",
+     "name": "KCP NOMINEES LTD",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "find-and-update.company-information.service.gov.uk",
+        "document": "https://find-and-update.company-information.service.gov.uk/company/13346875/filing-history/MzM5NDk3NTkyNGFkaXF6a2N4/document?format=pdf&download=0",
+        "date": "2023-09-29",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "293d92ee-3231-42e7-8e90-1af4963afd2c"
+     }
+    },
+    {
+     "id": "2e415547-02f7-40e7-a2f8-1e909b60187d",
+     "name": "Tiny VC",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "astronsystems.com",
+        "document": "https://astronsystems.com/news/funding-close-april-2026.jsp",
+        "date": "2026-04-06",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "find-and-update.company-information.service.gov.uk",
+        "document": "https://find-and-update.company-information.service.gov.uk/company/13346875/filing-history/MzU0MDcyMTI2MWFkaXF6a2N4/document?format=pdf&download=0",
+        "date": "2026-08-25",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "ffe68534-3b79-4b4d-a32f-a1f2a64b583e"
+     }
+    },
+    {
+     "id": "ae7530e4-556e-4547-ba15-88a12fbcdcb1",
+     "name": "Techstars",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "astronsystems.com",
+        "document": "https://astronsystems.com/news/astron-graduates-from-prestigious-techstars-space-accelerator.jsp",
+        "date": "2024-12-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "find-and-update.company-information.service.gov.uk",
+        "document": "https://find-and-update.company-information.service.gov.uk/company/13346875/filing-history/MzU0MDcyMTI2MWFkaXF6a2N4/document?format=pdf&download=0",
+        "date": "2026-08-25",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "705f1d11-0fa7-4248-8928-7c45d7b9171d"
+     }
+    },
+    {
+     "id": "c958245f-e626-42ed-902d-d0872de86483",
+     "name": "Final Frontier, LLC",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "find-and-update.company-information.service.gov.uk",
+        "document": "https://find-and-update.company-information.service.gov.uk/company/13346875/filing-history/MzU0MDcyMTI2MWFkaXF6a2N4/document?format=pdf&download=0",
+        "date": "2026-08-25",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "2b48ada1-1693-4ed4-82ba-6d7a78d21804"
+     }
+    },
+    {
+     "id": "f0f2e9bc-69ba-589a-ad0e-94375dcdd75d",
+     "name": "Deep Quest Capital",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "astronsystems.com",
+        "document": "https://astronsystems.com/news/funding-close-april-2026.jsp",
+        "date": "2026-04-06",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "find-and-update.company-information.service.gov.uk",
+        "document": "https://find-and-update.company-information.service.gov.uk/company/13346875/filing-history/MzU0MDcyMTI2MWFkaXF6a2N4/document?format=pdf&download=0",
+        "date": "2026-08-25",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "f164dbb2-9443-4d92-907e-ab2608934bc7"
+     }
+    }
+   ],
+   "FOUNDED": [
+    {
+     "id": "444805a6-945f-5ec1-9593-94e7e0d2a27b",
+     "name": "Rafal Piotr Sokolowski",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "astronsystems.com",
+        "document": "https://astronsystems.com/team.jsp",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "3418852a-d053-5f79-97c9-1aeaa7bdd7b5"
+     }
+    },
+    {
+     "id": "54bd878b-8a37-5b26-b93c-7de5e1bb1e25",
+     "name": "Kieran Jones-Tett",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "astronsystems.com",
+        "document": "https://astronsystems.com/team.jsp",
+        "date": "2026-11-10",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "360a34a4-7fed-59ed-9960-e9aa424693ab"
+     }
+    },
+    {
+     "id": "6f5cfb32-ca14-5e30-b33f-945347f089c9",
+     "name": "Eddie Brown",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "astronsystems.com",
+        "document": "https://astronsystems.com/team.jsp",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "79c417bd-4fb7-5461-b194-0086f2365f43"
+     }
+    }
+   ],
+   "IS_CEO_OF": [
+    {
+     "id": "6f5cfb32-ca14-5e30-b33f-945347f089c9",
+     "name": "Eddie Brown",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "astronsystems.com",
+        "document": "https://astronsystems.com/team.jsp",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "db92b867-5e28-5813-8d2c-5674d70124f0"
+     }
+    }
+   ],
+   "IS_CTO_OF": [
+    {
+     "id": "444805a6-945f-5ec1-9593-94e7e0d2a27b",
+     "name": "Rafal Piotr Sokolowski",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "astronsystems.com",
+        "document": "https://astronsystems.com/team.jsp",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "21aea29d-d306-534b-95fe-3fdc508ab9d8"
+     }
+    }
+   ],
+   "IS_BOARD_MEMBER_OF": [
+    {
+     "id": "384321d1-78c8-5693-a645-2d3528e5ab17",
+     "name": "Lewis Scott Mcdonald",
+     "entity_type": "Person",
+     "properties": {
+      "valid_until": "2021-05-30",
+      "sources": [
+       {
+        "name": "find-and-update.company-information.service.gov.uk",
+        "document": "https://find-and-update.company-information.service.gov.uk/company/13346875/officers",
+        "date": "2021-06-16",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "eea2409e-6a11-5c90-aa0f-1b7e02b29319",
+      "valid_since": "2021-04-20"
+     }
+    },
+    {
+     "id": "3c48156c-74b6-5fd3-af28-20a0f147c438",
+     "name": "Benjamin Lenoir",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "find-and-update.company-information.service.gov.uk",
+        "document": "https://find-and-update.company-information.service.gov.uk/company/13346875/officers",
+        "date": "2023-04-12",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "b02df5e4-c583-532a-8eac-069fb40ee670",
+      "valid_since": "2023-02-28"
+     }
+    },
+    {
+     "id": "444805a6-945f-5ec1-9593-94e7e0d2a27b",
+     "name": "Rafal Piotr Sokolowski",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "find-and-update.company-information.service.gov.uk",
+        "document": "https://find-and-update.company-information.service.gov.uk/company/13346875/officers",
+        "date": "2021-04-20",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "ae61dc77-5ad6-5501-b9c8-fd713650c814",
+      "valid_since": "2021-04-20"
+     }
+    },
+    {
+     "id": "54bd878b-8a37-5b26-b93c-7de5e1bb1e25",
+     "name": "Kieran Jones-Tett",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "find-and-update.company-information.service.gov.uk",
+        "document": "https://find-and-update.company-information.service.gov.uk/company/13346875/officers",
+        "date": "2021-04-20",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "2e2f9aa5-4e8b-5b49-9952-aa0fb6f026f9",
+      "valid_since": "2021-04-20"
+     }
+    },
+    {
+     "id": "6f5cfb32-ca14-5e30-b33f-945347f089c9",
+     "name": "Eddie Brown",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "find-and-update.company-information.service.gov.uk",
+        "document": "https://find-and-update.company-information.service.gov.uk/company/13346875/officers",
+        "date": "2021-04-20",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "7f84bbaf-b2dc-53a5-8670-43f106a94435",
+      "valid_since": "2021-04-20"
+     }
+    },
+    {
+     "id": "9aaca91e-ece7-590e-8bdd-7e5fa0ec4ec5",
+     "name": "Álvaro Fieira Wachtendorff",
+     "entity_type": "Person",
+     "properties": {
+      "valid_until": "2022-07-20",
+      "sources": [
+       {
+        "name": "find-and-update.company-information.service.gov.uk",
+        "document": "https://find-and-update.company-information.service.gov.uk/company/13346875/officers",
+        "date": "2022-08-03",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "f0dcd413-b522-5bf1-8e67-fa3f0c1c22c7",
+      "valid_since": "2021-04-20"
+     }
+    },
+    {
+     "id": "eaba8324-7837-5c3f-8ec2-4a9c8a4212a5",
+     "name": "Filippos Vasileios Geragidis",
+     "entity_type": "Person",
+     "properties": {
+      "valid_until": "2021-12-29",
+      "sources": [
+       {
+        "name": "find-and-update.company-information.service.gov.uk",
+        "document": "https://find-and-update.company-information.service.gov.uk/company/13346875/officers",
+        "date": "2022-01-11",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "c4e833c0-5b02-5b98-829b-ba1a4c8ab1be",
+      "valid_since": "2021-04-20"
+     }
+    }
+   ],
+   "WORKS_AT": [
+    {
+     "id": "3c48156c-74b6-5fd3-af28-20a0f147c438",
+     "name": "Benjamin Lenoir",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Advisor",
+      "sources": [
+       {
+        "name": "astronsystems.com",
+        "document": "https://astronsystems.com/team.jsp",
+        "date": "2026-11-10",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "e3a94933-75a7-54f7-bbaa-59613e2e8ea6"
+     }
+    },
+    {
+     "id": "71946b90-41a7-5f62-86c5-9e8a664efd48",
+     "name": "Greg Autry",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Advisor",
+      "sources": [
+       {
+        "name": "astronsystems.com",
+        "document": "https://astronsystems.com/team.jsp",
+        "date": "2026-11-10",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "c1b2a431-afa5-5bdc-bb93-13836da7665c"
+     }
+    },
+    {
+     "id": "87cdf489-f21e-5af6-931e-3a9aa452505d",
+     "name": "Gregory Krauland",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Advisor",
+      "sources": [
+       {
+        "name": "astronsystems.com",
+        "document": "https://astronsystems.com/team.jsp",
+        "date": "2026-11-10",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "71302b18-bd33-5b44-9a4e-5363a847b946"
+     }
+    },
+    {
+     "id": "d20d0ba0-6ca9-5ed3-80e4-95564b490ee6",
+     "name": "Gautier Brunet",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Advisor",
+      "sources": [
+       {
+        "name": "astronsystems.com",
+        "document": "https://astronsystems.com/team.jsp",
+        "date": "2026-11-10",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "1d7a93e7-7d4a-5705-a2df-fd36955888f7"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

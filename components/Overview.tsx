@@ -121,7 +121,8 @@ export default function Overview({ coverage: c, setOps: s }: { coverage: Coverag
               {s.traps.mergedDuplicates.length > 0 && (
                 <span className="muted"> (e.g. {s.traps.mergedDuplicates.slice(0, 3).map((m) => m.name).join(", ")})</span>
               )}
-              . {s.traps.sameNameKeptApart} same-name records of the same type are kept apart: they may be different
+              , because one investor lists both. {s.traps.pairsLeftApart} more same-name pairs have nothing to back the
+              match and stay apart, as do {s.traps.sameNameKeptApart} same-name records of the same type: they may be different
               companies.
             </li>
             <li>
@@ -132,10 +133,12 @@ export default function Overview({ coverage: c, setOps: s }: { coverage: Coverag
                   (e.g. {s.traps.bothWaysExamples[0].from} “invested in” {s.traps.bothWaysExamples[0].to})
                 </span>
               )}
-              . The direction pointing at the bigger investor is not used for paths.
+              . The direction pointing at the evident investor is not used for paths
+              {s.traps.bothWaysUnclear > 0 ? `; for ${s.traps.bothWaysUnclear} of these links it is not evident which side invested, and neither direction is used` : ""}
+              .
             </li>
             <li>
-              <b>{s.traps.inferredRoundLabels.length}</b> loaded round{s.traps.inferredRoundLabels.length === 1 ? "" : "s"} whose
+              <b>{s.traps.inferredRoundLabels}</b> loaded round{s.traps.inferredRoundLabels === 1 ? "" : "s"} whose
               label Cala inferred rather than read. They are tagged “label inferred” and the intro draft does not name them.
             </li>
             <li>

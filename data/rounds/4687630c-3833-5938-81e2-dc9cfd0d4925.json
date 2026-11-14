@@ -1,0 +1,299 @@
+{
+ "id": "4687630c-3833-5938-81e2-dc9cfd0d4925",
+ "name": "Pre-Seed",
+ "entity_type": "FundingRound",
+ "description": null,
+ "properties": {
+  "name": {
+   "value": "Pre-Seed",
+   "sources": [
+    {
+     "name": "defguard.net",
+     "document": "https://defguard.net/blog",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "round_label": {
+   "value": "PRE_SEED",
+   "sources": [
+    {
+     "name": "defguard.net",
+     "document": "https://defguard.net/blog",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "instrument": {
+   "value": "EQUITY",
+   "sources": [
+    {
+     "name": "defguard.net",
+     "document": "https://defguard.net/blog",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "transaction_value": {
+   "value": 1200000.0,
+   "sources": [
+    {
+     "name": "defguard.net",
+     "document": "https://defguard.net/blog",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "transaction_value_units": {
+   "value": "EUR",
+   "sources": [
+    {
+     "name": "defguard.net",
+     "document": "https://defguard.net/blog",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "announcement_date": {
+   "value": "2025-01-01",
+   "sources": [
+    {
+     "name": "defguard.net",
+     "document": "https://defguard.net/blog",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "annotations": {
+   "value": [
+    "As stated in the source.",
+    "round_label_stated:Pre-Seed"
+   ],
+   "sources": []
+  }
+ },
+ "relationships": {
+  "outgoing": {},
+  "incoming": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "01fb935e-7993-48e1-9e55-137b3668c01a",
+     "name": "defguard",
+     "entity_type": "Company",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "defguard.net",
+        "document": "https://defguard.net/blog",
+        "date": "2026-11-04",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "8658d6d8-483f-5f71-9cbb-1087cf22d176"
+     }
+    },
+    {
+     "id": "22b307b0-f3ae-4650-a9f4-f2d851703a09",
+     "name": "ISEC HOLDING LTD",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "defguard.net",
+        "document": "https://defguard.net/blog/defguard-pre-seed",
+        "date": "2025-05-21",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "polandinsight.com",
+        "document": "https://polandinsight.com/hard2beat-vc-invests-pln-3-million-in-defguard-a-polish-open-source-cybersecurity-platform-92369/",
+        "date": "2025-05-21",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "5db4769b-3ba5-52fd-beb0-0a7388007cae"
+     }
+    },
+    {
+     "id": "2dc285ce-dbf0-4308-b385-f0594bf4de8c",
+     "name": "Hard2beat",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "defguard.net",
+        "document": "https://defguard.net/blog",
+        "date": "2026-11-04",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "a1a486f6-ca47-56bd-926a-5202591aaefb"
+     }
+    },
+    {
+     "id": "2eb8f9b9-3417-5e19-a931-57fcf2031d2f",
+     "name": "Łukasz Jesis",
+     "entity_type": "Person",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "defguard.net",
+        "document": "https://defguard.net/blog/defguard-pre-seed",
+        "date": "2025-05-21",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "polandinsight.com",
+        "document": "https://polandinsight.com/hard2beat-vc-invests-pln-3-million-in-defguard-a-polish-open-source-cybersecurity-platform-92369/",
+        "date": "2025-05-21",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "4c01e198-c366-58f6-a24f-90c1a2bd3e0d"
+     }
+    },
+    {
+     "id": "73c52d2d-fff4-46b6-a351-7030a48dea3b",
+     "name": "S20",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "defguard.net",
+        "document": "https://defguard.net/blog/defguard-pre-seed",
+        "date": "2025-05-21",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "polandinsight.com",
+        "document": "https://polandinsight.com/hard2beat-vc-invests-pln-3-million-in-defguard-a-polish-open-source-cybersecurity-platform-92369/",
+        "date": "2025-05-21",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "886a1582-fe7f-5ce8-a41d-0ff4eb999300"
+     }
+    },
+    {
+     "id": "aa809839-4f61-512e-b22e-4b3e7678df07",
+     "name": "including renowned industry leaders",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "defguard.net",
+        "document": "https://defguard.net/blog",
+        "date": "2026-11-04",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "edd1ca40-3749-5218-bc52-0ec4992bd389"
+     }
+    },
+    {
+     "id": "b1cb8cb7-0590-59b0-84b9-7c7c88170402",
+     "name": "Maurycy Prodeus",
+     "entity_type": "Person",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "defguard.net",
+        "document": "https://defguard.net/blog/defguard-pre-seed",
+        "date": "2025-05-21",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "polandinsight.com",
+        "document": "https://polandinsight.com/hard2beat-vc-invests-pln-3-million-in-defguard-a-polish-open-source-cybersecurity-platform-92369/",
+        "date": "2025-05-21",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "aa737328-b6d3-52a3-ab0a-1f2f341a5e31"
+     }
+    },
+    {
+     "id": "fb331401-75ba-5f30-a6ba-81c07e1015f0",
+     "name": "Janusz Niewiadomski",
+     "entity_type": "Person",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "defguard.net",
+        "document": "https://defguard.net/blog/defguard-pre-seed",
+        "date": "2025-05-21",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "polandinsight.com",
+        "document": "https://polandinsight.com/hard2beat-vc-invests-pln-3-million-in-defguard-a-polish-open-source-cybersecurity-platform-92369/",
+        "date": "2025-05-21",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "002bfdd3-ff6a-5f5b-bd65-689676ab30ed"
+     }
+    },
+    {
+     "id": "fd267b4d-6e9e-4d19-8c31-e6c2e3243efc",
+     "name": "SMOK Ventures",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "defguard.net",
+        "document": "https://defguard.net/blog/defguard-pre-seed",
+        "date": "2025-05-21",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "polandinsight.com",
+        "document": "https://polandinsight.com/hard2beat-vc-invests-pln-3-million-in-defguard-a-polish-open-source-cybersecurity-platform-92369/",
+        "date": "2025-05-21",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "16338128-81cb-5ffb-89aa-d0b149a43930"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

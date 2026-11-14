@@ -1,0 +1,595 @@
+{
+ "id": "e9e610ab-2672-55d7-a910-7c02440ec520",
+ "name": "MultivisionDx",
+ "entity_type": "Company",
+ "description": "MultivisionDx turns high-plex spatial biology into diagnostic tests any pathology lab can run, and provides the end-to-end platform that does it: from biomarker discovery to standard IHC.",
+ "properties": {
+  "name": {
+   "value": "MultivisionDx",
+   "sources": [
+    {
+     "name": "multivision.ai",
+     "document": "https://multivision.ai/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/105468632",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "MultivisionDx Oy",
+   "sources": [
+    {
+     "name": "multivision.ai",
+     "document": "https://multivision.ai/",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "avoindata.prh.fi",
+     "document": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies?name=MultivisionDx",
+     "date": "2026-11-07",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "aliases": {
+   "value": [
+    "MultivisionDx Ltd",
+    "Multivision Diagnostics"
+   ],
+   "sources": []
+  },
+  "website": {
+   "value": "multivision.ai",
+   "sources": [
+    {
+     "name": "multivision.ai",
+     "document": "https://multivision.ai/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "dns.google",
+     "document": "https://dns.google/query?name=multivision.ai&type=A",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "multivision.ai",
+     "document": "https://multivision.ai/news/michael_wittinger_ceo",
+     "date": "2025-11-14",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "MultivisionDx turns high-plex spatial biology into diagnostic tests any pathology lab can run, and provides the end-to-end platform that does it: from biomarker discovery to standard IHC.",
+   "sources": [
+    {
+     "name": "multivision.ai",
+     "document": "https://multivision.ai/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2025-04-09",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/105468632",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    },
+    {
+     "name": "avoindata.prh.fi",
+     "document": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies?name=MultivisionDx",
+     "date": "2026-11-07",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "Haartmaninkatu 4, 00290 Helsinki, Finland",
+   "sources": [
+    {
+     "name": "avoindata.prh.fi",
+     "document": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies?name=MultivisionDx",
+     "date": "2026-11-07",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "multivision.ai",
+     "document": "https://multivision.ai/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "avoindata.prh.fi",
+     "document": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies?name=MultivisionDx",
+     "date": "2026-11-07",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "total_funding": {
+   "value": 1000000.0,
+   "sources": [
+    {
+     "name": "techfundingnews.com",
+     "document": "https://techfundingnews.com/multivisiondx-raises-1m-pre-seed-ai-cancer-diagnostics/",
+     "date": "2025-12-02",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "multivision.ai",
+     "document": "https://multivision.ai/news/multivisiondx_preseed_round",
+     "date": "2025-12-03",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "total_funding_units": {
+   "value": "EUR",
+   "sources": [
+    {
+     "name": "techfundingnews.com",
+     "document": "https://techfundingnews.com/multivisiondx-raises-1m-pre-seed-ai-cancer-diagnostics/",
+     "date": "2025-12-02",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "multivision.ai",
+     "document": "https://multivision.ai/news/multivisiondx_preseed_round",
+     "date": "2025-12-03",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "total_funding_excluding_debt": {
+   "value": 1000000.0,
+   "sources": [
+    {
+     "name": "techfundingnews.com",
+     "document": "https://techfundingnews.com/multivisiondx-raises-1m-pre-seed-ai-cancer-diagnostics/",
+     "date": "2025-12-02",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "multivision.ai",
+     "document": "https://multivision.ai/news/multivisiondx_preseed_round",
+     "date": "2025-12-03",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "funding_stage": {
+   "value": "PRE_SEED",
+   "sources": [
+    {
+     "name": "techfundingnews.com",
+     "document": "https://techfundingnews.com/multivisiondx-raises-1m-pre-seed-ai-cancer-diagnostics/",
+     "date": "2025-12-02",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "multivision.ai",
+     "document": "https://multivision.ai/news/multivisiondx_preseed_round",
+     "date": "2025-12-03",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "3760d88c-a743-55db-a26b-55080192e0c9",
+     "name": "Pre-Seed",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "techfundingnews.com",
+        "document": "https://techfundingnews.com/multivisiondx-raises-1m-pre-seed-ai-cancer-diagnostics/",
+        "date": "2025-12-02",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "multivision.ai",
+        "document": "https://multivision.ai/news/multivisiondx_preseed_round",
+        "date": "2025-12-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "7bbda4fc-df9b-58c5-8c43-5ae9410c7df2"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "ca96685e-761d-51b3-a34f-303cfdc78c53"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "ef520286-feae-4797-9346-55601c7c0e19",
+     "name": "PHARMACEUTICALS",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/105468632",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "91526b5e-3d14-5500-9e74-1a031e0ecba4",
+      "original_label": "medtechPharma"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "INVESTED_IN": [
+    {
+     "id": "6a72a8be-6a7c-4e61-a7fc-93a6d61df81f",
+     "name": "Helsinki University Funds",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "multivision.ai",
+        "document": "https://multivision.ai/news/multivisiondx_preseed_round",
+        "date": "2025-12-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "techfundingnews.com",
+        "document": "https://techfundingnews.com/multivisiondx-raises-1m-pre-seed-ai-cancer-diagnostics/",
+        "date": "2025-12-02",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "f8eb3bac-c967-4c40-9c20-1107041701de"
+     }
+    },
+    {
+     "id": "99cd4bad-d675-4012-89d4-1454cde1f0da",
+     "name": "Kaikarhenni Oy",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "multivision.ai",
+        "document": "https://multivision.ai/news/multivisiondx_preseed_round",
+        "date": "2025-12-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "techfundingnews.com",
+        "document": "https://techfundingnews.com/multivisiondx-raises-1m-pre-seed-ai-cancer-diagnostics/",
+        "date": "2025-12-02",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "23d10772-a330-485a-b1ae-1191c690a738"
+     }
+    },
+    {
+     "id": "d3b95646-ae3b-40fc-af1c-b05c6516d131",
+     "name": "Antler",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "techfundingnews.com",
+        "document": "https://techfundingnews.com/multivisiondx-raises-1m-pre-seed-ai-cancer-diagnostics/",
+        "date": "2025-12-02",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "multivision.ai",
+        "document": "https://multivision.ai/news/multivisiondx_preseed_round",
+        "date": "2025-12-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "2f4fc3ff-b3ee-4cac-b539-2d77537938ae"
+     }
+    }
+   ],
+   "FOUNDED": [
+    {
+     "id": "1be883eb-0356-5313-bc9e-13d5286b31b4",
+     "name": "Sara Wickström",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "multivision.ai",
+        "document": "https://multivision.ai/news/korber_prize",
+        "date": "2026-06-23",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "techfundingnews.com",
+        "document": "https://techfundingnews.com/multivisiondx-raises-1m-pre-seed-ai-cancer-diagnostics/",
+        "date": "2025-12-02",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "b3306a05-e628-519e-afe1-d11a0c98e215",
+      "valid_since": "2025-04-09"
+     }
+    },
+    {
+     "id": "3eaa9432-7798-5980-a78a-04df978d861e",
+     "name": "Fabien Bertillot",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "multivision.ai",
+        "document": "https://multivision.ai/team",
+        "date": "2026-11-07",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "techfundingnews.com",
+        "document": "https://techfundingnews.com/multivisiondx-raises-1m-pre-seed-ai-cancer-diagnostics/",
+        "date": "2025-12-02",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "de5aa7df-b85c-5897-b995-17f25ae96d07",
+      "valid_since": "2025-04-09"
+     }
+    },
+    {
+     "id": "413053ac-883f-50ef-a8b7-326ab049b600",
+     "name": "János Lengyel",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "multivision.ai",
+        "document": "https://multivision.ai/team",
+        "date": "2026-11-07",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "techfundingnews.com",
+        "document": "https://techfundingnews.com/multivisiondx-raises-1m-pre-seed-ai-cancer-diagnostics/",
+        "date": "2025-12-02",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "b900e103-2d7e-57d0-8d20-c7f2297ff0e2",
+      "valid_since": "2025-04-09"
+     }
+    },
+    {
+     "id": "d6334d60-7826-5caf-afb9-083e27103523",
+     "name": "Karolina Punovuori",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "multivision.ai",
+        "document": "https://multivision.ai/news/michael_wittinger_ceo",
+        "date": "2025-11-14",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "multivision.ai",
+        "document": "https://multivision.ai/team",
+        "date": "2026-11-07",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "f45230f2-865e-53f9-bd43-10cc9cceaf1f",
+      "valid_since": "2025-04-09"
+     }
+    }
+   ],
+   "IS_CEO_OF": [
+    {
+     "id": "80d4a23e-5148-5d35-880d-bfbe7d4e4f4f",
+     "name": "Michael Wittinger",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "multivision.ai",
+        "document": "https://multivision.ai/news/michael_wittinger_ceo",
+        "date": "2025-11-14",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "multivision.ai",
+        "document": "https://multivision.ai/team",
+        "date": "2026-11-07",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "multivision.ai",
+        "document": "https://multivision.ai/news/multivisiondx_preseed_round",
+        "date": "2025-12-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "0cdc29f3-a095-59dc-8aab-322b29ce3d4e",
+      "valid_since": "2025-11-14"
+     }
+    },
+    {
+     "id": "d6334d60-7826-5caf-afb9-083e27103523",
+     "name": "Karolina Punovuori",
+     "entity_type": "Person",
+     "properties": {
+      "valid_until": "2025-11-14",
+      "sources": [
+       {
+        "name": "multivision.ai",
+        "document": "https://multivision.ai/news/michael_wittinger_ceo",
+        "date": "2025-11-14",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "23143371-ddf8-5b3a-95a7-9bb2b9555d16",
+      "valid_since": "2025-04-09"
+     }
+    }
+   ],
+   "WORKS_AT": [
+    {
+     "id": "1be883eb-0356-5313-bc9e-13d5286b31b4",
+     "name": "Sara Wickström",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Science Advisor",
+      "sources": [
+       {
+        "name": "multivision.ai",
+        "document": "https://multivision.ai/team",
+        "date": "2026-11-07",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "multivision.ai",
+        "document": "https://multivision.ai/news/multivisiondx_preseed_round",
+        "date": "2025-12-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "2a81d77b-e372-5e28-8829-0a017d469647"
+     }
+    },
+    {
+     "id": "3eaa9432-7798-5980-a78a-04df978d861e",
+     "name": "Fabien Bertillot",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Head of Computational Biology",
+      "sources": [
+       {
+        "name": "multivision.ai",
+        "document": "https://multivision.ai/team",
+        "date": "2026-11-07",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "multivision.ai",
+        "document": "https://multivision.ai/news/multivisiondx_preseed_round",
+        "date": "2025-12-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "c09a46ce-f8fd-5cfa-bb1a-8663e0237cb1"
+     }
+    },
+    {
+     "id": "413053ac-883f-50ef-a8b7-326ab049b600",
+     "name": "János Lengyel",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Head of Engineering",
+      "sources": [
+       {
+        "name": "multivision.ai",
+        "document": "https://multivision.ai/team",
+        "date": "2026-11-07",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "multivision.ai",
+        "document": "https://multivision.ai/news/multivisiondx_preseed_round",
+        "date": "2025-12-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "23afb3d6-32aa-5be8-9b68-9f48b6597cf5"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

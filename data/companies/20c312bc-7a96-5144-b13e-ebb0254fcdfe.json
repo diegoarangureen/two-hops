@@ -1,0 +1,366 @@
+{
+ "id": "20c312bc-7a96-5144-b13e-ebb0254fcdfe",
+ "name": "Meridyan",
+ "entity_type": "Company",
+ "description": "Bank side infrastructure for on chain settlement. Meridyan enables regulated financial institutions to originate, settle and reconcile payments on blockchain networks from within their existing sys...",
+ "properties": {
+  "name": {
+   "value": "Meridyan",
+   "sources": [
+    {
+     "name": "meridyan.xyz",
+     "document": "https://meridyan.xyz/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/meridyan/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    },
+    {
+     "name": "meridyan.org",
+     "document": "https://meridyan.org/",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "techstars.com",
+     "document": "https://www.techstars.com/newsroom/introducing-techstars-fall-2026-accelerator-class",
+     "date": "2026-09-08",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "Meridyan B.V.",
+   "sources": [
+    {
+     "name": "meridyan.org",
+     "document": "https://meridyan.org/",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "meridyan.org",
+     "document": "https://meridyan.org/privacy",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "liza.nl",
+     "document": "https://www.liza.nl/en/42142200",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "aliases": {
+   "value": [
+    "meridyan.xyz"
+   ],
+   "sources": []
+  },
+  "website": {
+   "value": "meridyan.org",
+   "sources": [
+    {
+     "name": "meridyan.org",
+     "document": "https://meridyan.org/",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "meridyan.org",
+     "document": "https://meridyan.org/privacy",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "Bank side infrastructure for on chain settlement. Meridyan enables regulated financial institutions to originate, settle and reconcile payments on blockchain networks from within their existing sys...",
+   "sources": [
+    {
+     "name": "meridyan.xyz",
+     "document": "https://meridyan.xyz/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "meridyan.org",
+     "document": "https://meridyan.org/",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2026-08-18",
+   "sources": [
+    {
+     "name": "liza.nl",
+     "document": "https://www.liza.nl/en/42142200",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "Amsterdam, Netherlands",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/meridyan/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    },
+    {
+     "name": "meridyan.org",
+     "document": "https://meridyan.org/",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "meridyan.xyz",
+     "document": "https://meridyan.xyz/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "meridyan.org",
+     "document": "https://meridyan.org/",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "liza.nl",
+     "document": "https://www.liza.nl/en/42142200",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "funding_stage": {
+   "value": "PRE_SEED",
+   "sources": [
+    {
+     "name": "techstars.com",
+     "document": "https://www.techstars.com/newsroom/introducing-techstars-fall-2026-accelerator-class",
+     "date": "2026-09-08",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "meridyan.org",
+     "document": "https://meridyan.org/",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "2be40410-a57a-527f-ae20-e13acf667148",
+     "name": "Pre-Seed",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "techstars.com",
+        "document": "https://www.techstars.com/newsroom/introducing-techstars-fall-2026-accelerator-class",
+        "date": "2026-09-08",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "meridyan.org",
+        "document": "https://meridyan.org/",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "ebfebef1-d015-5ead-a0e1-ebe4297be319"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "6d5796bc-e1d2-5c36-953e-52371fc1820f"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "8190c30d-2703-40ab-94d0-6c193cb53908",
+     "name": "FINTECH",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/meridyan/",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "9fd4afd2-277e-52f8-b37c-ffc6f48f0455",
+      "original_label": "fintech"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "INVESTED_IN": [
+    {
+     "id": "ae7530e4-556e-4547-ba15-88a12fbcdcb1",
+     "name": "Techstars",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "techstars.com",
+        "document": "https://www.techstars.com/newsroom/introducing-techstars-fall-2026-accelerator-class",
+        "date": "2026-09-08",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "meridyan.org",
+        "document": "https://meridyan.org/",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "cbinsights.com",
+        "document": "https://www.cbinsights.com/company/meridyan/financials",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "0be6b649-23b7-4972-9569-71dc37d0c5e8"
+     }
+    }
+   ],
+   "FOUNDED": [
+    {
+     "id": "275a4c3a-5a18-53c5-ab96-a8eb86ad8a3c",
+     "name": "Elie Naba",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "meridyan.org",
+        "document": "https://meridyan.org/",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "df8f8026-8545-55cf-871d-731388c9ae46"
+     }
+    },
+    {
+     "id": "4e78062b-1005-51aa-a3a0-5972ff87521c",
+     "name": "Ivan Ermolaev",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "meridyan.org",
+        "document": "https://meridyan.org/",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "1e4e30d0-3c6a-5115-bce1-1bef96484928"
+     }
+    }
+   ],
+   "IS_CEO_OF": [
+    {
+     "id": "275a4c3a-5a18-53c5-ab96-a8eb86ad8a3c",
+     "name": "Elie Naba",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "meridyan.org",
+        "document": "https://meridyan.org/",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "21bea7d1-22be-5213-a42a-1d1322f8ad25"
+     }
+    }
+   ],
+   "IS_CTO_OF": [
+    {
+     "id": "4e78062b-1005-51aa-a3a0-5972ff87521c",
+     "name": "Ivan Ermolaev",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "meridyan.org",
+        "document": "https://meridyan.org/",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "4f59ee8b-30df-50eb-8801-11828ff83373"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

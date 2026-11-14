@@ -1,0 +1,1308 @@
+{
+ "id": "36fb528c-7795-4825-a9a4-a66ba327461b",
+ "name": "Cariqa",
+ "entity_type": "Company",
+ "description": "Payments, pricing and billing platform for electric-vehicle charging.",
+ "properties": {
+  "name": {
+   "value": "Cariqa",
+   "sources": [
+    {
+     "name": "tracxn.com",
+     "document": "https://tracxn.com/d/venture-capital/vento/__nhQ2mU28euMW1K5GTumEfPLeQmhnHAn_vB2rLD5xB2w",
+     "date": "2026-06-09"
+    },
+    {
+     "name": "Berlin-based EV charging marketplace Cariqa closes €1M pre-seed round",
+     "document": "https://vestbee.com/insights/articles/cariqa-closes-1-m-round",
+     "date": "2024-09-23"
+    },
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2024/09/berlin-based-cariqa-gets-e1-million-to-launch-consumer-facing-ev-charging-marketplace/",
+     "date": "2024-09-01",
+     "date_precision": "month",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "KZY Marketplace Solutions GmbH",
+   "sources": [
+    {
+     "name": "cariqa.com",
+     "document": "https://cariqa.com/en/imprint",
+     "date": "2026-11-09",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "cariqa.com",
+     "document": "https://cariqa.com/en/terms-conditions",
+     "date": "2026-11-09",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "northdata.de",
+     "document": "https://www.northdata.de/KZY+Marketplace+Solutions+GmbH,+Berlin/Amtsgericht+Charlottenburg+(Berlin)+HRB+229537+B",
+     "date": "2021-05-18",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "aliases": {
+   "value": [],
+   "sources": []
+  },
+  "website": {
+   "value": "cariqa.com",
+   "sources": [
+    {
+     "name": "tracxn.com",
+     "document": "https://tracxn.com/d/venture-capital/vento/__nhQ2mU28euMW1K5GTumEfPLeQmhnHAn_vB2rLD5xB2w",
+     "date": "2026-06-09"
+    },
+    {
+     "name": "Berlin-based EV charging marketplace Cariqa closes €1M pre-seed round",
+     "document": "https://vestbee.com/insights/articles/cariqa-closes-1-m-round",
+     "date": "2024-09-23"
+    },
+    {
+     "name": "cariqa.com",
+     "document": "https://cariqa.com/",
+     "date": "2026-10-29",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "dns.google",
+     "document": "https://dns.google/query?name=cariqa.com&type=A",
+     "date": "2026-10-29",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "cariqa.com",
+     "document": "https://cariqa.com/en/blog/cariqa-secures-eu1m-in-pre-seed-funding-to-release-the-worlds-first-consumer-facing-ev-charging-marketplace",
+     "date": "2026-11-09",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "Payments, pricing and billing platform for electric-vehicle charging.",
+   "sources": [
+    {
+     "name": "retailtechinnovationhub.com",
+     "document": "https://retailtechinnovationhub.com/home/2025/11/12/evs-firm-cariqa-founded-by-ex-gocardless-and-virtuo-employees-launches-retail-platform",
+     "date": "2025-11-13",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2021-01-01",
+   "sources": [
+    {
+     "name": "northdata.de",
+     "document": "https://www.northdata.de/KZY+Marketplace+Solutions+GmbH,+Berlin/Amtsgericht+Charlottenburg+(Berlin)+HRB+229537+B",
+     "date": "2021-05-18",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    },
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/cariqa/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "Chausseestr. 41B, 10115 Berlin, Germany",
+   "sources": [
+    {
+     "name": "cariqa.com",
+     "document": "https://cariqa.com/en/imprint",
+     "date": "2026-11-09",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "cariqa.com",
+     "document": "https://cariqa.com/en/terms-conditions",
+     "date": "2026-11-09",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "cariqa.com",
+     "document": "https://www.cariqa.com/en",
+     "date": "2026-11-06",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "employee_count_range": {
+   "value": [
+    11,
+    50
+   ],
+   "sources": [
+    {
+     "name": "seedtable.com",
+     "document": "https://seedtable.com/companies/cariqa",
+     "date": "2026-11-09",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "total_funding": {
+   "value": 5000000.0,
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2024/09/berlin-based-cariqa-gets-e1-million-to-launch-consumer-facing-ev-charging-marketplace/",
+     "date": "2024-09-23",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "cariqa.com",
+     "document": "https://cariqa.com/en/blog/cariqa-secures-eu1m-in-pre-seed-funding-to-release-the-worlds-first-consumer-facing-ev-charging-marketplace",
+     "date": "2024-09-23",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "vestbee.com",
+     "document": "https://www.vestbee.com/insights/articles/cariqa-closes-1-m-round",
+     "date": "2024-09-23",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "why.berlin",
+     "document": "https://why.berlin/n/cariqa-raises-eur1-million-in-pre-seed-funding-to-launch-ev-charging-marketplace",
+     "date": "2024-09-30",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "tech.eu",
+     "document": "https://tech.eu/2025/07/08/cariqa-raises-eur4m-to-simplify-ev-charging-payments-and-pricing/",
+     "date": "2025-07-08",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "siliconcanals.com",
+     "document": "https://siliconcanals.com/cariqa-lands-e4m/",
+     "date": "2025-07-08",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "electrive.net",
+     "document": "https://www.electrive.net/2025/07/12/cariqa-schliesst-seed-finanzierung-erfolgreich-ab/",
+     "date": "2025-07-12",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "total_funding_units": {
+   "value": "EUR",
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2024/09/berlin-based-cariqa-gets-e1-million-to-launch-consumer-facing-ev-charging-marketplace/",
+     "date": "2024-09-23",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "cariqa.com",
+     "document": "https://cariqa.com/en/blog/cariqa-secures-eu1m-in-pre-seed-funding-to-release-the-worlds-first-consumer-facing-ev-charging-marketplace",
+     "date": "2024-09-23",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "vestbee.com",
+     "document": "https://www.vestbee.com/insights/articles/cariqa-closes-1-m-round",
+     "date": "2024-09-23",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "why.berlin",
+     "document": "https://why.berlin/n/cariqa-raises-eur1-million-in-pre-seed-funding-to-launch-ev-charging-marketplace",
+     "date": "2024-09-30",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "tech.eu",
+     "document": "https://tech.eu/2025/07/08/cariqa-raises-eur4m-to-simplify-ev-charging-payments-and-pricing/",
+     "date": "2025-07-08",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "siliconcanals.com",
+     "document": "https://siliconcanals.com/cariqa-lands-e4m/",
+     "date": "2025-07-08",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "electrive.net",
+     "document": "https://www.electrive.net/2025/07/12/cariqa-schliesst-seed-finanzierung-erfolgreich-ab/",
+     "date": "2025-07-12",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "total_funding_excluding_debt": {
+   "value": 5000000.0,
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2024/09/berlin-based-cariqa-gets-e1-million-to-launch-consumer-facing-ev-charging-marketplace/",
+     "date": "2024-09-23",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "cariqa.com",
+     "document": "https://cariqa.com/en/blog/cariqa-secures-eu1m-in-pre-seed-funding-to-release-the-worlds-first-consumer-facing-ev-charging-marketplace",
+     "date": "2024-09-23",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "vestbee.com",
+     "document": "https://www.vestbee.com/insights/articles/cariqa-closes-1-m-round",
+     "date": "2024-09-23",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "why.berlin",
+     "document": "https://why.berlin/n/cariqa-raises-eur1-million-in-pre-seed-funding-to-launch-ev-charging-marketplace",
+     "date": "2024-09-30",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "tech.eu",
+     "document": "https://tech.eu/2025/07/08/cariqa-raises-eur4m-to-simplify-ev-charging-payments-and-pricing/",
+     "date": "2025-07-08",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "siliconcanals.com",
+     "document": "https://siliconcanals.com/cariqa-lands-e4m/",
+     "date": "2025-07-08",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "electrive.net",
+     "document": "https://www.electrive.net/2025/07/12/cariqa-schliesst-seed-finanzierung-erfolgreich-ab/",
+     "date": "2025-07-12",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "funding_stage": {
+   "value": "SEED",
+   "sources": [
+    {
+     "name": "electrive.net",
+     "document": "https://www.electrive.net/2025/07/12/cariqa-schliesst-seed-finanzierung-erfolgreich-ab/",
+     "date": "2025-07-12",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "tech.eu",
+     "document": "https://tech.eu/2025/07/08/cariqa-raises-eur4m-to-simplify-ev-charging-payments-and-pricing/",
+     "date": "2025-07-08",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "siliconcanals.com",
+     "document": "https://siliconcanals.com/cariqa-lands-e4m/",
+     "date": "2025-07-08",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "0e3f36da-8273-5f91-9868-66e03fc2f61d",
+     "name": "Seed",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "electrive.net",
+        "document": "https://www.electrive.net/2025/07/12/cariqa-schliesst-seed-finanzierung-erfolgreich-ab/",
+        "date": "2025-07-12",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "cd363de4-986c-5104-b4f2-4818039b6cf9"
+     }
+    },
+    {
+     "id": "391d82ab-c8b8-5bf6-b685-ee35e2938818",
+     "name": "Pre-Seed",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "eu-startups.com",
+        "document": "https://www.eu-startups.com/2024/09/berlin-based-cariqa-gets-e1-million-to-launch-consumer-facing-ev-charging-marketplace/",
+        "date": "2024-09-23",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "cariqa.com",
+        "document": "https://cariqa.com/en/blog/cariqa-secures-eu1m-in-pre-seed-funding-to-release-the-worlds-first-consumer-facing-ev-charging-marketplace",
+        "date": "2024-09-23",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "e87fd513-6dcd-51b4-a4d2-b51a0af76d36"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_CORPORATE_EVENT": [
+    {
+     "id": "5f311d2c-0738-4c3b-b262-2610d9a02430",
+     "name": "FINANCING_RAISED_OR_FACILITY_ENTERED",
+     "entity_type": "PrivateCompanyFundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "pitchbook.com",
+        "document": "https://pitchbook.com/profiles/company/593476-30",
+        "date": "2026-06-10"
+       },
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/cariqa/__ce_2gZKTHugGovMJRX17SHbpJBTq49yjZvMGwGgjqCg",
+        "date": "2026-06-10"
+       }
+      ],
+      "event_date": "2025-07-03",
+      "id": "d04c0545-9a02-44ed-8ba6-59234b4814a2"
+     }
+    },
+    {
+     "id": "76944632-0ebe-41f7-8146-7c42df68b86a",
+     "name": "FINANCING_RAISED_OR_FACILITY_ENTERED",
+     "entity_type": "PrivateCompanyFundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "Uber snags another robotaxi deal, aviation startups land VC bucks, and where Rivian Foundation money is going | TechCrunch",
+        "document": "https://techcrunch.com/2024/09/26/uber-snags-another-robotaxi-deal-aviation-startups-land-vc-bucks-and-where-rivian-foundation-money-is-going",
+        "date": "2024-09-26"
+       },
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/cariqa/__ce_2gZKTHugGovMJRX17SHbpJBTq49yjZvMGwGgjqCg",
+        "date": "2026-06-10"
+       }
+      ],
+      "event_date": "2024-09-23",
+      "id": "d5a49128-c059-4ab1-8fa2-fe3261f595a7"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "1213d987-7006-5e8b-b708-346442d5bead"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "11ce48e0-a853-4085-8142-f674977b1a3a",
+     "name": "RENEWABLE_ENERGY",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/venture-capital/vento/__nhQ2mU28euMW1K5GTumEfPLeQmhnHAn_vB2rLD5xB2w",
+        "date": "2026-06-09"
+       },
+       {
+        "name": "Berlin-based EV charging marketplace Cariqa closes €1M pre-seed round",
+        "document": "https://vestbee.com/insights/articles/cariqa-closes-1-m-round",
+        "date": "2024-09-23"
+       }
+      ],
+      "id": "c063e823-691b-40aa-8881-39b7e6c822f2"
+     }
+    },
+    {
+     "id": "8190c30d-2703-40ab-94d0-6c193cb53908",
+     "name": "FINTECH",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/venture-capital/vento/__nhQ2mU28euMW1K5GTumEfPLeQmhnHAn_vB2rLD5xB2w",
+        "date": "2026-06-09"
+       },
+       {
+        "name": "Berlin-based EV charging marketplace Cariqa closes €1M pre-seed round",
+        "document": "https://vestbee.com/insights/articles/cariqa-closes-1-m-round",
+        "date": "2024-09-23"
+       }
+      ],
+      "id": "712c241f-8b07-4e97-9857-c5369aa21943"
+     }
+    },
+    {
+     "id": "8190c30d-2703-40ab-94d0-6c193cb53908",
+     "name": "FINTECH",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/cariqa/",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "564301a8-d4cf-55b4-9b62-e24eb1abe440",
+      "original_label": "fintech"
+     }
+    }
+   ],
+   "HAS_HEADQUARTERS_IN": [
+    {
+     "id": "61901653-115d-4cc4-a4e4-04d8c5009f1e",
+     "name": "Germany",
+     "entity_type": "Country",
+     "properties": {
+      "sources": [
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/venture-capital/vento/__nhQ2mU28euMW1K5GTumEfPLeQmhnHAn_vB2rLD5xB2w",
+        "date": "2026-06-09"
+       },
+       {
+        "name": "Berlin-based EV charging marketplace Cariqa closes €1M pre-seed round",
+        "document": "https://vestbee.com/insights/articles/cariqa-closes-1-m-round",
+        "date": "2024-09-23"
+       }
+      ],
+      "id": "320026aa-b458-4182-875b-323218c5d413"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "INVESTED_IN": [
+    {
+     "id": "3baab3ef-2387-5e97-86f5-aeaf2db72eb4",
+     "name": "PLUG",
+     "entity_type": "Company",
+     "properties": {
+      "id": "ab3e4fe4-d080-4734-9279-67eedecefc22"
+     }
+    },
+    {
+     "id": "3c7caf1d-2b92-493f-bed9-7e14f8e4cc78",
+     "name": "UAB Contrarian Ventures",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2025/07/08/cariqa-raises-eur4m-to-simplify-ev-charging-payments-and-pricing/",
+        "date": "2025-07-08",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "siliconcanals.com",
+        "document": "https://siliconcanals.com/cariqa-lands-e4m/",
+        "date": "2025-07-08",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "electrive.net",
+        "document": "https://www.electrive.net/2025/07/12/cariqa-schliesst-seed-finanzierung-erfolgreich-ab/",
+        "date": "2025-07-12",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "3a986020-bfa3-441e-9ff3-ea4b5b3f7323"
+     }
+    },
+    {
+     "id": "4985b453-12d1-4307-aa52-79ee031ba8e4",
+     "name": "Anthemis Group",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "eu-startups.com",
+        "document": "https://www.eu-startups.com/2024/09/berlin-based-cariqa-gets-e1-million-to-launch-consumer-facing-ev-charging-marketplace/",
+        "date": "2024-09-23",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "cariqa.com",
+        "document": "https://cariqa.com/en/blog/cariqa-secures-eu1m-in-pre-seed-funding-to-release-the-worlds-first-consumer-facing-ev-charging-marketplace",
+        "date": "2024-09-23",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "530f81ed-b3e8-48ca-a2c6-a16dd4e3e594"
+     }
+    },
+    {
+     "id": "4fc30d06-4f33-4eb1-bde1-4c633670c9e5",
+     "name": "VENTO",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/venture-capital/vento/__nhQ2mU28euMW1K5GTumEfPLeQmhnHAn_vB2rLD5xB2w",
+        "date": "2026-06-09"
+       },
+       {
+        "name": "Berlin-based EV charging marketplace Cariqa closes €1M pre-seed round",
+        "document": "https://vestbee.com/insights/articles/cariqa-closes-1-m-round",
+        "date": "2024-09-23"
+       }
+      ],
+      "id": "2678a855-c5ba-41a5-9748-a700e73bf5d1"
+     }
+    },
+    {
+     "id": "53f0c100-86d8-5598-8fad-b632076fb1ce",
+     "name": "Play",
+     "entity_type": "Organization",
+     "properties": {
+      "id": "5ed9e345-0add-45e5-8ff5-e21406438a5b"
+     }
+    },
+    {
+     "id": "684da1ca-282f-5288-9b0b-5cd0de1aa323",
+     "name": "Earth",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2025/07/08/cariqa-raises-eur4m-to-simplify-ev-charging-payments-and-pricing/",
+        "date": "2025-07-08",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "siliconcanals.com",
+        "document": "https://siliconcanals.com/cariqa-lands-e4m/",
+        "date": "2025-07-08",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "electrive.net",
+        "document": "https://www.electrive.net/2025/07/12/cariqa-schliesst-seed-finanzierung-erfolgreich-ab/",
+        "date": "2025-07-12",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "e04c675f-2dbc-41a0-8e9c-5069177efa04"
+     }
+    },
+    {
+     "id": "9feb906c-9d6c-4f3b-bac9-5660c69cbaa0",
+     "name": "FEMALE INNOVATORS LAB L.P.",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2025/07/08/cariqa-raises-eur4m-to-simplify-ev-charging-payments-and-pricing/",
+        "date": "2025-07-08",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "siliconcanals.com",
+        "document": "https://siliconcanals.com/cariqa-lands-e4m/",
+        "date": "2025-07-08",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "electrive.net",
+        "document": "https://www.electrive.net/2025/07/12/cariqa-schliesst-seed-finanzierung-erfolgreich-ab/",
+        "date": "2025-07-12",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "d5b9033b-2d6f-4d88-923b-c5ae82e515ea"
+     }
+    },
+    {
+     "id": "a11ffd1c-71ff-46c3-88d0-313f5d4f023d",
+     "name": "Vento",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/venture-capital/vento/__nhQ2mU28euMW1K5GTumEfPLeQmhnHAn_vB2rLD5xB2w",
+        "date": "2026-07-02"
+       }
+      ],
+      "id": "eb32d558-9c6a-5ff4-b8e0-7db29bb65059"
+     }
+    },
+    {
+     "id": "ae7530e4-556e-4547-ba15-88a12fbcdcb1",
+     "name": "Techstars",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "eu-startups.com",
+        "document": "https://www.eu-startups.com/2024/09/berlin-based-cariqa-gets-e1-million-to-launch-consumer-facing-ev-charging-marketplace/",
+        "date": "2024-09-23",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "cariqa.com",
+        "document": "https://cariqa.com/en/blog/cariqa-secures-eu1m-in-pre-seed-funding-to-release-the-worlds-first-consumer-facing-ev-charging-marketplace",
+        "date": "2024-09-23",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2025/07/08/cariqa-raises-eur4m-to-simplify-ev-charging-payments-and-pricing/",
+        "date": "2025-07-08",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "siliconcanals.com",
+        "document": "https://siliconcanals.com/cariqa-lands-e4m/",
+        "date": "2025-07-08",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "electrive.net",
+        "document": "https://www.electrive.net/2025/07/12/cariqa-schliesst-seed-finanzierung-erfolgreich-ab/",
+        "date": "2025-07-12",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "d5cdbfeb-74f2-47ec-ae2b-ab0f19cf7692"
+     }
+    },
+    {
+     "id": "c04545e6-fd20-441a-9feb-5247eb8de975",
+     "name": "Plug and Play Tech Center",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "eu-startups.com",
+        "document": "https://www.eu-startups.com/2024/09/berlin-based-cariqa-gets-e1-million-to-launch-consumer-facing-ev-charging-marketplace/",
+        "date": "2024-09-23",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "cariqa.com",
+        "document": "https://cariqa.com/en/blog/cariqa-secures-eu1m-in-pre-seed-funding-to-release-the-worlds-first-consumer-facing-ev-charging-marketplace",
+        "date": "2024-09-23",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "5bf23901-19d2-4edb-af1e-f5e7bf9b3abb"
+     }
+    },
+    {
+     "id": "c97eb974-6dcc-4deb-8015-22028bd21c83",
+     "name": "Vento Ventures",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "eu-startups.com",
+        "document": "https://www.eu-startups.com/2024/09/berlin-based-cariqa-gets-e1-million-to-launch-consumer-facing-ev-charging-marketplace/",
+        "date": "2024-09-23",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "cariqa.com",
+        "document": "https://cariqa.com/en/blog/cariqa-secures-eu1m-in-pre-seed-funding-to-release-the-worlds-first-consumer-facing-ev-charging-marketplace",
+        "date": "2024-09-23",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "02c62872-4bc4-4400-9ac4-a755157fae43"
+     }
+    },
+    {
+     "id": "dad62210-b3b5-4696-ad5e-494862a108b5",
+     "name": "Hatcher+",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "eu-startups.com",
+        "document": "https://www.eu-startups.com/2024/09/berlin-based-cariqa-gets-e1-million-to-launch-consumer-facing-ev-charging-marketplace/",
+        "date": "2024-09-23",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "cariqa.com",
+        "document": "https://cariqa.com/en/blog/cariqa-secures-eu1m-in-pre-seed-funding-to-release-the-worlds-first-consumer-facing-ev-charging-marketplace",
+        "date": "2024-09-23",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "dca590ff-5009-4b0c-9d4f-7342e9e92682"
+     }
+    },
+    {
+     "id": "f64a71c5-bcd7-4822-9580-60a1e3ab620d",
+     "name": "Golden Egg Check Capital",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "eu-startups.com",
+        "document": "https://www.eu-startups.com/2024/09/berlin-based-cariqa-gets-e1-million-to-launch-consumer-facing-ev-charging-marketplace/",
+        "date": "2024-09-23",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "cariqa.com",
+        "document": "https://cariqa.com/en/blog/cariqa-secures-eu1m-in-pre-seed-funding-to-release-the-worlds-first-consumer-facing-ev-charging-marketplace",
+        "date": "2024-09-23",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2025/07/08/cariqa-raises-eur4m-to-simplify-ev-charging-payments-and-pricing/",
+        "date": "2025-07-08",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "siliconcanals.com",
+        "document": "https://siliconcanals.com/cariqa-lands-e4m/",
+        "date": "2025-07-08",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "electrive.net",
+        "document": "https://www.electrive.net/2025/07/12/cariqa-schliesst-seed-finanzierung-erfolgreich-ab/",
+        "date": "2025-07-12",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "9d5eaf10-e701-45a0-8b72-8a76a03326ad"
+     }
+    }
+   ],
+   "FOUNDED": [
+    {
+     "id": "1e4982a8-c3dc-5344-bd5a-9642d64bb075",
+     "name": "Tamara Ciullo",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "About Cariqa | Direct EV Charging Payment Infrastructure",
+        "document": "https://www.cariqa.com/en/about-us",
+        "date": "2026-01-01"
+       },
+       {
+        "name": "Cariqa Press Room | EV Charging Infrastructure Coverage",
+        "document": "https://www.cariqa.com/en/press",
+        "date": "2024-06-17"
+       },
+       {
+        "name": "Berlin’s Cariqa lands €4M to simplify EV charging payments",
+        "document": "https://siliconcanals.com/cariqa-lands-e4m",
+        "date": "2025-07-08"
+       },
+       {
+        "name": "Cariqa raises €4 million seed funding for EV payment platform tech",
+        "document": "https://www.evinfrastructurenews.com/charging-software/cariqa-raises-4-million-seed-funding-for-ev-payment-platform-tech",
+        "date": "2025-07-10"
+       },
+       {
+        "name": "inVenture Capital - Venture Capital Fund of Funds",
+        "document": "https://inventure.capital/side-letter/financing-rounds/cariqa-sichert-sich-4-mio-zur-vereinfachung-von-ev-ladezahlungen-1751957272279-zc1z7w",
+        "date": "2026-01-01"
+       },
+       {
+        "name": "www.crunchbase.com",
+        "document": "https://www.crunchbase.com/organization/cariqa",
+        "date": "2026-07-29"
+       }
+      ],
+      "id": "42b2d674-8cff-47f3-a5b0-af9a483ce36d"
+     }
+    },
+    {
+     "id": "1e4982a8-c3dc-5344-bd5a-9642d64bb075",
+     "name": "Tamara Ciullo",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "cariqa.com",
+        "document": "https://www.cariqa.com/en/about-us",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "dd37b2c9-49ed-5d77-8161-b250f7987d10"
+     }
+    },
+    {
+     "id": "bf8c2dc0-3e91-5473-a04c-b75ffbc64db4",
+     "name": "Mario La Pergola",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "About Cariqa | Direct EV Charging Payment Infrastructure",
+        "document": "https://www.cariqa.com/en/about-us",
+        "date": "2026-01-01"
+       },
+       {
+        "name": "Cariqa Press Room | EV Charging Infrastructure Coverage",
+        "document": "https://www.cariqa.com/en/press",
+        "date": "2024-06-17"
+       },
+       {
+        "name": "Berlin’s Cariqa lands €4M to simplify EV charging payments",
+        "document": "https://siliconcanals.com/cariqa-lands-e4m",
+        "date": "2025-07-08"
+       },
+       {
+        "name": "Cariqa raises €4 million seed funding for EV payment platform tech",
+        "document": "https://www.evinfrastructurenews.com/charging-software/cariqa-raises-4-million-seed-funding-for-ev-payment-platform-tech",
+        "date": "2025-07-10"
+       },
+       {
+        "name": "inVenture Capital - Venture Capital Fund of Funds",
+        "document": "https://inventure.capital/side-letter/financing-rounds/cariqa-sichert-sich-4-mio-zur-vereinfachung-von-ev-ladezahlungen-1751957272279-zc1z7w",
+        "date": "2026-01-01"
+       },
+       {
+        "name": "www.crunchbase.com",
+        "document": "https://www.crunchbase.com/organization/cariqa",
+        "date": "2026-07-29"
+       }
+      ],
+      "id": "40721de9-0030-4125-8ea1-247478e775ba"
+     }
+    },
+    {
+     "id": "d2e4f986-00d4-4cfc-b100-52b80fab9fe2",
+     "name": "Stefano Bonetta",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "About Cariqa | Direct EV Charging Payment Infrastructure",
+        "document": "https://www.cariqa.com/en/about-us",
+        "date": "2026-01-01"
+       },
+       {
+        "name": "Cariqa Press Room | EV Charging Infrastructure Coverage",
+        "document": "https://www.cariqa.com/en/press",
+        "date": "2024-06-17"
+       },
+       {
+        "name": "Berlin’s Cariqa lands €4M to simplify EV charging payments",
+        "document": "https://siliconcanals.com/cariqa-lands-e4m",
+        "date": "2025-07-08"
+       },
+       {
+        "name": "inVenture Capital - Venture Capital Fund of Funds",
+        "document": "https://inventure.capital/side-letter/financing-rounds/cariqa-sichert-sich-4-mio-zur-vereinfachung-von-ev-ladezahlungen-1751957272279-zc1z7w",
+        "date": "2026-01-01"
+       },
+       {
+        "name": "www.eu-startups.com",
+        "document": "https://www.eu-startups.com/2024/09/berlin-based-cariqa-gets-e1-million-to-launch-consumer-facing-ev-charging-marketplace",
+        "date": "2026-07-29"
+       },
+       {
+        "name": "4 Millionen für Cariqa: Payment-Software für E-Auto-Ladesäulen - Pitchdeck",
+        "document": "https://www.businessinsider.de/gruenderszene/business/4-millionen-fuer-cariqa-payment-software-fuer-e-auto-ladesaeulen-pitchdeck",
+        "date": "2025-07-10"
+       }
+      ],
+      "id": "4580249d-5d51-458d-bbde-e70da57dc9fc"
+     }
+    },
+    {
+     "id": "d2e4f986-00d4-4cfc-b100-52b80fab9fe2",
+     "name": "Stefano Bonetta",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "cariqa.com",
+        "document": "https://www.cariqa.com/en/about-us",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "88062ad8-855f-5170-ad9c-821650374025"
+     }
+    },
+    {
+     "id": "fbf452cf-c316-4bbc-b9af-68c630388cfd",
+     "name": "Issam Tidjani",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "About Cariqa | Direct EV Charging Payment Infrastructure",
+        "document": "https://www.cariqa.com/en/about-us",
+        "date": "2026-01-01"
+       },
+       {
+        "name": "Cariqa Press Room | EV Charging Infrastructure Coverage",
+        "document": "https://www.cariqa.com/en/press",
+        "date": "2024-06-17"
+       },
+       {
+        "name": "Berlin’s Cariqa lands €4M to simplify EV charging payments",
+        "document": "https://siliconcanals.com/cariqa-lands-e4m",
+        "date": "2025-07-08"
+       },
+       {
+        "name": "Cariqa raises €4 million seed funding for EV payment platform tech",
+        "document": "https://www.evinfrastructurenews.com/charging-software/cariqa-raises-4-million-seed-funding-for-ev-payment-platform-tech",
+        "date": "2025-07-10"
+       },
+       {
+        "name": "inVenture Capital - Venture Capital Fund of Funds",
+        "document": "https://inventure.capital/side-letter/financing-rounds/cariqa-sichert-sich-4-mio-zur-vereinfachung-von-ev-ladezahlungen-1751957272279-zc1z7w",
+        "date": "2026-01-01"
+       },
+       {
+        "name": "www.crunchbase.com",
+        "document": "https://www.crunchbase.com/organization/cariqa",
+        "date": "2026-07-29"
+       }
+      ],
+      "id": "c3a57f89-482d-4deb-8e76-516eb30c0350"
+     }
+    },
+    {
+     "id": "fbf452cf-c316-4bbc-b9af-68c630388cfd",
+     "name": "Issam Tidjani",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "cariqa.com",
+        "document": "https://www.cariqa.com/en/about-us",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "dba37da7-eabc-506b-88a7-bf241b9f290d"
+     }
+    }
+   ],
+   "IS_CEO_OF": [
+    {
+     "id": "fbf452cf-c316-4bbc-b9af-68c630388cfd",
+     "name": "Issam Tidjani",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "cariqa.com",
+        "document": "https://www.cariqa.com/en/about-us",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "3068862c-ce3a-50a3-a889-7af4529cb93c"
+     }
+    }
+   ],
+   "IS_CTO_OF": [
+    {
+     "id": "d2e4f986-00d4-4cfc-b100-52b80fab9fe2",
+     "name": "Stefano Bonetta",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "cariqa.com",
+        "document": "https://www.cariqa.com/en/about-us",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "8fa80b4c-50b0-59ca-abfe-f51737be28ed"
+     }
+    }
+   ],
+   "WORKS_AT": [
+    {
+     "id": "1e4982a8-c3dc-5344-bd5a-9642d64bb075",
+     "name": "Tamara Ciullo",
+     "entity_type": "Person",
+     "properties": {
+      "role": "CCO",
+      "sources": [
+       {
+        "name": "About Cariqa | Direct EV Charging Payment Infrastructure",
+        "document": "https://www.cariqa.com/en/about-us",
+        "date": "2026-01-01"
+       },
+       {
+        "name": "Cariqa Press Room | EV Charging Infrastructure Coverage",
+        "document": "https://www.cariqa.com/en/press",
+        "date": "2024-06-17"
+       },
+       {
+        "name": "Berlin’s Cariqa lands €4M to simplify EV charging payments",
+        "document": "https://siliconcanals.com/cariqa-lands-e4m",
+        "date": "2025-07-08"
+       },
+       {
+        "name": "Cariqa raises €4 million seed funding for EV payment platform tech",
+        "document": "https://www.evinfrastructurenews.com/charging-software/cariqa-raises-4-million-seed-funding-for-ev-payment-platform-tech",
+        "date": "2025-07-10"
+       },
+       {
+        "name": "inVenture Capital - Venture Capital Fund of Funds",
+        "document": "https://inventure.capital/side-letter/financing-rounds/cariqa-sichert-sich-4-mio-zur-vereinfachung-von-ev-ladezahlungen-1751957272279-zc1z7w",
+        "date": "2026-01-01"
+       },
+       {
+        "name": "www.crunchbase.com",
+        "document": "https://www.crunchbase.com/organization/cariqa",
+        "date": "2026-07-29"
+       }
+      ],
+      "id": "7534c8f0-8d19-47ce-852c-085e1b1ca5b0"
+     }
+    },
+    {
+     "id": "bf8c2dc0-3e91-5473-a04c-b75ffbc64db4",
+     "name": "Mario La Pergola",
+     "entity_type": "Person",
+     "properties": {
+      "role": "COO",
+      "sources": [
+       {
+        "name": "About Cariqa | Direct EV Charging Payment Infrastructure",
+        "document": "https://www.cariqa.com/en/about-us",
+        "date": "2026-01-01"
+       },
+       {
+        "name": "Cariqa Press Room | EV Charging Infrastructure Coverage",
+        "document": "https://www.cariqa.com/en/press",
+        "date": "2024-06-17"
+       },
+       {
+        "name": "Berlin’s Cariqa lands €4M to simplify EV charging payments",
+        "document": "https://siliconcanals.com/cariqa-lands-e4m",
+        "date": "2025-07-08"
+       },
+       {
+        "name": "Cariqa raises €4 million seed funding for EV payment platform tech",
+        "document": "https://www.evinfrastructurenews.com/charging-software/cariqa-raises-4-million-seed-funding-for-ev-payment-platform-tech",
+        "date": "2025-07-10"
+       },
+       {
+        "name": "inVenture Capital - Venture Capital Fund of Funds",
+        "document": "https://inventure.capital/side-letter/financing-rounds/cariqa-sichert-sich-4-mio-zur-vereinfachung-von-ev-ladezahlungen-1751957272279-zc1z7w",
+        "date": "2026-01-01"
+       },
+       {
+        "name": "www.crunchbase.com",
+        "document": "https://www.crunchbase.com/organization/cariqa",
+        "date": "2026-07-29"
+       }
+      ],
+      "id": "c409ef98-2668-41a0-b502-0c0e913b4f96"
+     }
+    },
+    {
+     "id": "d2e4f986-00d4-4cfc-b100-52b80fab9fe2",
+     "name": "Stefano Bonetta",
+     "entity_type": "Person",
+     "properties": {
+      "role": "CTO",
+      "sources": [
+       {
+        "name": "About Cariqa | Direct EV Charging Payment Infrastructure",
+        "document": "https://www.cariqa.com/en/about-us",
+        "date": "2026-01-01"
+       },
+       {
+        "name": "Cariqa Press Room | EV Charging Infrastructure Coverage",
+        "document": "https://www.cariqa.com/en/press",
+        "date": "2024-06-17"
+       },
+       {
+        "name": "Berlin’s Cariqa lands €4M to simplify EV charging payments",
+        "document": "https://siliconcanals.com/cariqa-lands-e4m",
+        "date": "2025-07-08"
+       },
+       {
+        "name": "inVenture Capital - Venture Capital Fund of Funds",
+        "document": "https://inventure.capital/side-letter/financing-rounds/cariqa-sichert-sich-4-mio-zur-vereinfachung-von-ev-ladezahlungen-1751957272279-zc1z7w",
+        "date": "2026-01-01"
+       },
+       {
+        "name": "www.eu-startups.com",
+        "document": "https://www.eu-startups.com/2024/09/berlin-based-cariqa-gets-e1-million-to-launch-consumer-facing-ev-charging-marketplace",
+        "date": "2026-07-29"
+       },
+       {
+        "name": "4 Millionen für Cariqa: Payment-Software für E-Auto-Ladesäulen - Pitchdeck",
+        "document": "https://www.businessinsider.de/gruenderszene/business/4-millionen-fuer-cariqa-payment-software-fuer-e-auto-ladesaeulen-pitchdeck",
+        "date": "2025-07-10"
+       }
+      ],
+      "id": "3e85c9fb-22ae-41ce-9d7c-0c061ef58d35"
+     }
+    },
+    {
+     "id": "fbf452cf-c316-4bbc-b9af-68c630388cfd",
+     "name": "Issam Tidjani",
+     "entity_type": "Person",
+     "properties": {
+      "role": "CEO",
+      "sources": [
+       {
+        "name": "About Cariqa | Direct EV Charging Payment Infrastructure",
+        "document": "https://www.cariqa.com/en/about-us",
+        "date": "2026-01-01"
+       },
+       {
+        "name": "Cariqa Press Room | EV Charging Infrastructure Coverage",
+        "document": "https://www.cariqa.com/en/press",
+        "date": "2024-06-17"
+       },
+       {
+        "name": "Berlin’s Cariqa lands €4M to simplify EV charging payments",
+        "document": "https://siliconcanals.com/cariqa-lands-e4m",
+        "date": "2025-07-08"
+       },
+       {
+        "name": "Cariqa raises €4 million seed funding for EV payment platform tech",
+        "document": "https://www.evinfrastructurenews.com/charging-software/cariqa-raises-4-million-seed-funding-for-ev-payment-platform-tech",
+        "date": "2025-07-10"
+       },
+       {
+        "name": "inVenture Capital - Venture Capital Fund of Funds",
+        "document": "https://inventure.capital/side-letter/financing-rounds/cariqa-sichert-sich-4-mio-zur-vereinfachung-von-ev-ladezahlungen-1751957272279-zc1z7w",
+        "date": "2026-01-01"
+       },
+       {
+        "name": "www.crunchbase.com",
+        "document": "https://www.crunchbase.com/organization/cariqa",
+        "date": "2026-07-29"
+       }
+      ],
+      "id": "3fdf9933-f7ed-4926-a84a-45d0be95ee4b"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

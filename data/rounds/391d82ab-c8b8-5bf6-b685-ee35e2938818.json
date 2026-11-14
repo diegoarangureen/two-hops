@@ -1,0 +1,345 @@
+{
+ "id": "391d82ab-c8b8-5bf6-b685-ee35e2938818",
+ "name": "Pre-Seed",
+ "entity_type": "FundingRound",
+ "description": null,
+ "properties": {
+  "name": {
+   "value": "Pre-Seed",
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2024/09/berlin-based-cariqa-gets-e1-million-to-launch-consumer-facing-ev-charging-marketplace/",
+     "date": "2024-09-23",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "cariqa.com",
+     "document": "https://cariqa.com/en/blog/cariqa-secures-eu1m-in-pre-seed-funding-to-release-the-worlds-first-consumer-facing-ev-charging-marketplace",
+     "date": "2024-09-23",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "round_label": {
+   "value": "PRE_SEED",
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2024/09/berlin-based-cariqa-gets-e1-million-to-launch-consumer-facing-ev-charging-marketplace/",
+     "date": "2024-09-23",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "cariqa.com",
+     "document": "https://cariqa.com/en/blog/cariqa-secures-eu1m-in-pre-seed-funding-to-release-the-worlds-first-consumer-facing-ev-charging-marketplace",
+     "date": "2024-09-23",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "instrument": {
+   "value": "EQUITY",
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2024/09/berlin-based-cariqa-gets-e1-million-to-launch-consumer-facing-ev-charging-marketplace/",
+     "date": "2024-09-23",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "transaction_value": {
+   "value": 1000000.0,
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2024/09/berlin-based-cariqa-gets-e1-million-to-launch-consumer-facing-ev-charging-marketplace/",
+     "date": "2024-09-23",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "cariqa.com",
+     "document": "https://cariqa.com/en/blog/cariqa-secures-eu1m-in-pre-seed-funding-to-release-the-worlds-first-consumer-facing-ev-charging-marketplace",
+     "date": "2024-09-23",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "vestbee.com",
+     "document": "https://www.vestbee.com/insights/articles/cariqa-closes-1-m-round",
+     "date": "2024-09-23",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "why.berlin",
+     "document": "https://why.berlin/n/cariqa-raises-eur1-million-in-pre-seed-funding-to-launch-ev-charging-marketplace",
+     "date": "2024-09-30",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "transaction_value_units": {
+   "value": "EUR",
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2024/09/berlin-based-cariqa-gets-e1-million-to-launch-consumer-facing-ev-charging-marketplace/",
+     "date": "2024-09-23",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "cariqa.com",
+     "document": "https://cariqa.com/en/blog/cariqa-secures-eu1m-in-pre-seed-funding-to-release-the-worlds-first-consumer-facing-ev-charging-marketplace",
+     "date": "2024-09-23",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "vestbee.com",
+     "document": "https://www.vestbee.com/insights/articles/cariqa-closes-1-m-round",
+     "date": "2024-09-23",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "why.berlin",
+     "document": "https://why.berlin/n/cariqa-raises-eur1-million-in-pre-seed-funding-to-launch-ev-charging-marketplace",
+     "date": "2024-09-30",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "announcement_date": {
+   "value": "2024-09-23",
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2024/09/berlin-based-cariqa-gets-e1-million-to-launch-consumer-facing-ev-charging-marketplace/",
+     "date": "2024-09-23",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "annotations": {
+   "value": [
+    "Round name as stated in the article.",
+    "The company post calls it pre-seed funding. Techstars Columbus Spring 2024 accelerator participation (Techstars, 2024-03-11, https://www.techstars.com/newsroom/techstars-columbus-accelerator-announces-2024-spring-class) is not added as a separate round: Techstars is a named investor in this round, within 6 months (duplicate check).",
+    "round_label_stated:Pre-Seed"
+   ],
+   "sources": []
+  }
+ },
+ "relationships": {
+  "outgoing": {},
+  "incoming": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "36fb528c-7795-4825-a9a4-a66ba327461b",
+     "name": "Cariqa",
+     "entity_type": "Company",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "eu-startups.com",
+        "document": "https://www.eu-startups.com/2024/09/berlin-based-cariqa-gets-e1-million-to-launch-consumer-facing-ev-charging-marketplace/",
+        "date": "2024-09-23",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "cariqa.com",
+        "document": "https://cariqa.com/en/blog/cariqa-secures-eu1m-in-pre-seed-funding-to-release-the-worlds-first-consumer-facing-ev-charging-marketplace",
+        "date": "2024-09-23",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "e87fd513-6dcd-51b4-a4d2-b51a0af76d36"
+     }
+    },
+    {
+     "id": "3baab3ef-2387-5e97-86f5-aeaf2db72eb4",
+     "name": "PLUG",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "id": "205288fe-5238-5e04-a1e6-d92820ff6581"
+     }
+    },
+    {
+     "id": "4985b453-12d1-4307-aa52-79ee031ba8e4",
+     "name": "Anthemis Group",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "eu-startups.com",
+        "document": "https://www.eu-startups.com/2024/09/berlin-based-cariqa-gets-e1-million-to-launch-consumer-facing-ev-charging-marketplace/",
+        "date": "2024-09-23",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "cariqa.com",
+        "document": "https://cariqa.com/en/blog/cariqa-secures-eu1m-in-pre-seed-funding-to-release-the-worlds-first-consumer-facing-ev-charging-marketplace",
+        "date": "2024-09-23",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "9020993e-7561-59a8-9b0e-de193bcdd154"
+     }
+    },
+    {
+     "id": "53f0c100-86d8-5598-8fad-b632076fb1ce",
+     "name": "Play",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "id": "e7f16dfb-a7b3-5c81-b5e1-47067eea9153"
+     }
+    },
+    {
+     "id": "ae7530e4-556e-4547-ba15-88a12fbcdcb1",
+     "name": "Techstars",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "eu-startups.com",
+        "document": "https://www.eu-startups.com/2024/09/berlin-based-cariqa-gets-e1-million-to-launch-consumer-facing-ev-charging-marketplace/",
+        "date": "2024-09-23",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "cariqa.com",
+        "document": "https://cariqa.com/en/blog/cariqa-secures-eu1m-in-pre-seed-funding-to-release-the-worlds-first-consumer-facing-ev-charging-marketplace",
+        "date": "2024-09-23",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "ba7db9a4-6b5b-54f5-b115-5266a8fdc467"
+     }
+    },
+    {
+     "id": "c04545e6-fd20-441a-9feb-5247eb8de975",
+     "name": "Plug and Play Tech Center",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "eu-startups.com",
+        "document": "https://www.eu-startups.com/2024/09/berlin-based-cariqa-gets-e1-million-to-launch-consumer-facing-ev-charging-marketplace/",
+        "date": "2024-09-23",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "cariqa.com",
+        "document": "https://cariqa.com/en/blog/cariqa-secures-eu1m-in-pre-seed-funding-to-release-the-worlds-first-consumer-facing-ev-charging-marketplace",
+        "date": "2024-09-23",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "0a8372b4-904b-5055-be54-8b354cfe38e6"
+     }
+    },
+    {
+     "id": "c97eb974-6dcc-4deb-8015-22028bd21c83",
+     "name": "Vento Ventures",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "eu-startups.com",
+        "document": "https://www.eu-startups.com/2024/09/berlin-based-cariqa-gets-e1-million-to-launch-consumer-facing-ev-charging-marketplace/",
+        "date": "2024-09-23",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "cariqa.com",
+        "document": "https://cariqa.com/en/blog/cariqa-secures-eu1m-in-pre-seed-funding-to-release-the-worlds-first-consumer-facing-ev-charging-marketplace",
+        "date": "2024-09-23",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "a99c0f54-f091-5bde-99cb-2b198b88dd9f"
+     }
+    },
+    {
+     "id": "dad62210-b3b5-4696-ad5e-494862a108b5",
+     "name": "Hatcher+",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "eu-startups.com",
+        "document": "https://www.eu-startups.com/2024/09/berlin-based-cariqa-gets-e1-million-to-launch-consumer-facing-ev-charging-marketplace/",
+        "date": "2024-09-23",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "cariqa.com",
+        "document": "https://cariqa.com/en/blog/cariqa-secures-eu1m-in-pre-seed-funding-to-release-the-worlds-first-consumer-facing-ev-charging-marketplace",
+        "date": "2024-09-23",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "5adea1e7-31c8-508e-b43e-5de26884ca45"
+     }
+    },
+    {
+     "id": "f64a71c5-bcd7-4822-9580-60a1e3ab620d",
+     "name": "Golden Egg Check Capital",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "eu-startups.com",
+        "document": "https://www.eu-startups.com/2024/09/berlin-based-cariqa-gets-e1-million-to-launch-consumer-facing-ev-charging-marketplace/",
+        "date": "2024-09-23",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "cariqa.com",
+        "document": "https://cariqa.com/en/blog/cariqa-secures-eu1m-in-pre-seed-funding-to-release-the-worlds-first-consumer-facing-ev-charging-marketplace",
+        "date": "2024-09-23",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "7bee8693-33c0-5e83-a8f5-20ce103c2090"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

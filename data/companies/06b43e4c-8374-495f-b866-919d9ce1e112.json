@@ -1,0 +1,833 @@
+{
+ "id": "06b43e4c-8374-495f-b866-919d9ce1e112",
+ "name": "Conductor Quantum",
+ "entity_type": "Company",
+ "description": "Conductor builds AI-powered software for operating and scaling quantum computers.",
+ "properties": {
+  "name": {
+   "value": "Conductor Quantum",
+   "sources": [
+    {
+     "name": "Y Combinator",
+     "document": "https://github.com/yc-oss/api",
+     "date": "2026-06-05"
+    },
+    {
+     "name": "conductorquantum.com",
+     "document": "https://www.conductorquantum.com/",
+     "date": "2026-11-10",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "ycombinator.com",
+     "document": "https://www.ycombinator.com/companies/conductor-quantum",
+     "date": "2026-11-10",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "edd.newmexico.gov",
+     "document": "https://edd.newmexico.gov/press-releases/state-awards-1-2-million-to-grow-new-mexicos-quantum-sector/",
+     "date": "2026-07-14",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "Conductor Quantum, Inc.",
+   "sources": [
+    {
+     "name": "conductorquantum.com",
+     "document": "https://www.conductorquantum.com/",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "aliases": {
+   "value": [
+    "Conductor"
+   ],
+   "sources": []
+  },
+  "website": {
+   "value": "conductorquantum.com",
+   "sources": [
+    {
+     "name": "Y Combinator",
+     "document": "https://github.com/yc-oss/api",
+     "date": "2026-07-25"
+    },
+    {
+     "name": "conductorquantum.com",
+     "document": "https://conductorquantum.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "dns.google",
+     "document": "https://dns.google/query?name=conductorquantum.com&type=A",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "blog.conductorquantum.com",
+     "document": "https://blog.conductorquantum.com/p/who-is-conductor-quantum-software",
+     "date": "2026-11-10",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "Conductor builds AI-powered software for operating and scaling quantum computers.",
+   "sources": [
+    {
+     "name": "conductorquantum.com",
+     "document": "https://conductorquantum.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2024-01-01",
+   "sources": [
+    {
+     "name": "ycombinator.com",
+     "document": "https://www.ycombinator.com/companies/conductor-quantum",
+     "date": "2026-11-10",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/103548346/admin/dashboard/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "San Francisco, United States",
+   "sources": [
+    {
+     "name": "ycombinator.com",
+     "document": "https://www.ycombinator.com/companies/conductor-quantum",
+     "date": "2026-11-10",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "conductorquantum.com",
+     "document": "https://www.conductorquantum.com/team",
+     "date": "2026-11-10",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/103548346/admin/dashboard/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "Y Combinator",
+     "document": "https://github.com/yc-oss/api",
+     "date": "2026-07-25"
+    },
+    {
+     "name": "conductorquantum.com",
+     "document": "https://conductorquantum.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "ycombinator.com",
+     "document": "https://www.ycombinator.com/companies/conductor-quantum",
+     "date": "2026-11-10",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "total_funding": {
+   "value": 200000.0,
+   "sources": [
+    {
+     "name": "edd.newmexico.gov",
+     "document": "https://edd.newmexico.gov/press-releases/state-awards-1-2-million-to-grow-new-mexicos-quantum-sector/",
+     "date": "2026-07-14",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "edd.newmexico.gov",
+     "document": "https://www.edd.newmexico.gov/wp-content/uploads/2026/07/TIO_QTA_2206_awardee_press_release.pdf",
+     "date": "2026-07-14",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "edd.newmexico.gov",
+     "document": "https://edd.newmexico.gov/quantum-grants/",
+     "date": "2026-11-10",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "cbinsights.com",
+     "document": "https://www.cbinsights.com/company/conductor-quantum/financials",
+     "date": "2026-11-10",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "total_funding_units": {
+   "value": "USD",
+   "sources": [
+    {
+     "name": "edd.newmexico.gov",
+     "document": "https://edd.newmexico.gov/press-releases/state-awards-1-2-million-to-grow-new-mexicos-quantum-sector/",
+     "date": "2026-07-14",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "edd.newmexico.gov",
+     "document": "https://www.edd.newmexico.gov/wp-content/uploads/2026/07/TIO_QTA_2206_awardee_press_release.pdf",
+     "date": "2026-07-14",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "edd.newmexico.gov",
+     "document": "https://edd.newmexico.gov/quantum-grants/",
+     "date": "2026-11-10",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "cbinsights.com",
+     "document": "https://www.cbinsights.com/company/conductor-quantum/financials",
+     "date": "2026-11-10",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "total_funding_excluding_debt": {
+   "value": 200000.0,
+   "sources": [
+    {
+     "name": "edd.newmexico.gov",
+     "document": "https://edd.newmexico.gov/press-releases/state-awards-1-2-million-to-grow-new-mexicos-quantum-sector/",
+     "date": "2026-07-14",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "edd.newmexico.gov",
+     "document": "https://www.edd.newmexico.gov/wp-content/uploads/2026/07/TIO_QTA_2206_awardee_press_release.pdf",
+     "date": "2026-07-14",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "edd.newmexico.gov",
+     "document": "https://edd.newmexico.gov/quantum-grants/",
+     "date": "2026-11-10",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "cbinsights.com",
+     "document": "https://www.cbinsights.com/company/conductor-quantum/financials",
+     "date": "2026-11-10",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "41466510-7c60-5123-a47a-3522f6b3b884",
+     "name": "Grant",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "edd.newmexico.gov",
+        "document": "https://edd.newmexico.gov/press-releases/state-awards-1-2-million-to-grow-new-mexicos-quantum-sector/",
+        "date": "2026-07-14",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "537c98e8-9ced-5f7e-9ed9-3b0a84900227"
+     }
+    },
+    {
+     "id": "c4fcf57a-a1eb-54e0-a1c5-7bb28014e0f5",
+     "name": "Pre-Seed",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "ycombinator.com",
+        "document": "https://www.ycombinator.com/companies/conductor-quantum",
+        "date": "2026-11-10",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "1379f3a7-281b-510f-88cb-c7ff5b7e1431"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_CORPORATE_EVENT": [
+    {
+     "id": "64ef58ad-f22b-4c0d-a821-f5c59201ae7c",
+     "name": "FINANCING_RAISED_OR_FACILITY_ENTERED",
+     "entity_type": "PrivateCompanyFundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/conductorquantum/__1rEFAwYT5dQ-8wvye3cyZDI8CcgYw2m6ws-DRannj8s",
+        "date": "2026-06-11"
+       },
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/equal1/__tJlNyd470k7ScM0-zwVmZXIqtVE8nHXx9iXWckTQ6v8",
+        "date": "2026-06-11"
+       },
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/photonic/__zI3P-57xsSuOI5jMxOC3GVVA-oXrC40ARB5dlGRDxbo",
+        "date": "2026-06-11"
+       },
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/siliconquantumcomputing/__5XC4hVs1CUTBm_fsnEiMojvya0smBEwlpnRQl7qTDtk",
+        "date": "2026-06-11"
+       }
+      ],
+      "event_date": "2024-07-01",
+      "id": "2cb269cb-395e-417c-839b-8cb46dacfcde"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "bf695c1f-9f92-5c3e-9b0d-26e27e982398"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "8ecf5e57-a149-438c-9eb4-089809bade56",
+     "name": "SOFTWARE_AND_SERVICES",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/103548346/admin/dashboard/",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "52394114-4d78-5225-a4ef-777b484c1f49",
+      "original_label": "deeptech"
+     }
+    },
+    {
+     "id": "8f69b9ef-e35a-4e9d-b9d9-7ee062f16002",
+     "name": "MACHINERY",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "Y Combinator",
+        "document": "https://github.com/yc-oss/api",
+        "date": "2026-06-05"
+       }
+      ],
+      "id": "1335e806-7f0d-565d-8acc-79d59ca10214",
+      "original_label": "Industrials"
+     }
+    }
+   ],
+   "HAS_HEADQUARTERS_IN": [
+    {
+     "id": "37a1f0f5-f5ef-4b63-b3d8-14f5636be703",
+     "name": "United States",
+     "entity_type": "Country",
+     "properties": {
+      "sources": [
+       {
+        "name": "Y Combinator",
+        "document": "https://github.com/yc-oss/api",
+        "date": "2026-06-05"
+       }
+      ],
+      "id": "99441e8b-d5c7-5a89-8738-4d4792c16019"
+     }
+    }
+   ],
+   "HAS_PRESENCE_IN": [
+    {
+     "id": "37a1f0f5-f5ef-4b63-b3d8-14f5636be703",
+     "name": "United States",
+     "entity_type": "Country",
+     "properties": {
+      "sources": [
+       {
+        "name": "Y Combinator",
+        "document": "https://github.com/yc-oss/api",
+        "date": "2026-06-05"
+       }
+      ],
+      "id": "33ac5e5a-a725-5aa5-9078-70e70f8a1cbe"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "INVESTED_IN": [
+    {
+     "id": "072d8d85-4f2e-41ad-ae17-abd994418b72",
+     "name": "Pioneer Fund",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "vcbacked.co",
+        "document": "https://www.vcbacked.co/company/conductor-quantum",
+        "date": "2024-10-21",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "61a8242c-1db8-4389-b663-350cc5d32a3c"
+     }
+    },
+    {
+     "id": "1e86655e-373d-4fe8-be13-af3713581f73",
+     "name": "Y Combinator",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "Y Combinator",
+        "document": "https://github.com/yc-oss/api",
+        "date": "2026-06-09"
+       },
+       {
+        "name": "ycombinator.com",
+        "document": "https://www.ycombinator.com/companies/conductor-quantum",
+        "date": "2026-11-10",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "thequantuminsider.com",
+        "document": "https://thequantuminsider.com/2025/11/03/yc-backed-conductor-quantum-partners-with-finlands-semiqon-to-push-silicon-quantum-computing-forward/",
+        "date": "2025-11-03",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "93a7e7d6-8428-5dbd-a659-effbe50991d0"
+     }
+    },
+    {
+     "id": "3085fa5b-dc16-505f-a9e2-6b007aae99ac",
+     "name": "Mergus Ventures",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "vcbacked.co",
+        "document": "https://www.vcbacked.co/company/conductor-quantum",
+        "date": "2024-10-21",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "d785594e-747f-4953-8637-268933321df7"
+     }
+    },
+    {
+     "id": "3a9cba83-df3d-4191-93f7-9aad5217daa5",
+     "name": "Oxford Angel Fund",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "vcbacked.co",
+        "document": "https://www.vcbacked.co/company/conductor-quantum",
+        "date": "2024-10-21",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "853bb535-5310-414d-b78c-859501d51d5b"
+     }
+    },
+    {
+     "id": "5758a648-e4bf-4eb5-a34f-e1eabf91c806",
+     "name": "Outbound Capital I, LP",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "vcbacked.co",
+        "document": "https://www.vcbacked.co/company/conductor-quantum",
+        "date": "2024-10-21",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "5525762d-de41-46de-9505-aae68319e67f"
+     }
+    },
+    {
+     "id": "7faf31b1-b7a2-4e93-b820-1fed0d86d2fa",
+     "name": "Candor",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "Y Combinator",
+        "document": "https://github.com/yc-oss/api",
+        "date": "2026-06-05"
+       }
+      ],
+      "id": "1d33e8f1-16d7-5978-885d-59f0428a32a1"
+     }
+    }
+   ],
+   "FOUNDED": [
+    {
+     "id": "4e892110-7fb8-4d3f-b481-10140c664ee2",
+     "name": "Joel Pendleton",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "Conductor Quantum: AI that operates quantum computers for scientific discovery | Y Combinator",
+        "document": "https://www.ycombinator.com/companies/conductor-quantum",
+        "date": "2026-01-21"
+       },
+       {
+        "name": "Conductor Quantum",
+        "document": "https://www.forbes.com/profile/conductor-quantum",
+        "date": "2026-01-01"
+       },
+       {
+        "name": "YC-Backed Conductor Quantum Partners With Finland’s SemiQon to Push Silicon Quantum Computing Forward",
+        "document": "https://thequantuminsider.com/2025/11/03/yc-backed-conductor-quantum-partners-with-finlands-semiqon-to-push-silicon-quantum-computing-forward",
+        "date": "2025-11-03"
+       },
+       {
+        "name": "Jobs at Conductor Quantum (S24) | Y Combinator's Work at a Startup",
+        "document": "https://www.workatastartup.com/companies/conductor-quantum",
+        "date": "2024-04-11"
+       },
+       {
+        "name": "Who is Conductor Quantum? Software to Unlock the Future of Scalable Quantum Computing",
+        "document": "https://blog.conductorquantum.com/p/who-is-conductor-quantum-software",
+        "date": "2025-09-28"
+       },
+       {
+        "name": "Conductor Quantum Founder Genealogy | FounderTrace",
+        "document": "https://foundertrace.com/companies/conductor_quantum",
+        "date": "2024-01-01"
+       }
+      ],
+      "id": "c733f1cb-a72c-4ce8-8e7d-5f0565eb1127"
+     }
+    },
+    {
+     "id": "4e892110-7fb8-4d3f-b481-10140c664ee2",
+     "name": "Joel Pendleton",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "conductorquantum.com",
+        "document": "https://www.conductorquantum.com/team",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "ycombinator.com",
+        "document": "https://www.ycombinator.com/companies/conductor-quantum",
+        "date": "2026-11-10",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "ed609e9c-db3d-5e50-968e-2e6a9c0b88ee"
+     }
+    },
+    {
+     "id": "af97f45b-74c9-47eb-9e9b-ca8ed599ceec",
+     "name": "Brandon Severin",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "Conductor Quantum: AI that operates quantum computers for scientific discovery | Y Combinator",
+        "document": "https://www.ycombinator.com/companies/conductor-quantum",
+        "date": "2026-01-21"
+       },
+       {
+        "name": "Conductor Quantum",
+        "document": "https://www.forbes.com/profile/conductor-quantum",
+        "date": "2026-01-01"
+       },
+       {
+        "name": "YC-Backed Conductor Quantum Partners With Finland’s SemiQon to Push Silicon Quantum Computing Forward",
+        "document": "https://thequantuminsider.com/2025/11/03/yc-backed-conductor-quantum-partners-with-finlands-semiqon-to-push-silicon-quantum-computing-forward",
+        "date": "2025-11-03"
+       },
+       {
+        "name": "Jobs at Conductor Quantum (S24) | Y Combinator's Work at a Startup",
+        "document": "https://www.workatastartup.com/companies/conductor-quantum",
+        "date": "2024-04-11"
+       },
+       {
+        "name": "Who is Conductor Quantum? Software to Unlock the Future of Scalable Quantum Computing",
+        "document": "https://blog.conductorquantum.com/p/who-is-conductor-quantum-software",
+        "date": "2025-09-28"
+       },
+       {
+        "name": "Conductor Quantum Founder Genealogy | FounderTrace",
+        "document": "https://foundertrace.com/companies/conductor_quantum",
+        "date": "2024-01-01"
+       }
+      ],
+      "id": "b6bfa08b-feca-4532-8a8a-0092b2c4d5ec"
+     }
+    },
+    {
+     "id": "af97f45b-74c9-47eb-9e9b-ca8ed599ceec",
+     "name": "Brandon Severin",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "conductorquantum.com",
+        "document": "https://www.conductorquantum.com/team",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "ycombinator.com",
+        "document": "https://www.ycombinator.com/companies/conductor-quantum",
+        "date": "2026-11-10",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "c9006bdd-3284-5e57-a8d7-ab1b32f69c01"
+     }
+    }
+   ],
+   "IS_CEO_OF": [
+    {
+     "id": "af97f45b-74c9-47eb-9e9b-ca8ed599ceec",
+     "name": "Brandon Severin",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "conductorquantum.com",
+        "document": "https://www.conductorquantum.com/team",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "ycombinator.com",
+        "document": "https://www.ycombinator.com/companies/conductor-quantum",
+        "date": "2026-11-10",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "a842a5fb-f782-54dc-abf4-8d2545b10970"
+     }
+    }
+   ],
+   "IS_CTO_OF": [
+    {
+     "id": "4e892110-7fb8-4d3f-b481-10140c664ee2",
+     "name": "Joel Pendleton",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "conductorquantum.com",
+        "document": "https://www.conductorquantum.com/team",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "ycombinator.com",
+        "document": "https://www.ycombinator.com/companies/conductor-quantum",
+        "date": "2026-11-10",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "fc48cf4f-18fc-59c3-ba8c-220111a4c7cf"
+     }
+    }
+   ],
+   "WORKS_AT": [
+    {
+     "id": "21ff0562-39bf-51bc-9ce8-b1e461d7dc3c",
+     "name": "Joyce Christiansen-Salameh",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Member of Technical Staff",
+      "sources": [
+       {
+        "name": "conductorquantum.com",
+        "document": "https://www.conductorquantum.com/team",
+        "date": "2026-11-10",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "881cd278-0175-5def-b0d2-04ef0f970b34"
+     }
+    },
+    {
+     "id": "4e892110-7fb8-4d3f-b481-10140c664ee2",
+     "name": "Joel Pendleton",
+     "entity_type": "Person",
+     "properties": {
+      "role": "CTO",
+      "sources": [
+       {
+        "name": "Conductor Quantum: AI that operates quantum computers for scientific discovery | Y Combinator",
+        "document": "https://www.ycombinator.com/companies/conductor-quantum",
+        "date": "2026-01-21"
+       },
+       {
+        "name": "Conductor Quantum",
+        "document": "https://www.forbes.com/profile/conductor-quantum",
+        "date": "2026-01-01"
+       },
+       {
+        "name": "YC-Backed Conductor Quantum Partners With Finland’s SemiQon to Push Silicon Quantum Computing Forward",
+        "document": "https://thequantuminsider.com/2025/11/03/yc-backed-conductor-quantum-partners-with-finlands-semiqon-to-push-silicon-quantum-computing-forward",
+        "date": "2025-11-03"
+       },
+       {
+        "name": "Jobs at Conductor Quantum (S24) | Y Combinator's Work at a Startup",
+        "document": "https://www.workatastartup.com/companies/conductor-quantum",
+        "date": "2024-04-11"
+       },
+       {
+        "name": "Who is Conductor Quantum? Software to Unlock the Future of Scalable Quantum Computing",
+        "document": "https://blog.conductorquantum.com/p/who-is-conductor-quantum-software",
+        "date": "2025-09-28"
+       },
+       {
+        "name": "Conductor Quantum Founder Genealogy | FounderTrace",
+        "document": "https://foundertrace.com/companies/conductor_quantum",
+        "date": "2024-01-01"
+       }
+      ],
+      "id": "bfde5d2f-84ea-4834-9404-43c5f117f51a"
+     }
+    },
+    {
+     "id": "af97f45b-74c9-47eb-9e9b-ca8ed599ceec",
+     "name": "Brandon Severin",
+     "entity_type": "Person",
+     "properties": {
+      "role": "CEO",
+      "sources": [
+       {
+        "name": "Conductor Quantum: AI that operates quantum computers for scientific discovery | Y Combinator",
+        "document": "https://www.ycombinator.com/companies/conductor-quantum",
+        "date": "2026-01-21"
+       },
+       {
+        "name": "Conductor Quantum",
+        "document": "https://www.forbes.com/profile/conductor-quantum",
+        "date": "2026-01-01"
+       },
+       {
+        "name": "YC-Backed Conductor Quantum Partners With Finland’s SemiQon to Push Silicon Quantum Computing Forward",
+        "document": "https://thequantuminsider.com/2025/11/03/yc-backed-conductor-quantum-partners-with-finlands-semiqon-to-push-silicon-quantum-computing-forward",
+        "date": "2025-11-03"
+       },
+       {
+        "name": "Jobs at Conductor Quantum (S24) | Y Combinator's Work at a Startup",
+        "document": "https://www.workatastartup.com/companies/conductor-quantum",
+        "date": "2024-04-11"
+       },
+       {
+        "name": "Who is Conductor Quantum? Software to Unlock the Future of Scalable Quantum Computing",
+        "document": "https://blog.conductorquantum.com/p/who-is-conductor-quantum-software",
+        "date": "2025-09-28"
+       },
+       {
+        "name": "Conductor Quantum Founder Genealogy | FounderTrace",
+        "document": "https://foundertrace.com/companies/conductor_quantum",
+        "date": "2024-01-01"
+       }
+      ],
+      "id": "41aad81e-d29a-4d21-abe4-ebae39f2285a"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

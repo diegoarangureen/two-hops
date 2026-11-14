@@ -1,0 +1,669 @@
+{
+ "id": "b2d7e1ca-a057-4187-918b-f34423dff76c",
+ "name": "CERPRO",
+ "entity_type": "Company",
+ "description": "Drevise (formerly CERPRO) is an AI platform for production readiness: it analyzes technical drawings and automates handovers from engineering to series production, including drawing review, first a...",
+ "properties": {
+  "name": {
+   "value": "CERPRO",
+   "sources": [
+    {
+     "name": "Cala AI",
+     "document": "",
+     "date": "2026-06-11"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "Cerpro GmbH",
+   "sources": [
+    {
+     "name": "drevise.com",
+     "document": "https://drevise.com/de/impressum",
+     "date": "2026-11-06",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "drevise.com",
+     "document": "https://drevise.com/en/privacy",
+     "date": "2026-10-06",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "northdata.de",
+     "document": "https://www.northdata.de/Cerpro+GmbH,+Berlin/Amtsgericht+Charlottenburg+HRB+257881",
+     "date": "2026-11-06",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "aliases": {
+   "value": [
+    "CERPRO",
+    "Drevise"
+   ],
+   "sources": []
+  },
+  "website": {
+   "value": "drevise.com",
+   "sources": [
+    {
+     "name": "drevise.com",
+     "document": "https://drevise.com/",
+     "date": "2026-10-29",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "dns.google",
+     "document": "https://dns.google/query?name=drevise.com&type=A",
+     "date": "2026-10-29",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "drevise.com",
+     "document": "https://drevise.com/en/resources",
+     "date": "2026-10-07",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "Drevise (formerly CERPRO) is an AI platform for production readiness: it analyzes technical drawings and automates handovers from engineering to series production, including drawing review, first a...",
+   "sources": [
+    {
+     "name": "drevise.com",
+     "document": "https://drevise.com/en",
+     "date": "2026-11-06",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "drevise.com",
+     "document": "https://drevise.com/en/resources",
+     "date": "2026-10-07",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2023-01-01",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/drevise",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    },
+    {
+     "name": "northdata.de",
+     "document": "https://www.northdata.de/Cerpro+GmbH,+Berlin/Amtsgericht+Charlottenburg+HRB+257881",
+     "date": "2026-11-06",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    },
+    {
+     "name": "drevise.com",
+     "document": "https://drevise.com/en/resources",
+     "date": "2026-10-07",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "startbase.de",
+     "document": "https://www.startbase.de/news/cerpro-sichert-sich-2-mio-e-pre-seed/",
+     "date": "2025-11-12",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "Hamburg, Germany",
+   "sources": [
+    {
+     "name": "northdata.de",
+     "document": "https://www.northdata.de/Cerpro+GmbH,+Berlin/Amtsgericht+Charlottenburg+HRB+257881",
+     "date": "2026-11-06",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "drevise.com",
+     "document": "https://drevise.com/",
+     "date": "2026-11-03",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "drevise.com",
+     "document": "https://drevise.com/en/resources",
+     "date": "2026-10-07",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "employee_count_range": {
+   "value": [
+    1,
+    10
+   ],
+   "sources": [
+    {
+     "name": "join.com",
+     "document": "https://join.com/companies/cerproio",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "total_funding": {
+   "value": 2000000.0,
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2025/11/quality-assurance-german-startup-cerpro-raises-e2-million-to-accelerate-industrial-workflows-by-up-to-80/",
+     "date": "2025-11-01",
+     "date_precision": "month",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "startbase.de",
+     "document": "https://www.startbase.de/news/cerpro-sichert-sich-2-mio-e-pre-seed/",
+     "date": "2025-11-12",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "techfundingnews.com",
+     "document": "https://techfundingnews.com/cerpro-ai-quality-assurance-pre-seed-funding/",
+     "date": "2025-11-12",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "total_funding_units": {
+   "value": "EUR",
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2025/11/quality-assurance-german-startup-cerpro-raises-e2-million-to-accelerate-industrial-workflows-by-up-to-80/",
+     "date": "2025-11-01",
+     "date_precision": "month",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "startbase.de",
+     "document": "https://www.startbase.de/news/cerpro-sichert-sich-2-mio-e-pre-seed/",
+     "date": "2025-11-12",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "techfundingnews.com",
+     "document": "https://techfundingnews.com/cerpro-ai-quality-assurance-pre-seed-funding/",
+     "date": "2025-11-12",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "total_funding_excluding_debt": {
+   "value": 2000000.0,
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2025/11/quality-assurance-german-startup-cerpro-raises-e2-million-to-accelerate-industrial-workflows-by-up-to-80/",
+     "date": "2025-11-01",
+     "date_precision": "month",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "startbase.de",
+     "document": "https://www.startbase.de/news/cerpro-sichert-sich-2-mio-e-pre-seed/",
+     "date": "2025-11-12",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "funding_stage": {
+   "value": "PRE_SEED",
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2025/11/quality-assurance-german-startup-cerpro-raises-e2-million-to-accelerate-industrial-workflows-by-up-to-80/",
+     "date": "2025-11-12",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "bitsandpretzels.com",
+     "document": "https://www.bitsandpretzels.com/st-startups/cerpro-book",
+     "date": "2026-11-06",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "0f6421cf-f78d-5e9f-b7a6-7272836f3327",
+     "name": "Pre-Seed",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "eu-startups.com",
+        "document": "https://www.eu-startups.com/2025/11/quality-assurance-german-startup-cerpro-raises-e2-million-to-accelerate-industrial-workflows-by-up-to-80/",
+        "date": "2025-11-12",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "startbase.de",
+        "document": "https://www.startbase.de/news/cerpro-sichert-sich-2-mio-e-pre-seed/",
+        "date": "2025-11-12",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "techfundingnews.com",
+        "document": "https://techfundingnews.com/cerpro-ai-quality-assurance-pre-seed-funding/",
+        "date": "2025-11-12",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "neon.law",
+        "document": "https://neon.law/news/neon-advises-seed-speed-on-pre-seed-financing-round-of-cerpro",
+        "date": "2025-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "d4e2b963-256b-56a3-88b0-5d31ff917e2a"
+     }
+    },
+    {
+     "id": "cb0936cc-982f-50d1-84a5-e1c3a5dbc4f9",
+     "name": "Pre-Seed",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "bitsandpretzels.com",
+        "document": "https://www.bitsandpretzels.com/st-startups/cerpro-book",
+        "date": "2026-11-06",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "aa6975a3-544b-5030-a7ba-5a79c74ccd22"
+     }
+    },
+    {
+     "id": "d29d4ca2-80b7-5b31-8a4c-793f48d2f3e6",
+     "name": "Funding round",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "app.dealroom.co",
+        "document": "https://app.dealroom.co/companies/cerpro",
+        "date": "2026-11-06",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "96ef0d95-280b-5cd6-b7b1-53e7a27338cb"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "b6c8c27c-a616-5a9e-99e1-c4673bf5f7bc"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "0f63c285-f941-493c-9f9a-95ddfdaf52ca",
+     "name": "RAW_MATERIALS",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/drevise",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "42007fb6-6674-54a0-a3b5-03530f497451",
+      "original_label": "manufacturingMaterials"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "INVESTED_IN": [
+    {
+     "id": "16728a00-ad78-424a-bb95-82baed67c6d9",
+     "name": "D11Z Ventures",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "startbase.de",
+        "document": "https://www.startbase.de/news/cerpro-sichert-sich-2-mio-e-pre-seed/",
+        "date": "2025-11-12",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "techfundingnews.com",
+        "document": "https://techfundingnews.com/cerpro-ai-quality-assurance-pre-seed-funding/",
+        "date": "2025-11-12",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "thesaasnews.com",
+        "document": "https://www.thesaasnews.com/news/cerpro-raises-2m-pre-seed-round",
+        "date": "2025-11-12",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "27cd4fd9-908b-442a-8979-d4f19b64f96e"
+     }
+    },
+    {
+     "id": "269bd550-267d-4da3-9c94-67c6f9a08567",
+     "name": "EIT Manufacturing",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "eu-startups.com",
+        "document": "https://www.eu-startups.com/2025/11/quality-assurance-german-startup-cerpro-raises-e2-million-to-accelerate-industrial-workflows-by-up-to-80/",
+        "date": "2025-11-12",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "startbase.de",
+        "document": "https://www.startbase.de/news/cerpro-sichert-sich-2-mio-e-pre-seed/",
+        "date": "2025-11-12",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "a87d2571-7bda-42c8-93f7-08827f71a483"
+     }
+    },
+    {
+     "id": "2e06ae4a-4ecd-4d69-8ff6-a205c34d35a5",
+     "name": "European Institute of Innovation and Technology",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "Investment Portfolio",
+        "document": "https://www.eitmanufacturing.eu/investment-portfolio",
+        "date": "2025-03-01"
+       }
+      ],
+      "id": "ab57cabe-c466-53b8-a1a4-03ac08ad664f"
+     }
+    },
+    {
+     "id": "4089d2f1-ad83-47f5-b8f2-d94c554c6067",
+     "name": "Dieter Schwarz Foundation",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "Our Portfolio | D11Z Ventures",
+        "document": "https://d11z.com/portfolio",
+        "date": "2026-07-29"
+       }
+      ],
+      "id": "766df344-ef57-527e-9705-481ff7faa3ed"
+     }
+    },
+    {
+     "id": "420b2ebc-7589-420f-9f5b-ed2dea14a893",
+     "name": "seed + speed Ventures",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "startbase.de",
+        "document": "https://www.startbase.de/news/cerpro-sichert-sich-2-mio-e-pre-seed/",
+        "date": "2025-11-12",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "techfundingnews.com",
+        "document": "https://techfundingnews.com/cerpro-ai-quality-assurance-pre-seed-funding/",
+        "date": "2025-11-12",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "neon.law",
+        "document": "https://neon.law/news/neon-advises-seed-speed-on-pre-seed-financing-round-of-cerpro",
+        "date": "2025-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "7cc43104-a095-4849-9d8e-4a2c041b1e85"
+     }
+    },
+    {
+     "id": "ae7530e4-556e-4547-ba15-88a12fbcdcb1",
+     "name": "Techstars",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "eu-startups.com",
+        "document": "https://www.eu-startups.com/2025/11/quality-assurance-german-startup-cerpro-raises-e2-million-to-accelerate-industrial-workflows-by-up-to-80/",
+        "date": "2025-11-12",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "startbase.de",
+        "document": "https://www.startbase.de/news/cerpro-sichert-sich-2-mio-e-pre-seed/",
+        "date": "2025-11-12",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "app.dealroom.co",
+        "document": "https://app.dealroom.co/companies/cerpro",
+        "date": "2026-11-06",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       },
+       {
+        "name": "jobs.techstars.com",
+        "document": "https://jobs.techstars.com/companies/cerpro/jobs/72435655-founders-associate-m-w-d",
+        "date": "2026-11-06",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "12a3ae27-7825-4759-95fa-287b4a6f6cc8"
+     }
+    }
+   ],
+   "FOUNDED": [
+    {
+     "id": "01056b60-533e-5675-a305-b7e7341cdc17",
+     "name": "Frederik Frei",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "recentfunding.com",
+        "document": "https://recentfunding.com/companies/cerpro/",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       },
+       {
+        "name": "techfundingnews.com",
+        "document": "https://techfundingnews.com/cerpro-ai-quality-assurance-pre-seed-funding/",
+        "date": "2025-11-12",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "f73db0da-da08-5c5c-9080-637c8d1fa408"
+     }
+    },
+    {
+     "id": "7fa6c6c6-dce2-50ce-9334-0f1691289421",
+     "name": "Sascha Müller",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "techfundingnews.com",
+        "document": "https://techfundingnews.com/cerpro-ai-quality-assurance-pre-seed-funding/",
+        "date": "2025-11-12",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "startbase.de",
+        "document": "https://www.startbase.de/news/cerpro-sichert-sich-2-mio-e-pre-seed/",
+        "date": "2025-11-12",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "24c3573e-49c2-5a05-b9f3-dd7373569543"
+     }
+    },
+    {
+     "id": "802f886e-e86a-5128-98b3-b7bc26607145",
+     "name": "Henrik Pitz",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "techfundingnews.com",
+        "document": "https://techfundingnews.com/cerpro-ai-quality-assurance-pre-seed-funding/",
+        "date": "2025-11-12",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "startbase.de",
+        "document": "https://www.startbase.de/news/cerpro-sichert-sich-2-mio-e-pre-seed/",
+        "date": "2025-11-12",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "bitsandpretzels.com",
+        "document": "https://www.bitsandpretzels.com/st-startups/cerpro-book",
+        "date": "2026-11-06",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "6e1c073c-aa7e-5d0e-b936-e2f6f14e59e3"
+     }
+    }
+   ],
+   "IS_CEO_OF": [
+    {
+     "id": "01056b60-533e-5675-a305-b7e7341cdc17",
+     "name": "Frederik Frei",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "recentfunding.com",
+        "document": "https://recentfunding.com/companies/cerpro/",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       },
+       {
+        "name": "techfundingnews.com",
+        "document": "https://techfundingnews.com/cerpro-ai-quality-assurance-pre-seed-funding/",
+        "date": "2025-11-12",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "f5e9583b-06a9-5f3c-ac18-f3df093336a5"
+     }
+    }
+   ],
+   "IS_CTO_OF": [
+    {
+     "id": "7fa6c6c6-dce2-50ce-9334-0f1691289421",
+     "name": "Sascha Müller",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "techfundingnews.com",
+        "document": "https://techfundingnews.com/cerpro-ai-quality-assurance-pre-seed-funding/",
+        "date": "2025-11-12",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "68f7128f-6aae-5e82-bbc0-42adeae286d9"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

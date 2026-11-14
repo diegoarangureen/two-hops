@@ -1,0 +1,206 @@
+{
+ "id": "8b5d814c-6ee9-5279-ae4c-c9c84635a707",
+ "name": "Seed",
+ "entity_type": "FundingRound",
+ "description": null,
+ "properties": {
+  "name": {
+   "value": "Seed",
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2025/09/german-deeptech-startup-yasp-raises-e4-2-million-to-accelerate-ai-model-optimisation/",
+     "date": "2025-09-25",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "yasp.ai",
+     "document": "https://yasp.ai/blog/yasp-secures-5-million-in-seed-funding",
+     "date": "2025-09-25",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "round_label": {
+   "value": "SEED",
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2025/09/german-deeptech-startup-yasp-raises-e4-2-million-to-accelerate-ai-model-optimisation/",
+     "date": "2025-09-25",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "yasp.ai",
+     "document": "https://yasp.ai/blog/yasp-secures-5-million-in-seed-funding",
+     "date": "2025-09-25",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "instrument": {
+   "value": "EQUITY",
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2025/09/german-deeptech-startup-yasp-raises-e4-2-million-to-accelerate-ai-model-optimisation/",
+     "date": "2025-09-25",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "transaction_value": {
+   "value": 5000000.0,
+   "sources": [
+    {
+     "name": "yasp.ai",
+     "document": "https://yasp.ai/blog/yasp-secures-5-million-in-seed-funding",
+     "date": "2025-09-25",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "starting-up.de",
+     "document": "https://www.starting-up.de/news/news-investments/deeptech-start-up-yasp-sichert-sich-5-mio-us-dollar-seed-finanzierung.html",
+     "date": "2025-09-25",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "transaction_value_units": {
+   "value": "USD",
+   "sources": [
+    {
+     "name": "yasp.ai",
+     "document": "https://yasp.ai/blog/yasp-secures-5-million-in-seed-funding",
+     "date": "2025-09-25",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "starting-up.de",
+     "document": "https://www.starting-up.de/news/news-investments/deeptech-start-up-yasp-sichert-sich-5-mio-us-dollar-seed-finanzierung.html",
+     "date": "2025-09-25",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "announcement_date": {
+   "value": "2025-09-25",
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2025/09/german-deeptech-startup-yasp-raises-e4-2-million-to-accelerate-ai-model-optimisation/",
+     "date": "2025-09-25",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "yasp.ai",
+     "document": "https://yasp.ai/blog/yasp-secures-5-million-in-seed-funding",
+     "date": "2025-09-25",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "annotations": {
+   "value": [
+    "Round name as stated in the article.",
+    "round_label_stated:Seed"
+   ],
+   "sources": []
+  }
+ },
+ "relationships": {
+  "outgoing": {},
+  "incoming": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "21572190-7235-5153-b13c-a1358c78f9b1",
+     "name": "yasp",
+     "entity_type": "Company",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "eu-startups.com",
+        "document": "https://www.eu-startups.com/2025/09/german-deeptech-startup-yasp-raises-e4-2-million-to-accelerate-ai-model-optimisation/",
+        "date": "2025-09-25",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "yasp.ai",
+        "document": "https://yasp.ai/blog/yasp-secures-5-million-in-seed-funding",
+        "date": "2025-09-25",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "49c8320d-d041-5361-b03d-1c55e74717e2"
+     }
+    },
+    {
+     "id": "907dacb4-e59b-4d6c-8bf1-89a53208bb25",
+     "name": "Start-up BW Innovation Fonds",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "yasp.ai",
+        "document": "https://yasp.ai/blog/yasp-secures-5-million-in-seed-funding",
+        "date": "2025-09-25",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "eu-startups.com",
+        "document": "https://www.eu-startups.com/2025/09/german-deeptech-startup-yasp-raises-e4-2-million-to-accelerate-ai-model-optimisation/",
+        "date": "2025-09-25",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "7e5ca3c2-5a36-55dd-b637-89d21219bac3"
+     }
+    },
+    {
+     "id": "b6c49b77-7291-4713-8278-71256890e857",
+     "name": "Capnamic Ventures Management GmbH",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "yasp.ai",
+        "document": "https://yasp.ai/blog/yasp-secures-5-million-in-seed-funding",
+        "date": "2025-09-25",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "eu-startups.com",
+        "document": "https://www.eu-startups.com/2025/09/german-deeptech-startup-yasp-raises-e4-2-million-to-accelerate-ai-model-optimisation/",
+        "date": "2025-09-25",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "is_lead": true,
+      "id": "db2e3eb1-6785-5421-88b7-00ac14b1a1c8"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

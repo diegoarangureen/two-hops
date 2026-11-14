@@ -1,0 +1,290 @@
+{
+ "id": "f1c8b797-fcf7-5006-aba0-4adb1ba30ddd",
+ "name": "NEKOD",
+ "entity_type": "Company",
+ "description": "Empower your business teams to build with AI. Keep CISO in control. NEKOD checks each app against your policies and records the approval. Request access.",
+ "properties": {
+  "name": {
+   "value": "NEKOD",
+   "sources": [
+    {
+     "name": "nekod.com",
+     "document": "https://nekod.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/nekod/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "NEKOD B.V.",
+   "sources": [
+    {
+     "name": "nekod.com",
+     "document": "https://nekod.com/privacy",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "website": {
+   "value": "nekod.com",
+   "sources": [
+    {
+     "name": "nekod.com",
+     "document": "https://nekod.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "dns.google",
+     "document": "https://dns.google/query?name=nekod.com&type=A",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "Empower your business teams to build with AI. Keep CISO in control. NEKOD checks each app against your policies and records the approval. Request access.",
+   "sources": [
+    {
+     "name": "nekod.com",
+     "document": "https://nekod.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2024-08-06",
+   "sources": [
+    {
+     "name": "liza.nl",
+     "document": "https://www.liza.nl/en/94642508",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "Amsterdam, Netherlands",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/nekod/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "nekod.com",
+     "document": "https://nekod.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "liza.nl",
+     "document": "https://www.liza.nl/en/94642508",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "total_funding": {
+   "value": 120000.0,
+   "sources": [
+    {
+     "name": "nekod.com",
+     "document": "https://nekod.com/blog/joins-techstars-abn-amro",
+     "date": "2024-09-10",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "total_funding_units": {
+   "value": "EUR",
+   "sources": [
+    {
+     "name": "nekod.com",
+     "document": "https://nekod.com/blog/joins-techstars-abn-amro",
+     "date": "2024-09-10",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "total_funding_excluding_debt": {
+   "value": 120000.0,
+   "sources": [
+    {
+     "name": "nekod.com",
+     "document": "https://nekod.com/blog/joins-techstars-abn-amro",
+     "date": "2024-09-10",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "funding_stage": {
+   "value": "SEED",
+   "sources": [
+    {
+     "name": "nekod.com",
+     "document": "https://nekod.com/blog/joins-techstars-abn-amro",
+     "date": "2024-09-10",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "e7d37ee7-535f-59f7-8c22-7f7e8e936213",
+     "name": "Seed",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "nekod.com",
+        "document": "https://nekod.com/blog/joins-techstars-abn-amro",
+        "date": "2024-09-10",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "0cf52fb2-a81f-57ca-a5ed-22176b7f9355"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "4d735463-62f9-565d-a0fc-b86760a09112"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "8ecf5e57-a149-438c-9eb4-089809bade56",
+     "name": "SOFTWARE_AND_SERVICES",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/nekod/",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "b241e019-3933-524d-8eb2-7773dab86e62",
+      "original_label": "enterpriseSoftware"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "INVESTED_IN": [
+    {
+     "id": "ae7530e4-556e-4547-ba15-88a12fbcdcb1",
+     "name": "Techstars",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "nekod.com",
+        "document": "https://nekod.com/blog/joins-techstars-abn-amro",
+        "date": "2024-09-10",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "990505fd-8e01-4884-9903-699e8aec242f"
+     }
+    }
+   ],
+   "FOUNDED": [
+    {
+     "id": "8bcaa8b8-8418-5a94-8656-6e61eddcd498",
+     "name": "Antigoni Kourou",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "iamsterdam.com",
+        "document": "https://www.iamsterdam.com/en/business/startupamsterdam/foundersfridays-antigoni-kourou-nekod",
+        "date": "2025-10-17",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "nekod.com",
+        "document": "https://nekod.com/about",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "6deef365-4a4e-5dc9-a34f-b92129147ea8"
+     }
+    }
+   ],
+   "IS_CEO_OF": [
+    {
+     "id": "8bcaa8b8-8418-5a94-8656-6e61eddcd498",
+     "name": "Antigoni Kourou",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "iamsterdam.com",
+        "document": "https://www.iamsterdam.com/en/business/startupamsterdam/foundersfridays-antigoni-kourou-nekod",
+        "date": "2025-10-17",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "883cf93a-216d-5b6a-8aba-040d1b8f47bf"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

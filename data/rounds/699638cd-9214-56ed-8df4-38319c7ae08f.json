@@ -1,0 +1,176 @@
+{
+ "id": "699638cd-9214-56ed-8df4-38319c7ae08f",
+ "name": "Series B",
+ "entity_type": "FundingRound",
+ "description": null,
+ "properties": {
+  "name": {
+   "value": "Series B",
+   "sources": [
+    {
+     "name": "cbinsights.com",
+     "document": "https://www.cbinsights.com/company/bliq/financials",
+     "date": "2026-11-09",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "aliases": {
+   "value": [
+    "Series C"
+   ],
+   "sources": []
+  },
+  "round_label": {
+   "value": "SERIES_B",
+   "sources": [
+    {
+     "name": "cbinsights.com",
+     "document": "https://www.cbinsights.com/company/bliq/financials",
+     "date": "2026-11-09",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "instrument": {
+   "value": "EQUITY",
+   "sources": [
+    {
+     "name": "cbinsights.com",
+     "document": "https://www.cbinsights.com/company/bliq/financials",
+     "date": "2026-11-09",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    },
+    {
+     "name": "nordic9.com",
+     "document": "https://nordic9.com/news/bliq-to-raise-series-a/",
+     "date": "2025-05-29",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "announcement_date": {
+   "value": "2024-01-01",
+   "sources": [
+    {
+     "name": "cbinsights.com",
+     "document": "https://www.cbinsights.com/company/bliq/financials",
+     "date": "2026-11-09",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "annotations": {
+   "value": [
+    "derived from the sequence",
+    "CB Insights calls it 'Unattributed VC' (an aggregator convention, not a round name).",
+    "round_label_stated:Series B",
+    "round_label_basis:INFERRED",
+    "round_label_explanation:Unnamed equity round after rounds.1 (Series A): next label in the sequence (instructions §3.5).",
+    "CB Insights calls it 'Series A - II' (an aggregator convention, not a round name); Nordic9 headline 'Bliq to raise Series A'.",
+    "round_label_stated:Series C",
+    "round_label_explanation:Unnamed equity round after rounds.2 (Series B): next label in the sequence (instructions §3.5)."
+   ],
+   "sources": []
+  }
+ },
+ "relationships": {
+  "outgoing": {},
+  "incoming": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "006f57a2-d9c7-522c-b310-461efae89794",
+     "name": "Bliq",
+     "entity_type": "Company",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "cbinsights.com",
+        "document": "https://www.cbinsights.com/company/bliq/financials",
+        "date": "2026-11-09",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       },
+       {
+        "name": "nordic9.com",
+        "document": "https://nordic9.com/news/bliq-to-raise-series-a/",
+        "date": "2025-05-29",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "5b42ac17-dbd0-5783-9e51-6858b6145bb6"
+     }
+    },
+    {
+     "id": "af455c14-7d52-4318-9418-fd1ee7d573ef",
+     "name": "FJ Labs, LLC",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "cbinsights.com",
+        "document": "https://www.cbinsights.com/company/bliq/financials",
+        "date": "2026-11-09",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       },
+       {
+        "name": "nordic9.com",
+        "document": "https://nordic9.com/news/bliq-to-raise-series-a/",
+        "date": "2025-05-29",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "ca1fd6d2-93fb-57d5-9beb-eec52094ee2a"
+     }
+    },
+    {
+     "id": "cc0391db-bc0e-4017-8a49-88b6ea47b152",
+     "name": "Proeza Ventures",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "cbinsights.com",
+        "document": "https://www.cbinsights.com/company/bliq/financials",
+        "date": "2026-11-09",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "5cde8d77-fbaf-5bbc-8746-c27ac5c92eb4"
+     }
+    },
+    {
+     "id": "d7c5251a-0f77-5684-ad2a-d31a7436e1ce",
+     "name": "Vinthera",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "cbinsights.com",
+        "document": "https://www.cbinsights.com/company/bliq/financials",
+        "date": "2026-11-09",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "34899f45-0002-54dd-a390-f2bcf7119497"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

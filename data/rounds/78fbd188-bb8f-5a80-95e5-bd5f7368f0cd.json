@@ -1,0 +1,369 @@
+{
+ "id": "78fbd188-bb8f-5a80-95e5-bd5f7368f0cd",
+ "name": "Series A",
+ "entity_type": "FundingRound",
+ "description": null,
+ "properties": {
+  "name": {
+   "value": "Series A",
+   "sources": [
+    {
+     "name": "conceptventures.vc",
+     "document": "https://conceptventures.vc/news/elevenlabs-raises-19m-series-a",
+     "date": "2023-06-20",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "en.ain.ua",
+     "document": "https://en.ain.ua/2023/06/20/credo-ventures-joins-17-3m-round-for-elevenlabs",
+     "date": "2023-06-20",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "aliases": {
+   "value": [
+    "Pre-Seed"
+   ],
+   "sources": []
+  },
+  "round_label": {
+   "value": "SERIES_A",
+   "sources": [
+    {
+     "name": "conceptventures.vc",
+     "document": "https://conceptventures.vc/news/elevenlabs-raises-19m-series-a",
+     "date": "2023-06-20",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "en.ain.ua",
+     "document": "https://en.ain.ua/2023/06/20/credo-ventures-joins-17-3m-round-for-elevenlabs",
+     "date": "2023-06-20",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "instrument": {
+   "value": "EQUITY",
+   "sources": [
+    {
+     "name": "elevenlabs.io",
+     "document": "https://elevenlabs.io/blog/elevenlabs-raises-2m-pre-seed-and-announces-ai-speech-platform-promising-to-revolutionize-audio-storytelling",
+     "date": "2023-01-23",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "en.ain.ua",
+     "document": "https://en.ain.ua/2023/02/01/ai-voice-technology-startup-elevenlabs-raises-2m-in-a-pre-seed-round-led-by-czech-credo-ventures",
+     "date": "2023-02-01",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "conceptventures.vc",
+     "document": "https://conceptventures.vc/news/elevenlabs-raises-19m-series-a",
+     "date": "2023-06-20",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "en.ain.ua",
+     "document": "https://en.ain.ua/2023/06/20/credo-ventures-joins-17-3m-round-for-elevenlabs",
+     "date": "2023-06-20",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "transaction_value": {
+   "value": 19000000.0,
+   "sources": [
+    {
+     "name": "conceptventures.vc",
+     "document": "https://conceptventures.vc/news/elevenlabs-raises-19m-series-a",
+     "date": "2023-06-20",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "en.ain.ua",
+     "document": "https://en.ain.ua/2023/06/20/credo-ventures-joins-17-3m-round-for-elevenlabs",
+     "date": "2023-06-20",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "transaction_value_units": {
+   "value": "USD",
+   "sources": [
+    {
+     "name": "elevenlabs.io",
+     "document": "https://elevenlabs.io/blog/elevenlabs-raises-2m-pre-seed-and-announces-ai-speech-platform-promising-to-revolutionize-audio-storytelling",
+     "date": "2023-01-23",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "en.ain.ua",
+     "document": "https://en.ain.ua/2023/02/01/ai-voice-technology-startup-elevenlabs-raises-2m-in-a-pre-seed-round-led-by-czech-credo-ventures",
+     "date": "2023-02-01",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "conceptventures.vc",
+     "document": "https://conceptventures.vc/news/elevenlabs-raises-19m-series-a",
+     "date": "2023-06-20",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "en.ain.ua",
+     "document": "https://en.ain.ua/2023/06/20/credo-ventures-joins-17-3m-round-for-elevenlabs",
+     "date": "2023-06-20",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "announcement_date": {
+   "value": "2023-06-20",
+   "sources": [
+    {
+     "name": "conceptventures.vc",
+     "document": "https://conceptventures.vc/news/elevenlabs-raises-19m-series-a",
+     "date": "2023-06-20",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "en.ain.ua",
+     "document": "https://en.ain.ua/2023/06/20/credo-ventures-joins-17-3m-round-for-elevenlabs",
+     "date": "2023-06-20",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "annotations": {
+   "value": [
+    "'pre-seed' (company blog).",
+    "round_label_stated:Pre-Seed",
+    "'Series-A' (Concept Ventures).",
+    "round_label_stated:Series A"
+   ],
+   "sources": []
+  }
+ },
+ "relationships": {
+  "outgoing": {},
+  "incoming": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "1c2ad8a2-8b24-48d6-915d-2a67e92e3711",
+     "name": "ELEVEN LABS INC.",
+     "entity_type": "Company",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "elevenlabs.io",
+        "document": "https://elevenlabs.io/blog/elevenlabs-raises-2m-pre-seed-and-announces-ai-speech-platform-promising-to-revolutionize-audio-storytelling",
+        "date": "2023-01-23",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "en.ain.ua",
+        "document": "https://en.ain.ua/2023/02/01/ai-voice-technology-startup-elevenlabs-raises-2m-in-a-pre-seed-round-led-by-czech-credo-ventures",
+        "date": "2023-02-01",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "conceptventures.vc",
+        "document": "https://conceptventures.vc/news/elevenlabs-raises-19m-series-a",
+        "date": "2023-06-20",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "en.ain.ua",
+        "document": "https://en.ain.ua/2023/06/20/credo-ventures-joins-17-3m-round-for-elevenlabs",
+        "date": "2023-06-20",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "04fd52c6-583e-533c-b95f-f892ff8dc6f1"
+     }
+    },
+    {
+     "id": "73aa76d4-5869-40f8-acd5-81eb8102892f",
+     "name": "Nat Friedman",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "conceptventures.vc",
+        "document": "https://conceptventures.vc/news/elevenlabs-raises-19m-series-a",
+        "date": "2023-06-20",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "en.ain.ua",
+        "document": "https://en.ain.ua/2023/06/20/credo-ventures-joins-17-3m-round-for-elevenlabs",
+        "date": "2023-06-20",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "is_lead": true,
+      "id": "668f6592-9778-5335-9ef8-ecc9538cf821"
+     }
+    },
+    {
+     "id": "80147273-e5d3-4661-a72e-9fddab491e9c",
+     "name": "Concept Ventures",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "elevenlabs.io",
+        "document": "https://elevenlabs.io/blog/elevenlabs-raises-2m-pre-seed-and-announces-ai-speech-platform-promising-to-revolutionize-audio-storytelling",
+        "date": "2023-01-23",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "en.ain.ua",
+        "document": "https://en.ain.ua/2023/02/01/ai-voice-technology-startup-elevenlabs-raises-2m-in-a-pre-seed-round-led-by-czech-credo-ventures",
+        "date": "2023-02-01",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "conceptventures.vc",
+        "document": "https://conceptventures.vc/news/elevenlabs-raises-19m-series-a",
+        "date": "2023-06-20",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "en.ain.ua",
+        "document": "https://en.ain.ua/2023/06/20/credo-ventures-joins-17-3m-round-for-elevenlabs",
+        "date": "2023-06-20",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "bf1edd52-6a94-5906-afa3-209d9babc21a"
+     }
+    },
+    {
+     "id": "d9f9a9ca-8f83-44ea-97f2-2f4d844dd9f1",
+     "name": "Credo Ventures a.s.",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "elevenlabs.io",
+        "document": "https://elevenlabs.io/blog/elevenlabs-raises-2m-pre-seed-and-announces-ai-speech-platform-promising-to-revolutionize-audio-storytelling",
+        "date": "2023-01-23",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "en.ain.ua",
+        "document": "https://en.ain.ua/2023/02/01/ai-voice-technology-startup-elevenlabs-raises-2m-in-a-pre-seed-round-led-by-czech-credo-ventures",
+        "date": "2023-02-01",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "conceptventures.vc",
+        "document": "https://conceptventures.vc/news/elevenlabs-raises-19m-series-a",
+        "date": "2023-06-20",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "en.ain.ua",
+        "document": "https://en.ain.ua/2023/06/20/credo-ventures-joins-17-3m-round-for-elevenlabs",
+        "date": "2023-06-20",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "is_lead": true,
+      "id": "cc35351f-55d8-5135-bdbe-1904bf51926d"
+     }
+    },
+    {
+     "id": "daebf7ee-cf07-459c-a3c6-65523efcefa7",
+     "name": "Andreessen Horowitz",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "conceptventures.vc",
+        "document": "https://conceptventures.vc/news/elevenlabs-raises-19m-series-a",
+        "date": "2023-06-20",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "en.ain.ua",
+        "document": "https://en.ain.ua/2023/06/20/credo-ventures-joins-17-3m-round-for-elevenlabs",
+        "date": "2023-06-20",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "is_lead": true,
+      "id": "2ed92786-971c-562c-b199-96f4e18f93d2"
+     }
+    },
+    {
+     "id": "eeb4af3d-5cc3-4b52-9906-dc63d41f1d16",
+     "name": "Daniel Gross",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "conceptventures.vc",
+        "document": "https://conceptventures.vc/news/elevenlabs-raises-19m-series-a",
+        "date": "2023-06-20",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "en.ain.ua",
+        "document": "https://en.ain.ua/2023/06/20/credo-ventures-joins-17-3m-round-for-elevenlabs",
+        "date": "2023-06-20",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "is_lead": true,
+      "id": "6b7ce505-ecd0-5fb5-8d24-2776bf83c1d3"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

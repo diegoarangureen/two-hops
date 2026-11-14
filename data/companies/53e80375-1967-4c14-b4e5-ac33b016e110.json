@@ -1,0 +1,610 @@
+{
+ "id": "53e80375-1967-4c14-b4e5-ac33b016e110",
+ "name": "Soihtu DTx",
+ "entity_type": "Company",
+ "description": "Treating depression through gameplay. We revolutionize depression treatment through engaging game-based Digital Therapeutics (DTx).",
+ "properties": {
+  "name": {
+   "value": "Soihtu DTx",
+   "sources": [
+    {
+     "name": "arcticstartup.com",
+     "document": "https://arcticstartup.com/innovestor-invests-in-polku-therapeutics-kasvu-therapeutics-and-soihtu-dtx",
+     "date": "2026-08-24"
+    },
+    {
+     "name": "2024: A Year of Milestones at Innovestor - Innovestor",
+     "document": "https://innovestorgroup.com/2024-a-year-of-milestones-at-innovestor",
+     "date": "2025-01-16"
+    },
+    {
+     "name": "soihtudtx.com",
+     "document": "https://soihtudtx.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/soihtu-dtx/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "Soihtu DTx Oy",
+   "sources": [
+    {
+     "name": "tietopalvelu.ytj.fi",
+     "document": "https://tietopalvelu.ytj.fi/yritys/3404403-6",
+     "date": "2023-11-16",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "aliases": {
+   "value": [],
+   "sources": []
+  },
+  "website": {
+   "value": "soihtudtx.com",
+   "sources": [
+    {
+     "name": "soihtudtx.com",
+     "document": "https://soihtudtx.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "dns.google",
+     "document": "https://dns.google/query?name=soihtudtx.com&type=A",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "Treating depression through gameplay. We revolutionize depression treatment through engaging game-based Digital Therapeutics (DTx).",
+   "sources": [
+    {
+     "name": "soihtudtx.com",
+     "document": "https://soihtudtx.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2023-01-01",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/soihtu-dtx/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "Espoo, Finland",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/soihtu-dtx/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "soihtudtx.com",
+     "document": "https://soihtudtx.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "total_funding": {
+   "value": 2499875.0,
+   "sources": [
+    {
+     "name": "cordis.europa.eu",
+     "document": "https://cordis.europa.eu/project/id/101314565",
+     "date": "2026-11-07",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "total_funding_units": {
+   "value": "EUR",
+   "sources": [
+    {
+     "name": "cordis.europa.eu",
+     "document": "https://cordis.europa.eu/project/id/101314565",
+     "date": "2026-11-07",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "total_funding_excluding_debt": {
+   "value": 2499875.0,
+   "sources": [
+    {
+     "name": "cordis.europa.eu",
+     "document": "https://cordis.europa.eu/project/id/101314565",
+     "date": "2026-11-07",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "funding_stage": {
+   "value": "PRE_SEED",
+   "sources": [
+    {
+     "name": "startupsmagazine.co.uk",
+     "document": "https://startupsmagazine.co.uk/article-innovestor-backs-finnish-spinouts-pioneering-neurological-treatments",
+     "date": "2024-09-22",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "bebeez.eu",
+     "document": "https://bebeez.eu/2024/09/24/innovestor-backs-finnish-spinouts-addressing-neurological-disorders-with-e10m-investment/",
+     "date": "2024-09-24",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "eab319a8-76db-5747-a229-b15f438ef148",
+     "name": "Pre-Seed",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "startupsmagazine.co.uk",
+        "document": "https://startupsmagazine.co.uk/article-innovestor-backs-finnish-spinouts-pioneering-neurological-treatments",
+        "date": "2024-09-22",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "bebeez.eu",
+        "document": "https://bebeez.eu/2024/09/24/innovestor-backs-finnish-spinouts-addressing-neurological-disorders-with-e10m-investment/",
+        "date": "2024-09-24",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "a51c2a10-bf95-5da0-adec-04c7333ebbf4"
+     }
+    },
+    {
+     "id": "ee674f17-32e4-51db-a603-7e3a6771f447",
+     "name": "Grant",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "cordis.europa.eu",
+        "document": "https://cordis.europa.eu/project/id/101314565",
+        "date": "2026-11-07",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "702919fa-3579-5759-aee7-ad78724e59ee"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_CORPORATE_EVENT": [
+    {
+     "id": "e33338e7-91dd-4d41-a221-eb6bb3a700dd",
+     "name": "FINANCING_RAISED_OR_FACILITY_ENTERED",
+     "entity_type": "PrivateCompanyFundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "www.crunchbase.com",
+        "document": "https://www.crunchbase.com/organization/soihtu-dtx",
+        "date": "2026-08-25"
+       },
+       {
+        "name": "www.crunchbase.com",
+        "document": "https://www.crunchbase.com/organization/newfund-management/investor_summary/overview_timeline",
+        "date": "2026-08-25"
+       },
+       {
+        "name": "pitchbook.com",
+        "document": "https://pitchbook.com/profiles/company/607177-27",
+        "date": "2026-08-25"
+       },
+       {
+        "name": "www.crunchbase.com",
+        "document": "https://www.crunchbase.com/funding_round/soihtu-dtx-pre-seed--6a99bd90",
+        "date": "2026-08-25"
+       },
+       {
+        "name": "pitchbook.com",
+        "document": "https://pitchbook.com/profiles/fund/24850-99F",
+        "date": "2026-08-25"
+       }
+      ],
+      "event_date": "2024-09-23",
+      "id": "e8b5a01c-68cd-4537-bdc4-ea2d9d421e7e"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "870f0b2e-9d21-5f08-9d7c-35397b16c96c"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "211634f1-a4ff-46f8-a558-596235045d51",
+     "name": "BIOTECHNOLOGY",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "arcticstartup.com",
+        "document": "https://arcticstartup.com/innovestor-invests-in-polku-therapeutics-kasvu-therapeutics-and-soihtu-dtx",
+        "date": "2026-08-24"
+       },
+       {
+        "name": "2024: A Year of Milestones at Innovestor - Innovestor",
+        "document": "https://innovestorgroup.com/2024-a-year-of-milestones-at-innovestor",
+        "date": "2025-01-16"
+       }
+      ],
+      "id": "9c11f057-073d-4bdb-a649-4c901be70639"
+     }
+    },
+    {
+     "id": "8ecf5e57-a149-438c-9eb4-089809bade56",
+     "name": "SOFTWARE_AND_SERVICES",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "arcticstartup.com",
+        "document": "https://arcticstartup.com/innovestor-invests-in-polku-therapeutics-kasvu-therapeutics-and-soihtu-dtx",
+        "date": "2026-08-24"
+       },
+       {
+        "name": "2024: A Year of Milestones at Innovestor - Innovestor",
+        "document": "https://innovestorgroup.com/2024-a-year-of-milestones-at-innovestor",
+        "date": "2025-01-16"
+       }
+      ],
+      "id": "46eebfaa-4503-4ff3-b896-41b216d0f2c8"
+     }
+    },
+    {
+     "id": "dd70bbef-ce9b-4560-babf-e60310d2c6b1",
+     "name": "HEALTHCARE_PROVIDERS",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "arcticstartup.com",
+        "document": "https://arcticstartup.com/innovestor-invests-in-polku-therapeutics-kasvu-therapeutics-and-soihtu-dtx",
+        "date": "2026-08-24"
+       },
+       {
+        "name": "2024: A Year of Milestones at Innovestor - Innovestor",
+        "document": "https://innovestorgroup.com/2024-a-year-of-milestones-at-innovestor",
+        "date": "2025-01-16"
+       }
+      ],
+      "id": "c8d0b4dc-480f-491e-90ec-902c25cae7de"
+     }
+    },
+    {
+     "id": "ef520286-feae-4797-9346-55601c7c0e19",
+     "name": "PHARMACEUTICALS",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/soihtu-dtx/",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "55e80222-469a-5739-a6ed-fcf15966e7ab",
+      "original_label": "medtechPharma"
+     }
+    }
+   ],
+   "HAS_HEADQUARTERS_IN": [
+    {
+     "id": "680000b7-a490-418f-8098-9b1757db2e58",
+     "name": "Finland",
+     "entity_type": "Country",
+     "properties": {
+      "sources": [
+       {
+        "name": "arcticstartup.com",
+        "document": "https://arcticstartup.com/innovestor-invests-in-polku-therapeutics-kasvu-therapeutics-and-soihtu-dtx",
+        "date": "2026-08-24"
+       },
+       {
+        "name": "2024: A Year of Milestones at Innovestor - Innovestor",
+        "document": "https://innovestorgroup.com/2024-a-year-of-milestones-at-innovestor",
+        "date": "2025-01-16"
+       }
+      ],
+      "id": "fe2f03cb-3666-41b8-888d-8475a082e087"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "INVESTED_IN": [
+    {
+     "id": "6a966907-4006-4a4b-8d11-2330f76cb3cd",
+     "name": "Innovestor Oy",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "arcticstartup.com",
+        "document": "https://arcticstartup.com/innovestor-invests-in-polku-therapeutics-kasvu-therapeutics-and-soihtu-dtx",
+        "date": "2026-08-24"
+       },
+       {
+        "name": "2024: A Year of Milestones at Innovestor - Innovestor",
+        "document": "https://innovestorgroup.com/2024-a-year-of-milestones-at-innovestor",
+        "date": "2025-01-16"
+       },
+       {
+        "name": "startupsmagazine.co.uk",
+        "document": "https://startupsmagazine.co.uk/article-innovestor-backs-finnish-spinouts-pioneering-neurological-treatments",
+        "date": "2024-09-22",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "bebeez.eu",
+        "document": "https://bebeez.eu/2024/09/24/innovestor-backs-finnish-spinouts-addressing-neurological-disorders-with-e10m-investment/",
+        "date": "2024-09-24",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "1063ca89-b300-4381-869b-220617987606"
+     }
+    },
+    {
+     "id": "6d529184-bffc-44e6-a67e-c8ba836eb738",
+     "name": "NEWFUND MANAGEMENT",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "www.crunchbase.com",
+        "document": "https://www.crunchbase.com/organization/soihtu-dtx",
+        "date": "2026-08-25"
+       },
+       {
+        "name": "www.crunchbase.com",
+        "document": "https://www.crunchbase.com/organization/newfund-management/investor_summary/overview_timeline",
+        "date": "2026-08-25"
+       },
+       {
+        "name": "pitchbook.com",
+        "document": "https://pitchbook.com/profiles/company/607177-27",
+        "date": "2026-08-25"
+       },
+       {
+        "name": "www.crunchbase.com",
+        "document": "https://www.crunchbase.com/funding_round/soihtu-dtx-pre-seed--6a99bd90",
+        "date": "2026-08-25"
+       },
+       {
+        "name": "pitchbook.com",
+        "document": "https://pitchbook.com/profiles/fund/24850-99F",
+        "date": "2026-08-25"
+       }
+      ],
+      "id": "c2c63963-0776-44e7-b845-5e18ef6c0343"
+     }
+    },
+    {
+     "id": "ae7530e4-556e-4547-ba15-88a12fbcdcb1",
+     "name": "Techstars",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "www.crunchbase.com",
+        "document": "https://www.crunchbase.com/organization/soihtu-dtx",
+        "date": "2026-08-25"
+       },
+       {
+        "name": "www.crunchbase.com",
+        "document": "https://www.crunchbase.com/organization/newfund-management/investor_summary/overview_timeline",
+        "date": "2026-08-25"
+       },
+       {
+        "name": "pitchbook.com",
+        "document": "https://pitchbook.com/profiles/company/607177-27",
+        "date": "2026-08-25"
+       },
+       {
+        "name": "www.crunchbase.com",
+        "document": "https://www.crunchbase.com/funding_round/soihtu-dtx-pre-seed--6a99bd90",
+        "date": "2026-08-25"
+       },
+       {
+        "name": "pitchbook.com",
+        "document": "https://pitchbook.com/profiles/fund/24850-99F",
+        "date": "2026-08-25"
+       }
+      ],
+      "id": "3515d822-a55e-45d0-b09c-075d567f1986"
+     }
+    },
+    {
+     "id": "d3ae0dbf-6282-5e0f-ba10-c4a370f672fb",
+     "name": "NewFund HEKA",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "startupsmagazine.co.uk",
+        "document": "https://startupsmagazine.co.uk/article-innovestor-backs-finnish-spinouts-pioneering-neurological-treatments",
+        "date": "2024-09-22",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "bebeez.eu",
+        "document": "https://bebeez.eu/2024/09/24/innovestor-backs-finnish-spinouts-addressing-neurological-disorders-with-e10m-investment/",
+        "date": "2024-09-24",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "1f670cf5-1b8d-4d63-abb2-be6a681feca9"
+     }
+    }
+   ],
+   "IS_CEO_OF": [
+    {
+     "id": "76f335b6-2bf6-5e2a-ac45-984f97472663",
+     "name": "Jukka Laakso",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "soihtudtx.com",
+        "document": "https://soihtudtx.com/",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "09c9dfd2-dc13-5454-9025-f5f4bcf9d2d2"
+     }
+    }
+   ],
+   "IS_CTO_OF": [
+    {
+     "id": "6580c4bc-b0bd-5fe0-8c8e-c6e967c5a8f0",
+     "name": "Sami Lehtinen",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "soihtudtx.com",
+        "document": "https://soihtudtx.com/",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "aec50ad1-7992-5f54-8ce8-4a2761ce4a71"
+     }
+    }
+   ],
+   "WORKS_AT": [
+    {
+     "id": "107b50ee-1840-5bf8-814f-d89d1f20a469",
+     "name": "Lauri Lukka",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Chief Psychology Officer",
+      "sources": [
+       {
+        "name": "soihtudtx.com",
+        "document": "https://soihtudtx.com/",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "46376275-a691-5e97-a8d9-70f4300ab858"
+     }
+    },
+    {
+     "id": "1e29e685-406e-572c-b82c-3ca16d54b8c2",
+     "name": "Joonas J. Juvonen",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Chief Data & Analytics Officer",
+      "sources": [
+       {
+        "name": "soihtudtx.com",
+        "document": "https://soihtudtx.com/",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "c2383fea-d753-54da-8026-da5107da760a"
+     }
+    },
+    {
+     "id": "bd0a584b-e416-5f7a-9cec-84377281f8eb",
+     "name": "Matias Palva",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Science Lead",
+      "sources": [
+       {
+        "name": "soihtudtx.com",
+        "document": "https://soihtudtx.com/",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "1dc4def0-e824-55ed-9f0f-33ca3e5f7206"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

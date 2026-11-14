@@ -1,0 +1,300 @@
+{
+ "id": "2fc9e71b-706f-511d-9a8d-f2c3da369fba",
+ "name": "Series A",
+ "entity_type": "FundingRound",
+ "description": null,
+ "properties": {
+  "name": {
+   "value": "Series A",
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2024/10/rotterdam-based-paebbl-raises-e22-8-million-to-supercharge-co2-storage-in-the-built-environment/",
+     "date": "2024-10-09",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "paebbl.com",
+     "document": "https://paebbl.com/news-feed/we-ve-raised-25m-to-supercharge-co-storage-in-the-built-environment",
+     "date": "2024-10-09",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "round_label": {
+   "value": "SERIES_A",
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2024/10/rotterdam-based-paebbl-raises-e22-8-million-to-supercharge-co2-storage-in-the-built-environment/",
+     "date": "2024-10-09",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "paebbl.com",
+     "document": "https://paebbl.com/news-feed/we-ve-raised-25m-to-supercharge-co-storage-in-the-built-environment",
+     "date": "2024-10-09",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "instrument": {
+   "value": "EQUITY",
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2024/10/rotterdam-based-paebbl-raises-e22-8-million-to-supercharge-co2-storage-in-the-built-environment/",
+     "date": "2024-10-09",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "transaction_value": {
+   "value": 22800000.0,
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2024/10/rotterdam-based-paebbl-raises-e22-8-million-to-supercharge-co2-storage-in-the-built-environment/",
+     "date": "2024-10-09",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "siliconcanals.com",
+     "document": "https://siliconcanals.com/nordic-dutch-startup-paebbl-lands-e22-8m/",
+     "date": "2024-10-09",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "transaction_value_units": {
+   "value": "EUR",
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2024/10/rotterdam-based-paebbl-raises-e22-8-million-to-supercharge-co2-storage-in-the-built-environment/",
+     "date": "2024-10-09",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "siliconcanals.com",
+     "document": "https://siliconcanals.com/nordic-dutch-startup-paebbl-lands-e22-8m/",
+     "date": "2024-10-09",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "announcement_date": {
+   "value": "2024-10-09",
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2024/10/rotterdam-based-paebbl-raises-e22-8-million-to-supercharge-co2-storage-in-the-built-environment/",
+     "date": "2024-10-09",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "paebbl.com",
+     "document": "https://paebbl.com/news-feed/we-ve-raised-25m-to-supercharge-co-storage-in-the-built-environment",
+     "date": "2024-10-09",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "annotations": {
+   "value": [
+    "Round name as stated in the article.",
+    "round_label_stated:Series A"
+   ],
+   "sources": []
+  }
+ },
+ "relationships": {
+  "outgoing": {},
+  "incoming": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "18c35d6c-f1c2-4363-aca3-66315895f6b0",
+     "name": "2050 OÜ",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "paebbl.com",
+        "document": "https://paebbl.com/news-feed/we-ve-raised-25m-to-supercharge-co-storage-in-the-built-environment",
+        "date": "2024-10-09",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "c90268f1-1f7f-5828-8906-25871ba105ed"
+     }
+    },
+    {
+     "id": "3d5de533-b957-413e-8e7f-e202e8b7e8a5",
+     "name": "Paebbl",
+     "entity_type": "Company",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "eu-startups.com",
+        "document": "https://www.eu-startups.com/2024/10/rotterdam-based-paebbl-raises-e22-8-million-to-supercharge-co2-storage-in-the-built-environment/",
+        "date": "2024-10-09",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "paebbl.com",
+        "document": "https://paebbl.com/news-feed/we-ve-raised-25m-to-supercharge-co-storage-in-the-built-environment",
+        "date": "2024-10-09",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "e8190684-e357-5c95-8e60-f2eb86039ce1"
+     }
+    },
+    {
+     "id": "464a4a20-3ca1-4ce2-95e3-5895f86e7b5d",
+     "name": "PALE BLUE DOT LTD",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "paebbl.com",
+        "document": "https://paebbl.com/news-feed/we-ve-raised-25m-to-supercharge-co-storage-in-the-built-environment",
+        "date": "2024-10-09",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "1a38521e-0ef5-5172-a8bd-7043fe3ff359"
+     }
+    },
+    {
+     "id": "84a56c8e-b3af-4149-b91c-0cfd795580e2",
+     "name": "Aurum Impact",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "paebbl.com",
+        "document": "https://paebbl.com/news-feed/we-ve-raised-25m-to-supercharge-co-storage-in-the-built-environment",
+        "date": "2024-10-09",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "51fd2d07-a0a4-5db2-8b70-8d8e1442f712"
+     }
+    },
+    {
+     "id": "9bffcabc-8b82-5a47-bb4c-51c1935d108f",
+     "name": "Holcim MAQER Ventures",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "paebbl.com",
+        "document": "https://paebbl.com/news-feed/we-ve-raised-25m-to-supercharge-co-storage-in-the-built-environment",
+        "date": "2024-10-09",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "d2d7e548-cd51-55cd-ad08-9219417bd8ab"
+     }
+    },
+    {
+     "id": "b484c606-11f8-42a1-8635-6bf4b6bb6ee0",
+     "name": "The Grantham Foundation for the Protection of the Environment",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "paebbl.com",
+        "document": "https://paebbl.com/news-feed/we-ve-raised-25m-to-supercharge-co-storage-in-the-built-environment",
+        "date": "2024-10-09",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "a48f6019-ef3c-5e3f-ab78-1f169c5dec8d"
+     }
+    },
+    {
+     "id": "b6c49b77-7291-4713-8278-71256890e857",
+     "name": "Capnamic Ventures Management GmbH",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "paebbl.com",
+        "document": "https://paebbl.com/news-feed/we-ve-raised-25m-to-supercharge-co-storage-in-the-built-environment",
+        "date": "2024-10-09",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "is_lead": true,
+      "id": "822b7a39-5293-5a44-9332-baec42ddcb6e"
+     }
+    },
+    {
+     "id": "f7ed0e7f-b272-5669-bb70-a1f70a7f521a",
+     "name": "Family office of Antti Herlin",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "paebbl.com",
+        "document": "https://paebbl.com/news-feed/we-ve-raised-25m-to-supercharge-co-storage-in-the-built-environment",
+        "date": "2024-10-09",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "91dfb047-3f1c-571a-9e4f-e4f57568472f"
+     }
+    },
+    {
+     "id": "f7f40b9a-b17f-4563-b711-a7daba9ce449",
+     "name": "Amazon Climate Pledge Fund",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "eu-startups.com",
+        "document": "https://www.eu-startups.com/2024/10/rotterdam-based-paebbl-raises-e22-8-million-to-supercharge-co2-storage-in-the-built-environment/",
+        "date": "2024-10-09",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "981e297f-d052-58c4-8cd4-df091363cfa3"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

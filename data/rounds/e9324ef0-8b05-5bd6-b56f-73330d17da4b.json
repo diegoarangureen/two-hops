@@ -1,0 +1,139 @@
+{
+ "id": "e9324ef0-8b05-5bd6-b56f-73330d17da4b",
+ "name": "Seed",
+ "entity_type": "FundingRound",
+ "description": null,
+ "properties": {
+  "name": {
+   "value": "Seed",
+   "sources": [
+    {
+     "name": "trysignalbase.com",
+     "document": "https://www.trysignalbase.com/news/funding/trince-raises-61m-seed",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "round_label": {
+   "value": "SEED",
+   "sources": [
+    {
+     "name": "trysignalbase.com",
+     "document": "https://www.trysignalbase.com/news/funding/trince-raises-61m-seed",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "instrument": {
+   "value": "PREFERRED_EQUITY",
+   "sources": [
+    {
+     "name": "cdn.busibee.be",
+     "document": "https://cdn.busibee.be/publications/1czXyxfJQN1EZKSKwLfjhG.pdf",
+     "date": "2025-12-29",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "transaction_value": {
+   "value": 5143860.0,
+   "sources": [
+    {
+     "name": "cdn.busibee.be",
+     "document": "https://cdn.busibee.be/publications/1czXyxfJQN1EZKSKwLfjhG.pdf",
+     "date": "2025-12-29",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "einpresswire.com",
+     "document": "https://www.einpresswire.com/article/885641175/trince-raises-5-2-million-6-million-funding-to-fuel-commercial-expansion-and-technology-development",
+     "date": "2026-01-22",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "transaction_value_units": {
+   "value": "EUR",
+   "sources": [
+    {
+     "name": "cdn.busibee.be",
+     "document": "https://cdn.busibee.be/publications/1czXyxfJQN1EZKSKwLfjhG.pdf",
+     "date": "2025-12-29",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "einpresswire.com",
+     "document": "https://www.einpresswire.com/article/885641175/trince-raises-5-2-million-6-million-funding-to-fuel-commercial-expansion-and-technology-development",
+     "date": "2026-01-22",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "announcement_date": {
+   "value": "2026-01-22",
+   "sources": [
+    {
+     "name": "einpresswire.com",
+     "document": "https://www.einpresswire.com/article/885641175/trince-raises-5-2-million-6-million-funding-to-fuel-commercial-expansion-and-technology-development",
+     "date": "2026-01-22",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "event_date": {
+   "value": "2025-12-18",
+   "sources": [
+    {
+     "name": "cdn.busibee.be",
+     "document": "https://cdn.busibee.be/publications/1czXyxfJQN1EZKSKwLfjhG.pdf",
+     "date": "2025-12-29",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "annotations": {
+   "value": [
+    "Round name found by web search (\"Trince\" funding rounds | \"Trince\" raises): the page names the company, an amount within 15% of this round and the round name.",
+    "round_label_stated:Seed"
+   ],
+   "sources": []
+  }
+ },
+ "relationships": {
+  "outgoing": {},
+  "incoming": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "01eeb50b-e428-41a6-ae7f-6287ec5c1ee5",
+     "name": "Trince",
+     "entity_type": "Company",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "trysignalbase.com",
+        "document": "https://www.trysignalbase.com/news/funding/trince-raises-61m-seed",
+        "date": "2026-11-04",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "ce1adc2c-1be3-52ca-bd69-984f5071cbf9"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

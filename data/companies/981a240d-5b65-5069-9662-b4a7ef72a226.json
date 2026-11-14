@@ -1,0 +1,330 @@
+{
+ "id": "981a240d-5b65-5069-9662-b4a7ef72a226",
+ "name": "inference shell",
+ "entity_type": "Company",
+ "description": "everything your agent needs. run any model, compose agents, stack knowledge. skills, tools, and memory in one platform that compounds with use.",
+ "properties": {
+  "name": {
+   "value": "inference shell",
+   "sources": [
+    {
+     "name": "inference.sh",
+     "document": "https://inference.sh/",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "inference.sh",
+     "document": "https://inference.sh/about",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "Inference Shell Inc.",
+   "sources": [
+    {
+     "name": "inference.sh",
+     "document": "https://inference.sh/privacy",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "inference.sh",
+     "document": "https://inference.sh/terms",
+     "date": "2026-11-03",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "website": {
+   "value": "inference.sh",
+   "sources": [
+    {
+     "name": "inference.sh",
+     "document": "https://inference.sh/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "dns.google",
+     "document": "https://dns.google/query?name=inference.sh&type=A",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "everything your agent needs. run any model, compose agents, stack knowledge. skills, tools, and memory in one platform that compounds with use.",
+   "sources": [
+    {
+     "name": "inference.sh",
+     "document": "https://inference.sh/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2025-01-01",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/inference-sh/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    },
+    {
+     "name": "inference.sh",
+     "document": "https://inference.sh/about",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "2261 Market Street, Ste 22830, San Francisco, CA 94114, United States",
+   "sources": [
+    {
+     "name": "inference.sh",
+     "document": "https://inference.sh/about",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "inference.sh",
+     "document": "https://inference.sh/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "4d3ebcd5-1ba8-5e7c-a21c-36a5b6b9a675",
+     "name": "Angel",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "everydev.ai",
+        "document": "https://www.everydev.ai/developers/inference-shell-inc",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "04d8e304-cd36-566b-b6fa-371741590b15"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "098e9817-3290-5d96-9fd8-f9ed19d726b6"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "8ecf5e57-a149-438c-9eb4-089809bade56",
+     "name": "SOFTWARE_AND_SERVICES",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/inference-sh/",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "a22346a2-e2b4-5126-af9f-244d1a6682e3",
+      "original_label": "ai"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "INVESTED_IN": [
+    {
+     "id": "37b9c1af-7e8c-5f2b-a945-dfe65118f8df",
+     "name": "Jan Hammer",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "inference.sh",
+        "document": "https://inference.sh/about",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "everydev.ai",
+        "document": "https://www.everydev.ai/developers/inference-shell-inc",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "8a527474-2d9e-401d-b7a7-f09cda7e8ca8"
+     }
+    },
+    {
+     "id": "a2e00460-78f7-42c7-bb1b-8aaecce08f9f",
+     "name": "EWOR",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "inference.sh",
+        "document": "https://inference.sh/about",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "67277c29-f118-41b4-8c8a-30256f776813"
+     }
+    },
+    {
+     "id": "bc9fdc04-6520-4296-92f2-d2af7d768c44",
+     "name": "Backtrace Capital",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "inference.sh",
+        "document": "https://inference.sh/about",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "04059ca4-b714-4270-9cf6-d1fbc05c4077"
+     }
+    },
+    {
+     "id": "d64c3e34-5512-5796-8492-35e8350fae58",
+     "name": "Caspar von Hayek",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "everydev.ai",
+        "document": "https://www.everydev.ai/developers/inference-shell-inc",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "97b8edd7-b286-4406-9f4a-e04ec5eefceb"
+     }
+    },
+    {
+     "id": "e302d2c8-e77b-56ec-8d18-c1f4de4ce3f1",
+     "name": "Luca Giacomel",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "inference.sh",
+        "document": "https://inference.sh/about",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "everydev.ai",
+        "document": "https://www.everydev.ai/developers/inference-shell-inc",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "fc71c55d-cd7c-4905-a15b-b1185e3b9c2b"
+     }
+    },
+    {
+     "id": "fbb0b7ba-606c-4e54-a436-5505c590d1e8",
+     "name": "Misch Strotz",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "inference.sh",
+        "document": "https://inference.sh/about",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "everydev.ai",
+        "document": "https://www.everydev.ai/developers/inference-shell-inc",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "9844e0cd-fe9f-4cf7-9871-c80d824e4c3b"
+     }
+    }
+   ],
+   "FOUNDED": [
+    {
+     "id": "6f893ca1-b460-5f43-a1b0-32825f8d5d4c",
+     "name": "Ömer Karışman",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "inference.sh",
+        "document": "https://inference.sh/about",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "631a5a29-2f2a-54c4-b41a-c46eab498c7a",
+      "valid_since": "2025-01-01"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

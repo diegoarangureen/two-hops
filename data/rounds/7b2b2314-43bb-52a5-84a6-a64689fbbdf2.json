@@ -1,0 +1,349 @@
+{
+ "id": "7b2b2314-43bb-52a5-84a6-a64689fbbdf2",
+ "name": "Series C",
+ "entity_type": "FundingRound",
+ "description": null,
+ "properties": {
+  "name": {
+   "value": "Series C",
+   "sources": [
+    {
+     "name": "yourstory.com",
+     "document": "https://yourstory.com/2025/01/elevenlabs-raises-series-c-round-a16z-iconiq-growth",
+     "date": "2025-01-31",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "round_label": {
+   "value": "SERIES_C",
+   "sources": [
+    {
+     "name": "yourstory.com",
+     "document": "https://yourstory.com/2025/01/elevenlabs-raises-series-c-round-a16z-iconiq-growth",
+     "date": "2025-01-31",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "instrument": {
+   "value": "EQUITY",
+   "sources": [
+    {
+     "name": "yourstory.com",
+     "document": "https://yourstory.com/2025/01/elevenlabs-raises-series-c-round-a16z-iconiq-growth",
+     "date": "2025-01-31",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "transaction_value": {
+   "value": 180000000.0,
+   "sources": [
+    {
+     "name": "yourstory.com",
+     "document": "https://yourstory.com/2025/01/elevenlabs-raises-series-c-round-a16z-iconiq-growth",
+     "date": "2025-01-31",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "transaction_value_units": {
+   "value": "USD",
+   "sources": [
+    {
+     "name": "yourstory.com",
+     "document": "https://yourstory.com/2025/01/elevenlabs-raises-series-c-round-a16z-iconiq-growth",
+     "date": "2025-01-31",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "announcement_date": {
+   "value": "2025-01-31",
+   "sources": [
+    {
+     "name": "yourstory.com",
+     "document": "https://yourstory.com/2025/01/elevenlabs-raises-series-c-round-a16z-iconiq-growth",
+     "date": "2025-01-31",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "annotations": {
+   "value": [
+    "'Series C' (YourStory).",
+    "round_label_stated:Series C"
+   ],
+   "sources": []
+  }
+ },
+ "relationships": {
+  "outgoing": {},
+  "incoming": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "151bf814-7566-4b14-a7d2-f0d802ef0981",
+     "name": "Sequoia Capital",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "yourstory.com",
+        "document": "https://yourstory.com/2025/01/elevenlabs-raises-series-c-round-a16z-iconiq-growth",
+        "date": "2025-01-31",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "d6735659-3d2e-5c87-82a8-13ac87252ea4"
+     }
+    },
+    {
+     "id": "1c2ad8a2-8b24-48d6-915d-2a67e92e3711",
+     "name": "ELEVEN LABS INC.",
+     "entity_type": "Company",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "yourstory.com",
+        "document": "https://yourstory.com/2025/01/elevenlabs-raises-series-c-round-a16z-iconiq-growth",
+        "date": "2025-01-31",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "ae0db52b-b1e2-5106-8556-6c8519ab4bf5"
+     }
+    },
+    {
+     "id": "5f580685-49ac-4324-8c2c-dda02cc2760d",
+     "name": "SV Angel",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "yourstory.com",
+        "document": "https://yourstory.com/2025/01/elevenlabs-raises-series-c-round-a16z-iconiq-growth",
+        "date": "2025-01-31",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "53554f12-3e4b-5fd4-b21a-c135a2affcb2"
+     }
+    },
+    {
+     "id": "713ad57c-9383-4c9b-a6bc-94176574dd9e",
+     "name": "World Innovation Lab (WiL)",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "yourstory.com",
+        "document": "https://yourstory.com/2025/01/elevenlabs-raises-series-c-round-a16z-iconiq-growth",
+        "date": "2025-01-31",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "44e3dc7a-7c48-5712-82b3-a78a70cb6535"
+     }
+    },
+    {
+     "id": "a2e949a3-8648-4462-8dd6-ac689670e762",
+     "name": "Valor Capital Group",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "yourstory.com",
+        "document": "https://yourstory.com/2025/01/elevenlabs-raises-series-c-round-a16z-iconiq-growth",
+        "date": "2025-01-31",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "2a9ad79d-423d-5fe3-ac3e-a79acd6e4a6d"
+     }
+    },
+    {
+     "id": "aa181a57-6c84-4d18-9035-0b6442044727",
+     "name": "LUNATE SPECIAL OPPORTUNITIES I LP",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "yourstory.com",
+        "document": "https://yourstory.com/2025/01/elevenlabs-raises-series-c-round-a16z-iconiq-growth",
+        "date": "2025-01-31",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "aac42295-e44d-5af4-a761-5a9eb8186388"
+     }
+    },
+    {
+     "id": "b0f143e9-f624-489e-bd23-0657a0646c62",
+     "name": "BroadLight Capital",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "yourstory.com",
+        "document": "https://yourstory.com/2025/01/elevenlabs-raises-series-c-round-a16z-iconiq-growth",
+        "date": "2025-01-31",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "33e6f455-56a6-5880-9cba-ab9858351a55"
+     }
+    },
+    {
+     "id": "b9123194-e9f0-46d9-96cf-76690a9c2118",
+     "name": "Endeavor Catalyst Fund",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "yourstory.com",
+        "document": "https://yourstory.com/2025/01/elevenlabs-raises-series-c-round-a16z-iconiq-growth",
+        "date": "2025-01-31",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "5b5d8b98-ac25-5a28-8b3b-235a5de4c4e2"
+     }
+    },
+    {
+     "id": "c5846e9e-7cf8-4886-bb0a-34ecc24bfe0c",
+     "name": "ICONIQ Growth",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "yourstory.com",
+        "document": "https://yourstory.com/2025/01/elevenlabs-raises-series-c-round-a16z-iconiq-growth",
+        "date": "2025-01-31",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "is_lead": true,
+      "id": "c5c5f491-226e-52f1-8b09-b3cc359adaca"
+     }
+    },
+    {
+     "id": "c96e885a-5a6f-442d-a6e3-2531b238c2a3",
+     "name": "New Enterprise Associates (NEA)",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "yourstory.com",
+        "document": "https://yourstory.com/2025/01/elevenlabs-raises-series-c-round-a16z-iconiq-growth",
+        "date": "2025-01-31",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "69c3d9a9-58f7-52ed-a5d2-9ae2f6e848c2"
+     }
+    },
+    {
+     "id": "cb1810ff-fc3a-4196-961b-b5d817306bb8",
+     "name": "NFDG",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "yourstory.com",
+        "document": "https://yourstory.com/2025/01/elevenlabs-raises-series-c-round-a16z-iconiq-growth",
+        "date": "2025-01-31",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "e6a8e8b3-589d-5283-9e2d-d7bbd11f8209"
+     }
+    },
+    {
+     "id": "d4c3a691-c0b1-4777-b3cc-2cd1755cbbac",
+     "name": "Smash Capital Advisors L.P.",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "yourstory.com",
+        "document": "https://yourstory.com/2025/01/elevenlabs-raises-series-c-round-a16z-iconiq-growth",
+        "date": "2025-01-31",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "8dff6324-b459-5674-9744-a6dc5e8677c5"
+     }
+    },
+    {
+     "id": "daebf7ee-cf07-459c-a3c6-65523efcefa7",
+     "name": "Andreessen Horowitz",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "yourstory.com",
+        "document": "https://yourstory.com/2025/01/elevenlabs-raises-series-c-round-a16z-iconiq-growth",
+        "date": "2025-01-31",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "is_lead": true,
+      "id": "5347a5f7-d233-5578-a266-170c933c5824"
+     }
+    },
+    {
+     "id": "e3389e57-0aa1-494b-84fc-ddd4ceafbd80",
+     "name": "SALESFORCE VENTURES LLC",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "yourstory.com",
+        "document": "https://yourstory.com/2025/01/elevenlabs-raises-series-c-round-a16z-iconiq-growth",
+        "date": "2025-01-31",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "fe6454ee-8dc7-5414-abe9-9ca2d046f345"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

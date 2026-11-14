@@ -1,0 +1,411 @@
+{
+ "id": "00fd23cf-5a6b-58af-9f78-a24f39487dad",
+ "name": "Fenix Energy",
+ "entity_type": "Company",
+ "description": "We decarbonize the production of heat and electricity in your industrial processes using iron powder : a revolutionary low-carbon, cost-effective, and recyclable fuel.",
+ "properties": {
+  "name": {
+   "value": "Fenix Energy",
+   "sources": [
+    {
+     "name": "fenixenergy.fr",
+     "document": "https://fenixenergy.fr/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/fenix-energy/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "FENIX ENERGY",
+   "sources": [
+    {
+     "name": "recherche-entreprises.api.gouv.fr",
+     "document": "https://recherche-entreprises.api.gouv.fr/search?q=951437458",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "website": {
+   "value": "fenixenergy.fr",
+   "sources": [
+    {
+     "name": "fenixenergy.fr",
+     "document": "https://fenixenergy.fr/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "dns.google",
+     "document": "https://dns.google/query?name=fenixenergy.fr&type=A",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "We decarbonize the production of heat and electricity in your industrial processes using iron powder : a revolutionary low-carbon, cost-effective, and recyclable fuel.",
+   "sources": [
+    {
+     "name": "fenixenergy.fr",
+     "document": "https://fenixenergy.fr/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2023-04-17",
+   "sources": [
+    {
+     "name": "recherche-entreprises.api.gouv.fr",
+     "document": "https://recherche-entreprises.api.gouv.fr/search?q=951437458",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "Lyon, France",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/fenix-energy/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "fenixenergy.fr",
+     "document": "https://fenixenergy.fr/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "recherche-entreprises.api.gouv.fr",
+     "document": "https://recherche-entreprises.api.gouv.fr/search?q=951437458",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "employee_count_range": {
+   "value": [
+    11,
+    50
+   ],
+   "sources": [
+    {
+     "name": "my.motherbase.ai",
+     "document": "https://my.motherbase.ai/startup/203114-fenix-energy",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "total_funding": {
+   "value": 7000.0,
+   "sources": [
+    {
+     "name": "data.economie.gouv.fr",
+     "document": "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/aides_minimis/records?where=search(%22951437458%22)",
+     "date": "2026-09-07",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "total_funding_units": {
+   "value": "EUR",
+   "sources": [
+    {
+     "name": "data.economie.gouv.fr",
+     "document": "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/aides_minimis/records?where=search(%22951437458%22)",
+     "date": "2026-09-07",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "total_funding_excluding_debt": {
+   "value": 7000.0,
+   "sources": [
+    {
+     "name": "data.economie.gouv.fr",
+     "document": "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/aides_minimis/records?where=search(%22951437458%22)",
+     "date": "2026-09-07",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "4147f8f3-ce15-51e0-a97f-3c6da33f0805",
+     "name": "Grant",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "data.economie.gouv.fr",
+        "document": "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/aides_minimis/records?where=search(%22951437458%22)",
+        "date": "2026-09-07",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "ab7caa16-0520-5631-80dc-8a5d9b1c5de4"
+     }
+    },
+    {
+     "id": "6a46abd3-a59a-5eb2-a25c-996a858921df",
+     "name": "Seed",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "bodacc.fr",
+        "document": "https://www.bodacc.fr/pages/annonces-commerciales-detail/?q.id=id:B202501271438",
+        "date": "2025-07-04",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "0b50a40a-dd46-5f5c-b4ff-65031870bbb0"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "f72519c0-e0a1-54cb-823b-a65fd5ffca3a"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "11ce48e0-a853-4085-8142-f674977b1a3a",
+     "name": "RENEWABLE_ENERGY",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/fenix-energy/",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "390d3cac-1be5-5929-90ef-70f62750580e",
+      "original_label": "energy"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "FOUNDED": [
+    {
+     "id": "b570cf8f-b5a4-574c-9b53-47527d4e93ed",
+     "name": "Youssef Berro",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "fenixenergy.fr",
+        "document": "https://www.fenixenergy.fr/team",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "e1d61e9c-7db5-5b80-83dd-866682002760"
+     }
+    },
+    {
+     "id": "b8af1d6a-53b8-56df-9c4a-29dbd7376b60",
+     "name": "Driss Laraqui",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "fenixenergy.fr",
+        "document": "https://www.fenixenergy.fr/team",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "03f09f50-64cf-5b8f-a67e-7a7368eab2c8"
+     }
+    },
+    {
+     "id": "c42eb714-40ba-58bf-8ec6-392051a7080e",
+     "name": "Nawal Jammot",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "fenixenergy.fr",
+        "document": "https://www.fenixenergy.fr/team",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "90abb454-fc24-5d46-b3f0-140c189ba7a1"
+     }
+    },
+    {
+     "id": "e89ba813-8ff0-525d-b633-bebbb382de45",
+     "name": "Sylvain Allano",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "fenixenergy.fr",
+        "document": "https://www.fenixenergy.fr/team",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "7552ee6d-d919-56dc-8017-21f30d36b8b3"
+     }
+    }
+   ],
+   "IS_CEO_OF": [
+    {
+     "id": "b8af1d6a-53b8-56df-9c4a-29dbd7376b60",
+     "name": "Driss Laraqui",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "fenixenergy.fr",
+        "document": "https://www.fenixenergy.fr/team",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "c0c78f89-7970-5ee5-8c38-bcd8946ea75c"
+     }
+    }
+   ],
+   "IS_CTO_OF": [
+    {
+     "id": "b570cf8f-b5a4-574c-9b53-47527d4e93ed",
+     "name": "Youssef Berro",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "fenixenergy.fr",
+        "document": "https://www.fenixenergy.fr/team",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "811fdd0f-a378-5c32-a252-d3e10276aa8c"
+     }
+    }
+   ],
+   "WORKS_AT": [
+    {
+     "id": "b8af1d6a-53b8-56df-9c4a-29dbd7376b60",
+     "name": "Driss Laraqui",
+     "entity_type": "Person",
+     "properties": {
+      "role": "President",
+      "sources": [
+       {
+        "name": "recherche-entreprises.api.gouv.fr",
+        "document": "https://recherche-entreprises.api.gouv.fr/search?q=951437458",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "b8bebbf8-fdb3-5d92-b9b3-b5a71aafe94a"
+     }
+    },
+    {
+     "id": "d21b1821-3bd3-5a42-94be-43adb239916f",
+     "name": "Frédéric Thevenod",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Business Development Advisor",
+      "sources": [
+       {
+        "name": "fenixenergy.fr",
+        "document": "https://www.fenixenergy.fr/team",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "0bbd6354-a37d-5f7f-a398-b06466a55c36"
+     }
+    },
+    {
+     "id": "e076cd16-e414-5a0f-b21c-01c8784d162b",
+     "name": "Zachary Chandler",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Industrialization & Sales",
+      "sources": [
+       {
+        "name": "fenixenergy.fr",
+        "document": "https://www.fenixenergy.fr/team",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "44c99bc1-b3d0-5504-9f29-4cdb9b825daa"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

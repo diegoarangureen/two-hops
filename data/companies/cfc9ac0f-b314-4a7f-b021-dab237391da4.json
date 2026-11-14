@@ -1,0 +1,589 @@
+{
+ "id": "cfc9ac0f-b314-4a7f-b021-dab237391da4",
+ "name": "Veil.ai Oy",
+ "entity_type": "Company",
+ "description": "Finnish privacy-enhancing technology company, a University of Helsinki (FIMM) spin-out, whose BONSAI applications anonymize or synthesize structured health data and redact personal data from free t...",
+ "properties": {
+  "name": {
+   "value": "Veil.ai Oy",
+   "sources": [
+    {
+     "name": "GLEIF",
+     "document": "https://search.gleif.org/#/record/7437002KOY54ACGCMU70",
+     "date": "2026-09-05"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "Veil.ai Oy",
+   "sources": [
+    {
+     "name": "GLEIF",
+     "document": "https://search.gleif.org/#/record/7437002KOY54ACGCMU70",
+     "date": "2026-09-05"
+    },
+    {
+     "name": "tietopalvelu.ytj.fi",
+     "document": "https://tietopalvelu.ytj.fi/yritys/3107134-6",
+     "date": "2026-09-15",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "aliases": {
+   "value": [
+    "Veil.Ai"
+   ],
+   "sources": []
+  },
+  "website": {
+   "value": "veil.ai",
+   "sources": [
+    {
+     "name": "veil.ai",
+     "document": "https://veil.ai/",
+     "date": "2026-10-29",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "dns.google",
+     "document": "https://dns.google/query?name=veil.ai&type=A",
+     "date": "2026-10-29",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "Finnish privacy-enhancing technology company, a University of Helsinki (FIMM) spin-out, whose BONSAI applications anonymize or synthesize structured health data and redact personal data from free t...",
+   "sources": [
+    {
+     "name": "veil.ai",
+     "document": "https://veil.ai/",
+     "date": "2026-11-07",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "veil.ai",
+     "document": "https://veil.ai/about-us/",
+     "date": "2024-09-01",
+     "date_precision": "month",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "helsinki.fi",
+     "document": "https://www.helsinki.fi/en/news/technology/veilai-produces-increasingly-safe-data-medical-science-licence-agreement-concluded-university-helsinki",
+     "date": "2021-03-03",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2020-02-05",
+   "sources": [
+    {
+     "name": "tietopalvelu.ytj.fi",
+     "document": "https://tietopalvelu.ytj.fi/yritys/3107134-6",
+     "date": "2026-09-15",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "helsinki.fi",
+     "document": "https://www.helsinki.fi/en/news/technology/veilai-produces-increasingly-safe-data-medical-science-licence-agreement-concluded-university-helsinki",
+     "date": "2021-03-03",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "Haartmaninkatu 4, 00290 Helsinki, Finland",
+   "sources": [
+    {
+     "name": "tietopalvelu.ytj.fi",
+     "document": "https://tietopalvelu.ytj.fi/yritys/3107134-6",
+     "date": "2026-09-15",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "registered_address": {
+   "value": "Haartmaninkatu 4, 00290 HELSINKI, HELSINKI, FI-00290, FI",
+   "sources": [
+    {
+     "name": "GLEIF",
+     "document": "https://search.gleif.org/#/record/7437002KOY54ACGCMU70",
+     "date": "2026-09-05"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "INACTIVE",
+   "sources": [
+    {
+     "name": "tietopalvelu.ytj.fi",
+     "document": "https://tietopalvelu.ytj.fi/yritys/3107134-6",
+     "date": "2026-09-15",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "asiakastieto.fi",
+     "document": "https://www.asiakastieto.fi/yritykset/fi/veil-ai-oy/31071346/yleiskuva",
+     "date": "2026-11-07",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "total_funding": {
+   "value": 2870595.0,
+   "sources": [
+    {
+     "name": "cordis.europa.eu",
+     "document": "https://cordis.europa.eu/project/id/965193",
+     "date": "2026-11-07",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "cordis.europa.eu",
+     "document": "https://cordis.europa.eu/project/id/101094195",
+     "date": "2026-11-07",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "cordis.europa.eu",
+     "document": "https://cordis.europa.eu/project/id/101137154",
+     "date": "2026-11-07",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "helsinki.fi",
+     "document": "https://www.helsinki.fi/en/helsinki-innovation-services/news-archive/university-helsinki-spinout-receives-million-dollar-international-investment",
+     "date": "2022-08-23",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "bionity.com",
+     "document": "https://bionity.com/en/news/1177425/the-bioinnovation-institute-supports-three-international-start-ups-developing-pioneering-science-in-the-therapeutics-and-health-tech-space.html",
+     "date": "2022-08-24",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "total_funding_units": {
+   "value": "EUR",
+   "sources": [
+    {
+     "name": "cordis.europa.eu",
+     "document": "https://cordis.europa.eu/project/id/965193",
+     "date": "2026-11-07",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "cordis.europa.eu",
+     "document": "https://cordis.europa.eu/project/id/101094195",
+     "date": "2026-11-07",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "cordis.europa.eu",
+     "document": "https://cordis.europa.eu/project/id/101137154",
+     "date": "2026-11-07",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "helsinki.fi",
+     "document": "https://www.helsinki.fi/en/helsinki-innovation-services/news-archive/university-helsinki-spinout-receives-million-dollar-international-investment",
+     "date": "2022-08-23",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "bionity.com",
+     "document": "https://bionity.com/en/news/1177425/the-bioinnovation-institute-supports-three-international-start-ups-developing-pioneering-science-in-the-therapeutics-and-health-tech-space.html",
+     "date": "2022-08-24",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "total_funding_excluding_debt": {
+   "value": 2870595.0,
+   "sources": [
+    {
+     "name": "cordis.europa.eu",
+     "document": "https://cordis.europa.eu/project/id/965193",
+     "date": "2026-11-07",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "cordis.europa.eu",
+     "document": "https://cordis.europa.eu/project/id/101094195",
+     "date": "2026-11-07",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "cordis.europa.eu",
+     "document": "https://cordis.europa.eu/project/id/101137154",
+     "date": "2026-11-07",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "helsinki.fi",
+     "document": "https://www.helsinki.fi/en/helsinki-innovation-services/news-archive/university-helsinki-spinout-receives-million-dollar-international-investment",
+     "date": "2022-08-23",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "bionity.com",
+     "document": "https://bionity.com/en/news/1177425/the-bioinnovation-institute-supports-three-international-start-ups-developing-pioneering-science-in-the-therapeutics-and-health-tech-space.html",
+     "date": "2022-08-24",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "50632c3d-cf6f-5380-be22-d18b7af66769",
+     "name": "Grant",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "cordis.europa.eu",
+        "document": "https://cordis.europa.eu/project/id/965193",
+        "date": "2026-10-30",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "e60b0d76-37de-56a5-8bf0-b0ed1b539368"
+     }
+    },
+    {
+     "id": "6a14e08c-14f5-51af-b797-bef09e8da3a4",
+     "name": "Convertible Notes round",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "bionity.com",
+        "document": "https://bionity.com/en/news/1177425/the-bioinnovation-institute-supports-three-international-start-ups-developing-pioneering-science-in-the-therapeutics-and-health-tech-space.html",
+        "date": "2022-08-24",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "5c7eb3a2-4d71-5ecd-8907-6afb68337de4"
+     }
+    },
+    {
+     "id": "d95c235b-8d3a-5858-88b2-fe4f49b22408",
+     "name": "Grant",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "cordis.europa.eu",
+        "document": "https://cordis.europa.eu/project/id/101094195",
+        "date": "2026-10-30",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       },
+       {
+        "name": "cordis.europa.eu",
+        "document": "https://cordis.europa.eu/project/id/101137154",
+        "date": "2026-10-30",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "c5d5fa7f-479e-55ac-86ca-928f835e3a99"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "87d5a95e-b275-5465-a46d-d1c89b9ff410"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "8ecf5e57-a149-438c-9eb4-089809bade56",
+     "name": "SOFTWARE_AND_SERVICES",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/veil-ai/",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       },
+       {
+        "name": "veil.ai",
+        "document": "https://veil.ai/",
+        "date": "2026-11-07",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "a6bc0fac-6479-5b23-912a-283b178d8b2e",
+      "original_label": "analytics"
+     }
+    }
+   ],
+   "HAS_HEADQUARTERS_IN": [
+    {
+     "id": "680000b7-a490-418f-8098-9b1757db2e58",
+     "name": "Finland",
+     "entity_type": "Country",
+     "properties": {
+      "sources": [
+       {
+        "name": "GLEIF",
+        "document": "https://search.gleif.org/#/record/7437002KOY54ACGCMU70",
+        "date": "2026-04-08"
+       }
+      ],
+      "id": "12656bf0-1617-5d36-9a91-0cc934cfc630"
+     }
+    }
+   ],
+   "IS_REGISTERED_IN": [
+    {
+     "id": "680000b7-a490-418f-8098-9b1757db2e58",
+     "name": "Finland",
+     "entity_type": "Country",
+     "properties": {
+      "sources": [
+       {
+        "name": "GLEIF",
+        "document": "https://search.gleif.org/#/record/7437002KOY54ACGCMU70",
+        "date": "2026-04-08"
+       }
+      ],
+      "id": "58469325-cb61-56a9-bc75-c3b42918a28e"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "INVESTED_IN": [
+    {
+     "id": "9959f461-f24f-45c1-b90c-f8bbec2fa53a",
+     "name": "BioInnovation Institute",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "helsinki.fi",
+        "document": "https://www.helsinki.fi/en/helsinki-innovation-services/news-archive/university-helsinki-spinout-receives-million-dollar-international-investment",
+        "date": "2022-08-23",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "bionity.com",
+        "document": "https://bionity.com/en/news/1177425/the-bioinnovation-institute-supports-three-international-start-ups-developing-pioneering-science-in-the-therapeutics-and-health-tech-space.html",
+        "date": "2022-08-24",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "4f42f1d9-9ccf-4092-849b-197aa8d4e986"
+     }
+    }
+   ],
+   "FOUNDED": [
+    {
+     "id": "dce02b4c-dda5-5bd1-8198-4590360db4c7",
+     "name": "Tuomo Pentikäinen",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "snowflake.com",
+        "document": "https://www.snowflake.com/it/blog/startup-spotlight-veil-ai-healthcare-privacy/",
+        "date": "2025-10-01",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "7e856365-801d-5dc2-b822-cfee3d40777a"
+     }
+    },
+    {
+     "id": "fa810996-720f-56a8-80eb-139069ee50fd",
+     "name": "Timo Miettinen",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "snowflake.com",
+        "document": "https://www.snowflake.com/it/blog/startup-spotlight-veil-ai-healthcare-privacy/",
+        "date": "2025-10-01",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "ce289ad3-9744-569d-aeb2-feaca171c250"
+     }
+    }
+   ],
+   "IS_CEO_OF": [
+    {
+     "id": "dce02b4c-dda5-5bd1-8198-4590360db4c7",
+     "name": "Tuomo Pentikäinen",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "helsinki.fi",
+        "document": "https://www.helsinki.fi/en/news/technology/veilai-produces-increasingly-safe-data-medical-science-licence-agreement-concluded-university-helsinki",
+        "date": "2021-03-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "helsinki.fi",
+        "document": "https://www.helsinki.fi/en/helsinki-innovation-services/news-archive/university-helsinki-spinout-receives-million-dollar-international-investment",
+        "date": "2022-08-23",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "snowflake.com",
+        "document": "https://www.snowflake.com/it/blog/startup-spotlight-veil-ai-healthcare-privacy/",
+        "date": "2025-10-01",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "asiakastieto.fi",
+        "document": "https://www.asiakastieto.fi/yritykset/fi/veil-ai-oy/31071346/yleiskuva",
+        "date": "2026-11-07",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "a99afd9d-dafc-5046-94ee-f7cba3568a27"
+     }
+    }
+   ],
+   "IS_CTO_OF": [
+    {
+     "id": "fa810996-720f-56a8-80eb-139069ee50fd",
+     "name": "Timo Miettinen",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "snowflake.com",
+        "document": "https://www.snowflake.com/it/blog/startup-spotlight-veil-ai-healthcare-privacy/",
+        "date": "2025-10-01",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "c41df0ec-3347-5861-80f1-340d7f9a1732"
+     }
+    }
+   ],
+   "IS_BOARD_MEMBER_OF": [
+    {
+     "id": "058292a5-20e2-5fd5-b8c5-fcab7556b748",
+     "name": "Kimmo Sundqvist",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "asiakastieto.fi",
+        "document": "https://www.asiakastieto.fi/yritykset/fi/veil-ai-oy/31071346/yleiskuva",
+        "date": "2026-11-07",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "1bb4b4ed-44fa-5749-a3c8-d929e143db02"
+     }
+    },
+    {
+     "id": "d30385fd-d9c2-5277-9973-c18efad398f5",
+     "name": "Janna Saarela",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "asiakastieto.fi",
+        "document": "https://www.asiakastieto.fi/yritykset/fi/veil-ai-oy/31071346/yleiskuva",
+        "date": "2026-11-07",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "38f36955-16ff-5fc1-b9eb-f182e01542d3"
+     }
+    },
+    {
+     "id": "eff5c136-49fd-5794-b090-7111e0fa595e",
+     "name": "Mikko Mannerkoski",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "asiakastieto.fi",
+        "document": "https://www.asiakastieto.fi/yritykset/fi/veil-ai-oy/31071346/yleiskuva",
+        "date": "2026-11-07",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "ecbf720e-e9b4-5d10-870a-bdcdc9add4b1"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

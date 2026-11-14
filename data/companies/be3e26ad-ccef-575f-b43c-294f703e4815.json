@@ -1,0 +1,407 @@
+{
+ "id": "be3e26ad-ccef-575f-b43c-294f703e4815",
+ "name": "Filics",
+ "entity_type": "Company",
+ "description": "Das AMR Doppelkufensystem Filics Streamliner ermöglicht effizienten Palettentransport ohne Rangieren – selbst in beengten Umgebungen und komplexen Prozessen.",
+ "properties": {
+  "name": {
+   "value": "Filics",
+   "sources": [
+    {
+     "name": "filics.eu",
+     "document": "https://filics.eu/",
+     "date": "2026-10-29",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2025/07/german-robotics-company-filics-secures-e13-5-million-to-expand-and-roll-out-its-robotics-platform/",
+     "date": "2025-07-01",
+     "date_precision": "month",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "FILICS GmbH",
+   "sources": [
+    {
+     "name": "filics.eu",
+     "document": "https://www.filics.eu/impressum",
+     "date": "2026-11-09",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "website": {
+   "value": "filics.eu",
+   "sources": [
+    {
+     "name": "filics.eu",
+     "document": "https://filics.eu/",
+     "date": "2026-10-29",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "dns.google",
+     "document": "https://dns.google/query?name=filics.eu&type=A",
+     "date": "2026-10-29",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "Das AMR Doppelkufensystem Filics Streamliner ermöglicht effizienten Palettentransport ohne Rangieren – selbst in beengten Umgebungen und komplexen Prozessen.",
+   "sources": [
+    {
+     "name": "filics.eu",
+     "document": "https://www.filics.eu/",
+     "date": "2026-11-09",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2019-01-01",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/filics/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "Geretsrieder Straße 10, 81379 München, Germany",
+   "sources": [
+    {
+     "name": "filics.eu",
+     "document": "https://www.filics.eu/impressum",
+     "date": "2026-11-09",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "filics.eu",
+     "document": "https://www.filics.eu/",
+     "date": "2026-11-06",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "total_funding": {
+   "value": 13500000.0,
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2025/07/german-robotics-company-filics-secures-e13-5-million-to-expand-and-roll-out-its-robotics-platform/",
+     "date": "2025-07-01",
+     "date_precision": "month",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "total_funding_units": {
+   "value": "EUR",
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2025/07/german-robotics-company-filics-secures-e13-5-million-to-expand-and-roll-out-its-robotics-platform/",
+     "date": "2025-07-01",
+     "date_precision": "month",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "total_funding_excluding_debt": {
+   "value": 13500000.0,
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2025/07/german-robotics-company-filics-secures-e13-5-million-to-expand-and-roll-out-its-robotics-platform/",
+     "date": "2025-07-01",
+     "date_precision": "month",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "funding_stage": {
+   "value": "SERIES_A",
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2025/07/german-robotics-company-filics-secures-e13-5-million-to-expand-and-roll-out-its-robotics-platform/",
+     "date": "2025-07-07",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "1a8a5646-3d31-56e4-b39d-032ae1ca48af",
+     "name": "Pre-Seed",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "filics.eu",
+        "document": "https://www.filics.eu/unternehmen",
+        "date": "2026-11-09",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "munich-startup.de",
+        "document": "https://www.munich-startup.de/76195/filics-holt-seed-investoren-an-bord/",
+        "date": "2026-11-09",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "09abe2be-5065-549e-81f6-c5952703b290"
+     }
+    },
+    {
+     "id": "d65d44a8-8045-55a3-925d-4d3b958a9555",
+     "name": "Seed",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "eu-startups.com",
+        "document": "https://www.eu-startups.com/2025/07/german-robotics-company-filics-secures-e13-5-million-to-expand-and-roll-out-its-robotics-platform/",
+        "date": "2025-07-07",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "b451d511-2209-535b-8115-472cd27a1304"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "75531f14-b1d8-509f-b81f-4d6ffc094a65"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "be9a1964-bfc6-4aad-bde1-1f94bf10cf4c",
+     "name": "HARDWARE_AND_EQUIPMENT",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/filics/",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "e7b8533c-7d6f-563f-82a6-2cbe408b7baf",
+      "original_label": "robo"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "INVESTED_IN": [
+    {
+     "id": "2f050db7-9d7a-4753-a8cc-373fc6d41aca",
+     "name": "10x Founders GmbH",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "filics.eu",
+        "document": "https://www.filics.eu/unternehmen",
+        "date": "2026-11-09",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "1a1a6fff-9fdf-4171-815e-d39b0a44b3e6"
+     }
+    },
+    {
+     "id": "681416ea-80e1-519d-964e-f312381c32a8",
+     "name": "Andrei Danescu",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "eu-startups.com",
+        "document": "https://www.eu-startups.com/2025/07/german-robotics-company-filics-secures-e13-5-million-to-expand-and-roll-out-its-robotics-platform/",
+        "date": "2025-07-07",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "0e027c54-920f-4046-b799-0404dc2252aa"
+     }
+    },
+    {
+     "id": "7826d227-a054-5208-9644-bac5bdc74c8a",
+     "name": "Helmut Schmid",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "eu-startups.com",
+        "document": "https://www.eu-startups.com/2025/07/german-robotics-company-filics-secures-e13-5-million-to-expand-and-roll-out-its-robotics-platform/",
+        "date": "2025-07-07",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "e4d3f825-811d-4660-8879-66f20efba79f"
+     }
+    },
+    {
+     "id": "963ecd95-fb22-5acd-9140-52fc452b5004",
+     "name": "Bayern Kapit",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "filics.eu",
+        "document": "https://www.filics.eu/unternehmen",
+        "date": "2026-11-09",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "munich-startup.de",
+        "document": "https://www.munich-startup.de/76195/filics-holt-seed-investoren-an-bord/",
+        "date": "2026-11-09",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "8f3c0d95-0801-4849-bb93-f57af2e4d93b"
+     }
+    },
+    {
+     "id": "a23edf99-9797-4942-927c-afa3eac6bd7c",
+     "name": "Bayern Kapital",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "eu-startups.com",
+        "document": "https://www.eu-startups.com/2025/07/german-robotics-company-filics-secures-e13-5-million-to-expand-and-roll-out-its-robotics-platform/",
+        "date": "2025-07-07",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "92a8359b-8177-4373-b803-857a42ae0290"
+     }
+    },
+    {
+     "id": "b6c49b77-7291-4713-8278-71256890e857",
+     "name": "Capnamic Ventures Management GmbH",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "eu-startups.com",
+        "document": "https://www.eu-startups.com/2025/07/german-robotics-company-filics-secures-e13-5-million-to-expand-and-roll-out-its-robotics-platform/",
+        "date": "2025-07-07",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "filics.eu",
+        "document": "https://www.filics.eu/unternehmen",
+        "date": "2026-11-09",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "munich-startup.de",
+        "document": "https://www.munich-startup.de/76195/filics-holt-seed-investoren-an-bord/",
+        "date": "2026-11-09",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "bc39eb0f-054f-4c18-9468-c00d3f6fd74d"
+     }
+    }
+   ],
+   "FOUNDED": [
+    {
+     "id": "9b789be2-446f-5a89-af28-e608b1d0e9db",
+     "name": "Gregor Kolls",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/filics/__6zBpAGATHO4PP7gpY-87xMLFuYndMPY94CNSSOJzJmk",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "3229c239-ca90-5a0f-91de-df6b9e90d746"
+     }
+    }
+   ],
+   "IS_CEO_OF": [
+    {
+     "id": "9b789be2-446f-5a89-af28-e608b1d0e9db",
+     "name": "Gregor Kolls",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/filics/__6zBpAGATHO4PP7gpY-87xMLFuYndMPY94CNSSOJzJmk",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "47aa8215-dd5a-5b6d-b295-a69c0052b1a4"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

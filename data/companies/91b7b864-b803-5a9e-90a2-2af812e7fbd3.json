@@ -1,0 +1,774 @@
+{
+ "id": "91b7b864-b803-5a9e-90a2-2af812e7fbd3",
+ "name": "Gama",
+ "entity_type": "Company",
+ "description": "Dragsails for deorbitation and subsequently cheap, reliable and scalable solar sails. Gama is redefining space access.",
+ "properties": {
+  "name": {
+   "value": "Gama",
+   "sources": [
+    {
+     "name": "gamaspace.com",
+     "document": "https://gamaspace.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/gamaspace/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "GAMA",
+   "sources": [
+    {
+     "name": "recherche-entreprises.api.gouv.fr",
+     "document": "https://recherche-entreprises.api.gouv.fr/search?q=890751654",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "bodacc.fr",
+     "document": "https://www.bodacc.fr/pages/annonces-commerciales-detail/?q.id=id:A202002221346",
+     "date": "2020-11-15",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "website": {
+   "value": "gamaspace.com",
+   "sources": [
+    {
+     "name": "gamaspace.com",
+     "document": "https://gamaspace.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "dns.google",
+     "document": "https://dns.google/query?name=gamaspace.com&type=A",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "techcrunch.com",
+     "document": "https://techcrunch.com/2022/03/21/french-aerospace-company-gama-raises-2m-to-develop-a-solar-sail-spacecraft",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "Dragsails for deorbitation and subsequently cheap, reliable and scalable solar sails. Gama is redefining space access.",
+   "sources": [
+    {
+     "name": "gamaspace.com",
+     "document": "https://gamaspace.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2020-10-26",
+   "sources": [
+    {
+     "name": "recherche-entreprises.api.gouv.fr",
+     "document": "https://recherche-entreprises.api.gouv.fr/search?q=890751654",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "bodacc.fr",
+     "document": "https://www.bodacc.fr/pages/annonces-commerciales-detail/?q.id=id:A202002221346",
+     "date": "2020-11-15",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "128 bis avenue Jean Jaurès, 94200 Ivry-sur-Seine, France",
+   "sources": [
+    {
+     "name": "gamaspace.com",
+     "document": "https://gamaspace.com/privacy-policy",
+     "date": "2025-01-22",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "cnes.fr",
+     "document": "https://cnes.fr/sites/default/files/2024-10/GAMASPACE_2024-10-22.pdf",
+     "date": "2024-10-22",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "gamaspace.com",
+     "document": "https://gamaspace.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "recherche-entreprises.api.gouv.fr",
+     "document": "https://recherche-entreprises.api.gouv.fr/search?q=890751654",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "bodacc.fr",
+     "document": "https://www.bodacc.fr/pages/annonces-commerciales-detail/?q.id=id:A202002221346",
+     "date": "2020-11-15",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "employee_count_range": {
+   "value": [
+    10,
+    19
+   ],
+   "sources": [
+    {
+     "name": "recherche-entreprises.api.gouv.fr",
+     "document": "https://recherche-entreprises.api.gouv.fr/search?q=890751654",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "total_funding": {
+   "value": 2000000.0,
+   "sources": [
+    {
+     "name": "maddyness.com",
+     "document": "https://www.maddyness.com/2022/03/22/gama-levee-2-millions-voile-solaire/",
+     "date": "2022-03-22",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "tech.eu",
+     "document": "https://tech.eu/2022/03/22/french-space-exploration-startup-gama-raises-2-million-to-deploy-solar-sail/",
+     "date": "2022-03-22",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "frenchweb.fr",
+     "document": "https://www.frenchweb.fr/gama-la-startup-de-thibaud-elziere-leve-2-millions-deuros-pour-lancer-sa-mission-spatiale/433099",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2022/03/french-space-tech-startup-gama-skyrockets-plans-to-deploy-a-solar-sail-with-a-e2-million-funding-boost/",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "total_funding_units": {
+   "value": "EUR",
+   "sources": [
+    {
+     "name": "maddyness.com",
+     "document": "https://www.maddyness.com/2022/03/22/gama-levee-2-millions-voile-solaire/",
+     "date": "2022-03-22",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "tech.eu",
+     "document": "https://tech.eu/2022/03/22/french-space-exploration-startup-gama-raises-2-million-to-deploy-solar-sail/",
+     "date": "2022-03-22",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "frenchweb.fr",
+     "document": "https://www.frenchweb.fr/gama-la-startup-de-thibaud-elziere-leve-2-millions-deuros-pour-lancer-sa-mission-spatiale/433099",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2022/03/french-space-tech-startup-gama-skyrockets-plans-to-deploy-a-solar-sail-with-a-e2-million-funding-boost/",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "total_funding_excluding_debt": {
+   "value": 2000000.0,
+   "sources": [
+    {
+     "name": "maddyness.com",
+     "document": "https://www.maddyness.com/2022/03/22/gama-levee-2-millions-voile-solaire/",
+     "date": "2022-03-22",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "tech.eu",
+     "document": "https://tech.eu/2022/03/22/french-space-exploration-startup-gama-raises-2-million-to-deploy-solar-sail/",
+     "date": "2022-03-22",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "frenchweb.fr",
+     "document": "https://www.frenchweb.fr/gama-la-startup-de-thibaud-elziere-leve-2-millions-deuros-pour-lancer-sa-mission-spatiale/433099",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2022/03/french-space-tech-startup-gama-skyrockets-plans-to-deploy-a-solar-sail-with-a-e2-million-funding-boost/",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "3dc832c2-02c4-52a9-8bb8-d9060f0d33ae",
+     "name": "Series A",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "bodacc.fr",
+        "document": "https://www.bodacc.fr/pages/annonces-commerciales-detail/?q.id=id:B202502417114",
+        "date": "2025-12-16",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "08d1dd38-b567-56f3-8a00-ea6ed88e14e0"
+     }
+    },
+    {
+     "id": "54ea33ef-50f1-5f4c-a57d-8ab78da0b39b",
+     "name": "Pre-Seed",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "maddyness.com",
+        "document": "https://www.maddyness.com/2022/03/22/gama-levee-2-millions-voile-solaire/",
+        "date": "2022-03-22",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "bf27f92a-4f43-5e2f-9b70-7f295ba2bcba"
+     }
+    },
+    {
+     "id": "d925cf91-c2ee-529e-a4cb-75fe12d7ef81",
+     "name": "Seed",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "inovexus.com",
+        "document": "https://inovexus.com/portfolio/gama-space/",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "24c601c8-a748-539e-a7dc-b7cb30845d8b"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "63cfe1e6-ac83-55a3-bd3d-721cc52b80d9"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "bb7caa00-59c3-4587-9aaf-5d9195444829",
+     "name": "AEROSPACE_AND_DEFENSE",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/gamaspace/",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "bc900dc2-0588-5c64-9b2a-a5e92a512ef3",
+      "original_label": "space"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "INVESTED_IN": [
+    {
+     "id": "0385bfc5-e65b-5ebe-a726-886ea4b787c8",
+     "name": "Nicolas Pinto",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2022/03/22/french-space-exploration-startup-gama-raises-2-million-to-deploy-solar-sail/",
+        "date": "2022-03-22",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "maddyness.com",
+        "document": "https://www.maddyness.com/2022/03/22/gama-levee-2-millions-voile-solaire/",
+        "date": "2022-03-22",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "216ac67c-efc2-4d40-90f9-dccbc15ae47f"
+     }
+    },
+    {
+     "id": "280f3a31-e3c4-4675-8730-50db60b789be",
+     "name": "CNES",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2022/03/22/french-space-exploration-startup-gama-raises-2-million-to-deploy-solar-sail/",
+        "date": "2022-03-22",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "maddyness.com",
+        "document": "https://www.maddyness.com/2022/03/22/gama-levee-2-millions-voile-solaire/",
+        "date": "2022-03-22",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "a7f86f0e-bd91-49ee-a6b7-3542b5f39ad5"
+     }
+    },
+    {
+     "id": "2de69ad1-5f67-432e-9a89-9517ffa733f4",
+     "name": "Possible Ventures Management GmbH",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2022/03/22/french-space-exploration-startup-gama-raises-2-million-to-deploy-solar-sail/",
+        "date": "2022-03-22",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "maddyness.com",
+        "document": "https://www.maddyness.com/2022/03/22/gama-levee-2-millions-voile-solaire/",
+        "date": "2022-03-22",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "0cc0750c-d9f8-437a-a9f3-53bf930d2c19"
+     }
+    },
+    {
+     "id": "340af901-9ea9-424b-b09d-ec471bbe4f63",
+     "name": "Bpifrance S.A.",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2022/03/22/french-space-exploration-startup-gama-raises-2-million-to-deploy-solar-sail/",
+        "date": "2022-03-22",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "maddyness.com",
+        "document": "https://www.maddyness.com/2022/03/22/gama-levee-2-millions-voile-solaire/",
+        "date": "2022-03-22",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "903da951-8f90-4499-aab5-2c8c7f6bfc23"
+     }
+    },
+    {
+     "id": "42c4fb39-12ad-58dc-a573-39d79d2b91ee",
+     "name": "Marie Outtier",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2022/03/22/french-space-exploration-startup-gama-raises-2-million-to-deploy-solar-sail/",
+        "date": "2022-03-22",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "maddyness.com",
+        "document": "https://www.maddyness.com/2022/03/22/gama-levee-2-millions-voile-solaire/",
+        "date": "2022-03-22",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "24e180a1-a7e9-49aa-a2c2-896c8a6c63e2"
+     }
+    },
+    {
+     "id": "497d50c4-9c77-4ee2-99e9-6c7f20057572",
+     "name": "Inovexus",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "cbinsights.com",
+        "document": "https://www.cbinsights.com/company/gama-1/financials",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       },
+       {
+        "name": "inovexus.com",
+        "document": "https://inovexus.com/portfolio/gama-space/",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "3d35d552-800d-4df0-b378-2c0f7c206e93"
+     }
+    },
+    {
+     "id": "5ec7e793-bc55-4272-9de2-601b62c667d0",
+     "name": "Romain Afflelou",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2022/03/22/french-space-exploration-startup-gama-raises-2-million-to-deploy-solar-sail/",
+        "date": "2022-03-22",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "maddyness.com",
+        "document": "https://www.maddyness.com/2022/03/22/gama-levee-2-millions-voile-solaire/",
+        "date": "2022-03-22",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "0a19009e-b0bf-4069-bad3-0ca3fafb96cd"
+     }
+    },
+    {
+     "id": "91049068-a609-4a3e-9959-b84235403107",
+     "name": "Kima",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2022/03/22/french-space-exploration-startup-gama-raises-2-million-to-deploy-solar-sail/",
+        "date": "2022-03-22",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "maddyness.com",
+        "document": "https://www.maddyness.com/2022/03/22/gama-levee-2-millions-voile-solaire/",
+        "date": "2022-03-22",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "a23cacc6-22ad-44cb-9189-e9b193c87bad"
+     }
+    },
+    {
+     "id": "a2e00460-78f7-42c7-bb1b-8aaecce08f9f",
+     "name": "EWOR",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "cbinsights.com",
+        "document": "https://www.cbinsights.com/company/gama-1/financials",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       },
+       {
+        "name": "inovexus.com",
+        "document": "https://inovexus.com/portfolio/gama-space/",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "ce3778d1-4727-4e29-bdc9-a8750ac20a1b"
+     }
+    }
+   ],
+   "FOUNDED": [
+    {
+     "id": "16e86179-d47d-4db4-bd86-eac1dc19a93d",
+     "name": "Thibaud Elziere",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "techcrunch.com",
+        "document": "https://techcrunch.com/2022/03/21/french-aerospace-company-gama-raises-2m-to-develop-a-solar-sail-spacecraft",
+        "date": "2022-03-21",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "maddyness.com",
+        "document": "https://www.maddyness.com/2022/03/22/gama-levee-2-millions-voile-solaire/",
+        "date": "2022-03-22",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "frenchweb.fr",
+        "document": "https://www.frenchweb.fr/gama-la-startup-de-thibaud-elziere-leve-2-millions-deuros-pour-lancer-sa-mission-spatiale/433099",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "f74bf483-331d-5e79-ac72-b67793685fdf"
+     }
+    },
+    {
+     "id": "7e2b63df-9f22-5eaf-a0ee-774a6deac37b",
+     "name": "Louis de Gouyon Matignon",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "techcrunch.com",
+        "document": "https://techcrunch.com/2022/03/21/french-aerospace-company-gama-raises-2m-to-develop-a-solar-sail-spacecraft",
+        "date": "2022-03-21",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "maddyness.com",
+        "document": "https://www.maddyness.com/2022/03/22/gama-levee-2-millions-voile-solaire/",
+        "date": "2022-03-22",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "eu-startups.com",
+        "document": "https://www.eu-startups.com/2022/03/french-space-tech-startup-gama-skyrockets-plans-to-deploy-a-solar-sail-with-a-e2-million-funding-boost/",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "7926c1e3-f210-5931-ada1-7e98f5c7db49"
+     }
+    },
+    {
+     "id": "c376d933-5d3d-4263-aa15-a24dd5a31e1f",
+     "name": "Andrew Nutter",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "techcrunch.com",
+        "document": "https://techcrunch.com/2022/03/21/french-aerospace-company-gama-raises-2m-to-develop-a-solar-sail-spacecraft",
+        "date": "2022-03-21",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "eu-startups.com",
+        "document": "https://www.eu-startups.com/2022/03/french-space-tech-startup-gama-skyrockets-plans-to-deploy-a-solar-sail-with-a-e2-million-funding-boost/",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "siecledigital.fr",
+        "document": "https://siecledigital.fr/2022/03/23/gama-voile-solaire/",
+        "date": "2022-03-23",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "ewor.com",
+        "document": "https://www.ewor.com/fellows/andrew-nutter",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "45490f5d-1d5b-5524-8f01-6dcedab71346"
+     }
+    }
+   ],
+   "IS_CEO_OF": [
+    {
+     "id": "c376d933-5d3d-4263-aa15-a24dd5a31e1f",
+     "name": "Andrew Nutter",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "cnes.fr",
+        "document": "https://cnes.fr/sites/default/files/2024-10/GAMASPACE_2024-10-22.pdf",
+        "date": "2024-10-22",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "671eff91-230c-5d17-b972-65563e381d7a"
+     }
+    }
+   ],
+   "WORKS_AT": [
+    {
+     "id": "7e2b63df-9f22-5eaf-a0ee-774a6deac37b",
+     "name": "Louis de Gouyon Matignon",
+     "entity_type": "Person",
+     "properties": {
+      "role": "President",
+      "sources": [
+       {
+        "name": "bodacc.fr",
+        "document": "https://www.bodacc.fr/pages/annonces-commerciales-detail/?q.id=id:A202002221346",
+        "date": "2020-11-15",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       },
+       {
+        "name": "bodacc.fr",
+        "document": "https://www.bodacc.fr/pages/annonces-commerciales-detail/?q.id=id:B202200102095",
+        "date": "2022-01-14",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "valid_until": "2024-07-04",
+      "id": "7fd868b2-8e62-5fc6-9fbb-4db17da2a963",
+      "valid_since": "2020-10-26"
+     }
+    },
+    {
+     "id": "9ea88f95-ecce-5c9e-9af1-ffc0abb3eb85",
+     "name": "Jordan Culeux",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Technical Lead",
+      "sources": [
+       {
+        "name": "frenchweb.fr",
+        "document": "https://www.frenchweb.fr/gama-la-startup-de-thibaud-elziere-leve-2-millions-deuros-pour-lancer-sa-mission-spatiale/433099",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "1753a33d-b220-513b-8e46-99f45f7ae441"
+     }
+    },
+    {
+     "id": "c376d933-5d3d-4263-aa15-a24dd5a31e1f",
+     "name": "Andrew Nutter",
+     "entity_type": "Person",
+     "properties": {
+      "role": "President",
+      "sources": [
+       {
+        "name": "bodacc.fr",
+        "document": "https://www.bodacc.fr/pages/annonces-commerciales-detail/?q.id=id:B202401285534",
+        "date": "2024-07-04",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       },
+       {
+        "name": "recherche-entreprises.api.gouv.fr",
+        "document": "https://recherche-entreprises.api.gouv.fr/search?q=890751654",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "c3189e6e-065d-5156-b5d6-269dbc0cb4a9"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

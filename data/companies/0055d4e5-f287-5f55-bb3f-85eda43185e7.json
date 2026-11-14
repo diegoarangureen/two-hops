@@ -1,0 +1,271 @@
+{
+ "id": "0055d4e5-f287-5f55-bb3f-85eda43185e7",
+ "name": "Under Industries",
+ "entity_type": "Company",
+ "description": "Under Industries installs underground utilities without open trenching. One autonomous robot. Minimal disruption. 30â40% lower project cost. Tunnelling as a Service.",
+ "properties": {
+  "name": {
+   "value": "Under Industries",
+   "sources": [
+    {
+     "name": "underindustries.com",
+     "document": "https://underindustries.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/under-industries/?viewAsMember=true",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "Under Industries AG",
+   "sources": [
+    {
+     "name": "shab.ch",
+     "document": "https://www.shab.ch/#!/search/publications/detail/1006580160",
+     "date": "2026-02-26",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "zefix.admin.ch",
+     "document": "https://www.zefix.admin.ch/ZefixREST/api/v1/firm/1737115.json",
+     "date": "2026-02-26",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "aliases": {
+   "value": [
+    "Under Industries SA",
+    "Under Industries Ltd",
+    "UnderIndustries"
+   ],
+   "sources": []
+  },
+  "website": {
+   "value": "underindustries.com",
+   "sources": [
+    {
+     "name": "underindustries.com",
+     "document": "https://underindustries.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "dns.google",
+     "document": "https://dns.google/query?name=underindustries.com&type=A",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "web.archive.org",
+     "document": "https://web.archive.org/web/20260712033520/https://www.underindustries.com/",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "Under Industries installs underground utilities without open trenching. One autonomous robot. Minimal disruption. 30â40% lower project cost. Tunnelling as a Service.",
+   "sources": [
+    {
+     "name": "underindustries.com",
+     "document": "https://underindustries.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2026-02-19",
+   "sources": [
+    {
+     "name": "shab.ch",
+     "document": "https://www.shab.ch/#!/search/publications/detail/1006580160",
+     "date": "2026-02-26",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "zefix.admin.ch",
+     "document": "https://www.zefix.admin.ch/ZefixREST/api/v1/firm/1737115.json",
+     "date": "2026-02-26",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "c/o Innovationspark Zürich, Wangenstrasse 68, 8600 Dübendorf, Switzerland",
+   "sources": [
+    {
+     "name": "underindustries.com",
+     "document": "https://www.underindustries.com/",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "underindustries.com",
+     "document": "https://underindustries.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "shab.ch",
+     "document": "https://www.shab.ch/#!/search/publications/detail/1006580160",
+     "date": "2026-02-26",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "zefix.admin.ch",
+     "document": "https://www.zefix.admin.ch/ZefixREST/api/v1/firm/1737115.json",
+     "date": "2026-02-26",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "1c0cd30e-8852-5307-aae8-52dfdfec755c"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "11ce48e0-a853-4085-8142-f674977b1a3a",
+     "name": "RENEWABLE_ENERGY",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/under-industries/?viewAsMember=true",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "5b171b0f-77a8-52a5-9eba-86fdeffa5405",
+      "original_label": "energy"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "IS_BOARD_MEMBER_OF": [
+    {
+     "id": "4e28df18-b169-5f79-bf7a-c2b624ee5f36",
+     "name": "Eugenio Valli",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "shab.ch",
+        "document": "https://www.shab.ch/#!/search/publications/detail/1006580160",
+        "date": "2026-02-26",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       },
+       {
+        "name": "zefix.admin.ch",
+        "document": "https://www.zefix.admin.ch/ZefixREST/api/v1/firm/1737115.json",
+        "date": "2026-02-26",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "7bd61aca-37c4-56c0-9187-e654064b6df9",
+      "valid_since": "2026-02-26"
+     }
+    },
+    {
+     "id": "7e73ef57-c54b-5049-a684-283b6e7be04d",
+     "name": "Philippe Joël Kientsch",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "shab.ch",
+        "document": "https://www.shab.ch/#!/search/publications/detail/1006580160",
+        "date": "2026-02-26",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       },
+       {
+        "name": "zefix.admin.ch",
+        "document": "https://www.zefix.admin.ch/ZefixREST/api/v1/firm/1737115.json",
+        "date": "2026-02-26",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "5294a9fd-df90-5c30-94f4-3afee309d698",
+      "valid_since": "2026-02-26"
+     }
+    },
+    {
+     "id": "c2f907cf-bdc2-500e-922b-db064433cdc5",
+     "name": "Doré de Morsier",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "shab.ch",
+        "document": "https://www.shab.ch/#!/search/publications/detail/1006708226",
+        "date": "2026-07-16",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       },
+       {
+        "name": "zefix.admin.ch",
+        "document": "https://www.zefix.admin.ch/ZefixREST/api/v1/firm/1737115.json",
+        "date": "2026-02-26",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "98e60de6-dfeb-51a1-8f0d-d741a95dcebd",
+      "valid_since": "2026-07-16"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

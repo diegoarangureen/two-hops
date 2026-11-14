@@ -1,0 +1,939 @@
+{
+ "id": "e41f8061-3ba6-4392-a607-f6e8ac76515c",
+ "name": "Input Soft",
+ "entity_type": "Company",
+ "description": "A web platform for companies in the aviation industry: helps optimize resources, reduce costs, collect and analyze data from all ground handling operations.",
+ "properties": {
+  "name": {
+   "value": "Input Soft",
+   "sources": [
+    {
+     "name": "Portfolio - Sigma Software Labs",
+     "document": "https://labs.sigma.software/portfolio",
+     "date": "2023-03-01"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "InputSoft Inc.",
+   "sources": [
+    {
+     "name": "sec.gov",
+     "document": "https://www.sec.gov/Archives/edgar/data/1971898/000197189823000001/primary_doc.xml",
+     "date": "2023-04-04",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "aliases": {
+   "value": [],
+   "sources": []
+  },
+  "website": {
+   "value": "inputsoft.net",
+   "sources": [
+    {
+     "name": "inputsoft.net",
+     "document": "https://inputsoft.net/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "dns.google",
+     "document": "https://dns.google/query?name=inputsoft.net&type=A",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "en.ain.ua",
+     "document": "https://en.ain.ua/2022/01/24/inputsoft-raises-120k-from-techstars-at-3m-valuation",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "A web platform for companies in the aviation industry: helps optimize resources, reduce costs, collect and analyze data from all ground handling operations.",
+   "sources": [
+    {
+     "name": "inputsoft.net",
+     "document": "https://www.inputsoft.net/",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2022-01-01",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/inputsoftnet/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    },
+    {
+     "name": "sec.gov",
+     "document": "https://www.sec.gov/Archives/edgar/data/1971898/000197189823000001/primary_doc.xml",
+     "date": "2023-04-04",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "Kyiv, Ukraine",
+   "sources": [
+    {
+     "name": "sec.gov",
+     "document": "https://www.sec.gov/Archives/edgar/data/1971898/000197189823000001/primary_doc.xml",
+     "date": "2023-04-04",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "inputsoft.net",
+     "document": "https://www.inputsoft.net/",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "inputsoft.net",
+     "document": "https://www.inputsoft.net/",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "cordis.europa.eu",
+     "document": "https://cordis.europa.eu/project/id/101313048",
+     "date": "2026-06-18",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "employee_count_range": {
+   "value": [
+    11,
+    50
+   ],
+   "sources": [
+    {
+     "name": "jobs.techstars.com",
+     "document": "https://jobs.techstars.com/companies/input-soft-2",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "total_funding": {
+   "value": 470000.0,
+   "sources": [
+    {
+     "name": "dev.ua",
+     "document": "https://dev.ua/news/input-soft-1694071972",
+     "date": "2023-09-07",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "total_funding_units": {
+   "value": "USD",
+   "sources": [
+    {
+     "name": "dev.ua",
+     "document": "https://dev.ua/news/input-soft-1694071972",
+     "date": "2023-09-07",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "total_funding_excluding_debt": {
+   "value": 470000.0,
+   "sources": [
+    {
+     "name": "dev.ua",
+     "document": "https://dev.ua/news/input-soft-1694071972",
+     "date": "2023-09-07",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "funding_stage": {
+   "value": "SEED",
+   "sources": [
+    {
+     "name": "sec.gov",
+     "document": "https://www.sec.gov/Archives/edgar/data/1971898/000197189823000001/primary_doc.xml",
+     "date": "2023-04-04",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "en.ain.ua",
+     "document": "https://en.ain.ua/2023/05/02/ukrainian-aviation-startup-inputsoft-raises-250k-sid-venture-partners-is-among-the-investors",
+     "date": "2023-05-02",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "mind.ua",
+     "document": "https://mind.ua/en/news/20256816-ukrainian-aviation-startup-inputsoft-has-raised-a-round-of-250000-euros",
+     "date": "2023-05-02",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "sigma.software",
+     "document": "https://sigma.software/about/media/sigma-software-labs-welcomes-new-portfolio-starship-input-soft",
+     "date": "2023-05-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "5e6c71e4-bacd-591e-acaa-7721ce683c02",
+     "name": "Funding round",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "en.ain.ua",
+        "document": "https://en.ain.ua/2022/01/24/inputsoft-raises-120k-from-techstars-at-3m-valuation",
+        "date": "2022-01-24",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "dev.ua",
+        "document": "https://dev.ua/news/zas-ventures-investuvala-v-input-soft-1722953811",
+        "date": "2024-08-06",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "en.ain.ua",
+        "document": "https://en.ain.ua/2024/08/07/ukrainian-startup-inputsoft-raises-50000-investment-from-zas-ventures",
+        "date": "2024-08-07",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "c4c60214-c350-536a-9e6b-6f5df3cc51b9"
+     }
+    },
+    {
+     "id": "82b194a7-e3c9-52af-b714-d8b143e4a38e",
+     "name": "Seed",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "sec.gov",
+        "document": "https://www.sec.gov/Archives/edgar/data/1971898/000197189823000001/primary_doc.xml",
+        "date": "2023-04-04",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       },
+       {
+        "name": "en.ain.ua",
+        "document": "https://en.ain.ua/2023/05/02/ukrainian-aviation-startup-inputsoft-raises-250k-sid-venture-partners-is-among-the-investors",
+        "date": "2023-05-02",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "mind.ua",
+        "document": "https://mind.ua/en/news/20256816-ukrainian-aviation-startup-inputsoft-has-raised-a-round-of-250000-euros",
+        "date": "2023-05-02",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "sigma.software",
+        "document": "https://sigma.software/about/media/sigma-software-labs-welcomes-new-portfolio-starship-input-soft",
+        "date": "2023-05-02",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "cce96248-5045-503b-82c6-1c2b6a0a7f78"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_CORPORATE_EVENT": [
+    {
+     "id": "68a3321d-84b1-4f20-a958-f4bbd314a991",
+     "name": "FINANCING_RAISED_OR_FACILITY_ENTERED",
+     "entity_type": "PrivateCompanyFundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "www.crunchbase.com",
+        "document": "https://www.crunchbase.com/organization/inputsoft/news_and_analysis",
+        "date": "2026-08-24"
+       }
+      ],
+      "event_date": "2022-01-24",
+      "id": "4073dff7-053d-408e-9cf3-1e3970f4ad59"
+     }
+    },
+    {
+     "id": "c93c14cb-4dda-4f6c-abee-86af6d94fcca",
+     "name": "FINANCING_RAISED_OR_FACILITY_ENTERED",
+     "entity_type": "PrivateCompanyFundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "www.crunchbase.com",
+        "document": "https://www.crunchbase.com/person/adam-hashchyshyn",
+        "date": "2026-08-24"
+       },
+       {
+        "name": "www.crunchbase.com",
+        "document": "https://www.crunchbase.com/funding_round/inputsoft-pre-seed--85d868f8",
+        "date": "2026-08-24"
+       }
+      ],
+      "event_date": "2023-05-10",
+      "id": "9d560d15-d050-4ef4-a318-f282a22c50f5"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "6f0f08fb-b8a9-5892-a92c-56100547b69e"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "1df5b32c-1db4-4368-9b3b-84604324aec9",
+     "name": "TRANSPORTATION_AND_LOGISTICS",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "Portfolio - Sigma Software Labs",
+        "document": "https://labs.sigma.software/portfolio",
+        "date": "2023-03-01"
+       }
+      ],
+      "id": "c53b6e82-798a-42e6-ba03-4721255acdf0"
+     }
+    },
+    {
+     "id": "1df5b32c-1db4-4368-9b3b-84604324aec9",
+     "name": "TRANSPORTATION_AND_LOGISTICS",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/inputsoftnet/",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "7652a72d-0af3-5b15-92a2-0b391bd69524",
+      "original_label": "logistics"
+     }
+    },
+    {
+     "id": "8ecf5e57-a149-438c-9eb4-089809bade56",
+     "name": "SOFTWARE_AND_SERVICES",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "Portfolio - Sigma Software Labs",
+        "document": "https://labs.sigma.software/portfolio",
+        "date": "2023-03-01"
+       }
+      ],
+      "id": "3a84e08d-29ef-45e1-b0e3-3dde025ebad6"
+     }
+    },
+    {
+     "id": "bb7858a2-51d8-45e2-82bd-3ea6a06d317a",
+     "name": "INTERNET_AND_WEB_SERVICES",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "Portfolio - Sigma Software Labs",
+        "document": "https://labs.sigma.software/portfolio",
+        "date": "2023-03-01"
+       }
+      ],
+      "id": "2d7a3401-8964-409d-bc2a-012954487559"
+     }
+    }
+   ],
+   "HAS_HEADQUARTERS_IN": [
+    {
+     "id": "9ca29206-b46e-4b95-99b4-7642364c9896",
+     "name": "Ukraine",
+     "entity_type": "Country",
+     "properties": {
+      "sources": [
+       {
+        "name": "Portfolio - Sigma Software Labs",
+        "document": "https://labs.sigma.software/portfolio",
+        "date": "2023-03-01"
+       }
+      ],
+      "id": "05bf8727-9247-4aed-8eee-35d7a7de97e4"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "INVESTED_IN": [
+    {
+     "id": "23e5a5f0-10ba-46f2-90ee-dce37441fe00",
+     "name": "SID Venture Partners",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "www.crunchbase.com",
+        "document": "https://www.crunchbase.com/organization/inputsoft/news_and_analysis",
+        "date": "2026-08-24"
+       },
+       {
+        "name": "mind.ua",
+        "document": "https://mind.ua/en/news/20256816-ukrainian-aviation-startup-inputsoft-has-raised-a-round-of-250000-euros",
+        "date": "2023-05-02",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "en.ain.ua",
+        "document": "https://en.ain.ua/2023/05/02/ukrainian-aviation-startup-inputsoft-raises-250k-sid-venture-partners-is-among-the-investors",
+        "date": "2023-05-02",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "ca13f7c7-cab4-4f9f-9bde-7cea27b59f26"
+     }
+    },
+    {
+     "id": "437c7b02-c412-4132-89f2-c607e64dc2d1",
+     "name": "Sigma Software Labs",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "Portfolio - Sigma Software Labs",
+        "document": "https://labs.sigma.software/portfolio",
+        "date": "2023-03-01"
+       },
+       {
+        "name": "sigma.software",
+        "document": "https://sigma.software/about/media/sigma-software-labs-welcomes-new-portfolio-starship-input-soft",
+        "date": "2023-05-02",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "mind.ua",
+        "document": "https://mind.ua/en/news/20256816-ukrainian-aviation-startup-inputsoft-has-raised-a-round-of-250000-euros",
+        "date": "2023-05-02",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "01cda2eb-aafe-47e5-87a0-d8855ca9f98c"
+     }
+    },
+    {
+     "id": "74081df8-3fe8-42fa-bb54-95100ba59936",
+     "name": "ZAS VENTURES LIMITED",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "www.crunchbase.com",
+        "document": "https://www.crunchbase.com/person/adam-hashchyshyn",
+        "date": "2026-08-24"
+       },
+       {
+        "name": "www.crunchbase.com",
+        "document": "https://www.crunchbase.com/funding_round/inputsoft-pre-seed--85d868f8",
+        "date": "2026-08-24"
+       }
+      ],
+      "id": "af2d0b53-10ff-4b90-bf88-9514901b97d9"
+     }
+    },
+    {
+     "id": "832cbba0-4d12-4272-a005-1fffae376da0",
+     "name": "ZAS Ventures, LLC",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "dev.ua",
+        "document": "https://dev.ua/news/zas-ventures-investuvala-v-input-soft-1722953811",
+        "date": "2024-08-06",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "en.ain.ua",
+        "document": "https://en.ain.ua/2024/08/07/ukrainian-startup-inputsoft-raises-50000-investment-from-zas-ventures",
+        "date": "2024-08-07",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "7215ca2c-4737-49a6-8609-a91093e63c23"
+     }
+    },
+    {
+     "id": "aa845d71-8847-5059-ad4a-6a0bee219301",
+     "name": "Torino Cities of the Future Techstars Accelerator",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "mind.ua",
+        "document": "https://mind.ua/en/news/20256816-ukrainian-aviation-startup-inputsoft-has-raised-a-round-of-250000-euros",
+        "date": "2023-05-02",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "en.ain.ua",
+        "document": "https://en.ain.ua/2023/05/02/ukrainian-aviation-startup-inputsoft-raises-250k-sid-venture-partners-is-among-the-investors",
+        "date": "2023-05-02",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "57e3395f-ee4f-4831-aaec-c754473ca258"
+     }
+    },
+    {
+     "id": "ae7530e4-556e-4547-ba15-88a12fbcdcb1",
+     "name": "Techstars",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "en.ain.ua",
+        "document": "https://en.ain.ua/2022/01/24/inputsoft-raises-120k-from-techstars-at-3m-valuation",
+        "date": "2022-01-24",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "vestbee.com",
+        "document": "https://vestbee.com/blog/articles/input-soft-secures-50-k",
+        "date": "2024-08-07",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "20468517-863d-4d12-a64a-0815c699355d"
+     }
+    }
+   ],
+   "FOUNDED": [
+    {
+     "id": "4f4a9d43-4255-4fec-acab-c0018828dbc0",
+     "name": "Valentyn Zavadskyi",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "vctr.media",
+        "document": "https://vctr.media/ua/ukrayinskyj-inputsoft-zaluchyv-250-000-yevro-investyczij-shho-vidomo-181886",
+        "date": "2026-08-20"
+       },
+       {
+        "name": "greencubator.info",
+        "document": "https://greencubator.info/en/story-of-input-soft",
+        "date": "2026-08-20"
+       },
+       {
+        "name": "www.f6s.com",
+        "document": "https://www.f6s.com/company/inputsoft",
+        "date": "2026-08-20"
+       },
+       {
+        "name": "Ukranian-founded aviation startup InputSoft secures $50K to expand globally",
+        "document": "https://vestbee.com/insights/articles/input-soft-secures-50-k",
+        "date": "2024-08-07"
+       }
+      ],
+      "id": "9b25f581-e5b0-4e63-b754-10a1bb750cbd"
+     }
+    },
+    {
+     "id": "4f4a9d43-4255-4fec-acab-c0018828dbc0",
+     "name": "Valentyn Zavadskyi",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "mind.ua",
+        "document": "https://mind.ua/en/news/20256816-ukrainian-aviation-startup-inputsoft-has-raised-a-round-of-250000-euros",
+        "date": "2023-05-02",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "c2afb734-828b-5c60-8af8-c66a6d0e5c30",
+      "valid_since": "2021-02-01"
+     }
+    },
+    {
+     "id": "76ed3bbe-d053-448d-b429-68765e21f790",
+     "name": "Andrii Smyk",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "vctr.media",
+        "document": "https://vctr.media/ua/ukrayinskyj-inputsoft-zaluchyv-250-000-yevro-investyczij-shho-vidomo-181886",
+        "date": "2026-08-20"
+       },
+       {
+        "name": "dev.ua",
+        "document": "https://dev.ua/news/input-soft-1694071972",
+        "date": "2026-08-20"
+       },
+       {
+        "name": "greencubator.info",
+        "document": "https://greencubator.info/en/story-of-input-soft",
+        "date": "2026-08-20"
+       },
+       {
+        "name": "Ukranian-founded aviation startup InputSoft secures $50K to expand globally",
+        "document": "https://vestbee.com/insights/articles/input-soft-secures-50-k",
+        "date": "2024-08-07"
+       }
+      ],
+      "id": "e8deaf52-c096-4ea2-8804-f417c53f5820"
+     }
+    },
+    {
+     "id": "76ed3bbe-d053-448d-b429-68765e21f790",
+     "name": "Andrii Smyk",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "mind.ua",
+        "document": "https://mind.ua/en/news/20256816-ukrainian-aviation-startup-inputsoft-has-raised-a-round-of-250000-euros",
+        "date": "2023-05-02",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "c6705568-2475-5e4c-ac8a-cebf84bbbd7c",
+      "valid_since": "2021-02-01"
+     }
+    },
+    {
+     "id": "d1949ac8-e82a-4c9b-b1a9-869acbb7dc2c",
+     "name": "Anastasiia Smyk",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "vctr.media",
+        "document": "https://vctr.media/ua/ukrayinskyj-inputsoft-zaluchyv-250-000-yevro-investyczij-shho-vidomo-181886",
+        "date": "2026-08-20"
+       },
+       {
+        "name": "www.fastcompany.com",
+        "document": "https://www.fastcompany.com/90763120/the-war-in-ukraine-hasnt-ended-heres-how-these-founders-continue-to-build-their-businesses",
+        "date": "2026-08-20"
+       },
+       {
+        "name": "greencubator.info",
+        "document": "https://greencubator.info/en/story-of-input-soft",
+        "date": "2026-08-20"
+       },
+       {
+        "name": "www.f6s.com",
+        "document": "https://www.f6s.com/company/inputsoft",
+        "date": "2026-08-20"
+       },
+       {
+        "name": "The Airport \"Brain\" Upgrade: Why Europe is Betting €500,000 on Ukraine’s INPUT SOFT · TechUkraine",
+        "document": "https://techukraine.org/2026/04/14/the-airport-brain-upgrade-why-europe-is-betting-e500000-on-ukraines-input-soft",
+        "date": "2026-04-14"
+       },
+       {
+        "name": "ain.ua",
+        "document": "https://ain.ua/2026/04/14/input-soft-otrimala-eur500-tis-grantu-vid-jes-na-rozvitok-v-aviaciyi",
+        "date": "2026-08-20"
+       }
+      ],
+      "id": "9a17f61f-5b25-42a1-b42a-a564bb4086d9"
+     }
+    },
+    {
+     "id": "d1949ac8-e82a-4c9b-b1a9-869acbb7dc2c",
+     "name": "Anastasiia Smyk",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "mind.ua",
+        "document": "https://mind.ua/en/news/20256816-ukrainian-aviation-startup-inputsoft-has-raised-a-round-of-250000-euros",
+        "date": "2023-05-02",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "e851ca37-be4d-5fed-aef3-a56f456e71c3",
+      "valid_since": "2021-02-01"
+     }
+    }
+   ],
+   "IS_CEO_OF": [
+    {
+     "id": "d1949ac8-e82a-4c9b-b1a9-869acbb7dc2c",
+     "name": "Anastasiia Smyk",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "en.ain.ua",
+        "document": "https://en.ain.ua/2022/01/24/inputsoft-raises-120k-from-techstars-at-3m-valuation",
+        "date": "2022-01-24",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "sigma.software",
+        "document": "https://sigma.software/about/media/sigma-software-labs-welcomes-new-portfolio-starship-input-soft",
+        "date": "2023-05-02",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "dev.ua",
+        "document": "https://dev.ua/news/500-000-ievro-dlia-input-soft-1776159747",
+        "date": "2026-04-14",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "75df291e-0a05-5924-b9f0-65a6ea6b370b"
+     }
+    }
+   ],
+   "IS_CTO_OF": [
+    {
+     "id": "4f4a9d43-4255-4fec-acab-c0018828dbc0",
+     "name": "Valentyn Zavadskyi",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "sigma.software",
+        "document": "https://sigma.software/about/media/sigma-software-labs-welcomes-new-portfolio-starship-input-soft",
+        "date": "2023-05-02",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "636623c7-50dd-5e0c-b9d5-173fef87a247"
+     }
+    }
+   ],
+   "IS_BOARD_MEMBER_OF": [
+    {
+     "id": "4f4a9d43-4255-4fec-acab-c0018828dbc0",
+     "name": "Valentyn Zavadskyi",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "sec.gov",
+        "document": "https://www.sec.gov/Archives/edgar/data/1971898/000197189823000001/primary_doc.xml",
+        "date": "2023-04-04",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "15e5cd7a-0016-57a4-a333-84c0830c6541"
+     }
+    },
+    {
+     "id": "76ed3bbe-d053-448d-b429-68765e21f790",
+     "name": "Andrii Smyk",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "sec.gov",
+        "document": "https://www.sec.gov/Archives/edgar/data/1971898/000197189823000001/primary_doc.xml",
+        "date": "2023-04-04",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "c27e1e6d-a2ee-54ed-9de4-0e3b31e35949"
+     }
+    },
+    {
+     "id": "d1949ac8-e82a-4c9b-b1a9-869acbb7dc2c",
+     "name": "Anastasiia Smyk",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "sec.gov",
+        "document": "https://www.sec.gov/Archives/edgar/data/1971898/000197189823000001/primary_doc.xml",
+        "date": "2023-04-04",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "907dd192-2da4-5316-9e33-879695ebabe4"
+     }
+    }
+   ],
+   "WORKS_AT": [
+    {
+     "id": "4f4a9d43-4255-4fec-acab-c0018828dbc0",
+     "name": "Valentyn Zavadskyi",
+     "entity_type": "Person",
+     "properties": {
+      "role": "CTO",
+      "sources": [
+       {
+        "name": "vctr.media",
+        "document": "https://vctr.media/ua/ukrayinskyj-inputsoft-zaluchyv-250-000-yevro-investyczij-shho-vidomo-181886",
+        "date": "2026-08-20"
+       },
+       {
+        "name": "greencubator.info",
+        "document": "https://greencubator.info/en/story-of-input-soft",
+        "date": "2026-08-20"
+       },
+       {
+        "name": "www.f6s.com",
+        "document": "https://www.f6s.com/company/inputsoft",
+        "date": "2026-08-20"
+       },
+       {
+        "name": "Ukranian-founded aviation startup InputSoft secures $50K to expand globally",
+        "document": "https://vestbee.com/insights/articles/input-soft-secures-50-k",
+        "date": "2024-08-07"
+       }
+      ],
+      "id": "647a11c0-0675-4a6d-a54f-a298a5dc2dd9"
+     }
+    },
+    {
+     "id": "d1949ac8-e82a-4c9b-b1a9-869acbb7dc2c",
+     "name": "Anastasiia Smyk",
+     "entity_type": "Person",
+     "properties": {
+      "role": "CEO",
+      "sources": [
+       {
+        "name": "vctr.media",
+        "document": "https://vctr.media/ua/ukrayinskyj-inputsoft-zaluchyv-250-000-yevro-investyczij-shho-vidomo-181886",
+        "date": "2026-08-20"
+       },
+       {
+        "name": "www.fastcompany.com",
+        "document": "https://www.fastcompany.com/90763120/the-war-in-ukraine-hasnt-ended-heres-how-these-founders-continue-to-build-their-businesses",
+        "date": "2026-08-20"
+       },
+       {
+        "name": "greencubator.info",
+        "document": "https://greencubator.info/en/story-of-input-soft",
+        "date": "2026-08-20"
+       },
+       {
+        "name": "www.f6s.com",
+        "document": "https://www.f6s.com/company/inputsoft",
+        "date": "2026-08-20"
+       },
+       {
+        "name": "The Airport \"Brain\" Upgrade: Why Europe is Betting €500,000 on Ukraine’s INPUT SOFT · TechUkraine",
+        "document": "https://techukraine.org/2026/04/14/the-airport-brain-upgrade-why-europe-is-betting-e500000-on-ukraines-input-soft",
+        "date": "2026-04-14"
+       },
+       {
+        "name": "ain.ua",
+        "document": "https://ain.ua/2026/04/14/input-soft-otrimala-eur500-tis-grantu-vid-jes-na-rozvitok-v-aviaciyi",
+        "date": "2026-08-20"
+       }
+      ],
+      "id": "bbee55de-7ba1-49ac-8abc-1e3416f4ca63"
+     }
+    },
+    {
+     "id": "d1949ac8-e82a-4c9b-b1a9-869acbb7dc2c",
+     "name": "Anastasiia Smyk",
+     "entity_type": "Person",
+     "properties": {
+      "role": "President",
+      "sources": [
+       {
+        "name": "sec.gov",
+        "document": "https://www.sec.gov/Archives/edgar/data/1971898/000197189823000001/primary_doc.xml",
+        "date": "2023-04-04",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "4a1c4564-1a55-50e7-ba09-0c9548b112ee"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

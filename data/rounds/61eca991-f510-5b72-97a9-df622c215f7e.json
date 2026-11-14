@@ -1,0 +1,180 @@
+{
+ "id": "61eca991-f510-5b72-97a9-df622c215f7e",
+ "name": "Series B",
+ "entity_type": "FundingRound",
+ "description": null,
+ "properties": {
+  "name": {
+   "value": "Series B",
+   "sources": [
+    {
+     "name": "vanta.com",
+     "document": "https://www.vanta.com/resources/vanta-announces-series-b",
+     "date": "2022-06-08",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "round_label": {
+   "value": "SERIES_B",
+   "sources": [
+    {
+     "name": "vanta.com",
+     "document": "https://www.vanta.com/resources/vanta-announces-series-b",
+     "date": "2022-06-08",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "instrument": {
+   "value": "EQUITY",
+   "sources": [
+    {
+     "name": "sec.gov",
+     "document": "https://www.sec.gov/Archives/edgar/data/1934145/000193414522000002/primary_doc.xml",
+     "date": "2022-06-16",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "transaction_value": {
+   "value": 110000000.0,
+   "sources": [
+    {
+     "name": "vanta.com",
+     "document": "https://www.vanta.com/resources/vanta-announces-series-b",
+     "date": "2022-06-08",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "transaction_value_units": {
+   "value": "USD",
+   "sources": [
+    {
+     "name": "vanta.com",
+     "document": "https://www.vanta.com/resources/vanta-announces-series-b",
+     "date": "2022-06-08",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "announcement_date": {
+   "value": "2022-06-08",
+   "sources": [
+    {
+     "name": "vanta.com",
+     "document": "https://www.vanta.com/resources/vanta-announces-series-b",
+     "date": "2022-06-08",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "event_date": {
+   "value": "2022-06-01",
+   "sources": [
+    {
+     "name": "sec.gov",
+     "document": "https://www.sec.gov/Archives/edgar/data/1934145/000193414522000002/primary_doc.xml",
+     "date": "2022-06-16",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "annotations": {
+   "value": [
+    "Round name as stated in the company release.",
+    "round_label_stated:Series B"
+   ],
+   "sources": []
+  }
+ },
+ "relationships": {
+  "outgoing": {},
+  "incoming": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "17321f06-e5ee-4962-842b-42e8ecc97d5a",
+     "name": "Vanta Inc.",
+     "entity_type": "Company",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "vanta.com",
+        "document": "https://www.vanta.com/resources/vanta-announces-series-b",
+        "date": "2022-06-08",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "532808da-4639-595e-b67e-cea1424488b6"
+     }
+    },
+    {
+     "id": "1e86655e-373d-4fe8-be13-af3713581f73",
+     "name": "Y Combinator",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "vanta.com",
+        "document": "https://www.vanta.com/resources/vanta-announces-series-b",
+        "date": "2022-06-08",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "6b140bb8-4e65-57c3-8ff4-93ef6736fcd5"
+     }
+    },
+    {
+     "id": "acb37c97-859d-4b78-a95a-96b4858d9680",
+     "name": "Sequoia Capital",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "vanta.com",
+        "document": "https://www.vanta.com/resources/vanta-announces-series-b",
+        "date": "2022-06-08",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "c70186cc-45e6-5c9a-9745-e37193a11e3e"
+     }
+    },
+    {
+     "id": "fa64fbbb-28ad-4344-976a-1fb1d49ec412",
+     "name": "Craft Ventures",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "vanta.com",
+        "document": "https://www.vanta.com/resources/vanta-announces-series-b",
+        "date": "2022-06-08",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "is_lead": true,
+      "id": "9fbb576a-aa6a-53d8-a621-257e5a77e4a1"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

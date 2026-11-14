@@ -1,0 +1,103 @@
+{
+ "id": "01ddf1aa-bd55-5802-8893-f333209d25c7",
+ "name": "Canopic",
+ "entity_type": "Company",
+ "description": "A London-based hardware and equipment company founded in 2026 by Garrett Camporine.",
+ "properties": {
+  "name": {
+   "value": "Canopic",
+   "sources": [
+    {
+     "name": "claude.ai",
+     "document": "https://claude.ai/artifact/H3Eq8ujw2PKskrTrSvodVZ#input-list",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "description": {
+   "value": "A London-based hardware and equipment company founded in 2026 by Garrett Camporine.",
+   "sources": [
+    {
+     "name": "Cala AI",
+     "document": "",
+     "date": "2026-11-13",
+     "date_precision": null,
+     "source_rank": null
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2026-01-01",
+   "sources": []
+  },
+  "headquarters_address": {
+   "value": "London, United Kingdom",
+   "sources": [
+    {
+     "name": "claude.ai",
+     "document": "https://claude.ai/artifact/H3Eq8ujw2PKskrTrSvodVZ#input-list",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "a470e7c1-ff89-535c-86b2-f15b01b1b232"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "be9a1964-bfc6-4aad-bde1-1f94bf10cf4c",
+     "name": "HARDWARE_AND_EQUIPMENT",
+     "entity_type": "Industry",
+     "properties": {
+      "id": "4386708e-d484-5411-a58f-688668dcff7d",
+      "original_label": "robo"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "FOUNDED": [
+    {
+     "id": "931f0f9a-74c2-5a1e-9d2d-37565550c574",
+     "name": "Garrett Camporine",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "zoominfo.com",
+        "document": "https://www.zoominfo.com/p/Garrett-Camporine/1243499986",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "76096832-7f5a-5c62-ab2b-2fff75ffec78"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

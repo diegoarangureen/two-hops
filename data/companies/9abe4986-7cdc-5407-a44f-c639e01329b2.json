@@ -1,0 +1,247 @@
+{
+ "id": "9abe4986-7cdc-5407-a44f-c639e01329b2",
+ "name": "Insaio",
+ "entity_type": "Company",
+ "description": "Insaio answers client requests and reaches out when cover needs attention, so clients stay financially protected and portfolios grow.",
+ "properties": {
+  "name": {
+   "value": "Insaio",
+   "sources": [
+    {
+     "name": "insaio.com",
+     "document": "https://insaio.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/insaio-official/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "Sandbox Connection GmbH",
+   "sources": [
+    {
+     "name": "insaio.com",
+     "document": "https://insaio.com/legal-notice/",
+     "date": "2026-11-10",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "website": {
+   "value": "insaio.com",
+   "sources": [
+    {
+     "name": "insaio.com",
+     "document": "https://insaio.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "dns.google",
+     "document": "https://dns.google/query?name=insaio.com&type=A",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "insaio.com",
+     "document": "https://insaio.com/learn/announcements/manifesto/",
+     "date": "2026-01-23",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "Insaio answers client requests and reaches out when cover needs attention, so clients stay financially protected and portfolios grow.",
+   "sources": [
+    {
+     "name": "insaio.com",
+     "document": "https://insaio.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2026-01-01",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/insaio-official/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    },
+    {
+     "name": "insaio.com",
+     "document": "https://insaio.com/about/",
+     "date": "2026-11-10",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "Hamburg, Germany",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/insaio-official/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    },
+    {
+     "name": "insaio.com",
+     "document": "https://insaio.com/legal-notice/",
+     "date": "2026-11-10",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "insaio.com",
+     "document": "https://insaio.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "3a04ebba-0a3d-50f3-9f81-ea679c0655cc",
+     "name": "Pre-Seed",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "techstars.com",
+        "document": "https://www.techstars.com/newsroom/introducing-techstars-fall-2026-accelerator-class",
+        "date": "2026-09-08",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "ab765d49-0579-5bcf-be83-1eb610d00d31"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "e2866904-0d55-59d6-a385-0c782b5d41e5"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "8190c30d-2703-40ab-94d0-6c193cb53908",
+     "name": "FINTECH",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/insaio-official/",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "7c3b5431-653a-58ab-9da2-ebb422adad39",
+      "original_label": "fintech"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "INVESTED_IN": [
+    {
+     "id": "ae7530e4-556e-4547-ba15-88a12fbcdcb1",
+     "name": "Techstars",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "techstars.com",
+        "document": "https://www.techstars.com/newsroom/introducing-techstars-fall-2026-accelerator-class",
+        "date": "2026-09-08",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "c3d60c94-3be1-4c72-b552-8ea5606fe191"
+     }
+    }
+   ],
+   "FOUNDED": [
+    {
+     "id": "3240c19d-b904-5d06-ae47-20c6a973e35f",
+     "name": "Dominic Strobel",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "insaio.com",
+        "document": "https://insaio.com/about/",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "96a3468e-6ce3-5c4b-99b8-37f3fe4c948e"
+     }
+    },
+    {
+     "id": "8608f0df-94cd-52f1-bfa3-1a1bfd3a2174",
+     "name": "Michael Schmitt",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "insaio.com",
+        "document": "https://insaio.com/about/",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "586022c5-8477-505e-8280-7f87aaf40e1a"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

@@ -1,0 +1,297 @@
+{
+ "id": "0216be36-8d00-5b77-bf3b-0bfa89cd6a25",
+ "name": "People Made Machines",
+ "entity_type": "Company",
+ "description": "We see software as an amplifier of the human mind and believe that connecting talents with technology is our blueprint for shaping societal development.",
+ "properties": {
+  "name": {
+   "value": "People Made Machines",
+   "sources": [
+    {
+     "name": "peoplemademachines.com",
+     "document": "https://peoplemademachines.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/peoplemademachines/?viewAsMember=true",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "PMM AS",
+   "sources": [
+    {
+     "name": "data.brreg.no",
+     "document": "https://data.brreg.no/enhetsregisteret/api/enheter/934976673",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "website": {
+   "value": "peoplemademachines.com",
+   "sources": [
+    {
+     "name": "peoplemademachines.com",
+     "document": "https://peoplemademachines.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "dns.google",
+     "document": "https://dns.google/query?name=peoplemademachines.com&type=A",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "We see software as an amplifier of the human mind and believe that connecting talents with technology is our blueprint for shaping societal development.",
+   "sources": [
+    {
+     "name": "peoplemademachines.com",
+     "document": "https://peoplemademachines.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2023-01-01",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/peoplemademachines/?viewAsMember=true",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "Oslo, Norway",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/peoplemademachines/?viewAsMember=true",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "peoplemademachines.com",
+     "document": "https://peoplemademachines.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "10690331-6541-5f45-8040-3a5908688b1a",
+     "name": "Convertible Notes round",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "w2.brreg.no",
+        "document": "https://w2.brreg.no/kunngjoring/hent_en.jsp?kid=20260000722701&sokeverdi=934976673&spraak=nb",
+        "date": "2026-09-01",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "785d4ba9-7a95-5403-9889-4d66b7518ec5"
+     }
+    },
+    {
+     "id": "2dd5096c-cdb4-54b0-91bc-911927e9ebeb",
+     "name": "Equity round",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "w2.brreg.no",
+        "document": "https://w2.brreg.no/kunngjoring/hent_en.jsp?kid=20250000303395&sokeverdi=934976673&spraak=nb",
+        "date": "2025-05-21",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "f583aa65-6971-5326-8cf9-b97ca1ead916"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "ce111876-713f-5fe6-aade-001c9d0aafd9"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "8ecf5e57-a149-438c-9eb4-089809bade56",
+     "name": "SOFTWARE_AND_SERVICES",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/peoplemademachines/?viewAsMember=true",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "896eade4-4799-558d-9439-0cfca6d3b9f5",
+      "original_label": "ai"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "IS_CEO_OF": [
+    {
+     "id": "ba861436-4231-5e70-8d73-c1f0e225f3d5",
+     "name": "Alf Ruben Kvamme",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "peoplemademachines.teamtailor.com",
+        "document": "https://peoplemademachines.teamtailor.com/people",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "0548b655-7bc9-5b41-881b-332bb4bcc788"
+     }
+    }
+   ],
+   "IS_CTO_OF": [
+    {
+     "id": "c9854b57-1d97-5ad2-b252-9fcabc2c7313",
+     "name": "Arturo Calvo",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "peoplemademachines.teamtailor.com",
+        "document": "https://peoplemademachines.teamtailor.com/people",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "c2be6799-82aa-5827-9ffa-5bd3edfb6939"
+     }
+    }
+   ],
+   "IS_BOARD_MEMBER_OF": [
+    {
+     "id": "5a411510-69e9-5fdb-b6a5-29de69898020",
+     "name": "Karl Joakim Sand",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "data.brreg.no",
+        "document": "https://data.brreg.no/enhetsregisteret/api/enheter/934976673/roller",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "6fb73a0e-41c8-5810-9b3d-df6aef559fdb"
+     }
+    },
+    {
+     "id": "79e4c8b3-7b50-5989-a0e9-a956a9b0ff2e",
+     "name": "Kjetil Bakke Eriksen",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "data.brreg.no",
+        "document": "https://data.brreg.no/enhetsregisteret/api/enheter/934976673/roller",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "e39f7892-4902-5d7b-9b97-313cd743c068"
+     }
+    },
+    {
+     "id": "90c76e13-2d64-5113-bf76-292216ab182e",
+     "name": "Ole-Jakob Høgset",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "data.brreg.no",
+        "document": "https://data.brreg.no/enhetsregisteret/api/enheter/934976673/roller",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "29c73f6c-0a1d-54c4-a821-2cf44e27018d"
+     }
+    },
+    {
+     "id": "ba861436-4231-5e70-8d73-c1f0e225f3d5",
+     "name": "Alf Ruben Kvamme",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "data.brreg.no",
+        "document": "https://data.brreg.no/enhetsregisteret/api/enheter/934976673/roller",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "42d01e65-24e1-5497-b396-1605798b2c91"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

@@ -1,0 +1,160 @@
+{
+ "id": "3ed68f00-e397-5232-8997-7d60ee0fae77",
+ "name": "Series A",
+ "entity_type": "FundingRound",
+ "description": null,
+ "properties": {
+  "name": {
+   "value": "Series A",
+   "sources": [
+    {
+     "name": "boe.es",
+     "document": "https://www.boe.es/diario_borme/txt.php?id=BORME-A-2026-51-08",
+     "date": "2026-03-16",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "boe.es",
+     "document": "https://www.boe.es/diario_borme/txt.php?id=BORME-A-2026-60-08",
+     "date": "2026-03-27",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "elreferente.es",
+     "document": "https://elreferente.es/actualidad/archipelago-next-invierte-en-cinco-jovenes-empresas/",
+     "date": "2026-05-08",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "round_label": {
+   "value": "SERIES_A",
+   "sources": [
+    {
+     "name": "boe.es",
+     "document": "https://www.boe.es/diario_borme/txt.php?id=BORME-A-2026-51-08",
+     "date": "2026-03-16",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "boe.es",
+     "document": "https://www.boe.es/diario_borme/txt.php?id=BORME-A-2026-60-08",
+     "date": "2026-03-27",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "elreferente.es",
+     "document": "https://elreferente.es/actualidad/archipelago-next-invierte-en-cinco-jovenes-empresas/",
+     "date": "2026-05-08",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "instrument": {
+   "value": "EQUITY",
+   "sources": [
+    {
+     "name": "boe.es",
+     "document": "https://www.boe.es/diario_borme/txt.php?id=BORME-A-2026-51-08",
+     "date": "2026-03-16",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "boe.es",
+     "document": "https://www.boe.es/diario_borme/txt.php?id=BORME-A-2026-60-08",
+     "date": "2026-03-27",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "announcement_date": {
+   "value": "2026-05-08",
+   "sources": [
+    {
+     "name": "elreferente.es",
+     "document": "https://elreferente.es/actualidad/archipelago-next-invierte-en-cinco-jovenes-empresas/",
+     "date": "2026-05-08",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "annotations": {
+   "value": [
+    "derived from the sequence",
+    "No source names the round (El Referente 2026-05-08, BORME acts, company about page read).",
+    "round_label_stated:Series A",
+    "round_label_basis:INFERRED",
+    "round_label_explanation:Unnamed equity round after rounds.0 (Seed): next label in the sequence (instructions §3.5)."
+   ],
+   "sources": []
+  }
+ },
+ "relationships": {
+  "outgoing": {},
+  "incoming": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "008a8778-1201-4c4b-b762-1ed861cbc3e9",
+     "name": "Secrets Vault",
+     "entity_type": "Company",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "boe.es",
+        "document": "https://www.boe.es/diario_borme/txt.php?id=BORME-A-2026-51-08",
+        "date": "2026-03-16",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       },
+       {
+        "name": "boe.es",
+        "document": "https://www.boe.es/diario_borme/txt.php?id=BORME-A-2026-60-08",
+        "date": "2026-03-27",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       },
+       {
+        "name": "elreferente.es",
+        "document": "https://elreferente.es/actualidad/archipelago-next-invierte-en-cinco-jovenes-empresas/",
+        "date": "2026-05-08",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "525bb3ff-a449-5b0e-942d-4756a93c8aae"
+     }
+    },
+    {
+     "id": "6694b44f-0447-4026-a6a9-044b51e90f2b",
+     "name": "Archipelago Next",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "elreferente.es",
+        "document": "https://elreferente.es/actualidad/archipelago-next-invierte-en-cinco-jovenes-empresas/",
+        "date": "2026-05-08",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "is_lead": true,
+      "id": "81e157bd-9e1e-5a0b-9055-d3ec36e48ba7"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

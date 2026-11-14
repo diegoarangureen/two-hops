@@ -1,0 +1,3106 @@
+{
+ "id": "1c2ad8a2-8b24-48d6-915d-2a67e92e3711",
+ "name": "ELEVEN LABS INC.",
+ "entity_type": "Company",
+ "description": "Create lifelike speech with our AI voice generator and voice agents platform. Access 17,500+ voices in 90+ languages with secure APIs and SDKs.",
+ "properties": {
+  "name": {
+   "value": "ELEVEN LABS INC.",
+   "sources": [
+    {
+     "name": "SEC",
+     "document": "https://www.sec.gov/edgar/browse/?CIK=1977921",
+     "date": "2026-05-27"
+    },
+    {
+     "name": "GLEIF",
+     "document": "https://search.gleif.org/#/record/254900MCM69TO5IDN844",
+     "date": "2026-06-19"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "ELEVEN LABS INC.",
+   "sources": [
+    {
+     "name": "GLEIF",
+     "document": "https://search.gleif.org/#/record/254900MCM69TO5IDN844",
+     "date": "2026-06-19"
+    }
+   ]
+  },
+  "aliases": {
+   "value": [
+    "ElevenLabs",
+    "Eleven Labs"
+   ],
+   "sources": []
+  },
+  "website": {
+   "value": "elevenlabs.io",
+   "sources": [
+    {
+     "name": "www.eu-startups.com",
+     "document": "https://www.eu-startups.com/2026/05/london-based-mouro-capital-secures-e343-4-million-first-close-for-third-fund-backed-by-santander",
+     "date": "2026-06-09"
+    },
+    {
+     "name": "Mouro Capital aims to bring AI and other services into the fintech fold",
+     "document": "https://pathfounders.com/p/mouro-capital-aims-to-bring-ai-and-other-services",
+     "date": "2026-05-19"
+    },
+    {
+     "name": "elevenlabs.io",
+     "document": "https://elevenlabs.io/",
+     "date": "2026-10-29",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "dns.google",
+     "document": "https://dns.google/query?name=elevenlabs.io&type=A",
+     "date": "2026-10-29",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "Create lifelike speech with our AI voice generator and voice agents platform. Access 17,500+ voices in 90+ languages with secure APIs and SDKs.",
+   "sources": [
+    {
+     "name": "elevenlabs.io",
+     "document": "https://elevenlabs.io/",
+     "date": "2026-11-03",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2022-04-18",
+   "sources": [
+    {
+     "name": "GLEIF",
+     "document": "https://search.gleif.org/#/record/254900MCM69TO5IDN844",
+     "date": "2026-06-19"
+    },
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/elevenlabsio/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "169 Madison Ave #2484, New York, US-NY, 10016, US",
+   "sources": [
+    {
+     "name": "GLEIF",
+     "document": "https://search.gleif.org/#/record/254900MCM69TO5IDN844",
+     "date": "2026-06-19"
+    }
+   ]
+  },
+  "registered_address": {
+   "value": "C/O CORPORATION SERVICE COMPANY, 251 LITTLE FALLS DRIVE, WILMINGTON, US-DE, 19808, US",
+   "sources": [
+    {
+     "name": "GLEIF",
+     "document": "https://search.gleif.org/#/record/254900MCM69TO5IDN844",
+     "date": "2026-06-19"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "elevenlabs.io",
+     "document": "https://elevenlabs.io/",
+     "date": "2026-11-03",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "total_funding": {
+   "value": 781000000.0,
+   "sources": [
+    {
+     "name": "elevenlabs.io",
+     "document": "https://elevenlabs.io/blog/elevenlabs-raises-2m-pre-seed-and-announces-ai-speech-platform-promising-to-revolutionize-audio-storytelling",
+     "date": "2023-01-23",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "en.ain.ua",
+     "document": "https://en.ain.ua/2023/02/01/ai-voice-technology-startup-elevenlabs-raises-2m-in-a-pre-seed-round-led-by-czech-credo-ventures",
+     "date": "2023-02-01",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "conceptventures.vc",
+     "document": "https://conceptventures.vc/news/elevenlabs-raises-19m-series-a",
+     "date": "2023-06-20",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "en.ain.ua",
+     "document": "https://en.ain.ua/2023/06/20/credo-ventures-joins-17-3m-round-for-elevenlabs",
+     "date": "2023-06-20",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "tech.eu",
+     "document": "https://tech.eu/2024/01/22/andreessen-horowitz-backed-elevenlabs-raises-80m-series-b-for-voice-ai-development/",
+     "date": "2024-01-22",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "wsgr.com",
+     "document": "https://www.wsgr.com/en/insights/wilson-sonsini-advises-elevenlabs-on-dollar80-million-series-b-financing",
+     "date": "2024-01-26",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "yourstory.com",
+     "document": "https://yourstory.com/2025/01/elevenlabs-raises-series-c-round-a16z-iconiq-growth",
+     "date": "2025-01-31",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "tech.eu",
+     "document": "https://tech.eu/2026/02/04/elevenlabs-raises-500m-says-building-towards-ipo/",
+     "date": "2026-02-04",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "hlth.com",
+     "document": "https://hlth.com/insights/news/elevenlabs-raises-500m-series-d-led-by-sequoia-at-11b-valuation-2026-02-05",
+     "date": "2026-02-05",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "total_funding_units": {
+   "value": "USD",
+   "sources": [
+    {
+     "name": "elevenlabs.io",
+     "document": "https://elevenlabs.io/blog/elevenlabs-raises-2m-pre-seed-and-announces-ai-speech-platform-promising-to-revolutionize-audio-storytelling",
+     "date": "2023-01-23",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "en.ain.ua",
+     "document": "https://en.ain.ua/2023/02/01/ai-voice-technology-startup-elevenlabs-raises-2m-in-a-pre-seed-round-led-by-czech-credo-ventures",
+     "date": "2023-02-01",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "conceptventures.vc",
+     "document": "https://conceptventures.vc/news/elevenlabs-raises-19m-series-a",
+     "date": "2023-06-20",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "en.ain.ua",
+     "document": "https://en.ain.ua/2023/06/20/credo-ventures-joins-17-3m-round-for-elevenlabs",
+     "date": "2023-06-20",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "tech.eu",
+     "document": "https://tech.eu/2024/01/22/andreessen-horowitz-backed-elevenlabs-raises-80m-series-b-for-voice-ai-development/",
+     "date": "2024-01-22",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "wsgr.com",
+     "document": "https://www.wsgr.com/en/insights/wilson-sonsini-advises-elevenlabs-on-dollar80-million-series-b-financing",
+     "date": "2024-01-26",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "yourstory.com",
+     "document": "https://yourstory.com/2025/01/elevenlabs-raises-series-c-round-a16z-iconiq-growth",
+     "date": "2025-01-31",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "tech.eu",
+     "document": "https://tech.eu/2026/02/04/elevenlabs-raises-500m-says-building-towards-ipo/",
+     "date": "2026-02-04",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "hlth.com",
+     "document": "https://hlth.com/insights/news/elevenlabs-raises-500m-series-d-led-by-sequoia-at-11b-valuation-2026-02-05",
+     "date": "2026-02-05",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "total_funding_excluding_debt": {
+   "value": 781000000.0,
+   "sources": [
+    {
+     "name": "elevenlabs.io",
+     "document": "https://elevenlabs.io/blog/elevenlabs-raises-2m-pre-seed-and-announces-ai-speech-platform-promising-to-revolutionize-audio-storytelling",
+     "date": "2023-01-23",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "en.ain.ua",
+     "document": "https://en.ain.ua/2023/02/01/ai-voice-technology-startup-elevenlabs-raises-2m-in-a-pre-seed-round-led-by-czech-credo-ventures",
+     "date": "2023-02-01",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "conceptventures.vc",
+     "document": "https://conceptventures.vc/news/elevenlabs-raises-19m-series-a",
+     "date": "2023-06-20",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "en.ain.ua",
+     "document": "https://en.ain.ua/2023/06/20/credo-ventures-joins-17-3m-round-for-elevenlabs",
+     "date": "2023-06-20",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "tech.eu",
+     "document": "https://tech.eu/2024/01/22/andreessen-horowitz-backed-elevenlabs-raises-80m-series-b-for-voice-ai-development/",
+     "date": "2024-01-22",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "wsgr.com",
+     "document": "https://www.wsgr.com/en/insights/wilson-sonsini-advises-elevenlabs-on-dollar80-million-series-b-financing",
+     "date": "2024-01-26",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "yourstory.com",
+     "document": "https://yourstory.com/2025/01/elevenlabs-raises-series-c-round-a16z-iconiq-growth",
+     "date": "2025-01-31",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "tech.eu",
+     "document": "https://tech.eu/2026/02/04/elevenlabs-raises-500m-says-building-towards-ipo/",
+     "date": "2026-02-04",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "hlth.com",
+     "document": "https://hlth.com/insights/news/elevenlabs-raises-500m-series-d-led-by-sequoia-at-11b-valuation-2026-02-05",
+     "date": "2026-02-05",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "funding_stage": {
+   "value": "SERIES_D",
+   "sources": [
+    {
+     "name": "tech.eu",
+     "document": "https://tech.eu/2026/02/04/elevenlabs-raises-500m-says-building-towards-ipo/",
+     "date": "2026-02-04",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "hlth.com",
+     "document": "https://hlth.com/insights/news/elevenlabs-raises-500m-series-d-led-by-sequoia-at-11b-valuation-2026-02-05",
+     "date": "2026-02-05",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "78fbd188-bb8f-5a80-95e5-bd5f7368f0cd",
+     "name": "Series A",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "elevenlabs.io",
+        "document": "https://elevenlabs.io/blog/elevenlabs-raises-2m-pre-seed-and-announces-ai-speech-platform-promising-to-revolutionize-audio-storytelling",
+        "date": "2023-01-23",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "en.ain.ua",
+        "document": "https://en.ain.ua/2023/02/01/ai-voice-technology-startup-elevenlabs-raises-2m-in-a-pre-seed-round-led-by-czech-credo-ventures",
+        "date": "2023-02-01",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "conceptventures.vc",
+        "document": "https://conceptventures.vc/news/elevenlabs-raises-19m-series-a",
+        "date": "2023-06-20",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "en.ain.ua",
+        "document": "https://en.ain.ua/2023/06/20/credo-ventures-joins-17-3m-round-for-elevenlabs",
+        "date": "2023-06-20",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "04fd52c6-583e-533c-b95f-f892ff8dc6f1"
+     }
+    },
+    {
+     "id": "7b2b2314-43bb-52a5-84a6-a64689fbbdf2",
+     "name": "Series C",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "yourstory.com",
+        "document": "https://yourstory.com/2025/01/elevenlabs-raises-series-c-round-a16z-iconiq-growth",
+        "date": "2025-01-31",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "ae0db52b-b1e2-5106-8556-6c8519ab4bf5"
+     }
+    },
+    {
+     "id": "930601eb-ff6d-58ac-bc62-9ef7c9a8b2ec",
+     "name": "Series B",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2024/01/22/andreessen-horowitz-backed-elevenlabs-raises-80m-series-b-for-voice-ai-development/",
+        "date": "2024-01-22",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "wsgr.com",
+        "document": "https://www.wsgr.com/en/insights/wilson-sonsini-advises-elevenlabs-on-dollar80-million-series-b-financing",
+        "date": "2024-01-26",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "9639c76b-50f9-5e53-a0e3-32864f95ce97"
+     }
+    },
+    {
+     "id": "a1193238-f791-5859-82d5-b014610b93ae",
+     "name": "Series D",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2026/02/04/elevenlabs-raises-500m-says-building-towards-ipo/",
+        "date": "2026-02-04",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "hlth.com",
+        "document": "https://hlth.com/insights/news/elevenlabs-raises-500m-series-d-led-by-sequoia-at-11b-valuation-2026-02-05",
+        "date": "2026-02-05",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "f2daf0e3-e360-5a44-b5f0-149ec23afa4a"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_CORPORATE_EVENT": [
+    {
+     "id": "0809e8ba-7d3f-4647-95d0-7959e9355dff",
+     "name": "FINANCING_RAISED_OR_FACILITY_ENTERED",
+     "entity_type": "PrivateCompanyFundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/elevenlabs/__Tvkv2vcQvT5RiO80KqXicawZyFtA-r7-J533YWuiDrM/funding-and-investors",
+        "date": "2026-08-05"
+       }
+      ],
+      "event_date": "2025-06-18",
+      "id": "c46ee282-8e88-4cfc-9511-46b04c828445"
+     }
+    },
+    {
+     "id": "21a25196-58e8-4c5c-bbbc-1aa13ca477e0",
+     "name": "FINANCING_RAISED_OR_FACILITY_ENTERED",
+     "entity_type": "PrivateCompanyFundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "news.crunchbase.com",
+        "document": "https://news.crunchbase.com/ai/elevenlabs-voices-unicorn-a16z/",
+        "date": "2026-05-10"
+       }
+      ],
+      "id": "98e45344-8bc8-461c-adcf-e34d82321280"
+     }
+    },
+    {
+     "id": "29c84687-c4f9-478a-9a59-ca2bd6925f6f",
+     "name": "FINANCING_RAISED_OR_FACILITY_ENTERED",
+     "entity_type": "PrivateCompanyFundingRound",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "Mega Promoting — Voice agents, SaaS & sites that win",
+        "document": "https://www.megapromoting.com/premii",
+        "date": "2019-04-24"
+       },
+       {
+        "name": "bravin.io",
+        "document": "https://www.bravin.io/en",
+        "date": "2026-08-24"
+       }
+      ],
+      "event_date": "2025-01-01",
+      "id": "e60beb8c-e889-4e26-95a9-f400208e7695"
+     }
+    },
+    {
+     "id": "2ce258aa-7b56-43db-9a7b-2159fb2739b2",
+     "name": "FINANCING_RAISED_OR_FACILITY_ENTERED",
+     "entity_type": "PrivateCompanyFundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/elevenlabs/__Tvkv2vcQvT5RiO80KqXicawZyFtA-r7-J533YWuiDrM/funding-and-investors",
+        "date": "2026-08-05"
+       }
+      ],
+      "event_date": "2025-06-18",
+      "id": "85966747-5771-416a-a012-aae63fb03b59"
+     }
+    },
+    {
+     "id": "45483869-f16e-4438-a74c-adba751551f0",
+     "name": "FINANCING_RAISED_OR_FACILITY_ENTERED",
+     "entity_type": "PrivateCompanyFundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "news.crunchbase.com",
+        "document": "https://news.crunchbase.com/ai/elevenlabs-voices-unicorn-a16z/",
+        "date": "2026-05-10"
+       },
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/elevenlabs/__Tvkv2vcQvT5RiO80KqXicawZyFtA-r7-J533YWuiDrM",
+        "date": "2026-05-10"
+       }
+      ],
+      "id": "c6e52f82-7420-4e4d-821e-fc2a64dfbd87"
+     }
+    },
+    {
+     "id": "807b2fca-63e9-48a4-97a8-d959f5965449",
+     "name": "FINANCING_RAISED_OR_FACILITY_ENTERED",
+     "entity_type": "PrivateCompanyFundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/elevenlabs/__Tvkv2vcQvT5RiO80KqXicawZyFtA-r7-J533YWuiDrM/funding-and-investors",
+        "date": "2026-05-11"
+       }
+      ],
+      "event_date": "2025-01-26",
+      "id": "ded72c7a-be14-441a-b184-628f6c5b335d"
+     }
+    },
+    {
+     "id": "8ddcb913-3347-4709-a474-4e4b8cf04707",
+     "name": "FINANCING_RAISED_OR_FACILITY_ENTERED",
+     "entity_type": "PrivateCompanyFundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/elevenlabs/__Tvkv2vcQvT5RiO80KqXicawZyFtA-r7-J533YWuiDrM/funding-and-investors",
+        "date": "2026-05-10"
+       }
+      ],
+      "event_date": "2026-02-04",
+      "id": "8e55047c-4611-4777-a4e1-90bcb6baa563"
+     }
+    },
+    {
+     "id": "af4e413b-f764-48e6-ad44-b1ba7f2adaf9",
+     "name": "FINANCING_RAISED_OR_FACILITY_ENTERED",
+     "entity_type": "PrivateCompanyFundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/elevenlabs/__Tvkv2vcQvT5RiO80KqXicawZyFtA-r7-J533YWuiDrM",
+        "date": "2026-05-11"
+       }
+      ],
+      "event_date": "2026-03-12",
+      "id": "b0803c43-f289-42f2-8ddd-38ff38ee7672"
+     }
+    },
+    {
+     "id": "bbdacf9c-67da-4d92-83a1-126058562fb1",
+     "name": "FINANCING_RAISED_OR_FACILITY_ENTERED",
+     "entity_type": "PrivateCompanyFundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/elevenlabs/__Tvkv2vcQvT5RiO80KqXicawZyFtA-r7-J533YWuiDrM",
+        "date": "2026-05-11"
+       }
+      ],
+      "event_date": "2025-09-23",
+      "id": "395a713b-2ce7-464f-85aa-35a6b485ed1e"
+     }
+    },
+    {
+     "id": "f4bd1269-13f0-4388-8fcf-493303a06fb2",
+     "name": "FINANCING_RAISED_OR_FACILITY_ENTERED",
+     "entity_type": "CorporateEvent",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "SEC",
+        "document": "https://www.sec.gov/Archives/edgar/data/1977921/000197792123000001/primary_doc.xml",
+        "date": "2023-05-17"
+       }
+      ],
+      "event_date": "2023-05-01",
+      "id": "be2b026d-2fb1-45f6-8851-d4ae3b87a96d"
+     }
+    },
+    {
+     "id": "f62acf25-c339-4d8d-9b8f-054a07a16b2b",
+     "name": "FINANCING_RAISED_OR_FACILITY_ENTERED",
+     "entity_type": "PrivateCompanyFundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/elevenlabs/__Tvkv2vcQvT5RiO80KqXicawZyFtA-r7-J533YWuiDrM/funding-and-investors",
+        "date": "2026-08-05"
+       }
+      ],
+      "event_date": "2026-06-17",
+      "id": "7bd1d432-b42b-4cb1-9da1-ab78d9c81a92"
+     }
+    },
+    {
+     "id": "f92fee95-9d08-4949-9554-f0b12a6e28bc",
+     "name": "FINANCING_RAISED_OR_FACILITY_ENTERED",
+     "entity_type": "PrivateCompanyFundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/elevenlabs/__Tvkv2vcQvT5RiO80KqXicawZyFtA-r7-J533YWuiDrM",
+        "date": "2026-05-10"
+       },
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/elevenlabs/__Tvkv2vcQvT5RiO80KqXicawZyFtA-r7-J533YWuiDrM/funding-and-investors",
+        "date": "2026-05-10"
+       }
+      ],
+      "event_date": "2023-01-25",
+      "id": "e5ae5dc6-c235-46e6-8596-2a501c9e0ea3"
+     }
+    },
+    {
+     "id": "fa046ed0-50cd-4388-ae1d-c6ca25b83d77",
+     "name": "FINANCING_RAISED_OR_FACILITY_ENTERED",
+     "entity_type": "PrivateCompanyFundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/elevenlabs/__Tvkv2vcQvT5RiO80KqXicawZyFtA-r7-J533YWuiDrM/funding-and-investors",
+        "date": "2026-08-05"
+       }
+      ],
+      "event_date": "2026-06-17",
+      "id": "b92a32ca-75d4-444d-b3de-4ff79f44e4ec"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "56c8429d-3eae-574c-9329-74b362f1239c"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "8561e6a1-d703-405b-9981-f78cf3428db5",
+     "name": "ENTERTAINMENT",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "ElevenLabs crosses $500M ARR and welcomes new investors",
+        "document": "https://elevenlabs.io/blog/500m-arr-and-new-investors",
+        "date": "2026-05-05"
+       },
+       {
+        "name": "www.cnbc.com",
+        "document": "https://www.cnbc.com/2026/02/04/nvidia-backed-ai-startup-elevenlabs-11-billion-valuation.html",
+        "date": "2026-05-11"
+       }
+      ],
+      "id": "59f1f0fa-e56e-4f81-9f6d-10fb66ee1a73"
+     }
+    },
+    {
+     "id": "8ecf5e57-a149-438c-9eb4-089809bade56",
+     "name": "SOFTWARE_AND_SERVICES",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "galdanaventures.com",
+        "document": "https://galdanaventures.com/portfolio",
+        "date": "2026-05-10"
+       }
+      ],
+      "id": "59b16fb1-a27a-4dff-bbad-aec3b2ae2ba7"
+     }
+    },
+    {
+     "id": "8ecf5e57-a149-438c-9eb4-089809bade56",
+     "name": "SOFTWARE_AND_SERVICES",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/elevenlabsio/",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "d6c7eb96-5d98-5be7-b81d-961618829307",
+      "original_label": "ai"
+     }
+    },
+    {
+     "id": "bb7858a2-51d8-45e2-82bd-3ea6a06d317a",
+     "name": "INTERNET_AND_WEB_SERVICES",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "Portfolio",
+        "document": "https://conceptventures.vc/portfolio",
+        "date": "2017-08-17"
+       }
+      ],
+      "id": "eb85453c-9e98-4fa9-aabe-53a9232cf339"
+     }
+    }
+   ],
+   "HAS_HEADQUARTERS_IN": [
+    {
+     "id": "37a1f0f5-f5ef-4b63-b3d8-14f5636be703",
+     "name": "United States",
+     "entity_type": "Country",
+     "properties": {
+      "sources": [
+       {
+        "name": "Portfolio | Andreessen Horowitz",
+        "document": "https://a16z.com/portfolio",
+        "date": "2026-02-27"
+       }
+      ],
+      "id": "bc21cbe6-17c7-4967-9e46-c5bcfaed4ae3"
+     }
+    },
+    {
+     "id": "9929317f-bdad-448a-8658-898fc7ec6e30",
+     "name": "Poland",
+     "entity_type": "Country",
+     "properties": {
+      "sources": [
+       {
+        "name": "ElevenLabs crosses $500M ARR and welcomes new investors",
+        "document": "https://elevenlabs.io/blog/500m-arr-and-new-investors",
+        "date": "2026-05-05"
+       },
+       {
+        "name": "www.cnbc.com",
+        "document": "https://www.cnbc.com/2026/02/04/nvidia-backed-ai-startup-elevenlabs-11-billion-valuation.html",
+        "date": "2026-05-11"
+       }
+      ],
+      "id": "c0a1bcac-08a4-41c5-8db4-8ce1c1c20ffa"
+     }
+    },
+    {
+     "id": "e332ff3d-605d-4b01-8222-5098236a3aff",
+     "name": "United Kingdom",
+     "entity_type": "Country",
+     "properties": {
+      "sources": [
+       {
+        "name": "www.cnbc.com",
+        "document": "https://www.cnbc.com/2026/02/04/nvidia-backed-ai-startup-elevenlabs-11-billion-valuation.html",
+        "date": "2026-05-11"
+       },
+       {
+        "name": "Nvidia to make “strategic” investment in ElevenLabs",
+        "document": "https://tech.eu/2025/09/23/nvidia-to-make-strategic-investment-in-elevenlabs/",
+        "date": "2025-09-23"
+       }
+      ],
+      "id": "feb8bcea-78f3-4d4f-8a60-ac5ca845f4c6"
+     }
+    },
+    {
+     "id": "ebacd46e-8975-471d-972f-8d877ea12287",
+     "name": "New York",
+     "entity_type": "CountrySubdivision",
+     "properties": {
+      "sources": [
+       {
+        "name": "GLEIF",
+        "document": "https://search.gleif.org/#/record/254900MCM69TO5IDN844",
+        "date": "2026-06-18"
+       }
+      ],
+      "id": "28561f22-34fa-57c8-ae53-41e32c3dcad6"
+     }
+    }
+   ],
+   "IS_REGISTERED_IN": [
+    {
+     "id": "37a1f0f5-f5ef-4b63-b3d8-14f5636be703",
+     "name": "United States",
+     "entity_type": "Country",
+     "properties": {
+      "sources": [
+       {
+        "name": "GLEIF",
+        "document": "https://search.gleif.org/#/record/254900MCM69TO5IDN844",
+        "date": "2026-06-18"
+       }
+      ],
+      "id": "d3efe39d-054d-5820-9b27-3511c18e1826"
+     }
+    },
+    {
+     "id": "a3263b7f-7d25-418a-bbb1-f28f456c08a8",
+     "name": "Delaware",
+     "entity_type": "CountrySubdivision",
+     "properties": {
+      "sources": [
+       {
+        "name": "GLEIF",
+        "document": "https://search.gleif.org/#/record/254900MCM69TO5IDN844",
+        "date": "2026-06-18"
+       }
+      ],
+      "id": "d5473829-c22a-5469-9163-f0b595892b6d"
+     }
+    }
+   ],
+   "HAS_PRESENCE_IN": [
+    {
+     "id": "37a1f0f5-f5ef-4b63-b3d8-14f5636be703",
+     "name": "United States",
+     "entity_type": "Country",
+     "properties": {
+      "sources": [
+       {
+        "name": "UKTN, data and analysis",
+        "document": "https://www.uktech.news/ai/elevenlabs-series-a-20230620",
+        "date": "2026-05-07"
+       }
+      ],
+      "id": "3246d0a8-29ab-403e-b7eb-6a64c7205f45"
+     }
+    },
+    {
+     "id": "9929317f-bdad-448a-8658-898fc7ec6e30",
+     "name": "Poland",
+     "entity_type": "Country",
+     "properties": {
+      "sources": [
+       {
+        "name": "UKTN, data and analysis",
+        "document": "https://www.uktech.news/ai/elevenlabs-series-a-20230620",
+        "date": "2026-05-07"
+       }
+      ],
+      "id": "cdd8bc66-b12a-4bf3-af64-c3c8c10ba305"
+     }
+    },
+    {
+     "id": "e332ff3d-605d-4b01-8222-5098236a3aff",
+     "name": "United Kingdom",
+     "entity_type": "Country",
+     "properties": {
+      "sources": [
+       {
+        "name": "UKTN, data and analysis",
+        "document": "https://www.uktech.news/ai/elevenlabs-series-a-20230620",
+        "date": "2026-05-07"
+       }
+      ],
+      "id": "b2a46b55-9a45-4df9-a972-5d644440bc1d"
+     }
+    }
+   ],
+   "INVESTED_IN": [
+    {
+     "id": "0ccc3413-7e0e-47d8-be6c-1f8ca738c2ed",
+     "name": "Fujitsu",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "Technology & Data for Venture Capital, Corp Dev, Investment Banks",
+        "document": "https://tracxn.com/d/companies/elevenlabs/__Tvkv2vcQvT5RiO80KqXicawZyFtA-r7-J533YWuiDrM/funding-and-investors",
+        "date": "2026-08-21"
+       }
+      ],
+      "id": "0cc89281-acbe-51ef-9852-db02a9407aad"
+     }
+    },
+    {
+     "id": "151bf814-7566-4b14-a7d2-f0d802ef0981",
+     "name": "Sequoia Capital",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "Technology & Data for Venture Capital, Corp Dev, Investment Banks",
+        "document": "https://tracxn.com/d/companies/elevenlabs/__Tvkv2vcQvT5RiO80KqXicawZyFtA-r7-J533YWuiDrM/funding-and-investors",
+        "date": "2026-07-30"
+       }
+      ],
+      "id": "d89df0c3-7be5-5b86-959c-54e821a8f7d6"
+     }
+    },
+    {
+     "id": "4872c0fc-6a43-4de3-aef5-b1f085c7dda2",
+     "name": "Robinhood Markets, Inc.",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "Technology & Data for Venture Capital, Corp Dev, Investment Banks",
+        "document": "https://tracxn.com/d/companies/elevenlabs/__Tvkv2vcQvT5RiO80KqXicawZyFtA-r7-J533YWuiDrM/funding-and-investors",
+        "date": "2026-08-21"
+       }
+      ],
+      "id": "68854bf5-d2ed-5a79-a5d4-0e241d88fce1"
+     }
+    },
+    {
+     "id": "51cb4792-2531-4e47-8609-f798d7ad87e7",
+     "name": "NVIDIA CORPORATION",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "news.crunchbase.com",
+        "document": "https://news.crunchbase.com/",
+        "date": "2026-07-27"
+       },
+       {
+        "name": "SEC",
+        "document": "https://www.sec.gov/",
+        "date": "2026-07-27"
+       },
+       {
+        "name": "www.cnbc.com",
+        "document": "https://www.cnbc.com/",
+        "date": "2026-07-27"
+       },
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/",
+        "date": "2026-07-27"
+       },
+       {
+        "name": "Hugging Face raises $235M from investors, including Salesforce and Nvidia | TechCrunch",
+        "document": "https://techcrunch.com/",
+        "date": "2026-07-27"
+       },
+       {
+        "name": "Abridge to Deliver Generative AI Microservices to Millions with NVIDIA",
+        "document": "https://www.abridge.com/",
+        "date": "2026-07-27"
+       },
+       {
+        "name": "Nvidia Invests in 35 AI Companies in 2023 | PYMNTS.com",
+        "document": "https://www.pymnts.com/",
+        "date": "2026-07-27"
+       },
+       {
+        "name": "finance.yahoo.com",
+        "document": "https://finance.yahoo.com/",
+        "date": "2026-07-27"
+       },
+       {
+        "name": "www.wsj.com",
+        "document": "https://www.wsj.com/",
+        "date": "2026-07-27"
+       },
+       {
+        "name": "Revolut Secures Nvidia Investment As Valuation Soars To $75 Billion",
+        "document": "https://www.forbes.com/",
+        "date": "2026-07-27"
+       },
+       {
+        "name": "NVIDIA CORP Top 13F Holdings",
+        "document": "https://whalewisdom.com/",
+        "date": "2026-07-27"
+       },
+       {
+        "name": "AI inference startup Baseten hits $5B valuation in $300M round backed by Nvidia - SiliconANGLE",
+        "document": "https://siliconangle.com/",
+        "date": "2026-07-27"
+       },
+       {
+        "name": "www.reuters.com",
+        "document": "https://www.reuters.com/",
+        "date": "2026-07-27"
+       },
+       {
+        "name": "ElevenLabs crosses $500M ARR and welcomes new investors",
+        "document": "https://elevenlabs.io/",
+        "date": "2026-07-27"
+       },
+       {
+        "name": "Autonomous truck startup TuSimple hits unicorn status in latest round | TechCrunch",
+        "document": "https://techcrunch.com/",
+        "date": "2026-07-27"
+       },
+       {
+        "name": "www.morningstar.com",
+        "document": "https://www.morningstar.com/",
+        "date": "2026-07-27"
+       },
+       {
+        "name": "firstwordpharma.com",
+        "document": "https://firstwordpharma.com/",
+        "date": "2026-07-27"
+       },
+       {
+        "name": "Nvidia's AI empire: A look at its top startup investments | TechCrunch",
+        "document": "https://techcrunch.com/",
+        "date": "2026-07-27"
+       },
+       {
+        "name": "pitchbook.com",
+        "document": "https://pitchbook.com/",
+        "date": "2026-07-27"
+       },
+       {
+        "name": "Figure rides the humanoid robot hype wave to $2.6B valuation | TechCrunch",
+        "document": "https://techcrunch.com/",
+        "date": "2026-07-27"
+       },
+       {
+        "name": "xAI Secures $20 Billion in Funding with Nvidia’s $2 Billion Strategic Investment - FNEX",
+        "document": "https://fnex.com/",
+        "date": "2026-07-27"
+       }
+      ],
+      "id": "7a0e3abb-ad75-5338-9be7-911773b29539"
+     }
+    },
+    {
+     "id": "5a9d0c1c-1e04-4816-b38a-28c4f560569b",
+     "name": "Lightspeed Venture Partners",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "Technology & Data for Venture Capital, Corp Dev, Investment Banks",
+        "document": "https://tracxn.com/d/companies/elevenlabs/__Tvkv2vcQvT5RiO80KqXicawZyFtA-r7-J533YWuiDrM/funding-and-investors",
+        "date": "2026-08-21"
+       }
+      ],
+      "id": "220539f5-f9e8-596e-86b1-0d24f186f646"
+     }
+    },
+    {
+     "id": "5f580685-49ac-4324-8c2c-dda02cc2760d",
+     "name": "SV Angel",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "Technology & Data for Venture Capital, Corp Dev, Investment Banks",
+        "document": "https://tracxn.com/d/companies/elevenlabs/__Tvkv2vcQvT5RiO80KqXicawZyFtA-r7-J533YWuiDrM/funding-and-investors",
+        "date": "2026-07-30"
+       }
+      ],
+      "id": "a55cbf14-1fd6-5d3e-9d63-c73459da280d"
+     }
+    },
+    {
+     "id": "61e9e4bf-e5d6-455a-a619-33e1894735b7",
+     "name": "Fujitsu",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "Technology & Data for Venture Capital, Corp Dev, Investment Banks",
+        "document": "https://tracxn.com/d/companies/elevenlabs/__Tvkv2vcQvT5RiO80KqXicawZyFtA-r7-J533YWuiDrM/funding-and-investors",
+        "date": "2026-07-30"
+       }
+      ],
+      "id": "a97b30be-afe6-5e04-92f2-2da26d459178"
+     }
+    },
+    {
+     "id": "71086908-52f0-4e8d-829d-3fcd5b24bfd6",
+     "name": "In-Q-Tel",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "Technology & Data for Venture Capital, Corp Dev, Investment Banks",
+        "document": "https://tracxn.com/d/companies/elevenlabs/__Tvkv2vcQvT5RiO80KqXicawZyFtA-r7-J533YWuiDrM/funding-and-investors",
+        "date": "2026-07-30"
+       }
+      ],
+      "id": "dcb1b7c6-3fc9-5f50-bb37-54442dc57295"
+     }
+    },
+    {
+     "id": "7765956e-78f4-4578-87ed-a5271aea3a64",
+     "name": "PARTECH PARTNERS",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "Technology & Data for Venture Capital, Corp Dev, Investment Banks",
+        "document": "https://tracxn.com/d/companies/elevenlabs/__Tvkv2vcQvT5RiO80KqXicawZyFtA-r7-J533YWuiDrM/funding-and-investors",
+        "date": "2026-07-30"
+       }
+      ],
+      "id": "bb185524-0bc4-53c3-b3d6-55ea41f1456e"
+     }
+    },
+    {
+     "id": "80147273-e5d3-4661-a72e-9fddab491e9c",
+     "name": "Concept Ventures",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "Technology & Data for Venture Capital, Corp Dev, Investment Banks",
+        "document": "https://tracxn.com/d/companies/elevenlabs/__Tvkv2vcQvT5RiO80KqXicawZyFtA-r7-J533YWuiDrM/funding-and-investors",
+        "date": "2026-07-30"
+       }
+      ],
+      "id": "0f42bc55-6468-5940-8a70-06db5f75d2b4"
+     }
+    },
+    {
+     "id": "9642f867-0904-4954-9dea-aada36b650b9",
+     "name": "Credo Ventures",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "Technology & Data for Venture Capital, Corp Dev, Investment Banks",
+        "document": "https://tracxn.com/d/companies/elevenlabs/__Tvkv2vcQvT5RiO80KqXicawZyFtA-r7-J533YWuiDrM/funding-and-investors",
+        "date": "2026-07-30"
+       }
+      ],
+      "id": "665b6c72-578e-5b06-b98e-bba1f4ea35d3"
+     }
+    },
+    {
+     "id": "b08b64c4-1802-4b61-926f-a610e4423402",
+     "name": "CREATOR VENTURES LLP",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "Technology & Data for Venture Capital, Corp Dev, Investment Banks",
+        "document": "https://tracxn.com/d/companies/elevenlabs/__Tvkv2vcQvT5RiO80KqXicawZyFtA-r7-J533YWuiDrM/funding-and-investors",
+        "date": "2026-07-30"
+       }
+      ],
+      "id": "bc45fdb4-99c8-5723-81a0-6ef61ea01a1c"
+     }
+    },
+    {
+     "id": "b0f143e9-f624-489e-bd23-0657a0646c62",
+     "name": "BroadLight Capital",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "Technology & Data for Venture Capital, Corp Dev, Investment Banks",
+        "document": "https://tracxn.com/d/companies/elevenlabs/__Tvkv2vcQvT5RiO80KqXicawZyFtA-r7-J533YWuiDrM/funding-and-investors",
+        "date": "2026-07-30"
+       }
+      ],
+      "id": "ed0df765-c428-5a8b-b0ab-8c4e1dd6493e"
+     }
+    },
+    {
+     "id": "b1249d63-39df-4390-9dba-315ffdd54263",
+     "name": "Evantic Capital Partners LLP",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "Technology & Data for Venture Capital, Corp Dev, Investment Banks",
+        "document": "https://tracxn.com/d/companies/elevenlabs/__Tvkv2vcQvT5RiO80KqXicawZyFtA-r7-J533YWuiDrM/funding-and-investors",
+        "date": "2026-08-21"
+       }
+      ],
+      "id": "6bae18b9-80cf-5bdc-b682-e2c44685403f"
+     }
+    },
+    {
+     "id": "bf85e21d-0169-4ece-bb0d-0dff0acb2a30",
+     "name": "Murphy (getmurphy)",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "Startup Rise EU - European Startup News | Funding | Startup Insights",
+        "document": "https://startuprise.co.uk/spain-based-ai-platform-murphy-secures-fund-in-pre-seed-round",
+        "date": "2026-07-31"
+       }
+      ],
+      "id": "88368445-1414-5a3d-9d80-405f76bac1fb"
+     }
+    },
+    {
+     "id": "c05c49bf-7eda-4b5f-9735-5c6c0de0d17b",
+     "name": "DXC Technology",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "Technology & Data for Venture Capital, Corp Dev, Investment Banks",
+        "document": "https://tracxn.com/d/companies/elevenlabs/__Tvkv2vcQvT5RiO80KqXicawZyFtA-r7-J533YWuiDrM/funding-and-investors",
+        "date": "2026-08-21"
+       }
+      ],
+      "id": "a52ec63c-be73-5b72-b2ad-4e9844be2279"
+     }
+    },
+    {
+     "id": "c5846e9e-7cf8-4886-bb0a-34ecc24bfe0c",
+     "name": "ICONIQ Growth",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "Technology & Data for Venture Capital, Corp Dev, Investment Banks",
+        "document": "https://tracxn.com/d/companies/elevenlabs/__Tvkv2vcQvT5RiO80KqXicawZyFtA-r7-J533YWuiDrM/funding-and-investors",
+        "date": "2026-08-21"
+       }
+      ],
+      "id": "5240ec44-2fae-5525-afa5-8b844c93acd0"
+     }
+    },
+    {
+     "id": "d4c3a691-c0b1-4777-b3cc-2cd1755cbbac",
+     "name": "Smash Capital Advisors L.P.",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "Technology & Data for Venture Capital, Corp Dev, Investment Banks",
+        "document": "https://tracxn.com/d/companies/elevenlabs/__Tvkv2vcQvT5RiO80KqXicawZyFtA-r7-J533YWuiDrM/funding-and-investors",
+        "date": "2026-07-30"
+       }
+      ],
+      "id": "44ede003-8274-5282-bb90-55f515ffe7b4"
+     }
+    },
+    {
+     "id": "daebf7ee-cf07-459c-a3c6-65523efcefa7",
+     "name": "Andreessen Horowitz",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "Technology & Data for Venture Capital, Corp Dev, Investment Banks",
+        "document": "https://tracxn.com/d/companies/elevenlabs/__Tvkv2vcQvT5RiO80KqXicawZyFtA-r7-J533YWuiDrM/funding-and-investors",
+        "date": "2026-07-30"
+       }
+      ],
+      "id": "781d07f1-b217-500f-af3d-86a3593b349c"
+     }
+    },
+    {
+     "id": "e703b004-b892-5101-b571-32560568cba9",
+     "name": "Tenity Group Ag",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "Technology & Data for Venture Capital, Corp Dev, Investment Banks",
+        "document": "https://tracxn.com/d/companies/elevenlabs/__Tvkv2vcQvT5RiO80KqXicawZyFtA-r7-J533YWuiDrM/funding-and-investors",
+        "date": "2026-07-30"
+       }
+      ],
+      "id": "2871d028-a888-580b-bc5b-dc8e7d1b6b10"
+     }
+    },
+    {
+     "id": "f9727c8b-515b-4245-8a8e-33b9331bb8c2",
+     "name": "Accel Partners",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "Technology & Data for Venture Capital, Corp Dev, Investment Banks",
+        "document": "https://tracxn.com/d/companies/elevenlabs/__Tvkv2vcQvT5RiO80KqXicawZyFtA-r7-J533YWuiDrM/funding-and-investors",
+        "date": "2026-07-30"
+       }
+      ],
+      "id": "567828cd-2a98-5816-aeb2-08dfe9562bc4"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "INVESTED_IN": [
+    {
+     "id": "020ab448-9d2a-42fd-ab93-5990dc8a420c",
+     "name": "Sequoia Capital",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "TechCrunch | Startup and Technology News",
+        "document": "https://techcrunch.com/2026/02/17/here-are-the-17-us-based-ai-companies-that-have-raised-100m-or-more-in-2026",
+        "date": "2026-06-30"
+       }
+      ],
+      "id": "4dd4f6d6-f0b0-44c6-a7d1-816cc521d3ee"
+     }
+    },
+    {
+     "id": "03e40165-b8f8-4a74-9bb5-89a112da1a1d",
+     "name": "HOOD",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "Robinhood Ventures: Invest in private companies",
+        "document": "https://robinhood.com/us/en/ventures/rvi",
+        "date": "2026-02-09"
+       }
+      ],
+      "id": "e5051180-ca93-55a3-8318-9289230ea684"
+     }
+    },
+    {
+     "id": "0fe7ad86-f4f3-49c8-92b8-6f5a2c6dbf9c",
+     "name": "Carles Reina",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "eu-startups.com",
+        "document": "https://www.eu-startups.com/2025/10/with-e3-5-million-in-funding-spanish-startup-omnia-is-helping-brands-stand-out-across-ai-platforms",
+        "date": "2026-06-17"
+       }
+      ],
+      "id": "533329c9-105e-40a7-95a7-555d729e73f3"
+     }
+    },
+    {
+     "id": "13fcc82c-62ce-4904-a79a-20a50f7cf191",
+     "name": "Murphy's",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "Startup Rise EU - European Startup News | Funding | Startup Insights",
+        "document": "https://startuprise.co.uk/spain-based-ai-platform-murphy-secures-fund-in-pre-seed-round",
+        "date": "2026-09-17"
+       }
+      ],
+      "id": "ebedabe4-11ff-5357-9c8f-67907f9261bb"
+     }
+    },
+    {
+     "id": "151bf814-7566-4b14-a7d2-f0d802ef0981",
+     "name": "Sequoia Capital",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/elevenlabs/__Tvkv2vcQvT5RiO80KqXicawZyFtA-r7-J533YWuiDrM/funding-and-investors",
+        "date": "2026-08-05"
+       },
+       {
+        "name": "Voice cloning startup ElevenLabs lands $80M, achieves unicorn status | TechCrunch",
+        "document": "https://techcrunch.com/2024/01/22/voice-cloning-startup-elevenlabs-lands-80m-achieves-unicorn-status",
+        "date": "2024-01-22"
+       },
+       {
+        "name": "news.crunchbase.com",
+        "document": "https://news.crunchbase.com/ai/elevenlabs-voices-unicorn-a16z",
+        "date": "2026-08-05"
+       },
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2024/01/22/andreessen-horowitz-backed-elevenlabs-raises-80m-series-b-for-voice-ai-development/",
+        "date": "2024-01-22",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "wsgr.com",
+        "document": "https://www.wsgr.com/en/insights/wilson-sonsini-advises-elevenlabs-on-dollar80-million-series-b-financing",
+        "date": "2024-01-26",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "4f14ddb4-3141-4393-9b6d-c3234e21bc45"
+     }
+    },
+    {
+     "id": "157cfe9e-026a-4f27-ab2e-76c24f8813a5",
+     "name": "Aravind Srinivas",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "news18.com",
+        "document": "https://www.news18.com/business/who-is-aravind-srinivas-indias-youngest-billionaire-on-m3m-hurun-india-rich-list-2025-ws-l-9609667.html",
+        "date": "2026-06-22"
+       }
+      ],
+      "id": "186826fa-cfa6-4936-8a9e-f56d244f88ba"
+     }
+    },
+    {
+     "id": "19362263-e00c-418c-b15c-b6bcbfda9c4f",
+     "name": "Blackrock, Inc",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "ElevenLabs raises $500M from Sequoia at an $11 billion valuation | TechCrunch",
+        "document": "https://techcrunch.com/2026/02/04/elevenlabs-raises-500m-from-sequioia-at-a-11-billion-valuation",
+        "date": "2026-02-04"
+       },
+       {
+        "name": "ElevenLabs lists BlackRock, Jamie Foxx, and Eva Longoria as new investors | TechCrunch",
+        "document": "https://techcrunch.com/2026/05/05/elevenlabs-lists-blackrock-jamie-foxx-and-eva-longoria-as-new-investors",
+        "date": "2026-05-05"
+       },
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/elevenlabs/__Tvkv2vcQvT5RiO80KqXicawZyFtA-r7-J533YWuiDrM/funding-and-investors",
+        "date": "2026-08-05"
+       },
+       {
+        "name": "pitchbook.com",
+        "document": "https://pitchbook.com/news/articles/ai-voice-startup-elevenlabs-valued-at-11b-with-500m-round",
+        "date": "2026-08-05"
+       }
+      ],
+      "id": "e0655c03-991a-4392-8459-2d7e190e744c"
+     }
+    },
+    {
+     "id": "1d6d5789-9ca9-434c-be0e-a9b08ba5d2e0",
+     "name": "RINGCENTRAL, INC.",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/elevenlabs/__Tvkv2vcQvT5RiO80KqXicawZyFtA-r7-J533YWuiDrM/funding-and-investors",
+        "date": "2026-08-05"
+       },
+       {
+        "name": "ElevenLabs, the hot AI audio startup, confirms $180M in Series C funding at a $3.3B valuation | TechCrunch",
+        "document": "https://techcrunch.com/2025/01/30/elevenlabs-raises-180-million-in-series-c-funding-at-3-3-billion-valuation",
+        "date": "2025-01-30"
+       }
+      ],
+      "id": "8e32b780-a59b-4c41-8485-6621d69653eb"
+     }
+    },
+    {
+     "id": "1e86655e-373d-4fe8-be13-af3713581f73",
+     "name": "Y Combinator",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "crowdfundinsider.com",
+        "document": "https://www.crowdfundinsider.com/2026/03/270081-y-combinator-invested-in-500-fintech-startups-majority-have-failed-analysis",
+        "date": "2026-06-20"
+       }
+      ],
+      "id": "a514cda7-90ee-477e-a8ec-98b100bc71d7"
+     }
+    },
+    {
+     "id": "2fc44b69-a7b6-4828-bdd4-ce95d1693c66",
+     "name": "Vinci",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "techfundingnews.com",
+        "document": "https://techfundingnews.com/poland-vinci-fund-11m-elevenlabs-ai-lab-poland",
+        "date": "2026-07-29"
+       },
+       {
+        "name": "www.bloomberg.com",
+        "document": "https://www.bloomberg.com/news/articles/2026-06-17/poland-invests-11-million-in-elevenlabs-to-build-ai-tech-hub",
+        "date": "2026-07-29"
+       }
+      ],
+      "id": "41b1604f-c778-5d8a-a9b9-791b43caa095",
+      "valid_since": "2026-06-18"
+     }
+    },
+    {
+     "id": "441ce102-3492-43ba-8294-30b06cc42a0f",
+     "name": "Wellington Management",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "ElevenLabs raises $500M from Sequoia at an $11 billion valuation | TechCrunch",
+        "document": "https://techcrunch.com/2026/02/04/elevenlabs-raises-500m-from-sequioia-at-a-11-billion-valuation",
+        "date": "2026-02-04"
+       },
+       {
+        "name": "ElevenLabs lists BlackRock, Jamie Foxx, and Eva Longoria as new investors | TechCrunch",
+        "document": "https://techcrunch.com/2026/05/05/elevenlabs-lists-blackrock-jamie-foxx-and-eva-longoria-as-new-investors",
+        "date": "2026-05-05"
+       },
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/elevenlabs/__Tvkv2vcQvT5RiO80KqXicawZyFtA-r7-J533YWuiDrM/funding-and-investors",
+        "date": "2026-08-05"
+       },
+       {
+        "name": "pitchbook.com",
+        "document": "https://pitchbook.com/news/articles/ai-voice-startup-elevenlabs-valued-at-11b-with-500m-round",
+        "date": "2026-08-05"
+       }
+      ],
+      "id": "6d9786de-824d-426f-87c0-e0c10357ad86"
+     }
+    },
+    {
+     "id": "4872c0fc-6a43-4de3-aef5-b1f085c7dda2",
+     "name": "Robinhood Markets, Inc.",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "ElevenLabs raises $500M from Sequoia at an $11 billion valuation | TechCrunch",
+        "document": "https://techcrunch.com/2026/02/04/elevenlabs-raises-500m-from-sequioia-at-a-11-billion-valuation",
+        "date": "2026-02-04"
+       },
+       {
+        "name": "ElevenLabs lists BlackRock, Jamie Foxx, and Eva Longoria as new investors | TechCrunch",
+        "document": "https://techcrunch.com/2026/05/05/elevenlabs-lists-blackrock-jamie-foxx-and-eva-longoria-as-new-investors",
+        "date": "2026-05-05"
+       },
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/elevenlabs/__Tvkv2vcQvT5RiO80KqXicawZyFtA-r7-J533YWuiDrM/funding-and-investors",
+        "date": "2026-08-05"
+       },
+       {
+        "name": "pitchbook.com",
+        "document": "https://pitchbook.com/news/articles/ai-voice-startup-elevenlabs-valued-at-11b-with-500m-round",
+        "date": "2026-08-05"
+       }
+      ],
+      "id": "ba264403-66e6-47d8-95e1-40bf37f8949f"
+     }
+    },
+    {
+     "id": "48b7ff76-9bc7-4468-abba-4d937f848dfd",
+     "name": "Guillermo Rauch",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "Technology & Data for Venture Capital, Corp Dev, Investment Banks",
+        "document": "https://tracxn.com/d/companies/elevenlabs/__Tvkv2vcQvT5RiO80KqXicawZyFtA-r7-J533YWuiDrM/funding-and-investors",
+        "date": "2026-07-30"
+       }
+      ],
+      "id": "a3205689-0030-50e3-a22e-d0152ae595d0"
+     }
+    },
+    {
+     "id": "51cb4792-2531-4e47-8609-f798d7ad87e7",
+     "name": "NVIDIA CORPORATION",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "cnbc.com",
+        "document": "https://www.cnbc.com/amp/2026/02/04/nvidia-backed-ai-startup-elevenlabs-11-billion-valuation.html",
+        "date": "2026-07-02"
+       }
+      ],
+      "id": "49ad9294-d215-40d7-9233-929121fe78d0"
+     }
+    },
+    {
+     "id": "54957508-272a-46df-9c61-62434010ba2e",
+     "name": "BOND LIMITED",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2026/02/04/elevenlabs-raises-500m-says-building-towards-ipo/",
+        "date": "2026-02-04",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "hlth.com",
+        "document": "https://hlth.com/insights/news/elevenlabs-raises-500m-series-d-led-by-sequoia-at-11b-valuation-2026-02-05",
+        "date": "2026-02-05",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "6a816e3e-f718-430e-b66e-21f864682830"
+     }
+    },
+    {
+     "id": "5a9d0c1c-1e04-4816-b38a-28c4f560569b",
+     "name": "Lightspeed Venture Partners",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "lsvp.com",
+        "document": "https://lsvp.com/stories/investing-in-elevenlabs-the-voice-reshaping-how-the-world-speaks-to-technology",
+        "date": "2026-07-28"
+       },
+       {
+        "name": "lsvp.com",
+        "document": "https://lsvp.com/about",
+        "date": "2026-07-28"
+       },
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2026/02/04/elevenlabs-raises-500m-says-building-towards-ipo/",
+        "date": "2026-02-04",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "hlth.com",
+        "document": "https://hlth.com/insights/news/elevenlabs-raises-500m-series-d-led-by-sequoia-at-11b-valuation-2026-02-05",
+        "date": "2026-02-05",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "9cc13d21-f926-4b1c-94a1-d891acd3127c"
+     }
+    },
+    {
+     "id": "5b5045e5-9d85-4f7a-85dc-e3c9ad791ef6",
+     "name": "KPN B.V.",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/elevenlabs/__Tvkv2vcQvT5RiO80KqXicawZyFtA-r7-J533YWuiDrM/funding-and-investors",
+        "date": "2026-08-05"
+       },
+       {
+        "name": "ElevenLabs raises $500M from Sequoia at an $11 billion valuation | TechCrunch",
+        "document": "https://techcrunch.com/2026/02/04/elevenlabs-raises-500m-from-sequioia-at-a-11-billion-valuation",
+        "date": "2026-02-04"
+       },
+       {
+        "name": "pitchbook.com",
+        "document": "https://pitchbook.com/news/articles/ai-voice-startup-elevenlabs-valued-at-11b-with-500m-round",
+        "date": "2026-08-05"
+       },
+       {
+        "name": "ElevenLabs lists BlackRock, Jamie Foxx, and Eva Longoria as new investors | TechCrunch",
+        "document": "https://techcrunch.com/2026/05/05/elevenlabs-lists-blackrock-jamie-foxx-and-eva-longoria-as-new-investors",
+        "date": "2026-05-05"
+       }
+      ],
+      "id": "c807e23d-bd3f-43e4-ba9d-e08db4118e46"
+     }
+    },
+    {
+     "id": "5b92a597-ce94-4d77-ad97-0909069719ae",
+     "name": "Schroders Group",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "ElevenLabs raises $500M from Sequoia at an $11 billion valuation | TechCrunch",
+        "document": "https://techcrunch.com/2026/02/04/elevenlabs-raises-500m-from-sequioia-at-a-11-billion-valuation",
+        "date": "2026-02-04"
+       },
+       {
+        "name": "ElevenLabs lists BlackRock, Jamie Foxx, and Eva Longoria as new investors | TechCrunch",
+        "document": "https://techcrunch.com/2026/05/05/elevenlabs-lists-blackrock-jamie-foxx-and-eva-longoria-as-new-investors",
+        "date": "2026-05-05"
+       },
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/elevenlabs/__Tvkv2vcQvT5RiO80KqXicawZyFtA-r7-J533YWuiDrM/funding-and-investors",
+        "date": "2026-08-05"
+       },
+       {
+        "name": "pitchbook.com",
+        "document": "https://pitchbook.com/news/articles/ai-voice-startup-elevenlabs-valued-at-11b-with-500m-round",
+        "date": "2026-08-05"
+       }
+      ],
+      "id": "276632b1-10dd-454c-804f-df60e130252a"
+     }
+    },
+    {
+     "id": "5f580685-49ac-4324-8c2c-dda02cc2760d",
+     "name": "SV Angel",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "Technology & Data for Venture Capital, Corp Dev, Investment Banks",
+        "document": "https://tracxn.com/d/companies/elevenlabs/__Tvkv2vcQvT5RiO80KqXicawZyFtA-r7-J533YWuiDrM/funding-and-investors",
+        "date": "2026-07-30"
+       },
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2024/01/22/andreessen-horowitz-backed-elevenlabs-raises-80m-series-b-for-voice-ai-development/",
+        "date": "2024-01-22",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "wsgr.com",
+        "document": "https://www.wsgr.com/en/insights/wilson-sonsini-advises-elevenlabs-on-dollar80-million-series-b-financing",
+        "date": "2024-01-26",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "de73ad43-602c-5ab1-b3ea-892584a87018"
+     }
+    },
+    {
+     "id": "5f7ca504-01d8-4aa9-b1ac-889202fd17c9",
+     "name": "Nvidia",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "ElevenLabs crosses $500M ARR and welcomes new investors",
+        "document": "https://elevenlabs.io/blog/500m-arr-and-new-investors",
+        "date": "2026-05-05"
+       },
+       {
+        "name": "www.cnbc.com",
+        "document": "https://www.cnbc.com/2026/02/04/nvidia-backed-ai-startup-elevenlabs-11-billion-valuation.html",
+        "date": "2026-05-11"
+       }
+      ],
+      "id": "05acf400-f39e-4861-99d1-80e3c3246a0e"
+     }
+    },
+    {
+     "id": "6394d692-f00a-5afc-bccc-51cb26da4842",
+     "name": "AMP Coalition",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2026/02/04/elevenlabs-raises-500m-says-building-towards-ipo/",
+        "date": "2026-02-04",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "hlth.com",
+        "document": "https://hlth.com/insights/news/elevenlabs-raises-500m-series-d-led-by-sequoia-at-11b-valuation-2026-02-05",
+        "date": "2026-02-05",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "c748ef09-1044-4924-950b-bb6ae2f226ce"
+     }
+    },
+    {
+     "id": "66dbb27a-e7de-4d69-aded-df5160d32d99",
+     "name": "KPN Ventures B.V.",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/elevenlabs/__Tvkv2vcQvT5RiO80KqXicawZyFtA-r7-J533YWuiDrM/funding-and-investors",
+        "date": "2026-08-05"
+       }
+      ],
+      "id": "875284dd-4437-464e-a0a1-4f092f72177a"
+     }
+    },
+    {
+     "id": "6b37fc3d-591f-49a1-87f6-6c059f03e3f0",
+     "name": "D.E. Shaw",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "ElevenLabs raises $500M from Sequoia at an $11 billion valuation | TechCrunch",
+        "document": "https://techcrunch.com/2026/02/04/elevenlabs-raises-500m-from-sequioia-at-a-11-billion-valuation",
+        "date": "2026-02-04"
+       },
+       {
+        "name": "ElevenLabs lists BlackRock, Jamie Foxx, and Eva Longoria as new investors | TechCrunch",
+        "document": "https://techcrunch.com/2026/05/05/elevenlabs-lists-blackrock-jamie-foxx-and-eva-longoria-as-new-investors",
+        "date": "2026-05-05"
+       },
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/elevenlabs/__Tvkv2vcQvT5RiO80KqXicawZyFtA-r7-J533YWuiDrM/funding-and-investors",
+        "date": "2026-08-05"
+       },
+       {
+        "name": "pitchbook.com",
+        "document": "https://pitchbook.com/news/articles/ai-voice-startup-elevenlabs-valued-at-11b-with-500m-round",
+        "date": "2026-08-05"
+       }
+      ],
+      "id": "f0bff56a-1ce5-4dbe-9217-07ebbfdd8d3d"
+     }
+    },
+    {
+     "id": "713ad57c-9383-4c9b-a6bc-94176574dd9e",
+     "name": "World Innovation Lab (WiL)",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/elevenlabs/__Tvkv2vcQvT5RiO80KqXicawZyFtA-r7-J533YWuiDrM/funding-and-investors",
+        "date": "2026-08-05"
+       },
+       {
+        "name": "ElevenLabs, the hot AI audio startup, confirms $180M in Series C funding at a $3.3B valuation | TechCrunch",
+        "document": "https://techcrunch.com/2025/01/30/elevenlabs-raises-180-million-in-series-c-funding-at-3-3-billion-valuation",
+        "date": "2025-01-30"
+       },
+       {
+        "name": "yourstory.com",
+        "document": "https://yourstory.com/2025/01/elevenlabs-raises-series-c-round-a16z-iconiq-growth",
+        "date": "2025-01-31",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "298c80a8-856b-486c-910e-1a82b8d176f7"
+     }
+    },
+    {
+     "id": "71458374-77cc-414e-ad66-6395395a2c02",
+     "name": "INDEX VENTURES (UK) LLP",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "WINNING IN THE US | Index Ventures",
+        "document": "https://www.indexventures.com/winning-in-the-us",
+        "date": "2024-01-27"
+       }
+      ],
+      "id": "dcb4a06c-4941-424d-b5c4-97f50dd844f3"
+     }
+    },
+    {
+     "id": "73aa76d4-5869-40f8-acd5-81eb8102892f",
+     "name": "Nat Friedman",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/elevenlabs/__Tvkv2vcQvT5RiO80KqXicawZyFtA-r7-J533YWuiDrM/funding-and-investors",
+        "date": "2026-08-05"
+       },
+       {
+        "name": "Voice-generating platform ElevenLabs raises $19M, launches detection tool | TechCrunch",
+        "document": "https://techcrunch.com/2023/06/20/voice-generating-platform-elevenlabs-raises-19m-launches-detection-tool",
+        "date": "2023-06-20"
+       },
+       {
+        "name": "conceptventures.vc",
+        "document": "https://conceptventures.vc/news/elevenlabs-raises-19m-series-a",
+        "date": "2023-06-20",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "en.ain.ua",
+        "document": "https://en.ain.ua/2023/06/20/credo-ventures-joins-17-3m-round-for-elevenlabs",
+        "date": "2023-06-20",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "9dca6e3a-b8d5-49df-8644-d439cc09b6a5"
+     }
+    },
+    {
+     "id": "783c994d-0e7e-40e8-8fe8-f8a30faf7cb2",
+     "name": "Embark Studios AB",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/elevenlabs/__Tvkv2vcQvT5RiO80KqXicawZyFtA-r7-J533YWuiDrM/funding-and-investors",
+        "date": "2026-08-05"
+       },
+       {
+        "name": "Voice-generating platform ElevenLabs raises $19M, launches detection tool | TechCrunch",
+        "document": "https://techcrunch.com/2023/06/20/voice-generating-platform-elevenlabs-raises-19m-launches-detection-tool",
+        "date": "2023-06-20"
+       }
+      ],
+      "id": "be6b750f-b27e-49f3-a864-4b6eb7ffe44c"
+     }
+    },
+    {
+     "id": "7cc50f76-931b-4c14-a61c-a3f849d17b6b",
+     "name": "Mouro Capital I LP",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "www.eu-startups.com",
+        "document": "https://www.eu-startups.com/2026/05/london-based-mouro-capital-secures-e343-4-million-first-close-for-third-fund-backed-by-santander",
+        "date": "2026-06-09"
+       },
+       {
+        "name": "Mouro Capital aims to bring AI and other services into the fintech fold",
+        "document": "https://pathfounders.com/p/mouro-capital-aims-to-bring-ai-and-other-services",
+        "date": "2026-05-19"
+       }
+      ],
+      "id": "8d74fd21-5a77-4cba-998a-2621dae04ff9"
+     }
+    },
+    {
+     "id": "80147273-e5d3-4661-a72e-9fddab491e9c",
+     "name": "Concept Ventures",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "Technology & Data for Venture Capital, Corp Dev, Investment Banks",
+        "document": "https://tracxn.com/d/companies/elevenlabs/__Tvkv2vcQvT5RiO80KqXicawZyFtA-r7-J533YWuiDrM/funding-and-investors",
+        "date": "2026-07-30"
+       },
+       {
+        "name": "elevenlabs.io",
+        "document": "https://elevenlabs.io/blog/elevenlabs-raises-2m-pre-seed-and-announces-ai-speech-platform-promising-to-revolutionize-audio-storytelling",
+        "date": "2023-01-23",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "en.ain.ua",
+        "document": "https://en.ain.ua/2023/02/01/ai-voice-technology-startup-elevenlabs-raises-2m-in-a-pre-seed-round-led-by-czech-credo-ventures",
+        "date": "2023-02-01",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "1a3108fc-1e27-52a4-a28b-0b30cc57dbad"
+     }
+    },
+    {
+     "id": "8a17e06a-3c6e-4839-ba7d-905f4005c2de",
+     "name": "Storytel AB (publ)",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/elevenlabs/__Tvkv2vcQvT5RiO80KqXicawZyFtA-r7-J533YWuiDrM/funding-and-investors",
+        "date": "2026-08-05"
+       },
+       {
+        "name": "Voice-generating platform ElevenLabs raises $19M, launches detection tool | TechCrunch",
+        "document": "https://techcrunch.com/2023/06/20/voice-generating-platform-elevenlabs-raises-19m-launches-detection-tool",
+        "date": "2023-06-20"
+       }
+      ],
+      "id": "2ad30915-87b7-4bc6-8341-17199a034c45"
+     }
+    },
+    {
+     "id": "8d408a6b-4edf-45f8-b617-b9b875c322a9",
+     "name": "VINCI",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/elevenlabs/__Tvkv2vcQvT5RiO80KqXicawZyFtA-r7-J533YWuiDrM/funding-and-investors",
+        "date": "2026-08-05"
+       }
+      ],
+      "id": "95d49160-6e60-4e22-a7e4-0253114e2cb9"
+     }
+    },
+    {
+     "id": "906d58d6-1ad3-4a85-8a93-58bbafb766c1",
+     "name": "Mustafa Suleyman",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "ElevenLabs Launches New Generative Voice AI Products and Announces $19m Series A Round Led by Nat Friedman, Daniel Gross, and Andreessen Horowitz | ElevenLabs | 54 comments",
+        "document": "https://www.linkedin.com/posts/elevenlabsio_elevenlabs-launches-new-generative-voice-activity-7076851271676088320-YDMF",
+        "date": "2023-06-20"
+       },
+       {
+        "name": "ElevenLabs Launches New Generative Voice AI Products and Announces $19m Series A Round Led by Nat Friedman, Daniel Gross, and Andreessen Horowitz",
+        "document": "https://elevenlabs.io/blog/elevenlabs-launches-new-generative-voice-ai-products-and-announces-19m-series-a-round-led-by-nat-friedman-daniel-gross-and-andreessen-horowitz",
+        "date": "2023-06-20"
+       }
+      ],
+      "id": "8c3eb075-1a81-46aa-83df-089ccdd3d7b9",
+      "valid_since": "2023-06-20"
+     }
+    },
+    {
+     "id": "94255977-7afa-427b-bb8f-c9eba3ea8052",
+     "name": "Mustafa Suleyman",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "Technology & Data for Venture Capital, Corp Dev, Investment Banks",
+        "document": "https://tracxn.com/d/companies/elevenlabs/__Tvkv2vcQvT5RiO80KqXicawZyFtA-r7-J533YWuiDrM/funding-and-investors",
+        "date": "2026-08-21"
+       }
+      ],
+      "id": "95d31d16-f1a6-5ee1-a02c-17c0ac1e040b"
+     }
+    },
+    {
+     "id": "9642f867-0904-4954-9dea-aada36b650b9",
+     "name": "Credo Ventures",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "Technology & Data for Venture Capital, Corp Dev, Investment Banks",
+        "document": "https://tracxn.com/d/companies/elevenlabs/__Tvkv2vcQvT5RiO80KqXicawZyFtA-r7-J533YWuiDrM/funding-and-investors",
+        "date": "2026-07-30"
+       }
+      ],
+      "id": "02e0187a-b678-53b9-9a7d-e9645d6fadd1"
+     }
+    },
+    {
+     "id": "9cdae40e-e11a-4584-bc9d-650a78be3008",
+     "name": "Osaühing T-Capital",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/elevenlabs/__Tvkv2vcQvT5RiO80KqXicawZyFtA-r7-J533YWuiDrM/funding-and-investors",
+        "date": "2026-08-05"
+       },
+       {
+        "name": "ElevenLabs, the hot AI audio startup, confirms $180M in Series C funding at a $3.3B valuation | TechCrunch",
+        "document": "https://techcrunch.com/2025/01/30/elevenlabs-raises-180-million-in-series-c-funding-at-3-3-billion-valuation",
+        "date": "2025-01-30"
+       }
+      ],
+      "id": "be8f169c-992b-4a7a-adcc-00de8ccd987e"
+     }
+    },
+    {
+     "id": "a1bf0832-9a14-4434-91bb-22619b1327c8",
+     "name": "Koninklijke KPN N.V.",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "KPN Ventures | News | Strategic partnership between KPN and ElevenLabs brings voice AI to the Netherlands",
+        "document": "https://www.kpnventures.com/news/strategic-partnership-between-kpn-and-elevenlabs-brings-voice-ai-to-the-netherlands",
+        "date": "2025-06-18"
+       }
+      ],
+      "id": "21928734-74af-458e-98c2-d1fc131411a2"
+     }
+    },
+    {
+     "id": "a2e949a3-8648-4462-8dd6-ac689670e762",
+     "name": "Valor Capital Group",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "yourstory.com",
+        "document": "https://yourstory.com/2025/01/elevenlabs-raises-series-c-round-a16z-iconiq-growth",
+        "date": "2025-01-31",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "56b463aa-6e48-4e22-955d-dec16adc936a"
+     }
+    },
+    {
+     "id": "a3027c71-088f-4982-bd67-4d5d94474583",
+     "name": "Concept Ventures",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/elevenlabs/__Tvkv2vcQvT5RiO80KqXicawZyFtA-r7-J533YWuiDrM/funding-and-investors",
+        "date": "2026-08-05"
+       },
+       {
+        "name": "Voice-generating platform ElevenLabs raises $19M, launches detection tool | TechCrunch",
+        "document": "https://techcrunch.com/2023/06/20/voice-generating-platform-elevenlabs-raises-19m-launches-detection-tool",
+        "date": "2023-06-20"
+       }
+      ],
+      "id": "dba7465a-726c-4df5-b2d2-1f1db1e937ce"
+     }
+    },
+    {
+     "id": "a6407d4b-4122-4fe1-ac81-38127406dd9b",
+     "name": "Valor Equity Partners",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/elevenlabs/__Tvkv2vcQvT5RiO80KqXicawZyFtA-r7-J533YWuiDrM/funding-and-investors",
+        "date": "2026-08-05"
+       },
+       {
+        "name": "ElevenLabs, the hot AI audio startup, confirms $180M in Series C funding at a $3.3B valuation | TechCrunch",
+        "document": "https://techcrunch.com/2025/01/30/elevenlabs-raises-180-million-in-series-c-funding-at-3-3-billion-valuation",
+        "date": "2025-01-30"
+       }
+      ],
+      "id": "c78141b3-5b85-4cb6-a9d7-d5c2749073cf"
+     }
+    },
+    {
+     "id": "aa181a57-6c84-4d18-9035-0b6442044727",
+     "name": "LUNATE SPECIAL OPPORTUNITIES I LP",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "yourstory.com",
+        "document": "https://yourstory.com/2025/01/elevenlabs-raises-series-c-round-a16z-iconiq-growth",
+        "date": "2025-01-31",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "c8b45b16-0b4d-4c3b-a81d-529ee92b30b5"
+     }
+    },
+    {
+     "id": "abe0e3f2-e38c-4f71-aa07-307dda8152bd",
+     "name": "Disney Board of Directors",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "thewaltdisneycompany.com",
+        "document": "https://thewaltdisneycompany.com/news/disney-accelerator-2026-participants",
+        "date": "2026-09-08"
+       }
+      ],
+      "id": "3c06444f-c59b-55cd-85fb-8b840fe3b3f4",
+      "valid_since": "2024-07-31"
+     }
+    },
+    {
+     "id": "ac7a7938-5e65-4eee-91c1-d07cd3af734b",
+     "name": "Endeavor",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/elevenlabs/__Tvkv2vcQvT5RiO80KqXicawZyFtA-r7-J533YWuiDrM/funding-and-investors",
+        "date": "2026-08-05"
+       },
+       {
+        "name": "ElevenLabs, the hot AI audio startup, confirms $180M in Series C funding at a $3.3B valuation | TechCrunch",
+        "document": "https://techcrunch.com/2025/01/30/elevenlabs-raises-180-million-in-series-c-funding-at-3-3-billion-valuation",
+        "date": "2025-01-30"
+       }
+      ],
+      "id": "2c3f5add-a949-4690-8e45-f694c9f79f6d"
+     }
+    },
+    {
+     "id": "b08b64c4-1802-4b61-926f-a610e4423402",
+     "name": "CREATOR VENTURES LLP",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/elevenlabs/__Tvkv2vcQvT5RiO80KqXicawZyFtA-r7-J533YWuiDrM/funding-and-investors",
+        "date": "2026-08-05"
+       },
+       {
+        "name": "Voice-generating platform ElevenLabs raises $19M, launches detection tool | TechCrunch",
+        "document": "https://techcrunch.com/2023/06/20/voice-generating-platform-elevenlabs-raises-19m-launches-detection-tool",
+        "date": "2023-06-20"
+       }
+      ],
+      "id": "39c843a4-0e7f-4d84-af1d-56b2ee9b912e"
+     }
+    },
+    {
+     "id": "b0f143e9-f624-489e-bd23-0657a0646c62",
+     "name": "BroadLight Capital",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/elevenlabs/__Tvkv2vcQvT5RiO80KqXicawZyFtA-r7-J533YWuiDrM/funding-and-investors",
+        "date": "2026-08-05"
+       },
+       {
+        "name": "Voice cloning startup ElevenLabs lands $80M, achieves unicorn status | TechCrunch",
+        "document": "https://techcrunch.com/2024/01/22/voice-cloning-startup-elevenlabs-lands-80m-achieves-unicorn-status",
+        "date": "2024-01-22"
+       },
+       {
+        "name": "news.crunchbase.com",
+        "document": "https://news.crunchbase.com/ai/elevenlabs-voices-unicorn-a16z",
+        "date": "2026-08-05"
+       },
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2024/01/22/andreessen-horowitz-backed-elevenlabs-raises-80m-series-b-for-voice-ai-development/",
+        "date": "2024-01-22",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "wsgr.com",
+        "document": "https://www.wsgr.com/en/insights/wilson-sonsini-advises-elevenlabs-on-dollar80-million-series-b-financing",
+        "date": "2024-01-26",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "cc882e6c-2997-4c25-9f82-36f5732d3527"
+     }
+    },
+    {
+     "id": "b1249d63-39df-4390-9dba-315ffdd54263",
+     "name": "Evantic Capital Partners LLP",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "ElevenLabs raises $500M from Sequoia at an $11 billion valuation | TechCrunch",
+        "document": "https://techcrunch.com/2026/02/04/elevenlabs-raises-500m-from-sequioia-at-a-11-billion-valuation",
+        "date": "2026-02-04"
+       },
+       {
+        "name": "ElevenLabs lists BlackRock, Jamie Foxx, and Eva Longoria as new investors | TechCrunch",
+        "document": "https://techcrunch.com/2026/05/05/elevenlabs-lists-blackrock-jamie-foxx-and-eva-longoria-as-new-investors",
+        "date": "2026-05-05"
+       },
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/elevenlabs/__Tvkv2vcQvT5RiO80KqXicawZyFtA-r7-J533YWuiDrM/funding-and-investors",
+        "date": "2026-08-05"
+       },
+       {
+        "name": "pitchbook.com",
+        "document": "https://pitchbook.com/news/articles/ai-voice-startup-elevenlabs-valued-at-11b-with-500m-round",
+        "date": "2026-08-05"
+       }
+      ],
+      "id": "e755128d-a9ad-44b4-882a-0dface8f7484"
+     }
+    },
+    {
+     "id": "b8b96b7f-6420-424b-8f00-d43cc69ca041",
+     "name": "Daniel Gross",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "Technology & Data for Venture Capital, Corp Dev, Investment Banks",
+        "document": "https://tracxn.com/d/companies/elevenlabs/__Tvkv2vcQvT5RiO80KqXicawZyFtA-r7-J533YWuiDrM/funding-and-investors",
+        "date": "2026-07-30"
+       }
+      ],
+      "id": "fa752416-8808-5996-b741-d77330110dd5"
+     }
+    },
+    {
+     "id": "b9123194-e9f0-46d9-96cf-76690a9c2118",
+     "name": "Endeavor Catalyst Fund",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "yourstory.com",
+        "document": "https://yourstory.com/2025/01/elevenlabs-raises-series-c-round-a16z-iconiq-growth",
+        "date": "2025-01-31",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "bb643e7c-2820-4801-8f0b-55e943d50177"
+     }
+    },
+    {
+     "id": "b98489c9-af83-5431-b36b-e67b328d450f",
+     "name": "Hubspot, Inc.",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/elevenlabs/__Tvkv2vcQvT5RiO80KqXicawZyFtA-r7-J533YWuiDrM/funding-and-investors",
+        "date": "2026-08-05"
+       },
+       {
+        "name": "ElevenLabs, the hot AI audio startup, confirms $180M in Series C funding at a $3.3B valuation | TechCrunch",
+        "document": "https://techcrunch.com/2025/01/30/elevenlabs-raises-180-million-in-series-c-funding-at-3-3-billion-valuation",
+        "date": "2025-01-30"
+       }
+      ],
+      "id": "49132c91-7f13-4e6e-803c-a251e377063b"
+     }
+    },
+    {
+     "id": "bc3ffb1e-1edb-44b0-814f-e9aa183d43d1",
+     "name": "DEUTSCHE TELEKOM AG",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/elevenlabs/__Tvkv2vcQvT5RiO80KqXicawZyFtA-r7-J533YWuiDrM/funding-and-investors",
+        "date": "2026-08-05"
+       },
+       {
+        "name": "ElevenLabs, the hot AI audio startup, confirms $180M in Series C funding at a $3.3B valuation | TechCrunch",
+        "document": "https://techcrunch.com/2025/01/30/elevenlabs-raises-180-million-in-series-c-funding-at-3-3-billion-valuation",
+        "date": "2025-01-30"
+       }
+      ],
+      "id": "5175bd7f-d140-4d3f-a91c-49690fe92edd"
+     }
+    },
+    {
+     "id": "c05c49bf-7eda-4b5f-9735-5c6c0de0d17b",
+     "name": "DXC Technology",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "ElevenLabs raises $500M from Sequoia at an $11 billion valuation | TechCrunch",
+        "document": "https://techcrunch.com/2026/02/04/elevenlabs-raises-500m-from-sequioia-at-a-11-billion-valuation",
+        "date": "2026-02-04"
+       },
+       {
+        "name": "ElevenLabs lists BlackRock, Jamie Foxx, and Eva Longoria as new investors | TechCrunch",
+        "document": "https://techcrunch.com/2026/05/05/elevenlabs-lists-blackrock-jamie-foxx-and-eva-longoria-as-new-investors",
+        "date": "2026-05-05"
+       },
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/elevenlabs/__Tvkv2vcQvT5RiO80KqXicawZyFtA-r7-J533YWuiDrM/funding-and-investors",
+        "date": "2026-08-05"
+       },
+       {
+        "name": "pitchbook.com",
+        "document": "https://pitchbook.com/news/articles/ai-voice-startup-elevenlabs-valued-at-11b-with-500m-round",
+        "date": "2026-08-05"
+       }
+      ],
+      "id": "5e1ea0f3-9aa0-489e-8397-71745c041cea"
+     }
+    },
+    {
+     "id": "c5846e9e-7cf8-4886-bb0a-34ecc24bfe0c",
+     "name": "ICONIQ Growth",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/elevenlabs/__Tvkv2vcQvT5RiO80KqXicawZyFtA-r7-J533YWuiDrM/funding-and-investors",
+        "date": "2026-08-05"
+       },
+       {
+        "name": "ElevenLabs, the hot AI audio startup, confirms $180M in Series C funding at a $3.3B valuation | TechCrunch",
+        "document": "https://techcrunch.com/2025/01/30/elevenlabs-raises-180-million-in-series-c-funding-at-3-3-billion-valuation",
+        "date": "2025-01-30"
+       },
+       {
+        "name": "yourstory.com",
+        "document": "https://yourstory.com/2025/01/elevenlabs-raises-series-c-round-a16z-iconiq-growth",
+        "date": "2025-01-31",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "960a68c0-c848-4c2e-ba4f-6539c6841dfd"
+     }
+    },
+    {
+     "id": "c96e885a-5a6f-442d-a6e3-2531b238c2a3",
+     "name": "New Enterprise Associates (NEA)",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/elevenlabs/__Tvkv2vcQvT5RiO80KqXicawZyFtA-r7-J533YWuiDrM/funding-and-investors",
+        "date": "2026-08-05"
+       },
+       {
+        "name": "ElevenLabs, the hot AI audio startup, confirms $180M in Series C funding at a $3.3B valuation | TechCrunch",
+        "document": "https://techcrunch.com/2025/01/30/elevenlabs-raises-180-million-in-series-c-funding-at-3-3-billion-valuation",
+        "date": "2025-01-30"
+       },
+       {
+        "name": "yourstory.com",
+        "document": "https://yourstory.com/2025/01/elevenlabs-raises-series-c-round-a16z-iconiq-growth",
+        "date": "2025-01-31",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "37c17b00-86de-4c2d-bb69-de9cb1b3b54b"
+     }
+    },
+    {
+     "id": "cb1810ff-fc3a-4196-961b-b5d817306bb8",
+     "name": "NFDG",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/elevenlabs/__Tvkv2vcQvT5RiO80KqXicawZyFtA-r7-J533YWuiDrM/funding-and-investors",
+        "date": "2026-08-05"
+       },
+       {
+        "name": "ElevenLabs, the hot AI audio startup, confirms $180M in Series C funding at a $3.3B valuation | TechCrunch",
+        "document": "https://techcrunch.com/2025/01/30/elevenlabs-raises-180-million-in-series-c-funding-at-3-3-billion-valuation",
+        "date": "2025-01-30"
+       },
+       {
+        "name": "yourstory.com",
+        "document": "https://yourstory.com/2025/01/elevenlabs-raises-series-c-round-a16z-iconiq-growth",
+        "date": "2025-01-31",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "aa4c8bb0-2cc1-4a1b-844b-337b71b16910"
+     }
+    },
+    {
+     "id": "cd8b3ae2-12c7-4a78-ba0b-04e805f30f90",
+     "name": "Evantic Capital, LLC",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2026/02/04/elevenlabs-raises-500m-says-building-towards-ipo/",
+        "date": "2026-02-04",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "hlth.com",
+        "document": "https://hlth.com/insights/news/elevenlabs-raises-500m-series-d-led-by-sequoia-at-11b-valuation-2026-02-05",
+        "date": "2026-02-05",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "9aed51a4-d45f-4e77-9e58-ef20d1a1b007"
+     }
+    },
+    {
+     "id": "d09dab15-0924-4ced-a142-285041b1ee6a",
+     "name": "Perplexity AI",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "news18.com",
+        "document": "https://www.news18.com/business/who-is-aravind-srinivas-indias-youngest-billionaire-on-m3m-hurun-india-rich-list-2025-ws-l-9609667.html",
+        "date": "2026-06-22"
+       }
+      ],
+      "id": "05579246-e07b-4ba5-bdb5-e6191dc115c2"
+     }
+    },
+    {
+     "id": "d2f6b485-e46d-41d1-beeb-48f5ba053910",
+     "name": "TheSoul Publishing",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/elevenlabs/__Tvkv2vcQvT5RiO80KqXicawZyFtA-r7-J533YWuiDrM/funding-and-investors",
+        "date": "2026-08-05"
+       },
+       {
+        "name": "Voice-generating platform ElevenLabs raises $19M, launches detection tool | TechCrunch",
+        "document": "https://techcrunch.com/2023/06/20/voice-generating-platform-elevenlabs-raises-19m-launches-detection-tool",
+        "date": "2023-06-20"
+       }
+      ],
+      "id": "6692d301-f99e-4f42-ab83-2a4bc954b09b"
+     }
+    },
+    {
+     "id": "d3431684-7241-447c-b765-a14e5e840a09",
+     "name": "ICONIQ",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2026/02/04/elevenlabs-raises-500m-says-building-towards-ipo/",
+        "date": "2026-02-04",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "hlth.com",
+        "document": "https://hlth.com/insights/news/elevenlabs-raises-500m-series-d-led-by-sequoia-at-11b-valuation-2026-02-05",
+        "date": "2026-02-05",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "d811b922-4a08-4204-9eb7-4c6e2f7378d7"
+     }
+    },
+    {
+     "id": "d4c3a691-c0b1-4777-b3cc-2cd1755cbbac",
+     "name": "Smash Capital Advisors L.P.",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/elevenlabs/__Tvkv2vcQvT5RiO80KqXicawZyFtA-r7-J533YWuiDrM/funding-and-investors",
+        "date": "2026-08-05"
+       },
+       {
+        "name": "Voice cloning startup ElevenLabs lands $80M, achieves unicorn status | TechCrunch",
+        "document": "https://techcrunch.com/2024/01/22/voice-cloning-startup-elevenlabs-lands-80m-achieves-unicorn-status",
+        "date": "2024-01-22"
+       },
+       {
+        "name": "news.crunchbase.com",
+        "document": "https://news.crunchbase.com/ai/elevenlabs-voices-unicorn-a16z",
+        "date": "2026-08-05"
+       },
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2024/01/22/andreessen-horowitz-backed-elevenlabs-raises-80m-series-b-for-voice-ai-development/",
+        "date": "2024-01-22",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "wsgr.com",
+        "document": "https://www.wsgr.com/en/insights/wilson-sonsini-advises-elevenlabs-on-dollar80-million-series-b-financing",
+        "date": "2024-01-26",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "d6ed2a39-3f25-46fe-abdc-40d1da34baa9"
+     }
+    },
+    {
+     "id": "d594a861-aa10-43e8-af5e-6247820b3e9f",
+     "name": "Galdana Ventures S.C.A. SICAV-RAIF",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "galdanaventures.com",
+        "document": "https://galdanaventures.com/portfolio",
+        "date": "2026-05-10"
+       }
+      ],
+      "id": "d212b2b6-5f56-4e8b-8c4c-a7a0b93c7f32"
+     }
+    },
+    {
+     "id": "d7e30e3c-1163-42bd-a841-903526808812",
+     "name": "Nat Friedman",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "Technology & Data for Venture Capital, Corp Dev, Investment Banks",
+        "document": "https://tracxn.com/d/companies/elevenlabs/__Tvkv2vcQvT5RiO80KqXicawZyFtA-r7-J533YWuiDrM/funding-and-investors",
+        "date": "2026-08-21"
+       }
+      ],
+      "id": "2a00231d-7570-5a47-83aa-fa13c6d98223"
+     }
+    },
+    {
+     "id": "d9f9a9ca-8f83-44ea-97f2-2f4d844dd9f1",
+     "name": "Credo Ventures a.s.",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/elevenlabs/__Tvkv2vcQvT5RiO80KqXicawZyFtA-r7-J533YWuiDrM/funding-and-investors",
+        "date": "2026-08-05"
+       },
+       {
+        "name": "Voice-generating platform ElevenLabs raises $19M, launches detection tool | TechCrunch",
+        "document": "https://techcrunch.com/2023/06/20/voice-generating-platform-elevenlabs-raises-19m-launches-detection-tool",
+        "date": "2023-06-20"
+       },
+       {
+        "name": "elevenlabs.io",
+        "document": "https://elevenlabs.io/blog/elevenlabs-raises-2m-pre-seed-and-announces-ai-speech-platform-promising-to-revolutionize-audio-storytelling",
+        "date": "2023-01-23",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "en.ain.ua",
+        "document": "https://en.ain.ua/2023/02/01/ai-voice-technology-startup-elevenlabs-raises-2m-in-a-pre-seed-round-led-by-czech-credo-ventures",
+        "date": "2023-02-01",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "c05ea98d-a397-43d0-b4a0-603d09272e23"
+     }
+    },
+    {
+     "id": "daebf7ee-cf07-459c-a3c6-65523efcefa7",
+     "name": "Andreessen Horowitz",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/elevenlabs/__Tvkv2vcQvT5RiO80KqXicawZyFtA-r7-J533YWuiDrM/funding-and-investors",
+        "date": "2026-08-05"
+       },
+       {
+        "name": "Voice-generating platform ElevenLabs raises $19M, launches detection tool | TechCrunch",
+        "document": "https://techcrunch.com/2023/06/20/voice-generating-platform-elevenlabs-raises-19m-launches-detection-tool",
+        "date": "2023-06-20"
+       },
+       {
+        "name": "conceptventures.vc",
+        "document": "https://conceptventures.vc/news/elevenlabs-raises-19m-series-a",
+        "date": "2023-06-20",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "en.ain.ua",
+        "document": "https://en.ain.ua/2023/06/20/credo-ventures-joins-17-3m-round-for-elevenlabs",
+        "date": "2023-06-20",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "425317ad-afaf-4a58-ab7d-46762092561c"
+     }
+    },
+    {
+     "id": "ddcfce67-3a6e-4a08-b005-6425c8e7868e",
+     "name": "NTT DOCOMO Ventures",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/elevenlabs/__Tvkv2vcQvT5RiO80KqXicawZyFtA-r7-J533YWuiDrM/funding-and-investors",
+        "date": "2026-08-05"
+       },
+       {
+        "name": "ElevenLabs, the hot AI audio startup, confirms $180M in Series C funding at a $3.3B valuation | TechCrunch",
+        "document": "https://techcrunch.com/2025/01/30/elevenlabs-raises-180-million-in-series-c-funding-at-3-3-billion-valuation",
+        "date": "2025-01-30"
+       }
+      ],
+      "id": "92ce0203-b7b6-42ad-bde3-8e84ff9091e9"
+     }
+    },
+    {
+     "id": "e3389e57-0aa1-494b-84fc-ddd4ceafbd80",
+     "name": "SALESFORCE VENTURES LLC",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "Sam Ackah-Yensu | Salesforce Ventures",
+        "document": "https://salesforceventures.com/people/samuel-ackah-yensu/",
+        "date": "2026-03-25"
+       },
+       {
+        "name": "pitchbook.com",
+        "document": "https://pitchbook.com/profiles/investor/107882-74",
+        "date": "2026-05-11"
+       },
+       {
+        "name": "yourstory.com",
+        "document": "https://yourstory.com/2025/01/elevenlabs-raises-series-c-round-a16z-iconiq-growth",
+        "date": "2025-01-31",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "40694eb0-6713-461a-9257-41a5f1918b2d"
+     }
+    },
+    {
+     "id": "e6ef9451-31fe-4068-b92a-11def388581b",
+     "name": "Brendan Iribe",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "Technology & Data for Venture Capital, Corp Dev, Investment Banks",
+        "document": "https://tracxn.com/d/companies/elevenlabs/__Tvkv2vcQvT5RiO80KqXicawZyFtA-r7-J533YWuiDrM/funding-and-investors",
+        "date": "2026-07-30"
+       }
+      ],
+      "id": "f3e58c80-576e-5aa3-95e8-9b5d546d7740"
+     }
+    },
+    {
+     "id": "ed14fda9-5dd1-4a9d-ba66-fcfbd8bfc138",
+     "name": "LG Technology Ventures",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/elevenlabs/__Tvkv2vcQvT5RiO80KqXicawZyFtA-r7-J533YWuiDrM/funding-and-investors",
+        "date": "2026-08-05"
+       },
+       {
+        "name": "ElevenLabs, the hot AI audio startup, confirms $180M in Series C funding at a $3.3B valuation | TechCrunch",
+        "document": "https://techcrunch.com/2025/01/30/elevenlabs-raises-180-million-in-series-c-funding-at-3-3-billion-valuation",
+        "date": "2025-01-30"
+       }
+      ],
+      "id": "671d1974-8176-47ca-8105-4d12cffea26b"
+     }
+    },
+    {
+     "id": "eeb4af3d-5cc3-4b52-9906-dc63d41f1d16",
+     "name": "Daniel Gross",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/elevenlabs/__Tvkv2vcQvT5RiO80KqXicawZyFtA-r7-J533YWuiDrM/funding-and-investors",
+        "date": "2026-08-05"
+       },
+       {
+        "name": "Voice-generating platform ElevenLabs raises $19M, launches detection tool | TechCrunch",
+        "document": "https://techcrunch.com/2023/06/20/voice-generating-platform-elevenlabs-raises-19m-launches-detection-tool",
+        "date": "2023-06-20"
+       },
+       {
+        "name": "conceptventures.vc",
+        "document": "https://conceptventures.vc/news/elevenlabs-raises-19m-series-a",
+        "date": "2023-06-20",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "en.ain.ua",
+        "document": "https://en.ain.ua/2023/06/20/credo-ventures-joins-17-3m-round-for-elevenlabs",
+        "date": "2023-06-20",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "e70d3f2e-779b-471f-b8f7-844ef340dba7"
+     }
+    },
+    {
+     "id": "f3c26906-7c7c-4e3d-9c21-4ff5361a9bb6",
+     "name": "Santander",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "ElevenLabs raises $500M from Sequoia at an $11 billion valuation | TechCrunch",
+        "document": "https://techcrunch.com/2026/02/04/elevenlabs-raises-500m-from-sequioia-at-a-11-billion-valuation",
+        "date": "2026-02-04"
+       },
+       {
+        "name": "ElevenLabs lists BlackRock, Jamie Foxx, and Eva Longoria as new investors | TechCrunch",
+        "document": "https://techcrunch.com/2026/05/05/elevenlabs-lists-blackrock-jamie-foxx-and-eva-longoria-as-new-investors",
+        "date": "2026-05-05"
+       },
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/elevenlabs/__Tvkv2vcQvT5RiO80KqXicawZyFtA-r7-J533YWuiDrM/funding-and-investors",
+        "date": "2026-08-05"
+       },
+       {
+        "name": "pitchbook.com",
+        "document": "https://pitchbook.com/news/articles/ai-voice-startup-elevenlabs-valued-at-11b-with-500m-round",
+        "date": "2026-08-05"
+       }
+      ],
+      "id": "00ab94e9-ee96-44d3-a0f1-90b38f5ba655"
+     }
+    },
+    {
+     "id": "f5aca518-7d77-46fc-b333-6b06dbc7f2f2",
+     "name": "Tim O'Reilly",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "Technology & Data for Venture Capital, Corp Dev, Investment Banks",
+        "document": "https://tracxn.com/d/companies/elevenlabs/__Tvkv2vcQvT5RiO80KqXicawZyFtA-r7-J533YWuiDrM/funding-and-investors",
+        "date": "2026-07-30"
+       }
+      ],
+      "id": "0e491ae9-1979-5bd2-889a-86b6044b2960"
+     }
+    }
+   ],
+   "FOUNDED": [
+    {
+     "id": "795576b4-f7f5-5c24-b403-24402e3289dd",
+     "name": "Piotr Dabkowski",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "en.wikipedia.org",
+        "document": "https://en.wikipedia.org/wiki/Piotr_D%C4%85bkowski",
+        "date": "2026-06-14"
+       },
+       {
+        "name": "Who is the CTO of ElevenLabs in 2026? Piotr Dabkowski's Bio | Clay",
+        "document": "https://www.clay.com/dossier/elevenlabs-cto",
+        "date": "2024-09-13"
+       },
+       {
+        "name": "Piotr Dabkowski",
+        "document": "https://www.forbes.com/profile/piotr-dabkowski",
+        "date": "2026-06-14"
+       }
+      ],
+      "id": "5f576e3c-9468-40c6-8c22-5558a479cbd7",
+      "valid_since": "2022-01-01"
+     }
+    },
+    {
+     "id": "795576b4-f7f5-5c24-b403-24402e3289dd",
+     "name": "Piotr Dabkowski",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "wikidata.org",
+        "document": "https://www.wikidata.org/wiki/Q116798355",
+        "date": "2026-10-30",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "53b9602e-2a50-5e01-adf6-6ab67bdebe84"
+     }
+    },
+    {
+     "id": "8ffe7a54-e6a7-5f74-a016-584f11f084b9",
+     "name": "Mateusz Jakub Staniszewski",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "wikidata.org",
+        "document": "https://www.wikidata.org/wiki/Q116798355",
+        "date": "2026-10-30",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "cf3da099-28be-548e-9a26-a34a044984d8"
+     }
+    },
+    {
+     "id": "8ffe7a54-e6a7-5f74-a016-584f11f084b9",
+     "name": "Mateusz Jakub Staniszewski",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "ElevenLabs",
+        "document": "https://elevenlabs.io/blog/authors/mati-staniszewski",
+        "date": "2026-07-22"
+       }
+      ],
+      "id": "04b27bbf-b1e3-4b78-a426-e47f88996baa"
+     }
+    }
+   ],
+   "IS_CEO_OF": [
+    {
+     "id": "8ffe7a54-e6a7-5f74-a016-584f11f084b9",
+     "name": "Mateusz Jakub Staniszewski",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "Sequoia",
+        "document": "https://sequoiacap.com/podcast/training-data-mati-staniszewski/",
+        "date": "2026-07-22"
+       }
+      ],
+      "id": "f3234e5a-ecb2-43b3-a643-0a0b5c5d3a76"
+     }
+    }
+   ],
+   "IS_CTO_OF": [
+    {
+     "id": "795576b4-f7f5-5c24-b403-24402e3289dd",
+     "name": "Piotr Dabkowski",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "Who is the CTO of ElevenLabs in 2026? Piotr Dabkowski's Bio | Clay",
+        "document": "https://www.clay.com/dossier/elevenlabs-cto",
+        "date": "2024-09-13"
+       },
+       {
+        "name": "en.wikipedia.org",
+        "document": "https://en.wikipedia.org/wiki/Piotr_D%C4%85bkowski",
+        "date": "2026-06-14"
+       },
+       {
+        "name": "Piotr Dabkowski",
+        "document": "https://elevenlabs.io/blog/authors/piotr-dabkowski",
+        "date": "2026-06-08"
+       }
+      ],
+      "id": "ad09037c-b115-47c3-b446-af930e38e3ed",
+      "valid_since": "2022-01-01"
+     }
+    }
+   ],
+   "IS_BOARD_MEMBER_OF": [
+    {
+     "id": "0fba0b0f-025a-42d3-aa21-e7b215c44fe8",
+     "name": "Jennifer Li",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "SEC",
+        "document": "https://www.sec.gov/Archives/edgar/data/1977921/000197792123000001/primary_doc.xml",
+        "date": "2023-05-17"
+       }
+      ],
+      "id": "13d649f2-c6f2-4571-9a80-19afc5547878",
+      "valid_since": "2023-05-17"
+     }
+    },
+    {
+     "id": "795576b4-f7f5-5c24-b403-24402e3289dd",
+     "name": "Piotr Dabkowski",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "SEC",
+        "document": "https://www.sec.gov/Archives/edgar/data/1977921/000197792123000001/primary_doc.xml",
+        "date": "2023-05-17"
+       }
+      ],
+      "id": "c1cb47ab-f381-4b4a-b4d8-76b85b087a3a",
+      "valid_since": "2023-05-17"
+     }
+    },
+    {
+     "id": "8ffe7a54-e6a7-5f74-a016-584f11f084b9",
+     "name": "Mateusz Jakub Staniszewski",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "SEC",
+        "document": "https://www.sec.gov/Archives/edgar/data/1977921/000197792123000001/primary_doc.xml",
+        "date": "2023-05-17"
+       }
+      ],
+      "id": "61337508-08f3-4446-ad27-014e407892c6"
+     }
+    }
+   ],
+   "WORKS_AT": [
+    {
+     "id": "0fe7ad86-f4f3-49c8-92b8-6f5a2c6dbf9c",
+     "name": "Carles Reina",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "eu-startups.com",
+        "document": "https://www.eu-startups.com/2025/10/with-e3-5-million-in-funding-spanish-startup-omnia-is-helping-brands-stand-out-across-ai-platforms",
+        "date": "2026-07-24"
+       }
+      ],
+      "id": "4283af9c-8daf-5ae8-8f43-9ea6186fddec"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

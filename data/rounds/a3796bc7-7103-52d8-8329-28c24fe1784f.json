@@ -1,0 +1,277 @@
+{
+ "id": "a3796bc7-7103-52d8-8329-28c24fe1784f",
+ "name": "Pre-Seed",
+ "entity_type": "FundingRound",
+ "description": null,
+ "properties": {
+  "name": {
+   "value": "Pre-Seed",
+   "sources": [
+    {
+     "name": "cdn.busibee.be",
+     "document": "https://cdn.busibee.be/publications/1czXyxxHiKchHxn9wWMj7u.pdf",
+     "date": "2021-12-09",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "biovox.eu",
+     "document": "https://biovox.eu/new-start-up-trince-raises-eur-4-million-for-innovative-technology-to-produce-personalized-cancer-therapies-safer-cheaper-and-faster/",
+     "date": "2021-12-06",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "qbic.be",
+     "document": "https://www.qbic.be/nieuws/trince-raises-eu-4m-with-support-of-qbic-ii",
+     "date": "2021-12-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "round_label": {
+   "value": "PRE_SEED",
+   "sources": [
+    {
+     "name": "cdn.busibee.be",
+     "document": "https://cdn.busibee.be/publications/1czXyxxHiKchHxn9wWMj7u.pdf",
+     "date": "2021-12-09",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "biovox.eu",
+     "document": "https://biovox.eu/new-start-up-trince-raises-eur-4-million-for-innovative-technology-to-produce-personalized-cancer-therapies-safer-cheaper-and-faster/",
+     "date": "2021-12-06",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "qbic.be",
+     "document": "https://www.qbic.be/nieuws/trince-raises-eu-4m-with-support-of-qbic-ii",
+     "date": "2021-12-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "instrument": {
+   "value": "PREFERRED_EQUITY",
+   "sources": [
+    {
+     "name": "cdn.busibee.be",
+     "document": "https://cdn.busibee.be/publications/1czXyxxHiKchHxn9wWMj7u.pdf",
+     "date": "2021-12-09",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "transaction_value": {
+   "value": 4000000.0,
+   "sources": [
+    {
+     "name": "biovox.eu",
+     "document": "https://biovox.eu/new-start-up-trince-raises-eur-4-million-for-innovative-technology-to-produce-personalized-cancer-therapies-safer-cheaper-and-faster/",
+     "date": "2021-12-06",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "qbic.be",
+     "document": "https://www.qbic.be/nieuws/trince-raises-eu-4m-with-support-of-qbic-ii",
+     "date": "2021-12-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "transaction_value_units": {
+   "value": "EUR",
+   "sources": [
+    {
+     "name": "biovox.eu",
+     "document": "https://biovox.eu/new-start-up-trince-raises-eur-4-million-for-innovative-technology-to-produce-personalized-cancer-therapies-safer-cheaper-and-faster/",
+     "date": "2021-12-06",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "qbic.be",
+     "document": "https://www.qbic.be/nieuws/trince-raises-eu-4m-with-support-of-qbic-ii",
+     "date": "2021-12-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "announcement_date": {
+   "value": "2021-12-04",
+   "sources": [
+    {
+     "name": "qbic.be",
+     "document": "https://www.qbic.be/nieuws/trince-raises-eu-4m-with-support-of-qbic-ii",
+     "date": "2021-12-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "biovox.eu",
+     "document": "https://biovox.eu/new-start-up-trince-raises-eur-4-million-for-innovative-technology-to-produce-personalized-cancer-therapies-safer-cheaper-and-faster/",
+     "date": "2021-12-06",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "event_date": {
+   "value": "2021-11-30",
+   "sources": [
+    {
+     "name": "cdn.busibee.be",
+     "document": "https://cdn.busibee.be/publications/1czXyxxHiKchHxn9wWMj7u.pdf",
+     "date": "2021-12-09",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "annotations": {
+   "value": [
+    "No source names this round; releases of 2021-12-04/06 and the deeds give no round name.",
+    "round_label_stated:Pre-Seed",
+    "round_label_basis:INFERRED",
+    "round_label_explanation:First equity round of the company (rounds.1), unnamed, with a later source-named Seed (rounds.0): Pre-Seed (instructions §3.5)."
+   ],
+   "sources": []
+  }
+ },
+ "relationships": {
+  "outgoing": {},
+  "incoming": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "01eeb50b-e428-41a6-ae7f-6287ec5c1ee5",
+     "name": "Trince",
+     "entity_type": "Company",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "cdn.busibee.be",
+        "document": "https://cdn.busibee.be/publications/1czXyxxHiKchHxn9wWMj7u.pdf",
+        "date": "2021-12-09",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       },
+       {
+        "name": "biovox.eu",
+        "document": "https://biovox.eu/new-start-up-trince-raises-eur-4-million-for-innovative-technology-to-produce-personalized-cancer-therapies-safer-cheaper-and-faster/",
+        "date": "2021-12-06",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "qbic.be",
+        "document": "https://www.qbic.be/nieuws/trince-raises-eu-4m-with-support-of-qbic-ii",
+        "date": "2021-12-04",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "4d1a73f0-8d6c-5d45-834a-02c61ef54a46"
+     }
+    },
+    {
+     "id": "1f44c100-ab27-4cf7-86a6-4a341b34b678",
+     "name": "QBIC II FUND ARKIV",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "biovox.eu",
+        "document": "https://biovox.eu/new-start-up-trince-raises-eur-4-million-for-innovative-technology-to-produce-personalized-cancer-therapies-safer-cheaper-and-faster/",
+        "date": "2021-12-06",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "qbic.be",
+        "document": "https://www.qbic.be/nieuws/trince-raises-eu-4m-with-support-of-qbic-ii",
+        "date": "2021-12-04",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "2a0a01e3-0430-5289-8d43-37e288638732"
+     }
+    },
+    {
+     "id": "e5a72c82-b8f3-52af-9a4e-0474bc023e41",
+     "name": "Novalis Biotech Acceleration",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "biovox.eu",
+        "document": "https://biovox.eu/new-start-up-trince-raises-eur-4-million-for-innovative-technology-to-produce-personalized-cancer-therapies-safer-cheaper-and-faster/",
+        "date": "2021-12-06",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "qbic.be",
+        "document": "https://www.qbic.be/nieuws/trince-raises-eu-4m-with-support-of-qbic-ii",
+        "date": "2021-12-04",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "is_lead": true,
+      "id": "a40abb89-4cce-543a-8e27-85f7ffddd9a0"
+     }
+    }
+   ],
+   "IS_TRANCHE_OF": [
+    {
+     "id": "39c9e1b5-064c-53e1-be2f-17bfa417f733",
+     "name": "Tranche 2",
+     "entity_type": "FundingRoundTranche",
+     "properties": {
+      "sources": [
+       {
+        "name": "cdn.busibee.be",
+        "document": "https://cdn.busibee.be/publications/1czXyxrYwqfjxeCAccM4Rk.pdf",
+        "date": "2023-02-21",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "f65e7244-1c79-53d8-9099-2d70d73fd65c"
+     }
+    },
+    {
+     "id": "aeab8b6e-9324-52ab-a6c7-e4d16c1fded8",
+     "name": "Tranche 1",
+     "entity_type": "FundingRoundTranche",
+     "properties": {
+      "sources": [
+       {
+        "name": "cdn.busibee.be",
+        "document": "https://cdn.busibee.be/publications/1czXyxxHiKchHxn9wWMj7u.pdf",
+        "date": "2021-12-09",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "f599799d-26a3-5ec7-96e7-e637edc522d0"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}
