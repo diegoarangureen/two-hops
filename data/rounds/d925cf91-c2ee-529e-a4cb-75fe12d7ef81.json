@@ -1,0 +1,151 @@
+{
+ "id": "d925cf91-c2ee-529e-a4cb-75fe12d7ef81",
+ "name": "Seed",
+ "entity_type": "FundingRound",
+ "description": null,
+ "properties": {
+  "name": {
+   "value": "Seed",
+   "sources": [
+    {
+     "name": "inovexus.com",
+     "document": "https://inovexus.com/portfolio/gama-space/",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "round_label": {
+   "value": "SEED",
+   "sources": [
+    {
+     "name": "inovexus.com",
+     "document": "https://inovexus.com/portfolio/gama-space/",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "transaction_value": {
+   "value": 100000.0,
+   "sources": [
+    {
+     "name": "cbinsights.com",
+     "document": "https://www.cbinsights.com/company/gama-1/financials",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "transaction_value_units": {
+   "value": "USD",
+   "sources": [
+    {
+     "name": "cbinsights.com",
+     "document": "https://www.cbinsights.com/company/gama-1/financials",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "event_date": {
+   "value": "2024-02-01",
+   "sources": [
+    {
+     "name": "cbinsights.com",
+     "document": "https://www.cbinsights.com/company/gama-1/financials",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "annotations": {
+   "value": [
+    "Disclosed name: Inovexus portfolio page gives \"Stage at Investment: Seed\", year invested 2024.",
+    "round_label_stated:Seed"
+   ],
+   "sources": []
+  }
+ },
+ "relationships": {
+  "outgoing": {},
+  "incoming": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "497d50c4-9c77-4ee2-99e9-6c7f20057572",
+     "name": "Inovexus",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "cbinsights.com",
+        "document": "https://www.cbinsights.com/company/gama-1/financials",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       },
+       {
+        "name": "inovexus.com",
+        "document": "https://inovexus.com/portfolio/gama-space/",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "fed5e125-c465-5058-9216-95b8ca8dc494"
+     }
+    },
+    {
+     "id": "91b7b864-b803-5a9e-90a2-2af812e7fbd3",
+     "name": "Gama",
+     "entity_type": "Company",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "inovexus.com",
+        "document": "https://inovexus.com/portfolio/gama-space/",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "24c601c8-a748-539e-a7dc-b7cb30845d8b"
+     }
+    },
+    {
+     "id": "a2e00460-78f7-42c7-bb1b-8aaecce08f9f",
+     "name": "EWOR",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "cbinsights.com",
+        "document": "https://www.cbinsights.com/company/gama-1/financials",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       },
+       {
+        "name": "inovexus.com",
+        "document": "https://inovexus.com/portfolio/gama-space/",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "17898292-daef-59a5-9adc-6b4882410547"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

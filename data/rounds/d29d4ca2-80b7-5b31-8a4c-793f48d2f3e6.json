@@ -1,0 +1,108 @@
+{
+ "id": "d29d4ca2-80b7-5b31-8a4c-793f48d2f3e6",
+ "name": "Funding round",
+ "entity_type": "FundingRound",
+ "description": null,
+ "properties": {
+  "name": {
+   "value": "Funding round",
+   "sources": [
+    {
+     "name": "app.dealroom.co",
+     "document": "https://app.dealroom.co/companies/cerpro",
+     "date": "2026-11-06",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "transaction_value": {
+   "value": 20000.0,
+   "sources": [
+    {
+     "name": "app.dealroom.co",
+     "document": "https://app.dealroom.co/companies/cerpro",
+     "date": "2026-11-06",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "transaction_value_units": {
+   "value": "USD",
+   "sources": [
+    {
+     "name": "app.dealroom.co",
+     "document": "https://app.dealroom.co/companies/cerpro",
+     "date": "2026-11-06",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "event_date": {
+   "value": "2023-06-01",
+   "sources": [
+    {
+     "name": "app.dealroom.co",
+     "document": "https://app.dealroom.co/companies/cerpro",
+     "date": "2026-11-06",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {},
+  "incoming": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "ae7530e4-556e-4547-ba15-88a12fbcdcb1",
+     "name": "Techstars",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "app.dealroom.co",
+        "document": "https://app.dealroom.co/companies/cerpro",
+        "date": "2026-11-06",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       },
+       {
+        "name": "jobs.techstars.com",
+        "document": "https://jobs.techstars.com/companies/cerpro/jobs/72435655-founders-associate-m-w-d",
+        "date": "2026-11-06",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "is_lead": true,
+      "id": "0faf79fb-dd1e-50c6-b26d-f75c2f4647b7"
+     }
+    },
+    {
+     "id": "b2d7e1ca-a057-4187-918b-f34423dff76c",
+     "name": "CERPRO",
+     "entity_type": "Company",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "app.dealroom.co",
+        "document": "https://app.dealroom.co/companies/cerpro",
+        "date": "2026-11-06",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "96ef0d95-280b-5cd6-b7b1-53e7a27338cb"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

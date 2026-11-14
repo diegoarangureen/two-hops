@@ -1,0 +1,901 @@
+{
+ "id": "6f3fa8f6-fbba-5d29-bcbf-9b483e70c519",
+ "name": "Seed",
+ "entity_type": "FundingRound",
+ "description": null,
+ "properties": {
+  "name": {
+   "value": "Seed",
+   "sources": [
+    {
+     "name": "e2e.com",
+     "document": "https://e2e.com/blog/seed",
+     "date": "2026-11-03",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "therecursive.com",
+     "document": "https://www.therecursive.com/polish-e2e-raises-eur7m-to-develop-ai-powered-software-testing/",
+     "date": "2026-11-03",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "aliases": {
+   "value": [
+    "Pre-Seed"
+   ],
+   "sources": []
+  },
+  "round_label": {
+   "value": "SEED",
+   "sources": [
+    {
+     "name": "e2e.com",
+     "document": "https://e2e.com/blog/seed",
+     "date": "2026-11-03",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "therecursive.com",
+     "document": "https://www.therecursive.com/polish-e2e-raises-eur7m-to-develop-ai-powered-software-testing/",
+     "date": "2026-11-03",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "transaction_value": {
+   "value": 8000000.0,
+   "sources": [
+    {
+     "name": "e2e.com",
+     "document": "https://e2e.com/blog/seed",
+     "date": "2026-11-03",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "therecursive.com",
+     "document": "https://www.therecursive.com/polish-e2e-raises-eur7m-to-develop-ai-powered-software-testing/",
+     "date": "2026-11-03",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "forbes.cz",
+     "document": "https://forbes.cz/ai-napise-kod-e2e-ho-otestuje-mladi-polaci-od-investoru-ziskali-200-milionu-korun/",
+     "date": "2026-11-03",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "cc.cz",
+     "document": "https://cc.cz/je-to-ted-nejvic-hot-mlady-polsky-tym-hlasi-investori-dva-ceske-fondy-sazi-na-dalsi-tamni-raketu/",
+     "date": "2026-11-03",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "xyz.pl",
+     "document": "https://xyz.pl/?p=271347",
+     "date": "2026-11-03",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "transaction_value_units": {
+   "value": "USD",
+   "sources": [
+    {
+     "name": "e2e.com",
+     "document": "https://e2e.com/blog/pre-seed",
+     "date": "2026-09-15",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "therecursive.com",
+     "document": "https://therecursive.com/yc-proven-testerarmy-raises-eur1m-for-ai-agents-that-test-software",
+     "date": "2026-09-15",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "xyz.pl",
+     "document": "https://xyz.pl/poland-unpacked/from-test-scripts-to-ai-agents-testerarmy-targets-the-us-market-1132/",
+     "date": "2026-09-20",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "e2e.com",
+     "document": "https://e2e.com/blog/seed",
+     "date": "2026-11-03",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "therecursive.com",
+     "document": "https://www.therecursive.com/polish-e2e-raises-eur7m-to-develop-ai-powered-software-testing/",
+     "date": "2026-11-03",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "forbes.cz",
+     "document": "https://forbes.cz/ai-napise-kod-e2e-ho-otestuje-mladi-polaci-od-investoru-ziskali-200-milionu-korun/",
+     "date": "2026-11-03",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "cc.cz",
+     "document": "https://cc.cz/je-to-ted-nejvic-hot-mlady-polsky-tym-hlasi-investori-dva-ceske-fondy-sazi-na-dalsi-tamni-raketu/",
+     "date": "2026-11-03",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "xyz.pl",
+     "document": "https://xyz.pl/?p=271347",
+     "date": "2026-11-03",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "announcement_date": {
+   "value": "2026-11-03",
+   "sources": [
+    {
+     "name": "e2e.com",
+     "document": "https://e2e.com/blog/seed",
+     "date": "2026-11-03",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "therecursive.com",
+     "document": "https://www.therecursive.com/polish-e2e-raises-eur7m-to-develop-ai-powered-software-testing/",
+     "date": "2026-11-03",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "forbes.cz",
+     "document": "https://forbes.cz/ai-napise-kod-e2e-ho-otestuje-mladi-polaci-od-investoru-ziskali-200-milionu-korun/",
+     "date": "2026-11-03",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "cc.cz",
+     "document": "https://cc.cz/je-to-ted-nejvic-hot-mlady-polsky-tym-hlasi-investori-dva-ceske-fondy-sazi-na-dalsi-tamni-raketu/",
+     "date": "2026-11-03",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "xyz.pl",
+     "document": "https://xyz.pl/?p=271347",
+     "date": "2026-11-03",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "annotations": {
+   "value": [
+    "Company: \"pre-seed funding\"; The Recursive: \"Stage: Pre-seed\".",
+    "round_label_stated:Pre-Seed",
+    "Company: \"$8 million in seed funding\".",
+    "Separate raise from rounds.0 (Pre-Seed, 2026-09-15) although Script Capital is in both within 6 months: the company announced each in its own post (e2e.com/blog/pre-seed, e2e.com/blog/seed) and The Recursive says the seed came three months after the pre-seed (instructions §3.2, §3.4).",
+    "round_label_stated:Seed"
+   ],
+   "sources": []
+  }
+ },
+ "relationships": {
+  "outgoing": {},
+  "incoming": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "0c96e1fb-3027-577c-a4b3-c5a3fc4f8c1d",
+     "name": "Piotr Karwatka",
+     "entity_type": "Person",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "e2e.com",
+        "document": "https://e2e.com/blog/pre-seed",
+        "date": "2026-09-15",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "e4605922-a6a1-51a0-ba02-72f9fa90704c"
+     }
+    },
+    {
+     "id": "10f68c11-0d27-56d1-b5f1-f39627d87817",
+     "name": "Adam Pietrasiak",
+     "entity_type": "Person",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "e2e.com",
+        "document": "https://e2e.com/blog/pre-seed",
+        "date": "2026-09-15",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "423b6f70-566f-556e-a236-c13a45c8fcf9"
+     }
+    },
+    {
+     "id": "119755d9-bae7-57f0-8a9e-bc04b690cad9",
+     "name": "Bartek Pucek",
+     "entity_type": "Person",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "e2e.com",
+        "document": "https://e2e.com/blog/pre-seed",
+        "date": "2026-09-15",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "f0530e1d-3e4d-585d-a243-d1c5517d3a6f"
+     }
+    },
+    {
+     "id": "194c6cf7-cfde-4561-b417-e9ed1871ce39",
+     "name": "Oscar Salazar",
+     "entity_type": "Person",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "e2e.com",
+        "document": "https://e2e.com/blog/seed",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "d2098ddc-6189-5547-be12-a88855b44c53"
+     }
+    },
+    {
+     "id": "1e86655e-373d-4fe8-be13-af3713581f73",
+     "name": "Y Combinator",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "e2e.com",
+        "document": "https://e2e.com/blog/pre-seed",
+        "date": "2026-09-15",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "therecursive.com",
+        "document": "https://therecursive.com/yc-proven-testerarmy-raises-eur1m-for-ai-agents-that-test-software",
+        "date": "2026-09-15",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "7057adae-5972-583d-bcde-12eae9ea8396"
+     }
+    },
+    {
+     "id": "2288b2e7-36fa-4556-b6a2-88e5e79b38ed",
+     "name": "Austen Allred",
+     "entity_type": "Person",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "e2e.com",
+        "document": "https://e2e.com/blog/pre-seed",
+        "date": "2026-09-15",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "a52b8750-4565-5d39-8e95-7b6a6715f251"
+     }
+    },
+    {
+     "id": "2a41683a-97c9-5b61-98ce-7dc4b02a3bc8",
+     "name": "Mike Grabowski",
+     "entity_type": "Person",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "e2e.com",
+        "document": "https://e2e.com/blog/pre-seed",
+        "date": "2026-09-15",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "4a070332-969c-5df8-9339-e751d55892d8"
+     }
+    },
+    {
+     "id": "36dfe063-46a1-5c50-9bf8-b33c8604419d",
+     "name": "Charlie Cheever",
+     "entity_type": "Person",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "e2e.com",
+        "document": "https://e2e.com/blog/pre-seed",
+        "date": "2026-09-15",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "b6b2c9a4-308b-570a-896d-c31adfd57009"
+     }
+    },
+    {
+     "id": "39f23db1-266b-4506-a7a0-b3598f4466a0",
+     "name": "Fryderyk Wiatrowski",
+     "entity_type": "Person",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "e2e.com",
+        "document": "https://e2e.com/blog/pre-seed",
+        "date": "2026-09-15",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "6306bdc5-d167-5959-9e80-d95e2377dd3c"
+     }
+    },
+    {
+     "id": "3d0fc5b7-59a1-5313-9bac-714391288424",
+     "name": "Emil Kowalski",
+     "entity_type": "Person",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "e2e.com",
+        "document": "https://e2e.com/blog/seed",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "ea8073a7-2569-5135-b098-7626c82d90e3"
+     }
+    },
+    {
+     "id": "48b7ff76-9bc7-4468-abba-4d937f848dfd",
+     "name": "Guillermo Rauch",
+     "entity_type": "Person",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "e2e.com",
+        "document": "https://e2e.com/blog/pre-seed",
+        "date": "2026-09-15",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "019e8558-082a-58e0-9d1c-ffc67f8791ae"
+     }
+    },
+    {
+     "id": "5890d3f2-3877-5ed0-abb9-b8133f271c23",
+     "name": "Zeno Rocha",
+     "entity_type": "Person",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "e2e.com",
+        "document": "https://e2e.com/blog/pre-seed",
+        "date": "2026-09-15",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "7910ced7-472a-5203-bb58-517e90ff26e3"
+     }
+    },
+    {
+     "id": "68950d21-4cef-4e22-92ce-c1651ada6a6a",
+     "name": "TesterArmy",
+     "entity_type": "Company",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "e2e.com",
+        "document": "https://e2e.com/blog/pre-seed",
+        "date": "2026-09-15",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "therecursive.com",
+        "document": "https://therecursive.com/yc-proven-testerarmy-raises-eur1m-for-ai-agents-that-test-software",
+        "date": "2026-09-15",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "e2e.com",
+        "document": "https://e2e.com/blog/seed",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "therecursive.com",
+        "document": "https://www.therecursive.com/polish-e2e-raises-eur7m-to-develop-ai-powered-software-testing/",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "99cc9e4c-71fb-5f60-8e63-882ab36ab0cb"
+     }
+    },
+    {
+     "id": "6f2346a2-0f82-4060-b8ab-dd98bf83c6e7",
+     "name": "KAYA",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "e2e.com",
+        "document": "https://e2e.com/blog/seed",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "therecursive.com",
+        "document": "https://www.therecursive.com/polish-e2e-raises-eur7m-to-develop-ai-powered-software-testing/",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "is_lead": true,
+      "id": "e4201791-e9db-5184-8541-109ee9f7c163"
+     }
+    },
+    {
+     "id": "6f8bc5bf-5d75-573b-8334-4d3312f45906",
+     "name": "Matt Swulinski",
+     "entity_type": "Person",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "e2e.com",
+        "document": "https://e2e.com/blog/seed",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "a8de4e6e-4783-5b60-93fa-e576ce7379b5"
+     }
+    },
+    {
+     "id": "7f159297-7277-4418-a2bd-1f4ca708d778",
+     "name": "Script Capital",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "e2e.com",
+        "document": "https://e2e.com/blog/pre-seed",
+        "date": "2026-09-15",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "therecursive.com",
+        "document": "https://therecursive.com/yc-proven-testerarmy-raises-eur1m-for-ai-agents-that-test-software",
+        "date": "2026-09-15",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "e2e.com",
+        "document": "https://e2e.com/blog/seed",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "therecursive.com",
+        "document": "https://www.therecursive.com/polish-e2e-raises-eur7m-to-develop-ai-powered-software-testing/",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "is_lead": true,
+      "id": "ffe5521b-4899-56ca-8be2-345c0a8ad215"
+     }
+    },
+    {
+     "id": "857c4739-9b37-5547-bd8f-bcbd3b8a8096",
+     "name": "Jakub Pawelski",
+     "entity_type": "Person",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "xyz.pl",
+        "document": "https://xyz.pl/?p=271347",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "025e0a24-e7ea-5fd2-9925-b090e5f26dae"
+     }
+    },
+    {
+     "id": "92244ce9-f225-5e77-9f6f-002fc61d7799",
+     "name": "Tomasz Karwatka",
+     "entity_type": "Person",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "e2e.com",
+        "document": "https://e2e.com/blog/pre-seed",
+        "date": "2026-09-15",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "866c8372-17fa-5e4a-831a-70255f1dc94b"
+     }
+    },
+    {
+     "id": "93a3462b-3ad2-437c-b183-5a2133fb944b",
+     "name": "Sarup Banskota",
+     "entity_type": "Person",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "e2e.com",
+        "document": "https://e2e.com/blog/pre-seed",
+        "date": "2026-09-15",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "e76c4d04-2c19-5f49-a038-bacd5ef92618"
+     }
+    },
+    {
+     "id": "973eb039-5891-479c-9c66-dafe02543fbf",
+     "name": "Eight Capital",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "e2e.com",
+        "document": "https://e2e.com/blog/pre-seed",
+        "date": "2026-09-15",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "therecursive.com",
+        "document": "https://therecursive.com/yc-proven-testerarmy-raises-eur1m-for-ai-agents-that-test-software",
+        "date": "2026-09-15",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "28feee85-9d09-5c72-836b-66b94797d734"
+     }
+    },
+    {
+     "id": "9e4453fa-d724-5667-a1d5-9956f0926a0d",
+     "name": "Fernando Rojo",
+     "entity_type": "Person",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "e2e.com",
+        "document": "https://e2e.com/blog/pre-seed",
+        "date": "2026-09-15",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "991dc136-ddeb-5d25-9f91-b8e623fb72e6"
+     }
+    },
+    {
+     "id": "ac4c6d37-43ee-55c0-99b8-8478b78064d5",
+     "name": "Theo Browne",
+     "entity_type": "Person",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "e2e.com",
+        "document": "https://e2e.com/blog/pre-seed",
+        "date": "2026-09-15",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "61d66738-a442-5aae-a1cd-bdd0cbf1aaa6"
+     }
+    },
+    {
+     "id": "b93e1bfc-bddd-5b97-a403-19601d777727",
+     "name": "Walden Yan",
+     "entity_type": "Person",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "e2e.com",
+        "document": "https://e2e.com/blog/pre-seed",
+        "date": "2026-09-15",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "546de8cc-bb69-589f-8621-c76e5599cea6"
+     }
+    },
+    {
+     "id": "bc86588a-f674-5944-8cdd-7cd3feeea1e1",
+     "name": "Benedict Chan",
+     "entity_type": "Person",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "e2e.com",
+        "document": "https://e2e.com/blog/pre-seed",
+        "date": "2026-09-15",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "c399b44e-2941-5ef2-9392-1fd273e883b3"
+     }
+    },
+    {
+     "id": "c934f7e3-6ee3-4983-b0e1-f7827df567f9",
+     "name": "Point Nine Capital",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "e2e.com",
+        "document": "https://e2e.com/blog/seed",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "therecursive.com",
+        "document": "https://www.therecursive.com/polish-e2e-raises-eur7m-to-develop-ai-powered-software-testing/",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "is_lead": true,
+      "id": "eb2c542c-94a7-581e-a461-1222a9e331e1"
+     }
+    },
+    {
+     "id": "cca845af-2a63-5feb-961d-a75ced3d94c6",
+     "name": "Daniel Dhawan",
+     "entity_type": "Person",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "e2e.com",
+        "document": "https://e2e.com/blog/pre-seed",
+        "date": "2026-09-15",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "ed5005b8-ddd1-57c9-9fba-aa4aec399d83"
+     }
+    },
+    {
+     "id": "d45065f8-c5b6-54e0-b35d-045de78c445c",
+     "name": "Michał Pierzchała",
+     "entity_type": "Person",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "e2e.com",
+        "document": "https://e2e.com/blog/pre-seed",
+        "date": "2026-09-15",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "24e8ec44-092f-5f13-abfd-c9ba27f873d2"
+     }
+    },
+    {
+     "id": "d9f9a9ca-8f83-44ea-97f2-2f4d844dd9f1",
+     "name": "Credo Ventures a.s.",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "e2e.com",
+        "document": "https://e2e.com/blog/seed",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "therecursive.com",
+        "document": "https://www.therecursive.com/polish-e2e-raises-eur7m-to-develop-ai-powered-software-testing/",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "is_lead": true,
+      "id": "4df527f1-d82d-5f35-b51e-3c1bfb02c99e"
+     }
+    },
+    {
+     "id": "e3704082-44ce-5399-a5fd-17cca9ef6413",
+     "name": "Chad Byers",
+     "entity_type": "Person",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "e2e.com",
+        "document": "https://e2e.com/blog/seed",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "7b335379-efb5-5f74-bf74-b0a60dc5ffd1"
+     }
+    },
+    {
+     "id": "e499cab6-2ed9-4c23-83cc-4dd96fd97d6e",
+     "name": "Baobab Ventures",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "e2e.com",
+        "document": "https://e2e.com/blog/seed",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "therecursive.com",
+        "document": "https://www.therecursive.com/polish-e2e-raises-eur7m-to-develop-ai-powered-software-testing/",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "is_lead": true,
+      "id": "48a2ad5d-845c-5cec-9d17-801f4006b0ea"
+     }
+    },
+    {
+     "id": "f2d8862c-bec4-4739-9e90-d25a008c040d",
+     "name": "AIP SEED ALTERNATYWNA SPÓŁKA INWESTYCYJNA SPÓŁKA AKCYJNA",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "e2e.com",
+        "document": "https://e2e.com/blog/pre-seed",
+        "date": "2026-09-15",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "therecursive.com",
+        "document": "https://therecursive.com/yc-proven-testerarmy-raises-eur1m-for-ai-agents-that-test-software",
+        "date": "2026-09-15",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "b0d4f743-4566-5b40-9147-b364300f01dd"
+     }
+    },
+    {
+     "id": "fae82f36-c3bf-5477-a9f2-a45fe4d053ae",
+     "name": "Carles Reina",
+     "entity_type": "Person",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "e2e.com",
+        "document": "https://e2e.com/blog/seed",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "32ecf753-a713-544b-bbb9-0de7a60b672c"
+     }
+    },
+    {
+     "id": "fd2363b3-101e-5a0f-a84c-972a74df04b8",
+     "name": "Marcin Żukowski",
+     "entity_type": "Person",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "e2e.com",
+        "document": "https://e2e.com/blog/seed",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "1da1c4e9-a5e3-5ba5-b836-465dea9d29a0"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

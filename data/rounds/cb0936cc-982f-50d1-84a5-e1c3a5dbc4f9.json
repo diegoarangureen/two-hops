@@ -1,0 +1,77 @@
+{
+ "id": "cb0936cc-982f-50d1-84a5-e1c3a5dbc4f9",
+ "name": "Pre-Seed",
+ "entity_type": "FundingRound",
+ "description": null,
+ "properties": {
+  "name": {
+   "value": "Pre-Seed",
+   "sources": [
+    {
+     "name": "bitsandpretzels.com",
+     "document": "https://www.bitsandpretzels.com/st-startups/cerpro-book",
+     "date": "2026-11-06",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "round_label": {
+   "value": "PRE_SEED",
+   "sources": [
+    {
+     "name": "bitsandpretzels.com",
+     "document": "https://www.bitsandpretzels.com/st-startups/cerpro-book",
+     "date": "2026-11-06",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "event_date": {
+   "value": "2024-12-01",
+   "sources": [
+    {
+     "name": "bitsandpretzels.com",
+     "document": "https://www.bitsandpretzels.com/st-startups/cerpro-book",
+     "date": "2026-11-06",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "annotations": {
+   "value": [
+    "Company-maintained Bits & Pretzels startup profile: \"Last funding: Pre-Seed, December 2024\".",
+    "round_label_stated:Pre-Seed"
+   ],
+   "sources": []
+  }
+ },
+ "relationships": {
+  "outgoing": {},
+  "incoming": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "b2d7e1ca-a057-4187-918b-f34423dff76c",
+     "name": "CERPRO",
+     "entity_type": "Company",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "bitsandpretzels.com",
+        "document": "https://www.bitsandpretzels.com/st-startups/cerpro-book",
+        "date": "2026-11-06",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "aa6975a3-544b-5030-a7ba-5a79c74ccd22"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

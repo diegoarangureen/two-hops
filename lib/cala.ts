@@ -14,6 +14,8 @@ const LOG = path.join(DATA_DIR, "cala_calls.jsonl");
 const MIN_GAP_MS = 6500; // Cala allows about 10 calls per minute
 const TIMEOUT_MS = 20000;
 const RETRY_AFTER_FAILURE_MS = 10 * 60 * 1000; // a profile whose read failed is not asked for again for a while
+const RATE_LIMIT_TRIES = 4;
+const RATE_LIMIT_WAIT_MS = 7000;
 
 // Same projection as tools/cala.py, so files written here and by the crawler are interchangeable.
 const COMPANY_PROPS = [
@@ -164,19 +166,26 @@ async function doFetch(id: string, entityType: string): Promise<Result> {
     const t0 = Date.now();
     let status = 0;
     let text = "";
-    try {
-      const res = await fetch(`${BASE}/entities/${id}`, {
-        method: "POST",
-        headers: { "X-API-KEY": key, "Content-Type": "application/json", Accept: "application/json", "User-Agent": "two-hops/1.0" },
-        body: JSON.stringify(body),
-        signal: AbortSignal.timeout(TIMEOUT_MS),
-        cache: "no-store",
-      });
-      status = res.status;
-      text = await res.text();
-    } catch (e) {
-      text = JSON.stringify({ client_error: String(e) });
+    // A crawl may be using the same key at the same moment: a 429 is waited out and tried again, a few times.
+    for (let attempt = 0; attempt < RATE_LIMIT_TRIES; attempt++) {
+      if (attempt > 0) await new Promise((r) => setTimeout(r, RATE_LIMIT_WAIT_MS));
+      try {
+        const res = await fetch(`${BASE}/entities/${id}`, {
+          method: "POST",
+          headers: { "X-API-KEY": key, "Content-Type": "application/json", Accept: "application/json", "User-Agent": "two-hops/1.0" },
+          body: JSON.stringify(body),
+          signal: AbortSignal.timeout(TIMEOUT_MS),
+          cache: "no-store",
+        });
+        status = res.status;
+        text = await res.text();
+      } catch (e) {
+        status = 0;
+        text = JSON.stringify({ client_error: String(e) });
+      }
+      if (status !== 429) break;
     }
+    state.last = Date.now();
     const seconds = Math.round((Date.now() - t0) / 10) / 100;
     const saved = `data/companies/${id}.json`;
     let entity: RawEntity | undefined;
@@ -203,7 +212,7 @@ async function doFetch(id: string, entityType: string): Promise<Result> {
     if (!entity) {
       const why =
         status === 429 ? "Cala's rate limit was hit" : status === 0 ? "Cala did not answer in time" : status === 200 ? "Cala answered with a different entity" : `Cala answered HTTP ${status}`;
-      state.failed.set(id, { at: Date.now(), why });
+      if (status !== 429) state.failed.set(id, { at: Date.now(), why }); // a rate limit passes: the next click may try again
       return { live: { called: true, seconds, status, error: `${why}; working from the cached graph only.`, budgetLeft: liveBudgetLeft() } };
     }
     try {

@@ -1,0 +1,302 @@
+{
+ "id": "752ca20b-3f35-5195-be1e-5f2d2572ff87",
+ "name": "Series B",
+ "entity_type": "FundingRound",
+ "description": null,
+ "properties": {
+  "name": {
+   "value": "Series B",
+   "sources": [
+    {
+     "name": "find-and-update.company-information.service.gov.uk",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/13346875/filing-history/MzUxNzk2MzkxMmFkaXF6a2N4/document?format=pdf&download=0",
+     "date": "2026-04-23",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "astronsystems.com",
+     "document": "https://astronsystems.com/news/funding-close-april-2026.jsp",
+     "date": "2026-04-06",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "aliases": {
+   "value": [
+    "Pre-Seed"
+   ],
+   "sources": []
+  },
+  "round_label": {
+   "value": "SERIES_B",
+   "sources": [
+    {
+     "name": "find-and-update.company-information.service.gov.uk",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/13346875/filing-history/MzUxNzk2MzkxMmFkaXF6a2N4/document?format=pdf&download=0",
+     "date": "2026-04-23",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "astronsystems.com",
+     "document": "https://astronsystems.com/news/funding-close-april-2026.jsp",
+     "date": "2026-04-06",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "instrument": {
+   "value": "EQUITY",
+   "sources": [
+    {
+     "name": "find-and-update.company-information.service.gov.uk",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/13346875/filing-history/MzUxNzk2MzkxMmFkaXF6a2N4/document?format=pdf&download=0",
+     "date": "2026-04-23",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "transaction_value": {
+   "value": 340157.56,
+   "sources": [
+    {
+     "name": "find-and-update.company-information.service.gov.uk",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/13346875/filing-history/MzUxNzk2MzkxMmFkaXF6a2N4/document?format=pdf&download=0",
+     "date": "2026-04-23",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "transaction_value_units": {
+   "value": "GBP",
+   "sources": [
+    {
+     "name": "find-and-update.company-information.service.gov.uk",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/13346875/filing-history/MzUxNzk2MzkxMmFkaXF6a2N4/document?format=pdf&download=0",
+     "date": "2026-04-23",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "announcement_date": {
+   "value": "2026-04-06",
+   "sources": [
+    {
+     "name": "astronsystems.com",
+     "document": "https://astronsystems.com/news/funding-close-april-2026.jsp",
+     "date": "2026-04-06",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "event_date": {
+   "value": "2026-04-06",
+   "sources": [
+    {
+     "name": "find-and-update.company-information.service.gov.uk",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/13346875/filing-history/MzUxNzk2MzkxMmFkaXF6a2N4/document?format=pdf&download=0",
+     "date": "2026-04-23",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "annotations": {
+   "value": [
+    "Accelerator programme round.",
+    "round_label_stated:Pre-Seed",
+    "round_label_basis:INFERRED",
+    "round_label_explanation:Accelerator programme round (Techstars Space Accelerator 2024) -> Pre-Seed (instructions §3.5).",
+    "derived from the sequence",
+    "No source names this round; the company calls it \"a new investment round\".",
+    "round_label_stated:Series B",
+    "round_label_explanation:Unnamed equity round after rounds.2 (Series A): next label in the sequence (instructions §3.5)."
+   ],
+   "sources": []
+  }
+ },
+ "relationships": {
+  "outgoing": {},
+  "incoming": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "08b93c36-102b-408b-9bf5-7e1a4f5c2ec0",
+     "name": "SEEDLEGALS MPL NOMINEES LIMITED",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "find-and-update.company-information.service.gov.uk",
+        "document": "https://find-and-update.company-information.service.gov.uk/company/13346875/filing-history/MzU0MDcyMTI2MWFkaXF6a2N4/document?format=pdf&download=0",
+        "date": "2026-08-25",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "24a752f8-7287-59cc-bc8d-c67e90eac972"
+     }
+    },
+    {
+     "id": "0ad2edd7-9ef8-54a7-92b1-71bdb15521d0",
+     "name": "Angel Invest Ventures",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "astronsystems.com",
+        "document": "https://astronsystems.com/news/funding-close-april-2026.jsp",
+        "date": "2026-04-06",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "find-and-update.company-information.service.gov.uk",
+        "document": "https://find-and-update.company-information.service.gov.uk/company/13346875/filing-history/MzU0MDcyMTI2MWFkaXF6a2N4/document?format=pdf&download=0",
+        "date": "2026-08-25",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "40545712-97e9-531b-9dab-a305e17ced08"
+     }
+    },
+    {
+     "id": "2e415547-02f7-40e7-a2f8-1e909b60187d",
+     "name": "Tiny VC",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "astronsystems.com",
+        "document": "https://astronsystems.com/news/funding-close-april-2026.jsp",
+        "date": "2026-04-06",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "find-and-update.company-information.service.gov.uk",
+        "document": "https://find-and-update.company-information.service.gov.uk/company/13346875/filing-history/MzU0MDcyMTI2MWFkaXF6a2N4/document?format=pdf&download=0",
+        "date": "2026-08-25",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "c10d26e7-7600-5369-9bcb-f9b828f5b535"
+     }
+    },
+    {
+     "id": "ae7530e4-556e-4547-ba15-88a12fbcdcb1",
+     "name": "Techstars",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "astronsystems.com",
+        "document": "https://astronsystems.com/news/astron-graduates-from-prestigious-techstars-space-accelerator.jsp",
+        "date": "2024-12-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "find-and-update.company-information.service.gov.uk",
+        "document": "https://find-and-update.company-information.service.gov.uk/company/13346875/filing-history/MzU0MDcyMTI2MWFkaXF6a2N4/document?format=pdf&download=0",
+        "date": "2026-08-25",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "is_lead": true,
+      "id": "3a5574f2-833d-50b7-bc8c-8ef05f6838d2"
+     }
+    },
+    {
+     "id": "c958245f-e626-42ed-902d-d0872de86483",
+     "name": "Final Frontier, LLC",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "find-and-update.company-information.service.gov.uk",
+        "document": "https://find-and-update.company-information.service.gov.uk/company/13346875/filing-history/MzU0MDcyMTI2MWFkaXF6a2N4/document?format=pdf&download=0",
+        "date": "2026-08-25",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "d71f9be4-3b07-58e8-a663-973df27b0a49"
+     }
+    },
+    {
+     "id": "f0f2e9bc-69ba-589a-ad0e-94375dcdd75d",
+     "name": "Deep Quest Capital",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "astronsystems.com",
+        "document": "https://astronsystems.com/news/funding-close-april-2026.jsp",
+        "date": "2026-04-06",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "find-and-update.company-information.service.gov.uk",
+        "document": "https://find-and-update.company-information.service.gov.uk/company/13346875/filing-history/MzU0MDcyMTI2MWFkaXF6a2N4/document?format=pdf&download=0",
+        "date": "2026-08-25",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "69b0b666-3d22-5334-bcd5-db3b10b7cad1"
+     }
+    },
+    {
+     "id": "f69cff12-800b-4a06-8b02-c9b2ad0d00c6",
+     "name": "ASTRON SYSTEMS LTD",
+     "entity_type": "Company",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "astronsystems.com",
+        "document": "https://astronsystems.com/news/astron-graduates-from-prestigious-techstars-space-accelerator.jsp",
+        "date": "2024-12-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "find-and-update.company-information.service.gov.uk",
+        "document": "https://find-and-update.company-information.service.gov.uk/company/13346875/filing-history/MzUxNzk2MzkxMmFkaXF6a2N4/document?format=pdf&download=0",
+        "date": "2026-04-23",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       },
+       {
+        "name": "astronsystems.com",
+        "document": "https://astronsystems.com/news/funding-close-april-2026.jsp",
+        "date": "2026-04-06",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "68850cf4-326c-5a1f-9cac-f659b563ae46"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

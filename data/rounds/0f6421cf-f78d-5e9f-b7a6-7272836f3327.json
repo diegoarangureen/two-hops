@@ -1,0 +1,334 @@
+{
+ "id": "0f6421cf-f78d-5e9f-b7a6-7272836f3327",
+ "name": "Pre-Seed",
+ "entity_type": "FundingRound",
+ "description": null,
+ "properties": {
+  "name": {
+   "value": "Pre-Seed",
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2025/11/quality-assurance-german-startup-cerpro-raises-e2-million-to-accelerate-industrial-workflows-by-up-to-80/",
+     "date": "2025-11-12",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "startbase.de",
+     "document": "https://www.startbase.de/news/cerpro-sichert-sich-2-mio-e-pre-seed/",
+     "date": "2025-11-12",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "techfundingnews.com",
+     "document": "https://techfundingnews.com/cerpro-ai-quality-assurance-pre-seed-funding/",
+     "date": "2025-11-12",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "neon.law",
+     "document": "https://neon.law/news/neon-advises-seed-speed-on-pre-seed-financing-round-of-cerpro",
+     "date": "2025-11-12",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "round_label": {
+   "value": "PRE_SEED",
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2025/11/quality-assurance-german-startup-cerpro-raises-e2-million-to-accelerate-industrial-workflows-by-up-to-80/",
+     "date": "2025-11-12",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "startbase.de",
+     "document": "https://www.startbase.de/news/cerpro-sichert-sich-2-mio-e-pre-seed/",
+     "date": "2025-11-12",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "techfundingnews.com",
+     "document": "https://techfundingnews.com/cerpro-ai-quality-assurance-pre-seed-funding/",
+     "date": "2025-11-12",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "neon.law",
+     "document": "https://neon.law/news/neon-advises-seed-speed-on-pre-seed-financing-round-of-cerpro",
+     "date": "2025-11-12",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "instrument": {
+   "value": "EQUITY",
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2025/11/quality-assurance-german-startup-cerpro-raises-e2-million-to-accelerate-industrial-workflows-by-up-to-80/",
+     "date": "2025-11-12",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "transaction_value": {
+   "value": 2000000.0,
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2025/11/quality-assurance-german-startup-cerpro-raises-e2-million-to-accelerate-industrial-workflows-by-up-to-80/",
+     "date": "2025-11-12",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "startbase.de",
+     "document": "https://www.startbase.de/news/cerpro-sichert-sich-2-mio-e-pre-seed/",
+     "date": "2025-11-12",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "techfundingnews.com",
+     "document": "https://techfundingnews.com/cerpro-ai-quality-assurance-pre-seed-funding/",
+     "date": "2025-11-12",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "tech.eu",
+     "document": "https://tech.eu/2025/11/12/cerpro-secures-nearly-eur2m-pre-seed-to-set-a-new-manufacturing-quality-standard/",
+     "date": "2025-11-12",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "transaction_value_units": {
+   "value": "EUR",
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2025/11/quality-assurance-german-startup-cerpro-raises-e2-million-to-accelerate-industrial-workflows-by-up-to-80/",
+     "date": "2025-11-12",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "startbase.de",
+     "document": "https://www.startbase.de/news/cerpro-sichert-sich-2-mio-e-pre-seed/",
+     "date": "2025-11-12",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "techfundingnews.com",
+     "document": "https://techfundingnews.com/cerpro-ai-quality-assurance-pre-seed-funding/",
+     "date": "2025-11-12",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "tech.eu",
+     "document": "https://tech.eu/2025/11/12/cerpro-secures-nearly-eur2m-pre-seed-to-set-a-new-manufacturing-quality-standard/",
+     "date": "2025-11-12",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "announcement_date": {
+   "value": "2025-11-12",
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2025/11/quality-assurance-german-startup-cerpro-raises-e2-million-to-accelerate-industrial-workflows-by-up-to-80/",
+     "date": "2025-11-12",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "annotations": {
+   "value": [
+    "Round name as stated in the article.",
+    "round_label_stated:Pre-Seed"
+   ],
+   "sources": []
+  }
+ },
+ "relationships": {
+  "outgoing": {},
+  "incoming": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "16728a00-ad78-424a-bb95-82baed67c6d9",
+     "name": "D11Z Ventures",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "startbase.de",
+        "document": "https://www.startbase.de/news/cerpro-sichert-sich-2-mio-e-pre-seed/",
+        "date": "2025-11-12",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "techfundingnews.com",
+        "document": "https://techfundingnews.com/cerpro-ai-quality-assurance-pre-seed-funding/",
+        "date": "2025-11-12",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "thesaasnews.com",
+        "document": "https://www.thesaasnews.com/news/cerpro-raises-2m-pre-seed-round",
+        "date": "2025-11-12",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "is_lead": true,
+      "id": "3440911b-06aa-52b8-a336-3f9279cf21f8"
+     }
+    },
+    {
+     "id": "269bd550-267d-4da3-9c94-67c6f9a08567",
+     "name": "EIT Manufacturing",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "eu-startups.com",
+        "document": "https://www.eu-startups.com/2025/11/quality-assurance-german-startup-cerpro-raises-e2-million-to-accelerate-industrial-workflows-by-up-to-80/",
+        "date": "2025-11-12",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "startbase.de",
+        "document": "https://www.startbase.de/news/cerpro-sichert-sich-2-mio-e-pre-seed/",
+        "date": "2025-11-12",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "a761fe0d-8a1c-566b-a494-d8c558c93152"
+     }
+    },
+    {
+     "id": "420b2ebc-7589-420f-9f5b-ed2dea14a893",
+     "name": "seed + speed Ventures",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "startbase.de",
+        "document": "https://www.startbase.de/news/cerpro-sichert-sich-2-mio-e-pre-seed/",
+        "date": "2025-11-12",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "techfundingnews.com",
+        "document": "https://techfundingnews.com/cerpro-ai-quality-assurance-pre-seed-funding/",
+        "date": "2025-11-12",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "neon.law",
+        "document": "https://neon.law/news/neon-advises-seed-speed-on-pre-seed-financing-round-of-cerpro",
+        "date": "2025-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "is_lead": true,
+      "id": "ff3dc63f-e195-5a3f-9f80-1bcd9f38e77c"
+     }
+    },
+    {
+     "id": "ae7530e4-556e-4547-ba15-88a12fbcdcb1",
+     "name": "Techstars",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "eu-startups.com",
+        "document": "https://www.eu-startups.com/2025/11/quality-assurance-german-startup-cerpro-raises-e2-million-to-accelerate-industrial-workflows-by-up-to-80/",
+        "date": "2025-11-12",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "startbase.de",
+        "document": "https://www.startbase.de/news/cerpro-sichert-sich-2-mio-e-pre-seed/",
+        "date": "2025-11-12",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "ee94fa0f-f7a4-579b-9c7f-56891f51395e"
+     }
+    },
+    {
+     "id": "b2d7e1ca-a057-4187-918b-f34423dff76c",
+     "name": "CERPRO",
+     "entity_type": "Company",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "eu-startups.com",
+        "document": "https://www.eu-startups.com/2025/11/quality-assurance-german-startup-cerpro-raises-e2-million-to-accelerate-industrial-workflows-by-up-to-80/",
+        "date": "2025-11-12",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "startbase.de",
+        "document": "https://www.startbase.de/news/cerpro-sichert-sich-2-mio-e-pre-seed/",
+        "date": "2025-11-12",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "techfundingnews.com",
+        "document": "https://techfundingnews.com/cerpro-ai-quality-assurance-pre-seed-funding/",
+        "date": "2025-11-12",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "neon.law",
+        "document": "https://neon.law/news/neon-advises-seed-speed-on-pre-seed-financing-round-of-cerpro",
+        "date": "2025-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "d4e2b963-256b-56a3-88b0-5d31ff917e2a"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

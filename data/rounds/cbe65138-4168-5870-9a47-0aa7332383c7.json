@@ -1,0 +1,187 @@
+{
+ "id": "cbe65138-4168-5870-9a47-0aa7332383c7",
+ "name": "Seed",
+ "entity_type": "FundingRound",
+ "description": null,
+ "properties": {
+  "name": {
+   "value": "Seed",
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2025/11/as-europe-ramps-up-gigafactory-compliance-drev-raises-e2-8-million-to-help-capture-and-reuse-critical-metals-from-black-dust/",
+     "date": "2025-11-05",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "round_label": {
+   "value": "SEED",
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2025/11/as-europe-ramps-up-gigafactory-compliance-drev-raises-e2-8-million-to-help-capture-and-reuse-critical-metals-from-black-dust/",
+     "date": "2025-11-05",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "instrument": {
+   "value": "EQUITY",
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2025/11/as-europe-ramps-up-gigafactory-compliance-drev-raises-e2-8-million-to-help-capture-and-reuse-critical-metals-from-black-dust/",
+     "date": "2025-11-05",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "transaction_value": {
+   "value": 2800000.0,
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2025/11/as-europe-ramps-up-gigafactory-compliance-drev-raises-e2-8-million-to-help-capture-and-reuse-critical-metals-from-black-dust/",
+     "date": "2025-11-05",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "transaction_value_units": {
+   "value": "EUR",
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2025/11/as-europe-ramps-up-gigafactory-compliance-drev-raises-e2-8-million-to-help-capture-and-reuse-critical-metals-from-black-dust/",
+     "date": "2025-11-05",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "announcement_date": {
+   "value": "2025-11-05",
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2025/11/as-europe-ramps-up-gigafactory-compliance-drev-raises-e2-8-million-to-help-capture-and-reuse-critical-metals-from-black-dust/",
+     "date": "2025-11-05",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "annotations": {
+   "value": [
+    "Round name as stated in the article.",
+    "round_label_stated:Seed"
+   ],
+   "sources": []
+  }
+ },
+ "relationships": {
+  "outgoing": {},
+  "incoming": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "24c7dfe6-4186-4429-a0a6-efb8ccf42976",
+     "name": "Almi Invest GreenTech AB",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "eu-startups.com",
+        "document": "https://www.eu-startups.com/2025/11/as-europe-ramps-up-gigafactory-compliance-drev-raises-e2-8-million-to-help-capture-and-reuse-critical-metals-from-black-dust/",
+        "date": "2025-11-05",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "is_lead": true,
+      "id": "11eca93d-2fa6-5a4a-a837-53aa552d6138"
+     }
+    },
+    {
+     "id": "5076aa05-f736-445f-bcf6-3f9b64819805",
+     "name": "S-E-Bankens Utvecklingsstiftelse",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "bebeez.eu",
+        "document": "https://bebeez.eu/2025/11/06/nordic-cleantech-drev-raises-e2-8-million-to-strengthen-circular-battery-manufacturing/",
+        "date": "2025-11-06",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "5638bd2c-d5ed-5c87-ab35-401169abed02"
+     }
+    },
+    {
+     "id": "a07abca3-fdb9-4ca6-ad7e-5911717ee2da",
+     "name": "Butterfly Ventures LLC",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "eu-startups.com",
+        "document": "https://www.eu-startups.com/2025/11/as-europe-ramps-up-gigafactory-compliance-drev-raises-e2-8-million-to-help-capture-and-reuse-critical-metals-from-black-dust/",
+        "date": "2025-11-05",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "is_lead": true,
+      "id": "9c7a2441-6184-5d79-ab73-1ef041ca24e1"
+     }
+    },
+    {
+     "id": "ef2c29bd-e795-5933-8e44-ecf65348bca8",
+     "name": "DREV",
+     "entity_type": "Company",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "eu-startups.com",
+        "document": "https://www.eu-startups.com/2025/11/as-europe-ramps-up-gigafactory-compliance-drev-raises-e2-8-million-to-help-capture-and-reuse-critical-metals-from-black-dust/",
+        "date": "2025-11-05",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "152efb51-5c4c-55c7-afcc-3bf4e72084f3"
+     }
+    },
+    {
+     "id": "f8d1329e-de65-47b4-a460-b2ba1f1cfd56",
+     "name": "Battle Born LLC",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "bebeez.eu",
+        "document": "https://bebeez.eu/2025/11/06/nordic-cleantech-drev-raises-e2-8-million-to-strengthen-circular-battery-manufacturing/",
+        "date": "2025-11-06",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "2da7627c-a26d-5b96-aaeb-509b06228c59"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

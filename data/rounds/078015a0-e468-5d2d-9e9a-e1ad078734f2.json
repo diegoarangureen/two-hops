@@ -1,0 +1,250 @@
+{
+ "id": "078015a0-e468-5d2d-9e9a-e1ad078734f2",
+ "name": "Funding round",
+ "entity_type": "FundingRound",
+ "description": null,
+ "properties": {
+  "name": {
+   "value": "Funding round",
+   "sources": [
+    {
+     "name": "thebusinessofesports.com",
+     "document": "https://thebusinessofesports.com/2021/09/27/esports-start-up-one-of-ten-companies-selected-for-maine-based-accelerator-program/",
+     "date": "2021-09-27",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "cbinsights.com",
+     "document": "https://www.cbinsights.com/company/omnic-1/financials",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "aliases": {
+   "value": [
+    "Seed"
+   ],
+   "sources": []
+  },
+  "round_label": {
+   "value": "SEED",
+   "sources": [
+    {
+     "name": "startupintros.com",
+     "document": "https://startupintros.com/news/2024-07-01-omnic-ai-seed-2",
+     "date": "2024-07-01",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    },
+    {
+     "name": "vcbacked.co",
+     "document": "https://www.vcbacked.co/company/omnicai",
+     "date": "2024-07-09",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "transaction_value": {
+   "value": 500000.0,
+   "sources": [
+    {
+     "name": "newscentermaine.com",
+     "document": "https://newscentermaine.com/article/tech/brunswick-based-omnicai-continues-to-grow-as-a-leader-in-esports-analytics-maine/97-415f12e9-a3ab-4dd7-bc9b-b90e140f4f77",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "transaction_value_units": {
+   "value": "USD",
+   "sources": [
+    {
+     "name": "newscentermaine.com",
+     "document": "https://newscentermaine.com/article/tech/brunswick-based-omnicai-continues-to-grow-as-a-leader-in-esports-analytics-maine/97-415f12e9-a3ab-4dd7-bc9b-b90e140f4f77",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "cbinsights.com",
+     "document": "https://www.cbinsights.com/company/omnic-1/financials",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "announcement_date": {
+   "value": "2021-09-27",
+   "sources": [
+    {
+     "name": "thebusinessofesports.com",
+     "document": "https://thebusinessofesports.com/2021/09/27/esports-start-up-one-of-ten-companies-selected-for-maine-based-accelerator-program/",
+     "date": "2021-09-27",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "annotations": {
+   "value": [
+    "Named 'Seed' by Startup Intros and VCBacked; CB Insights calls it 'Angel - II' (aggregator convention). Mainebiz (2023) reported the company raising a seed round.",
+    "round_label_stated:Seed"
+   ],
+   "sources": []
+  }
+ },
+ "relationships": {
+  "outgoing": {},
+  "incoming": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "22d4a2c5-62fe-42ab-a844-c8734c66a4f9",
+     "name": "Rich Miner",
+     "entity_type": "Person",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "startupintros.com",
+        "document": "https://startupintros.com/news/2024-07-01-omnic-ai-seed-2",
+        "date": "2024-07-01",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       },
+       {
+        "name": "vcbacked.co",
+        "document": "https://www.vcbacked.co/company/omnicai",
+        "date": "2024-07-09",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "097f0c80-d64c-5ad6-87e1-1beeafb2aaa2"
+     }
+    },
+    {
+     "id": "58387066-0234-5941-b691-a8a50e28a1ef",
+     "name": "Omnic Data Inc",
+     "entity_type": "Company",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "thebusinessofesports.com",
+        "document": "https://thebusinessofesports.com/2021/09/27/esports-start-up-one-of-ten-companies-selected-for-maine-based-accelerator-program/",
+        "date": "2021-09-27",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "startupintros.com",
+        "document": "https://startupintros.com/news/2024-07-01-omnic-ai-seed-2",
+        "date": "2024-07-01",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       },
+       {
+        "name": "vcbacked.co",
+        "document": "https://www.vcbacked.co/company/omnicai",
+        "date": "2024-07-09",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       },
+       {
+        "name": "cbinsights.com",
+        "document": "https://www.cbinsights.com/company/omnic-1/financials",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "b37670b8-e48e-5d6a-a451-438d80708b2c"
+     }
+    },
+    {
+     "id": "6ca1bea2-afe6-424d-b272-8dacfa192cf5",
+     "name": "Unpopular Ventures",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "startupintros.com",
+        "document": "https://startupintros.com/news/2024-07-01-omnic-ai-seed-2",
+        "date": "2024-07-01",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       },
+       {
+        "name": "vcbacked.co",
+        "document": "https://www.vcbacked.co/company/omnicai",
+        "date": "2024-07-09",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "90939ed7-4027-53c4-af0a-4ac2c3be19ba"
+     }
+    },
+    {
+     "id": "9d2b98f9-a9d1-5f2e-b9c2-084dcc865215",
+     "name": "The Mini Fund",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "vcbacked.co",
+        "document": "https://www.vcbacked.co/company/omnicai",
+        "date": "2024-07-09",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       },
+       {
+        "name": "cbinsights.com",
+        "document": "https://www.cbinsights.com/company/omnic-1/financials",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "3b340332-bdc3-590f-9afe-96850d7e0233"
+     }
+    },
+    {
+     "id": "ae7530e4-556e-4547-ba15-88a12fbcdcb1",
+     "name": "Techstars",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "thebusinessofesports.com",
+        "document": "https://thebusinessofesports.com/2021/09/27/esports-start-up-one-of-ten-companies-selected-for-maine-based-accelerator-program/",
+        "date": "2021-09-27",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "vcbacked.co",
+        "document": "https://www.vcbacked.co/company/omnicai",
+        "date": "2024-07-09",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "is_lead": true,
+      "id": "e26bea59-c772-58dc-a894-c48f13ce2cb9"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

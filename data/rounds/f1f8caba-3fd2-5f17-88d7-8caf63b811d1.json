@@ -1,0 +1,310 @@
+{
+ "id": "f1f8caba-3fd2-5f17-88d7-8caf63b811d1",
+ "name": "Seed",
+ "entity_type": "FundingRound",
+ "description": null,
+ "properties": {
+  "name": {
+   "value": "Seed",
+   "sources": [
+    {
+     "name": "avoindata.prh.fi",
+     "document": "https://avoindata.prh.fi/opendata-registerednotices-api/v3/3500055-3",
+     "date": "2025-05-26",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "tech.eu",
+     "document": "https://tech.eu/2025/02/24/solid-io-secures-eur800k-to-transform-cancer-treatment-with-tumour-on-chip-technology/",
+     "date": "2025-02-24",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "helsinki.fi",
+     "document": "https://www.helsinki.fi/en/helsinki-innovation-services/news-archive/solid-io-enables-faster-access-personalised-cancer-therapies",
+     "date": "2025-02-24",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "paaomasijoittajat.fi",
+     "document": "https://paaomasijoittajat.fi/ajankohtaista/uutiset/28577/solid-io-raises-800-000-e-funding-round-led-by-nordic-science-investment/",
+     "date": "2025-02-26",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "round_label": {
+   "value": "SEED",
+   "sources": [
+    {
+     "name": "avoindata.prh.fi",
+     "document": "https://avoindata.prh.fi/opendata-registerednotices-api/v3/3500055-3",
+     "date": "2025-05-26",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "tech.eu",
+     "document": "https://tech.eu/2025/02/24/solid-io-secures-eur800k-to-transform-cancer-treatment-with-tumour-on-chip-technology/",
+     "date": "2025-02-24",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "helsinki.fi",
+     "document": "https://www.helsinki.fi/en/helsinki-innovation-services/news-archive/solid-io-enables-faster-access-personalised-cancer-therapies",
+     "date": "2025-02-24",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "paaomasijoittajat.fi",
+     "document": "https://paaomasijoittajat.fi/ajankohtaista/uutiset/28577/solid-io-raises-800-000-e-funding-round-led-by-nordic-science-investment/",
+     "date": "2025-02-26",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "instrument": {
+   "value": "EQUITY",
+   "sources": [
+    {
+     "name": "avoindata.prh.fi",
+     "document": "https://avoindata.prh.fi/opendata-registerednotices-api/v3/3500055-3",
+     "date": "2025-05-26",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "transaction_value": {
+   "value": 800000.0,
+   "sources": [
+    {
+     "name": "tech.eu",
+     "document": "https://tech.eu/2025/02/24/solid-io-secures-eur800k-to-transform-cancer-treatment-with-tumour-on-chip-technology/",
+     "date": "2025-02-24",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "helsinki.fi",
+     "document": "https://www.helsinki.fi/en/helsinki-innovation-services/news-archive/solid-io-enables-faster-access-personalised-cancer-therapies",
+     "date": "2025-02-24",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "paaomasijoittajat.fi",
+     "document": "https://paaomasijoittajat.fi/ajankohtaista/uutiset/28577/solid-io-raises-800-000-e-funding-round-led-by-nordic-science-investment/",
+     "date": "2025-02-26",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "transaction_value_units": {
+   "value": "EUR",
+   "sources": [
+    {
+     "name": "tech.eu",
+     "document": "https://tech.eu/2025/02/24/solid-io-secures-eur800k-to-transform-cancer-treatment-with-tumour-on-chip-technology/",
+     "date": "2025-02-24",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "helsinki.fi",
+     "document": "https://www.helsinki.fi/en/helsinki-innovation-services/news-archive/solid-io-enables-faster-access-personalised-cancer-therapies",
+     "date": "2025-02-24",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "paaomasijoittajat.fi",
+     "document": "https://paaomasijoittajat.fi/ajankohtaista/uutiset/28577/solid-io-raises-800-000-e-funding-round-led-by-nordic-science-investment/",
+     "date": "2025-02-26",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "announcement_date": {
+   "value": "2025-02-24",
+   "sources": [
+    {
+     "name": "tech.eu",
+     "document": "https://tech.eu/2025/02/24/solid-io-secures-eur800k-to-transform-cancer-treatment-with-tumour-on-chip-technology/",
+     "date": "2025-02-24",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "helsinki.fi",
+     "document": "https://www.helsinki.fi/en/helsinki-innovation-services/news-archive/solid-io-enables-faster-access-personalised-cancer-therapies",
+     "date": "2025-02-24",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "annotations": {
+   "value": [
+    "No source names the round: tech.eu and FVCA call it the company's 'first funding round'; University of Helsinki release names no label. Label left to sequence derivation.",
+    "round_label_stated:Seed",
+    "round_label_basis:INFERRED",
+    "round_label_explanation:First equity round of the company (rounds.0), unnamed: Seed (instructions §3.5)."
+   ],
+   "sources": []
+  }
+ },
+ "relationships": {
+  "outgoing": {},
+  "incoming": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "6a72a8be-6a7c-4e61-a7fc-93a6d61df81f",
+     "name": "Helsinki University Funds",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2025/02/24/solid-io-secures-eur800k-to-transform-cancer-treatment-with-tumour-on-chip-technology/",
+        "date": "2025-02-24",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "helsinki.fi",
+        "document": "https://www.helsinki.fi/en/helsinki-innovation-services/news-archive/solid-io-enables-faster-access-personalised-cancer-therapies",
+        "date": "2025-02-24",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "paaomasijoittajat.fi",
+        "document": "https://paaomasijoittajat.fi/ajankohtaista/uutiset/28577/solid-io-raises-800-000-e-funding-round-led-by-nordic-science-investment/",
+        "date": "2025-02-26",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "34a71034-2002-596a-a003-36b39b3a9d78"
+     }
+    },
+    {
+     "id": "bed03492-8d26-4d36-8a22-f6f7758dd564",
+     "name": "Nordic Science Investments",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2025/02/24/solid-io-secures-eur800k-to-transform-cancer-treatment-with-tumour-on-chip-technology/",
+        "date": "2025-02-24",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "helsinki.fi",
+        "document": "https://www.helsinki.fi/en/helsinki-innovation-services/news-archive/solid-io-enables-faster-access-personalised-cancer-therapies",
+        "date": "2025-02-24",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "paaomasijoittajat.fi",
+        "document": "https://paaomasijoittajat.fi/ajankohtaista/uutiset/28577/solid-io-raises-800-000-e-funding-round-led-by-nordic-science-investment/",
+        "date": "2025-02-26",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "is_lead": true,
+      "id": "1372de45-5a8d-5792-babb-642ddc56cba1"
+     }
+    },
+    {
+     "id": "cc00c248-4ea8-4867-af43-77ba5adcdb0d",
+     "name": "Solid Immuno-Oncology Oy",
+     "entity_type": "Company",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "avoindata.prh.fi",
+        "document": "https://avoindata.prh.fi/opendata-registerednotices-api/v3/3500055-3",
+        "date": "2025-05-26",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       },
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2025/02/24/solid-io-secures-eur800k-to-transform-cancer-treatment-with-tumour-on-chip-technology/",
+        "date": "2025-02-24",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "helsinki.fi",
+        "document": "https://www.helsinki.fi/en/helsinki-innovation-services/news-archive/solid-io-enables-faster-access-personalised-cancer-therapies",
+        "date": "2025-02-24",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "paaomasijoittajat.fi",
+        "document": "https://paaomasijoittajat.fi/ajankohtaista/uutiset/28577/solid-io-raises-800-000-e-funding-round-led-by-nordic-science-investment/",
+        "date": "2025-02-26",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "4a24e0db-038f-519b-bba4-6fbcf809dc23"
+     }
+    },
+    {
+     "id": "fc47b882-78ed-46a4-a330-81fb2abecbec",
+     "name": "BSV Ventures",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2025/02/24/solid-io-secures-eur800k-to-transform-cancer-treatment-with-tumour-on-chip-technology/",
+        "date": "2025-02-24",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "helsinki.fi",
+        "document": "https://www.helsinki.fi/en/helsinki-innovation-services/news-archive/solid-io-enables-faster-access-personalised-cancer-therapies",
+        "date": "2025-02-24",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "paaomasijoittajat.fi",
+        "document": "https://paaomasijoittajat.fi/ajankohtaista/uutiset/28577/solid-io-raises-800-000-e-funding-round-led-by-nordic-science-investment/",
+        "date": "2025-02-26",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "0153952f-ab2e-557f-b4cc-15b86b4a5458"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

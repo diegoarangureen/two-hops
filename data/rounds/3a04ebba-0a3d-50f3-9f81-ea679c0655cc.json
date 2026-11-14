@@ -1,0 +1,98 @@
+{
+ "id": "3a04ebba-0a3d-50f3-9f81-ea679c0655cc",
+ "name": "Pre-Seed",
+ "entity_type": "FundingRound",
+ "description": null,
+ "properties": {
+  "name": {
+   "value": "Pre-Seed",
+   "sources": [
+    {
+     "name": "techstars.com",
+     "document": "https://www.techstars.com/newsroom/introducing-techstars-fall-2026-accelerator-class",
+     "date": "2026-09-08",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "round_label": {
+   "value": "PRE_SEED",
+   "sources": [
+    {
+     "name": "techstars.com",
+     "document": "https://www.techstars.com/newsroom/introducing-techstars-fall-2026-accelerator-class",
+     "date": "2026-09-08",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "announcement_date": {
+   "value": "2026-09-08",
+   "sources": [
+    {
+     "name": "techstars.com",
+     "document": "https://www.techstars.com/newsroom/introducing-techstars-fall-2026-accelerator-class",
+     "date": "2026-09-08",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "annotations": {
+   "value": [
+    "Accelerator programme round: ABN AMRO + Techstars Future of Finance Accelerator, Fall 2026 class (instructions §3.5).",
+    "round_label_stated:Pre-Seed",
+    "round_label_basis:INFERRED",
+    "round_label_explanation:Accelerator programme round (Techstars, Fall 2026 class, programme start 2026-09-08): Pre-Seed under instructions §3.5."
+   ],
+   "sources": []
+  }
+ },
+ "relationships": {
+  "outgoing": {},
+  "incoming": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "9abe4986-7cdc-5407-a44f-c639e01329b2",
+     "name": "Insaio",
+     "entity_type": "Company",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "techstars.com",
+        "document": "https://www.techstars.com/newsroom/introducing-techstars-fall-2026-accelerator-class",
+        "date": "2026-09-08",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "ab765d49-0579-5bcf-be83-1eb610d00d31"
+     }
+    },
+    {
+     "id": "ae7530e4-556e-4547-ba15-88a12fbcdcb1",
+     "name": "Techstars",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "techstars.com",
+        "document": "https://www.techstars.com/newsroom/introducing-techstars-fall-2026-accelerator-class",
+        "date": "2026-09-08",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "is_lead": true,
+      "id": "2bf80245-4bf2-5b94-b830-244ca0e0b627"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

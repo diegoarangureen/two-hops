@@ -1,0 +1,113 @@
+{
+ "id": "5c7ceb9c-6487-5d94-b5cc-09027a8ac414",
+ "name": "Seed",
+ "entity_type": "FundingRound",
+ "description": null,
+ "properties": {
+  "name": {
+   "value": "Seed",
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2024/02/cologne-based-sunhat-extends-seed-round-to-e5-million-to-further-provide-companies-with-sustainability-data/",
+     "date": "2024-02-27",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "round_label": {
+   "value": "SEED",
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2024/02/cologne-based-sunhat-extends-seed-round-to-e5-million-to-further-provide-companies-with-sustainability-data/",
+     "date": "2024-02-27",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "instrument": {
+   "value": "EQUITY",
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2024/02/cologne-based-sunhat-extends-seed-round-to-e5-million-to-further-provide-companies-with-sustainability-data/",
+     "date": "2024-02-27",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "transaction_value": {
+   "value": 5000000.0,
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2024/02/cologne-based-sunhat-extends-seed-round-to-e5-million-to-further-provide-companies-with-sustainability-data/",
+     "date": "2024-02-27",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "transaction_value_units": {
+   "value": "EUR",
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2024/02/cologne-based-sunhat-extends-seed-round-to-e5-million-to-further-provide-companies-with-sustainability-data/",
+     "date": "2024-02-27",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "announcement_date": {
+   "value": "2024-02-27",
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2024/02/cologne-based-sunhat-extends-seed-round-to-e5-million-to-further-provide-companies-with-sustainability-data/",
+     "date": "2024-02-27",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "annotations": {
+   "value": [
+    "Round name as stated in the article.",
+    "round_label_stated:Seed"
+   ],
+   "sources": []
+  }
+ },
+ "relationships": {
+  "outgoing": {},
+  "incoming": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "63a5f6ab-f0d8-4bb3-8c1c-f63247cd2cd2",
+     "name": "Sunhat",
+     "entity_type": "Company",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "eu-startups.com",
+        "document": "https://www.eu-startups.com/2024/02/cologne-based-sunhat-extends-seed-round-to-e5-million-to-further-provide-companies-with-sustainability-data/",
+        "date": "2024-02-27",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "0f14afcc-ae67-5a1c-9909-2cdb5f5a088d"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

@@ -1,0 +1,280 @@
+{
+ "id": "82b194a7-e3c9-52af-b714-d8b143e4a38e",
+ "name": "Seed",
+ "entity_type": "FundingRound",
+ "description": null,
+ "properties": {
+  "name": {
+   "value": "Seed",
+   "sources": [
+    {
+     "name": "sec.gov",
+     "document": "https://www.sec.gov/Archives/edgar/data/1971898/000197189823000001/primary_doc.xml",
+     "date": "2023-04-04",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "en.ain.ua",
+     "document": "https://en.ain.ua/2023/05/02/ukrainian-aviation-startup-inputsoft-raises-250k-sid-venture-partners-is-among-the-investors",
+     "date": "2023-05-02",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "mind.ua",
+     "document": "https://mind.ua/en/news/20256816-ukrainian-aviation-startup-inputsoft-has-raised-a-round-of-250000-euros",
+     "date": "2023-05-02",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "sigma.software",
+     "document": "https://sigma.software/about/media/sigma-software-labs-welcomes-new-portfolio-starship-input-soft",
+     "date": "2023-05-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "round_label": {
+   "value": "SEED",
+   "sources": [
+    {
+     "name": "sec.gov",
+     "document": "https://www.sec.gov/Archives/edgar/data/1971898/000197189823000001/primary_doc.xml",
+     "date": "2023-04-04",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "en.ain.ua",
+     "document": "https://en.ain.ua/2023/05/02/ukrainian-aviation-startup-inputsoft-raises-250k-sid-venture-partners-is-among-the-investors",
+     "date": "2023-05-02",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "mind.ua",
+     "document": "https://mind.ua/en/news/20256816-ukrainian-aviation-startup-inputsoft-has-raised-a-round-of-250000-euros",
+     "date": "2023-05-02",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "sigma.software",
+     "document": "https://sigma.software/about/media/sigma-software-labs-welcomes-new-portfolio-starship-input-soft",
+     "date": "2023-05-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "instrument": {
+   "value": "EQUITY",
+   "sources": [
+    {
+     "name": "sec.gov",
+     "document": "https://www.sec.gov/Archives/edgar/data/1971898/000197189823000001/primary_doc.xml",
+     "date": "2023-04-04",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "transaction_value": {
+   "value": 150000.0,
+   "sources": [
+    {
+     "name": "sec.gov",
+     "document": "https://www.sec.gov/Archives/edgar/data/1971898/000197189823000001/primary_doc.xml",
+     "date": "2023-04-04",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "transaction_value_units": {
+   "value": "USD",
+   "sources": [
+    {
+     "name": "sec.gov",
+     "document": "https://www.sec.gov/Archives/edgar/data/1971898/000197189823000001/primary_doc.xml",
+     "date": "2023-04-04",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "announcement_date": {
+   "value": "2023-05-02",
+   "sources": [
+    {
+     "name": "en.ain.ua",
+     "document": "https://en.ain.ua/2023/05/02/ukrainian-aviation-startup-inputsoft-raises-250k-sid-venture-partners-is-among-the-investors",
+     "date": "2023-05-02",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "mind.ua",
+     "document": "https://mind.ua/en/news/20256816-ukrainian-aviation-startup-inputsoft-has-raised-a-round-of-250000-euros",
+     "date": "2023-05-02",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "sigma.software",
+     "document": "https://sigma.software/about/media/sigma-software-labs-welcomes-new-portfolio-starship-input-soft",
+     "date": "2023-05-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "event_date": {
+   "value": "2023-03-22",
+   "sources": [
+    {
+     "name": "sec.gov",
+     "document": "https://www.sec.gov/Archives/edgar/data/1971898/000197189823000001/primary_doc.xml",
+     "date": "2023-04-04",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "annotations": {
+   "value": [
+    "No source names the round.",
+    "round_label_stated:Seed",
+    "round_label_basis:INFERRED",
+    "round_label_explanation:First equity round of the company (rounds.1), unnamed: Seed (instructions §3.5)."
+   ],
+   "sources": []
+  }
+ },
+ "relationships": {
+  "outgoing": {},
+  "incoming": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "23e5a5f0-10ba-46f2-90ee-dce37441fe00",
+     "name": "SID Venture Partners",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "mind.ua",
+        "document": "https://mind.ua/en/news/20256816-ukrainian-aviation-startup-inputsoft-has-raised-a-round-of-250000-euros",
+        "date": "2023-05-02",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "en.ain.ua",
+        "document": "https://en.ain.ua/2023/05/02/ukrainian-aviation-startup-inputsoft-raises-250k-sid-venture-partners-is-among-the-investors",
+        "date": "2023-05-02",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "is_lead": true,
+      "id": "90b39d3d-8871-5356-b639-66a88898a11d"
+     }
+    },
+    {
+     "id": "437c7b02-c412-4132-89f2-c607e64dc2d1",
+     "name": "Sigma Software Labs",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "sigma.software",
+        "document": "https://sigma.software/about/media/sigma-software-labs-welcomes-new-portfolio-starship-input-soft",
+        "date": "2023-05-02",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "mind.ua",
+        "document": "https://mind.ua/en/news/20256816-ukrainian-aviation-startup-inputsoft-has-raised-a-round-of-250000-euros",
+        "date": "2023-05-02",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "5b39b0eb-2be3-535b-b763-4ee6a84bc7fa"
+     }
+    },
+    {
+     "id": "aa845d71-8847-5059-ad4a-6a0bee219301",
+     "name": "Torino Cities of the Future Techstars Accelerator",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "mind.ua",
+        "document": "https://mind.ua/en/news/20256816-ukrainian-aviation-startup-inputsoft-has-raised-a-round-of-250000-euros",
+        "date": "2023-05-02",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "en.ain.ua",
+        "document": "https://en.ain.ua/2023/05/02/ukrainian-aviation-startup-inputsoft-raises-250k-sid-venture-partners-is-among-the-investors",
+        "date": "2023-05-02",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "f3a4567a-6e8a-5e10-8c81-15a1e4edd55b"
+     }
+    },
+    {
+     "id": "e41f8061-3ba6-4392-a607-f6e8ac76515c",
+     "name": "Input Soft",
+     "entity_type": "Company",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "sec.gov",
+        "document": "https://www.sec.gov/Archives/edgar/data/1971898/000197189823000001/primary_doc.xml",
+        "date": "2023-04-04",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       },
+       {
+        "name": "en.ain.ua",
+        "document": "https://en.ain.ua/2023/05/02/ukrainian-aviation-startup-inputsoft-raises-250k-sid-venture-partners-is-among-the-investors",
+        "date": "2023-05-02",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "mind.ua",
+        "document": "https://mind.ua/en/news/20256816-ukrainian-aviation-startup-inputsoft-has-raised-a-round-of-250000-euros",
+        "date": "2023-05-02",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "sigma.software",
+        "document": "https://sigma.software/about/media/sigma-software-labs-welcomes-new-portfolio-starship-input-soft",
+        "date": "2023-05-02",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "cce96248-5045-503b-82c6-1c2b6a0a7f78"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

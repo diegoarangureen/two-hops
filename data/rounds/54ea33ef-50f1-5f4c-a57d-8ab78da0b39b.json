@@ -1,0 +1,318 @@
+{
+ "id": "54ea33ef-50f1-5f4c-a57d-8ab78da0b39b",
+ "name": "Pre-Seed",
+ "entity_type": "FundingRound",
+ "description": null,
+ "properties": {
+  "name": {
+   "value": "Pre-Seed",
+   "sources": [
+    {
+     "name": "maddyness.com",
+     "document": "https://www.maddyness.com/2022/03/22/gama-levee-2-millions-voile-solaire/",
+     "date": "2022-03-22",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "round_label": {
+   "value": "PRE_SEED",
+   "sources": [
+    {
+     "name": "maddyness.com",
+     "document": "https://www.maddyness.com/2022/03/22/gama-levee-2-millions-voile-solaire/",
+     "date": "2022-03-22",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "transaction_value": {
+   "value": 2000000.0,
+   "sources": [
+    {
+     "name": "maddyness.com",
+     "document": "https://www.maddyness.com/2022/03/22/gama-levee-2-millions-voile-solaire/",
+     "date": "2022-03-22",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "tech.eu",
+     "document": "https://tech.eu/2022/03/22/french-space-exploration-startup-gama-raises-2-million-to-deploy-solar-sail/",
+     "date": "2022-03-22",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "frenchweb.fr",
+     "document": "https://www.frenchweb.fr/gama-la-startup-de-thibaud-elziere-leve-2-millions-deuros-pour-lancer-sa-mission-spatiale/433099",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2022/03/french-space-tech-startup-gama-skyrockets-plans-to-deploy-a-solar-sail-with-a-e2-million-funding-boost/",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "transaction_value_units": {
+   "value": "EUR",
+   "sources": [
+    {
+     "name": "maddyness.com",
+     "document": "https://www.maddyness.com/2022/03/22/gama-levee-2-millions-voile-solaire/",
+     "date": "2022-03-22",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "tech.eu",
+     "document": "https://tech.eu/2022/03/22/french-space-exploration-startup-gama-raises-2-million-to-deploy-solar-sail/",
+     "date": "2022-03-22",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "frenchweb.fr",
+     "document": "https://www.frenchweb.fr/gama-la-startup-de-thibaud-elziere-leve-2-millions-deuros-pour-lancer-sa-mission-spatiale/433099",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2022/03/french-space-tech-startup-gama-skyrockets-plans-to-deploy-a-solar-sail-with-a-e2-million-funding-boost/",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "announcement_date": {
+   "value": "2022-03-21",
+   "sources": [
+    {
+     "name": "techcrunch.com",
+     "document": "https://techcrunch.com/2022/03/21/french-aerospace-company-gama-raises-2m-to-develop-a-solar-sail-spacecraft",
+     "date": "2022-03-21",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "annotations": {
+   "value": [
+    "Disclosed name: Maddyness calls it \"pré-seed\" / \"pré-amorçage\" and the startup's first fundraising.",
+    "round_label_stated:Pre-Seed"
+   ],
+   "sources": []
+  }
+ },
+ "relationships": {
+  "outgoing": {},
+  "incoming": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "0385bfc5-e65b-5ebe-a726-886ea4b787c8",
+     "name": "Nicolas Pinto",
+     "entity_type": "Person",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2022/03/22/french-space-exploration-startup-gama-raises-2-million-to-deploy-solar-sail/",
+        "date": "2022-03-22",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "maddyness.com",
+        "document": "https://www.maddyness.com/2022/03/22/gama-levee-2-millions-voile-solaire/",
+        "date": "2022-03-22",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "2ae5b871-f2a6-5df9-bc37-c46cb5a5257f"
+     }
+    },
+    {
+     "id": "280f3a31-e3c4-4675-8730-50db60b789be",
+     "name": "CNES",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2022/03/22/french-space-exploration-startup-gama-raises-2-million-to-deploy-solar-sail/",
+        "date": "2022-03-22",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "maddyness.com",
+        "document": "https://www.maddyness.com/2022/03/22/gama-levee-2-millions-voile-solaire/",
+        "date": "2022-03-22",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "6151d4a1-a589-5d7f-a81e-efc2a9fa31fb"
+     }
+    },
+    {
+     "id": "2de69ad1-5f67-432e-9a89-9517ffa733f4",
+     "name": "Possible Ventures Management GmbH",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2022/03/22/french-space-exploration-startup-gama-raises-2-million-to-deploy-solar-sail/",
+        "date": "2022-03-22",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "maddyness.com",
+        "document": "https://www.maddyness.com/2022/03/22/gama-levee-2-millions-voile-solaire/",
+        "date": "2022-03-22",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "be3592eb-aecf-56b4-a744-a8bcf2dbdc73"
+     }
+    },
+    {
+     "id": "340af901-9ea9-424b-b09d-ec471bbe4f63",
+     "name": "Bpifrance S.A.",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2022/03/22/french-space-exploration-startup-gama-raises-2-million-to-deploy-solar-sail/",
+        "date": "2022-03-22",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "maddyness.com",
+        "document": "https://www.maddyness.com/2022/03/22/gama-levee-2-millions-voile-solaire/",
+        "date": "2022-03-22",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "074724e3-b627-5888-a916-63c730ac3eda"
+     }
+    },
+    {
+     "id": "42c4fb39-12ad-58dc-a573-39d79d2b91ee",
+     "name": "Marie Outtier",
+     "entity_type": "Person",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2022/03/22/french-space-exploration-startup-gama-raises-2-million-to-deploy-solar-sail/",
+        "date": "2022-03-22",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "maddyness.com",
+        "document": "https://www.maddyness.com/2022/03/22/gama-levee-2-millions-voile-solaire/",
+        "date": "2022-03-22",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "55702a44-93b8-5f17-aa68-5d6059506c57"
+     }
+    },
+    {
+     "id": "5ec7e793-bc55-4272-9de2-601b62c667d0",
+     "name": "Romain Afflelou",
+     "entity_type": "Person",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2022/03/22/french-space-exploration-startup-gama-raises-2-million-to-deploy-solar-sail/",
+        "date": "2022-03-22",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "maddyness.com",
+        "document": "https://www.maddyness.com/2022/03/22/gama-levee-2-millions-voile-solaire/",
+        "date": "2022-03-22",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "6f30fc48-e544-5aed-831c-463fccf74505"
+     }
+    },
+    {
+     "id": "91049068-a609-4a3e-9959-b84235403107",
+     "name": "Kima",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2022/03/22/french-space-exploration-startup-gama-raises-2-million-to-deploy-solar-sail/",
+        "date": "2022-03-22",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "maddyness.com",
+        "document": "https://www.maddyness.com/2022/03/22/gama-levee-2-millions-voile-solaire/",
+        "date": "2022-03-22",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "6b6cb9f6-9ef8-59bc-a3b0-988d2f58eabd"
+     }
+    },
+    {
+     "id": "91b7b864-b803-5a9e-90a2-2af812e7fbd3",
+     "name": "Gama",
+     "entity_type": "Company",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "maddyness.com",
+        "document": "https://www.maddyness.com/2022/03/22/gama-levee-2-millions-voile-solaire/",
+        "date": "2022-03-22",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "bf27f92a-4f43-5e2f-9b70-7f295ba2bcba"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

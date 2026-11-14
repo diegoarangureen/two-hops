@@ -1,0 +1,423 @@
+{
+ "id": "5ee38fe8-4061-53b1-a4e6-dbfc11eed9eb",
+ "name": "Pre-Seed",
+ "entity_type": "FundingRound",
+ "description": null,
+ "properties": {
+  "name": {
+   "value": "Pre-Seed",
+   "sources": [
+    {
+     "name": "prlog.org",
+     "document": "https://www.prlog.org/12984692-cardino-raises-1m-to-build-next-generation-ev-marketplace.html",
+     "date": "2023-09-18",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2023/09/berlin-based-cardino-secures-e1-million-pre-seed-to-build-the-real-deal-marketplace-for-used-evs/",
+     "date": "2023-09-18",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "tech.eu",
+     "document": "https://tech.eu/2023/09/18/cardino-raises-1m-and-launches-new-c2b-ev-auction-site/",
+     "date": "2023-09-18",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "round_label": {
+   "value": "PRE_SEED",
+   "sources": [
+    {
+     "name": "prlog.org",
+     "document": "https://www.prlog.org/12984692-cardino-raises-1m-to-build-next-generation-ev-marketplace.html",
+     "date": "2023-09-18",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2023/09/berlin-based-cardino-secures-e1-million-pre-seed-to-build-the-real-deal-marketplace-for-used-evs/",
+     "date": "2023-09-18",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "tech.eu",
+     "document": "https://tech.eu/2023/09/18/cardino-raises-1m-and-launches-new-c2b-ev-auction-site/",
+     "date": "2023-09-18",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "instrument": {
+   "value": "EQUITY",
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2023/09/berlin-based-cardino-secures-e1-million-pre-seed-to-build-the-real-deal-marketplace-for-used-evs/",
+     "date": "2023-09-18",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "transaction_value": {
+   "value": 1000000.0,
+   "sources": [
+    {
+     "name": "prlog.org",
+     "document": "https://www.prlog.org/12984692-cardino-raises-1m-to-build-next-generation-ev-marketplace.html",
+     "date": "2023-09-18",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2023/09/berlin-based-cardino-secures-e1-million-pre-seed-to-build-the-real-deal-marketplace-for-used-evs/",
+     "date": "2023-09-18",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "tech.eu",
+     "document": "https://tech.eu/2023/09/18/cardino-raises-1m-and-launches-new-c2b-ev-auction-site/",
+     "date": "2023-09-18",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "transaction_value_units": {
+   "value": "EUR",
+   "sources": [
+    {
+     "name": "prlog.org",
+     "document": "https://www.prlog.org/12984692-cardino-raises-1m-to-build-next-generation-ev-marketplace.html",
+     "date": "2023-09-18",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2023/09/berlin-based-cardino-secures-e1-million-pre-seed-to-build-the-real-deal-marketplace-for-used-evs/",
+     "date": "2023-09-18",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "tech.eu",
+     "document": "https://tech.eu/2023/09/18/cardino-raises-1m-and-launches-new-c2b-ev-auction-site/",
+     "date": "2023-09-18",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "announcement_date": {
+   "value": "2023-09-18",
+   "sources": [
+    {
+     "name": "prlog.org",
+     "document": "https://www.prlog.org/12984692-cardino-raises-1m-to-build-next-generation-ev-marketplace.html",
+     "date": "2023-09-18",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2023/09/berlin-based-cardino-secures-e1-million-pre-seed-to-build-the-real-deal-marketplace-for-used-evs/",
+     "date": "2023-09-18",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "tech.eu",
+     "document": "https://tech.eu/2023/09/18/cardino-raises-1m-and-launches-new-c2b-ev-auction-site/",
+     "date": "2023-09-18",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "annotations": {
+   "value": [
+    "Round name as stated in the article.",
+    "round_label_stated:Pre-Seed"
+   ],
+   "sources": []
+  }
+ },
+ "relationships": {
+  "outgoing": {},
+  "incoming": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "20f7fabf-02bc-4b05-b3a6-3d5a652b1594",
+     "name": "Silence VC",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "prlog.org",
+        "document": "https://www.prlog.org/12984692-cardino-raises-1m-to-build-next-generation-ev-marketplace.html",
+        "date": "2023-09-18",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2023/09/18/cardino-raises-1m-and-launches-new-c2b-ev-auction-site/",
+        "date": "2023-09-18",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "eu-startups.com",
+        "document": "https://www.eu-startups.com/2023/09/berlin-based-cardino-secures-e1-million-pre-seed-to-build-the-real-deal-marketplace-for-used-evs/",
+        "date": "2023-09-18",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "is_lead": true,
+      "id": "5935cd1e-cea5-504d-8668-a2fca35e788d"
+     }
+    },
+    {
+     "id": "60781283-9a9a-4c43-930c-58fa26364694",
+     "name": "Inclimo",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "prlog.org",
+        "document": "https://www.prlog.org/12984692-cardino-raises-1m-to-build-next-generation-ev-marketplace.html",
+        "date": "2023-09-18",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2023/09/18/cardino-raises-1m-and-launches-new-c2b-ev-auction-site/",
+        "date": "2023-09-18",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "eu-startups.com",
+        "document": "https://www.eu-startups.com/2023/09/berlin-based-cardino-secures-e1-million-pre-seed-to-build-the-real-deal-marketplace-for-used-evs/",
+        "date": "2023-09-18",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "f5c43017-9fae-5c40-9c24-21de4534821b"
+     }
+    },
+    {
+     "id": "67fd399e-f160-4f05-81e0-b8ec9ce45fa2",
+     "name": "Cardino",
+     "entity_type": "Company",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "prlog.org",
+        "document": "https://www.prlog.org/12984692-cardino-raises-1m-to-build-next-generation-ev-marketplace.html",
+        "date": "2023-09-18",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "eu-startups.com",
+        "document": "https://www.eu-startups.com/2023/09/berlin-based-cardino-secures-e1-million-pre-seed-to-build-the-real-deal-marketplace-for-used-evs/",
+        "date": "2023-09-18",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2023/09/18/cardino-raises-1m-and-launches-new-c2b-ev-auction-site/",
+        "date": "2023-09-18",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "e9d9bff5-ff35-5380-9fc4-9733f55bfe9f"
+     }
+    },
+    {
+     "id": "6a76b52f-0fb4-4593-8d89-80a436b51182",
+     "name": "DEPO Ventures",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "prlog.org",
+        "document": "https://www.prlog.org/12984692-cardino-raises-1m-to-build-next-generation-ev-marketplace.html",
+        "date": "2023-09-18",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2023/09/18/cardino-raises-1m-and-launches-new-c2b-ev-auction-site/",
+        "date": "2023-09-18",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "eu-startups.com",
+        "document": "https://www.eu-startups.com/2023/09/berlin-based-cardino-secures-e1-million-pre-seed-to-build-the-real-deal-marketplace-for-used-evs/",
+        "date": "2023-09-18",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "6181c076-479c-5d14-8ba3-e4c6c0635008"
+     }
+    },
+    {
+     "id": "7ae06d12-d153-423e-9ba1-ed5d992be80d",
+     "name": "Asymmetric Capital Partners",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "prlog.org",
+        "document": "https://www.prlog.org/12984692-cardino-raises-1m-to-build-next-generation-ev-marketplace.html",
+        "date": "2023-09-18",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2023/09/18/cardino-raises-1m-and-launches-new-c2b-ev-auction-site/",
+        "date": "2023-09-18",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "eu-startups.com",
+        "document": "https://www.eu-startups.com/2023/09/berlin-based-cardino-secures-e1-million-pre-seed-to-build-the-real-deal-marketplace-for-used-evs/",
+        "date": "2023-09-18",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "590b5fe7-4922-5219-8a15-101abba4688b"
+     }
+    },
+    {
+     "id": "af455c14-7d52-4318-9418-fd1ee7d573ef",
+     "name": "FJ Labs, LLC",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "prlog.org",
+        "document": "https://www.prlog.org/12984692-cardino-raises-1m-to-build-next-generation-ev-marketplace.html",
+        "date": "2023-09-18",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2023/09/18/cardino-raises-1m-and-launches-new-c2b-ev-auction-site/",
+        "date": "2023-09-18",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "eu-startups.com",
+        "document": "https://www.eu-startups.com/2023/09/berlin-based-cardino-secures-e1-million-pre-seed-to-build-the-real-deal-marketplace-for-used-evs/",
+        "date": "2023-09-18",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "is_lead": true,
+      "id": "a2a45fbe-5853-58ed-b026-7f50b7350ef7"
+     }
+    },
+    {
+     "id": "b639e213-1ea8-41db-b399-630177098329",
+     "name": "Gaingels",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "prlog.org",
+        "document": "https://www.prlog.org/12984692-cardino-raises-1m-to-build-next-generation-ev-marketplace.html",
+        "date": "2023-09-18",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2023/09/18/cardino-raises-1m-and-launches-new-c2b-ev-auction-site/",
+        "date": "2023-09-18",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "eu-startups.com",
+        "document": "https://www.eu-startups.com/2023/09/berlin-based-cardino-secures-e1-million-pre-seed-to-build-the-real-deal-marketplace-for-used-evs/",
+        "date": "2023-09-18",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "6392aecd-cd9c-5053-ab01-5105e1a69c72"
+     }
+    },
+    {
+     "id": "f2f9da2e-b5f2-4865-b45b-2f47fb051aee",
+     "name": "VOYAGERS.IO LIMITED",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "prlog.org",
+        "document": "https://www.prlog.org/12984692-cardino-raises-1m-to-build-next-generation-ev-marketplace.html",
+        "date": "2023-09-18",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2023/09/18/cardino-raises-1m-and-launches-new-c2b-ev-auction-site/",
+        "date": "2023-09-18",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "eu-startups.com",
+        "document": "https://www.eu-startups.com/2023/09/berlin-based-cardino-secures-e1-million-pre-seed-to-build-the-real-deal-marketplace-for-used-evs/",
+        "date": "2023-09-18",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "8a36ad50-50ec-5305-9944-b213145b2d36"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

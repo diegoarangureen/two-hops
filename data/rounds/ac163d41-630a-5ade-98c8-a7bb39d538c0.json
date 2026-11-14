@@ -1,0 +1,134 @@
+{
+ "id": "ac163d41-630a-5ade-98c8-a7bb39d538c0",
+ "name": "Debt Financing",
+ "entity_type": "FundingRound",
+ "description": null,
+ "properties": {
+  "name": {
+   "value": "Debt Financing",
+   "sources": [
+    {
+     "name": "nadmed.com",
+     "document": "https://www.nadmed.com/recognition-for-nadmed-technology/",
+     "date": "2023-07-10",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "round_label": {
+   "value": "DEBT_FINANCING",
+   "sources": [
+    {
+     "name": "nadmed.com",
+     "document": "https://www.nadmed.com/recognition-for-nadmed-technology/",
+     "date": "2023-07-10",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "instrument": {
+   "value": "LOAN_FACILITY",
+   "sources": [
+    {
+     "name": "nadmed.com",
+     "document": "https://www.nadmed.com/recognition-for-nadmed-technology/",
+     "date": "2023-07-10",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "transaction_value": {
+   "value": 1000000.0,
+   "sources": [
+    {
+     "name": "nadmed.com",
+     "document": "https://www.nadmed.com/recognition-for-nadmed-technology/",
+     "date": "2023-07-10",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "transaction_value_units": {
+   "value": "EUR",
+   "sources": [
+    {
+     "name": "nadmed.com",
+     "document": "https://www.nadmed.com/recognition-for-nadmed-technology/",
+     "date": "2023-07-10",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "announcement_date": {
+   "value": "2023-07-10",
+   "sources": [
+    {
+     "name": "nadmed.com",
+     "document": "https://www.nadmed.com/recognition-for-nadmed-technology/",
+     "date": "2023-07-10",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "annotations": {
+   "value": [
+    "No source names the loan; label set from the instrument by prepare.",
+    "round_label_stated:Debt Financing",
+    "round_label_basis:INFERRED",
+    "round_label_explanation:Unnamed loan facility (rounds.3): Debt Financing per instructions §3.5; Venture Debt only when a source or a venture-debt lender shows it."
+   ],
+   "sources": []
+  }
+ },
+ "relationships": {
+  "outgoing": {},
+  "incoming": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "a2be62fd-59e2-48d8-bb2b-c39b58391e6f",
+     "name": "Nadmed",
+     "entity_type": "Company",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "nadmed.com",
+        "document": "https://www.nadmed.com/recognition-for-nadmed-technology/",
+        "date": "2023-07-10",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "8bcbfefb-9371-55f9-9440-42acf7391d2e"
+     }
+    },
+    {
+     "id": "d5b41639-eb27-43df-a6ee-a4f03807fbca",
+     "name": "Business Finland",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "LENDER",
+      "sources": [
+       {
+        "name": "nadmed.com",
+        "document": "https://www.nadmed.com/recognition-for-nadmed-technology/",
+        "date": "2023-07-10",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "is_lead": true,
+      "id": "a36e2d27-c3de-5bee-9dc1-7096462599ea"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

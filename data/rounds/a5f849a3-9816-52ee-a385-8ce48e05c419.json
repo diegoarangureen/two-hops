@@ -1,0 +1,227 @@
+{
+ "id": "a5f849a3-9816-52ee-a385-8ce48e05c419",
+ "name": "Seed",
+ "entity_type": "FundingRound",
+ "description": null,
+ "properties": {
+  "name": {
+   "value": "Seed",
+   "sources": [
+    {
+     "name": "businesswire.com",
+     "document": "https://www.businesswire.com/news/home/20240611979084/en/",
+     "date": "2024-06-11",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2024/06/berlin-based-cardino-gets-e4-million-seed-to-accelerate-its-used-ev-sales-model/",
+     "date": "2024-06-11",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "round_label": {
+   "value": "SEED",
+   "sources": [
+    {
+     "name": "businesswire.com",
+     "document": "https://www.businesswire.com/news/home/20240611979084/en/",
+     "date": "2024-06-11",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2024/06/berlin-based-cardino-gets-e4-million-seed-to-accelerate-its-used-ev-sales-model/",
+     "date": "2024-06-11",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "instrument": {
+   "value": "EQUITY",
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2024/06/berlin-based-cardino-gets-e4-million-seed-to-accelerate-its-used-ev-sales-model/",
+     "date": "2024-06-11",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "transaction_value": {
+   "value": 4000000.0,
+   "sources": [
+    {
+     "name": "businesswire.com",
+     "document": "https://www.businesswire.com/news/home/20240611979084/en/",
+     "date": "2024-06-11",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2024/06/berlin-based-cardino-gets-e4-million-seed-to-accelerate-its-used-ev-sales-model/",
+     "date": "2024-06-11",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "electrive.net",
+     "document": "https://www.electrive.net/2024/06/12/gebrauchte-e-autos-cardino-sammelt-vier-millionen-euro-ein/",
+     "date": "2024-06-12",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "transaction_value_units": {
+   "value": "EUR",
+   "sources": [
+    {
+     "name": "businesswire.com",
+     "document": "https://www.businesswire.com/news/home/20240611979084/en/",
+     "date": "2024-06-11",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2024/06/berlin-based-cardino-gets-e4-million-seed-to-accelerate-its-used-ev-sales-model/",
+     "date": "2024-06-11",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "electrive.net",
+     "document": "https://www.electrive.net/2024/06/12/gebrauchte-e-autos-cardino-sammelt-vier-millionen-euro-ein/",
+     "date": "2024-06-12",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "announcement_date": {
+   "value": "2024-06-11",
+   "sources": [
+    {
+     "name": "businesswire.com",
+     "document": "https://www.businesswire.com/news/home/20240611979084/en/",
+     "date": "2024-06-11",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2024/06/berlin-based-cardino-gets-e4-million-seed-to-accelerate-its-used-ev-sales-model/",
+     "date": "2024-06-11",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "annotations": {
+   "value": [
+    "Round name as stated in the article.",
+    "round_label_stated:Seed"
+   ],
+   "sources": []
+  }
+ },
+ "relationships": {
+  "outgoing": {},
+  "incoming": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "67fd399e-f160-4f05-81e0-b8ec9ce45fa2",
+     "name": "Cardino",
+     "entity_type": "Company",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "businesswire.com",
+        "document": "https://www.businesswire.com/news/home/20240611979084/en/",
+        "date": "2024-06-11",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "eu-startups.com",
+        "document": "https://www.eu-startups.com/2024/06/berlin-based-cardino-gets-e4-million-seed-to-accelerate-its-used-ev-sales-model/",
+        "date": "2024-06-11",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "c5880e5a-a91d-5d4f-91da-fc0ddb9cab36"
+     }
+    },
+    {
+     "id": "9d40fc4f-016c-4439-ab2b-755ed3e0c752",
+     "name": "Rosberg Ventures",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "businesswire.com",
+        "document": "https://www.businesswire.com/news/home/20240611979084/en/",
+        "date": "2024-06-11",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "startupsmagazine.co.uk",
+        "document": "https://startupsmagazine.co.uk/article-nico-rosberg-backed-cardino-secures-eu4-million-seed-funding",
+        "date": "2024-06-17",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "e5322d02-d4e8-5f3a-a29a-f083c12796e8"
+     }
+    },
+    {
+     "id": "c934f7e3-6ee3-4983-b0e1-f7827df567f9",
+     "name": "Point Nine Capital",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "businesswire.com",
+        "document": "https://www.businesswire.com/news/home/20240611979084/en/",
+        "date": "2024-06-11",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "eu-startups.com",
+        "document": "https://www.eu-startups.com/2024/06/berlin-based-cardino-gets-e4-million-seed-to-accelerate-its-used-ev-sales-model/",
+        "date": "2024-06-11",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "startupsmagazine.co.uk",
+        "document": "https://startupsmagazine.co.uk/article-nico-rosberg-backed-cardino-secures-eu4-million-seed-funding",
+        "date": "2024-06-17",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "is_lead": true,
+      "id": "fd077aa0-dcb1-5ff4-b3d9-54b541954094"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

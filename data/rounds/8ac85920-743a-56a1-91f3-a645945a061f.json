@@ -1,0 +1,282 @@
+{
+ "id": "8ac85920-743a-56a1-91f3-a645945a061f",
+ "name": "Pre-Seed",
+ "entity_type": "FundingRound",
+ "description": null,
+ "properties": {
+  "name": {
+   "value": "Pre-Seed",
+   "sources": [
+    {
+     "name": "mainebiz.biz",
+     "document": "https://mainebiz.biz/article/brunswick-esports-tech-startup-raises-750k/",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "mainebiz.biz",
+     "document": "https://mainebiz.biz/article/partnerships-and-influencers-key-to-brunswick-esports-startups-growth/",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "round_label": {
+   "value": "PRE_SEED",
+   "sources": [
+    {
+     "name": "mainebiz.biz",
+     "document": "https://mainebiz.biz/article/brunswick-esports-tech-startup-raises-750k/",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "mainebiz.biz",
+     "document": "https://mainebiz.biz/article/partnerships-and-influencers-key-to-brunswick-esports-startups-growth/",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "transaction_value": {
+   "value": 750000.0,
+   "sources": [
+    {
+     "name": "pressherald.com",
+     "document": "https://www.pressherald.com/?p=6413009",
+     "date": "2022-02-01",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "mainebiz.biz",
+     "document": "https://mainebiz.biz/article/brunswick-esports-tech-startup-raises-750k/",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "sunjournal.com",
+     "document": "https://www.sunjournal.com/?p=10256876",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "thebusinessofesports.com",
+     "document": "https://thebusinessofesports.com/2022/02/15/esports-tech-startup-omnic-data-receives-early-funding/",
+     "date": "2022-02-15",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "harpswellanchor.org",
+     "document": "https://harpswellanchor.org/2022/06/shaun-meredith-a-harpswell-entrepreneur-rides-the-esports-wave/",
+     "date": "2022-06-03",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "transaction_value_units": {
+   "value": "USD",
+   "sources": [
+    {
+     "name": "pressherald.com",
+     "document": "https://www.pressherald.com/?p=6413009",
+     "date": "2022-02-01",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "mainebiz.biz",
+     "document": "https://mainebiz.biz/article/brunswick-esports-tech-startup-raises-750k/",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "sunjournal.com",
+     "document": "https://www.sunjournal.com/?p=10256876",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "thebusinessofesports.com",
+     "document": "https://thebusinessofesports.com/2022/02/15/esports-tech-startup-omnic-data-receives-early-funding/",
+     "date": "2022-02-15",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "harpswellanchor.org",
+     "document": "https://harpswellanchor.org/2022/06/shaun-meredith-a-harpswell-entrepreneur-rides-the-esports-wave/",
+     "date": "2022-06-03",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "announcement_date": {
+   "value": "2022-02-01",
+   "sources": [
+    {
+     "name": "pressherald.com",
+     "document": "https://www.pressherald.com/?p=6413009",
+     "date": "2022-02-01",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "annotations": {
+   "value": [
+    "Disclosed name 'pre-seed funding round' (Mainebiz: 'Rich Miner … led the $750,000 pre-seed funding round'); Mainebiz 2023 interview also calls it the pre-seed round before a planned seed. Press Herald and Sun Journal call it 'seed funding'.",
+    "round_label_stated:Pre-Seed"
+   ],
+   "sources": []
+  }
+ },
+ "relationships": {
+  "outgoing": {},
+  "incoming": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "22d4a2c5-62fe-42ab-a844-c8734c66a4f9",
+     "name": "Rich Miner",
+     "entity_type": "Person",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "mainebiz.biz",
+        "document": "https://mainebiz.biz/article/brunswick-esports-tech-startup-raises-750k/",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "pressherald.com",
+        "document": "https://www.pressherald.com/?p=6413009",
+        "date": "2022-02-01",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "sunjournal.com",
+        "document": "https://www.sunjournal.com/?p=10256876",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "is_lead": true,
+      "id": "fb88a20f-1712-50d6-a6d2-bae9d3672626"
+     }
+    },
+    {
+     "id": "58387066-0234-5941-b691-a8a50e28a1ef",
+     "name": "Omnic Data Inc",
+     "entity_type": "Company",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "mainebiz.biz",
+        "document": "https://mainebiz.biz/article/brunswick-esports-tech-startup-raises-750k/",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "mainebiz.biz",
+        "document": "https://mainebiz.biz/article/partnerships-and-influencers-key-to-brunswick-esports-startups-growth/",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "112dbc8b-3a07-5df4-8e90-eec68cd0a78f"
+     }
+    },
+    {
+     "id": "9123a402-35c7-5861-8c89-0de515c5b841",
+     "name": "Steven Koltai",
+     "entity_type": "Person",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "mainebiz.biz",
+        "document": "https://mainebiz.biz/article/brunswick-esports-tech-startup-raises-750k/",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "pressherald.com",
+        "document": "https://www.pressherald.com/?p=6413009",
+        "date": "2022-02-01",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "sunjournal.com",
+        "document": "https://www.sunjournal.com/?p=10256876",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "harpswellanchor.org",
+        "document": "https://harpswellanchor.org/2022/06/shaun-meredith-a-harpswell-entrepreneur-rides-the-esports-wave/",
+        "date": "2022-06-03",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "160a21e2-e6a4-59d0-a8dd-04a406ceebfb"
+     }
+    },
+    {
+     "id": "96cd2eec-8bae-5eb6-8554-c16608628a0b",
+     "name": "Sam Brin",
+     "entity_type": "Person",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "mainebiz.biz",
+        "document": "https://mainebiz.biz/article/brunswick-esports-tech-startup-raises-750k/",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "pressherald.com",
+        "document": "https://www.pressherald.com/?p=6413009",
+        "date": "2022-02-01",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "sunjournal.com",
+        "document": "https://www.sunjournal.com/?p=10256876",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "7e2fe381-16ae-57de-be7f-52cf3be17a7e"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

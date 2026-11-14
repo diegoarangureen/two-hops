@@ -1,0 +1,124 @@
+{
+ "id": "02f42013-cd19-5b59-99c0-fffabfabd5f6",
+ "name": "Convertible Notes round",
+ "entity_type": "FundingRound",
+ "description": null,
+ "properties": {
+  "name": {
+   "value": "Convertible Notes round",
+   "sources": [
+    {
+     "name": "bii.dk",
+     "document": "https://bii.dk/community/news/six-companies-receive-additional-funding-from-bii/",
+     "date": "2025-09-10",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "instrument": {
+   "value": "CONVERTIBLE_NOTES",
+   "sources": [
+    {
+     "name": "bii.dk",
+     "document": "https://bii.dk/community/news/six-companies-receive-additional-funding-from-bii/",
+     "date": "2025-09-10",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "transaction_value": {
+   "value": 500000.0,
+   "sources": [
+    {
+     "name": "bii.dk",
+     "document": "https://bii.dk/community/news/six-companies-receive-additional-funding-from-bii/",
+     "date": "2025-09-10",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "transaction_value_units": {
+   "value": "EUR",
+   "sources": [
+    {
+     "name": "bii.dk",
+     "document": "https://bii.dk/community/news/six-companies-receive-additional-funding-from-bii/",
+     "date": "2025-09-10",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "announcement_date": {
+   "value": "2025-09-10",
+   "sources": [
+    {
+     "name": "bii.dk",
+     "document": "https://bii.dk/community/news/six-companies-receive-additional-funding-from-bii/",
+     "date": "2025-09-10",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "annotations": {
+   "value": [
+    "Venture Lab programme convertible loan; no source names the round.",
+    "round_label_stated:Convertible Note",
+    "round_label_basis:INFERRED",
+    "round_label_explanation:Instrument Convertible notes (rounds.3); no source names the round and it is not the company's first financing round (instructions §3.5).",
+    "Venture House programme convertible loan; no source names the round.",
+    "round_label_explanation:Instrument Convertible notes (rounds.4); no source names the round and it is not the company's first financing round (instructions §3.5)."
+   ],
+   "sources": []
+  }
+ },
+ "relationships": {
+  "outgoing": {},
+  "incoming": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "70e59d89-beeb-5fce-9055-583c0882349a",
+     "name": "Phanofi",
+     "entity_type": "Company",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "bii.dk",
+        "document": "https://bii.dk/community/news/six-companies-receive-additional-funding-from-bii/",
+        "date": "2025-09-10",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "4a10f504-5c6e-5fe3-aa26-f3b4f1777439"
+     }
+    },
+    {
+     "id": "9959f461-f24f-45c1-b90c-f8bbec2fa53a",
+     "name": "BioInnovation Institute",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "bii.dk",
+        "document": "https://bii.dk/community/news/six-companies-receive-additional-funding-from-bii/",
+        "date": "2025-09-10",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "is_lead": true,
+      "id": "6d303a82-fbe6-5de3-aa9b-81af30e740c8"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

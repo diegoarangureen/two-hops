@@ -1,0 +1,187 @@
+{
+ "id": "d65d44a8-8045-55a3-925d-4d3b958a9555",
+ "name": "Seed",
+ "entity_type": "FundingRound",
+ "description": null,
+ "properties": {
+  "name": {
+   "value": "Seed",
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2025/07/german-robotics-company-filics-secures-e13-5-million-to-expand-and-roll-out-its-robotics-platform/",
+     "date": "2025-07-07",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "round_label": {
+   "value": "SEED",
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2025/07/german-robotics-company-filics-secures-e13-5-million-to-expand-and-roll-out-its-robotics-platform/",
+     "date": "2025-07-07",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "instrument": {
+   "value": "EQUITY",
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2025/07/german-robotics-company-filics-secures-e13-5-million-to-expand-and-roll-out-its-robotics-platform/",
+     "date": "2025-07-07",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "transaction_value": {
+   "value": 13500000.0,
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2025/07/german-robotics-company-filics-secures-e13-5-million-to-expand-and-roll-out-its-robotics-platform/",
+     "date": "2025-07-07",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "transaction_value_units": {
+   "value": "EUR",
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2025/07/german-robotics-company-filics-secures-e13-5-million-to-expand-and-roll-out-its-robotics-platform/",
+     "date": "2025-07-07",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "announcement_date": {
+   "value": "2025-07-07",
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2025/07/german-robotics-company-filics-secures-e13-5-million-to-expand-and-roll-out-its-robotics-platform/",
+     "date": "2025-07-07",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "annotations": {
+   "value": [
+    "Updated 2026-11-09: previously Series A (derived: First equity round of the company, 14580000 USD-equivalent (13500000 EUR); spec v14 §3c threshold (<1M Pre-Seed, <4M Seed, otherwise Series A; approximate FX fo); derived again from the current table (instructions §3.5).",
+    "round_label_stated:Seed",
+    "round_label_basis:INFERRED",
+    "round_label_explanation:First equity round of the company (rounds.0), unnamed: Seed (instructions §3.5)."
+   ],
+   "sources": []
+  }
+ },
+ "relationships": {
+  "outgoing": {},
+  "incoming": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "681416ea-80e1-519d-964e-f312381c32a8",
+     "name": "Andrei Danescu",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "eu-startups.com",
+        "document": "https://www.eu-startups.com/2025/07/german-robotics-company-filics-secures-e13-5-million-to-expand-and-roll-out-its-robotics-platform/",
+        "date": "2025-07-07",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "a9d242fd-d8bf-5bb8-b289-5786122af9f3"
+     }
+    },
+    {
+     "id": "7826d227-a054-5208-9644-bac5bdc74c8a",
+     "name": "Helmut Schmid",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "eu-startups.com",
+        "document": "https://www.eu-startups.com/2025/07/german-robotics-company-filics-secures-e13-5-million-to-expand-and-roll-out-its-robotics-platform/",
+        "date": "2025-07-07",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "e408d6e8-2d40-5cbd-9ad4-7e54ab4a14ca"
+     }
+    },
+    {
+     "id": "a23edf99-9797-4942-927c-afa3eac6bd7c",
+     "name": "Bayern Kapital",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "eu-startups.com",
+        "document": "https://www.eu-startups.com/2025/07/german-robotics-company-filics-secures-e13-5-million-to-expand-and-roll-out-its-robotics-platform/",
+        "date": "2025-07-07",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "3d646b2f-d1bc-5711-83c6-0ff69d8a0eb3"
+     }
+    },
+    {
+     "id": "b6c49b77-7291-4713-8278-71256890e857",
+     "name": "Capnamic Ventures Management GmbH",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "eu-startups.com",
+        "document": "https://www.eu-startups.com/2025/07/german-robotics-company-filics-secures-e13-5-million-to-expand-and-roll-out-its-robotics-platform/",
+        "date": "2025-07-07",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "5684c4ab-c3a5-5dca-9e78-89f5d33adf6a"
+     }
+    },
+    {
+     "id": "be3e26ad-ccef-575f-b43c-294f703e4815",
+     "name": "Filics",
+     "entity_type": "Company",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "eu-startups.com",
+        "document": "https://www.eu-startups.com/2025/07/german-robotics-company-filics-secures-e13-5-million-to-expand-and-roll-out-its-robotics-platform/",
+        "date": "2025-07-07",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "b451d511-2209-535b-8115-472cd27a1304"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

@@ -1,0 +1,116 @@
+{
+ "id": "673d5f4c-970e-5117-92cb-c0a8626854fd",
+ "name": "Series A",
+ "entity_type": "FundingRound",
+ "description": null,
+ "properties": {
+  "name": {
+   "value": "Series A",
+   "sources": [
+    {
+     "name": "pitchbook.com",
+     "document": "https://pitchbook.com/profiles/company/517711-24",
+     "date": "2026-11-10",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "round_label": {
+   "value": "SERIES_A",
+   "sources": [
+    {
+     "name": "pitchbook.com",
+     "document": "https://pitchbook.com/profiles/company/517711-24",
+     "date": "2026-11-10",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "instrument": {
+   "value": "EQUITY",
+   "sources": [
+    {
+     "name": "pitchbook.com",
+     "document": "https://pitchbook.com/profiles/company/517711-24",
+     "date": "2026-11-10",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "transaction_value": {
+   "value": 1550000.0,
+   "sources": [
+    {
+     "name": "pitchbook.com",
+     "document": "https://pitchbook.com/profiles/company/517711-24",
+     "date": "2026-11-10",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "transaction_value_units": {
+   "value": "USD",
+   "sources": [
+    {
+     "name": "pitchbook.com",
+     "document": "https://pitchbook.com/profiles/company/517711-24",
+     "date": "2026-11-10",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "event_date": {
+   "value": "2025-02-11",
+   "sources": [
+    {
+     "name": "pitchbook.com",
+     "document": "https://pitchbook.com/profiles/company/517711-24",
+     "date": "2026-11-10",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "annotations": {
+   "value": [
+    "derived from the sequence",
+    "No source names this round; PitchBook's 'Early Stage VC' is a database category.",
+    "round_label_stated:Series A",
+    "round_label_basis:INFERRED",
+    "round_label_explanation:Unnamed equity round after rounds.0 (Seed): next label in the sequence (instructions §3.5)."
+   ],
+   "sources": []
+  }
+ },
+ "relationships": {
+  "outgoing": {},
+  "incoming": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "67fd399e-f160-4f05-81e0-b8ec9ce45fa2",
+     "name": "Cardino",
+     "entity_type": "Company",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "pitchbook.com",
+        "document": "https://pitchbook.com/profiles/company/517711-24",
+        "date": "2026-11-10",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "36e70746-b2e8-5829-90de-5f663f651e30"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

@@ -1,0 +1,168 @@
+{
+ "id": "1a8a5646-3d31-56e4-b39d-032ae1ca48af",
+ "name": "Pre-Seed",
+ "entity_type": "FundingRound",
+ "description": null,
+ "properties": {
+  "name": {
+   "value": "Pre-Seed",
+   "sources": [
+    {
+     "name": "filics.eu",
+     "document": "https://www.filics.eu/unternehmen",
+     "date": "2026-11-09",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "aliases": {
+   "value": [
+    "Seed"
+   ],
+   "sources": []
+  },
+  "round_label": {
+   "value": "PRE_SEED",
+   "sources": [
+    {
+     "name": "filics.eu",
+     "document": "https://www.filics.eu/unternehmen",
+     "date": "2026-11-09",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "instrument": {
+   "value": "EQUITY",
+   "sources": [
+    {
+     "name": "filics.eu",
+     "document": "https://www.filics.eu/unternehmen",
+     "date": "2026-11-09",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "munich-startup.de",
+     "document": "https://www.munich-startup.de/76195/filics-holt-seed-investoren-an-bord/",
+     "date": "2026-11-09",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "annotations": {
+   "value": [
+    "'Pre-Seed' (company timeline).",
+    "round_label_stated:Pre-Seed",
+    "'Seed' (company timeline).",
+    "round_label_stated:Seed"
+   ],
+   "sources": []
+  }
+ },
+ "relationships": {
+  "outgoing": {},
+  "incoming": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "2f050db7-9d7a-4753-a8cc-373fc6d41aca",
+     "name": "10x Founders GmbH",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "filics.eu",
+        "document": "https://www.filics.eu/unternehmen",
+        "date": "2026-11-09",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "is_lead": true,
+      "id": "9163b62d-2fbc-5727-95ea-dfedbc4438bd"
+     }
+    },
+    {
+     "id": "963ecd95-fb22-5acd-9140-52fc452b5004",
+     "name": "Bayern Kapit",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "filics.eu",
+        "document": "https://www.filics.eu/unternehmen",
+        "date": "2026-11-09",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "munich-startup.de",
+        "document": "https://www.munich-startup.de/76195/filics-holt-seed-investoren-an-bord/",
+        "date": "2026-11-09",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "175bec23-efa0-58a8-950b-f6aeacc86d49"
+     }
+    },
+    {
+     "id": "b6c49b77-7291-4713-8278-71256890e857",
+     "name": "Capnamic Ventures Management GmbH",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "filics.eu",
+        "document": "https://www.filics.eu/unternehmen",
+        "date": "2026-11-09",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "munich-startup.de",
+        "document": "https://www.munich-startup.de/76195/filics-holt-seed-investoren-an-bord/",
+        "date": "2026-11-09",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "59d491cb-415b-509d-b19c-7f6cad1a56b2"
+     }
+    },
+    {
+     "id": "be3e26ad-ccef-575f-b43c-294f703e4815",
+     "name": "Filics",
+     "entity_type": "Company",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "filics.eu",
+        "document": "https://www.filics.eu/unternehmen",
+        "date": "2026-11-09",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "munich-startup.de",
+        "document": "https://www.munich-startup.de/76195/filics-holt-seed-investoren-an-bord/",
+        "date": "2026-11-09",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "09abe2be-5065-549e-81f6-c5952703b290"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

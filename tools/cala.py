@@ -217,6 +217,13 @@ class Client:
         if eid in self.cache:
             return json.loads(self.cache[eid].read_text(encoding="utf-8")), False
         out = DATA / KIND_DIR[kind] / f"{eid}.json"
+        if out.exists():  # written since this run started, for example by the app's own live read
+            try:
+                js = json.loads(out.read_text(encoding="utf-8"))
+                self.cache[eid] = out
+                return js, False
+            except ValueError:
+                pass
         out.parent.mkdir(parents=True, exist_ok=True)
         rel = out.relative_to(ROOT).as_posix()
         st, js = self.call("POST", f"/entities/{eid}", body_for(kind, entity_type, limit), purpose=purpose, saved=rel)

@@ -1,0 +1,96 @@
+{
+ "id": "de496aa3-1d71-583e-a11a-2f86e9822fca",
+ "name": "Pre-Seed",
+ "entity_type": "FundingRound",
+ "description": null,
+ "properties": {
+  "name": {
+   "value": "Pre-Seed",
+   "sources": [
+    {
+     "name": "atmo.earth",
+     "document": "https://www.atmo.earth/",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "round_label": {
+   "value": "PRE_SEED",
+   "sources": [
+    {
+     "name": "atmo.earth",
+     "document": "https://www.atmo.earth/",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "event_date": {
+   "value": "2024-01-01",
+   "sources": [
+    {
+     "name": "atmo.earth",
+     "document": "https://www.atmo.earth/about",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "annotations": {
+   "value": [
+    "Accelerator programme round (ABN AMRO & Techstars Future of Finance Accelerator, Class of 2024): Pre-Seed per the accelerator rule (instructions §3.5).",
+    "round_label_stated:Pre-Seed"
+   ],
+   "sources": []
+  }
+ },
+ "relationships": {
+  "outgoing": {},
+  "incoming": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "ae7530e4-556e-4547-ba15-88a12fbcdcb1",
+     "name": "Techstars",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "atmo.earth",
+        "document": "https://www.atmo.earth/",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "is_lead": true,
+      "id": "b62b9818-1a4e-5162-b10e-92ae0c0448ab"
+     }
+    },
+    {
+     "id": "cd4769da-761f-566b-a407-628f6cacf3ed",
+     "name": "atmo",
+     "entity_type": "Company",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "atmo.earth",
+        "document": "https://www.atmo.earth/",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "cfbd2ca2-418a-5b3d-b4ef-aef9c18abcd6"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

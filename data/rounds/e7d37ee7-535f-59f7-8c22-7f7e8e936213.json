@@ -1,0 +1,133 @@
+{
+ "id": "e7d37ee7-535f-59f7-8c22-7f7e8e936213",
+ "name": "Seed",
+ "entity_type": "FundingRound",
+ "description": null,
+ "properties": {
+  "name": {
+   "value": "Seed",
+   "sources": [
+    {
+     "name": "nekod.com",
+     "document": "https://nekod.com/blog/joins-techstars-abn-amro",
+     "date": "2024-09-10",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "round_label": {
+   "value": "SEED",
+   "sources": [
+    {
+     "name": "nekod.com",
+     "document": "https://nekod.com/blog/joins-techstars-abn-amro",
+     "date": "2024-09-10",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "instrument": {
+   "value": "EQUITY",
+   "sources": [
+    {
+     "name": "nekod.com",
+     "document": "https://nekod.com/blog/joins-techstars-abn-amro",
+     "date": "2024-09-10",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "transaction_value": {
+   "value": 120000.0,
+   "sources": [
+    {
+     "name": "nekod.com",
+     "document": "https://nekod.com/blog/joins-techstars-abn-amro",
+     "date": "2024-09-10",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "transaction_value_units": {
+   "value": "EUR",
+   "sources": [
+    {
+     "name": "nekod.com",
+     "document": "https://nekod.com/blog/joins-techstars-abn-amro",
+     "date": "2024-09-10",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "announcement_date": {
+   "value": "2024-09-10",
+   "sources": [
+    {
+     "name": "nekod.com",
+     "document": "https://nekod.com/blog/joins-techstars-abn-amro",
+     "date": "2024-09-10",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "annotations": {
+   "value": [
+    "round_label_stated:Seed",
+    "round_label_basis:INFERRED",
+    "round_label_explanation:First equity round of the company (rounds.0), unnamed: Seed (instructions §3.5)."
+   ],
+   "sources": []
+  }
+ },
+ "relationships": {
+  "outgoing": {},
+  "incoming": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "ae7530e4-556e-4547-ba15-88a12fbcdcb1",
+     "name": "Techstars",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "nekod.com",
+        "document": "https://nekod.com/blog/joins-techstars-abn-amro",
+        "date": "2024-09-10",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "is_lead": true,
+      "id": "323188f0-e02f-5446-8fd6-5687e09d91f7"
+     }
+    },
+    {
+     "id": "f1c8b797-fcf7-5006-aba0-4adb1ba30ddd",
+     "name": "NEKOD",
+     "entity_type": "Company",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "nekod.com",
+        "document": "https://nekod.com/blog/joins-techstars-abn-amro",
+        "date": "2024-09-10",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "0cf52fb2-a81f-57ca-a5ed-22176b7f9355"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

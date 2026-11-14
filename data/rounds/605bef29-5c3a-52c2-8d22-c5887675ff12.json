@@ -1,0 +1,182 @@
+{
+ "id": "605bef29-5c3a-52c2-8d22-c5887675ff12",
+ "name": "Pre-Seed",
+ "entity_type": "FundingRound",
+ "description": null,
+ "properties": {
+  "name": {
+   "value": "Pre-Seed",
+   "sources": [
+    {
+     "name": "caplight.com",
+     "document": "https://www.caplight.com/company/sarorobotics",
+     "date": "2026-09-08",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "round_label": {
+   "value": "PRE_SEED",
+   "sources": [
+    {
+     "name": "caplight.com",
+     "document": "https://www.caplight.com/company/sarorobotics",
+     "date": "2026-09-08",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "transaction_value": {
+   "value": 186000.0,
+   "sources": [
+    {
+     "name": "caplight.com",
+     "document": "https://www.caplight.com/company/sarorobotics",
+     "date": "2026-09-08",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "transaction_value_units": {
+   "value": "USD",
+   "sources": [
+    {
+     "name": "caplight.com",
+     "document": "https://www.caplight.com/company/sarorobotics",
+     "date": "2026-09-08",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "announcement_date": {
+   "value": "2026-09-08",
+   "sources": [
+    {
+     "name": "caplight.com",
+     "document": "https://www.caplight.com/company/sarorobotics",
+     "date": "2026-09-08",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "annotations": {
+   "value": [
+    "Caplight calls it an 'Accelerator' round; accelerator programme round labelled Pre-Seed (instructions §3.5).",
+    "round_label_stated:Pre-Seed",
+    "round_label_basis:INFERRED",
+    "round_label_explanation:Accelerator programme round (instructions §3.5 accelerator row); the company's first recorded financing."
+   ],
+   "sources": []
+  }
+ },
+ "relationships": {
+  "outgoing": {},
+  "incoming": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "3c56ac53-1496-5c13-8ce0-8780c996b1d6",
+     "name": "6AM Accelerator",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "caplight.com",
+        "document": "https://www.caplight.com/company/sarorobotics",
+        "date": "2026-09-08",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "53081d94-2d24-561c-9aab-a101fa8b84c0"
+     }
+    },
+    {
+     "id": "3ef31033-9773-4fbd-91bf-1a971554e683",
+     "name": "STARTUPLAB FOUNDERS AS",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "caplight.com",
+        "document": "https://www.caplight.com/company/sarorobotics",
+        "date": "2026-09-08",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "e8c63854-3879-53b9-8cb3-381f3af1d9b2"
+     }
+    },
+    {
+     "id": "52ffcc84-7e81-53b0-bee3-f4becc295c1d",
+     "name": "Runway FBU",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "caplight.com",
+        "document": "https://www.caplight.com/company/sarorobotics",
+        "date": "2026-09-08",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       },
+       {
+        "name": "sarorobotics.com",
+        "document": "https://www.sarorobotics.com/blog/runway-fbu-ai-robotics-lab",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "dc0587f1-f63d-57e4-a677-018fe046ed21"
+     }
+    },
+    {
+     "id": "a6f1fb6f-a4b9-5b14-897d-87405af6a92d",
+     "name": "Saro Robotics",
+     "entity_type": "Company",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "caplight.com",
+        "document": "https://www.caplight.com/company/sarorobotics",
+        "date": "2026-09-08",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "8e143197-25d1-5f30-9f1c-511816905559"
+     }
+    },
+    {
+     "id": "ae7530e4-556e-4547-ba15-88a12fbcdcb1",
+     "name": "Techstars",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "caplight.com",
+        "document": "https://www.caplight.com/company/sarorobotics",
+        "date": "2026-09-08",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "a5d3a581-6988-5dc1-a51d-c7d262c83fd9"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}
