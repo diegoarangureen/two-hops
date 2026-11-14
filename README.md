@@ -9,6 +9,7 @@ Por ahora el repo contiene la investigación, no el producto: qué pide el reto,
 | Archivo | Qué es |
 |---|---|
 | `docs/IDEA.md` | La propuesta de proyecto, lo descartado y el siguiente paso |
+| `docs/PROMPT_BUILD.md` | El prompt para pedirle a Claude que construya el proyecto |
 | `docs/AUDITORIA_SLUSH.md` | Qué contiene el nodo Slush 2026 y con qué cobertura |
 | `docs/CALA_API.md` | Cómo se consulta Cala, con las trampas encontradas |
 | `docs/cala_funding_fields_hack_guide.md` | Guía de campos oficial de Cala para el reto |
@@ -21,7 +22,7 @@ Descargados de Cala el 14 de noviembre de 2026.
 
 | Ruta | Contenido |
 |---|---|
-| `data/attendees.json` | Los 2.989 asistentes de Slush 2026 (id, nombre, tipo, rol) |
+| `data/attendees.json` | Las 2.989 entidades enlazadas a Slush 2026: 2.988 asistentes y el organizador (id, nombre, tipo, rol) |
 | `data/companies/<id>.json` | Ficha completa de 9 startups, con relaciones y fuentes |
 | `data/investors/` | Point Nine Capital con su cartera |
 | `data/rounds/` | Dos rondas con sus participantes |

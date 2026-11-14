@@ -47,6 +47,10 @@ Riesgos:
 
 **El espejo para inversores:** partir de un fondo, recorrer su cartera y sus coinversores, y marcar qué startups de Slush están a un salto. Mismo recorrido en sentido contrario.
 
+## Dato comprobado después de la auditoría
+
+Los ids coinciden entre la cartera de un inversor y la lista de asistentes: de las 44 participadas de Point Nine Capital, 2 están en Slush 2026 (Cardino y TesterArmy). Así que una sola llamada por inversor da su cartera entera y el cruce con los asistentes se hace en local, sin gastar más créditos.
+
 ## Siguiente paso
 
 1. Pedir en el stand de Cala una clave con más límite.

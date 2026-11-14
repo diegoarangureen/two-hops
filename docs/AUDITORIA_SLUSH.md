@@ -7,7 +7,7 @@ Hecha el 14 de noviembre de 2026 contra la API real, con la cuenta gratuita. Gas
 - Entidad `Event` "Slush 2026", id `bc844d56-6ab4-452b-96bf-2661e86e592b`.
 - Propiedades: `name`, `description`, `event_date` (2026-11-18), `location` (Messukeskus Helsinki), `aliases`.
 - Una sola relación: `PARTICIPATES_IN_EVENT` entrante. No tiene salientes ni series temporales.
-- 2.989 asistentes con rol `ATTENDEE` más Slush Oy como `ORGANIZER`. Por tipo: 2.980 `Company`, 8 `Organization`, 1 `EducationalInstitution`.
+- 2.989 entidades enlazadas: 2.988 con rol `ATTENDEE` y Slush Oy como `ORGANIZER`. Por tipo: 2.980 `Company`, 8 `Organization`, 1 `EducationalInstitution`.
 - La relación de asistencia solo lleva `role` y la fuente (slush.org, noviembre de 2026).
 - Casi todo son startups. Solo unos 15 nombres parecen inversores: Point Nine Capital, Capnamic Ventures, Data Driven VC, Heave Ventures, LTS Ventures, Windhill Capital, Pacer Ventures, Plug Capital, entre otros. **La lista de inversores de Slush no está en el nodo.** A los inversores se llega desde las startups, por sus rondas.
 - Otros nodos Slush (2025, 2024, 2023, "Slush") solo tienen la relación `SPOKE_AT`.
