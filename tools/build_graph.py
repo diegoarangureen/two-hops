@@ -39,6 +39,7 @@ LEGAL_SUFFIXES = {"inc", "ltd", "limited", "gmbh", "ag", "oy", "oyj", "ab", "sas
                   "sa", "srl", "as", "aps", "plc", "corp", "co", "ug", "kg", "spa", "sl", "nv", "pte", "pty", "lp",
                   "llp", "sarl", "sp", "zoo", "ehf", "sia", "doo", "kft", "ltda", "incorporated", "corporation"}
 SAME_FINANCING_DAYS = 45  # a FundingRound and a filing event of the same company this close are one financing
+PAGE_LIMIT = 1000  # Cala returns at most this many items per relationship; a list this long is cut short
 
 
 def norm_name(name):
@@ -122,6 +123,9 @@ class Builder:
         rels = j.get("relationships") or {}
         for direction in ("outgoing", "incoming"):
             for rel, items in (rels.get(direction) or {}).items():
+                if len(items or []) >= PAGE_LIMIT:
+                    n.setdefault("truncated", {})[rel] = len(items)
+                    self.notes["relationship_lists_cut_at_page_limit"] += 1
                 for it in items or []:
                     if not isinstance(it, dict) or not it.get("id"):
                         continue
@@ -133,9 +137,11 @@ class Builder:
 
 
 def merge_duplicates(b, attendee_ids):
-    """Cala can hold one real organisation as several records (often a Company and an Organization).
-    Records with the same normalised name are merged, unless both are separate Slush attendees or they
-    are loaded with different websites. Returns {duplicate id: kept id} and the list of groups."""
+    """Cala can hold one real organisation twice, once as a Company and once as an Organization.
+    Such a pair is merged when the names are identical after normalisation and the pairing is unambiguous:
+    exactly one record of each type carries the name. Two records of the same type with the same name are
+    left alone, because Cala models legal entities one by one and they may be different companies.
+    Returns {duplicate id: kept id} and the list of merged pairs."""
     groups = collections.defaultdict(list)
     for n in b.nodes.values():
         if n["type"] in ORG_TYPES and n["name"]:
@@ -145,6 +151,10 @@ def merge_duplicates(b, attendee_ids):
     redirect, merged = {}, []
     for k, ns in groups.items():
         if len(ns) < 2:
+            continue
+        types = collections.Counter(n["type"] for n in ns)
+        if len(ns) != 2 or len(types) != 2:
+            b.notes["same_name_same_type_kept_apart"] += 1
             continue
         if sum(1 for n in ns if n["id"] in attendee_ids) > 1:
             b.notes["same_name_kept_apart_both_attendees"] += 1
@@ -162,7 +172,8 @@ def merge_duplicates(b, attendee_ids):
                 keep["props"].setdefault(pk, pv)
             keep["loaded"] = keep["loaded"] or n["loaded"]
         merged.append({"kept": keep["id"], "name": keep["name"], "records": keep["merged"],
-                       "basis": "identical name after removing case, punctuation and legal form"})
+                       "basis": "one Company and one Organization with the same name after removing case, "
+                                "punctuation and legal form"})
     for dup in redirect:
         del b.nodes[dup]
     # re-point edges; two Cala edges that now join the same pair become one edge that remembers both ids
@@ -311,11 +322,19 @@ def main():
     for row in attendees:
         if row[0] in redirect:
             b.notes["attendee_ids_redirected"] += 1
+    vc = {e["from"] for e in b.edges.values() if e["type"] == "OPERATES_IN_INDUSTRY"
+          and b.nodes[e["to"]]["name"] in ("VENTURE_CAPITAL", "ASSET_MANAGEMENT", "PRIVATE_EQUITY")}
+    backs = collections.Counter(e["from"] for e in b.edges.values() if e["type"] == "PARTICIPATES_IN_FUNDING_ROUND"
+                                and e["props"].get("role") in ("INVESTOR", "LENDER"))
     for n in b.nodes.values():
         if n["id"] in attendee_ids or any(m["id"] in attendee_ids for m in n.get("merged", [])):
             n["attendee"] = True
         if out_deg[n["id"]]:
             n["investments"] = out_deg[n["id"]]
+        # an attendee that is itself an investor is not a peer startup: it holds several investments, backs
+        # several rounds, or Cala files it under venture capital
+        if out_deg[n["id"]] >= 3 or backs[n["id"]] >= 2 or n["id"] in vc:
+            n["investor_like"] = True
 
     log = [json.loads(line) for line in (DATA / "cala_calls.jsonl").read_text(encoding="utf-8").splitlines() if line.strip()] \
         if (DATA / "cala_calls.jsonl").exists() else []

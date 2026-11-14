@@ -1,6 +1,7 @@
 # secrets: the Cala key lives in ~/.cala_key or the CALA_API_KEY env var, never here
 .env
 .env.*
+!.env.example
 .cala_key
 *.key
 
@@ -9,3 +10,8 @@ __pycache__/
 .venv/
 node_modules/
 out/
+
+# Next.js
+.next/
+next-env.d.ts
+*.tsbuildinfo
