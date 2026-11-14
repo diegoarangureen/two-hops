@@ -79,6 +79,7 @@ interface Built {
   /** Names that a rewording has to keep, and whether the path says the investor led. */
   keep: string[];
   isLead: boolean;
+  sender: string;
 }
 
 function build(req: IntroRequest): Built | null {
@@ -169,18 +170,25 @@ function build(req: IntroRequest): Built | null {
     sender,
   ].join("\n");
 
-  return { draft: { to: person?.name ?? null, subject, body, facts, mode: "template" }, keep, isLead: path.isLead };
+  keep.push(sender); // the name the user typed, or the placeholder when they typed none
+  return { draft: { to: person?.name ?? null, subject, body, facts, mode: "template" }, keep, isLead: path.isLead, sender };
 }
 
 export function templateIntro(req: IntroRequest): IntroDraft | null {
   return build(req)?.draft ?? null;
 }
 
-const SYSTEM = `You help a startup founder write a short, warm message to another founder they will meet at the Slush conference this week. You are given a list of verified facts and a plain draft built from them. Rewrite the draft so it reads like a person wrote it: natural, specific and friendly, under 120 words.
+function systemPrompt(sender: string): string {
+  const signature =
+    sender === SENDER_PLACEHOLDER
+      ? `The sender has not given a name yet, so the draft has the placeholder ${SENDER_PLACEHOLDER} in its place: keep that placeholder exactly as written, both times.`
+      : `The sender's name is ${sender}: keep it exactly as written, and do not replace it with a placeholder.`;
+  return `You help a startup founder write a short, warm message to another founder they will meet at the Slush conference this week. You are given a list of verified facts and a plain draft built from them. Rewrite the draft so it reads like one founder writing to another: natural, specific and friendly, under 120 words. The draft is deliberately stiff, so do not hand it back nearly unchanged: vary how the sentences open and flow, and merge or reorder them where that reads better.
 
-The facts come from a sourced knowledge graph and the message is shown to the user next to those facts, so accuracy matters more than polish. Use only what the facts say. Do not add names, numbers, dates, amounts, descriptions of either company, compliments about the recipient's company, or claims about the sender that are not in the facts. Keep the verb the draft uses for what the investor did (led, took part in, was a lender in, is one of the investors): they mean different things. Keep bracketed placeholders such as ${SENDER_PLACEHOLDER} exactly as written, and keep the ask the same: ten minutes at Slush, and an intro only if it feels right afterwards.
+The facts come from a sourced knowledge graph and the message is shown to the user next to those facts, so accuracy matters more than polish. Use only what the facts say. Do not add names, numbers, dates, amounts, descriptions of either company, compliments about the recipient's company, or claims about the sender that are not in the facts. Keep the verb the draft uses for what the investor did (led, took part in, was a lender in, is one of the investors): they mean different things. Write company and investor names exactly as the draft does. ${signature} Keep the ask the same: ten minutes at Slush, and an intro only if it feels right afterwards.
 
 Reply with the message only: a first line starting with "Subject: ", then a blank line, then the body. No commentary before or after.`;
+}
 
 function numbers(text: string): string[] {
   return (text.match(/\d+(?:[.,]\d+)*/g) ?? []).map((n) => n.replace(/,/g, ""));
@@ -264,7 +272,7 @@ async function gemini(key: string, system: string, user: string): Promise<{ text
 export async function buildIntro(req: IntroRequest): Promise<IntroDraft | null> {
   const built = build(req);
   if (!built || !req.reword) return built?.draft ?? null;
-  const { draft, keep, isLead } = built;
+  const { draft, keep, isLead, sender } = built;
   const key = process.env.GEMINI_API_KEY?.trim();
   if (!key) return { ...draft, note: "No language model is configured on this server (GEMINI_API_KEY), so this is the template draft." };
   if (rewordBudgetLeft() <= 0) return { ...draft, note: "The rewording budget on this server is used up, so this is the template draft." };
@@ -273,12 +281,13 @@ export async function buildIntro(req: IntroRequest): Promise<IntroDraft | null> 
   // the model sees only the facts that may be used; what is held back stays on the page, not in the prompt
   const factLines = draft.facts.filter((f) => !f.heldBack).map((f) => `- ${f.text}`).join("\n");
   const original = `Subject: ${draft.subject}\n\n${draft.body}`;
-  const out = await gemini(key, SYSTEM, `<facts>\n${factLines}\n</facts>\n\n<draft>\n${original}\n</draft>`);
+  const out = await gemini(key, systemPrompt(sender), `<facts>\n${factLines}\n</facts>\n\n<draft>\n${original}\n</draft>`);
   if ("why" in out) return { ...draft, note: `${out.why}, so this is the template draft.` };
 
   const text = out.text.replace(/^```[a-z]*\s*\n|\n```\s*$/g, "").trim(); // in case the reply comes fenced
   const m = /^Subject:\s*(.+)\r?\n\s*\r?\n([\s\S]+)$/.exec(text);
-  if (!m || text.length > 1500 || !staysOnFacts(text, `${original}\n${factLines}`, keep, isLead)) {
+  const lostName = sender !== SENDER_PLACEHOLDER && text.includes(SENDER_PLACEHOLDER);
+  if (!m || lostName || text.length > 1500 || !staysOnFacts(text, `${original}\n${factLines}`, keep, isLead)) {
     return { ...draft, note: "The reworded version added or dropped something the facts do not support, so it was discarded. This is the template draft." };
   }
   return {
