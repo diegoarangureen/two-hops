@@ -1,0 +1,593 @@
+{
+ "id": "026c38cd-48b9-45b8-a0a1-4a745d91d507",
+ "name": "JawBuddy",
+ "entity_type": "Company",
+ "description": "Jaw exercise app for jaw pain, teeth grinding and TMJ. Designed with dentists and physiotherapists, about 10 minutes a day.",
+ "properties": {
+  "name": {
+   "value": "JawBuddy",
+   "sources": [
+    {
+     "name": "Cala AI",
+     "document": "",
+     "date": "2026-07-27"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "JawBuddy GmbH",
+   "sources": [
+    {
+     "name": "jawbuddy.com",
+     "document": "https://jawbuddy.com/en",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "northdata.de",
+     "document": "https://www.northdata.de/JawBuddy+GmbH,+Leipzig/Amtsgericht+Leipzig+HRB+45943",
+     "date": "2026-11-11",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    },
+    {
+     "name": "jawbuddy.com",
+     "document": "https://jawbuddy.com/en/legal/legal-notice",
+     "date": "2026-11-11",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "aliases": {
+   "value": [
+    "JawBuddy UG",
+    "JawBuddy GmbH"
+   ],
+   "sources": []
+  },
+  "website": {
+   "value": "jawbuddy.com",
+   "sources": [
+    {
+     "name": "jawbuddy.com",
+     "document": "https://jawbuddy.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "dns.google",
+     "document": "https://dns.google/query?name=jawbuddy.com&type=A",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "Jaw exercise app for jaw pain, teeth grinding and TMJ. Designed with dentists and physiotherapists, about 10 minutes a day.",
+   "sources": [
+    {
+     "name": "jawbuddy.com",
+     "document": "https://jawbuddy.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2026-01-21",
+   "sources": [
+    {
+     "name": "northdata.de",
+     "document": "https://www.northdata.de/JawBuddy+GmbH,+Leipzig/Amtsgericht+Leipzig+HRB+45943",
+     "date": "2026-11-11",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "Spinnereistraße 7 / Halle 14, Aufgang A, 04179 Leipzig, Germany",
+   "sources": [
+    {
+     "name": "jawbuddy.com",
+     "document": "https://jawbuddy.com/en/legal/legal-notice",
+     "date": "2026-11-11",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/jawbuddy",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "jawbuddy.com",
+     "document": "https://jawbuddy.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "northdata.de",
+     "document": "https://www.northdata.de/JawBuddy+GmbH,+Leipzig/Amtsgericht+Leipzig+HRB+45943",
+     "date": "2026-11-11",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "total_funding": {
+   "value": 818000.0,
+   "sources": [
+    {
+     "name": "startbase.de",
+     "document": "https://www.startbase.de/news/jawbuddy-holt-sich-818-000-euro-gegen-kieferschmerzen/",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "startuprise.co.uk",
+     "document": "https://startuprise.co.uk/jawbuddy-raises-e818k/",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "total_funding_units": {
+   "value": "EUR",
+   "sources": [
+    {
+     "name": "startbase.de",
+     "document": "https://www.startbase.de/news/jawbuddy-holt-sich-818-000-euro-gegen-kieferschmerzen/",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "startuprise.co.uk",
+     "document": "https://startuprise.co.uk/jawbuddy-raises-e818k/",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "total_funding_excluding_debt": {
+   "value": 818000.0,
+   "sources": [
+    {
+     "name": "startbase.de",
+     "document": "https://www.startbase.de/news/jawbuddy-holt-sich-818-000-euro-gegen-kieferschmerzen/",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "startuprise.co.uk",
+     "document": "https://startuprise.co.uk/jawbuddy-raises-e818k/",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "funding_stage": {
+   "value": "PRE_SEED",
+   "sources": [
+    {
+     "name": "startuprise.co.uk",
+     "document": "https://startuprise.co.uk/jawbuddy-raises-e818k/",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "startupresearcher.com",
+     "document": "https://www.startupresearcher.com/news/jawbuddy-raises-818-000-pre-seed-round",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "startbase.de",
+     "document": "https://www.startbase.de/news/jawbuddy-holt-sich-818-000-euro-gegen-kieferschmerzen/",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "543bbfa0-6bb6-5b93-943f-71d1fa29c903",
+     "name": "Pre-Seed",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "startuprise.co.uk",
+        "document": "https://startuprise.co.uk/jawbuddy-raises-e818k/",
+        "date": "2026-11-04",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "startupresearcher.com",
+        "document": "https://www.startupresearcher.com/news/jawbuddy-raises-818-000-pre-seed-round",
+        "date": "2026-11-04",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "e8368a38-f5fe-5177-9b04-6bfce683cb13"
+     }
+    },
+    {
+     "id": "b55c4c47-14da-5613-a6d3-97d2c50fd6d0",
+     "name": "Grant",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "northdata.de",
+        "document": "https://www.northdata.de/JawBuddy+GmbH,+Leipzig/Amtsgericht+Leipzig+HRB+45943",
+        "date": "2026-11-11",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       },
+       {
+        "name": "startbase.de",
+        "document": "https://www.startbase.de/news/jawbuddy-holt-sich-818-000-euro-gegen-kieferschmerzen/",
+        "date": "2026-11-04",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "60809f39-7667-59d3-9b78-7e36c850587b"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "71068311-d267-50ad-b986-41c928ce8e86"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "ef520286-feae-4797-9346-55601c7c0e19",
+     "name": "PHARMACEUTICALS",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/jawbuddy",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "c02a3f08-75a0-505d-b059-a616a359460e",
+      "original_label": "medtechPharma"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "INVESTED_IN": [
+    {
+     "id": "10d6d898-7bd8-5fa2-b9d4-4e275332ae31",
+     "name": "Siegfried Marquardt",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "startbase.de",
+        "document": "https://www.startbase.de/news/jawbuddy-holt-sich-818-000-euro-gegen-kieferschmerzen/",
+        "date": "2026-11-04",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "6e785377-433c-4844-87d6-d1da36f5bcf2"
+     }
+    },
+    {
+     "id": "51cec6c1-2b75-54f3-bb3e-a9e761a4a38d",
+     "name": "Aldrich Huang",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "startbase.de",
+        "document": "https://www.startbase.de/news/jawbuddy-holt-sich-818-000-euro-gegen-kieferschmerzen/",
+        "date": "2026-11-04",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "cc2ea11e-7823-4307-8705-3551bd3334c4"
+     }
+    },
+    {
+     "id": "65bcbe0d-117c-5e19-82d0-6f29b0a4741e",
+     "name": "HALBZEIT",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "startbase.de",
+        "document": "https://www.startbase.de/news/jawbuddy-holt-sich-818-000-euro-gegen-kieferschmerzen/",
+        "date": "2026-11-04",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "e38c4b7c-a5ee-459a-af58-56f737ac571c"
+     }
+    },
+    {
+     "id": "9e93053d-5ba6-5ec5-8385-75170114548e",
+     "name": "Guido Sigron",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "startbase.de",
+        "document": "https://www.startbase.de/news/jawbuddy-holt-sich-818-000-euro-gegen-kieferschmerzen/",
+        "date": "2026-11-04",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "35d8c1f1-2a14-4975-9895-14b3d3b2599c"
+     }
+    },
+    {
+     "id": "a52ec38c-c7d5-5108-a689-075261392c46",
+     "name": "Christophe Barriolade",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "startbase.de",
+        "document": "https://www.startbase.de/news/jawbuddy-holt-sich-818-000-euro-gegen-kieferschmerzen/",
+        "date": "2026-11-04",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "ebaf4541-de5e-4548-b44f-99f824e3c95a"
+     }
+    },
+    {
+     "id": "c3e91419-285f-57c9-a6cc-76558712f3ce",
+     "name": "Jens Kosche",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "startbase.de",
+        "document": "https://www.startbase.de/news/jawbuddy-holt-sich-818-000-euro-gegen-kieferschmerzen/",
+        "date": "2026-11-04",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "b1c1d09c-4caf-4083-b21c-3cf916c89e2d"
+     }
+    },
+    {
+     "id": "e1f9bf10-ae59-4e3b-b434-9d3a206036a0",
+     "name": "Mittelständische Beteiligungsgesellschaft Sachsen mbH",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "startbase.de",
+        "document": "https://www.startbase.de/news/jawbuddy-holt-sich-818-000-euro-gegen-kieferschmerzen/",
+        "date": "2026-11-04",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "5eb80548-09b8-4df4-99cb-7e2e523ba8f8"
+     }
+    },
+    {
+     "id": "e727f30c-2c0c-5b3e-b928-a18ced35ed82",
+     "name": "Marc Scheidegger",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "startbase.de",
+        "document": "https://www.startbase.de/news/jawbuddy-holt-sich-818-000-euro-gegen-kieferschmerzen/",
+        "date": "2026-11-04",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "934056fd-7ff9-4664-89c9-605408fe9ad7"
+     }
+    },
+    {
+     "id": "f3bb0320-738a-463e-8cc3-9e78b3d301f5",
+     "name": "SpinLab",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "pitchbook.com",
+        "document": "https://pitchbook.com/profiles/company/1360299-16",
+        "date": "2026-07-27"
+       }
+      ],
+      "id": "c150f68e-7aff-56b2-b1e8-13a1a39be518"
+     }
+    }
+   ],
+   "FOUNDED": [
+    {
+     "id": "5bd159b3-6da2-593f-8dd4-2f36f706821f",
+     "name": "Leon Rauch",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "jawbuddy.com",
+        "document": "https://jawbuddy.com/en/company/about",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "0622154d-8224-594a-8ae6-f4fe8dcf8aae"
+     }
+    },
+    {
+     "id": "667b2455-6051-53c9-94fd-7fb63a93af38",
+     "name": "Benjamín Cádiz de Gracia",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "jawbuddy.com",
+        "document": "https://jawbuddy.com/en/company/about",
+        "date": "2026-11-11",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "ce8f5729-b35e-5caa-8447-39fa53af10fb"
+     }
+    },
+    {
+     "id": "824694de-2820-5825-a5be-6bcaf8b3877c",
+     "name": "Christian Wolf",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "jawbuddy.com",
+        "document": "https://jawbuddy.com/en/company/about",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "dc01729c-50f2-5db1-869b-46de3b3a7e10"
+     }
+    },
+    {
+     "id": "baaad016-2eaf-5a7f-b433-84a4b4796a6b",
+     "name": "Moritz Scherer",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "jawbuddy.com",
+        "document": "https://jawbuddy.com/en/company/about",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "468f30e9-50f1-52ea-8546-ddf4aad42bcd"
+     }
+    }
+   ],
+   "IS_CEO_OF": [
+    {
+     "id": "5bd159b3-6da2-593f-8dd4-2f36f706821f",
+     "name": "Leon Rauch",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "jawbuddy.com",
+        "document": "https://jawbuddy.com/en/company/about",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "2a0e1171-886c-5a57-93ad-ebb3b32fe326"
+     }
+    }
+   ],
+   "IS_CTO_OF": [
+    {
+     "id": "667b2455-6051-53c9-94fd-7fb63a93af38",
+     "name": "Benjamín Cádiz de Gracia",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "jawbuddy.com",
+        "document": "https://jawbuddy.com/en/company/about",
+        "date": "2026-11-11",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "8df300f3-cdf7-5846-ab79-38cd577a7a17"
+     }
+    }
+   ],
+   "WORKS_AT": [
+    {
+     "id": "baaad016-2eaf-5a7f-b433-84a4b4796a6b",
+     "name": "Moritz Scherer",
+     "entity_type": "Person",
+     "properties": {
+      "role": "CPO",
+      "sources": [
+       {
+        "name": "jawbuddy.com",
+        "document": "https://jawbuddy.com/en/company/about",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "f16f9ce3-940b-521d-8cfb-02adef8fba5d"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

@@ -1,0 +1,122 @@
+{
+ "id": "fd82b7b8-aa15-5a14-a8cb-7133816c1dd8",
+ "name": "Funding round",
+ "entity_type": "FundingRound",
+ "description": null,
+ "properties": {
+  "name": {
+   "value": "Funding round",
+   "sources": [
+    {
+     "name": "wu.ac.at",
+     "document": "https://www.wu.ac.at/universitaet/news-und-events/news/details-news/detail/wu-ignite-ventures",
+     "date": "2025-10-16",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "announcement_date": {
+   "value": "2025-10-16",
+   "sources": [
+    {
+     "name": "wu.ac.at",
+     "document": "https://www.wu.ac.at/universitaet/news-und-events/news/details-news/detail/wu-ignite-ventures",
+     "date": "2025-10-16",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {},
+  "incoming": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "02bdb9fc-3ade-4f2b-97ac-43031a94e685",
+     "name": "Constrct",
+     "entity_type": "Company",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "wu.ac.at",
+        "document": "https://www.wu.ac.at/universitaet/news-und-events/news/details-news/detail/wu-ignite-ventures",
+        "date": "2025-10-16",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "db5c691d-8f8a-5387-b2bb-a8cb6f75f754"
+     }
+    },
+    {
+     "id": "0f5e7b00-a6c1-4dd9-a7b9-4e1ae14741f6",
+     "name": "WU Ignite Ventures",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "wu.ac.at",
+        "document": "https://www.wu.ac.at/universitaet/news-und-events/news/details-news/detail/wu-ignite-ventures",
+        "date": "2025-10-16",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "trendingtopics.eu",
+        "document": "https://www.trendingtopics.eu/wu-ignite-ventures-erste-investments/",
+        "date": "2025-10-17",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "constrct.eu",
+        "document": "https://www.constrct.eu/post/wu-ignite-ventures-und-rhomberg-ventures-investieren-in-constrct",
+        "date": "2026-11-08",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "f77d5abf-29ca-5446-b76c-8b42225944bd"
+     }
+    },
+    {
+     "id": "71e1b647-bcbf-5559-933d-6a72d5c78805",
+     "name": "Rhomberg Ventures",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "wu.ac.at",
+        "document": "https://www.wu.ac.at/universitaet/news-und-events/news/details-news/detail/wu-ignite-ventures",
+        "date": "2025-10-16",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "trendingtopics.eu",
+        "document": "https://www.trendingtopics.eu/wu-ignite-ventures-erste-investments/",
+        "date": "2025-10-17",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "constrct.eu",
+        "document": "https://www.constrct.eu/post/wu-ignite-ventures-und-rhomberg-ventures-investieren-in-constrct",
+        "date": "2026-11-08",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "f584d95f-9b1e-53a7-8402-531144ca7939"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

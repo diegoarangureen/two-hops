@@ -1,0 +1,549 @@
+{
+ "id": "0300c974-072e-5fdc-8c3e-f5f2806d9379",
+ "name": "Dose.com",
+ "entity_type": "Company",
+ "description": "Dose is the world",
+ "properties": {
+  "name": {
+   "value": "Dose.com",
+   "sources": [
+    {
+     "name": "dose.com",
+     "document": "https://dose.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/doseholdings/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "Dose Limited",
+   "sources": [
+    {
+     "name": "find-and-update.company-information.service.gov.uk",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/16019606",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "website": {
+   "value": "dose.com",
+   "sources": [
+    {
+     "name": "dose.com",
+     "document": "https://dose.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "dns.google",
+     "document": "https://dns.google/query?name=dose.com&type=A",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "Dose is the world",
+   "sources": [
+    {
+     "name": "dose.com",
+     "document": "https://dose.com/",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2024-01-01",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/doseholdings/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "North orkshire, United Kingdom",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/doseholdings/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "dose.com",
+     "document": "https://dose.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "total_funding": {
+   "value": 522967.5,
+   "sources": [
+    {
+     "name": "find-and-update.company-information.service.gov.uk",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/16019606/filing-history/MzQ2MTU1OTIzM2FkaXF6a2N4/document?format=pdf&download=0",
+     "date": "2025-04-06",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "find-and-update.company-information.service.gov.uk",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/16019606/filing-history/MzQ2NTU2MTc1N2FkaXF6a2N4/document?format=pdf&download=0",
+     "date": "2025-05-08",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "find-and-update.company-information.service.gov.uk",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/16019606/filing-history/MzQ2MTU1OTM1NWFkaXF6a2N4/document?format=pdf&download=0",
+     "date": "2025-04-06",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "find-and-update.company-information.service.gov.uk",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/16019606/filing-history/MzUwODE4NjY5OWFkaXF6a2N4/document?format=pdf&download=0",
+     "date": "2026-03-03",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "find-and-update.company-information.service.gov.uk",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/16019606/filing-history/MzUxNzcxNTMyMWFkaXF6a2N4/document?format=pdf&download=0",
+     "date": "2026-04-22",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "find-and-update.company-information.service.gov.uk",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/16019606/filing-history/MzU1MDY1OTU1OWFkaXF6a2N4/document?format=pdf&download=0",
+     "date": "2026-10-13",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "total_funding_units": {
+   "value": "GBP",
+   "sources": [
+    {
+     "name": "find-and-update.company-information.service.gov.uk",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/16019606/filing-history/MzQ2MTU1OTIzM2FkaXF6a2N4/document?format=pdf&download=0",
+     "date": "2025-04-06",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "find-and-update.company-information.service.gov.uk",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/16019606/filing-history/MzQ2NTU2MTc1N2FkaXF6a2N4/document?format=pdf&download=0",
+     "date": "2025-05-08",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "find-and-update.company-information.service.gov.uk",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/16019606/filing-history/MzQ2MTU1OTM1NWFkaXF6a2N4/document?format=pdf&download=0",
+     "date": "2025-04-06",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "find-and-update.company-information.service.gov.uk",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/16019606/filing-history/MzUwODE4NjY5OWFkaXF6a2N4/document?format=pdf&download=0",
+     "date": "2026-03-03",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "find-and-update.company-information.service.gov.uk",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/16019606/filing-history/MzUxNzcxNTMyMWFkaXF6a2N4/document?format=pdf&download=0",
+     "date": "2026-04-22",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "find-and-update.company-information.service.gov.uk",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/16019606/filing-history/MzU1MDY1OTU1OWFkaXF6a2N4/document?format=pdf&download=0",
+     "date": "2026-10-13",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "total_funding_excluding_debt": {
+   "value": 522967.5,
+   "sources": [
+    {
+     "name": "find-and-update.company-information.service.gov.uk",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/16019606/filing-history/MzQ2MTU1OTIzM2FkaXF6a2N4/document?format=pdf&download=0",
+     "date": "2025-04-06",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "find-and-update.company-information.service.gov.uk",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/16019606/filing-history/MzQ2NTU2MTc1N2FkaXF6a2N4/document?format=pdf&download=0",
+     "date": "2025-05-08",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "find-and-update.company-information.service.gov.uk",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/16019606/filing-history/MzQ2MTU1OTM1NWFkaXF6a2N4/document?format=pdf&download=0",
+     "date": "2025-04-06",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "find-and-update.company-information.service.gov.uk",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/16019606/filing-history/MzUwODE4NjY5OWFkaXF6a2N4/document?format=pdf&download=0",
+     "date": "2026-03-03",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "find-and-update.company-information.service.gov.uk",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/16019606/filing-history/MzUxNzcxNTMyMWFkaXF6a2N4/document?format=pdf&download=0",
+     "date": "2026-04-22",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "find-and-update.company-information.service.gov.uk",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/16019606/filing-history/MzU1MDY1OTU1OWFkaXF6a2N4/document?format=pdf&download=0",
+     "date": "2026-10-13",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "funding_stage": {
+   "value": "SEED",
+   "sources": [
+    {
+     "name": "dose.com",
+     "document": "https://dose.com/",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "find-and-update.company-information.service.gov.uk",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/16019606/filing-history/MzU1MDY1OTU1OWFkaXF6a2N4/document?format=pdf&download=0",
+     "date": "2026-10-13",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "30334f65-4a7a-5290-9d4a-73e64109e9a8",
+     "name": "Pre-Seed",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "find-and-update.company-information.service.gov.uk",
+        "document": "https://find-and-update.company-information.service.gov.uk/company/16019606/filing-history/MzQ2MTU1OTIzM2FkaXF6a2N4/document?format=pdf&download=0",
+        "date": "2025-04-06",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       },
+       {
+        "name": "find-and-update.company-information.service.gov.uk",
+        "document": "https://find-and-update.company-information.service.gov.uk/company/16019606/filing-history/MzQ2NTU2MTc1N2FkaXF6a2N4/document?format=pdf&download=0",
+        "date": "2025-05-08",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "db53fa54-881f-5cd1-b9ad-28282c80754f"
+     }
+    },
+    {
+     "id": "5a698975-b89b-5848-9db6-7f08527519d6",
+     "name": "Seed",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "dose.com",
+        "document": "https://dose.com/",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "abaa64af-45b8-5664-8200-9864f4a53009"
+     }
+    },
+    {
+     "id": "6caf662f-e49e-57ed-917b-814c93524c39",
+     "name": "Pre-Seed",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "find-and-update.company-information.service.gov.uk",
+        "document": "https://find-and-update.company-information.service.gov.uk/company/16019606/filing-history/MzQ2MTU1OTM1NWFkaXF6a2N4/document?format=pdf&download=0",
+        "date": "2025-04-06",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       },
+       {
+        "name": "find-and-update.company-information.service.gov.uk",
+        "document": "https://find-and-update.company-information.service.gov.uk/company/16019606/filing-history/MzQ2NTU2MTc1N2FkaXF6a2N4/document?format=pdf&download=0",
+        "date": "2025-05-08",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       },
+       {
+        "name": "find-and-update.company-information.service.gov.uk",
+        "document": "https://find-and-update.company-information.service.gov.uk/company/16019606/filing-history/MzUwODE4NjY5OWFkaXF6a2N4/document?format=pdf&download=0",
+        "date": "2026-03-03",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       },
+       {
+        "name": "find-and-update.company-information.service.gov.uk",
+        "document": "https://find-and-update.company-information.service.gov.uk/company/16019606/filing-history/MzUxNzcxNTMyMWFkaXF6a2N4/document?format=pdf&download=0",
+        "date": "2026-04-22",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       },
+       {
+        "name": "find-and-update.company-information.service.gov.uk",
+        "document": "https://find-and-update.company-information.service.gov.uk/company/16019606/filing-history/MzU1MDY1OTU1OWFkaXF6a2N4/document?format=pdf&download=0",
+        "date": "2026-10-13",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "b313995e-348e-57be-b88c-4d684eae0fcf"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "af32934a-83fa-549d-9e73-ccaec6d9a8f7"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "ef520286-feae-4797-9346-55601c7c0e19",
+     "name": "PHARMACEUTICALS",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/doseholdings/",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "5d5df171-0060-5745-8539-6b06afcb81b4",
+      "original_label": "medtechPharma"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "FOUNDED": [
+    {
+     "id": "6152af2c-a7fa-532f-93f8-4f47c8a1be3e",
+     "name": "Luke Heron",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "dose.com",
+        "document": "https://dose.com/",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "b381d689-b6cb-5010-9633-86b684dbdca3"
+     }
+    }
+   ],
+   "IS_CEO_OF": [
+    {
+     "id": "6152af2c-a7fa-532f-93f8-4f47c8a1be3e",
+     "name": "Luke Heron",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "dose.com",
+        "document": "https://dose.com/",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "563e3f59-0ff3-5afe-a55e-e5ccb31dca3d"
+     }
+    }
+   ],
+   "IS_BOARD_MEMBER_OF": [
+    {
+     "id": "4f0f4c8e-0bf8-55a3-a9da-137de00260a1",
+     "name": "Richard Penfold",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "dose.com",
+        "document": "https://dose.com/",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "f03bd213-c7ed-5bf4-b640-4a28a1f49130"
+     }
+    },
+    {
+     "id": "53ae8668-b43e-51b7-a2bd-d1305a43c4bb",
+     "name": "Simon Morris",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "dose.com",
+        "document": "https://dose.com/",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "06e86df8-5ce2-52ec-8106-c0cefabc585d"
+     }
+    },
+    {
+     "id": "53d9f68c-22af-52c2-9f0b-3ceea31125db",
+     "name": "Neil Wright",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "dose.com",
+        "document": "https://dose.com/",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "1582785b-8339-58ec-a1b6-e497e1d08401"
+     }
+    },
+    {
+     "id": "75756f2f-abcf-58f8-a70d-1161dfba2c27",
+     "name": "Paul Cooper",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "dose.com",
+        "document": "https://dose.com/",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "b7c45363-d647-5633-8160-40ebac7d60cf"
+     }
+    }
+   ],
+   "WORKS_AT": [
+    {
+     "id": "3940b9e6-93b6-551e-a864-6e84b8f5463f",
+     "name": "Nick Ydlibi",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Finance Director",
+      "sources": [
+       {
+        "name": "dose.com",
+        "document": "https://dose.com/",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "db2c1ae6-50c8-5840-838e-127c3449d2f0"
+     }
+    },
+    {
+     "id": "6152af2c-a7fa-532f-93f8-4f47c8a1be3e",
+     "name": "Luke Heron",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Director",
+      "sources": [
+       {
+        "name": "find-and-update.company-information.service.gov.uk",
+        "document": "https://find-and-update.company-information.service.gov.uk/company/16019606/officers",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "28263a4e-5b74-50cc-9d52-7011d13c2993",
+      "valid_since": "2024-10-15"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

@@ -1,0 +1,704 @@
+{
+ "id": "02bdb9fc-3ade-4f2b-97ac-43031a94e685",
+ "name": "Constrct",
+ "entity_type": "Company",
+ "description": "Mit Constrct digitalisieren Bauunternehmen Bestellungen, Lieferscheine, Stammdaten und Rechnungsprüfung — in einem System, vom Bauleiter bis in die Buchhaltung.",
+ "properties": {
+  "name": {
+   "value": "Constrct",
+   "sources": [
+    {
+     "name": "WU Ignite Ventures investiert in die Startups constrct und NEXO",
+     "document": "https://www.trendingtopics.eu/wu-ignite-ventures-erste-investments",
+     "date": "2025-10-17"
+    },
+    {
+     "name": "WU (Vienna University of Economics and Business)",
+     "document": "https://www.wu.ac.at/en/ignite-ventures/portfolio",
+     "date": "2026-03-05"
+    },
+    {
+     "name": "WU Ignite Ventures",
+     "document": "https://www.wu.ac.at/universitaet/news-und-events/news/details-news/detail/wu-ignite-ventures",
+     "date": "2026-06-02"
+    },
+    {
+     "name": "constrct.eu",
+     "document": "https://constrct.eu/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/constrct/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "Constrct Solutions FlexCo",
+   "sources": [
+    {
+     "name": "constrct.eu",
+     "document": "https://www.constrct.eu/agb",
+     "date": "2025-01-01",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "evi.gv.at",
+     "document": "https://www.evi.gv.at/f/635821g",
+     "date": "2024-09-24",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "aliases": {
+   "value": [
+    "Constrct Solutions FlexCo"
+   ],
+   "sources": []
+  },
+  "website": {
+   "value": "constrct.eu",
+   "sources": [
+    {
+     "name": "WU Ignite Ventures investiert in die Startups constrct und NEXO",
+     "document": "https://www.trendingtopics.eu/wu-ignite-ventures-erste-investments",
+     "date": "2025-10-17"
+    },
+    {
+     "name": "WU (Vienna University of Economics and Business)",
+     "document": "https://www.wu.ac.at/en/ignite-ventures/portfolio",
+     "date": "2026-03-05"
+    },
+    {
+     "name": "WU Ignite Ventures",
+     "document": "https://www.wu.ac.at/universitaet/news-und-events/news/details-news/detail/wu-ignite-ventures",
+     "date": "2026-06-02"
+    },
+    {
+     "name": "constrct.eu",
+     "document": "https://constrct.eu/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "dns.google",
+     "document": "https://dns.google/query?name=constrct.eu&type=A",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "constrct.eu",
+     "document": "https://www.constrct.eu/agb",
+     "date": "2025-01-01",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "Mit Constrct digitalisieren Bauunternehmen Bestellungen, Lieferscheine, Stammdaten und Rechnungsprüfung — in einem System, vom Bauleiter bis in die Buchhaltung.",
+   "sources": [
+    {
+     "name": "constrct.eu",
+     "document": "https://constrct.eu/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2024-09-24",
+   "sources": [
+    {
+     "name": "evi.gv.at",
+     "document": "https://www.evi.gv.at/f/635821g",
+     "date": "2024-09-24",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "Neubaugürtel 15/32, 1150 Wien, Austria",
+   "sources": [
+    {
+     "name": "evi.gv.at",
+     "document": "https://www.evi.gv.at/f/635821g",
+     "date": "2024-09-24",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "constrct.eu",
+     "document": "https://constrct.eu/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "evi.gv.at",
+     "document": "https://www.evi.gv.at/f/635821g",
+     "date": "2024-09-24",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "70ca2bc0-7c4e-5bf5-b200-38f51b170f48",
+     "name": "Grant",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "trendingtopics.eu",
+        "document": "https://www.trendingtopics.eu/constrct-wiener-startup-holt-sich-aws-foerderung-im-mittleren-sechsstelligen-bereich/",
+        "date": "2026-05-05",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "dealroom.co",
+        "document": "https://dealroom.co/companies/constrct/",
+        "date": "2026-11-08",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "a7aef808-c101-5b28-a3a5-fd5e8a351c96"
+     }
+    },
+    {
+     "id": "fd82b7b8-aa15-5a14-a8cb-7133816c1dd8",
+     "name": "Funding round",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "wu.ac.at",
+        "document": "https://www.wu.ac.at/universitaet/news-und-events/news/details-news/detail/wu-ignite-ventures",
+        "date": "2025-10-16",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "db5c691d-8f8a-5387-b2bb-a8cb6f75f754"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_CORPORATE_EVENT": [
+    {
+     "id": "fec03e19-4861-41c0-b857-aba07f46d955",
+     "name": "FINANCING_RAISED_OR_FACILITY_ENTERED",
+     "entity_type": "PrivateCompanyFundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "🚀 We’re thrilled to announce: Constrct has closed its first funding round! Constrct is building the digital backbone of the construction supply chain — replacing fragmented procurement with one… | Constrct",
+        "document": "https://www.linkedin.com/posts/constrct_were-thrilled-to-announce-constrct-has-activity-7384848112239992833-D2nE",
+        "date": "2025-10-17"
+       },
+       {
+        "name": "Constrct | LinkedIn",
+        "document": "https://at.linkedin.com/company/constrct",
+        "date": "2026-04-22"
+       },
+       {
+        "name": "WU (Vienna University of Economics and Business)",
+        "document": "https://www.wu.ac.at/en/ignite-ventures/home",
+        "date": "2025-06-24"
+       }
+      ],
+      "event_date": "2025-01-01",
+      "id": "cbc99433-1b98-490f-903c-03b6a49b52a8"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "fe4a28d9-692f-57e5-9248-50170d7f9962"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "1c1977b3-663a-47fb-81eb-51958758b70b",
+     "name": "CONSTRUCTION_AND_ENGINEERING",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "WU Ignite Ventures investiert in die Startups constrct und NEXO",
+        "document": "https://www.trendingtopics.eu/wu-ignite-ventures-erste-investments",
+        "date": "2025-10-17"
+       },
+       {
+        "name": "WU (Vienna University of Economics and Business)",
+        "document": "https://www.wu.ac.at/en/ignite-ventures/portfolio",
+        "date": "2026-03-05"
+       },
+       {
+        "name": "WU Ignite Ventures",
+        "document": "https://www.wu.ac.at/universitaet/news-und-events/news/details-news/detail/wu-ignite-ventures",
+        "date": "2026-06-02"
+       }
+      ],
+      "id": "92444d33-fe56-49b1-87cb-e19fcdccd0d7"
+     }
+    },
+    {
+     "id": "1c1977b3-663a-47fb-81eb-51958758b70b",
+     "name": "CONSTRUCTION_AND_ENGINEERING",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/constrct/",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "956e30f7-3d85-5938-ae46-8f042ddccbe9",
+      "original_label": "propConstruction"
+     }
+    },
+    {
+     "id": "8ecf5e57-a149-438c-9eb4-089809bade56",
+     "name": "SOFTWARE_AND_SERVICES",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "WU Ignite Ventures investiert in die Startups constrct und NEXO",
+        "document": "https://www.trendingtopics.eu/wu-ignite-ventures-erste-investments",
+        "date": "2025-10-17"
+       },
+       {
+        "name": "WU (Vienna University of Economics and Business)",
+        "document": "https://www.wu.ac.at/en/ignite-ventures/portfolio",
+        "date": "2026-03-05"
+       },
+       {
+        "name": "WU Ignite Ventures",
+        "document": "https://www.wu.ac.at/universitaet/news-und-events/news/details-news/detail/wu-ignite-ventures",
+        "date": "2026-06-02"
+       }
+      ],
+      "id": "ce11dcc9-26a0-49b4-84fd-69f45798a815"
+     }
+    }
+   ],
+   "HAS_HEADQUARTERS_IN": [
+    {
+     "id": "28d34819-96e8-4b59-bc1f-b17c22863d5d",
+     "name": "Austria",
+     "entity_type": "Country",
+     "properties": {
+      "sources": [
+       {
+        "name": "WU Ignite Ventures investiert in die Startups constrct und NEXO",
+        "document": "https://www.trendingtopics.eu/wu-ignite-ventures-erste-investments",
+        "date": "2025-10-17"
+       },
+       {
+        "name": "WU (Vienna University of Economics and Business)",
+        "document": "https://www.wu.ac.at/en/ignite-ventures/portfolio",
+        "date": "2026-03-05"
+       },
+       {
+        "name": "WU Ignite Ventures",
+        "document": "https://www.wu.ac.at/universitaet/news-und-events/news/details-news/detail/wu-ignite-ventures",
+        "date": "2026-06-02"
+       }
+      ],
+      "id": "9f8bb3b5-65ee-4d41-b95c-bf1467639d22"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "INVESTED_IN": [
+    {
+     "id": "0f5e7b00-a6c1-4dd9-a7b9-4e1ae14741f6",
+     "name": "WU Ignite Ventures",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "WU Ignite Ventures investiert in die Startups constrct und NEXO",
+        "document": "https://www.trendingtopics.eu/wu-ignite-ventures-erste-investments",
+        "date": "2025-10-17"
+       },
+       {
+        "name": "WU (Vienna University of Economics and Business)",
+        "document": "https://www.wu.ac.at/en/ignite-ventures/portfolio",
+        "date": "2026-03-05"
+       },
+       {
+        "name": "WU Ignite Ventures",
+        "document": "https://www.wu.ac.at/universitaet/news-und-events/news/details-news/detail/wu-ignite-ventures",
+        "date": "2026-06-02"
+       },
+       {
+        "name": "wu.ac.at",
+        "document": "https://www.wu.ac.at/universitaet/news-und-events/news/details-news/detail/wu-ignite-ventures",
+        "date": "2025-10-16",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "trendingtopics.eu",
+        "document": "https://www.trendingtopics.eu/wu-ignite-ventures-erste-investments/",
+        "date": "2025-10-17",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "constrct.eu",
+        "document": "https://www.constrct.eu/post/wu-ignite-ventures-und-rhomberg-ventures-investieren-in-constrct",
+        "date": "2026-11-08",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "5b0641ad-762c-42d4-b26d-b7e758e5ec1d"
+     }
+    },
+    {
+     "id": "71e1b647-bcbf-5559-933d-6a72d5c78805",
+     "name": "Rhomberg Ventures",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "wu.ac.at",
+        "document": "https://www.wu.ac.at/universitaet/news-und-events/news/details-news/detail/wu-ignite-ventures",
+        "date": "2025-10-16",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "trendingtopics.eu",
+        "document": "https://www.trendingtopics.eu/wu-ignite-ventures-erste-investments/",
+        "date": "2025-10-17",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "constrct.eu",
+        "document": "https://www.constrct.eu/post/wu-ignite-ventures-und-rhomberg-ventures-investieren-in-constrct",
+        "date": "2026-11-08",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "5dc6895a-2a58-4c72-ad7d-84153f6d9681"
+     }
+    }
+   ],
+   "FOUNDED": [
+    {
+     "id": "02f8a6c8-ee1e-43e7-bd97-1df7bd9e71cd",
+     "name": "Christoph Oswald",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "Constrct – Gemeinsam die Bauwirtschaft nachhaltig gestalten",
+        "document": "https://www.constrct.eu/ueber-uns",
+        "date": "2026-01-01"
+       },
+       {
+        "name": "brutkasten.com",
+        "document": "https://brutkasten.com/artikel/constrct-wiener-startup-will-baustoffbeschaffung-digitalisieren",
+        "date": "2026-08-20"
+       },
+       {
+        "name": "Constrct: Wiener Startup holt sich aws-Förderung im mittleren sechsstelligen Bereich",
+        "document": "https://www.trendingtopics.eu/constrct-wiener-startup-holt-sich-aws-foerderung-im-mittleren-sechsstelligen-bereich",
+        "date": "2026-05-05"
+       },
+       {
+        "name": "Wiener Startup constrct digitalisiert Baustellen-Lieferketten | Itwelt",
+        "document": "https://itwelt.at/news/wiener-startup-constrct-digitalisiert-baustellen-lieferketten",
+        "date": "2026-03-27"
+       },
+       {
+        "name": "WU Ignite Ventures investiert in die Startups constrct und NEXO",
+        "document": "https://www.trendingtopics.eu/wu-ignite-ventures-erste-investments",
+        "date": "2025-10-17"
+       },
+       {
+        "name": "Constrct | LinkedIn",
+        "document": "https://at.linkedin.com/company/constrct",
+        "date": "2026-04-22"
+       }
+      ],
+      "id": "d43e5339-b5ad-46ce-9854-05931f9f6393"
+     }
+    },
+    {
+     "id": "02f8a6c8-ee1e-43e7-bd97-1df7bd9e71cd",
+     "name": "Christoph Oswald",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "constrct.eu",
+        "document": "https://www.constrct.eu/ueber-uns",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "wu.ac.at",
+        "document": "https://www.wu.ac.at/universitaet/news-und-events/news/details-news/detail/wu-ignite-ventures",
+        "date": "2025-10-16",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "529836e0-dacd-53d7-874d-72e4cc27f25c"
+     }
+    },
+    {
+     "id": "d4feab11-dfb4-4320-a1a6-a96b4d5e617d",
+     "name": "Michael Ramel",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "Constrct – Gemeinsam die Bauwirtschaft nachhaltig gestalten",
+        "document": "https://www.constrct.eu/ueber-uns",
+        "date": "2026-01-01"
+       },
+       {
+        "name": "brutkasten.com",
+        "document": "https://brutkasten.com/artikel/constrct-wiener-startup-will-baustoffbeschaffung-digitalisieren",
+        "date": "2026-08-20"
+       },
+       {
+        "name": "Constrct: Wiener Startup holt sich aws-Förderung im mittleren sechsstelligen Bereich",
+        "document": "https://www.trendingtopics.eu/constrct-wiener-startup-holt-sich-aws-foerderung-im-mittleren-sechsstelligen-bereich",
+        "date": "2026-05-05"
+       },
+       {
+        "name": "Wiener Startup constrct digitalisiert Baustellen-Lieferketten | Itwelt",
+        "document": "https://itwelt.at/news/wiener-startup-constrct-digitalisiert-baustellen-lieferketten",
+        "date": "2026-03-27"
+       },
+       {
+        "name": "WU Ignite Ventures",
+        "document": "https://www.wu.ac.at/universitaet/news-und-events/news/details-news/detail/wu-ignite-ventures",
+        "date": "2026-07-14"
+       },
+       {
+        "name": "Constrct | LinkedIn",
+        "document": "https://at.linkedin.com/company/constrct",
+        "date": "2026-04-22"
+       }
+      ],
+      "id": "b0036850-4b3a-4370-8104-32235f79a6a5"
+     }
+    },
+    {
+     "id": "d4feab11-dfb4-4320-a1a6-a96b4d5e617d",
+     "name": "Michael Ramel",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "constrct.eu",
+        "document": "https://www.constrct.eu/ueber-uns",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "wu.ac.at",
+        "document": "https://www.wu.ac.at/universitaet/news-und-events/news/details-news/detail/wu-ignite-ventures",
+        "date": "2025-10-16",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "77399ea1-66f6-54aa-a862-59fa21cc80f0"
+     }
+    }
+   ],
+   "IS_CEO_OF": [
+    {
+     "id": "d4feab11-dfb4-4320-a1a6-a96b4d5e617d",
+     "name": "Michael Ramel",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "constrct.eu",
+        "document": "https://www.constrct.eu/ueber-uns",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "trendingtopics.eu",
+        "document": "https://www.trendingtopics.eu/constrct-wiener-startup-holt-sich-aws-foerderung-im-mittleren-sechsstelligen-bereich/",
+        "date": "2026-05-05",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "7fec29d4-6c49-5588-846b-1c6a7420db97"
+     }
+    }
+   ],
+   "IS_CTO_OF": [
+    {
+     "id": "02f8a6c8-ee1e-43e7-bd97-1df7bd9e71cd",
+     "name": "Christoph Oswald",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "constrct.eu",
+        "document": "https://www.constrct.eu/ueber-uns",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "trendingtopics.eu",
+        "document": "https://www.trendingtopics.eu/constrct-wiener-startup-holt-sich-aws-foerderung-im-mittleren-sechsstelligen-bereich/",
+        "date": "2026-05-05",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "e2deee1b-7c53-5977-b712-2939987ca0c5"
+     }
+    }
+   ],
+   "WORKS_AT": [
+    {
+     "id": "02f8a6c8-ee1e-43e7-bd97-1df7bd9e71cd",
+     "name": "Christoph Oswald",
+     "entity_type": "Person",
+     "properties": {
+      "role": "CTO",
+      "sources": [
+       {
+        "name": "Constrct – Gemeinsam die Bauwirtschaft nachhaltig gestalten",
+        "document": "https://www.constrct.eu/ueber-uns",
+        "date": "2026-01-01"
+       },
+       {
+        "name": "brutkasten.com",
+        "document": "https://brutkasten.com/artikel/constrct-wiener-startup-will-baustoffbeschaffung-digitalisieren",
+        "date": "2026-08-20"
+       },
+       {
+        "name": "Constrct: Wiener Startup holt sich aws-Förderung im mittleren sechsstelligen Bereich",
+        "document": "https://www.trendingtopics.eu/constrct-wiener-startup-holt-sich-aws-foerderung-im-mittleren-sechsstelligen-bereich",
+        "date": "2026-05-05"
+       },
+       {
+        "name": "Wiener Startup constrct digitalisiert Baustellen-Lieferketten | Itwelt",
+        "document": "https://itwelt.at/news/wiener-startup-constrct-digitalisiert-baustellen-lieferketten",
+        "date": "2026-03-27"
+       },
+       {
+        "name": "WU Ignite Ventures investiert in die Startups constrct und NEXO",
+        "document": "https://www.trendingtopics.eu/wu-ignite-ventures-erste-investments",
+        "date": "2025-10-17"
+       },
+       {
+        "name": "Constrct | LinkedIn",
+        "document": "https://at.linkedin.com/company/constrct",
+        "date": "2026-04-22"
+       }
+      ],
+      "id": "e29cc1e8-5137-4375-9cef-2c776d732c59"
+     }
+    },
+    {
+     "id": "d4feab11-dfb4-4320-a1a6-a96b4d5e617d",
+     "name": "Michael Ramel",
+     "entity_type": "Person",
+     "properties": {
+      "role": "CEO",
+      "sources": [
+       {
+        "name": "Constrct – Gemeinsam die Bauwirtschaft nachhaltig gestalten",
+        "document": "https://www.constrct.eu/ueber-uns",
+        "date": "2026-01-01"
+       },
+       {
+        "name": "brutkasten.com",
+        "document": "https://brutkasten.com/artikel/constrct-wiener-startup-will-baustoffbeschaffung-digitalisieren",
+        "date": "2026-08-20"
+       },
+       {
+        "name": "Constrct: Wiener Startup holt sich aws-Förderung im mittleren sechsstelligen Bereich",
+        "document": "https://www.trendingtopics.eu/constrct-wiener-startup-holt-sich-aws-foerderung-im-mittleren-sechsstelligen-bereich",
+        "date": "2026-05-05"
+       },
+       {
+        "name": "Wiener Startup constrct digitalisiert Baustellen-Lieferketten | Itwelt",
+        "document": "https://itwelt.at/news/wiener-startup-constrct-digitalisiert-baustellen-lieferketten",
+        "date": "2026-03-27"
+       },
+       {
+        "name": "WU Ignite Ventures",
+        "document": "https://www.wu.ac.at/universitaet/news-und-events/news/details-news/detail/wu-ignite-ventures",
+        "date": "2026-07-14"
+       },
+       {
+        "name": "Constrct | LinkedIn",
+        "document": "https://at.linkedin.com/company/constrct",
+        "date": "2026-04-22"
+       }
+      ],
+      "id": "791a2a45-dcc5-41be-89e2-b899e4f6ac31"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

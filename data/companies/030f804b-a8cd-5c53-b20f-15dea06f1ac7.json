@@ -1,0 +1,138 @@
+{
+ "id": "030f804b-a8cd-5c53-b20f-15dea06f1ac7",
+ "name": "Muuva.ai",
+ "entity_type": "Company",
+ "description": "Free CRO audit tool. Get an AI-powered landing page score across 5 conversion pillars in 60 seconds — with specific fixes to boost conversions.",
+ "properties": {
+  "name": {
+   "value": "Muuva.ai",
+   "sources": [
+    {
+     "name": "muuva.ai",
+     "document": "https://muuva.ai/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/muuva-ai",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "website": {
+   "value": "muuva.ai",
+   "sources": [
+    {
+     "name": "muuva.ai",
+     "document": "https://muuva.ai/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "dns.google",
+     "document": "https://dns.google/query?name=muuva.ai&type=A",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "Free CRO audit tool. Get an AI-powered landing page score across 5 conversion pillars in 60 seconds — with specific fixes to boost conversions.",
+   "sources": [
+    {
+     "name": "muuva.ai",
+     "document": "https://muuva.ai/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2026-01-01",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/muuva-ai",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "Kauniainen, Finland",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/muuva-ai",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "muuva.ai",
+     "document": "https://muuva.ai/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "6bee546f-e767-5874-a29d-2e8fd4e4cc72"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "8ecf5e57-a149-438c-9eb4-089809bade56",
+     "name": "SOFTWARE_AND_SERVICES",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/muuva-ai",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "bbc05213-cfad-526f-9a68-3ee59b660c63",
+      "original_label": "ai"
+     }
+    }
+   ]
+  },
+  "incoming": {}
+ },
+ "numerical_observations": []
+}

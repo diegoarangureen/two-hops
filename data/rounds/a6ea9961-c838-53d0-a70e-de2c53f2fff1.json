@@ -1,0 +1,164 @@
+{
+ "id": "a6ea9961-c838-53d0-a70e-de2c53f2fff1",
+ "name": "Series A",
+ "entity_type": "FundingRound",
+ "description": null,
+ "properties": {
+  "name": {
+   "value": "Series A",
+   "sources": [
+    {
+     "name": "find-and-update.company-information.service.gov.uk",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/13346875/filing-history/MzQxNzk1NTc1MWFkaXF6a2N4/document?format=pdf&download=0",
+     "date": "2024-04-08",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "round_label": {
+   "value": "SERIES_A",
+   "sources": [
+    {
+     "name": "find-and-update.company-information.service.gov.uk",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/13346875/filing-history/MzQxNzk1NTc1MWFkaXF6a2N4/document?format=pdf&download=0",
+     "date": "2024-04-08",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "instrument": {
+   "value": "EQUITY",
+   "sources": [
+    {
+     "name": "find-and-update.company-information.service.gov.uk",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/13346875/filing-history/MzQxNzk1NTc1MWFkaXF6a2N4/document?format=pdf&download=0",
+     "date": "2024-04-08",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "transaction_value": {
+   "value": 99999.67,
+   "sources": [
+    {
+     "name": "find-and-update.company-information.service.gov.uk",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/13346875/filing-history/MzQxNzk1NTc1MWFkaXF6a2N4/document?format=pdf&download=0",
+     "date": "2024-04-08",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "transaction_value_units": {
+   "value": "GBP",
+   "sources": [
+    {
+     "name": "find-and-update.company-information.service.gov.uk",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/13346875/filing-history/MzQxNzk1NTc1MWFkaXF6a2N4/document?format=pdf&download=0",
+     "date": "2024-04-08",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "announcement_date": {
+   "value": "2024-04-08",
+   "sources": [
+    {
+     "name": "find-and-update.company-information.service.gov.uk",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/13346875/filing-history/MzQxNzk1NTc1MWFkaXF6a2N4/document?format=pdf&download=0",
+     "date": "2024-04-08",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "event_date": {
+   "value": "2024-03-18",
+   "sources": [
+    {
+     "name": "find-and-update.company-information.service.gov.uk",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/13346875/filing-history/MzQxNzk1NTc1MWFkaXF6a2N4/document?format=pdf&download=0",
+     "date": "2024-04-08",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "annotations": {
+   "value": [
+    "derived from the sequence",
+    "No source names this round.",
+    "round_label_stated:Series A",
+    "round_label_basis:INFERRED",
+    "round_label_explanation:Unnamed equity round after rounds.1 (Seed): next label in the sequence (instructions §3.5)."
+   ],
+   "sources": []
+  }
+ },
+ "relationships": {
+  "outgoing": {},
+  "incoming": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "25a63ce4-7afe-55e4-87c7-978e07f8b5ea",
+     "name": "Sfc Nominees Limited",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "find-and-update.company-information.service.gov.uk",
+        "document": "https://find-and-update.company-information.service.gov.uk/company/13346875/filing-history/MzQzMzYyNjk5M2FkaXF6a2N4/document?format=pdf&download=0",
+        "date": "2024-08-28",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "91a4116d-c2b2-5457-b3e0-8a88659e902c"
+     }
+    },
+    {
+     "id": "2d52335c-cc90-49f5-8703-afe651facd48",
+     "name": "KCP NOMINEES LTD",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "find-and-update.company-information.service.gov.uk",
+        "document": "https://find-and-update.company-information.service.gov.uk/company/13346875/filing-history/MzQzMzYyNjk5M2FkaXF6a2N4/document?format=pdf&download=0",
+        "date": "2024-08-28",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "0c5f12f5-5053-588a-8839-eb1c6bee6f37"
+     }
+    },
+    {
+     "id": "f69cff12-800b-4a06-8b02-c9b2ad0d00c6",
+     "name": "ASTRON SYSTEMS LTD",
+     "entity_type": "Company",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "find-and-update.company-information.service.gov.uk",
+        "document": "https://find-and-update.company-information.service.gov.uk/company/13346875/filing-history/MzQxNzk1NTc1MWFkaXF6a2N4/document?format=pdf&download=0",
+        "date": "2024-04-08",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "c2dc0804-8efc-59b0-b54e-d95afa4255ba"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

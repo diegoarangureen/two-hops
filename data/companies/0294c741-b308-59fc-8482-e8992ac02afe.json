@@ -1,0 +1,315 @@
+{
+ "id": "0294c741-b308-59fc-8482-e8992ac02afe",
+ "name": "Ver.iD",
+ "entity_type": "Company",
+ "description": "Ver.iD helps organisations issue and verify digital credentials, with a platform and guidance from design to implementation.",
+ "properties": {
+  "name": {
+   "value": "Ver.iD",
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2025/01/ver-id-raises-e2-million-and-sets-course-for-e4-million-to-fuel-european-expansion/",
+     "date": "2025-01-01",
+     "date_precision": "month",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "Subst.iD B.V.",
+   "sources": [
+    {
+     "name": "ver.id",
+     "document": "https://ver.id/trust-center/privacy-policy",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "ver.id",
+     "document": "https://ver.id/about",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "siliconangle.com",
+     "document": "https://siliconangle.com/2025/01/02/digital-identity-verification-startup-ver-id-raises-e2m-help-euro-firms-adhere-eidas-2-0/",
+     "date": "2025-01-02",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "website": {
+   "value": "ver.id",
+   "sources": [
+    {
+     "name": "ver.id",
+     "document": "https://ver.id/",
+     "date": "2026-10-29",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "dns.google",
+     "document": "https://dns.google/query?name=ver.id&type=A",
+     "date": "2026-10-29",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "Ver.iD helps organisations issue and verify digital credentials, with a platform and guidance from design to implementation.",
+   "sources": [
+    {
+     "name": "ver.id",
+     "document": "https://ver.id/",
+     "date": "2026-11-03",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2022-01-01",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/ver-id/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "ver.id",
+     "document": "https://ver.id/",
+     "date": "2026-11-03",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "employee_count_range": {
+   "value": [
+    11,
+    50
+   ],
+   "sources": [
+    {
+     "name": "extruct.ai",
+     "document": "https://www.extruct.ai/hub/ver-id/",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "total_funding": {
+   "value": 2000000.0,
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2025/01/ver-id-raises-e2-million-and-sets-course-for-e4-million-to-fuel-european-expansion/",
+     "date": "2025-01-01",
+     "date_precision": "month",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "total_funding_units": {
+   "value": "EUR",
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2025/01/ver-id-raises-e2-million-and-sets-course-for-e4-million-to-fuel-european-expansion/",
+     "date": "2025-01-01",
+     "date_precision": "month",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "total_funding_excluding_debt": {
+   "value": 2000000.0,
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2025/01/ver-id-raises-e2-million-and-sets-course-for-e4-million-to-fuel-european-expansion/",
+     "date": "2025-01-01",
+     "date_precision": "month",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "funding_stage": {
+   "value": "PRE_SEED",
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2025/01/ver-id-raises-e2-million-and-sets-course-for-e4-million-to-fuel-european-expansion/",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "siliconcanals.com",
+     "document": "https://siliconcanals.com/amsterdams-ver-id-secures-e2m/",
+     "date": "2025-01-02",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "techfundingnews.com",
+     "document": "https://techfundingnews.com/adyen-of-digital-identity-platforms-ver-id-raises-e2m-for-european-expansion/",
+     "date": "2025-01-02",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "12d68949-9dd8-59bb-8748-0ea4cce778d2",
+     "name": "Angel",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "eu-startups.com",
+        "document": "https://www.eu-startups.com/2025/01/ver-id-raises-e2-million-and-sets-course-for-e4-million-to-fuel-european-expansion/",
+        "date": "2026-11-04",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "dc0aff61-7c12-5dc3-afa8-a6c38e2729ee"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "e80f3676-8eb2-524c-a4bd-4e165d246fce"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "8ecf5e57-a149-438c-9eb4-089809bade56",
+     "name": "SOFTWARE_AND_SERVICES",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/ver-id/",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "69167013-2344-5241-973b-094563681828",
+      "original_label": "cyber"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "FOUNDED": [
+    {
+     "id": "08ba995b-c7b5-50e3-8094-8bf61e95b614",
+     "name": "Roger Olivieira",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "techfundingnews.com",
+        "document": "https://techfundingnews.com/adyen-of-digital-identity-platforms-ver-id-raises-e2m-for-european-expansion/",
+        "date": "2025-01-02",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "24b3ec64-2131-5d1d-b57c-32b19af905e9"
+     }
+    },
+    {
+     "id": "0b57e6d8-431e-5936-9cdb-aad65273c805",
+     "name": "Robert van Altena",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "techfundingnews.com",
+        "document": "https://techfundingnews.com/adyen-of-digital-identity-platforms-ver-id-raises-e2m-for-european-expansion/",
+        "date": "2025-01-02",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "712b6605-0a75-5510-a2eb-f2386a67f144"
+     }
+    },
+    {
+     "id": "501e6a5f-f132-5992-9d2e-af820add1cad",
+     "name": "Sten Reijers",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "techfundingnews.com",
+        "document": "https://techfundingnews.com/adyen-of-digital-identity-platforms-ver-id-raises-e2m-for-european-expansion/",
+        "date": "2025-01-02",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "55ee8f9a-77e8-5234-b276-07f209d209a7"
+     }
+    }
+   ],
+   "IS_CEO_OF": [
+    {
+     "id": "0b57e6d8-431e-5936-9cdb-aad65273c805",
+     "name": "Robert van Altena",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "siliconangle.com",
+        "document": "https://siliconangle.com/2025/01/02/digital-identity-verification-startup-ver-id-raises-e2m-help-euro-firms-adhere-eidas-2-0/",
+        "date": "2025-01-02",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "3bb4575b-8b13-5278-ac88-174135c34c5d"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

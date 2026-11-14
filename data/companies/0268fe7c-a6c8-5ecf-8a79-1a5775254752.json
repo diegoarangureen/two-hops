@@ -1,0 +1,202 @@
+{
+ "id": "0268fe7c-a6c8-5ecf-8a79-1a5775254752",
+ "name": "Eka Labs AI",
+ "entity_type": "Company",
+ "description": "Eka Labs is a research and deployment lab building autonomous agents for the physically constrained world: systems trained, evaluated, and continually improved around real operational constraints.",
+ "properties": {
+  "name": {
+   "value": "Eka Labs AI",
+   "sources": [
+    {
+     "name": "ekalabs.ai",
+     "document": "https://ekalabs.ai/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "Eka Labs GmbH",
+   "sources": [
+    {
+     "name": "ekalabs.ai",
+     "document": "https://ekalabs.ai/imprint",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "website": {
+   "value": "ekalabs.ai",
+   "sources": [
+    {
+     "name": "ekalabs.ai",
+     "document": "https://ekalabs.ai/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "dns.google",
+     "document": "https://dns.google/query?name=ekalabs.ai&type=A",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "Eka Labs is a research and deployment lab building autonomous agents for the physically constrained world: systems trained, evaluated, and continually improved around real operational constraints.",
+   "sources": [
+    {
+     "name": "ekalabs.ai",
+     "document": "https://ekalabs.ai/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "Dusseldorf, Germany",
+   "sources": [
+    {
+     "name": "ekalabs.ai",
+     "document": "https://ekalabs.ai/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "ekalabs.ai",
+     "document": "https://ekalabs.ai/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "funding_stage": {
+   "value": "PRE_SEED",
+   "sources": [
+    {
+     "name": "nordic9.com",
+     "document": "https://nordic9.com/news/eka-labs-in-a-pre-seed-funding-round-led-by-m/",
+     "date": "2026-07-31",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "e18f0123-976d-5cbf-bc70-a5ced3a2bff9",
+     "name": "Pre-Seed",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "nordic9.com",
+        "document": "https://nordic9.com/news/eka-labs-in-a-pre-seed-funding-round-led-by-m/",
+        "date": "2026-07-31",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "391d38f7-864b-5583-9467-6687c6dd9358"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "1686ccdd-25ce-5488-9033-e80343157c04"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "8ecf5e57-a149-438c-9eb4-089809bade56",
+     "name": "SOFTWARE_AND_SERVICES",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "ekalabs.ai",
+        "document": "https://ekalabs.ai/",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "46eaf752-ecdc-56ca-a405-04453e79ca7e",
+      "original_label": "ai"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "INVESTED_IN": [
+    {
+     "id": "d620445b-a935-439c-9684-ef6481170ee6",
+     "name": "Marathon Venture Capital",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "nordic9.com",
+        "document": "https://nordic9.com/news/eka-labs-in-a-pre-seed-funding-round-led-by-m/",
+        "date": "2026-07-31",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "572a4d96-1c28-4b12-a422-905177926f83"
+     }
+    }
+   ],
+   "FOUNDED": [
+    {
+     "id": "b3351e0e-de8b-5349-b4cc-0e379bfe0395",
+     "name": "Kuldeep Singh",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "nordic9.com",
+        "document": "https://nordic9.com/companies/eka-labs/",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "54a1f5c5-81e5-5d93-8e72-1ce334957c8a"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

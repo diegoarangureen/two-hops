@@ -1,0 +1,150 @@
+{
+ "id": "02c660f0-861d-57f2-b667-77c8b641e2de",
+ "name": "Cleandex Technologies",
+ "entity_type": "Company",
+ "description": "A renewable energy company founded in 2025 and headquartered in Pune, India.",
+ "properties": {
+  "name": {
+   "value": "Cleandex Technologies",
+   "sources": [
+    {
+     "name": "cleandex.in",
+     "document": "https://cleandex.in/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/cleandex-technologies",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "Cleandex Technologies Pvt. Ltd.",
+   "sources": [
+    {
+     "name": "cleandex.in",
+     "document": "https://cleandex.in/privacy-policy",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "website": {
+   "value": "cleandex.in",
+   "sources": [
+    {
+     "name": "cleandex.in",
+     "document": "https://cleandex.in/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "dns.google",
+     "document": "https://dns.google/query?name=cleandex.in&type=A",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "A renewable energy company founded in 2025 and headquartered in Pune, India.",
+   "sources": [
+    {
+     "name": "Cala AI",
+     "document": "",
+     "date": "2026-11-13",
+     "date_precision": null,
+     "source_rank": null
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2025-01-01",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/cleandex-technologies",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "Pune, India",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/cleandex-technologies",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "cleandex.in",
+     "document": "https://cleandex.in/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "9a15305b-6569-56f4-b14a-cb55e565a1a1"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "11ce48e0-a853-4085-8142-f674977b1a3a",
+     "name": "RENEWABLE_ENERGY",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/cleandex-technologies",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "2d387eed-3253-5768-a3a1-377e2fccb8f9",
+      "original_label": "cleantech"
+     }
+    }
+   ]
+  },
+  "incoming": {}
+ },
+ "numerical_observations": []
+}

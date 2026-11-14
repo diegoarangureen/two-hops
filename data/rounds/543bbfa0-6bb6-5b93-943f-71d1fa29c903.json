@@ -1,0 +1,314 @@
+{
+ "id": "543bbfa0-6bb6-5b93-943f-71d1fa29c903",
+ "name": "Pre-Seed",
+ "entity_type": "FundingRound",
+ "description": null,
+ "properties": {
+  "name": {
+   "value": "Pre-Seed",
+   "sources": [
+    {
+     "name": "startuprise.co.uk",
+     "document": "https://startuprise.co.uk/jawbuddy-raises-e818k/",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "startupresearcher.com",
+     "document": "https://www.startupresearcher.com/news/jawbuddy-raises-818-000-pre-seed-round",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "round_label": {
+   "value": "PRE_SEED",
+   "sources": [
+    {
+     "name": "startuprise.co.uk",
+     "document": "https://startuprise.co.uk/jawbuddy-raises-e818k/",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "startupresearcher.com",
+     "document": "https://www.startupresearcher.com/news/jawbuddy-raises-818-000-pre-seed-round",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "instrument": {
+   "value": "EQUITY",
+   "sources": [
+    {
+     "name": "startbase.de",
+     "document": "https://www.startbase.de/news/jawbuddy-holt-sich-818-000-euro-gegen-kieferschmerzen/",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "transaction_value": {
+   "value": 818000.0,
+   "sources": [
+    {
+     "name": "startbase.de",
+     "document": "https://www.startbase.de/news/jawbuddy-holt-sich-818-000-euro-gegen-kieferschmerzen/",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "startuprise.co.uk",
+     "document": "https://startuprise.co.uk/jawbuddy-raises-e818k/",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "startupresearcher.com",
+     "document": "https://www.startupresearcher.com/news/jawbuddy-raises-818-000-pre-seed-round",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "transaction_value_units": {
+   "value": "EUR",
+   "sources": [
+    {
+     "name": "startbase.de",
+     "document": "https://www.startbase.de/news/jawbuddy-holt-sich-818-000-euro-gegen-kieferschmerzen/",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "startuprise.co.uk",
+     "document": "https://startuprise.co.uk/jawbuddy-raises-e818k/",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "startupresearcher.com",
+     "document": "https://www.startupresearcher.com/news/jawbuddy-raises-818-000-pre-seed-round",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "announcement_date": {
+   "value": "2026-11-04",
+   "sources": [
+    {
+     "name": "startbase.de",
+     "document": "https://www.startbase.de/news/jawbuddy-holt-sich-818-000-euro-gegen-kieferschmerzen/",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "startuprise.co.uk",
+     "document": "https://startuprise.co.uk/jawbuddy-raises-e818k/",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "annotations": {
+   "value": [
+    "Called a pre-seed round by startuprise.co.uk and startupresearcher.com; startbase.de gives no round name.",
+    "round_label_stated:Pre-Seed"
+   ],
+   "sources": []
+  }
+ },
+ "relationships": {
+  "outgoing": {},
+  "incoming": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "026c38cd-48b9-45b8-a0a1-4a745d91d507",
+     "name": "JawBuddy",
+     "entity_type": "Company",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "startuprise.co.uk",
+        "document": "https://startuprise.co.uk/jawbuddy-raises-e818k/",
+        "date": "2026-11-04",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "startupresearcher.com",
+        "document": "https://www.startupresearcher.com/news/jawbuddy-raises-818-000-pre-seed-round",
+        "date": "2026-11-04",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "e8368a38-f5fe-5177-9b04-6bfce683cb13"
+     }
+    },
+    {
+     "id": "10d6d898-7bd8-5fa2-b9d4-4e275332ae31",
+     "name": "Siegfried Marquardt",
+     "entity_type": "Person",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "startbase.de",
+        "document": "https://www.startbase.de/news/jawbuddy-holt-sich-818-000-euro-gegen-kieferschmerzen/",
+        "date": "2026-11-04",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "6720d653-cd4d-5e1f-86b4-38fa1928b1af"
+     }
+    },
+    {
+     "id": "51cec6c1-2b75-54f3-bb3e-a9e761a4a38d",
+     "name": "Aldrich Huang",
+     "entity_type": "Person",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "startbase.de",
+        "document": "https://www.startbase.de/news/jawbuddy-holt-sich-818-000-euro-gegen-kieferschmerzen/",
+        "date": "2026-11-04",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "cfae8682-ec65-5228-ac16-060786d3a1d0"
+     }
+    },
+    {
+     "id": "65bcbe0d-117c-5e19-82d0-6f29b0a4741e",
+     "name": "HALBZEIT",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "startbase.de",
+        "document": "https://www.startbase.de/news/jawbuddy-holt-sich-818-000-euro-gegen-kieferschmerzen/",
+        "date": "2026-11-04",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "is_lead": true,
+      "id": "6cbbd5cc-e3f9-5618-a179-be3d1c6c41d5"
+     }
+    },
+    {
+     "id": "9e93053d-5ba6-5ec5-8385-75170114548e",
+     "name": "Guido Sigron",
+     "entity_type": "Person",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "startbase.de",
+        "document": "https://www.startbase.de/news/jawbuddy-holt-sich-818-000-euro-gegen-kieferschmerzen/",
+        "date": "2026-11-04",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "7a61e69d-dd7d-5022-8379-5767f6ff39e3"
+     }
+    },
+    {
+     "id": "a52ec38c-c7d5-5108-a689-075261392c46",
+     "name": "Christophe Barriolade",
+     "entity_type": "Person",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "startbase.de",
+        "document": "https://www.startbase.de/news/jawbuddy-holt-sich-818-000-euro-gegen-kieferschmerzen/",
+        "date": "2026-11-04",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "f755d42c-8cac-5b59-847b-cf0b9d85b0bf"
+     }
+    },
+    {
+     "id": "c3e91419-285f-57c9-a6cc-76558712f3ce",
+     "name": "Jens Kosche",
+     "entity_type": "Person",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "startbase.de",
+        "document": "https://www.startbase.de/news/jawbuddy-holt-sich-818-000-euro-gegen-kieferschmerzen/",
+        "date": "2026-11-04",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "1d91ace7-7fe6-5852-a3fb-81ec6590c571"
+     }
+    },
+    {
+     "id": "e1f9bf10-ae59-4e3b-b434-9d3a206036a0",
+     "name": "Mittelständische Beteiligungsgesellschaft Sachsen mbH",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "startbase.de",
+        "document": "https://www.startbase.de/news/jawbuddy-holt-sich-818-000-euro-gegen-kieferschmerzen/",
+        "date": "2026-11-04",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "2d38b60b-257c-5da5-b8bb-20d032061c28"
+     }
+    },
+    {
+     "id": "e727f30c-2c0c-5b3e-b928-a18ced35ed82",
+     "name": "Marc Scheidegger",
+     "entity_type": "Person",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "startbase.de",
+        "document": "https://www.startbase.de/news/jawbuddy-holt-sich-818-000-euro-gegen-kieferschmerzen/",
+        "date": "2026-11-04",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "9a6086bc-6818-531e-ba6e-b44e088a9724"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

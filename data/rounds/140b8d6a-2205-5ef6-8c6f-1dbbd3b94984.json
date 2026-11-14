@@ -1,0 +1,145 @@
+{
+ "id": "140b8d6a-2205-5ef6-8c6f-1dbbd3b94984",
+ "name": "Seed",
+ "entity_type": "FundingRound",
+ "description": null,
+ "properties": {
+  "name": {
+   "value": "Seed",
+   "sources": [
+    {
+     "name": "myhelsinki.fi",
+     "document": "https://www.myhelsinki.fi/business/invest/india-finland-medtech-helsinki/",
+     "date": "2025-10-20",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "avoindata.prh.fi",
+     "document": "https://avoindata.prh.fi/opendata-registerednotices-api/v3/3451402-6",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "round_label": {
+   "value": "SEED",
+   "sources": [
+    {
+     "name": "myhelsinki.fi",
+     "document": "https://www.myhelsinki.fi/business/invest/india-finland-medtech-helsinki/",
+     "date": "2025-10-20",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "avoindata.prh.fi",
+     "document": "https://avoindata.prh.fi/opendata-registerednotices-api/v3/3451402-6",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "instrument": {
+   "value": "EQUITY",
+   "sources": [
+    {
+     "name": "myhelsinki.fi",
+     "document": "https://www.myhelsinki.fi/business/invest/india-finland-medtech-helsinki/",
+     "date": "2025-10-20",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "avoindata.prh.fi",
+     "document": "https://avoindata.prh.fi/opendata-registerednotices-api/v3/3451402-6",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "announcement_date": {
+   "value": "2025-10-20",
+   "sources": [
+    {
+     "name": "myhelsinki.fi",
+     "document": "https://www.myhelsinki.fi/business/invest/india-finland-medtech-helsinki/",
+     "date": "2025-10-20",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "annotations": {
+   "value": [
+    "No source names the round; MyHelsinki calls the backer an 'angel investor'. Label left to the sequence derivation.",
+    "round_label_stated:Seed",
+    "round_label_basis:INFERRED",
+    "round_label_explanation:First equity round of the company (rounds.0), unnamed: Seed (instructions §3.5)."
+   ],
+   "sources": []
+  }
+ },
+ "relationships": {
+  "outgoing": {},
+  "incoming": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "0308fa64-c665-4bdb-a07e-5fd5cafdcb23",
+     "name": "FuODigital Oy",
+     "entity_type": "Company",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "myhelsinki.fi",
+        "document": "https://www.myhelsinki.fi/business/invest/india-finland-medtech-helsinki/",
+        "date": "2025-10-20",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "avoindata.prh.fi",
+        "document": "https://avoindata.prh.fi/opendata-registerednotices-api/v3/3451402-6",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "45112086-27d5-526b-96da-fdfa642b82ab"
+     }
+    },
+    {
+     "id": "0e1c246e-15d0-538a-a350-500890d35436",
+     "name": "Rajesh Manthena",
+     "entity_type": "Organization",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "myhelsinki.fi",
+        "document": "https://www.myhelsinki.fi/business/invest/india-finland-medtech-helsinki/",
+        "date": "2025-10-20",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "fuodigital.com",
+        "document": "https://fuodigital.com/company/team",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "is_lead": true,
+      "id": "b491bd76-2dd8-5290-8b05-18065e8da1bd"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

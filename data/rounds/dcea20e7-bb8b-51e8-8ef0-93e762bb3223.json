@@ -1,0 +1,160 @@
+{
+ "id": "dcea20e7-bb8b-51e8-8ef0-93e762bb3223",
+ "name": "Series A",
+ "entity_type": "FundingRound",
+ "description": null,
+ "properties": {
+  "name": {
+   "value": "Series A",
+   "sources": [
+    {
+     "name": "globenewswire.com",
+     "document": "https://www.globenewswire.com/en/news-release/2022/04/21/2426085/0/en/Planhat-the-Next-Generation-Customer-Platform-Raises-50-Million-Series-A.html",
+     "date": "2022-04-21",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "round_label": {
+   "value": "SERIES_A",
+   "sources": [
+    {
+     "name": "globenewswire.com",
+     "document": "https://www.globenewswire.com/en/news-release/2022/04/21/2426085/0/en/Planhat-the-Next-Generation-Customer-Platform-Raises-50-Million-Series-A.html",
+     "date": "2022-04-21",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "instrument": {
+   "value": "EQUITY",
+   "sources": [
+    {
+     "name": "globenewswire.com",
+     "document": "https://www.globenewswire.com/en/news-release/2022/04/21/2426085/0/en/Planhat-the-Next-Generation-Customer-Platform-Raises-50-Million-Series-A.html",
+     "date": "2022-04-21",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "transaction_value": {
+   "value": 50000000.0,
+   "sources": [
+    {
+     "name": "globenewswire.com",
+     "document": "https://www.globenewswire.com/en/news-release/2022/04/21/2426085/0/en/Planhat-the-Next-Generation-Customer-Platform-Raises-50-Million-Series-A.html",
+     "date": "2022-04-21",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "siliconcanals.com",
+     "document": "https://siliconcanals.com/news/startups/stockholm-saas-planhat-gets-46m/",
+     "date": "2022-04-21",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "transaction_value_units": {
+   "value": "USD",
+   "sources": [
+    {
+     "name": "globenewswire.com",
+     "document": "https://www.globenewswire.com/en/news-release/2022/04/21/2426085/0/en/Planhat-the-Next-Generation-Customer-Platform-Raises-50-Million-Series-A.html",
+     "date": "2022-04-21",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "siliconcanals.com",
+     "document": "https://siliconcanals.com/news/startups/stockholm-saas-planhat-gets-46m/",
+     "date": "2022-04-21",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "announcement_date": {
+   "value": "2022-04-21",
+   "sources": [
+    {
+     "name": "globenewswire.com",
+     "document": "https://www.globenewswire.com/en/news-release/2022/04/21/2426085/0/en/Planhat-the-Next-Generation-Customer-Platform-Raises-50-Million-Series-A.html",
+     "date": "2022-04-21",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "siliconcanals.com",
+     "document": "https://siliconcanals.com/news/startups/stockholm-saas-planhat-gets-46m/",
+     "date": "2022-04-21",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "annotations": {
+   "value": [
+    "Named Series A in the company release.",
+    "round_label_stated:Series A"
+   ],
+   "sources": []
+  }
+ },
+ "relationships": {
+  "outgoing": {},
+  "incoming": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "025f6b61-7efa-4427-80ae-10d9d2884aa7",
+     "name": "Planhat AB",
+     "entity_type": "Company",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "globenewswire.com",
+        "document": "https://www.globenewswire.com/en/news-release/2022/04/21/2426085/0/en/Planhat-the-Next-Generation-Customer-Platform-Raises-50-Million-Series-A.html",
+        "date": "2022-04-21",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "b1aaffb4-3ea1-53d1-a684-d8af42b1969d"
+     }
+    },
+    {
+     "id": "66858cef-59f1-4951-81a5-5ff15750aaf5",
+     "name": "Sprints",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "globenewswire.com",
+        "document": "https://www.globenewswire.com/en/news-release/2022/04/21/2426085/0/en/Planhat-the-Next-Generation-Customer-Platform-Raises-50-Million-Series-A.html",
+        "date": "2022-04-21",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "siliconcanals.com",
+        "document": "https://siliconcanals.com/news/startups/stockholm-saas-planhat-gets-46m/",
+        "date": "2022-04-21",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "is_lead": true,
+      "id": "3d4a5e5b-8f9e-5be1-90e6-f0816205e15a"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

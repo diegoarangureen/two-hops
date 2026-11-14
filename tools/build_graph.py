@@ -25,6 +25,7 @@ both ways, one financing recorded as two entities), and each flag says what it i
 import collections
 import datetime
 import json
+import os
 import pathlib
 import re
 import sys
@@ -551,7 +552,10 @@ def main():
              "nodes": sorted(b.nodes.values(), key=lambda n: n["id"]),
              "edges": sorted(b.edges.values(), key=lambda e: e["id"]),
              "attendees": attendees}
-    OUT.write_text(json.dumps(graph, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+    # written whole, then renamed: a server reading the file never sees half of it
+    tmp = OUT.with_suffix(".json.tmp")
+    tmp.write_text(json.dumps(graph, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+    os.replace(tmp, OUT)
 
     c = meta["counts"]
     print(f"data/graph.json: {OUT.stat().st_size / 1024:.0f} KB")

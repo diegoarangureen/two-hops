@@ -1,0 +1,252 @@
+{
+ "id": "026aa4f7-d92c-5c5d-83c7-1301a56f010c",
+ "name": "VISS GmbH",
+ "entity_type": "Company",
+ "description": "The Condom for your PC. Official Site: viss.cc",
+ "properties": {
+  "name": {
+   "value": "VISS GmbH",
+   "sources": [
+    {
+     "name": "viss.cc",
+     "document": "https://viss.cc/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/viss-cybersecurity-pixels-dont-byte",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "VISS GmbH",
+   "sources": [
+    {
+     "name": "viss.cc",
+     "document": "https://www.viss.cc/legal",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "website": {
+   "value": "viss.cc",
+   "sources": [
+    {
+     "name": "viss.cc",
+     "document": "https://viss.cc/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "dns.google",
+     "document": "https://dns.google/query?name=viss.cc&type=A",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "The Condom for your PC. Official Site: viss.cc",
+   "sources": [
+    {
+     "name": "viss.cc",
+     "document": "https://viss.cc/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2023-01-01",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/viss-cybersecurity-pixels-dont-byte",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "Kehl, Germany",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/viss-cybersecurity-pixels-dont-byte",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "viss.cc",
+     "document": "https://viss.cc/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "total_funding": {
+   "value": 798856.0,
+   "sources": [
+    {
+     "name": "foerderportal.bund.de",
+     "document": "https://foerderportal.bund.de/foekat/jsp/SucheAction.do?actionMode=view&fkz=16KIS2348",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "total_funding_units": {
+   "value": "EUR",
+   "sources": [
+    {
+     "name": "foerderportal.bund.de",
+     "document": "https://foerderportal.bund.de/foekat/jsp/SucheAction.do?actionMode=view&fkz=16KIS2348",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "total_funding_excluding_debt": {
+   "value": 798856.0,
+   "sources": [
+    {
+     "name": "foerderportal.bund.de",
+     "document": "https://foerderportal.bund.de/foekat/jsp/SucheAction.do?actionMode=view&fkz=16KIS2348",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "eda93324-fbd0-5867-8297-3587146c20c7",
+     "name": "Grant",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "foerderportal.bund.de",
+        "document": "https://foerderportal.bund.de/foekat/jsp/SucheAction.do?actionMode=view&fkz=16KIS2348",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "62f51de8-1703-58e7-bfa0-2ec30c6a7f51"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "86f6d0f3-21a9-5237-bce1-3cc3e43213f9"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "8ecf5e57-a149-438c-9eb4-089809bade56",
+     "name": "SOFTWARE_AND_SERVICES",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/viss-cybersecurity-pixels-dont-byte",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "33c6f875-53d4-5a98-a3af-703b6fd6584f",
+      "original_label": "cyber"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "FOUNDED": [
+    {
+     "id": "82a46b50-ca22-52a7-97e5-6f838f283b12",
+     "name": "Maximilian von Lonski",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "cispa.de",
+        "document": "https://cispa.de/en/viss-interview",
+        "date": "2026-03-25",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "61997d72-ee05-5e50-b9f9-9afa48ee0657"
+     }
+    }
+   ],
+   "IS_CEO_OF": [
+    {
+     "id": "82a46b50-ca22-52a7-97e5-6f838f283b12",
+     "name": "Maximilian von Lonski",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "viss.cc",
+        "document": "https://www.viss.cc/about",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "cispa.de",
+        "document": "https://cispa.de/en/viss-interview",
+        "date": "2026-03-25",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "00a1c9f4-1749-5bf1-aa72-fa3f50644af5"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

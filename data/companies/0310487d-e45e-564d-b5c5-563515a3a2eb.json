@@ -1,0 +1,425 @@
+{
+ "id": "0310487d-e45e-564d-b5c5-563515a3a2eb",
+ "name": "Kaivo",
+ "entity_type": "Company",
+ "description": "Kaivo brings every system you run into one managed BigQuery warehouse with 500+ ready-made connectors. One source of truth for your AI and BI tools.",
+ "properties": {
+  "name": {
+   "value": "Kaivo",
+   "sources": [
+    {
+     "name": "kaivo.io",
+     "document": "https://kaivo.io/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/kaivoio",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "QuickBI Oy",
+   "sources": [
+    {
+     "name": "kaivo.io",
+     "document": "https://www.kaivo.io/",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "avoindata.prh.fi",
+     "document": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies?businessId=2866156-4",
+     "date": "2017-11-16",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "aliases": {
+   "value": [
+    "QuickBI",
+    "Kaivo Solutions",
+    "quickbi.io"
+   ],
+   "sources": []
+  },
+  "website": {
+   "value": "kaivo.io",
+   "sources": [
+    {
+     "name": "kaivo.io",
+     "document": "https://kaivo.io/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "dns.google",
+     "document": "https://dns.google/query?name=kaivo.io&type=A",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "Kaivo brings every system you run into one managed BigQuery warehouse with 500+ ready-made connectors. One source of truth for your AI and BI tools.",
+   "sources": [
+    {
+     "name": "kaivo.io",
+     "document": "https://kaivo.io/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2017-11-16",
+   "sources": [
+    {
+     "name": "avoindata.prh.fi",
+     "document": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies?businessId=2866156-4",
+     "date": "2017-11-16",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/kaivoio",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "Helsinki, Finland",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/kaivoio",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "kaivo.io",
+     "document": "https://kaivo.io/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "avoindata.prh.fi",
+     "document": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies?businessId=2866156-4",
+     "date": "2026-11-11",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/kaivoio",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "employee_count_range": {
+   "value": [
+    11,
+    50
+   ],
+   "sources": [
+    {
+     "name": "app.dealroom.co",
+     "document": "https://app.dealroom.co/companies/quickbi/team",
+     "date": "2026-11-11",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "total_funding": {
+   "value": 290000.0,
+   "sources": [
+    {
+     "name": "bouncewatch.com",
+     "document": "https://bouncewatch.com/company/quickbi-oy",
+     "date": "2025-11-13",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "total_funding_units": {
+   "value": "EUR",
+   "sources": [
+    {
+     "name": "bouncewatch.com",
+     "document": "https://bouncewatch.com/company/quickbi-oy",
+     "date": "2025-11-13",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "total_funding_excluding_debt": {
+   "value": 290000.0,
+   "sources": [
+    {
+     "name": "bouncewatch.com",
+     "document": "https://bouncewatch.com/company/quickbi-oy",
+     "date": "2025-11-13",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "funding_stage": {
+   "value": "SERIES_A",
+   "sources": [
+    {
+     "name": "bouncewatch.com",
+     "document": "https://bouncewatch.com/company/quickbi-oy",
+     "date": "2025-11-13",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "49ef8ae2-9380-5677-a65e-320948c43691",
+     "name": "Seed",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "bouncewatch.com",
+        "document": "https://bouncewatch.com/company/quickbi-oy",
+        "date": "2025-11-13",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "05fb13db-31c0-570b-94e1-f60b2f42022f"
+     }
+    },
+    {
+     "id": "839612a6-f58b-508a-91e0-0aba3b16d4cf",
+     "name": "Grant",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "bouncewatch.com",
+        "document": "https://bouncewatch.com/company/quickbi-oy",
+        "date": "2025-11-13",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "453d870b-4ae5-5527-a452-1e898166b30a"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "fdbb4669-6de7-5c56-91fb-1a64cc400860"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "8ecf5e57-a149-438c-9eb4-089809bade56",
+     "name": "SOFTWARE_AND_SERVICES",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/kaivoio",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "6d7ead65-ab45-599b-9d24-3956754b43e9",
+      "original_label": "analytics"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "INVESTED_IN": [
+    {
+     "id": "ef34330a-18ea-421b-92dc-bc73a3dcaf36",
+     "name": "Sontek Oy",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "bouncewatch.com",
+        "document": "https://bouncewatch.com/company/quickbi-oy",
+        "date": "2025-11-13",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       },
+       {
+        "name": "sontek.fi",
+        "document": "https://sontek.fi/portfolio/quickbi",
+        "date": "2026-11-11",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "351a24be-9625-46b1-9d9c-b3d2f8bd8d88"
+     }
+    }
+   ],
+   "FOUNDED": [
+    {
+     "id": "0d169e5e-cc59-51aa-91eb-1cfbf7ef8016",
+     "name": "Antti Korpi",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "kaivo.io",
+        "document": "https://www.kaivo.io/about",
+        "date": "2026-11-11",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "ae5997be-94a9-53f4-824d-0465d7fa68ca"
+     }
+    },
+    {
+     "id": "2c94203c-e9c5-55ae-9c70-24a414d7ffae",
+     "name": "Eero Vehmanen",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "kaivo.io",
+        "document": "https://www.kaivo.io/about",
+        "date": "2026-11-11",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "e3cdb4bb-c05f-501d-a9c5-2727476ac79e"
+     }
+    },
+    {
+     "id": "9100a801-1ddb-5db9-9078-a7898c909a36",
+     "name": "Lauri Raivio",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "kaivo.io",
+        "document": "https://www.kaivo.io/about",
+        "date": "2026-11-11",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "a1ad2a86-bb20-5cad-8b03-6a49be168f4b"
+     }
+    }
+   ],
+   "IS_CEO_OF": [
+    {
+     "id": "0d169e5e-cc59-51aa-91eb-1cfbf7ef8016",
+     "name": "Antti Korpi",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "kaivo.io",
+        "document": "https://www.kaivo.io/about",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "bfe6ae5e-d400-5a00-b07d-2d97862d024b"
+     }
+    }
+   ],
+   "IS_CTO_OF": [
+    {
+     "id": "9100a801-1ddb-5db9-9078-a7898c909a36",
+     "name": "Lauri Raivio",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "kaivo.io",
+        "document": "https://www.kaivo.io/about",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "484cab49-f7a1-5944-8f51-1c76f1d6069c"
+     }
+    }
+   ],
+   "WORKS_AT": [
+    {
+     "id": "2c94203c-e9c5-55ae-9c70-24a414d7ffae",
+     "name": "Eero Vehmanen",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Lead Developer",
+      "sources": [
+       {
+        "name": "kaivo.io",
+        "document": "https://www.kaivo.io/about",
+        "date": "2026-11-11",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "18d09360-a1d3-530f-9f21-806379748c1f"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

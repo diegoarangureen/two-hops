@@ -289,7 +289,15 @@ export function getGraph(): Graph {
     h.checked = now;
     return h.graph;
   }
-  const graph = load();
+  let graph: Graph;
+  try {
+    graph = load();
+  } catch (e) {
+    // a graph file that cannot be read (caught mid-rewrite, say): keep serving the one already in memory
+    if (!h) throw e;
+    h.checked = now;
+    return h.graph;
+  }
   holder.__twoHopsGraph = { graph, mtime, checked: now };
   return graph;
 }

@@ -1,0 +1,162 @@
+{
+ "id": "49ef8ae2-9380-5677-a65e-320948c43691",
+ "name": "Seed",
+ "entity_type": "FundingRound",
+ "description": null,
+ "properties": {
+  "name": {
+   "value": "Seed",
+   "sources": [
+    {
+     "name": "bouncewatch.com",
+     "document": "https://bouncewatch.com/company/quickbi-oy",
+     "date": "2025-11-13",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "aliases": {
+   "value": [
+    "Series A"
+   ],
+   "sources": []
+  },
+  "round_label": {
+   "value": "SEED",
+   "sources": [
+    {
+     "name": "bouncewatch.com",
+     "document": "https://bouncewatch.com/company/quickbi-oy",
+     "date": "2025-11-13",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "instrument": {
+   "value": "EQUITY",
+   "sources": [
+    {
+     "name": "bouncewatch.com",
+     "document": "https://bouncewatch.com/company/quickbi-oy",
+     "date": "2025-11-13",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "transaction_value": {
+   "value": 90000.0,
+   "sources": [
+    {
+     "name": "bouncewatch.com",
+     "document": "https://bouncewatch.com/company/quickbi-oy",
+     "date": "2025-11-13",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "transaction_value_units": {
+   "value": "EUR",
+   "sources": [
+    {
+     "name": "bouncewatch.com",
+     "document": "https://bouncewatch.com/company/quickbi-oy",
+     "date": "2025-11-13",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "announcement_date": {
+   "value": "2025-11-13",
+   "sources": [
+    {
+     "name": "bouncewatch.com",
+     "document": "https://bouncewatch.com/company/quickbi-oy",
+     "date": "2025-11-13",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "event_date": {
+   "value": "2018-01-01",
+   "sources": [
+    {
+     "name": "bouncewatch.com",
+     "document": "https://bouncewatch.com/company/quickbi-oy",
+     "date": "2025-11-13",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "annotations": {
+   "value": [
+    "Label as listed by Bouncewatch.",
+    "round_label_stated:Seed",
+    "derived from the sequence",
+    "No source names this round; Bouncewatch lists it as \"Early VC\", which is not a round name.",
+    "round_label_stated:Series A",
+    "round_label_basis:INFERRED",
+    "round_label_explanation:Unnamed equity round after rounds.0 (Seed): next label in the sequence (instructions §3.5)."
+   ],
+   "sources": []
+  }
+ },
+ "relationships": {
+  "outgoing": {},
+  "incoming": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "0310487d-e45e-564d-b5c5-563515a3a2eb",
+     "name": "Kaivo",
+     "entity_type": "Company",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "bouncewatch.com",
+        "document": "https://bouncewatch.com/company/quickbi-oy",
+        "date": "2025-11-13",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "05fb13db-31c0-570b-94e1-f60b2f42022f"
+     }
+    },
+    {
+     "id": "ef34330a-18ea-421b-92dc-bc73a3dcaf36",
+     "name": "Sontek Oy",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "bouncewatch.com",
+        "document": "https://bouncewatch.com/company/quickbi-oy",
+        "date": "2025-11-13",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       },
+       {
+        "name": "sontek.fi",
+        "document": "https://sontek.fi/portfolio/quickbi",
+        "date": "2026-11-11",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "is_lead": true,
+      "id": "94f5ce32-7680-5d56-a026-b3d6f0de9c8d"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

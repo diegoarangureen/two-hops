@@ -1,0 +1,108 @@
+{
+ "id": "e18f0123-976d-5cbf-bc70-a5ced3a2bff9",
+ "name": "Pre-Seed",
+ "entity_type": "FundingRound",
+ "description": null,
+ "properties": {
+  "name": {
+   "value": "Pre-Seed",
+   "sources": [
+    {
+     "name": "nordic9.com",
+     "document": "https://nordic9.com/news/eka-labs-in-a-pre-seed-funding-round-led-by-m/",
+     "date": "2026-07-31",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "round_label": {
+   "value": "PRE_SEED",
+   "sources": [
+    {
+     "name": "nordic9.com",
+     "document": "https://nordic9.com/news/eka-labs-in-a-pre-seed-funding-round-led-by-m/",
+     "date": "2026-07-31",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "instrument": {
+   "value": "EQUITY",
+   "sources": [
+    {
+     "name": "nordic9.com",
+     "document": "https://nordic9.com/news/eka-labs-in-a-pre-seed-funding-round-led-by-m/",
+     "date": "2026-07-31",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "announcement_date": {
+   "value": "2026-07-31",
+   "sources": [
+    {
+     "name": "nordic9.com",
+     "document": "https://nordic9.com/news/eka-labs-in-a-pre-seed-funding-round-led-by-m/",
+     "date": "2026-07-31",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "annotations": {
+   "value": [
+    "Round name as stated by Nordic9. No company, investor, press or filing source found; aggregator-only.",
+    "round_label_stated:Pre-Seed"
+   ],
+   "sources": []
+  }
+ },
+ "relationships": {
+  "outgoing": {},
+  "incoming": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "0268fe7c-a6c8-5ecf-8a79-1a5775254752",
+     "name": "Eka Labs AI",
+     "entity_type": "Company",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "nordic9.com",
+        "document": "https://nordic9.com/news/eka-labs-in-a-pre-seed-funding-round-led-by-m/",
+        "date": "2026-07-31",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "391d38f7-864b-5583-9467-6687c6dd9358"
+     }
+    },
+    {
+     "id": "d620445b-a935-439c-9684-ef6481170ee6",
+     "name": "Marathon Venture Capital",
+     "entity_type": "Company",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "nordic9.com",
+        "document": "https://nordic9.com/news/eka-labs-in-a-pre-seed-funding-round-led-by-m/",
+        "date": "2026-07-31",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "is_lead": true,
+      "id": "48c53c08-0a1d-53fe-884b-1dfaf9626036"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}
