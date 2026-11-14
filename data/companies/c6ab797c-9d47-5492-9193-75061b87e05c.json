@@ -1,0 +1,350 @@
+{
+ "id": "c6ab797c-9d47-5492-9193-75061b87e05c",
+ "name": "Velory",
+ "entity_type": "Company",
+ "description": "Velory runs the lifecycle of every laptop, phone, licence and subscription, from the first order to certified end-of-life, with the suppliers you already use.",
+ "properties": {
+  "name": {
+   "value": "Velory",
+   "sources": [
+    {
+     "name": "velory.com",
+     "document": "https://velory.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/velory-ab/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "Velory AB",
+   "sources": [
+    {
+     "name": "velory.com",
+     "document": "https://velory.com/",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "allabolag.se",
+     "document": "https://www.allabolag.se/5591189476",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "website": {
+   "value": "velory.com",
+   "sources": [
+    {
+     "name": "velory.com",
+     "document": "https://velory.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "dns.google",
+     "document": "https://dns.google/query?name=velory.com&type=A",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "Velory runs the lifecycle of every laptop, phone, licence and subscription, from the first order to certified end-of-life, with the suppliers you already use.",
+   "sources": [
+    {
+     "name": "velory.com",
+     "document": "https://velory.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2020-01-01",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/velory-ab/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "Stockholm, Sweden",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/velory-ab/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "velory.com",
+     "document": "https://velory.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "a77900a8-739b-5120-a399-3a7ab4be2e9d"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "8ecf5e57-a149-438c-9eb4-089809bade56",
+     "name": "SOFTWARE_AND_SERVICES",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/velory-ab/",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "10cf1bdb-d036-58ab-bcaa-564dc9f93bc5",
+      "original_label": "enterpriseSoftware"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "FOUNDED": [
+    {
+     "id": "b7db34a3-7698-5f53-a68c-3a7d75a004e4",
+     "name": "Johan Lilja",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "velory.com",
+        "document": "https://velory.com/company/about",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "careers.velory.com",
+        "document": "https://careers.velory.com/people",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "ab5ecdcb-8ad7-50b7-ae56-289616db2bba"
+     }
+    }
+   ],
+   "IS_CEO_OF": [
+    {
+     "id": "b7db34a3-7698-5f53-a68c-3a7d75a004e4",
+     "name": "Johan Lilja",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "velory.com",
+        "document": "https://velory.com/company/about",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "allabolag.se",
+        "document": "https://www.allabolag.se/5591189476/befattningar",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "2347c4ee-53cc-5cf0-8471-96ab76022522"
+     }
+    }
+   ],
+   "IS_BOARD_MEMBER_OF": [
+    {
+     "id": "3f226c62-a2e3-5ffb-a55d-54a5d1f765a7",
+     "name": "Björn Yrlid",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "allabolag.se",
+        "document": "https://www.allabolag.se/5591189476/befattningar",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "3a5b9b75-043f-5b76-bbb5-e68b1c2de14b"
+     }
+    },
+    {
+     "id": "9480b2c2-4012-5b4f-b65a-f7fad61473ec",
+     "name": "Malin Bäcklund",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "allabolag.se",
+        "document": "https://www.allabolag.se/5591189476/befattningar",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "07c53651-6c78-56fa-a0b8-a8ee7ce16e74"
+     }
+    },
+    {
+     "id": "b7db34a3-7698-5f53-a68c-3a7d75a004e4",
+     "name": "Johan Lilja",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "allabolag.se",
+        "document": "https://www.allabolag.se/5591189476/befattningar",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "c0a819d0-ba29-5c86-8ee3-e639718f4b1a"
+     }
+    },
+    {
+     "id": "fedaf492-17aa-5a30-a964-d06af976878d",
+     "name": "Kaj Hed",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "allabolag.se",
+        "document": "https://www.allabolag.se/5591189476/befattningar",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "6fac783c-c642-5d7e-a2c7-0e29c7ca13b8"
+     }
+    }
+   ],
+   "WORKS_AT": [
+    {
+     "id": "4e0d6c1d-4d74-5ba5-bb90-d8aa757706ed",
+     "name": "Anders Jönsson",
+     "entity_type": "Person",
+     "properties": {
+      "role": "CXO & CISO",
+      "sources": [
+       {
+        "name": "velory.com",
+        "document": "https://velory.com/company/about",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "268058b4-6d37-5673-bd7f-7720be16c9a1"
+     }
+    },
+    {
+     "id": "76a24107-5557-5379-b5a9-59ff3cd4a949",
+     "name": "Kiarash Kiani",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Head of Legal",
+      "sources": [
+       {
+        "name": "velory.com",
+        "document": "https://velory.com/company/about",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "careers.velory.com",
+        "document": "https://careers.velory.com/people",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "37fb33c3-2161-5471-aa15-4588457d13fc"
+     }
+    },
+    {
+     "id": "858626c1-3fae-5af7-b3d9-3f8a6b979944",
+     "name": "Ludvig Andén",
+     "entity_type": "Person",
+     "properties": {
+      "role": "CBDO",
+      "sources": [
+       {
+        "name": "velory.com",
+        "document": "https://velory.com/company/about",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "careers.velory.com",
+        "document": "https://careers.velory.com/people",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "b3d6232b-2b86-5900-9480-550b5b701860"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

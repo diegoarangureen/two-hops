@@ -1,0 +1,262 @@
+{
+ "id": "4ba0d84e-c837-57db-a4a7-8924fe58c8b7",
+ "name": "DBtune",
+ "entity_type": "Company",
+ "description": "Always optimized for performance & stability. Deliver a high-performing user experience, free up team capacity for strategic priorities, and get more value from your existing infrastructure.",
+ "properties": {
+  "name": {
+   "value": "DBtune",
+   "sources": [
+    {
+     "name": "dbtune.com",
+     "document": "https://dbtune.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/dbtuneai/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "website": {
+   "value": "dbtune.com",
+   "sources": [
+    {
+     "name": "dbtune.com",
+     "document": "https://dbtune.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "dns.google",
+     "document": "https://dns.google/query?name=dbtune.com&type=A",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "Always optimized for performance & stability. Deliver a high-performing user experience, free up team capacity for strategic priorities, and get more value from your existing infrastructure.",
+   "sources": [
+    {
+     "name": "dbtune.com",
+     "document": "https://dbtune.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2020-01-01",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/dbtuneai/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "Malmö, Sweden",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/dbtuneai/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "dbtune.com",
+     "document": "https://dbtune.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "funding_stage": {
+   "value": "SEED",
+   "sources": [
+    {
+     "name": "eu-startups.com",
+     "document": "https://www.eu-startups.com/2023/07/malmo-based-dbtune-closes-a-e2-4-million-seed-funding-to-achieve-ai-efficiency-in-database-operations/",
+     "date": "2023-07-31",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "44921f5c-e905-59a0-939c-8da68ffdf1b8",
+     "name": "Seed",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "eu-startups.com",
+        "document": "https://www.eu-startups.com/2023/07/malmo-based-dbtune-closes-a-e2-4-million-seed-funding-to-achieve-ai-efficiency-in-database-operations/",
+        "date": "2023-07-31",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "f3b91d84-cd2e-5135-bfb2-b415221324eb"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "256cc2bd-0ae8-5150-ad03-3b6e5e0c4a0e"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "8ecf5e57-a149-438c-9eb4-089809bade56",
+     "name": "SOFTWARE_AND_SERVICES",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/dbtuneai/",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "1f46f768-7c34-592b-86d3-dd556baf722b",
+      "original_label": "ai"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "INVESTED_IN": [
+    {
+     "id": "8e18c4d8-fb4d-5f7e-a4b4-5901f135963f",
+     "name": "Exxeta Ventures",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "eu-startups.com",
+        "document": "https://www.eu-startups.com/2023/07/malmo-based-dbtune-closes-a-e2-4-million-seed-funding-to-achieve-ai-efficiency-in-database-operations/",
+        "date": "2023-07-31",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "472aa597-b295-4c41-a90c-c27c27a378fa"
+     }
+    },
+    {
+     "id": "c4040d3e-aec5-4000-b912-c715e32a4da6",
+     "name": "AXELEO CAPITAL",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "eu-startups.com",
+        "document": "https://www.eu-startups.com/2023/07/malmo-based-dbtune-closes-a-e2-4-million-seed-funding-to-achieve-ai-efficiency-in-database-operations/",
+        "date": "2023-07-31",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "bccca902-abc4-4184-b9e7-47a6a9afffad"
+     }
+    },
+    {
+     "id": "f8e6d6e6-977e-4588-b96c-00f239c2957e",
+     "name": "jvh-ventures GmbH",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "eu-startups.com",
+        "document": "https://www.eu-startups.com/2023/07/malmo-based-dbtune-closes-a-e2-4-million-seed-funding-to-achieve-ai-efficiency-in-database-operations/",
+        "date": "2023-07-31",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "3f330147-147e-41c1-97d6-e5b3bb8e42d3"
+     }
+    }
+   ],
+   "FOUNDED": [
+    {
+     "id": "16636b01-4a5c-5d05-98d3-34a934d91eb9",
+     "name": "Luigi Nardi",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "dbtune.com",
+        "document": "https://www.dbtune.com/blog/dbtune-takes-next-step-toward-autonomous-postgresql",
+        "date": "2026-11-04",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "369d7975-1302-5658-9d68-6fd4a1bf2246"
+     }
+    }
+   ],
+   "IS_CEO_OF": [
+    {
+     "id": "16636b01-4a5c-5d05-98d3-34a934d91eb9",
+     "name": "Luigi Nardi",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "dbtune.com",
+        "document": "https://www.dbtune.com/blog/dbtune-takes-next-step-toward-autonomous-postgresql",
+        "date": "2026-11-04",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "085af1e8-c0ac-57cc-9031-8ae2abb8a7de"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

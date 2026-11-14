@@ -1,0 +1,334 @@
+{
+ "id": "bfe645cb-513e-42f0-9a7f-eb298fa1e9f9",
+ "name": "CONTENT CHEMISTRY LTD",
+ "entity_type": "Company",
+ "description": "Unlock the power of storytelling with Content Chemistry. We craft compelling animations, videos, and multimedia campaigns for all your needs.",
+ "properties": {
+  "name": {
+   "value": "CONTENT CHEMISTRY LTD",
+   "sources": [
+    {
+     "name": "Companies House UK",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/13706279",
+     "date": "2026-11-01"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "Content Chemistry Ltd",
+   "sources": [
+    {
+     "name": "content-chemistry.com",
+     "document": "https://content-chemistry.com/",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "find-and-update.company-information.service.gov.uk",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/13706279",
+     "date": "2026-11-10",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "find-and-update.company-information.service.gov.uk",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/13706279/filing-history",
+     "date": "2024-04-03",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "website": {
+   "value": "content-chemistry.com",
+   "sources": [
+    {
+     "name": "content-chemistry.com",
+     "document": "https://content-chemistry.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "dns.google",
+     "document": "https://dns.google/query?name=content-chemistry.com&type=A",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "content-chemistry.com",
+     "document": "https://content-chemistry.com/api/wp/v2/pages/5",
+     "date": "2026-11-10",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "Unlock the power of storytelling with Content Chemistry. We craft compelling animations, videos, and multimedia campaigns for all your needs.",
+   "sources": [
+    {
+     "name": "content-chemistry.com",
+     "document": "https://content-chemistry.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2021-10-27",
+   "sources": [
+    {
+     "name": "Companies House UK",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/13706279",
+     "date": "2026-11-01"
+    },
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/content-chemistry-ltd",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    },
+    {
+     "name": "find-and-update.company-information.service.gov.uk",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/13706279",
+     "date": "2026-11-10",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "Eden Point, Three Acres Lane, Cheadle Hulme, Cheadle SK8 6RL, United Kingdom",
+   "sources": [
+    {
+     "name": "content-chemistry.com",
+     "document": "https://content-chemistry.com/contact/",
+     "date": "2026-11-10",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "find-and-update.company-information.service.gov.uk",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/13706279",
+     "date": "2026-11-10",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "Companies House UK",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/13706279",
+     "date": "2026-11-01"
+    },
+    {
+     "name": "content-chemistry.com",
+     "document": "https://content-chemistry.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "find-and-update.company-information.service.gov.uk",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/13706279",
+     "date": "2026-11-10",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/content-chemistry-ltd",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "company_ownership_status": {
+   "value": "Private Limited Company",
+   "sources": [
+    {
+     "name": "Companies House UK",
+     "document": "https://find-and-update.company-information.service.gov.uk/company/13706279",
+     "date": "2026-11-01"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "1035569f-e8ac-5723-96c0-2b826f2c5ffc"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "8561e6a1-d703-405b-9981-f78cf3428db5",
+     "name": "ENTERTAINMENT",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "Companies House UK",
+        "document": "https://find-and-update.company-information.service.gov.uk/company/13706279",
+        "date": "2026-05-01"
+       }
+      ],
+      "id": "0ba194d9-b5f4-54b2-8dc5-de8617817770"
+     }
+    },
+    {
+     "id": "e95ac8a0-1d70-4bc2-ba34-3b685f2103ac",
+     "name": "TELECOMMUNICATIONS",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/content-chemistry-ltd",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "d254a0c3-c71d-501b-8c3c-3cd6cadc4a93",
+      "original_label": "comms"
+     }
+    }
+   ],
+   "IS_REGISTERED_IN": [
+    {
+     "id": "53914cb9-a4f7-4ea6-97f2-ec3f1933221d",
+     "name": "England",
+     "entity_type": "CountrySubdivision",
+     "properties": {
+      "sources": [
+       {
+        "name": "Companies House UK",
+        "document": "https://find-and-update.company-information.service.gov.uk/company/13706279",
+        "date": "2026-05-01"
+       }
+      ],
+      "id": "7b5a2128-9f13-518f-bcfb-ab6527ef579e"
+     }
+    },
+    {
+     "id": "e332ff3d-605d-4b01-8222-5098236a3aff",
+     "name": "United Kingdom",
+     "entity_type": "Country",
+     "properties": {
+      "sources": [
+       {
+        "name": "Companies House UK",
+        "document": "https://find-and-update.company-information.service.gov.uk/company/13706279",
+        "date": "2026-05-01"
+       }
+      ],
+      "id": "c029f579-fb05-55de-bb70-c6ebca23174e"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "IS_BOARD_MEMBER_OF": [
+    {
+     "id": "1a6dd8fa-ef7e-5b7f-8de4-d748e4f09108",
+     "name": "James Parker",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "find-and-update.company-information.service.gov.uk",
+        "document": "https://find-and-update.company-information.service.gov.uk/company/13706279/officers",
+        "date": "2026-11-10",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "fe11a246-a422-5247-b5a4-f8bfb33a95f8",
+      "valid_since": "2021-10-27"
+     }
+    },
+    {
+     "id": "c0704668-c83f-57ef-a347-995df130582f",
+     "name": "Garry Paton",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "find-and-update.company-information.service.gov.uk",
+        "document": "https://find-and-update.company-information.service.gov.uk/company/13706279/officers",
+        "date": "2026-11-10",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "904ddf14-1d23-5aa9-a00a-95582d736124",
+      "valid_since": "2021-10-27"
+     }
+    }
+   ],
+   "WORKS_AT": [
+    {
+     "id": "1a6dd8fa-ef7e-5b7f-8de4-d748e4f09108",
+     "name": "James Parker",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Partner",
+      "sources": [
+       {
+        "name": "content-chemistry.com",
+        "document": "https://content-chemistry.com/our-team/",
+        "date": "2026-11-10",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "9cb4efcb-82e9-5875-9b62-e294b92bc291"
+     }
+    },
+    {
+     "id": "c0704668-c83f-57ef-a347-995df130582f",
+     "name": "Garry Paton",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Partner",
+      "sources": [
+       {
+        "name": "content-chemistry.com",
+        "document": "https://content-chemistry.com/our-team/",
+        "date": "2026-11-10",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "11c28001-c7fa-544d-ac6b-7b79811f8d9a"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

@@ -1,0 +1,137 @@
+{
+ "request": {
+  "method": "GET",
+  "path": "/entities",
+  "params": {
+   "name": "Slush",
+   "limit": 20
+  },
+  "body": null
+ },
+ "status": 200,
+ "seconds": 0.3,
+ "response": {
+  "entities": [
+   {
+    "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+    "name": "Slush 2026",
+    "entity_type": "Event",
+    "description": "A Nordic startup conference held in Helsinki, Finland, in November 2026 at the Messukeskus Helsinki Expo and Convention Centre."
+   },
+   {
+    "id": "0b5b355d-94a2-43f6-9bd2-b3b7f92c67e0",
+    "name": "Slush 2025",
+    "entity_type": "Event",
+    "description": "the 2025 edition of an annual technology and startup conference held in Helsinki, Finland"
+   },
+   {
+    "id": "7e6eb50e-b1af-4776-9088-654373d1e015",
+    "name": "Slush 2024",
+    "entity_type": "Event",
+    "description": "The 2024 edition of an annual technology and startup conference held in Helsinki."
+   },
+   {
+    "id": "4dd97ef7-43af-4515-89fa-fe38c1c7eee4",
+    "name": "Slush",
+    "entity_type": "Event",
+    "description": "An annual startup and technology conference held in Helsinki, Finland."
+   },
+   {
+    "id": "58a51fa5-4d24-448f-a5f6-2b613df67233",
+    "name": "Slush",
+    "entity_type": "Organization",
+    "description": "a technology conference and event based in Helsinki, Finland"
+   },
+   {
+    "id": "33b25e9c-25d1-44af-bfdc-d4435d07f9b3",
+    "name": "SLUSH CIC",
+    "entity_type": "Company",
+    "description": "a Welsh entertainment company founded in 2024 and based in Carmarthen"
+   },
+   {
+    "id": "fefb9965-3c22-4469-8e24-e31c865a3aa1",
+    "name": "SLUSH MEDIA LIMITED",
+    "entity_type": "Company",
+    "description": "A British news and information company founded in 2003 and based in Aldershot, Hampshire."
+   },
+   {
+    "id": "3fc2c3ab-28ef-5a29-bf95-adb3e1e290f0",
+    "name": "Slush Oy",
+    "entity_type": "Company",
+    "description": "A Finnish-owned company that organizes startup and technology conferences, headquartered in Helsinki, Finland."
+   },
+   {
+    "id": "a55bd15a-4b2f-4e8e-96d5-37421fa47a4a",
+    "name": "DR SLUSH LTD",
+    "entity_type": "Company",
+    "description": "Leicester company founded in 2015 operating restaurants and consulting"
+   },
+   {
+    "id": "0b823458-8275-4cef-aee6-55590f11d81e",
+    "name": "SLUSH RECORDINGS LTD",
+    "entity_type": "Company",
+    "description": "A London‑based entertainment company incorporated in 2023."
+   },
+   {
+    "id": "6dd6947e-f4fc-4d3e-984b-86f0c777e357",
+    "name": "SLUSH INC LTD",
+    "entity_type": "Company",
+    "description": "A London-based real estate company founded in 2022."
+   },
+   {
+    "id": "ff87fdbe-35af-4af3-b0d6-808302cf7e0d",
+    "name": "Slush 2023",
+    "entity_type": "Event",
+    "description": "The 2023 edition of an annual startup and technology conference held in Helsinki, Finland."
+   },
+   {
+    "id": "9ea51c3a-d8a6-4cf0-8468-90f37bc8392f",
+    "name": "Slush 2013",
+    "entity_type": "Event",
+    "description": "A startup conference held in Helsinki, Finland, in 2013."
+   },
+   {
+    "id": "dcfc5d5e-4eee-4353-b60d-9cf0e8d5cea0",
+    "name": "CAMBUSNETHAN SLUSH LIMITED",
+    "entity_type": "Company",
+    "description": "A restaurant company registered in Wishaw, Lanarkshire since 2007."
+   },
+   {
+    "id": "8b446a66-e196-473e-989e-ed6cd5ca2307",
+    "name": "HILTON SLUSH LIMITED",
+    "entity_type": "Company",
+    "description": "British food and beverage company based in Brighouse, West Yorkshire, founded in 2016."
+   },
+   {
+    "id": "d80c432c-f543-4ab8-bf5d-4db413081842",
+    "name": "DON SLUSH LTD",
+    "entity_type": "Company",
+    "description": "An Edinburgh‑based Scottish food and beverage company founded in 2022."
+   },
+   {
+    "id": "d19f01a7-4f9f-4671-a97f-630189d2510c",
+    "name": "Slush 100",
+    "entity_type": "Event",
+    "description": "A pitch competition held in Helsinki, Finland, on 19 November 2024."
+   },
+   {
+    "id": "265a44ba-fcd1-4d12-8d24-825028bd6d5b",
+    "name": "SLUSH MONKEYS LTD",
+    "entity_type": "Company",
+    "description": "A Belfast‑based restaurant company incorporated in 2016."
+   },
+   {
+    "id": "6b8e130d-639f-4fdb-94d5-b2842fc322ae",
+    "name": "CYBER SLUSH LTD",
+    "entity_type": "Company",
+    "description": "British company founded in 2024 that operates in the hardware and equipment, food and beverage, and restaurant industries, headquartered in Coventry, England."
+   },
+   {
+    "id": "b535107f-21c1-4de0-8bb0-97ab6d22c21e",
+    "name": "SLUSH BROTHERS LIMITED",
+    "entity_type": "Company",
+    "description": "British restaurant company founded in 2019"
+   }
+  ]
+ }
+}

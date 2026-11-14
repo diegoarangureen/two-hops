@@ -1,0 +1,140 @@
+{
+ "request": {
+  "method": "GET",
+  "path": "/entities",
+  "params": {
+   "name": "Slush 2026",
+   "limit": 20,
+   "entity_types": [
+    "Event"
+   ]
+  },
+  "body": null
+ },
+ "status": 200,
+ "seconds": 0.36,
+ "response": {
+  "entities": [
+   {
+    "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+    "name": "Slush 2026",
+    "entity_type": "Event",
+    "description": "A Nordic startup conference held in Helsinki, Finland, in November 2026 at the Messukeskus Helsinki Expo and Convention Centre."
+   },
+   {
+    "id": "0b5b355d-94a2-43f6-9bd2-b3b7f92c67e0",
+    "name": "Slush 2025",
+    "entity_type": "Event",
+    "description": "the 2025 edition of an annual technology and startup conference held in Helsinki, Finland"
+   },
+   {
+    "id": "7e6eb50e-b1af-4776-9088-654373d1e015",
+    "name": "Slush 2024",
+    "entity_type": "Event",
+    "description": "The 2024 edition of an annual technology and startup conference held in Helsinki."
+   },
+   {
+    "id": "4dd97ef7-43af-4515-89fa-fe38c1c7eee4",
+    "name": "Slush",
+    "entity_type": "Event",
+    "description": "An annual startup and technology conference held in Helsinki, Finland."
+   },
+   {
+    "id": "2296e4fe-d087-42c0-b2c6-d451a863b82e",
+    "name": "Grammys 2026",
+    "entity_type": "Event",
+    "description": "The 2026 Grammy Awards ceremony held on February 1, 2026 at the Crypto.com Arena in Los Angeles."
+   },
+   {
+    "id": "323d5f85-cbac-4aec-93c1-a9ee3b8987be",
+    "name": "SynBioBeta 2026",
+    "entity_type": "Event",
+    "description": "A 2026 conference focusing on synthetic biology and artificial intelligence."
+   },
+   {
+    "id": "f6ec703c-8637-45ee-ae56-a93773804f38",
+    "name": "CES 2026",
+    "entity_type": "Event",
+    "description": "Annual consumer electronics trade show held at the Las Vegas Convention Center in Las Vegas, Nevada, in early January 2026."
+   },
+   {
+    "id": "9ea51c3a-d8a6-4cf0-8468-90f37bc8392f",
+    "name": "Slush 2013",
+    "entity_type": "Event",
+    "description": "A startup conference held in Helsinki, Finland, in 2013."
+   },
+   {
+    "id": "ff87fdbe-35af-4af3-b0d6-808302cf7e0d",
+    "name": "Slush 2023",
+    "entity_type": "Event",
+    "description": "The 2023 edition of an annual startup and technology conference held in Helsinki, Finland."
+   },
+   {
+    "id": "f8965bfa-6ac2-4d34-8c8f-a478e16f3773",
+    "name": "WWDC 2026",
+    "entity_type": "Event",
+    "description": "Apple's annual Worldwide Developers Conference held from June 8–12, 2026."
+   },
+   {
+    "id": "f54e2207-0391-4703-b99f-d417e204646e",
+    "name": "SXSW 2026",
+    "entity_type": "Event",
+    "description": "A March 2026 edition of the annual music, film and interactive festival held in Austin, Texas."
+   },
+   {
+    "id": "d19f01a7-4f9f-4671-a97f-630189d2510c",
+    "name": "Slush 100",
+    "entity_type": "Event",
+    "description": "A pitch competition held in Helsinki, Finland, on 19 November 2024."
+   },
+   {
+    "id": "a584e55b-daf7-46ba-975b-af8efe8dc447",
+    "name": "LNG 2026 Conference",
+    "entity_type": "Event",
+    "description": "A 2026 international conference and exhibition on liquefied natural gas held in Doha, Qatar."
+   },
+   {
+    "id": "0fe59d48-312d-4b7c-a4e8-8fedbbffc491",
+    "name": "APOS 2026 Conference",
+    "entity_type": "Event",
+    "description": "A conference held June 16–18, 2026 at the Mulia Resort in Bali, Indonesia."
+   },
+   {
+    "id": "90ae01c2-6a97-4b3e-9a21-84e805348fb5",
+    "name": "HumanX Conference 2026",
+    "entity_type": "Event",
+    "description": "a 2026 conference"
+   },
+   {
+    "id": "9a79ee6c-2a36-40c7-bb84-882a6aa09af1",
+    "name": "EULAR 2026",
+    "entity_type": "Event",
+    "description": "A 2026 meeting of the European League Against Rheumatism held in London, United Kingdom."
+   },
+   {
+    "id": "0a1417f1-8692-454a-b33b-48a343d05f8f",
+    "name": "EBAday 2026",
+    "entity_type": "Event",
+    "description": "A 2026 conference organized by the European Banking Authority held in Copenhagen, Denmark."
+   },
+   {
+    "id": "eb15441a-2d36-4b40-841b-5fdc5a7b52e7",
+    "name": "RegTech SCOPE 2026",
+    "entity_type": "Event",
+    "description": "A regulatory technology conference held in Amsterdam, Netherlands, on 19 November 2026."
+   },
+   {
+    "id": "d719c63d-8749-4957-a334-ec4838b311f2",
+    "name": "Farnborough 2026",
+    "entity_type": "Event",
+    "description": "the 2026 edition of the biennial Farnborough International Airshow, a major aerospace trade exhibition held in Farnborough, England"
+   },
+   {
+    "id": "da9dbc51-ad5f-4cbb-b45e-40c548751188",
+    "name": "calendar Q2 2026",
+    "entity_type": "Event",
+    "description": "The second calendar quarter of the year 2026."
+   }
+  ]
+ }
+}

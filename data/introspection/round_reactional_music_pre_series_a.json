@@ -1,0 +1,1 @@
+{"properties":["name","announcement_date","annotations","transaction_value_units","round_label","id","instrument","transaction_value"],"relationships":{"outgoing":[],"incoming":["PARTICIPATES_IN_FUNDING_ROUND"]},"numerical_observations":{}}

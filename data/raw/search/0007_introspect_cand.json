@@ -1,0 +1,25 @@
+{
+ "request": {
+  "method": "GET",
+  "path": "/entities/7e6eb50e-b1af-4776-9088-654373d1e015/introspection",
+  "params": null,
+  "body": null
+ },
+ "status": 200,
+ "seconds": 0.16,
+ "response": {
+  "properties": [
+   "id",
+   "name",
+   "aliases",
+   "description"
+  ],
+  "relationships": {
+   "outgoing": [],
+   "incoming": [
+    "SPOKE_AT"
+   ]
+  },
+  "numerical_observations": {}
+ }
+}

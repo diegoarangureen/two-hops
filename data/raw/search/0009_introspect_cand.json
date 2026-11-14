@@ -1,0 +1,24 @@
+{
+ "request": {
+  "method": "GET",
+  "path": "/entities/58a51fa5-4d24-448f-a5f6-2b613df67233/introspection",
+  "params": null,
+  "body": null
+ },
+ "status": 200,
+ "seconds": 0.29,
+ "response": {
+  "properties": [
+   "description",
+   "id",
+   "name"
+  ],
+  "relationships": {
+   "outgoing": [],
+   "incoming": [
+    "IS_MEMBER_OF"
+   ]
+  },
+  "numerical_observations": {}
+ }
+}

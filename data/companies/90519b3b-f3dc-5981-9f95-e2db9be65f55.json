@@ -1,0 +1,447 @@
+{
+ "id": "90519b3b-f3dc-5981-9f95-e2db9be65f55",
+ "name": "CaBloom",
+ "entity_type": "Company",
+ "description": "CaBloom replaces the fats and additives used in food and beverage without affecting taste or texture. Made of only water and fibre, from selected microalgae grown on food industry side streams.",
+ "properties": {
+  "name": {
+   "value": "CaBloom",
+   "sources": [
+    {
+     "name": "cabloom.com",
+     "document": "https://cabloom.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/cabloom1",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "Aircohol Oy",
+   "sources": [
+    {
+     "name": "cabloom.com",
+     "document": "https://cabloom.com/",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "avoindata.prh.fi",
+     "document": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies?businessId=3221291-3",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "website": {
+   "value": "cabloom.com",
+   "sources": [
+    {
+     "name": "cabloom.com",
+     "document": "https://cabloom.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "dns.google",
+     "document": "https://dns.google/query?name=cabloom.com&type=A",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "CaBloom replaces the fats and additives used in food and beverage without affecting taste or texture. Made of only water and fibre, from selected microalgae grown on food industry side streams.",
+   "sources": [
+    {
+     "name": "cabloom.com",
+     "document": "https://cabloom.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2021-07-15",
+   "sources": [
+    {
+     "name": "avoindata.prh.fi",
+     "document": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies?businessId=3221291-3",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "Helsinki, Finland",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/cabloom1",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "cabloom.com",
+     "document": "https://cabloom.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "avoindata.prh.fi",
+     "document": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies?businessId=3221291-3",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  },
+  "total_funding": {
+   "value": 3000000.0,
+   "sources": [
+    {
+     "name": "vcbacked.co",
+     "document": "https://www.vcbacked.co/company/aircohol",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "total_funding_units": {
+   "value": "USD",
+   "sources": [
+    {
+     "name": "vcbacked.co",
+     "document": "https://www.vcbacked.co/company/aircohol",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "total_funding_excluding_debt": {
+   "value": 3000000.0,
+   "sources": [
+    {
+     "name": "vcbacked.co",
+     "document": "https://www.vcbacked.co/company/aircohol",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "funding_stage": {
+   "value": "SERIES_A",
+   "sources": [
+    {
+     "name": "avoindata.prh.fi",
+     "document": "https://avoindata.prh.fi/opendata-registerednotices-api/v3/3221291-3",
+     "date": "2024-09-15",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "4a60558f-abeb-5f94-81e6-7334876c069f",
+     "name": "Series A",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "avoindata.prh.fi",
+        "document": "https://avoindata.prh.fi/opendata-registerednotices-api/v3/3221291-3",
+        "date": "2024-09-15",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       },
+       {
+        "name": "vcbacked.co",
+        "document": "https://www.vcbacked.co/company/aircohol",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "02435af7-d171-58c3-90fd-f7bbc6da3964"
+     }
+    },
+    {
+     "id": "5a9ce9a7-e103-5a1b-b8df-077baba0d665",
+     "name": "Debt Financing",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "aircohol.com",
+        "document": "https://aircohol.com/",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "04426800-0e82-5518-8bd8-275b077e308c"
+     }
+    },
+    {
+     "id": "c2312f91-c8b5-5cc4-b48e-5e8e9a9fce22",
+     "name": "Pre-Seed",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "avoindata.prh.fi",
+        "document": "https://avoindata.prh.fi/opendata-registerednotices-api/v3/3221291-3",
+        "date": "2023-06-14",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "ea536d78-8b11-59c7-b8f7-e36ef8821403"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "d767432a-b229-5b9a-b14e-9ff5bf20bf45"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "b58fd009-906d-4a11-9aef-8ef566128a5c",
+     "name": "FOOD_AND_BEVERAGE",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/cabloom1",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "36224a0e-d2a4-5dd3-8957-7774d6c51110",
+      "original_label": "food"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "FOUNDED": [
+    {
+     "id": "57afe8a8-9ab5-5dde-be24-6b996bc17109",
+     "name": "Tomi Sundström",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "cabloom.com",
+        "document": "https://cabloom.com/",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "aircohol.com",
+        "document": "https://aircohol.com/",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "ff821fc9-45ef-52e5-bf31-705bf6bf0a8e"
+     }
+    },
+    {
+     "id": "9ebc3ae1-3ea9-5d7a-b1ad-4fafb48f22de",
+     "name": "Simo Hämäläinen",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "cabloom.com",
+        "document": "https://cabloom.com/",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "aircohol.com",
+        "document": "https://aircohol.com/",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "fa946704-bea1-5de3-94de-c95d95e08b26"
+     }
+    },
+    {
+     "id": "d56f0a95-ad08-54b8-9a17-31eb84739e08",
+     "name": "Elina Peltomaa",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "cabloom.com",
+        "document": "https://cabloom.com/",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "aircohol.com",
+        "document": "https://aircohol.com/",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "befb0138-00c2-5e54-b1a4-0221d9e12881"
+     }
+    }
+   ],
+   "IS_CEO_OF": [
+    {
+     "id": "9ebc3ae1-3ea9-5d7a-b1ad-4fafb48f22de",
+     "name": "Simo Hämäläinen",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "cabloom.com",
+        "document": "https://cabloom.com/",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "aircohol.com",
+        "document": "https://aircohol.com/",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "7d5f3f5b-881f-5d8b-8ec1-d32826d6e362"
+     }
+    }
+   ],
+   "IS_CTO_OF": [
+    {
+     "id": "57afe8a8-9ab5-5dde-be24-6b996bc17109",
+     "name": "Tomi Sundström",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "cabloom.com",
+        "document": "https://cabloom.com/",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "aircohol.com",
+        "document": "https://aircohol.com/",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "7ef16051-18c2-51f6-837b-54f87b2e433e"
+     }
+    }
+   ],
+   "WORKS_AT": [
+    {
+     "id": "be60718f-707d-5c79-a64e-af0b82f07793",
+     "name": "João Salazar",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Bioprocess Specialist",
+      "sources": [
+       {
+        "name": "aircohol.com",
+        "document": "https://aircohol.com/",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "cd910a04-b52b-5178-abfe-ed275df8eae5"
+     }
+    },
+    {
+     "id": "d56f0a95-ad08-54b8-9a17-31eb84739e08",
+     "name": "Elina Peltomaa",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Chief Scientist",
+      "sources": [
+       {
+        "name": "cabloom.com",
+        "document": "https://cabloom.com/",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "aircohol.com",
+        "document": "https://aircohol.com/",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "60434e7c-f229-5b71-bf1e-0aabe825e792"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

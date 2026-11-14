@@ -1,0 +1,894 @@
+{
+ "id": "05c3abc4-680f-4caa-a657-40d96da7e1fa",
+ "name": "Synhelion",
+ "entity_type": "Company",
+ "description": "Synhelion produces renewable drop-in fuels for net-zero transportation. Learn how renewable fuels enable sustainable aviation and reduce CO₂ emissions.",
+ "properties": {
+  "name": {
+   "value": "Synhelion",
+   "sources": [
+    {
+     "name": "Cala AI",
+     "document": "",
+     "date": "2026-06-24"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "Synhelion AG",
+   "sources": [
+    {
+     "name": "synhelion.com",
+     "document": "https://synhelion.com/",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "website": {
+   "value": "synhelion.com",
+   "sources": [
+    {
+     "name": "synhelion.com",
+     "document": "https://synhelion.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "dns.google",
+     "document": "https://dns.google/query?name=synhelion.com&type=A",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "Synhelion produces renewable drop-in fuels for net-zero transportation. Learn how renewable fuels enable sustainable aviation and reduce CO₂ emissions.",
+   "sources": [
+    {
+     "name": "synhelion.com",
+     "document": "https://synhelion.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2016-05-25",
+   "sources": [
+    {
+     "name": "zefix.admin.ch",
+     "document": "https://www.zefix.admin.ch/ZefixREST/api/v1/firm/1264237.json",
+     "date": "2016-05-25",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "synhelion.com",
+     "document": "https://synhelion.com/about/history",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "Zurich, Switzerland",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/synhelion/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "synhelion.com",
+     "document": "https://synhelion.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "zefix.admin.ch",
+     "document": "https://www.zefix.admin.ch/ZefixREST/api/v1/firm/1264237.json",
+     "date": "2016-05-25",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "synhelion.com",
+     "document": "https://synhelion.com/about/history",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "total_funding": {
+   "value": 42850000.0,
+   "sources": [
+    {
+     "name": "zefix.admin.ch",
+     "document": "https://www.zefix.admin.ch/ZefixREST/api/v1/firm/1264237.json",
+     "date": "2017-07-24",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "synhelion.com",
+     "document": "https://synhelion.com/news/synhelion-raises-chf-16-million",
+     "date": "2021-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "startupticker.ch",
+     "document": "https://www.startupticker.ch/en/news/synhelion-raises-chf-16-million-to-decarbonize-transportation",
+     "date": "2021-11-02",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "synhelion.com",
+     "document": "https://synhelion.com/news/synhelion-raises-chf-22-million-investment-to-drive-the-scaling-of-solar-fuel-production",
+     "date": "2022-12-15",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "total_funding_units": {
+   "value": "CHF",
+   "sources": [
+    {
+     "name": "zefix.admin.ch",
+     "document": "https://www.zefix.admin.ch/ZefixREST/api/v1/firm/1264237.json",
+     "date": "2017-07-24",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "synhelion.com",
+     "document": "https://synhelion.com/news/synhelion-raises-chf-16-million",
+     "date": "2021-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "startupticker.ch",
+     "document": "https://www.startupticker.ch/en/news/synhelion-raises-chf-16-million-to-decarbonize-transportation",
+     "date": "2021-11-02",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "synhelion.com",
+     "document": "https://synhelion.com/news/synhelion-raises-chf-22-million-investment-to-drive-the-scaling-of-solar-fuel-production",
+     "date": "2022-12-15",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "total_funding_excluding_debt": {
+   "value": 42850000.0,
+   "sources": [
+    {
+     "name": "zefix.admin.ch",
+     "document": "https://www.zefix.admin.ch/ZefixREST/api/v1/firm/1264237.json",
+     "date": "2017-07-24",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "synhelion.com",
+     "document": "https://synhelion.com/news/synhelion-raises-chf-16-million",
+     "date": "2021-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "startupticker.ch",
+     "document": "https://www.startupticker.ch/en/news/synhelion-raises-chf-16-million-to-decarbonize-transportation",
+     "date": "2021-11-02",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "synhelion.com",
+     "document": "https://synhelion.com/news/synhelion-raises-chf-22-million-investment-to-drive-the-scaling-of-solar-fuel-production",
+     "date": "2022-12-15",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "funding_stage": {
+   "value": "SERIES_D",
+   "sources": [
+    {
+     "name": "zefix.admin.ch",
+     "document": "https://www.zefix.admin.ch/ZefixREST/api/v1/firm/1264237.json",
+     "date": "2025-03-12",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "41610547-8710-5793-8f54-318a479aac8e",
+     "name": "Series D",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "zefix.admin.ch",
+        "document": "https://www.zefix.admin.ch/ZefixREST/api/v1/firm/1264237.json",
+        "date": "2025-03-12",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       },
+       {
+        "name": "synhelion.com",
+        "document": "https://synhelion.com/news/synhelion-raises-chf-16-million",
+        "date": "2021-11-02",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "synhelion.com",
+        "document": "https://synhelion.com/news/synhelion-raises-chf-22-million-investment-to-drive-the-scaling-of-solar-fuel-production",
+        "date": "2022-12-15",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "42da4cf1-088e-50fe-ab69-c30faf72dc89"
+     }
+    },
+    {
+     "id": "8d6d7669-8d65-547b-8812-737871cbebe8",
+     "name": "Series A",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "zefix.admin.ch",
+        "document": "https://www.zefix.admin.ch/ZefixREST/api/v1/firm/1264237.json",
+        "date": "2021-04-29",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "5f2229c3-4384-5e40-8d0f-4d40edf2ac55"
+     }
+    },
+    {
+     "id": "941223e8-ac11-5a4d-ab7e-5b0ccc6b95c6",
+     "name": "Equity round",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "synhelion.com",
+        "document": "https://synhelion.com/news/synhelion-and-pilatus-launch-strategic-partnership",
+        "date": "2024-06-04",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "startupticker.ch",
+        "document": "https://www.startupticker.ch/en/news/pilatus-flugzeugwerke-investiert-in-synhelion",
+        "date": "2024-06-04",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "c989e573-3ef0-555e-9044-5668b76bc212"
+     }
+    },
+    {
+     "id": "9823871e-2a57-52f5-8011-650f6cb09c4a",
+     "name": "Grant",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "synhelion.com",
+        "document": "https://synhelion.com/news/synhelion-receives-support-from-innosuisse-to-further-develop-solar-storage-technology",
+        "date": "2021-07-06",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "64c48338-3991-59f0-9b86-ab34e0896fe4"
+     }
+    },
+    {
+     "id": "c0479210-af0f-58c1-9bfd-54ed138916b5",
+     "name": "Grant",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "cordis.europa.eu",
+        "document": "https://cordis.europa.eu/project/id/101137792?format=json",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "ccb3244d-24eb-5593-b4da-36c787de8dca"
+     }
+    },
+    {
+     "id": "c37f9d98-44d9-5703-b975-552cdbe2915d",
+     "name": "Grant",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "synhelion.com",
+        "document": "https://synhelion.com/news/cemex-sandia-labs-and-synhelion",
+        "date": "2023-02-16",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "synhelion.com",
+        "document": "https://synhelion.com/news/university-of-florida-and-synhelion-to-scale-up-solar-hydrogen-energy-solution",
+        "date": "2023-06-21",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "a92d77bb-51dd-51ec-b165-b00add1309fe"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_CORPORATE_EVENT": [
+    {
+     "id": "537ea49b-6eae-5547-9aca-5c992e5e28ca",
+     "name": "MNA_COMPLETED",
+     "entity_type": "CorporateEvent",
+     "properties": {
+      "role": "ACQUIRER",
+      "sources": [
+       {
+        "name": "zefix.admin.ch",
+        "document": "https://www.zefix.admin.ch/ZefixREST/api/v1/firm/1264237.json",
+        "date": "2021-10-01",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "event_date": "2021-10-01",
+      "id": "260b115b-5d94-5402-9c70-e17e963748d0"
+     }
+    },
+    {
+     "id": "e054a351-d316-5f7b-98e4-720ddacb6716",
+     "name": "MNA_COMPLETED",
+     "entity_type": "CorporateEvent",
+     "properties": {
+      "role": "ACQUIRER",
+      "sources": [
+       {
+        "name": "zefix.admin.ch",
+        "document": "https://www.zefix.admin.ch/ZefixREST/api/v1/firm/1264237.json",
+        "date": "2018-08-03",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "event_date": "2018-08-03",
+      "id": "1651633c-c8c2-5d08-a31d-72d5314685ce"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "b5e463a0-fd59-5b24-a6d5-8e2b7ab3d2ad"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "11ce48e0-a853-4085-8142-f674977b1a3a",
+     "name": "RENEWABLE_ENERGY",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/synhelion/",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "225c5729-2747-57d4-bcf7-020450ae0585",
+      "original_label": "cleantech"
+     }
+    }
+   ],
+   "HAS_DOMAIN_NAME": [
+    {
+     "id": "ef2a1ad9-13cb-541e-a7e6-1d1a54f4917b",
+     "name": "synhelion.com",
+     "entity_type": "DomainName",
+     "properties": {
+      "sources": [
+       {
+        "name": "synhelion.com",
+        "document": "https://synhelion.com/",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "dns.google",
+        "document": "https://dns.google/query?name=synhelion.com&type=A",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "1b5ab27e-b281-566c-9c80-27ef207b4779",
+      "status": "ACTIVE"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "INVESTED_IN": [
+    {
+     "id": "0c77d3a4-1f19-4f3c-8a67-d59e90b40ebe",
+     "name": "PILATUS Flugzeugwerke AG",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "synhelion.com",
+        "document": "https://synhelion.com/news/synhelion-and-pilatus-launch-strategic-partnership",
+        "date": "2024-06-04",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "startupticker.ch",
+        "document": "https://www.startupticker.ch/en/news/pilatus-flugzeugwerke-investiert-in-synhelion",
+        "date": "2024-06-04",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "ec17ec45-8275-401e-86aa-c59e3c92ef05"
+     }
+    },
+    {
+     "id": "172cc1bd-7a12-499b-84a4-769408b532cb",
+     "name": "Cemex Ventures",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "synhelion.com",
+        "document": "https://synhelion.com/news/synhelion-raises-chf-16-million",
+        "date": "2021-11-02",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "76dad931-7510-46e8-9ed0-8437b4fb80a0"
+     }
+    },
+    {
+     "id": "2b3b779e-ef4e-58b8-8e1d-e8c3dc7a2ffb",
+     "name": "Orchilla",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "synhelion.com",
+        "document": "https://synhelion.com/news/synhelion-raises-chf-16-million",
+        "date": "2021-11-02",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "06411f67-02d8-4c12-a0f5-f8d6b3a08500"
+     }
+    },
+    {
+     "id": "3b6cb8ef-880e-4d53-a135-9af880cd34f1",
+     "name": "SMS Concast AG",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "synhelion.com",
+        "document": "https://synhelion.com/news/synhelion-raises-chf-16-million",
+        "date": "2021-11-02",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "69da1b0a-b18c-450b-800b-fa26a3389e2e"
+     }
+    },
+    {
+     "id": "4a3831db-bb10-4133-80f3-003c5e18d2be",
+     "name": "Swiss International Air Lines AG",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "SWISS becomes world’s first airline to integrate solar fuel into its flight operations",
+        "document": "https://www.startupticker.ch/en/news/swiss-becomes-world-s-first-airline-to-integrate-solar-fuel-into-its-flight-operations",
+        "date": "2025-07-24"
+       },
+       {
+        "name": "newsroom.swiss.com",
+        "document": "https://newsroom.swiss.com/en/swiss-promotes-swiss-innovation-and-invests-in-synhelion",
+        "date": "2026-06-24"
+       },
+       {
+        "name": "Synhelion raises funds for industrial solar fuel plant",
+        "document": "https://www.greaterzuricharea.com/en/news/synhelion-raises-funds-industrial-solar-fuel-plant",
+        "date": "2022-12-16"
+       },
+       {
+        "name": "synhelion.com",
+        "document": "https://synhelion.com/media/pages/news/synhelion-raises-chf-22-million-investment-to-drive-the-scaling-of-solar-fuel-production/8cb5f08f6a-1695296985/synhelion_pr_investment_en.pdf",
+        "date": "2026-06-24"
+       }
+      ],
+      "id": "98bc77a2-ae99-588d-9369-a65a602adb31",
+      "valid_since": "2022-01-01"
+     }
+    },
+    {
+     "id": "79c9ebe3-5580-5bd9-b614-27da5e79810b",
+     "name": "AMAG",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "synhelion.com",
+        "document": "https://synhelion.com/news/synhelion-raises-chf-16-million",
+        "date": "2021-11-02",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "synhelion.com",
+        "document": "https://synhelion.com/news/amag-invests-in-synhelion",
+        "date": "2021-10-04",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "9e51f6ac-9087-4e2e-9a78-aae3e11f2cb6"
+     }
+    },
+    {
+     "id": "9f4ab0f3-c077-40c0-9d66-191e1fb1c80b",
+     "name": "SMS group",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "JavaScript is disabled",
+        "document": "https://www.sms-group.com/press-and-media/press-releases/press-release-detail/sms-group-partners-with-synhelion-for-pioneering-industrial-plant-with-state-of-the-art-solar-technology",
+        "date": "2026-07-29"
+       },
+       {
+        "name": "synhelion.com",
+        "document": "https://synhelion.com/news/synhelion-raises-chf-22-million-investment-to-drive-the-scaling-of-solar-fuel-production",
+        "date": "2022-12-15",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "4e37439b-8ed2-59c2-8155-4f0e9a679358",
+      "valid_since": "2021-10-04"
+     }
+    },
+    {
+     "id": "bf827be0-1099-5c59-ad7a-be8afa84a147",
+     "name": "SWISS",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "synhelion.com",
+        "document": "https://synhelion.com/news/synhelion-raises-chf-22-million-investment-to-drive-the-scaling-of-solar-fuel-production",
+        "date": "2022-12-15",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "10168553-3b6c-4cf0-98c6-b4f8b2775fc2"
+     }
+    },
+    {
+     "id": "cc0b53fd-cdbd-4c68-8ae8-c549cbc49f47",
+     "name": "Swiss KMU Partners AG",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "synhelion.com",
+        "document": "https://synhelion.com/news/synhelion-raises-chf-16-million",
+        "date": "2021-11-02",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "9e83b6e2-0a71-4c2d-abfa-6f307d8c9114"
+     }
+    },
+    {
+     "id": "effc349b-19a7-4e52-9b35-ea5aca0110c0",
+     "name": "Eni Next",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "synhelion.com",
+        "document": "https://synhelion.com/news/synhelion-raises-chf-22-million-investment-to-drive-the-scaling-of-solar-fuel-production",
+        "date": "2022-12-15",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "f40fc38c-9df9-4d69-9ef1-b2e7865e9e32"
+     }
+    }
+   ],
+   "FOUNDED": [
+    {
+     "id": "171bdb53-f8c3-54ba-9029-f5256ede49d6",
+     "name": "Gianluca Ambrosetti",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "synhelion.com",
+        "document": "https://synhelion.com/about/team",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "f20216d0-60b6-549d-b900-b532515427c3"
+     }
+    },
+    {
+     "id": "d7b2fc1d-dc74-54e0-865e-2b868584928a",
+     "name": "Philipp Furler",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "synhelion.com",
+        "document": "https://synhelion.com/about/team",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "c20a399f-76fe-54dd-82e2-3985d55c054b"
+     }
+    }
+   ],
+   "IS_CEO_OF": [
+    {
+     "id": "171bdb53-f8c3-54ba-9029-f5256ede49d6",
+     "name": "Gianluca Ambrosetti",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "synhelion.com",
+        "document": "https://synhelion.com/about/team",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "7d151265-8bf7-52a5-a224-06f7c10ec52c"
+     }
+    },
+    {
+     "id": "d7b2fc1d-dc74-54e0-865e-2b868584928a",
+     "name": "Philipp Furler",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "synhelion.com",
+        "document": "https://synhelion.com/about/team",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "60acb49b-cd3d-5750-80af-f2a324acacbc"
+     }
+    }
+   ],
+   "IS_CTO_OF": [
+    {
+     "id": "695092c1-3867-5461-a132-c9a9a84da0ac",
+     "name": "Philipp Good",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "synhelion.com",
+        "document": "https://synhelion.com/about/team",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "a9df4063-7601-58e4-9d2a-76e6246a0bbd"
+     }
+    }
+   ],
+   "IS_BOARD_MEMBER_OF": [
+    {
+     "id": "2dc606d9-6104-51e6-aaa9-cd183688dc05",
+     "name": "Daniel Rüdisüli",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "zefix.admin.ch",
+        "document": "https://www.zefix.admin.ch/ZefixREST/api/v1/firm/1264237.json",
+        "date": "2021-11-03",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "e0609ef3-c5fe-575e-9856-120987f223b0",
+      "valid_since": "2021-11-03"
+     }
+    },
+    {
+     "id": "8230c353-6217-54d4-b49c-78abd14a9b66",
+     "name": "Francesco Bolgiani",
+     "entity_type": "Person",
+     "properties": {
+      "valid_until": "2025-05-30",
+      "sources": [
+       {
+        "name": "zefix.admin.ch",
+        "document": "https://www.zefix.admin.ch/ZefixREST/api/v1/firm/1264237.json",
+        "date": "2020-12-16",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       },
+       {
+        "name": "zefix.admin.ch",
+        "document": "https://www.zefix.admin.ch/ZefixREST/api/v1/firm/1264237.json",
+        "date": "2025-05-30",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "397c5c53-973d-56af-8030-394a30c4be18",
+      "valid_since": "2020-12-16"
+     }
+    },
+    {
+     "id": "83e46f46-1ee1-5a8a-816d-e7dd40b3bd52",
+     "name": "Stephan Feldhaus",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "zefix.admin.ch",
+        "document": "https://www.zefix.admin.ch/ZefixREST/api/v1/firm/1264237.json",
+        "date": "2021-11-03",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "99faf102-394a-5972-baf6-d798cc5893fb",
+      "valid_since": "2021-11-03"
+     }
+    },
+    {
+     "id": "d4fd3a28-f1e6-598d-8fcc-fefbbe273c64",
+     "name": "Karl Anton Kohlbrenner",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "zefix.admin.ch",
+        "document": "https://www.zefix.admin.ch/ZefixREST/api/v1/firm/1264237.json",
+        "date": "2016-05-25",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "a6e43345-787d-5110-a9ce-99b2efcb7f89",
+      "valid_since": "2016-05-25"
+     }
+    },
+    {
+     "id": "de4146fb-81e0-5ee3-8d94-dd84da2c5aa1",
+     "name": "Johannes Hess",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "zefix.admin.ch",
+        "document": "https://www.zefix.admin.ch/ZefixREST/api/v1/firm/1264237.json",
+        "date": "2020-12-16",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "386503f4-8b77-5dce-bec5-72296a2c9a78",
+      "valid_since": "2020-12-16"
+     }
+    },
+    {
+     "id": "de8c9f85-116d-533c-b712-98bcfcdd8ed7",
+     "name": "Manlio David Iosimi",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "zefix.admin.ch",
+        "document": "https://www.zefix.admin.ch/ZefixREST/api/v1/firm/1264237.json",
+        "date": "2025-05-30",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "d1290ee6-b1ff-5387-bce1-de3266b52975",
+      "valid_since": "2025-05-30"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

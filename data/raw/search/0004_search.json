@@ -1,0 +1,98 @@
+{
+ "request": {
+  "method": "GET",
+  "path": "/entities",
+  "params": {
+   "name": "Slush",
+   "limit": 20,
+   "entity_types": [
+    "Event"
+   ]
+  },
+  "body": null
+ },
+ "status": 200,
+ "seconds": 0.26,
+ "response": {
+  "entities": [
+   {
+    "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+    "name": "Slush 2026",
+    "entity_type": "Event",
+    "description": "A Nordic startup conference held in Helsinki, Finland, in November 2026 at the Messukeskus Helsinki Expo and Convention Centre."
+   },
+   {
+    "id": "0b5b355d-94a2-43f6-9bd2-b3b7f92c67e0",
+    "name": "Slush 2025",
+    "entity_type": "Event",
+    "description": "the 2025 edition of an annual technology and startup conference held in Helsinki, Finland"
+   },
+   {
+    "id": "7e6eb50e-b1af-4776-9088-654373d1e015",
+    "name": "Slush 2024",
+    "entity_type": "Event",
+    "description": "The 2024 edition of an annual technology and startup conference held in Helsinki."
+   },
+   {
+    "id": "4dd97ef7-43af-4515-89fa-fe38c1c7eee4",
+    "name": "Slush",
+    "entity_type": "Event",
+    "description": "An annual startup and technology conference held in Helsinki, Finland."
+   },
+   {
+    "id": "9ea51c3a-d8a6-4cf0-8468-90f37bc8392f",
+    "name": "Slush 2013",
+    "entity_type": "Event",
+    "description": "A startup conference held in Helsinki, Finland, in 2013."
+   },
+   {
+    "id": "ff87fdbe-35af-4af3-b0d6-808302cf7e0d",
+    "name": "Slush 2023",
+    "entity_type": "Event",
+    "description": "The 2023 edition of an annual startup and technology conference held in Helsinki, Finland."
+   },
+   {
+    "id": "d19f01a7-4f9f-4671-a97f-630189d2510c",
+    "name": "Slush 100",
+    "entity_type": "Event",
+    "description": "A pitch competition held in Helsinki, Finland, on 19 November 2024."
+   },
+   {
+    "id": "51cdfe27-1087-4de5-b530-90eecbb578a0",
+    "name": "Slush 2025 Roundtable",
+    "entity_type": "Event",
+    "description": "A 2025 roundtable discussion held during the Slush technology conference in Helsinki, Finland."
+   },
+   {
+    "id": "3d49fee6-4824-4ec9-be13-162784d7bb00",
+    "name": "Slush 2024 AI Showcase",
+    "entity_type": "Event",
+    "description": "an AI showcase event held at Slush in 2024"
+   },
+   {
+    "id": "d4aef3a6-90a6-4370-81b8-8e5400e0fc03",
+    "name": "Slush 2023 (Main stage)",
+    "entity_type": "Event",
+    "description": "the main stage presentation at the 2023 Slush technology conference"
+   },
+   {
+    "id": "982534e0-ee27-4a56-9d4f-4bc781a0f7e6",
+    "name": "Slush 2024 Impact Stage",
+    "entity_type": "Event",
+    "description": "an Impact Stage talk at the 2024 Slush technology conference"
+   },
+   {
+    "id": "097ae313-2742-48f5-8587-b8488381eb57",
+    "name": "Slush 2014 (Games track, Black Stage)",
+    "entity_type": "Event",
+    "description": "A Games‑track Black Stage presentation at the 2014 Slush technology conference in Helsinki, Finland, featuring a talk by Hilmar Veigar Pétursson."
+   },
+   {
+    "id": "f63608de-5fc6-4cae-9e2d-86ce63d73bf4",
+    "name": "Slush-week side event: The Next Frontier in Cancer Care: Powered by AI",
+    "entity_type": "Event",
+    "description": "An exclusive Slush-week side event held in Helsinki on 19 November 2025 that explored AI applications in cancer care."
+   }
+  ]
+ }
+}

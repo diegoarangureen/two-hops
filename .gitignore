@@ -1,0 +1,11 @@
+# secrets: the Cala key lives in ~/.cala_key or the CALA_API_KEY env var, never here
+.env
+.env.*
+.cala_key
+*.key
+
+__pycache__/
+*.pyc
+.venv/
+node_modules/
+out/

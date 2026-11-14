@@ -1,0 +1,324 @@
+{
+ "id": "d734319d-c730-5bc9-aaf6-102ffc7a0592",
+ "name": "CAVIGEN",
+ "entity_type": "Company",
+ "description": "A German biotechnology company headquartered in Rülzheim, founded in 2024.",
+ "properties": {
+  "name": {
+   "value": "CAVIGEN",
+   "sources": [
+    {
+     "name": "cavigen.eu",
+     "document": "https://cavigen.eu/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/cavigen/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "CAVIGEN GmbH",
+   "sources": [
+    {
+     "name": "cavigen.eu",
+     "document": "https://cavigen.eu/",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "cavigen.eu",
+     "document": "https://cavigen.eu/impressum/",
+     "date": "2026-11-10",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "website": {
+   "value": "cavigen.eu",
+   "sources": [
+    {
+     "name": "cavigen.eu",
+     "document": "https://cavigen.eu/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "dns.google",
+     "document": "https://dns.google/query?name=cavigen.eu&type=A",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "web.archive.org",
+     "document": "https://web.archive.org/web/20260416222557/https://cavigen.eu/",
+     "date": "2026-11-10",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "description": {
+   "value": "A German biotechnology company headquartered in Rülzheim, founded in 2024.",
+   "sources": [
+    {
+     "name": "Cala AI",
+     "document": "",
+     "date": "2026-11-13",
+     "date_precision": null,
+     "source_rank": null
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2024-01-01",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/cavigen/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    },
+    {
+     "name": "cavigen.eu",
+     "document": "https://cavigen.eu/",
+     "date": "2026-11-10",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "cavigen.eu",
+     "document": "https://cavigen.eu/about-us/",
+     "date": "2026-11-10",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "Rülzheim, Germany",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/cavigen/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    },
+    {
+     "name": "cavigen.eu",
+     "document": "https://cavigen.eu/impressum/",
+     "date": "2026-11-10",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "cavigen.eu",
+     "document": "https://cavigen.eu/",
+     "date": "2026-11-10",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "cavigen.eu",
+     "document": "https://cavigen.eu/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "cavigen.eu",
+     "document": "https://cavigen.eu/impressum/",
+     "date": "2026-11-10",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "2179b400-18b3-5b12-ba3f-d99d549a2821"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "211634f1-a4ff-46f8-a558-596235045d51",
+     "name": "BIOTECHNOLOGY",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/cavigen/",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       },
+       {
+        "name": "cavigen.eu",
+        "document": "https://cavigen.eu/",
+        "date": "2026-11-10",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "d10bb009-cf27-5855-917c-b86e8b14dd86",
+      "original_label": "lifeSciences"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "FOUNDED": [
+    {
+     "id": "18cb5e10-ca8a-5a38-a6b4-858a3bf42550",
+     "name": "Cordula Nies",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "cavigen.eu",
+        "document": "https://cavigen.eu/about-us/",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "25ef6d26-223d-51bf-821a-e68ec2ca1fd1"
+     }
+    },
+    {
+     "id": "723b2167-7ab4-5a26-baa1-071c2e23dd34",
+     "name": "Eric Gottwald",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "cavigen.eu",
+        "document": "https://cavigen.eu/about-us/",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "e2ec33b9-5e6e-54df-bb73-a539cf15365e"
+     }
+    },
+    {
+     "id": "b3c6984e-6ddc-5939-88e3-0339834a058f",
+     "name": "Christoph Grün",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "cavigen.eu",
+        "document": "https://cavigen.eu/about-us/",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "a7fb9531-5358-5226-877a-231938d4c2fa"
+     }
+    }
+   ],
+   "IS_CEO_OF": [
+    {
+     "id": "b3c6984e-6ddc-5939-88e3-0339834a058f",
+     "name": "Christoph Grün",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "cavigen.eu",
+        "document": "https://cavigen.eu/about-us/",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "cavigen.eu",
+        "document": "https://cavigen.eu/about-us/",
+        "date": "2026-11-10",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "ca4db428-f6ed-57e5-aaf5-ad65970ba1a0"
+     }
+    }
+   ],
+   "WORKS_AT": [
+    {
+     "id": "18cb5e10-ca8a-5a38-a6b4-858a3bf42550",
+     "name": "Cordula Nies",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Customer Experience Manager",
+      "sources": [
+       {
+        "name": "cavigen.eu",
+        "document": "https://cavigen.eu/about-us/",
+        "date": "2026-11-10",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "c10dfcbe-2389-5c31-942b-27126b9a4ad6"
+     }
+    },
+    {
+     "id": "723b2167-7ab4-5a26-baa1-071c2e23dd34",
+     "name": "Eric Gottwald",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Scientific Advisor",
+      "sources": [
+       {
+        "name": "cavigen.eu",
+        "document": "https://cavigen.eu/about-us/",
+        "date": "2026-11-10",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "c10c3760-8116-55ec-bd2b-3dbf73f5c868"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

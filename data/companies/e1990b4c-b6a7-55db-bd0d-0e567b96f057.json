@@ -1,0 +1,507 @@
+{
+ "id": "e1990b4c-b6a7-55db-bd0d-0e567b96f057",
+ "name": "Reactional Music",
+ "entity_type": "Company",
+ "description": "music technology for games. It now sells pre-cleared hit music for mobile game user-acquisition ads.",
+ "properties": {
+  "name": {
+   "value": "Reactional Music",
+   "sources": [
+    {
+     "name": "reactionalmusic.com",
+     "document": "https://reactionalmusic.com",
+     "date": "2026-11-03",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "tech.eu",
+     "document": "https://tech.eu/2023/04/12/bringing-music-personalisation-to-gaming-stockholm-s-reactional-music-raises-2-million/",
+     "date": "2026-11-03",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "Reactional Music Group AB",
+   "sources": [
+    {
+     "name": "reactionalmusic.com",
+     "document": "https://reactionalmusic.com",
+     "date": "2026-11-03",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "tech.eu",
+     "document": "https://tech.eu/2023/04/12/bringing-music-personalisation-to-gaming-stockholm-s-reactional-music-raises-2-million/",
+     "date": "2026-11-03",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "website": {
+   "value": "reactionalmusic.com",
+   "sources": [
+    {
+     "name": "reactionalmusic.com",
+     "document": "https://reactionalmusic.com/",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "claude.ai",
+     "document": "https://claude.ai/artifact/H3Eq8ujw2PKskrTrSvodVZ#conflicts",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "description": {
+   "value": "music technology for games. It now sells pre-cleared hit music for mobile game user-acquisition ads.",
+   "sources": [
+    {
+     "name": "reactionalmusic.com",
+     "document": "https://reactionalmusic.com",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "tech.eu",
+     "document": "https://tech.eu/2023/04/12/bringing-music-personalisation-to-gaming-stockholm-s-reactional-music-raises-2-million/",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2012-01-01",
+   "sources": [
+    {
+     "name": "reactionalmusic.com",
+     "document": "https://reactionalmusic.com",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "tech.eu",
+     "document": "https://tech.eu/2023/04/12/bringing-music-personalisation-to-gaming-stockholm-s-reactional-music-raises-2-million/",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "Stockholm, Sweden",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/reactionalmusic/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "reactionalmusic.com",
+     "document": "https://reactionalmusic.com",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "tech.eu",
+     "document": "https://tech.eu/2023/04/12/bringing-music-personalisation-to-gaming-stockholm-s-reactional-music-raises-2-million/",
+     "date": "2026-11-04",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "total_funding": {
+   "value": 2500000.0,
+   "sources": [
+    {
+     "name": "reactionalmusic.com",
+     "document": "https://reactionalmusic.com/news/reactional-music-wins-e2-5-million-eic-grant-to-scale-music-as-a-new-monetisation-layer-in-gaming/",
+     "date": "2026-06-23",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "digitalmusicnews.com",
+     "document": "https://www.digitalmusicnews.com/2026/06/24/reactional-music-funding-eu/",
+     "date": "2026-06-24",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "total_funding_units": {
+   "value": "EUR",
+   "sources": [
+    {
+     "name": "reactionalmusic.com",
+     "document": "https://reactionalmusic.com/news/reactional-music-wins-e2-5-million-eic-grant-to-scale-music-as-a-new-monetisation-layer-in-gaming/",
+     "date": "2026-06-23",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "digitalmusicnews.com",
+     "document": "https://www.digitalmusicnews.com/2026/06/24/reactional-music-funding-eu/",
+     "date": "2026-06-24",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "total_funding_excluding_debt": {
+   "value": 2500000.0,
+   "sources": [
+    {
+     "name": "reactionalmusic.com",
+     "document": "https://reactionalmusic.com/news/reactional-music-wins-e2-5-million-eic-grant-to-scale-music-as-a-new-monetisation-layer-in-gaming/",
+     "date": "2026-06-23",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "digitalmusicnews.com",
+     "document": "https://www.digitalmusicnews.com/2026/06/24/reactional-music-funding-eu/",
+     "date": "2026-06-24",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "funding_stage": {
+   "value": "PRE_SERIES_A",
+   "sources": [
+    {
+     "name": "reactionalmusic.com",
+     "document": "https://reactionalmusic.com/news/reactional-music-closes-seven-figure-funding-round/",
+     "date": "2023-04-12",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "35c0d457-d966-51fa-b299-dd00989b8b27",
+     "name": "Pre-Series A",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "reactionalmusic.com",
+        "document": "https://reactionalmusic.com/news/reactional-music-closes-seven-figure-funding-round/",
+        "date": "2023-04-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2023/04/12/bringing-music-personalisation-to-gaming-stockholm-s-reactional-music-raises-2-million/",
+        "date": "2023-04-12",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "b413aea3-155a-5dc9-8b52-23f8d370a5b6"
+     }
+    },
+    {
+     "id": "ef7c74ae-9733-533f-9f42-9f568dc82d6e",
+     "name": "Grant",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "ISSUER",
+      "sources": [
+       {
+        "name": "reactionalmusic.com",
+        "document": "https://reactionalmusic.com/news/reactional-music-wins-e2-5-million-eic-grant-to-scale-music-as-a-new-monetisation-layer-in-gaming/",
+        "date": "2026-06-23",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "18995ad1-a7e1-5a68-b10a-ba03231b8bdb"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "e2b1f55d-5c71-593c-91b4-8f2ba266dc0f"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "8561e6a1-d703-405b-9981-f78cf3428db5",
+     "name": "ENTERTAINMENT",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/reactionalmusic/",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "a8f97111-4d78-5ace-a3c0-cfab9b50ac9e",
+      "original_label": "gaming"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "INVESTED_IN": [
+    {
+     "id": "a07abca3-fdb9-4ca6-ad7e-5911717ee2da",
+     "name": "Butterfly Ventures LLC",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "reactionalmusic.com",
+        "document": "https://reactionalmusic.com/news/reactional-music-closes-seven-figure-funding-round/",
+        "date": "2023-04-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "0f6b8bff-42e7-45fb-958a-5d2db16b9a90"
+     }
+    },
+    {
+     "id": "ada88138-b996-5320-a6a0-c0b7ca4417d4",
+     "name": "Amanotes",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "reactionalmusic.com",
+        "document": "https://reactionalmusic.com/news/reactional-music-closes-seven-figure-funding-round/",
+        "date": "2023-04-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "5c56b336-de3d-4f05-b38b-9744ba4c7e1a"
+     }
+    },
+    {
+     "id": "c452d78e-01f2-5843-a457-09f922764932",
+     "name": "Kelly Sumner",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "reactionalmusic.com",
+        "document": "https://reactionalmusic.com/news/reactional-music-closes-seven-figure-funding-round/",
+        "date": "2023-04-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "655643fd-11d1-4533-b5e3-988fced12f42"
+     }
+    }
+   ],
+   "IS_CEO_OF": [
+    {
+     "id": "ea777e2a-7911-55e1-a47d-01846c8c6f86",
+     "name": "Tomas Jenneborg",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "allabolag.se",
+        "document": "https://www.allabolag.se/5590528369/befattningar",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       },
+       {
+        "name": "reactionalmusic.com",
+        "document": "https://reactionalmusic.com/news/reactional-music-wins-e2-5-million-eic-grant-to-scale-music-as-a-new-monetisation-layer-in-gaming/",
+        "date": "2026-06-23",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "digitalmusicnews.com",
+        "document": "https://www.digitalmusicnews.com/2026/06/24/reactional-music-funding-eu/",
+        "date": "2026-06-24",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "ded89b68-8a41-5b56-8e33-e9764c6a3404"
+     }
+    }
+   ],
+   "IS_BOARD_MEMBER_OF": [
+    {
+     "id": "08c408fa-2df0-50e0-8f21-763f7799b857",
+     "name": "Matthew Handlin Connors",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "allabolag.se",
+        "document": "https://www.allabolag.se/5590528369/befattningar",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "545376ea-9932-56c8-8392-4e18abee4e80"
+     }
+    },
+    {
+     "id": "541ede3c-48ff-5215-b8fb-a1851936036c",
+     "name": "Anette Susanna Bergkvist Nordvall",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "allabolag.se",
+        "document": "https://www.allabolag.se/5590528369/befattningar",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "fa2eb8f4-c9a4-5c61-89b7-e2d2dbde4579"
+     }
+    },
+    {
+     "id": "8a0e7e8e-35e0-5c28-98c1-0b66b509a2c0",
+     "name": "Jan Stefan Wikstrand",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "allabolag.se",
+        "document": "https://www.allabolag.se/5590528369/befattningar",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "0f5ad005-bcc2-5409-a2f1-94f94ca67884"
+     }
+    },
+    {
+     "id": "98825381-c89c-5c04-8f99-cdb7df7f55ea",
+     "name": "Jesper Nordin",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "allabolag.se",
+        "document": "https://www.allabolag.se/5590528369/befattningar",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "5e367c7e-3683-5637-b195-043d88757b30"
+     }
+    },
+    {
+     "id": "a4f89f39-08fd-55b2-b715-49afc56fd999",
+     "name": "Håkan Patrik Harald Sventelius",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "allabolag.se",
+        "document": "https://www.allabolag.se/5590528369/befattningar",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "c788cc5c-9939-5ac1-ae88-82d8b1f53d65"
+     }
+    },
+    {
+     "id": "c452d78e-01f2-5843-a457-09f922764932",
+     "name": "Kelly Sumner",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "allabolag.se",
+        "document": "https://www.allabolag.se/5590528369/befattningar",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       },
+       {
+        "name": "digitalmusicnews.com",
+        "document": "https://www.digitalmusicnews.com/2026/06/24/reactional-music-funding-eu/",
+        "date": "2026-06-24",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "0952c648-b33e-59e0-a5ac-90d76137a324"
+     }
+    },
+    {
+     "id": "c8240e39-a400-5e44-8299-8eb51e75f19d",
+     "name": "Tanya Norisse Horowitz",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "allabolag.se",
+        "document": "https://www.allabolag.se/5590528369/befattningar",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "FILING"
+       }
+      ],
+      "id": "f75a0df3-59f2-56be-a28a-82fd167ce8cc"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

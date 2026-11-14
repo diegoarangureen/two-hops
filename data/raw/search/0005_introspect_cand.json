@@ -1,0 +1,27 @@
+{
+ "request": {
+  "method": "GET",
+  "path": "/entities/bc844d56-6ab4-452b-96bf-2661e86e592b/introspection",
+  "params": null,
+  "body": null
+ },
+ "status": 200,
+ "seconds": 0.19,
+ "response": {
+  "properties": [
+   "description",
+   "name",
+   "id",
+   "event_date",
+   "location",
+   "aliases"
+  ],
+  "relationships": {
+   "outgoing": [],
+   "incoming": [
+    "PARTICIPATES_IN_EVENT"
+   ]
+  },
+  "numerical_observations": {}
+ }
+}

@@ -1,0 +1,191 @@
+{
+ "id": "2348a8ba-9a8c-517a-9b4d-64d386345c26",
+ "name": "WAI Water Intelligence",
+ "entity_type": "Company",
+ "description": "A Finnish software and services company founded in 2023 and headquartered in Helsinki, established by K. Hildén.",
+ "properties": {
+  "name": {
+   "value": "WAI Water Intelligence",
+   "sources": [
+    {
+     "name": "waiing.com",
+     "document": "https://waiing.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/taikoa/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "Taikoa Oy",
+   "sources": [
+    {
+     "name": "avoindata.prh.fi",
+     "document": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies?businessId=3380111-1",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "FILING"
+    },
+    {
+     "name": "waiing.com",
+     "document": "https://www.waiing.com/privacy-policy/",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "taikoa.com",
+     "document": "https://www.taikoa.com/details",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "website": {
+   "value": "waiing.com",
+   "sources": [
+    {
+     "name": "waiing.com",
+     "document": "https://waiing.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "dns.google",
+     "document": "https://dns.google/query?name=waiing.com&type=A",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "description": {
+   "value": "A Finnish software and services company founded in 2023 and headquartered in Helsinki, established by K. Hildén.",
+   "sources": [
+    {
+     "name": "Cala AI",
+     "document": "",
+     "date": "2026-11-13",
+     "date_precision": null,
+     "source_rank": null
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2023-01-01",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/taikoa/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "Helsinki, Finland",
+   "sources": [
+    {
+     "name": "linkedin.com",
+     "document": "https://www.linkedin.com/company/taikoa/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    }
+   ]
+  },
+  "operational_status": {
+   "value": "ACTIVE",
+   "sources": [
+    {
+     "name": "waiing.com",
+     "document": "https://waiing.com/",
+     "date": "2026-11-02",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "3c781e9b-4f6b-5535-b546-ec0ca3da5b0b"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "8ecf5e57-a149-438c-9eb4-089809bade56",
+     "name": "SOFTWARE_AND_SERVICES",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "linkedin.com",
+        "document": "https://www.linkedin.com/company/taikoa/",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "d4e1aa89-6f04-5f62-9d1d-04d1bb2d8972",
+      "original_label": "agriTech"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "FOUNDED": [
+    {
+     "id": "d04d6f15-2521-4c15-8276-0f7ea7a84c8d",
+     "name": "K. Hildén",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "b2match.com",
+        "document": "https://www.b2match.com/e/apelago-initiative-matchmaking/participations/770206",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       },
+       {
+        "name": "b2match.com",
+        "document": "https://www.b2match.com/e/apelago-initiative-matchmaking/opportunities/UGFydGljaXBhdGlvbk9wcG9ydHVuaXR5OjI0ODQ0MA==",
+        "date": "2026-06-17",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "b67279ea-7c85-5a2c-8c49-d0f379cbad42"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

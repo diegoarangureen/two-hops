@@ -1,0 +1,137 @@
+{
+ "request": {
+  "method": "GET",
+  "path": "/entities",
+  "params": {
+   "name": "Slush 2026",
+   "limit": 20
+  },
+  "body": null
+ },
+ "status": 200,
+ "seconds": 0.66,
+ "response": {
+  "entities": [
+   {
+    "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+    "name": "Slush 2026",
+    "entity_type": "Event",
+    "description": "A Nordic startup conference held in Helsinki, Finland, in November 2026 at the Messukeskus Helsinki Expo and Convention Centre."
+   },
+   {
+    "id": "0b5b355d-94a2-43f6-9bd2-b3b7f92c67e0",
+    "name": "Slush 2025",
+    "entity_type": "Event",
+    "description": "the 2025 edition of an annual technology and startup conference held in Helsinki, Finland"
+   },
+   {
+    "id": "7e6eb50e-b1af-4776-9088-654373d1e015",
+    "name": "Slush 2024",
+    "entity_type": "Event",
+    "description": "The 2024 edition of an annual technology and startup conference held in Helsinki."
+   },
+   {
+    "id": "4dd97ef7-43af-4515-89fa-fe38c1c7eee4",
+    "name": "Slush",
+    "entity_type": "Event",
+    "description": "An annual startup and technology conference held in Helsinki, Finland."
+   },
+   {
+    "id": "58a51fa5-4d24-448f-a5f6-2b613df67233",
+    "name": "Slush",
+    "entity_type": "Organization",
+    "description": "a technology conference and event based in Helsinki, Finland"
+   },
+   {
+    "id": "33b25e9c-25d1-44af-bfdc-d4435d07f9b3",
+    "name": "SLUSH CIC",
+    "entity_type": "Company",
+    "description": "a Welsh entertainment company founded in 2024 and based in Carmarthen"
+   },
+   {
+    "id": "2296e4fe-d087-42c0-b2c6-d451a863b82e",
+    "name": "Grammys 2026",
+    "entity_type": "Event",
+    "description": "The 2026 Grammy Awards ceremony held on February 1, 2026 at the Crypto.com Arena in Los Angeles."
+   },
+   {
+    "id": "0adcb8fe-5d22-58c2-abb7-84dbf7632f7c",
+    "name": "LEADER DUNKERQUE 2026",
+    "entity_type": "Company",
+    "description": "A French consulting firm headquartered in Dunkerque, founded in 2022."
+   },
+   {
+    "id": "323d5f85-cbac-4aec-93c1-a9ee3b8987be",
+    "name": "SynBioBeta 2026",
+    "entity_type": "Event",
+    "description": "A 2026 conference focusing on synthetic biology and artificial intelligence."
+   },
+   {
+    "id": "f6ec703c-8637-45ee-ae56-a93773804f38",
+    "name": "CES 2026",
+    "entity_type": "Event",
+    "description": "Annual consumer electronics trade show held at the Las Vegas Convention Center in Las Vegas, Nevada, in early January 2026."
+   },
+   {
+    "id": "a0ec28ea-c898-4fb2-ae91-97fcae025215",
+    "name": "Plus 2026",
+    "entity_type": "Company",
+    "description": "A Luxembourg‑registered company founded in 2011."
+   },
+   {
+    "id": "e0fd4fba-90c6-4379-936b-819885e92ac3",
+    "name": "Digital Spain 2026",
+    "entity_type": "Product",
+    "description": "A digital policy agenda launched by the Spanish Government in 2022."
+   },
+   {
+    "id": "b65cf9ed-649f-4fab-b859-225ec9571247",
+    "name": "España Digital 2026",
+    "entity_type": "Organization",
+    "description": "A Spanish government initiative launched in 2022 to implement a national digital strategy, encompassing software and services and public administration."
+   },
+   {
+    "id": "3fc2c3ab-28ef-5a29-bf95-adb3e1e290f0",
+    "name": "Slush Oy",
+    "entity_type": "Company",
+    "description": "A Finnish-owned company that organizes startup and technology conferences, headquartered in Helsinki, Finland."
+   },
+   {
+    "id": "ff87fdbe-35af-4af3-b0d6-808302cf7e0d",
+    "name": "Slush 2023",
+    "entity_type": "Event",
+    "description": "The 2023 edition of an annual startup and technology conference held in Helsinki, Finland."
+   },
+   {
+    "id": "9ea51c3a-d8a6-4cf0-8468-90f37bc8392f",
+    "name": "Slush 2013",
+    "entity_type": "Event",
+    "description": "A startup conference held in Helsinki, Finland, in 2013."
+   },
+   {
+    "id": "f8965bfa-6ac2-4d34-8c8f-a478e16f3773",
+    "name": "WWDC 2026",
+    "entity_type": "Event",
+    "description": "Apple's annual Worldwide Developers Conference held from June 8–12, 2026."
+   },
+   {
+    "id": "946a70f8-0a3a-4b3d-965c-39f789d0e81c",
+    "name": "CHOPSTICKS 2026 LTD",
+    "entity_type": "Company",
+    "description": "A Northern Irish restaurant operator founded in 2026 and based in Clogher."
+   },
+   {
+    "id": "d19f01a7-4f9f-4671-a97f-630189d2510c",
+    "name": "Slush 100",
+    "entity_type": "Event",
+    "description": "A pitch competition held in Helsinki, Finland, on 19 November 2024."
+   },
+   {
+    "id": "f54e2207-0391-4703-b99f-d417e204646e",
+    "name": "SXSW 2026",
+    "entity_type": "Event",
+    "description": "A March 2026 edition of the annual music, film and interactive festival held in Austin, Texas."
+   }
+  ]
+ }
+}

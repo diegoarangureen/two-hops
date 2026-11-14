@@ -1,0 +1,36 @@
+{
+ "properties": [
+  "headquarters_address",
+  "description",
+  "total_funding_excluding_debt_units",
+  "funding_stage",
+  "operational_status",
+  "name",
+  "legal_name",
+  "id",
+  "total_funding_excluding_debt",
+  "website",
+  "total_funding_units",
+  "founding_date",
+  "total_funding",
+  "aliases"
+ ],
+ "relationships": {
+  "outgoing": [
+   "OPERATES_IN_INDUSTRY",
+   "PARTICIPATES_IN_FUNDING_ROUND",
+   "PARTICIPATES_IN_CORPORATE_EVENT",
+   "HAS_DOMAIN_NAME",
+   "PARTICIPATES_IN_EVENT"
+  ],
+  "incoming": [
+   "IS_BOARD_MEMBER_OF",
+   "IS_CEO_OF",
+   "IS_CFO_OF",
+   "INVESTED_IN",
+   "IS_CTO_OF",
+   "FOUNDED"
+  ]
+ },
+ "numerical_observations": {}
+}

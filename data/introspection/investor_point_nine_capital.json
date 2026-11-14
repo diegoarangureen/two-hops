@@ -1,0 +1,1 @@
+{"properties":["employee_count","description","name","id","registered_address","website","founding_date","aliases"],"relationships":{"outgoing":["OPERATES_IN_INDUSTRY","PARTICIPATES_IN_FUNDING_ROUND","HAS_PRESENCE_IN","PARTICIPATES_IN_CORPORATE_EVENT","INVESTED_IN","PARTICIPATES_IN_EVENT"],"incoming":["INVESTED_IN"]},"numerical_observations":{}}
