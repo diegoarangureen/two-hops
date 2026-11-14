@@ -1,0 +1,576 @@
+{
+ "id": "9959f461-f24f-45c1-b90c-f8bbec2fa53a",
+ "name": "BioInnovation Institute",
+ "entity_type": "Organization",
+ "description": "A Danish biotechnology innovation hub based in Copenhagen.",
+ "properties": {
+  "name": {
+   "value": "BioInnovation Institute",
+   "sources": [
+    {
+     "name": "Cala AI",
+     "document": "",
+     "date": "2026-09-08"
+    },
+    {
+     "name": "aidaoncology.com",
+     "document": "https://www.aidaoncology.com/all-events/aida-joins-bii-venture-lab",
+     "date": "2023-03-01",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "vcbacked.co",
+     "document": "https://www.vcbacked.co/company/aida-oncology",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    },
+    {
+     "name": "prnewswire.co.uk",
+     "document": "https://prnewswire.co.uk/news-releases/five-companies-receive-additional-financial-support-through-bioinnovation-institutes-venture-house-program-301773201.html",
+     "date": "2023-03-16",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "aiomic.com",
+     "document": "https://www.aiomic.com/news/aiomic-secures-funding",
+     "date": "2023-03-16",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "foodnavigator.com",
+     "document": "https://www.foodnavigator.com/Article/2022/03/23/danish-start-up-secures-carbon-capture-funding-for-algae-omega-3-products",
+     "date": "2022-03-23",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "businesswire.com",
+     "document": "https://businesswire.com/news/home/20240908214770/en",
+     "date": "2024-09-08",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "theaiinsider.tech",
+     "document": "https://theaiinsider.tech/?p=26839",
+     "date": "2024-09-10",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "cellugy.com",
+     "document": "https://www.cellugy.com/about-us",
+     "date": "2026-11-09",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "bii.dk",
+     "document": "https://bii.dk/community/news/six-companies-receive-additional-funding-from-bii/",
+     "date": "2025-09-10",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "helsinki.fi",
+     "document": "https://www.helsinki.fi/en/helsinki-innovation-services/news-archive/university-helsinki-spinout-receives-million-dollar-international-investment",
+     "date": "2022-08-23",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "bionity.com",
+     "document": "https://bionity.com/en/news/1177425/the-bioinnovation-institute-supports-three-international-start-ups-developing-pioneering-science-in-the-therapeutics-and-health-tech-space.html",
+     "date": "2022-08-24",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "aliases": {
+   "value": [
+    "BII"
+   ],
+   "sources": []
+  },
+  "website": {
+   "value": "bii.dk",
+   "sources": [
+    {
+     "name": "bii.dk",
+     "document": "https://bii.dk",
+     "date": "2026-09-09"
+    }
+   ]
+  },
+  "description": {
+   "value": "A Danish biotechnology innovation hub based in Copenhagen.",
+   "sources": [
+    {
+     "name": "Cala AI",
+     "document": "",
+     "date": "2026-09-09"
+    }
+   ]
+  },
+  "registered_address": {
+   "value": "Ole Maaløs Vej 3, 2200 Copenhagen N, Denmark",
+   "sources": [
+    {
+     "name": "bii.dk",
+     "document": "https://bii.dk/about/contact",
+     "date": "2026-09-09"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "02f42013-cd19-5b59-99c0-fffabfabd5f6",
+     "name": "Convertible Notes round",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "bii.dk",
+        "document": "https://bii.dk/community/news/six-companies-receive-additional-funding-from-bii/",
+        "date": "2025-09-10",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "is_lead": true,
+      "id": "6d303a82-fbe6-5de3-aa9b-81af30e740c8"
+     }
+    },
+    {
+     "id": "0cf621ac-0554-5790-abee-a82ab7719675",
+     "name": "Pre-Seed",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "businesswire.com",
+        "document": "https://businesswire.com/news/home/20240908214770/en",
+        "date": "2024-09-08",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "theaiinsider.tech",
+        "document": "https://theaiinsider.tech/?p=26839",
+        "date": "2024-09-10",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "is_lead": true,
+      "id": "060ca9e1-8e39-5b49-93f5-90d00dca3ec5"
+     }
+    },
+    {
+     "id": "29a86c14-4de1-529f-ae7f-b5227eb1704e",
+     "name": "Pre-Seed",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "foodnavigator.com",
+        "document": "https://www.foodnavigator.com/Article/2022/03/23/danish-start-up-secures-carbon-capture-funding-for-algae-omega-3-products",
+        "date": "2022-03-23",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "is_lead": true,
+      "id": "ba17f807-372e-591f-8934-29d91ad9d68c"
+     }
+    },
+    {
+     "id": "43353345-d62a-5a36-b6c4-26875808724d",
+     "name": "Pre-Seed",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "aidaoncology.com",
+        "document": "https://www.aidaoncology.com/all-events/aida-joins-bii-venture-lab",
+        "date": "2023-03-01",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "vcbacked.co",
+        "document": "https://www.vcbacked.co/company/aida-oncology",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "is_lead": true,
+      "id": "ac0565a4-6e6d-5670-8ac2-c36e4c68a2f4"
+     }
+    },
+    {
+     "id": "58ee71cd-bfe3-5e46-bbe4-7646545c6051",
+     "name": "Grant",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "GRANTOR",
+      "sources": [
+       {
+        "name": "cellugy.com",
+        "document": "https://www.cellugy.com/about-us",
+        "date": "2026-11-09",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "is_lead": true,
+      "id": "80969e5e-059d-5ab7-aca7-9e3c014e632a"
+     }
+    },
+    {
+     "id": "6a14e08c-14f5-51af-b797-bef09e8da3a4",
+     "name": "Convertible Notes round",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "helsinki.fi",
+        "document": "https://www.helsinki.fi/en/helsinki-innovation-services/news-archive/university-helsinki-spinout-receives-million-dollar-international-investment",
+        "date": "2022-08-23",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "bionity.com",
+        "document": "https://bionity.com/en/news/1177425/the-bioinnovation-institute-supports-three-international-start-ups-developing-pioneering-science-in-the-therapeutics-and-health-tech-space.html",
+        "date": "2022-08-24",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "is_lead": true,
+      "id": "a0a44f7c-1aeb-5eb6-991a-c5433691c380"
+     }
+    },
+    {
+     "id": "c0006154-daef-59fe-81f0-af6fb2049c59",
+     "name": "Convertible Notes round",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "prnewswire.co.uk",
+        "document": "https://prnewswire.co.uk/news-releases/five-companies-receive-additional-financial-support-through-bioinnovation-institutes-venture-house-program-301773201.html",
+        "date": "2023-03-16",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "aiomic.com",
+        "document": "https://www.aiomic.com/news/aiomic-secures-funding",
+        "date": "2023-03-16",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "is_lead": true,
+      "id": "edcde350-5dad-54d9-9e3c-2792b7c57834"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "e1a54906-c066-5b28-9f6a-4f0c2c1fcad1"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "211634f1-a4ff-46f8-a558-596235045d51",
+     "name": "BIOTECHNOLOGY",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "www.linkedin.com",
+        "document": "https://www.linkedin.com/company/bioinnovationinstitute",
+        "date": "2026-09-09"
+       }
+      ],
+      "id": "c94d2b7c-6a04-568a-b7a7-69a15f307d8f",
+      "valid_since": "2018-01-01"
+     }
+    }
+   ],
+   "INVESTED_IN": [
+    {
+     "id": "047ce925-c1d5-4375-b3cc-feb000f9a9d5",
+     "name": "Gefjon Pharma",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "BioInnovation Institute Investments & Fund Profile | The Venture Codex",
+        "document": "https://theventurecodex.com/funds/bioinnovation-institute",
+        "date": "2026-03-03"
+       }
+      ],
+      "id": "a9f661be-17d3-534f-ad3b-b2d6d07b9031"
+     }
+    },
+    {
+     "id": "119c618e-3405-4734-8641-b7172ac34b7a",
+     "name": "ArcanaBio",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "businesswire.com",
+        "document": "https://businesswire.com/news/home/20240908214770/en",
+        "date": "2024-09-08",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "theaiinsider.tech",
+        "document": "https://theaiinsider.tech/?p=26839",
+        "date": "2024-09-10",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "a2902e07-5044-4469-8665-894c71711107"
+     }
+    },
+    {
+     "id": "1c5bb93b-5c1b-571c-b6b7-2435282ac29b",
+     "name": "Aida Oncology",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "aidaoncology.com",
+        "document": "https://www.aidaoncology.com/all-events/aida-joins-bii-venture-lab",
+        "date": "2023-03-01",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "vcbacked.co",
+        "document": "https://www.vcbacked.co/company/aida-oncology",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "59af3958-355b-4aae-a7dc-610954d71294"
+     }
+    },
+    {
+     "id": "314d277f-8a2c-42b1-ac44-9edf7367fdea",
+     "name": "Anorit Medical",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "pitchbook.com",
+        "document": "https://pitchbook.com/profiles/investor/265960-18",
+        "date": "2026-09-09"
+       }
+      ],
+      "id": "1de265e8-2d77-5c00-bca8-abf3eeb8ab08",
+      "valid_since": "2026-04-05"
+     }
+    },
+    {
+     "id": "4a82a522-3e0a-43e2-b06b-877da08efc3b",
+     "name": "Diasense B.V.",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "BioInnovation Institute Investments & Fund Profile | The Venture Codex",
+        "document": "https://theventurecodex.com/funds/bioinnovation-institute",
+        "date": "2026-03-03"
+       }
+      ],
+      "id": "35701e5f-e98a-5bcc-a94b-826a20bc956d"
+     }
+    },
+    {
+     "id": "55a87256-8552-5343-8f2b-55108c7583fe",
+     "name": "Aiomic",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "prnewswire.co.uk",
+        "document": "https://prnewswire.co.uk/news-releases/five-companies-receive-additional-financial-support-through-bioinnovation-institutes-venture-house-program-301773201.html",
+        "date": "2023-03-16",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "aiomic.com",
+        "document": "https://www.aiomic.com/news/aiomic-secures-funding",
+        "date": "2023-03-16",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "89f7003b-2538-4000-baa8-06be7d9a2372"
+     }
+    },
+    {
+     "id": "70e59d89-beeb-5fce-9055-583c0882349a",
+     "name": "Phanofi",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "bii.dk",
+        "document": "https://bii.dk/community/news/six-companies-receive-additional-funding-from-bii/",
+        "date": "2025-09-10",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "33c63bf5-a1a8-4eea-b3d2-3628baa5410a"
+     }
+    },
+    {
+     "id": "82b047bc-94c4-46ea-b544-453cda156d89",
+     "name": "Synuca Therapeutics",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "BioInnovation Institute Investments & Fund Profile | The Venture Codex",
+        "document": "https://theventurecodex.com/funds/bioinnovation-institute",
+        "date": "2026-03-03"
+       }
+      ],
+      "id": "a714b081-0bdf-5ee6-9040-f2012f0562a7"
+     }
+    },
+    {
+     "id": "b5a9e5b0-6fa6-5bfd-9d80-ab54e9cb8b40",
+     "name": "Algiecel A/S",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "foodnavigator.com",
+        "document": "https://www.foodnavigator.com/Article/2022/03/23/danish-start-up-secures-carbon-capture-funding-for-algae-omega-3-products",
+        "date": "2022-03-23",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "1d986c94-1cac-4007-86c4-88eb5162fec2"
+     }
+    },
+    {
+     "id": "c325f794-4f90-430f-89c2-6e17d7b65a4f",
+     "name": "Combotope Therapeutics",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "pitchbook.com",
+        "document": "https://pitchbook.com/profiles/investor/265960-18",
+        "date": "2026-09-09"
+       }
+      ],
+      "id": "5af1a59c-ee1a-59bd-a4c6-c91fe9ca2cce",
+      "valid_since": "2026-03-10"
+     }
+    },
+    {
+     "id": "cfc9ac0f-b314-4a7f-b021-dab237391da4",
+     "name": "Veil.ai Oy",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "helsinki.fi",
+        "document": "https://www.helsinki.fi/en/helsinki-innovation-services/news-archive/university-helsinki-spinout-receives-million-dollar-international-investment",
+        "date": "2022-08-23",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "bionity.com",
+        "document": "https://bionity.com/en/news/1177425/the-bioinnovation-institute-supports-three-international-start-ups-developing-pioneering-science-in-the-therapeutics-and-health-tech-space.html",
+        "date": "2022-08-24",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "4f42f1d9-9ccf-4092-849b-197aa8d4e986"
+     }
+    },
+    {
+     "id": "d90ab316-97d0-4a8f-8d0e-45c43abf71fe",
+     "name": "MICROMINE LIMITED",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "BioInnovation Institute Investments & Fund Profile | The Venture Codex",
+        "document": "https://theventurecodex.com/funds/bioinnovation-institute",
+        "date": "2026-03-03"
+       }
+      ],
+      "id": "110f6112-2249-5ff0-9b36-4dec7babeb18"
+     }
+    },
+    {
+     "id": "fbf83310-2652-4e29-9031-5ad3c383f7bf",
+     "name": "1st Biome",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "pitchbook.com",
+        "document": "https://pitchbook.com/profiles/investor/265960-18",
+        "date": "2026-09-09"
+       }
+      ],
+      "id": "96d6595d-0f43-53c9-afb5-a5367ffc8ffc",
+      "valid_since": "2026-03-10"
+     }
+    }
+   ]
+  },
+  "incoming": {}
+ },
+ "numerical_observations": []
+}

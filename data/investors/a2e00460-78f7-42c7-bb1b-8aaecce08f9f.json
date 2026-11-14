@@ -1,0 +1,679 @@
+{
+ "id": "a2e00460-78f7-42c7-bb1b-8aaecce08f9f",
+ "name": "EWOR",
+ "entity_type": "Organization",
+ "description": "German venture capital firm headquartered in Berlin",
+ "properties": {
+  "name": {
+   "value": "EWOR",
+   "sources": [
+    {
+     "name": "Cala AI",
+     "document": "",
+     "date": "2026-06-02"
+    },
+    {
+     "name": "preqin.com",
+     "document": "https://www.preqin.com/data/profile/asset/damisa-technologies-sp--z-o-o--z/736223",
+     "date": "2026-10-01",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    },
+    {
+     "name": "app.dealroom.co",
+     "document": "https://app.dealroom.co/companies/damisa",
+     "date": "2026-10-01",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    },
+    {
+     "name": "tech.eu",
+     "document": "https://tech.eu/2025/06/17/ewor-awards-first-ever-500k-traction-investment-to-zero-one-creative/",
+     "date": "2025-06-17",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "startupmag.co.uk",
+     "document": "https://www.startupmag.co.uk/funding/zero-one-creative-raised-427000",
+     "date": "2025-06-17",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "ewor.com",
+     "document": "https://www.ewor.com/startups/zero-one-creative",
+     "date": "2026-11-13",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "cbinsights.com",
+     "document": "https://www.cbinsights.com/company/gama-1/financials",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "AGGREGATOR"
+    },
+    {
+     "name": "inovexus.com",
+     "document": "https://inovexus.com/portfolio/gama-space/",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "inference.sh",
+     "document": "https://inference.sh/about",
+     "date": "2026-11-12",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    }
+   ]
+  },
+  "aliases": {
+   "value": [
+    "EWOR GmbH"
+   ],
+   "sources": []
+  },
+  "website": {
+   "value": "ewor.com",
+   "sources": [
+    {
+     "name": "EWOR",
+     "document": "https://www.ewor.com",
+     "date": "2026-06-02"
+    },
+    {
+     "name": "de.linkedin.com",
+     "document": "https://de.linkedin.com/company/ewor",
+     "date": "2026-06-02"
+    }
+   ]
+  },
+  "description": {
+   "value": "German venture capital firm headquartered in Berlin",
+   "sources": [
+    {
+     "name": "Cala AI",
+     "document": "",
+     "date": "2026-08-22"
+    }
+   ]
+  },
+  "registered_address": {
+   "value": "Wattstraße 11, 13355 Berlin, Germany",
+   "sources": [
+    {
+     "name": "pitchbook.com",
+     "document": "https://pitchbook.com/profiles/investor/515471-05",
+     "date": "2026-06-02"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "4d3ebcd5-1ba8-5e7c-a21c-36a5b6b9a675",
+     "name": "Angel",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "inference.sh",
+        "document": "https://inference.sh/about",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "92039c69-a429-52e7-ae7f-d3e1a67c9edc"
+     }
+    },
+    {
+     "id": "5d274d5c-7d7a-56c3-b43c-cef42bcb7a5b",
+     "name": "Pre-Seed",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "preqin.com",
+        "document": "https://www.preqin.com/data/profile/asset/damisa-technologies-sp--z-o-o--z/736223",
+        "date": "2026-10-01",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       },
+       {
+        "name": "app.dealroom.co",
+        "document": "https://app.dealroom.co/companies/damisa",
+        "date": "2026-10-01",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "75eea14b-8f6e-5e45-b287-561af7e4aedb"
+     }
+    },
+    {
+     "id": "7fabe672-67d7-5d0a-98f9-928c501ca47a",
+     "name": "Pre-Seed",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2025/06/17/ewor-awards-first-ever-500k-traction-investment-to-zero-one-creative/",
+        "date": "2025-06-17",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "startupmag.co.uk",
+        "document": "https://www.startupmag.co.uk/funding/zero-one-creative-raised-427000",
+        "date": "2025-06-17",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "ewor.com",
+        "document": "https://www.ewor.com/startups/zero-one-creative",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "is_lead": true,
+      "id": "be4a529a-c1bd-5259-9fe0-7bcfbaade3df"
+     }
+    },
+    {
+     "id": "d925cf91-c2ee-529e-a4cb-75fe12d7ef81",
+     "name": "Seed",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "cbinsights.com",
+        "document": "https://www.cbinsights.com/company/gama-1/financials",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       },
+       {
+        "name": "inovexus.com",
+        "document": "https://inovexus.com/portfolio/gama-space/",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "17898292-daef-59a5-9adc-6b4882410547"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_CORPORATE_EVENT": [
+    {
+     "id": "30c67fad-f3e8-4d09-82d6-2e73cbd83437",
+     "name": "FINANCING_RAISED_OR_FACILITY_ENTERED",
+     "entity_type": "PrivateCompanyFundingRound",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "pitchbook.com",
+        "document": "https://pitchbook.com/profiles/company/533256-49",
+        "date": "2026-08-25"
+       }
+      ],
+      "id": "4c88e39e-0961-429d-93ee-d9c7c30543a3"
+     }
+    },
+    {
+     "id": "50fa4f5c-16d9-425a-a792-d1d68da4a31b",
+     "name": "FINANCING_RAISED_OR_FACILITY_ENTERED",
+     "entity_type": "PrivateCompanyFundingRound",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "Axon",
+        "document": "https://www.axonlabs.co",
+        "date": "2025-01-01"
+       },
+       {
+        "name": "Axon - speedrun",
+        "document": "https://speedrun.a16z.com/companies/axon",
+        "date": "2026-01-01"
+       },
+       {
+        "name": "nordic9.com",
+        "document": "https://nordic9.com/news/axon-labs-raised-a-seed-funding-round-with-northzone-a16z-speedrun-concept-ventures",
+        "date": "2026-08-25"
+       },
+       {
+        "name": "www.gritt.io",
+        "document": "https://www.gritt.io/company/axon-labs-uk",
+        "date": "2026-08-25"
+       },
+       {
+        "name": "uk.linkedin.com",
+        "document": "https://uk.linkedin.com/in/nickdaloisio",
+        "date": "2026-08-25"
+       },
+       {
+        "name": "Axon Labs company information, funding & investors",
+        "document": "https://app.dealroom.co/companies/axon_labs_2",
+        "date": "2026-08-25"
+       }
+      ],
+      "event_date": "2025-10-01",
+      "id": "09d7f833-9504-48a5-8554-4022538f9a24"
+     }
+    },
+    {
+     "id": "85b7a519-7b4e-4ffa-977c-d076c757431f",
+     "name": "FINANCING_RAISED_OR_FACILITY_ENTERED",
+     "entity_type": "PrivateCompanyFundingRound",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "pitchbook.com",
+        "document": "https://pitchbook.com/profiles/company/503773-66",
+        "date": "2026-07-29"
+       },
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/venture-capital/venture-friends/__J9b31_6tHrINmBEUeXA7jwQ_uqtXuQK85_HG5jR0lco",
+        "date": "2026-07-29"
+       },
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/venture-capital/semapa-next/__xUUXhHlMCZARrRYbpzA7aCa68jTyuTEES5Ux7NIZCqk",
+        "date": "2026-07-29"
+       },
+       {
+        "name": "www.crunchbase.com",
+        "document": "https://www.crunchbase.com/organization/sybilion",
+        "date": "2026-07-29"
+       }
+      ],
+      "event_date": "2026-03-11",
+      "id": "a365c581-f057-454f-838a-3808b6d518ef"
+     }
+    },
+    {
+     "id": "d82423cb-e227-453f-b277-189c9f324ac3",
+     "name": "FINANCING_RAISED_OR_FACILITY_ENTERED",
+     "entity_type": "PrivateCompanyFundingRound",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "Aeon: Funding, Team & Investors",
+        "document": "https://startupintros.com/orgs/aeon",
+        "date": "2026-07-13"
+       },
+       {
+        "name": "pitchbook.com",
+        "document": "https://pitchbook.com/profiles/company/542240-65",
+        "date": "2026-08-24"
+       }
+      ],
+      "event_date": "2025-06-04",
+      "id": "f7baf1be-9d0b-4b0e-97d8-82a52d6d19a0"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "1e0d3c9d-95a4-5a0d-871d-0cedaad57de0"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "f48ebf95-99ea-4756-99cc-8a2a2d71f2e2",
+     "name": "VENTURE_CAPITAL",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "Everything Startup - New VC Funds - EWOR",
+        "document": "https://www.everythingstartups.com/vc-funds/ewor",
+        "date": "2026-01-15"
+       },
+       {
+        "name": "de.linkedin.com",
+        "document": "https://de.linkedin.com/company/ewor",
+        "date": "2026-06-02"
+       }
+      ],
+      "id": "fa2987d4-d1fe-5a99-a6a7-6c5526dfd865"
+     }
+    }
+   ],
+   "INVESTED_IN": [
+    {
+     "id": "0720a69b-5de8-43ab-ae4f-a1a6d3239861",
+     "name": "THALERON LIMITED",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "pitchbook.com",
+        "document": "https://pitchbook.com/profiles/company/533256-49",
+        "date": "2026-08-25"
+       }
+      ],
+      "id": "1e3dd75f-b9c3-4953-9096-1ea1252bd550"
+     }
+    },
+    {
+     "id": "4feb7bfa-2411-472c-b914-ce3c3546a458",
+     "name": "Arctis AI",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "Feed View | Startbase",
+        "document": "https://www.startbase.com/news/arctis-ai-startet-mit-pre-seed-finanzierung-im-millionenbereich-fuer-ki-gestuetzte-bauverwaltung",
+        "date": "2026-08-31"
+       },
+       {
+        "name": "theaiinsider.tech",
+        "document": "https://theaiinsider.tech/2026/01/30/arctis-ai-secures-e1m-pre-seed-to-bring-ai-native-contract-intelligence-to-european-construction",
+        "date": "2026-08-31"
+       },
+       {
+        "name": "SaaS B2B Fundraising News | The SaaS News",
+        "document": "https://www.thesaasnews.com/news/arctis-ai-bags-1m-in-funding",
+        "date": "2026-08-31"
+       }
+      ],
+      "id": "ac526993-a67e-5044-8d5c-12bcbc4a9d99"
+     }
+    },
+    {
+     "id": "60dc60d4-8f28-471e-a4f4-18bdcaea9095",
+     "name": "イオン株式会社",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "Aeon: Funding, Team & Investors",
+        "document": "https://startupintros.com/orgs/aeon",
+        "date": "2026-07-13"
+       },
+       {
+        "name": "pitchbook.com",
+        "document": "https://pitchbook.com/profiles/company/542240-65",
+        "date": "2026-08-24"
+       }
+      ],
+      "id": "d5241a31-da4d-46bc-81de-a73084df6b1e"
+     }
+    },
+    {
+     "id": "74da4d6b-4fa0-4992-87e0-ca18e26f1371",
+     "name": "ZERO ONE CREATIVE LTD",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2025/06/17/ewor-awards-first-ever-500k-traction-investment-to-zero-one-creative/",
+        "date": "2025-06-17",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "startupmag.co.uk",
+        "document": "https://www.startupmag.co.uk/funding/zero-one-creative-raised-427000",
+        "date": "2025-06-17",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "ewor.com",
+        "document": "https://www.ewor.com/startups/zero-one-creative",
+        "date": "2026-11-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "82db7f1e-d78b-4e51-b988-ede60750733e"
+     }
+    },
+    {
+     "id": "7d98764b-fa7a-430e-927f-5ab557ead5a9",
+     "name": "Axon",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "Axon",
+        "document": "https://www.axonlabs.co",
+        "date": "2025-01-01"
+       },
+       {
+        "name": "Axon - speedrun",
+        "document": "https://speedrun.a16z.com/companies/axon",
+        "date": "2026-01-01"
+       },
+       {
+        "name": "nordic9.com",
+        "document": "https://nordic9.com/news/axon-labs-raised-a-seed-funding-round-with-northzone-a16z-speedrun-concept-ventures",
+        "date": "2026-08-25"
+       },
+       {
+        "name": "www.gritt.io",
+        "document": "https://www.gritt.io/company/axon-labs-uk",
+        "date": "2026-08-25"
+       },
+       {
+        "name": "uk.linkedin.com",
+        "document": "https://uk.linkedin.com/in/nickdaloisio",
+        "date": "2026-08-25"
+       },
+       {
+        "name": "Axon Labs company information, funding & investors",
+        "document": "https://app.dealroom.co/companies/axon_labs_2",
+        "date": "2026-08-25"
+       }
+      ],
+      "id": "d4666563-3338-4974-ae04-d92c00b89aa5"
+     }
+    },
+    {
+     "id": "80d32ffe-8223-4ae1-b6b9-e04aa59c73e6",
+     "name": "Epiminds",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "SaaS B2B Fundraising News | The SaaS News",
+        "document": "https://www.thesaasnews.com/news/epiminds-raises-6-6-million-in-seed-round",
+        "date": "2026-07-13"
+       },
+       {
+        "name": "afritechmedia.co.ke",
+        "document": "https://www.afritechmedia.co.ke/epiminds-launches-publicly-with-6-6m-funding-to-launch-ai-powered-marketing-teams-for-agencies",
+        "date": "2026-07-13"
+       },
+       {
+        "name": "app.dealroom.co",
+        "document": "https://app.dealroom.co/companies/epiminds",
+        "date": "2026-07-13"
+       }
+      ],
+      "id": "4921f12e-f853-5dbc-861e-b765a8fbf3ae"
+     }
+    },
+    {
+     "id": "91b7b864-b803-5a9e-90a2-2af812e7fbd3",
+     "name": "Gama",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "cbinsights.com",
+        "document": "https://www.cbinsights.com/company/gama-1/financials",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       },
+       {
+        "name": "inovexus.com",
+        "document": "https://inovexus.com/portfolio/gama-space/",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "ce3778d1-4727-4e29-bdc9-a8750ac20a1b"
+     }
+    },
+    {
+     "id": "981a240d-5b65-5069-9662-b4a7ef72a226",
+     "name": "inference shell",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "inference.sh",
+        "document": "https://inference.sh/about",
+        "date": "2026-11-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "67277c29-f118-41b4-8c8a-30256f776813"
+     }
+    },
+    {
+     "id": "c6b7f48c-fecd-4620-98fe-e8b0f318c25f",
+     "name": "DAMISA TECHNOLOGIES LTD",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "preqin.com",
+        "document": "https://www.preqin.com/data/profile/asset/damisa-technologies-sp--z-o-o--z/736223",
+        "date": "2026-10-01",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       },
+       {
+        "name": "app.dealroom.co",
+        "document": "https://app.dealroom.co/companies/damisa",
+        "date": "2026-10-01",
+        "date_precision": "day",
+        "source_rank": "AGGREGATOR"
+       }
+      ],
+      "id": "66b9721c-d405-4e27-91e4-7d2b66457315"
+     }
+    },
+    {
+     "id": "e6ede4ff-6880-4a26-8ecb-f32ce617099e",
+     "name": "Sybilion",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "SaaS B2B Fundraising News | The SaaS News",
+        "document": "https://www.thesaasnews.com/news/sybilion-raises-4-2m-seed-round",
+        "date": "2026-06-02"
+       }
+      ],
+      "id": "e623f1c1-3399-5c2f-8281-e368ac7af49c"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "INVESTED_IN": [
+    {
+     "id": "4feb7bfa-2411-472c-b914-ce3c3546a458",
+     "name": "Arctis AI",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "Feed View | Startbase",
+        "document": "https://www.startbase.com/news/arctis-ai-startet-mit-pre-seed-finanzierung-im-millionenbereich-fuer-ki-gestuetzte-bauverwaltung",
+        "date": "2026-08-31"
+       },
+       {
+        "name": "SaaS B2B Fundraising News | The SaaS News",
+        "document": "https://www.thesaasnews.com/news/arctis-ai-bags-1m-in-funding",
+        "date": "2026-08-31"
+       }
+      ],
+      "id": "11eaf51b-fd69-53f9-8534-a7e09a73ad81"
+     }
+    },
+    {
+     "id": "80d32ffe-8223-4ae1-b6b9-e04aa59c73e6",
+     "name": "Epiminds",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "SaaS B2B Fundraising News | The SaaS News",
+        "document": "https://www.thesaasnews.com/news/epiminds-raises-6-6-million-in-seed-round",
+        "date": "2026-07-13"
+       },
+       {
+        "name": "afritechmedia.co.ke",
+        "document": "https://www.afritechmedia.co.ke/epiminds-launches-publicly-with-6-6m-funding-to-launch-ai-powered-marketing-teams-for-agencies",
+        "date": "2026-07-13"
+       },
+       {
+        "name": "app.dealroom.co",
+        "document": "https://app.dealroom.co/companies/epiminds",
+        "date": "2026-07-13"
+       }
+      ],
+      "id": "7f0e35bc-0a0b-507f-b09d-1e4379e742da"
+     }
+    },
+    {
+     "id": "e6ede4ff-6880-4a26-8ecb-f32ce617099e",
+     "name": "Sybilion",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "SaaS B2B Fundraising News | The SaaS News",
+        "document": "https://www.thesaasnews.com/news/sybilion-raises-4-2m-seed-round",
+        "date": "2026-06-02"
+       }
+      ],
+      "id": "ac925b90-5131-5415-812f-2543e60cf719"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

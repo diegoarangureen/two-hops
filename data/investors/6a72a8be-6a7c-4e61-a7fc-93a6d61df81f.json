@@ -1,0 +1,384 @@
+{
+ "id": "6a72a8be-6a7c-4e61-a7fc-93a6d61df81f",
+ "name": "Helsinki University Funds",
+ "entity_type": "Organization",
+ "description": "A Finnish venture capital fund affiliated with the University of Helsinki.",
+ "properties": {
+  "name": {
+   "value": "Helsinki University Funds",
+   "sources": [
+    {
+     "name": "Cala AI",
+     "document": "",
+     "date": "2026-09-08"
+    },
+    {
+     "name": "multivision.ai",
+     "document": "https://multivision.ai/news/multivisiondx_preseed_round",
+     "date": "2025-12-03",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "techfundingnews.com",
+     "document": "https://techfundingnews.com/multivisiondx-raises-1m-pre-seed-ai-cancer-diagnostics/",
+     "date": "2025-12-02",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "tech.eu",
+     "document": "https://tech.eu/2025/02/24/solid-io-secures-eur800k-to-transform-cancer-treatment-with-tumour-on-chip-technology/",
+     "date": "2025-02-24",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    },
+    {
+     "name": "helsinki.fi",
+     "document": "https://www.helsinki.fi/en/helsinki-innovation-services/news-archive/solid-io-enables-faster-access-personalised-cancer-therapies",
+     "date": "2025-02-24",
+     "date_precision": "day",
+     "source_rank": "PRIMARY"
+    },
+    {
+     "name": "paaomasijoittajat.fi",
+     "document": "https://paaomasijoittajat.fi/ajankohtaista/uutiset/28577/solid-io-raises-800-000-e-funding-round-led-by-nordic-science-investment/",
+     "date": "2025-02-26",
+     "date_precision": "day",
+     "source_rank": "PRESS"
+    }
+   ]
+  },
+  "aliases": {
+   "value": [
+    "University of Helsinki Funds"
+   ],
+   "sources": []
+  },
+  "website": {
+   "value": "helsinki.fi",
+   "sources": [
+    {
+     "name": "Student, apply for a grant or a scholarship from University of Helsinki Funds between Jan 14 – Feb 6, 2026",
+     "document": "https://studies.helsinki.fi/instructions/news/student-apply-grant-or-scholarship-university-helsinki-funds-between-jan-14-feb-6-2026",
+     "date": "2026-02-02"
+    },
+    {
+     "name": "University of Helsinki funds and grants | University of Helsinki",
+     "document": "https://www.helsinki.fi/en/innovations-and-cooperation/support-us/funds-and-grants",
+     "date": "2026-01-01"
+    }
+   ]
+  },
+  "description": {
+   "value": "A Finnish venture capital fund affiliated with the University of Helsinki.",
+   "sources": [
+    {
+     "name": "Cala AI",
+     "document": "",
+     "date": "2026-09-09"
+    }
+   ]
+  },
+  "registered_address": {
+   "value": "P.O. Box 4 (Vuorikatu 3), FI-00014 University of Helsinki, Finland",
+   "sources": [
+    {
+     "name": "How to support the University of Helsinki | University of Helsinki",
+     "document": "https://www.helsinki.fi/en/innovations-and-cooperation/support-us/ways-donate",
+     "date": "2026-01-01"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "3760d88c-a743-55db-a26b-55080192e0c9",
+     "name": "Pre-Seed",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "multivision.ai",
+        "document": "https://multivision.ai/news/multivisiondx_preseed_round",
+        "date": "2025-12-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "techfundingnews.com",
+        "document": "https://techfundingnews.com/multivisiondx-raises-1m-pre-seed-ai-cancer-diagnostics/",
+        "date": "2025-12-02",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "2aa63230-db4e-558d-a4ca-0eccc2c8253e"
+     }
+    },
+    {
+     "id": "c5051823-fa84-572f-946c-978d69c89e9a",
+     "name": "Series A",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "nadmed.com",
+        "document": "https://www.nadmed.com/nadmed-secures-e3-5m-to-accelerate-international-sales-expansion/",
+        "date": "2024-08-22",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "news.cision.com",
+        "document": "https://news.cision.com/san-francisco-oy/r/nadmed-raises--3-5m-to-bring-nad-tests-to-international-markets--advancing-personalized-treatment-op,c4027281",
+        "date": "2024-08-22",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "36700ba0-15db-56ee-acbb-8d429c2b4786"
+     }
+    },
+    {
+     "id": "f1f8caba-3fd2-5f17-88d7-8caf63b811d1",
+     "name": "Seed",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2025/02/24/solid-io-secures-eur800k-to-transform-cancer-treatment-with-tumour-on-chip-technology/",
+        "date": "2025-02-24",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "helsinki.fi",
+        "document": "https://www.helsinki.fi/en/helsinki-innovation-services/news-archive/solid-io-enables-faster-access-personalised-cancer-therapies",
+        "date": "2025-02-24",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "paaomasijoittajat.fi",
+        "document": "https://paaomasijoittajat.fi/ajankohtaista/uutiset/28577/solid-io-raises-800-000-e-funding-round-led-by-nordic-science-investment/",
+        "date": "2025-02-26",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "34a71034-2002-596a-a003-36b39b3a9d78"
+     }
+    },
+    {
+     "id": "f474ad8d-9ba7-549a-8f3c-ac463d4a37bd",
+     "name": "Funding round",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "helsinki.fi",
+        "document": "https://www.helsinki.fi/en/news/innovations/university-helsinki-funds-invests-eu50000-ferrivia-oy-through-helseed-entrepreneurship-programme",
+        "date": "2026-06-17",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "is_lead": true,
+      "id": "c2f45f4e-6d93-5488-b602-c20d72f58ba4"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "bb11fdd0-e70b-511e-b2cf-29d8956d5b84"
+     }
+    }
+   ],
+   "OPERATES_IN_INDUSTRY": [
+    {
+     "id": "f48ebf95-99ea-4756-99cc-8a2a2d71f2e2",
+     "name": "VENTURE_CAPITAL",
+     "entity_type": "Industry",
+     "properties": {
+      "sources": [
+       {
+        "name": "Helsinki University Funds starts collaboration with FiBAN | FiBAN",
+        "document": "https://fiban.org/news/helsinki-university-funds-starts-collaboration-with-fiban",
+        "date": "2020-04-20"
+       },
+       {
+        "name": "University of Helsinki Venture Investments | University of Helsinki",
+        "document": "https://www.helsinki.fi/en/about-us/strategy-economy-and-quality/university-finances/financial-securities-investments/venture-investments",
+        "date": "2026-01-12"
+       }
+      ],
+      "id": "2fcd70ea-2d2c-5bc0-b160-6a88c315f8c9"
+     }
+    }
+   ],
+   "INVESTED_IN": [
+    {
+     "id": "a2be62fd-59e2-48d8-bb2b-c39b58391e6f",
+     "name": "Nadmed",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "nadmed.com",
+        "document": "https://www.nadmed.com/nadmed-secures-e3-5m-to-accelerate-international-sales-expansion/",
+        "date": "2024-08-22",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "news.cision.com",
+        "document": "https://news.cision.com/san-francisco-oy/r/nadmed-raises--3-5m-to-bring-nad-tests-to-international-markets--advancing-personalized-treatment-op,c4027281",
+        "date": "2024-08-22",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "17a87cdd-f4ef-4425-83fb-19acaff58a5b"
+     }
+    },
+    {
+     "id": "ca58f90d-4e2d-5463-bd51-59b0d35deb95",
+     "name": "Ferrivia",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "helsinki.fi",
+        "document": "https://www.helsinki.fi/en/news/innovations/university-helsinki-funds-invests-eu50000-ferrivia-oy-through-helseed-entrepreneurship-programme",
+        "date": "2026-06-17",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "a2152878-5eff-4151-81b7-72b065aa1b13"
+     }
+    },
+    {
+     "id": "cc00c248-4ea8-4867-af43-77ba5adcdb0d",
+     "name": "Solid Immuno-Oncology Oy",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2025/02/24/solid-io-secures-eur800k-to-transform-cancer-treatment-with-tumour-on-chip-technology/",
+        "date": "2025-02-24",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "helsinki.fi",
+        "document": "https://www.helsinki.fi/en/helsinki-innovation-services/news-archive/solid-io-enables-faster-access-personalised-cancer-therapies",
+        "date": "2025-02-24",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "paaomasijoittajat.fi",
+        "document": "https://paaomasijoittajat.fi/ajankohtaista/uutiset/28577/solid-io-raises-800-000-e-funding-round-led-by-nordic-science-investment/",
+        "date": "2025-02-26",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "08728544-164c-4df6-b971-2cd21b79d672"
+     }
+    },
+    {
+     "id": "dd88e2ae-8de1-4a94-ae49-d7e3fc442f45",
+     "name": "Solid IO",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "en.ain.ua",
+        "document": "https://en.ain.ua/2025/02/24/solid-io-secures-eur800k",
+        "date": "2026-09-09"
+       },
+       {
+        "name": "Startup Rise EU - European Startup News | Funding | Startup Insights",
+        "document": "https://startuprise.co.uk/solid-io-secures-e800k-in-funding",
+        "date": "2026-09-09"
+       }
+      ],
+      "id": "712b854b-ab1e-5f67-bfb1-e9ab6ea4707f"
+     }
+    },
+    {
+     "id": "e9e610ab-2672-55d7-a910-7c02440ec520",
+     "name": "MultivisionDx",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "multivision.ai",
+        "document": "https://multivision.ai/news/multivisiondx_preseed_round",
+        "date": "2025-12-03",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "techfundingnews.com",
+        "document": "https://techfundingnews.com/multivisiondx-raises-1m-pre-seed-ai-cancer-diagnostics/",
+        "date": "2025-12-02",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "f8eb3bac-c967-4c40-9c20-1107041701de"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "INVESTED_IN": [
+    {
+     "id": "cc00c248-4ea8-4867-af43-77ba5adcdb0d",
+     "name": "Solid Immuno-Oncology Oy",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "en.ain.ua",
+        "document": "https://en.ain.ua/2025/02/24/solid-io-secures-eur800k",
+        "date": "2026-09-09"
+       },
+       {
+        "name": "University of Helsinki",
+        "document": "https://www.helsinki.fi/en/helsinki-innovation-services/news-archive/solid-io-enables-faster-access-personalised-cancer-therapies",
+        "date": "2026-09-09"
+       }
+      ],
+      "id": "666b12e5-57ac-568a-b3ed-a35739c1fe08"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

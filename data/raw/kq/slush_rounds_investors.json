@@ -1,0 +1,206 @@
+{
+ "input": "Which companies attending Slush 2026 have raised a funding round, and who invested in and who led each round?",
+ "status": 200,
+ "response": {
+  "results": [
+   {
+    "name": "Synhelion",
+    "total_funding": "CHF 42.85 million",
+    "funding_rounds": "Series D, Series A, Equity round, Grants",
+    "investors": "PILATUS Flugzeugwerke AG, Cemex Ventures, Orchilla, SMS Concast AG, Swiss International Air Lines (SWISS), AMAG, SMS group, Swiss KMU Partners AG, Eni Next",
+    "lead_investors": null
+   },
+   {
+    "name": "Planhat AB",
+    "total_funding": "USD 50 million",
+    "funding_rounds": "Series A",
+    "investors": "Sprints",
+    "lead_investors": null
+   },
+   {
+    "name": "Conductor Quantum",
+    "total_funding": "USD 200,000",
+    "funding_rounds": "Pre-Seed, Grant",
+    "investors": "Pioneer Fund, Y Combinator, Mergus Ventures, Oxford Angel Fund, Outbound Capital I LP, Candor",
+    "lead_investors": null
+   },
+   {
+    "name": "Forciot",
+    "total_funding": "EUR ~4.1 million",
+    "funding_rounds": "Series A, Series B, Equity rounds, Grants",
+    "investors": "Gentherm Inc., CHIMET S.p.A., Volvo Car Technology Fund AB, Heraeus Holding GmbH",
+    "lead_investors": null
+   }
+  ],
+  "entities": [
+   {
+    "id": "05c3abc4-680f-4caa-a657-40d96da7e1fa",
+    "name": "Synhelion",
+    "entity_type": "Company",
+    "mentions": [
+     "Synhelion"
+    ]
+   },
+   {
+    "id": "0c77d3a4-1f19-4f3c-8a67-d59e90b40ebe",
+    "name": "PILATUS Flugzeugwerke AG",
+    "entity_type": "Company",
+    "mentions": [
+     "PILATUS Flugzeugwerke AG"
+    ]
+   },
+   {
+    "id": "172cc1bd-7a12-499b-84a4-769408b532cb",
+    "name": "Cemex Ventures",
+    "entity_type": "Company",
+    "mentions": [
+     "Cemex Ventures"
+    ]
+   },
+   {
+    "id": "2b3b779e-ef4e-58b8-8e1d-e8c3dc7a2ffb",
+    "name": "Orchilla",
+    "entity_type": "Organization",
+    "mentions": [
+     "Orchilla"
+    ]
+   },
+   {
+    "id": "3b6cb8ef-880e-4d53-a135-9af880cd34f1",
+    "name": "SMS Concast AG",
+    "entity_type": "Company",
+    "mentions": [
+     "SMS Concast AG"
+    ]
+   },
+   {
+    "id": "4a3831db-bb10-4133-80f3-003c5e18d2be",
+    "name": "Swiss International Air Lines AG",
+    "entity_type": "Company",
+    "mentions": [
+     "Swiss International Air Lines"
+    ]
+   },
+   {
+    "id": "79c9ebe3-5580-5bd9-b614-27da5e79810b",
+    "name": "AMAG",
+    "entity_type": "Organization",
+    "mentions": [
+     "AMAG"
+    ]
+   },
+   {
+    "id": "29d18aaa-2aed-4551-8b8f-d2385ccc72fe",
+    "name": "SMS Group",
+    "entity_type": "Company",
+    "mentions": [
+     "SMS group"
+    ]
+   },
+   {
+    "id": "cc0b53fd-cdbd-4c68-8ae8-c549cbc49f47",
+    "name": "Swiss KMU Partners AG",
+    "entity_type": "Company",
+    "mentions": [
+     "Swiss KMU Partners AG"
+    ]
+   },
+   {
+    "id": "effc349b-19a7-4e52-9b35-ea5aca0110c0",
+    "name": "Eni Next",
+    "entity_type": "Organization",
+    "mentions": [
+     "Eni Next"
+    ]
+   },
+   {
+    "id": "025f6b61-7efa-4427-80ae-10d9d2884aa7",
+    "name": "Planhat AB",
+    "entity_type": "Company",
+    "mentions": [
+     "Planhat AB"
+    ]
+   },
+   {
+    "id": "66858cef-59f1-4951-81a5-5ff15750aaf5",
+    "name": "Sprints",
+    "entity_type": "Company",
+    "mentions": [
+     "Sprints"
+    ]
+   },
+   {
+    "id": "06b43e4c-8374-495f-b866-919d9ce1e112",
+    "name": "Conductor Quantum",
+    "entity_type": "Company",
+    "mentions": [
+     "Conductor Quantum"
+    ]
+   },
+   {
+    "id": "1e86655e-373d-4fe8-be13-af3713581f73",
+    "name": "Y Combinator",
+    "entity_type": "Company",
+    "mentions": [
+     "Y Combinator"
+    ]
+   },
+   {
+    "id": "3085fa5b-dc16-505f-a9e2-6b007aae99ac",
+    "name": "Mergus Ventures",
+    "entity_type": "Organization",
+    "mentions": [
+     "Mergus Ventures"
+    ]
+   },
+   {
+    "id": "3a9cba83-df3d-4191-93f7-9aad5217daa5",
+    "name": "Oxford Angel Fund",
+    "entity_type": "Organization",
+    "mentions": [
+     "Oxford Angel Fund"
+    ]
+   },
+   {
+    "id": "5758a648-e4bf-4eb5-a34f-e1eabf91c806",
+    "name": "Outbound Capital I, LP",
+    "entity_type": "Company",
+    "mentions": [
+     "Outbound Capital I LP"
+    ]
+   },
+   {
+    "id": "81a13648-5007-4380-aaa5-be93c84eedfd",
+    "name": "Candor",
+    "entity_type": "Organization",
+    "mentions": [
+     "Candor"
+    ]
+   },
+   {
+    "id": "00ff9907-cdbb-4e3f-a56e-4cd4a28a333b",
+    "name": "Forciot",
+    "entity_type": "Company",
+    "mentions": [
+     "Forciot"
+    ]
+   },
+   {
+    "id": "9248f290-d46f-55a2-9910-5714973ddd0b",
+    "name": "Volvo Car Technology Fund AB",
+    "entity_type": "Organization",
+    "mentions": [
+     "Volvo Car Technology Fund AB"
+    ]
+   },
+   {
+    "id": "fd19cc35-a291-4ccf-8cb0-87f33c4d773d",
+    "name": "Heraeus Holding GmbH",
+    "entity_type": "Company",
+    "mentions": [
+     "Heraeus Holding GmbH"
+    ]
+   }
+  ]
+ }
+}

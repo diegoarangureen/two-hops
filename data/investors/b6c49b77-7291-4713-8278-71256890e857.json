@@ -1,0 +1,786 @@
+{
+ "id": "b6c49b77-7291-4713-8278-71256890e857",
+ "name": "Capnamic Ventures Management GmbH",
+ "entity_type": "Company",
+ "description": "A German venture capital firm headquartered in Cologne, founded in 2012.",
+ "properties": {
+  "name": {
+   "value": "Capnamic Ventures Management GmbH",
+   "sources": [
+    {
+     "name": "GLEIF",
+     "document": "https://search.gleif.org/#/record/391200HBLOTOXESFYL42",
+     "date": "2026-07-22"
+    }
+   ]
+  },
+  "legal_name": {
+   "value": "Capnamic Ventures Management GmbH",
+   "sources": [
+    {
+     "name": "GLEIF",
+     "document": "https://search.gleif.org/#/record/391200HBLOTOXESFYL42",
+     "date": "2026-07-22"
+    }
+   ]
+  },
+  "aliases": {
+   "value": [
+    "Capnamic",
+    "Capnamic Ventures",
+    "Capnamic and",
+    "Capnamic Ventures Management"
+   ],
+   "sources": []
+  },
+  "description": {
+   "value": "A German venture capital firm headquartered in Cologne, founded in 2012.",
+   "sources": [
+    {
+     "name": "Cala AI",
+     "document": "",
+     "date": "2026-08-23"
+    }
+   ]
+  },
+  "founding_date": {
+   "value": "2012-06-29",
+   "sources": [
+    {
+     "name": "GLEIF",
+     "document": "https://search.gleif.org/#/record/391200HBLOTOXESFYL42",
+     "date": "2026-07-22"
+    }
+   ]
+  },
+  "headquarters_address": {
+   "value": "Kaiser-Wilhelm-Ring 17-21, Köln, DE-NW, 50672, DE",
+   "sources": [
+    {
+     "name": "GLEIF",
+     "document": "https://search.gleif.org/#/record/391200HBLOTOXESFYL42",
+     "date": "2026-07-22"
+    }
+   ]
+  },
+  "registered_address": {
+   "value": "Kaiser-Wilhelm-Ring 17-21, Köln, DE-NW, 50672, DE",
+   "sources": [
+    {
+     "name": "GLEIF",
+     "document": "https://search.gleif.org/#/record/391200HBLOTOXESFYL42",
+     "date": "2026-07-22"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "1a8a5646-3d31-56e4-b39d-032ae1ca48af",
+     "name": "Pre-Seed",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "filics.eu",
+        "document": "https://www.filics.eu/unternehmen",
+        "date": "2026-11-09",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "munich-startup.de",
+        "document": "https://www.munich-startup.de/76195/filics-holt-seed-investoren-an-bord/",
+        "date": "2026-11-09",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "59d491cb-415b-509d-b19c-7f6cad1a56b2"
+     }
+    },
+    {
+     "id": "2fc9e71b-706f-511d-9a8d-f2c3da369fba",
+     "name": "Series A",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "paebbl.com",
+        "document": "https://paebbl.com/news-feed/we-ve-raised-25m-to-supercharge-co-storage-in-the-built-environment",
+        "date": "2024-10-09",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "is_lead": true,
+      "id": "822b7a39-5293-5a44-9332-baec42ddcb6e"
+     }
+    },
+    {
+     "id": "8b5d814c-6ee9-5279-ae4c-c9c84635a707",
+     "name": "Seed",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "yasp.ai",
+        "document": "https://yasp.ai/blog/yasp-secures-5-million-in-seed-funding",
+        "date": "2025-09-25",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "eu-startups.com",
+        "document": "https://www.eu-startups.com/2025/09/german-deeptech-startup-yasp-raises-e4-2-million-to-accelerate-ai-model-optimisation/",
+        "date": "2025-09-25",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "is_lead": true,
+      "id": "db2e3eb1-6785-5421-88b7-00ac14b1a1c8"
+     }
+    },
+    {
+     "id": "d65d44a8-8045-55a3-925d-4d3b958a9555",
+     "name": "Seed",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "eu-startups.com",
+        "document": "https://www.eu-startups.com/2025/07/german-robotics-company-filics-secures-e13-5-million-to-expand-and-roll-out-its-robotics-platform/",
+        "date": "2025-07-07",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "5684c4ab-c3a5-5dca-9e78-89f5d33adf6a"
+     }
+    },
+    {
+     "id": "e05cb9b5-85e1-5402-9b80-b785056694a0",
+     "name": "Series A",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "eu-startups.com",
+        "document": "https://www.eu-startups.com/2025/09/germanys-sunhat-raises-e9-2-million-for-its-compliance-platform-to-solve-the-proof-gap-for-enterprises/",
+        "date": "2025-09-23",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "d34784f1-de49-564b-a163-024a665e6c60"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_CORPORATE_EVENT": [
+    {
+     "id": "5a340134-77c5-4f08-9c0a-ed4f53ca6ebb",
+     "name": "FINANCING_RAISED_OR_FACILITY_ENTERED",
+     "entity_type": "PrivateCompanyFundingRound",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "Intranet startup Staffbase raises $145M in growth round led by General Atlantic | TechCrunch",
+        "document": "https://techcrunch.com/2021/03/30/intranet-startup-staffbase-raises-145m-in-growth-round-led-by-general-atlantic",
+        "date": "2021-03-30"
+       },
+       {
+        "name": "news.crunchbase.com",
+        "document": "https://news.crunchbase.com/news/briefing-3-30-21",
+        "date": "2026-08-24"
+       },
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/staffbase/__AtbTO5TTmE9QxFyEmBgRIzc-m93gFE1ZZNKCmkAM-rM/funding-and-investors",
+        "date": "2026-08-24"
+       }
+      ],
+      "event_date": "2021-03-29",
+      "id": "5fc3bccb-b4f9-4bb6-80c6-ff7a72a4856e"
+     }
+    },
+    {
+     "id": "9a6218cd-2985-4280-b37f-76eea8ca087c",
+     "name": "FINANCING_RAISED_OR_FACILITY_ENTERED",
+     "entity_type": "PrivateCompanyFundingRound",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/mediakraft-networks/__T8ynLAOlS5pdKJCHJj0tAQ7koCP2in4xbO-wa2RTsRE",
+        "date": "2026-08-24"
+       },
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/mediakraftnetworks/__T8ynLAOlS5pdKJCHJj0tAQ7koCP2in4xbO-wa2RTsRE/funding-and-investors",
+        "date": "2026-08-24"
+       },
+       {
+        "name": "pitchbook.com",
+        "document": "https://pitchbook.com/profiles/company/57198-70",
+        "date": "2026-08-24"
+       }
+      ],
+      "event_date": "2014-07-10",
+      "id": "46402899-8489-44ce-bed6-f29b1302ce63"
+     }
+    },
+    {
+     "id": "c6b9008d-cc57-4380-bf3d-0e3a3e2009f4",
+     "name": "FINANCING_RAISED_OR_FACILITY_ENTERED",
+     "entity_type": "PrivateCompanyFundingRound",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/staffbase/__AtbTO5TTmE9QxFyEmBgRIzc-m93gFE1ZZNKCmkAM-rM/funding-and-investors",
+        "date": "2026-08-24"
+       }
+      ],
+      "event_date": "2018-06-18",
+      "id": "5cfa0325-6998-4521-9956-0dbf9922b002"
+     }
+    },
+    {
+     "id": "ccbe2ab9-b27a-4a58-8d5b-652773168c0c",
+     "name": "FINANCING_RAISED_OR_FACILITY_ENTERED",
+     "entity_type": "PrivateCompanyFundingRound",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/staffbase/__AtbTO5TTmE9QxFyEmBgRIzc-m93gFE1ZZNKCmkAM-rM/funding-and-investors",
+        "date": "2026-08-24"
+       }
+      ],
+      "event_date": "2016-05-30",
+      "id": "948e116e-93f6-40b8-abcd-f083fac00063"
+     }
+    },
+    {
+     "id": "f2ae2e69-dda9-4724-88e0-d147ed05876f",
+     "name": "FINANCING_RAISED_OR_FACILITY_ENTERED",
+     "entity_type": "PrivateCompanyFundingRound",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "Staffbase, the mobile-first employee communication and 'experience' platform, raises $23M Series C | TechCrunch",
+        "document": "https://techcrunch.com/2019/07/09/staffbase",
+        "date": "2019-07-09"
+       },
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/staffbase/__AtbTO5TTmE9QxFyEmBgRIzc-m93gFE1ZZNKCmkAM-rM/funding-and-investors",
+        "date": "2026-08-24"
+       }
+      ],
+      "event_date": "2019-07-09",
+      "id": "01dd9a0a-5fb4-472c-aa54-4ed8a4b43bd4"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "048efd0c-11eb-5048-b953-5615a5c123f1"
+     }
+    }
+   ],
+   "HAS_HEADQUARTERS_IN": [
+    {
+     "id": "61901653-115d-4cc4-a4e4-04d8c5009f1e",
+     "name": "Germany",
+     "entity_type": "Country",
+     "properties": {
+      "sources": [
+       {
+        "name": "GLEIF",
+        "document": "https://search.gleif.org/#/record/391200HBLOTOXESFYL42",
+        "date": "2026-04-08"
+       }
+      ],
+      "id": "a42d0240-0708-5e96-b7aa-bfcd564752cf"
+     }
+    },
+    {
+     "id": "6c70569a-4ea6-4749-8806-4eeddfe51eed",
+     "name": "Nordrhein-Westfalen",
+     "entity_type": "CountrySubdivision",
+     "properties": {
+      "sources": [
+       {
+        "name": "GLEIF",
+        "document": "https://search.gleif.org/#/record/391200HBLOTOXESFYL42",
+        "date": "2026-07-22"
+       }
+      ],
+      "id": "994e9523-5c61-520f-9203-337be8630375"
+     }
+    }
+   ],
+   "IS_REGISTERED_IN": [
+    {
+     "id": "61901653-115d-4cc4-a4e4-04d8c5009f1e",
+     "name": "Germany",
+     "entity_type": "Country",
+     "properties": {
+      "sources": [
+       {
+        "name": "GLEIF",
+        "document": "https://search.gleif.org/#/record/391200HBLOTOXESFYL42",
+        "date": "2026-04-08"
+       }
+      ],
+      "id": "480e245d-5bc1-5023-8a66-71f3fa4ac492"
+     }
+    },
+    {
+     "id": "6c70569a-4ea6-4749-8806-4eeddfe51eed",
+     "name": "Nordrhein-Westfalen",
+     "entity_type": "CountrySubdivision",
+     "properties": {
+      "sources": [
+       {
+        "name": "GLEIF",
+        "document": "https://search.gleif.org/#/record/391200HBLOTOXESFYL42",
+        "date": "2026-07-22"
+       }
+      ],
+      "id": "4cde9e57-c961-594b-8d4d-8edd1905bb4d"
+     }
+    }
+   ],
+   "INVESTED_IN": [
+    {
+     "id": "21572190-7235-5153-b13c-a1358c78f9b1",
+     "name": "yasp",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "yasp.ai",
+        "document": "https://yasp.ai/blog/yasp-secures-5-million-in-seed-funding",
+        "date": "2025-09-25",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "eu-startups.com",
+        "document": "https://www.eu-startups.com/2025/09/german-deeptech-startup-yasp-raises-e4-2-million-to-accelerate-ai-model-optimisation/",
+        "date": "2025-09-25",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "d7326c97-825c-4c1c-9133-592fd93c055e"
+     }
+    },
+    {
+     "id": "3d5de533-b957-413e-8e7f-e202e8b7e8a5",
+     "name": "Paebbl",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "paebbl.com",
+        "document": "https://paebbl.com/news-feed/we-ve-raised-25m-to-supercharge-co-storage-in-the-built-environment",
+        "date": "2024-10-09",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "302d7b46-c848-47f8-bae6-82b8afadce32"
+     }
+    },
+    {
+     "id": "63a5f6ab-f0d8-4bb3-8c1c-f63247cd2cd2",
+     "name": "Sunhat",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "eu-startups.com",
+        "document": "https://www.eu-startups.com/2025/09/germanys-sunhat-raises-e9-2-million-for-its-compliance-platform-to-solve-the-proof-gap-for-enterprises/",
+        "date": "2025-09-23",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "520c18ad-001c-4301-aef8-5761e4bcd575"
+     }
+    },
+    {
+     "id": "a5aed276-cfc4-4a88-bda3-1c22ef06f365",
+     "name": "Mediakraft Networks",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/mediakraft-networks/__T8ynLAOlS5pdKJCHJj0tAQ7koCP2in4xbO-wa2RTsRE",
+        "date": "2026-08-24"
+       },
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/mediakraftnetworks/__T8ynLAOlS5pdKJCHJj0tAQ7koCP2in4xbO-wa2RTsRE/funding-and-investors",
+        "date": "2026-08-24"
+       },
+       {
+        "name": "pitchbook.com",
+        "document": "https://pitchbook.com/profiles/company/57198-70",
+        "date": "2026-08-24"
+       }
+      ],
+      "id": "b9792b16-512a-4840-9332-fdd827200e84"
+     }
+    },
+    {
+     "id": "be3e26ad-ccef-575f-b43c-294f703e4815",
+     "name": "Filics",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "eu-startups.com",
+        "document": "https://www.eu-startups.com/2025/07/german-robotics-company-filics-secures-e13-5-million-to-expand-and-roll-out-its-robotics-platform/",
+        "date": "2025-07-07",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "filics.eu",
+        "document": "https://www.filics.eu/unternehmen",
+        "date": "2026-11-09",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "munich-startup.de",
+        "document": "https://www.munich-startup.de/76195/filics-holt-seed-investoren-an-bord/",
+        "date": "2026-11-09",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "bc39eb0f-054f-4c18-9468-c00d3f6fd74d"
+     }
+    },
+    {
+     "id": "e5e8dc82-3ed2-4611-8ab6-0a350c29a397",
+     "name": "Staffbase",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "tracxn.com",
+        "document": "https://tracxn.com/d/companies/staffbase/__AtbTO5TTmE9QxFyEmBgRIzc-m93gFE1ZZNKCmkAM-rM/funding-and-investors",
+        "date": "2026-08-24"
+       }
+      ],
+      "id": "3d1fcecd-c294-4094-9ecf-a75e5bd25656"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "INVESTED_IN": [
+    {
+     "id": "debc63f9-0733-400b-9c08-9bbdd26772a8",
+     "name": "Kreditanstalt für Wiederaufbau",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "Portfolio | KfW Capital",
+        "document": "https://www.kfw-capital.de/Investment-focus/Portfolio",
+        "date": "1998-01-01"
+       },
+       {
+        "name": "Portfolio | Capital",
+        "document": "https://www.kfw-capital.de/Investmentfokus/Portfolio",
+        "date": "1998-01-01"
+       }
+      ],
+      "id": "f18c7f13-cfb1-5c2d-952e-0f948828defc"
+     }
+    }
+   ],
+   "FOUNDED": [
+    {
+     "id": "303a1e33-e972-4978-926a-a159361b6802",
+     "name": "Jörg Binnenbrücker",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "www.crunchbase.com",
+        "document": "https://www.crunchbase.com/organization/capnamic-ventures",
+        "date": "2026-07-29"
+       },
+       {
+        "name": "Capnamic Ventures: Funding, Team & Investors",
+        "document": "https://startupintros.com/orgs/capnamic-ventures",
+        "date": "2026-07-13"
+       },
+       {
+        "name": "Imprint | Capnamic Ventures",
+        "document": "https://capnamic.com/imprint",
+        "date": "2026-07-29"
+       },
+       {
+        "name": "Capnamic Ventures",
+        "document": "https://www.privateequityinternational.com/institution-profiles/capnamic-ventures.html",
+        "date": "2022-06-08"
+       },
+       {
+        "name": "climatebase.org",
+        "document": "https://climatebase.org/company/4163/capnamic-ventures",
+        "date": "2026-07-29"
+       },
+       {
+        "name": "Capnamic Ventures",
+        "document": "https://www.ciscoinvestments.com/portfolio/capnamic-ventures",
+        "date": "2026-01-01"
+       }
+      ],
+      "id": "459c5688-b0d1-4ca2-9f7c-07b461c19247"
+     }
+    },
+    {
+     "id": "a02c79bd-d558-4777-817d-835cb8c47c00",
+     "name": "Olaf Jacobi",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "www.crunchbase.com",
+        "document": "https://www.crunchbase.com/organization/capnamic-ventures",
+        "date": "2026-07-29"
+       },
+       {
+        "name": "Capnamic Ventures: Funding, Team & Investors",
+        "document": "https://startupintros.com/orgs/capnamic-ventures",
+        "date": "2026-07-13"
+       },
+       {
+        "name": "Imprint | Capnamic Ventures",
+        "document": "https://capnamic.com/imprint",
+        "date": "2026-07-29"
+       },
+       {
+        "name": "Olaf Jacobi",
+        "document": "https://capnamic.com/team/olaf-jacobi",
+        "date": "2007-01-01"
+       },
+       {
+        "name": "climatebase.org",
+        "document": "https://climatebase.org/company/4163/capnamic-ventures",
+        "date": "2026-07-29"
+       },
+       {
+        "name": "Capnamic Ventures",
+        "document": "https://www.ciscoinvestments.com/portfolio/capnamic-ventures",
+        "date": "2026-01-01"
+       }
+      ],
+      "id": "48d4c8e6-9de5-450b-b951-955cd998ab50"
+     }
+    },
+    {
+     "id": "b168f906-4f6e-4e0d-b67f-a28cd74b9366",
+     "name": "Christian Siegele",
+     "entity_type": "Person",
+     "properties": {
+      "sources": [
+       {
+        "name": "www.crunchbase.com",
+        "document": "https://www.crunchbase.com/organization/capnamic-ventures",
+        "date": "2026-07-29"
+       },
+       {
+        "name": "Capnamic Ventures: Funding, Team & Investors",
+        "document": "https://startupintros.com/orgs/capnamic-ventures",
+        "date": "2026-07-13"
+       },
+       {
+        "name": "Imprint | Capnamic Ventures",
+        "document": "https://capnamic.com/imprint",
+        "date": "2026-07-29"
+       },
+       {
+        "name": "Capnamic Ventures",
+        "document": "https://www.privateequityinternational.com/institution-profiles/capnamic-ventures.html",
+        "date": "2022-06-08"
+       },
+       {
+        "name": "climatebase.org",
+        "document": "https://climatebase.org/company/4163/capnamic-ventures",
+        "date": "2026-07-29"
+       },
+       {
+        "name": "Capnamic Ventures",
+        "document": "https://www.ciscoinvestments.com/portfolio/capnamic-ventures",
+        "date": "2026-01-01"
+       }
+      ],
+      "id": "3d1e8741-6acc-4063-9d7b-831ae5bd48cb"
+     }
+    }
+   ],
+   "WORKS_AT": [
+    {
+     "id": "303a1e33-e972-4978-926a-a159361b6802",
+     "name": "Jörg Binnenbrücker",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Managing Partner",
+      "sources": [
+       {
+        "name": "www.crunchbase.com",
+        "document": "https://www.crunchbase.com/organization/capnamic-ventures",
+        "date": "2026-07-29"
+       },
+       {
+        "name": "Capnamic Ventures: Funding, Team & Investors",
+        "document": "https://startupintros.com/orgs/capnamic-ventures",
+        "date": "2026-07-13"
+       },
+       {
+        "name": "Imprint | Capnamic Ventures",
+        "document": "https://capnamic.com/imprint",
+        "date": "2026-07-29"
+       },
+       {
+        "name": "Capnamic Ventures",
+        "document": "https://www.privateequityinternational.com/institution-profiles/capnamic-ventures.html",
+        "date": "2022-06-08"
+       },
+       {
+        "name": "climatebase.org",
+        "document": "https://climatebase.org/company/4163/capnamic-ventures",
+        "date": "2026-07-29"
+       },
+       {
+        "name": "Capnamic Ventures",
+        "document": "https://www.ciscoinvestments.com/portfolio/capnamic-ventures",
+        "date": "2026-01-01"
+       }
+      ],
+      "id": "0b56f469-f6c4-41c7-a027-23368f7c8329"
+     }
+    },
+    {
+     "id": "a02c79bd-d558-4777-817d-835cb8c47c00",
+     "name": "Olaf Jacobi",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Managing Partner",
+      "sources": [
+       {
+        "name": "www.crunchbase.com",
+        "document": "https://www.crunchbase.com/organization/capnamic-ventures",
+        "date": "2026-07-29"
+       },
+       {
+        "name": "Capnamic Ventures: Funding, Team & Investors",
+        "document": "https://startupintros.com/orgs/capnamic-ventures",
+        "date": "2026-07-13"
+       },
+       {
+        "name": "Imprint | Capnamic Ventures",
+        "document": "https://capnamic.com/imprint",
+        "date": "2026-07-29"
+       },
+       {
+        "name": "Olaf Jacobi",
+        "document": "https://capnamic.com/team/olaf-jacobi",
+        "date": "2007-01-01"
+       },
+       {
+        "name": "climatebase.org",
+        "document": "https://climatebase.org/company/4163/capnamic-ventures",
+        "date": "2026-07-29"
+       },
+       {
+        "name": "Capnamic Ventures",
+        "document": "https://www.ciscoinvestments.com/portfolio/capnamic-ventures",
+        "date": "2026-01-01"
+       }
+      ],
+      "id": "b4d4ca35-47bb-4f6c-86e0-565ebea72b7f"
+     }
+    },
+    {
+     "id": "b168f906-4f6e-4e0d-b67f-a28cd74b9366",
+     "name": "Christian Siegele",
+     "entity_type": "Person",
+     "properties": {
+      "role": "Managing Partner",
+      "sources": [
+       {
+        "name": "www.crunchbase.com",
+        "document": "https://www.crunchbase.com/organization/capnamic-ventures",
+        "date": "2026-07-29"
+       },
+       {
+        "name": "Capnamic Ventures: Funding, Team & Investors",
+        "document": "https://startupintros.com/orgs/capnamic-ventures",
+        "date": "2026-07-13"
+       },
+       {
+        "name": "Imprint | Capnamic Ventures",
+        "document": "https://capnamic.com/imprint",
+        "date": "2026-07-29"
+       },
+       {
+        "name": "Capnamic Ventures",
+        "document": "https://www.privateequityinternational.com/institution-profiles/capnamic-ventures.html",
+        "date": "2022-06-08"
+       },
+       {
+        "name": "climatebase.org",
+        "document": "https://climatebase.org/company/4163/capnamic-ventures",
+        "date": "2026-07-29"
+       },
+       {
+        "name": "Capnamic Ventures",
+        "document": "https://www.ciscoinvestments.com/portfolio/capnamic-ventures",
+        "date": "2026-01-01"
+       }
+      ],
+      "id": "bd3ecc2f-7a2c-430d-88fc-f920ba4f56ce"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}

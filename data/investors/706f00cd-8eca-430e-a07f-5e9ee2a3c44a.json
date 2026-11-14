@@ -1,0 +1,263 @@
+{
+ "id": "706f00cd-8eca-430e-a07f-5e9ee2a3c44a",
+ "name": "42Cap",
+ "entity_type": "Organization",
+ "description": "A Munich-based German venture capital firm.",
+ "properties": {
+  "name": {
+   "value": "42Cap",
+   "sources": [
+    {
+     "name": "Cala AI",
+     "document": "",
+     "date": "2026-05-02"
+    }
+   ]
+  },
+  "aliases": {
+   "value": [],
+   "sources": []
+  },
+  "description": {
+   "value": "A Munich-based German venture capital firm.",
+   "sources": [
+    {
+     "name": "Cala AI",
+     "document": "",
+     "date": "2026-08-22"
+    }
+   ]
+  },
+  "registered_address": {
+   "value": "Seitzstr. 14, 80538 Munich, Germany",
+   "sources": [
+    {
+     "name": "42CAP Manager GmbH, Munich, Germany",
+     "document": "https://www.northdata.com/42CAP%20Manager%20GmbH,%20M%C3%BCnchen/HRB%20235050",
+     "date": "2025-12-17"
+    }
+   ]
+  }
+ },
+ "relationships": {
+  "outgoing": {
+   "PARTICIPATES_IN_FUNDING_ROUND": [
+    {
+     "id": "09a8ffd0-b9de-51d0-99b5-48ab6ee1192d",
+     "name": "Pre-Seed",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "alp.bio",
+        "document": "https://alp.bio/press-release/",
+        "date": "2026-04-30",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "venturekick.ch",
+        "document": "https://www.venturekick.ch/ALP-Bio-raises-USD-22M-preseed-to-address-immunogenicity-risk-in-antibody-development",
+        "date": "2026-04-30",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "swissbiotech.org",
+        "document": "https://www.swissbiotech.org/?p=82373",
+        "date": "2026-04-30",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "is_lead": true,
+      "id": "9a046571-1c32-5a0d-adde-533fdfc53150"
+     }
+    },
+    {
+     "id": "774eb126-d80f-5f3f-897e-38ab419bed68",
+     "name": "Series A",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "techcrunch.com",
+        "document": "https://techcrunch.com/2021/02/22/katana/amp/",
+        "date": "2021-02-22",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       },
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2021/02/23/katana-series-a",
+        "date": "2021-02-23",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "2aea8741-f7b9-526f-b6bf-1e19cc4108f7"
+     }
+    },
+    {
+     "id": "87268e5f-20ea-559b-ba41-5f222f94369b",
+     "name": "Series B",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "businesswire.com",
+        "document": "https://www.businesswire.com/news/home/20221012005045/en",
+        "date": "2022-10-12",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "northzone.com",
+        "document": "https://northzone.com/2022/10/13/the-key-to-manufacturing-our-investment-in-katana/",
+        "date": "2022-10-13",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "e179ba69-3d6c-5098-9c97-d0a6c97ca779"
+     }
+    },
+    {
+     "id": "87cf0007-88a9-5878-8dcc-0e8c7d0470a8",
+     "name": "Series B",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "katanamrp.com",
+        "document": "https://katanamrp.com/newsroom/katana-series-b-extension/",
+        "date": "2025-10-02",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "estonia.ee",
+        "document": "https://estonia.ee/defence/news/estonia-born-katana-secures-strategic-investment-to-expand-its-erp-footprint-worldwide",
+        "date": "2025-10-07",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "f46c05bc-8f0f-5aac-8a54-cc56916966e1"
+     }
+    },
+    {
+     "id": "df4a11df-94b6-5c3c-b3b5-6e98c769976e",
+     "name": "Seed",
+     "entity_type": "FundingRound",
+     "properties": {
+      "role": "INVESTOR",
+      "sources": [
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2020/01/20/katana-seed-funding/",
+        "date": "2020-01-20",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "is_lead": true,
+      "id": "18ecfc3a-b9e9-54c2-b4e7-c9cb109ea554"
+     }
+    }
+   ],
+   "PARTICIPATES_IN_EVENT": [
+    {
+     "id": "bc844d56-6ab4-452b-96bf-2661e86e592b",
+     "name": "Slush 2026",
+     "entity_type": "Event",
+     "properties": {
+      "role": "ATTENDEE",
+      "sources": [
+       {
+        "name": "Slush",
+        "document": "https://slush.org/",
+        "date": "2026-11-14"
+       }
+      ],
+      "id": "f04c92f4-9e89-5e00-99d3-2d97ff55af73"
+     }
+    }
+   ],
+   "INVESTED_IN": [
+    {
+     "id": "5034889d-9381-410d-a2fc-4cbae9101996",
+     "name": "ALP Bio",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "alp.bio",
+        "document": "https://alp.bio/press-release/",
+        "date": "2026-04-30",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "venturekick.ch",
+        "document": "https://www.venturekick.ch/ALP-Bio-raises-USD-22M-preseed-to-address-immunogenicity-risk-in-antibody-development",
+        "date": "2026-04-30",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       },
+       {
+        "name": "swissbiotech.org",
+        "document": "https://www.swissbiotech.org/?p=82373",
+        "date": "2026-04-30",
+        "date_precision": "day",
+        "source_rank": "PRIMARY"
+       }
+      ],
+      "id": "bdd1a478-34a0-43fb-ab39-c915ae1e0c92"
+     }
+    },
+    {
+     "id": "51f64e19-6d58-4b3a-8374-ce9e9213b1bc",
+     "name": "Katana MRP",
+     "entity_type": "Company",
+     "properties": {
+      "sources": [
+       {
+        "name": "tech.eu",
+        "document": "https://tech.eu/2020/01/20/katana-seed-funding/",
+        "date": "2020-01-20",
+        "date_precision": "day",
+        "source_rank": "PRESS"
+       }
+      ],
+      "id": "cdb99e97-c7d6-44d3-8e10-52061d1c48f3"
+     }
+    }
+   ]
+  },
+  "incoming": {
+   "INVESTED_IN": [
+    {
+     "id": "06656d93-f6ef-4d85-bac7-4a2b956ca442",
+     "name": "Galtea AI",
+     "entity_type": "Organization",
+     "properties": {
+      "sources": [
+       {
+        "name": "Tech.eu - European Startup, Funding and Technology News",
+        "document": "https://tech.eu/2026/03/25/galtea-lands-32m-to-cut-costly-ai-testing-delays",
+        "date": "2026-09-02"
+       }
+      ],
+      "id": "b11ae7b7-b857-561a-b42d-f80761093725"
+     }
+    }
+   ]
+  }
+ },
+ "numerical_observations": []
+}
