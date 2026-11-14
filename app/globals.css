@@ -705,6 +705,9 @@ code,
   margin-top: 2px;
   accent-color: var(--filing);
 }
+.switch + .switch {
+  margin-top: 6px;
+}
 .switch em {
   font-style: normal;
   color: var(--muted);

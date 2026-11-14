@@ -35,12 +35,12 @@ export default function Overview({ coverage: c, setOps: s }: { coverage: Coverag
           <span>entities linked to the Slush 2026 node in Cala</span>
         </div>
         <div className="stat">
-          <b>{c.profilesLoaded}</b>
+          <b>{c.profilesLoaded.toLocaleString("en")}</b>
           <span>attendee profiles loaded ({pct(c.profilesLoaded, c.attendeesListed)} of the node)</span>
         </div>
         <div className="stat">
-          <b>{c.withRound}</b>
-          <span>loaded startups with a funding round on record</span>
+          <b>{c.withRound.toLocaleString("en")}</b>
+          <span>loaded startups with a funding round on record ({c.roundsLoaded.toLocaleString("en")} rounds read in full)</span>
         </div>
         <div className="stat">
           <b>{c.withNamedInvestor}</b>
@@ -52,8 +52,9 @@ export default function Overview({ coverage: c, setOps: s }: { coverage: Coverag
         </div>
       </div>
       <p className="muted small">
-        Coverage is partial on purpose: the free Cala plan allows 100 calls a month, and this build used {c.creditsLogged} of
-        them. Attendees found through an investor&apos;s portfolio are matched by Cala id, never by name. Graph built{" "}
+        Coverage is partial and says so: Cala answers about ten calls a minute, so reading every attendee and its rounds
+        takes hours. {c.creditsLogged.toLocaleString("en")} calls so far, each one logged. Attendees found through an
+        investor&apos;s portfolio are matched by Cala id, never by name. Graph built{" "}
         {c.builtAt.slice(0, 16).replace("T", " ")} UTC.
       </p>
 

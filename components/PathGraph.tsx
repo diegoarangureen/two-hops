@@ -306,7 +306,7 @@ export default function PathGraph({
             const rd = p.round!;
             const mixed = rd.severalLabels.length > 1;
             const sub = mixed
-              ? `${rd.severalLabels.length} financings in one record`
+              ? `${rd.severalLabels.length} labels, one record`
               : [rd.amount, rd.date ? (rd.dateBasis === "earliest source" ? `source ${rd.date}` : rd.dateText) : null].filter(Boolean).join(" · ") || "details not loaded";
             const tag = rd.labelInferred ? "label inferred by Cala" : mixed ? "amount and date kept apart" : undefined;
             return box(`round-${p.id}`, "round", X.round, r.roundY[i], NW.round, ROUND_H, "FUNDING ROUND", rd.label, sub, nodeRank(rd.node), { kind: "node", id: rd.node.id }, tag);

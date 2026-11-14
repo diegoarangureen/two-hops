@@ -60,7 +60,7 @@ export default function Landing() {
             Find your two hops →
           </Link>
           <span className="muted">
-            Search all {n(c.attendeesListed)} entities linked to the event. {c.profilesLoaded} full profiles loaded today.
+            Search all {n(c.attendeesListed)} entities linked to the event. {n(c.profilesLoaded)} full profiles loaded so far.
           </span>
         </div>
       </div>
@@ -152,9 +152,10 @@ export default function Landing() {
         <h2>What is loaded, and what is not</h2>
         <p>
           Cala links <b>{n(c.attendeesListed)}</b> entities to Slush 2026. This build holds the full profile of{" "}
-          <b>{c.profilesLoaded}</b> of them and a sourced investor for <b>{c.withNamedInvestor}</b>, found by crossing{" "}
-          <b>{c.investorProfilesLoaded}</b> investor portfolios with the attendee list, by Cala id and never by name. The app
-          shows these numbers on every screen instead of pretending to cover the whole event.
+          <b>{n(c.profilesLoaded)}</b> of them, a sourced investor for <b>{n(c.withNamedInvestor)}</b>, and{" "}
+          <b>{n(c.roundsLoaded)}</b> of their funding rounds with who led. Cala answers about ten calls a minute, so the rest
+          is still being read. Investors are matched to attendees by Cala id and never by name. The app shows these numbers
+          on every screen instead of pretending to cover the whole event.
         </p>
         <p>
           If Cala has no source for a fact, the fact is not shown. Duplicate records, round labels that Cala inferred, and

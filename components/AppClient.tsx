@@ -28,6 +28,7 @@ export default function AppClient() {
   const [analysis, setAnalysis] = useState<Analysis | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [strict, setStrict] = useState(false);
+  const [fundsOnly, setFundsOnly] = useState(false);
   const [investorId, setInvestorId] = useState<string | null>(null);
   const [selection, setSelection] = useState<Selection>(null);
   const [kitPathId, setKitPathId] = useState<string | null>(null);
@@ -93,7 +94,12 @@ export default function AppClient() {
     return () => clearTimeout(t);
   }, [q]);
 
-  const ranked: Ranked[] = useMemo(() => (analysis ? rankInvestors(analysis.investors, strict) : []), [analysis, strict]);
+  const ranked: Ranked[] = useMemo(() => {
+    if (!analysis) return [];
+    const all = rankInvestors(analysis.investors, strict);
+    return fundsOnly ? all.filter((r) => r.investor.node.type !== "Person") : all;
+  }, [analysis, strict, fundsOnly]);
+  const people = useMemo(() => (analysis ? analysis.investors.filter((i) => i.node.type === "Person").length : 0), [analysis]);
   const current = ranked.find((r) => r.investor.node.id === investorId) ?? ranked[0] ?? null;
   const currentRank = current ? ranked.indexOf(current) + 1 : 0;
   const topScore = ranked[0]?.factors.total ?? 1;
@@ -330,6 +336,12 @@ export default function AppClient() {
                     Official &amp; first-party sources only <em>({analysis.counts.investorsStrict})</em>
                   </span>
                 </label>
+                {people > 0 && (
+                  <label className="switch" title="Cala records some investors as people (angels). Hide them to see funds, accelerators and companies only">
+                    <input type="checkbox" checked={fundsOnly} onChange={(e) => { setFundsOnly(e.target.checked); setSelection(null); }} />
+                    <span>Organisations only, no individual investors</span>
+                  </label>
+                )}
               </div>
               {ranked.length === 0 && (
                 <p className="muted pad">
@@ -369,7 +381,9 @@ export default function AppClient() {
               </ol>
               {ranked.length < investorsInView && (
                 <p className="muted small pad">
-                  The best {ranked.length} of {investorsInView.toLocaleString("en")} investors, scored over all of them.
+                  {fundsOnly
+                    ? `${ranked.length} organisations shown, out of ${investorsInView.toLocaleString("en")} investors scored.`
+                    : `The best ${ranked.length} of ${investorsInView.toLocaleString("en")} investors, scored over all of them.`}
                 </p>
               )}
             </aside>
