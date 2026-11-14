@@ -248,9 +248,11 @@ The graph builder also flags data traps, each with the basis it used:
   any investment it records both ways is set aside in both directions, but duplicates and several-label rounds are
   only found by the next build.
 - The rewording check rejects output with a link; a number that is not, as a whole number, in the facts in use; a
-  capitalised word in the middle of a sentence that is not in them; a missing investor, peer or addressee name; and the
-  word "led" (or "leads", "headed" and similar) when the path does not say the investor led. Facts held back are not
-  given to the model. The check does not judge the rest of the wording, so read a reworded draft before sending it.
+  capitalised word in the middle of a sentence that is not in them; a missing investor, peer, addressee or sender name
+  (or a typed sender name swapped for the `[your name]` placeholder); and the word "led" (or "leads", "headed" and
+  similar) when the path does not say the investor led. Facts held back are not given to the model. The check does not
+  judge the rest of the wording, so read a reworded draft before sending it. Rewording was run for real against
+  Gemini on 14 November 2026: eight paths of different kinds, all eight accepted by the check.
 - The live call writes to `data/companies/` and the call log; on a read-only deployment the profile is kept in memory
   for that server only and the log entry goes to the server log.
 
