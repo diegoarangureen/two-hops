@@ -56,7 +56,7 @@ The free Cala plan allows 100 calls a month, which cannot load 2,989 profiles. S
 
 ### The language model supplies no facts
 
-The draft is a template filled from the graph on the server. On request, Claude Haiku rewords it from the same facts; the result is thrown away if it contains a link or a number that is not in the facts, or drops the investor's name.
+The draft is a template filled from the graph on the server. On request, Claude Haiku rewords it from the same facts; the result is thrown away if it contains a link, a number or a name that is not in the facts, or drops the investor's name.
 ````
 
 ## Links for the form

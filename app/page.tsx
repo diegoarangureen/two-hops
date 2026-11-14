@@ -4,6 +4,9 @@ import { RankBadge, SourceList } from "@/components/Rank";
 import { coverage, examplePath } from "@/lib/engine";
 import type { LinkView } from "@/lib/types";
 
+// Rendered per request, so the numbers and the example always match the graph file that is on disk.
+export const dynamic = "force-dynamic";
+
 function LinkCard({ title, link, from, to }: { title: string; link: LinkView; from: string; to: string }) {
   return (
     <div className="panel">

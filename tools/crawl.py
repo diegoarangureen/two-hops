@@ -1,8 +1,11 @@
 """Download from Cala into data/, one call at a time, with a cache and a call log.
 
   python tools/crawl.py status                          # credits used and what is cached (no calls)
+  python tools/crawl.py plan                            # what the next calls would buy, from data/graph.json (no calls)
   python tools/crawl.py attendees                       # attendee list -> data/attendees.json (3 calls)
   python tools/crawl.py companies --budget 50           # full profile per attendee -> data/companies/<id>.json
+  python tools/crawl.py peers --budget 30               # profiles of attendees that already have a sourced investor
+  python tools/crawl.py rounds --budget 5               # rounds on a path that are not loaded yet, led ones first
   python tools/crawl.py entity investor <id> [<id>...]  # one investor: portfolio and rounds -> data/investors/<id>.json
   python tools/crawl.py entity company <id> [<id>...]   # one company profile -> data/companies/<id>.json
   python tools/crawl.py entity round <id> [<id>...]     # one funding round with participants -> data/rounds/<id>.json
@@ -96,6 +99,84 @@ def entities(c, kind, ids, purpose):
         print(f"  {'fetched' if called else 'cached '} {js.get('name')} [{js.get('entity_type')}] {sizes}")
 
 
+def load_graph():
+    p = DATA / "graph.json"
+    if not p.exists():
+        sys.exit("data/graph.json is missing: run `python tools/build_graph.py` first")
+    return json.loads(p.read_text(encoding="utf-8"))
+
+
+RANK = {"FILING": 4, "PRIMARY": 3, "PRESS": 2, "AGGREGATOR": 1, None: 0}
+
+
+def plan_peers(g):
+    """Attendees that already have a sourced investor in the graph but no profile of their own.
+    One call each gives the sector, the rounds and the people to ask. Best first: more investors, better sources."""
+    nodes = {n["id"]: n for n in g["nodes"]}
+    att = {a[0] for a in g["attendees"]}
+    best = lambda e: max((RANK.get(g["sources"][s]["source_rank"], 0) for s in e["sources"]), default=0)
+    found = {}
+    for e in g["edges"]:
+        if e["type"] != "INVESTED_IN" or e.get("suspect_inverted") or not e["sources"]:
+            continue
+        n = nodes.get(e["to"])
+        if e["to"] in att and n and not n["loaded"] and not n.get("investor_like"):
+            rec = found.setdefault(e["to"], {"id": e["to"], "name": n["name"], "type": n["type"], "investors": set(), "rank": 0})
+            rec["investors"].add(nodes[e["from"]]["name"])
+            rec["rank"] = max(rec["rank"], best(e))
+    # Take one attendee per investor in turn, smallest portfolios first, so that a short budget completes many
+    # investors instead of sinking into the one with the most attendees. Within an investor, best sources first.
+    queues = {}
+    for rec in sorted(found.values(), key=lambda r: (-len(r["investors"]), -r["rank"], r["name"].lower())):
+        for inv in rec["investors"]:
+            queues.setdefault(inv, []).append(rec)
+    order, seen = [], set()
+    investors = sorted(queues, key=lambda i: (len(queues[i]), i.lower()))
+    while any(queues.values()):
+        for inv in investors:
+            while queues[inv]:
+                rec = queues[inv].pop(0)
+                if rec["id"] not in seen:
+                    seen.add(rec["id"])
+                    order.append(rec)
+                    break
+    return order
+
+
+def plan_rounds(g):
+    """Funding rounds on a path (issued by an attendee, backed by someone) whose own record is not loaded.
+    One call each gives amount, date, label basis and every participant. Led rounds first."""
+    nodes = {n["id"]: n for n in g["nodes"]}
+    att = {a[0] for a in g["attendees"]}
+    issuer, backers = {}, {}
+    for e in g["edges"]:
+        if e["type"] != "PARTICIPATES_IN_FUNDING_ROUND" or not e["sources"]:
+            continue
+        if e["props"].get("role") == "ISSUER" and e["from"] in att:
+            issuer[e["to"]] = e["from"]
+        elif e["props"].get("role") in ("INVESTOR", "LENDER"):
+            backers.setdefault(e["to"], []).append(e)
+    out = []
+    for rid, cid in issuer.items():
+        n = nodes[rid]
+        if n["type"] != "FundingRound" or n["loaded"] or nodes[cid].get("investor_like"):
+            continue
+        b = backers.get(rid, [])
+        out.append({"id": rid, "name": n["name"], "company": nodes[cid]["name"], "backers": len(b),
+                    "led": any(e["props"].get("is_lead") is True for e in b)})
+    return sorted(out, key=lambda r: (not r["led"], -r["backers"], r["company"].lower()))
+
+
+def plan(g):
+    peers, rounds = plan_peers(g), plan_rounds(g)
+    print(f"{len(peers)} attendees have a sourced investor but no profile loaded (1 call each):")
+    for r in peers:
+        print(f"  {r['id']}  {r['name']}  <- {', '.join(sorted(r['investors']))}")
+    print(f"\n{len(rounds)} rounds on a path are not loaded (1 call each):")
+    for r in rounds:
+        print(f"  {r['id']}  {r['company']} / {r['name']}  backers known: {r['backers']}{'  LED' if r['led'] else ''}")
+
+
 def search(c, name, types, purpose):
     params = {"name": name, "limit": 10}
     if types:
@@ -128,11 +209,14 @@ def kq(c, question, tag, purpose):
 if __name__ == "__main__":
     cala.utf8_stdout()
     args = sys.argv[1:]
-    cmds = ("status", "attendees", "companies", "entity", "search", "kq")
+    cmds = ("status", "plan", "attendees", "companies", "peers", "rounds", "entity", "search", "kq")
     if not args or args[0] not in cmds:
         sys.exit(__doc__)
     if args[0] == "status":
         status()
+        sys.exit(0)
+    if args[0] == "plan":
+        plan(load_graph())
         sys.exit(0)
     purpose = opt(args, "--purpose", "")
     client = cala.Client(int(opt(args, "--budget", "20")))
@@ -141,6 +225,12 @@ if __name__ == "__main__":
         attendees(client)
     elif args[0] == "companies":
         companies(client, "--shuffle" in args, purpose)
+    elif args[0] == "peers":
+        todo = [r["id"] for r in plan_peers(load_graph())][: client.budget]
+        entities(client, "company", todo, purpose or "profile of an attendee that an investor's portfolio points at")
+    elif args[0] == "rounds":
+        todo = [r["id"] for r in plan_rounds(load_graph())][: client.budget]
+        entities(client, "round", todo, purpose or "funding round on a path: amount, date, participants")
     elif args[0] == "entity":
         if len(pos) < 2 or pos[0] not in cala.KIND_DIR:
             sys.exit("usage: crawl.py entity company|investor|round <id> [<id>...]")

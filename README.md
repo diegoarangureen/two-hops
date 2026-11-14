@@ -82,8 +82,11 @@ These commands spend credits. They need the key in `CALA_API_KEY` or `~/.cala_ke
 
 ```
 python tools/crawl.py status                          # credits used and what is cached (no calls)
+python tools/crawl.py plan                            # what the next calls would buy, from data/graph.json (no calls)
 python tools/crawl.py attendees                       # attendee list -> data/attendees.json (3 calls)
 python tools/crawl.py companies --budget 50           # full profile per attendee -> data/companies/<id>.json
+python tools/crawl.py peers --budget 30               # profiles of attendees that already have a sourced investor
+python tools/crawl.py rounds --budget 5               # rounds on a path that are not loaded yet, led ones first
 python tools/crawl.py entity investor <id> [<id>...]  # one investor: portfolio and rounds -> data/investors/<id>.json
 python tools/crawl.py entity company <id> [<id>...]   # one company profile -> data/companies/<id>.json
 python tools/crawl.py entity round <id> [<id>...]     # one funding round with participants -> data/rounds/<id>.json
@@ -140,8 +143,9 @@ company or its investors), `PRESS`, `AGGREGATOR`, or none. A link counts as its 
 weakest funding link: the issuer link from the peer to the round and the investor link from the round, or the direct
 `INVESTED_IN` link when no round is identified. Attendance links come from slush.org without a rank and are the same in
 every path, so they are shown but left out of path trust. Funding links and people links without any source are
-never used. The "Official & first-party sources only" switch keeps the paths whose trust is `FILING` or `PRIMARY` and
-re-ranks in the browser.
+never used, and a property value that Cala returns without a source is not shown: the panel names it as withheld. The
+"Official & first-party sources only" switch keeps the paths whose trust is `FILING` or `PRIMARY` and re-ranks in the
+browser.
 
 Likeness between you and a peer (`lib/engine.ts`) is a weighted sum: same industry 0.4, same sector tag 0.1, same
 country 0.2, stage 0.15 (half for an adjacent stage), and shared description terms 0.15 (full at four shared terms).
@@ -179,8 +183,9 @@ record, round labels Cala inferred (`round_label_basis:INFERRED` in `annotations
   full.
 - The duplicate merge is by normalised name and requires exactly one Company and one Organization record with that
   name; other duplicates are left as they are.
-- The rewording check rejects output with a link or a number not found in the facts, or without the investor's name.
-  It does not check every other word, so read a reworded draft before sending it.
+- The rewording check rejects output with a link, a number, or a capitalised name in the middle of a sentence that is
+  not found in the facts, and output that drops the investor's name. It does not check every other word, so read a
+  reworded draft before sending it.
 - The live call writes to `data/companies/` and the call log; on a read-only deployment the profile is kept in memory
   for that server only and the log entry goes to the server log.
 

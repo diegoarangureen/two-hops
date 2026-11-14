@@ -606,6 +606,57 @@ code,
   max-width: 720px;
 }
 
+.hop1 {
+  margin-top: 14px;
+}
+.hop1 h2 {
+  font-size: 15px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 4px;
+}
+.peer-strip {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
+  margin-top: 10px;
+}
+.peer-chip {
+  display: grid;
+  gap: 1px;
+  text-align: left;
+  padding: 10px 12px;
+  background: var(--paper);
+  border: 1px solid var(--line-strong);
+  border-radius: 10px;
+  font-size: 12.5px;
+  min-width: 0;
+}
+.peer-chip:hover {
+  border-color: var(--ink);
+}
+.peer-chip b {
+  font-size: 14px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.peer-chip span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.peer-chip .like {
+  color: #8a6500;
+  font-weight: 600;
+}
+.peer-chip em {
+  font-style: normal;
+  color: var(--primary);
+  margin-top: 3px;
+}
+
 .results {
   display: grid;
   grid-template-columns: 350px minmax(0, 1fr);
