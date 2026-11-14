@@ -265,7 +265,11 @@ export async function buildIntro(req: IntroRequest): Promise<IntroDraft | null> 
     let why = "The language model could not be reached";
     if (error instanceof Anthropic.AuthenticationError) why = "No valid language-model key is configured on this server";
     else if (error instanceof Anthropic.RateLimitError) why = "The language model is rate limited right now";
-    else if (error instanceof Anthropic.APIError) why = `The language model answered with an error (${error.status ?? "no status"})`;
+    else if (error instanceof Anthropic.APIError) {
+      // say what the provider said (an account without credit, for one), cut short and without the request id
+      const said = String(error.message ?? "").replace(/\s+/g, " ").replace(/\{.*$/, "").trim().slice(0, 140);
+      why = `The language model turned the request down (${error.status ?? "no status"}${said ? `: ${said}` : ""})`;
+    }
     else if (error instanceof Error && /api[_ ]?key|auth|credential/i.test(error.message)) why = "No language-model key is configured on this server";
     return { ...draft, note: `${why}, so this is the template draft.` };
   }
